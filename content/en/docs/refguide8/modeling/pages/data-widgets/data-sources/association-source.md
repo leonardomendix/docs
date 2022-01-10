@@ -12,7 +12,7 @@ menu_order: 60
 
 ## 1 Introduction
 
-The **Association** source is a data source available to nested [data grids](/refguide/data-grid/), [template grids](/refguide/template-grid/), and [list views](/refguide/list-view/). 
+The **Association** source is a data source available to nested [data grids](/refguide8/data-grid/), [template grids](/refguide8/template-grid/), and [list views](/refguide8/list-view/). 
 
 {{% alert type="warning" %}}
 
@@ -22,7 +22,7 @@ The **Association** source retrieves objects from memory, not from the database.
 
 An **Association** data source fills the widget with objects linked to another object by an association. To provide the context, the data widget needs to be nested within another data widget.
 
-Data widgets that can function as a container for other data widgets are the [template grid](/refguide/template-grid/), [list view](/refguide/list-view/), and [data view](/refguide/data-view/).
+Data widgets that can function as a container for other data widgets are the [template grid](/refguide8/template-grid/), [list view](/refguide8/list-view/), and [data view](/refguide8/data-view/).
 
 {{% alert type="warning" %}}
 
@@ -38,5 +38,5 @@ The **Entity (path)** property specifies the association by which the widget is 
 
 ## 3 Read More
 
-* [Associations](/refguide/associations/)
-* [Data Widgets](/appstore/modules/data-widgets/)
+* [Associations](/refguide8/associations/)
+* [Data Widgets](/refguide8/data-widgets/)

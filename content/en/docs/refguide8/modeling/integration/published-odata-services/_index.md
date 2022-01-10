@@ -14,7 +14,7 @@ aliases:
 
 ## 1 Introduction
 
-In Studio Pro, entities can be exposed as [OData resources](/refguide/published-odata-resource/) by adding a new published OData service. You can expose any number of related resources in a published OData service. By default, the non-qualified names of entities are used in the URI to uniquely identify them, but you can override the name of the resource as well.
+In Studio Pro, entities can be exposed as [OData resources](/refguide8/published-odata-resource/) by adding a new published OData service. You can expose any number of related resources in a published OData service. By default, the non-qualified names of entities are used in the URI to uniquely identify them, but you can override the name of the resource as well.
 
 The standard used for OData in Mendix is [OData version 3](http://www.odata.org/documentation/odata-version-3-0) with the default representation set to Atom XML. Not all parts of the standard are implemented. If something is not documented here, it is has not yet been added.
 
@@ -36,17 +36,17 @@ In OData, the namespace is used to refer to data types. On the **Settings** tab,
 
 ### 2.4 Resources
 
-A [resource](/refguide/published-odata-resource/) is a network-accessible data object representing an entity, identified by a URI.
+A [resource](/refguide8/published-odata-resource/) is a network-accessible data object representing an entity, identified by a URI.
 
 ## 3 Settings
 
 ### 3.1 Associations
 
-You can choose how you want to represent associations. For more information, see the [Associations](/refguide/odata-representation/#associations) section of *OData Representation*.
+You can choose how you want to represent associations. For more information, see the [Associations](/refguide8/odata-representation/#associations) section of *OData Representation*.
 
 ### 3.2 Security {#security}
 
-You can configure security for the OData service when [Project Security](/refguide/project-security/) is enabled.
+You can configure security for the OData service when [Project Security](/refguide8/project-security/) is enabled.
 
 #### 3.2.1 Requires Authentication {#authentication}
 
@@ -60,7 +60,7 @@ The **Active Session** and **Custom** authentications were also introduced in ve
 
 Select whether clients need to authenticate or not. Choose _No_ to allow access to the resources without restrictions. Choose _Yes_ to be able to select which authentication methods to support.
 
-Even when you choose _Yes_, you can still expose OData resources to anonymous users. For detailed information on allowing anonymous users, refer to [Anonymous User Role](/refguide/anonymous-users/).
+Even when you choose _Yes_, you can still expose OData resources to anonymous users. For detailed information on allowing anonymous users, refer to [Anonymous User Role](/refguide8/anonymous-users/).
 
 #### 3.2.2 Authentication Methods
 
@@ -113,7 +113,7 @@ There are three possible outcomes of the authentication microflow:
 
 #### 3.2.3 Allowed Roles
 
-The allowed roles define which [module role](/refguide/module-security/#module-role) a user must have to be able to access the service. This option is only available when **Requires authentication** is set to **Yes**.
+The allowed roles define which [module role](/refguide8/module-security/#module-role) a user must have to be able to access the service. This option is only available when **Requires authentication** is set to **Yes**.
 
 {{% alert type="warning" %}}
 Web service users cannot access OData services.
@@ -156,9 +156,9 @@ Once your OData-enabled app is running, an overview of exposed OData resources i
 While the API documentation for OData resources is enabled by default, access to it may be restricted by the administrator for apps running in production.
 {{% /alert %}}
 
-For details on how to filter the OData response, refer to [OData Query Options](/refguide/odata-query-options/).
+For details on how to filter the OData response, refer to [OData Query Options](/refguide8/odata-query-options/).
 
-For details on how Mendix attributes are represented in OData, refer to [OData Representation](/refguide/odata-representation/).
+For details on how Mendix attributes are represented in OData, refer to [OData Representation](/refguide8/odata-representation/).
 
 When exposing entities through OData, the entities are retrieved from the Mendix database in a streaming fashion, to avoid out-of-memory errors in the Mendix Runtime.
 

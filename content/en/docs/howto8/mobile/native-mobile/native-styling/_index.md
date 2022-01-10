@@ -44,4 +44,4 @@ Available in Mendix Studio and Mendix Studio Pro, design properties are an easie
 ## 5 Read More
 
 * [Mendix Atlas UI](/howto8/front-end/atlas-ui/)
-* [Get Started with Native Mobile](/howto/mobile/getting-started-with-native-mobile/)
+* [Get Started with Native Mobile](/howto8/mobile/getting-started-with-native-mobile/)

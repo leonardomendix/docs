@@ -16,10 +16,10 @@ A Mendix application can be deployed in different ways. You can deploy to your l
 
 This section of the *Developer Portal Guide* contains step-by-step instructions, and additional reference material, to help you to deploy and manage your Mendix apps in the cloud or on premises. It is split into a number of sections:
 
-* [General](/appstore/general/) – contains information which applies to deployments in many different environments
+* [General](/developerportal/deploy/general/) – contains information which applies to deployments in many different environments
 * Environment-specific sections – these contain instructions for the deployment and maintenance of apps in specific environments, for example, [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy/) and [SAP Business Technology Platform](/developerportal/deploy/sap-cloud-platform/)
 * [Mobile App](/developerportal/deploy/mobileapp/) – contains instructions for publishing your mobile app: to the Apple or Google stores, for example
-* [App Services](/appstore/app-services/) – describes what can be published to the Mendix Marketplace, and how to do this
+* [App Services](/developerportal/deploy/app-services/) – describes what can be published to the Mendix Marketplace, and how to do this
 
 ## 2 Run Locally or Preview
 
@@ -67,7 +67,7 @@ The instructions for doing this are in [Private Cloud](/developerportal/deploy/p
 
 ## 8 Cloud Foundry
 
-From within Studio Pro, you can deploy directly to Cloud Foundry-based platforms. To get started, see [Cloud Foundry](/developerportal/deploy/cloud-foundry-deploy/) and the [Cloud Foundry Mendix Buildpack](https:/github.com/mendix/cf-mendix-buildpack).
+From within Studio Pro, you can deploy directly to Cloud Foundry-based platforms. To get started, see [Cloud Foundry](/developerportal/deploy/cloud-foundry-deploy/) and the [Cloud Foundry Mendix Buildpack](https://github.com/mendix/cf-mendix-buildpack).
 
 ## 9 Docker & Kubernetes
 
@@ -93,7 +93,7 @@ To find out how to do this, read [Mendix Applications on Industrial Edge](/devel
 
 ## 13 Main Documents in This Category
 
-* [General](/appstore/general/) – information which applies to deployments in many different environments
+* [General](/developerportal/deploy/general/) – information which applies to deployments in many different environments
 * [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy/) – how to deploy to, and configure, the Mendix Cloud
 * [IBM Cloud](/developerportal/deploy/ibm-cloud/) – how to deploy to the IBM Cloud
 * [SAP Business Technology Platform](/developerportal/deploy/sap-cloud-platform/) – how to deploy to SAP BTP
@@ -104,4 +104,4 @@ To find out how to do this, read [Mendix Applications on Industrial Edge](/devel
 * [On-Premises](/developerportal/deploy/on-premises-design/) – how to deploy on premises using Microsoft Windows or Un*x
 * [Mendix Applications on Industrial Edge](/developerportal/deploy/mendix-app-on-industrial-edge/) – how to bring Mendix application on to the Industrial Edge
 * [Mobile App](/developerportal/deploy/mobileapp/) – how to publish your mobile app
-* [App Services](/appstore/app-services/) – how to publish to the Mendix Marketplace
+* [App Services](/developerportal/deploy/app-services/) – how to publish to the Mendix Marketplace

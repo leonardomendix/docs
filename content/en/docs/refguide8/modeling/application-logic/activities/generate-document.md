@@ -18,7 +18,7 @@ This activity can only be used in **Microflows**.
 
 ## 1 Introduction
 
-The **Generate document** activity is used to write a document to a file, based on a [document template](/refguide/document-templates/). 
+The **Generate document** activity is used to write a document to a file, based on a [document template](/refguide8/document-templates/). 
 
 ![Generate Document](/attachments/refguide8/modeling/application-logic/activities/generate-document/generate-document.png)
 
@@ -54,7 +54,7 @@ The language in which the titles and labels of the document should appear is des
 | Option | Description |
 | --- | --- |
 | Current user *(default)*  | Use the language of the current user. |
-| Project default | Use the default language that is specified in the [Project Settings](/refguide/project-settings/). |
+| Project default | Use the default language that is specified in the [Project Settings](/refguide8/project-settings/). |
 | Variable | Use the language stored in the selected object, which must be of type *System.Language*. |
 
 ### 3.3 Document Type{#document-type}
@@ -76,7 +76,7 @@ The document type specifies the type of the generated document.
 
 ### 3.5 Template
 
-Template defines which [document template](/refguide/document-templates/) is used to generate the file. Depending on the selected document template one or more [arguments](#argument) need to be specified. 
+Template defines which [document template](/refguide8/document-templates/) is used to generate the file. Depending on the selected document template one or more [arguments](#argument) need to be specified. 
 
 ### 3.6 Arguments
 
@@ -92,7 +92,7 @@ The type of the argument used in the document template that is read-only.
 
 #### 3.5.3 Argument {#argument}
 
-The **Edit argument** button allows you to edit the argument value.  An argument is the input data that you are passing to the document template. For each document template parameter (for each non-nested data view and data grid), you must supply an argument of the same type. The values of the arguments are expressed using [expressions](/refguide/expressions/).
+The **Edit argument** button allows you to edit the argument value.  An argument is the input data that you are passing to the document template. For each document template parameter (for each non-nested data view and data grid), you must supply an argument of the same type. The values of the arguments are expressed using [expressions](/refguide8/expressions/).
 
 ## 4 Common Section {#common}
 

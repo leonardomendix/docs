@@ -46,4 +46,4 @@ This option becomes available after you run the app locally at least once, becau
 
 ## 4 Read More
 
-* [Import Project Package](/refguide/import-project-package-dialog/)
+* [Import Project Package](/refguide7/import-project-package-dialog/)

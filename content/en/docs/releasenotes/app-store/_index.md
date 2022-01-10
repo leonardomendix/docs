@@ -6,7 +6,7 @@ tags: ["marketplace", "connector", "module", "add on", "widget"]
 #This document is mapped to the landing page, update the link there if renaming or moving the doc file.
 ---
 
-These release notes cover changes made to the [Mendix Marketplace](/appstore/).
+These release notes cover changes made to the .
 
 ## 2021
 
@@ -34,7 +34,7 @@ These release notes cover changes made to the [Mendix Marketplace](/appstore/).
 
 * Marketplace filtering has been revamped. You can now find content faster by filtering by **Industry**, [Content Type](https://docs.mendix.com/appstore/general/app-store-overview#types), and Studio Pro **Compatibility**. 
 * We have made 15+ fully developed solutions and 10+ solution templates available to help you realize value even more quickly.
-* We have listed 10+ **Premium** [app services](https://docs.mendix.com/appstore/app-services/), and we now support a self-service [subscription](/appstore/general/app-store-overview/#subscriptions) experience using credit card for two app services in supported regions.
+* We have listed 10+ **Premium** [app services](https:/docs.mendix.com/appstore/app-services/), and we now support a self-service [subscription](/appstore/general/app-store-overview/#subscriptions) experience using credit card for two app services in supported regions.
 
 ### August 12th, 2021
 
@@ -143,7 +143,7 @@ These release notes cover changes made to the [Mendix Marketplace](/appstore/).
 
 #### Improvements
 
-* You can now download previous versions of App Store components from the [Mendix Marketplacee](https://marketplace.mendix.com/). This can be done in the **All versions** tab on the component's [details page](/appstore/general/app-store-overview/#details). This can be used as a workaround for not being able to download private content from the App Store available in older versions of Studio Pro/Desktop Modeler due to the [security issue](#private-fix) described below.
+* You can now download previous versions of App Store components from the [Mendix Marketplacee](https:/marketplace.mendix.com/). This can be done in the **All versions** tab on the component's [details page](/appstore/general/app-store-overview/#details). This can be used as a workaround for not being able to download private content from the App Store available in older versions of Studio Pro/Desktop Modeler due to the [security issue](#private-fix) described below.
 
 #### Fixes
 
@@ -163,7 +163,7 @@ Downloading [private content](/appstore/general/share-app-store-content/#private
 
 You will be able to download private content from the App Store available in Studio Pro/Desktop Modeler again once a fix is released in a future [8.x](/releasenotes/studio-pro/8/), [8.6.x](/releasenotes/studio-pro/8.6/), and [7.23.x](/releasenotes/studio-pro/7.23/) release. This functionality will then only be available in those specific versions with the fix and subsequent versions. This functionality will not be available again for the App Store in Desktop Modeler version 6.
 
-You can continue downloading the latest version of private App Store content from the [Company Content](/appstore/general/app-store-overview/#company-content) page in the [Mendix Marketplace](https:/marketplace.mendix.com/) and use it in the respective versions of Studio Pro/Desktop Modeler.
+You can continue downloading the latest version of private App Store content from the [Company Content](/appstore/general/app-store-overview/#company-content) page in the [Mendix Marketplace](https://marketplace.mendix.com/) and use it in the respective versions of Studio Pro/Desktop Modeler.
 
 ### February 26th, 2020
 
@@ -307,7 +307,7 @@ We have noticed that when searching in the App Store (via the **Search Mendix** 
 
 #### SAP OData Connector Version 4.0.0
 
-This version of the [SAP OData Connector](https://marketplace.mendix.com/link/component/74525/) allows you to use the destination services of SAP Cloud Platform. This simplifies configuration, authentication and endpoint management when integrating your application, running in SAP Cloud Platform, with SAP back end services. See [SAP Destination Service](/partners/sap/sap-destination-service/).
+This version of the [SAP OData Connector](https:/marketplace.mendix.com/link/component/74525/) allows you to use the destination services of SAP Cloud Platform. This simplifies configuration, authentication and endpoint management when integrating your application, running in SAP Cloud Platform, with SAP back end services. See [SAP Destination Service](/partners/sap/sap-destination-service/).
 
 The following authentication types are currently supported in SAP Destination Services:
 

@@ -13,11 +13,11 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-A **check box** is used to display and, optionally, allow the end-user to edit the value of an attribute of [data type](/refguide/data-types/) *Boolean*. It displays a tick if the value is true and remain empty if it is false.
+A **check box** is used to display and, optionally, allow the end-user to edit the value of an attribute of [data type](/refguide8/data-types/) *Boolean*. It displays a tick if the value is true and remain empty if it is false.
 
 {{% alert type="info" %}}In native mobile applications, the check box widget is rendered as a toggle.{{% /alert %}}
 
-A check box must be placed in a [data widget](/appstore/modules/data-widgets/) and displays an attribute of the object(s) retrieved by that widget. The name of the attribute to be displayed is shown inside the check box widget, between square brackets, and colored blue.
+A check box must be placed in a [data widget](/refguide8/data-widgets/) and displays an attribute of the object(s) retrieved by that widget. The name of the attribute to be displayed is shown inside the check box widget, between square brackets, and colored blue.
 
 For example, this check box allows you to see, and set, whether someone is subscribed to your newsletter.
 
@@ -88,5 +88,5 @@ This differs from the [On change](#on-change) property in that the event will al
 
 ## 3 Read More
 
-*   [Data view](/refguide/data-view/)
-*   [Attributes](/refguide/attributes/)
+*   [Data view](/refguide8/data-view/)
+*   [Attributes](/refguide8/attributes/)

@@ -11,7 +11,7 @@ Retrieve can be used to get one or more objects, either by directly traversing a
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -62,7 +62,7 @@ When you know you have only one object or you only want to use the first object 
 
 ### 4.3 XPath Constraint
 
-[XPath](/refguide/xpath/) constraint defines the condition the objects need to suffice to be retrieved. If there is no XPath constraint, all objects of the entity are retrieved.
+[XPath](/refguide7/xpath/) constraint defines the condition the objects need to suffice to be retrieved. If there is no XPath constraint, all objects of the entity are retrieved.
 
 {{% alert type="warning" %}}
 

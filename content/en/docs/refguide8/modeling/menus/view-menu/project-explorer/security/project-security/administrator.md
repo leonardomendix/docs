@@ -50,7 +50,7 @@ Since this is general knowledge, it is safer to change this to a custom password
 
 ### 2.3 User Role {#user-role}
 
-The user role assigned to the Administrator. For more information, see [User Roles](/refguide/user-roles/). 
+The user role assigned to the Administrator. For more information, see [User Roles](/refguide8/user-roles/). 
 
 Default: *Administrator*
 
@@ -68,8 +68,8 @@ When your app is not deployed locally, for example to the Mendix Cloud, changes 
 
 ## 3 Read More
 
-* [Project Security](/refguide/project-security/)
-* [User Roles](/refguide/user-roles/)
-* [Demo Users](/refguide/demo-users/)
-* [Anonymous Users](/refguide/anonymous-users/)
-* [Password Policy](/refguide/password-policy/)
+* [Project Security](/refguide8/project-security/)
+* [User Roles](/refguide8/user-roles/)
+* [Demo Users](/refguide8/demo-users/)
+* [Anonymous Users](/refguide8/anonymous-users/)
+* [Password Policy](/refguide8/password-policy/)

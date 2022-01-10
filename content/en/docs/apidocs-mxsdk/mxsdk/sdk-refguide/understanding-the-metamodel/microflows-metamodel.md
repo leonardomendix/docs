@@ -11,14 +11,14 @@ Microflows have parameters, a return type (the return value is defined in an obj
 
 ### 1.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842814.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842814.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-The [Microflows](/refguide/microflows/) overview page | The [`microflows`](https:/apidocs.rnd.mendix.com/modelsdk/latest/modules/microflows.html) package
-[Microflow](/refguide/microflow/), technical information on properties of a microflow | [Microflow](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflow.html)
-[Rule](/refguide/rules/) | [Rule](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rule.html)
-[Parameter](/refguide/parameter/) | [MicroflowParameter](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowparameter.html)
+The [Microflows](/refguide/microflows/) overview page | The [`microflows`](https://apidocs.rnd.mendix.com/modelsdk/latest/modules/microflows.html) package
+[Microflow](/refguide/microflow/), technical information on properties of a microflow | [Microflow](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflow.html)
+[Rule](/refguide/rules/) | [Rule](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rule.html)
+[Parameter](/refguide/parameter/) | [MicroflowParameter](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowparameter.html)
 
 ### 1.2 Microflow & Rule Structure
 
@@ -28,12 +28,12 @@ For example, a simple microflow could consist of a start event, a single activit
 
 #### 1.2.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842811.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842811.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Activities](/refguide/activities/) | [MicroflowObjectCollection](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowobjectcollection.html)
-[Sequence Flow](/refguide/sequence-flow/) | [SequenceFlow](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sequenceflow.html)
+[Activities](/refguide/activities/) | [MicroflowObjectCollection](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowobjectcollection.html)
+[Sequence Flow](/refguide/sequence-flow/) | [SequenceFlow](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sequenceflow.html)
 
 ### 1.3 Microflow Objects
 
@@ -41,16 +41,16 @@ There are several types of objects that can be added to a microflow. One type is
 
 #### 1.3.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842852.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842852.svg)
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582249.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582249.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Activities](/refguide/activities/) | [MicroflowParameterObject](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowparameterobject.html), [Activity](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.activity.html)
-[Start](/refguide/start-event/) and [End](/refguide/end-event/) events | [StartEvent](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.startevent.html), [EndEvent](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.endevent.html)
-[Loop](/refguide/loop/)s, with [Break](/refguide/break-event/) and [Continue](/refguide/continue-event/) events | [LoopedActivity](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.loopedactivity.html), [BreakEvent](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.breakevent.html), [ContinueEvent](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.continueevent.html)
-[Annotation](/refguide/annotation/) | [Annotation](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.annotation.html)
+[Activities](/refguide/activities/) | [MicroflowParameterObject](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowparameterobject.html), [Activity](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.activity.html)
+[Start](/refguide/start-event/) and [End](/refguide/end-event/) events | [StartEvent](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.startevent.html), [EndEvent](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.endevent.html)
+[Loop](/refguide/loop/)s, with [Break](/refguide/break-event/) and [Continue](/refguide/continue-event/) events | [LoopedActivity](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.loopedactivity.html), [BreakEvent](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.breakevent.html), [ContinueEvent](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.continueevent.html)
+[Annotation](/refguide/annotation/) | [Annotation](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.annotation.html)
 
 ### 1.4 Flows {#flows}
 
@@ -64,12 +64,12 @@ Annotation flows are used to connect annotations to other microflow objects.
 
 #### 1.4.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842853.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842853.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- 
-[Sequence Flow](/refguide/sequence-flow/) | [Flow](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.flow.html)
-[Annotation flow](/refguide/annotation/#annotation-flow) | [SequenceFlow](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sequenceflow.html)
+[Sequence Flow](/refguide/sequence-flow/) | [Flow](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.flow.html)
+[Annotation flow](/refguide/annotation/#annotation-flow) | [SequenceFlow](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sequenceflow.html)
 |[AnnotationFlow](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.annotationflow.html)
 |Properties [`origin`](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.flow.html#origin) and [`destination`](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.flow.html#destination) of Flow
 |[CaseValue](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.casevalue.html) and its inheritance hierarchy
@@ -87,14 +87,14 @@ A decision conditionally splits on either an expression or a rule. In case of a 
 
 #### 1.5.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842854.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842854.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Decision](/refguide/decision/) |[ExclusiveSplit](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.exclusivesplit.html)
-[Object Type Decision](/refguide/object-type-decision/) |[InheritanceSplit](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.inheritancesplit.html)
-[Merge](/refguide/merge/) |[ExclusiveMerge](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.exclusivemerge.html)
-[Rules](/refguide/rules/) |[ExpressionSplitCondition](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.expressionsplitcondition.html)
+[Decision](/refguide/decision/) |[ExclusiveSplit](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.exclusivesplit.html)
+[Object Type Decision](/refguide/object-type-decision/) |[InheritanceSplit](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.inheritancesplit.html)
+[Merge](/refguide/merge/) |[ExclusiveMerge](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.exclusivemerge.html)
+[Rules](/refguide/rules/) |[ExpressionSplitCondition](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.expressionsplitcondition.html)
 |[RuleSplitCondition](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rulesplitcondition.html)
 |[RuleCall](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rulecall.html)
 |[RuleCallParameterMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rulecallparametermapping.html)
@@ -109,13 +109,13 @@ Object attributes can be updated with a change action, both in a create action a
 
 #### 2.1.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582248.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582248.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Create Object](/refguide/create-object/) |[CreateObjectAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.createobjectaction.html) and [ChangeObjectAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changeobjectaction.html) ([ChangeMembersAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changemembersaction.html), [MemberChange](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.memberchange.html))
-[Change Object](/refguide/change-object/) | [DeleteAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.deleteaction.html)
-[Rollback Object](/refguide/rollback-object/) |[CommitAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.commitaction.html) and [RollbackAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rollbackaction.html)
+[Create Object](/refguide/create-object/) |[CreateObjectAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.createobjectaction.html) and [ChangeObjectAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changeobjectaction.html) ([ChangeMembersAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changemembersaction.html), [MemberChange](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.memberchange.html))
+[Change Object](/refguide/change-object/) | [DeleteAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.deleteaction.html)
+[Rollback Object](/refguide/rollback-object/) |[CommitAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.commitaction.html) and [RollbackAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.rollbackaction.html)
 
 ### 2.2 Retrieving Objects
 
@@ -123,12 +123,12 @@ A retrieve action is either an association-based retrieve or a database-based re
 
 #### 2.2.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582244.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582244.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Retrieve](/refguide/retrieve/) |[RetrieveSource](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.retrievesource.html)
-[XPath](/refguide/xpath/) constraints |[AssocationRetrieveSource](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.associationretrievesource.html)
+[Retrieve](/refguide/retrieve/) |[RetrieveSource](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.retrievesource.html)
+[XPath](/refguide/xpath/) constraints |[AssocationRetrieveSource](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.associationretrievesource.html)
 |[DatabaseRetrieveSource](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.databaseretrievesource.html)
 |[Range](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.range.html), [ConstantRange](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.constantrange.html) and [CustomRange](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.customrange.html)
 |[SortItemList](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sortitemlist.html) and [SortItem](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sortitem.html)
@@ -139,11 +139,11 @@ Microflows can call other microflows by defining a mapping of expressions to par
 
 #### 2.3.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842821.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842821.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Microflow Call](/refguide/microflow-call/) |[MicroflowCallAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowcallaction.html)
+[Microflow Call](/refguide/microflow-call/) |[MicroflowCallAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowcallaction.html)
 |[MicroflowCall](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowcall.html)
 |[MicroflowCallParameterMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.microflowcallparametermapping.html)
 
@@ -153,15 +153,15 @@ Microflows can trigger behavior in the browser: showing and closing pages, showi
 
 #### 2.4.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582245.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582245.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Show Page](/refguide/show-page/) and [Show Home Page](/refguide/show-home-page/) |[ShowPageAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.showpageaction.html) and [ShowHomePageAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.showhomepageaction.html)
-[Close Page](/refguide/close-page/) |[CloseFormAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.closeformaction.html)
-[Show Message](/refguide/show-message/) |[ShowMessageAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.showmessageaction.html)
-[Validation Feedback](/refguide/validation-feedback/) |[ValidationFeedbackAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.validationfeedbackaction.html)
-[Download File](/refguide/download-file/) |[DownloadFileAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.downloadfileaction.html)
+[Show Page](/refguide/show-page/) and [Show Home Page](/refguide/show-home-page/) |[ShowPageAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.showpageaction.html) and [ShowHomePageAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.showhomepageaction.html)
+[Close Page](/refguide/close-page/) |[CloseFormAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.closeformaction.html)
+[Show Message](/refguide/show-message/) |[ShowMessageAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.showmessageaction.html)
+[Validation Feedback](/refguide/validation-feedback/) |[ValidationFeedbackAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.validationfeedbackaction.html)
+[Download File](/refguide/download-file/) |[DownloadFileAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.downloadfileaction.html)
 
 ### 2.5 App Service Calls
 
@@ -169,7 +169,7 @@ An app service call action points to a specific app service action (which is par
 
 #### 2.5.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842823.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842823.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
@@ -184,13 +184,13 @@ A web service call to an imported web service has an HTTP configuration, and a r
 
 #### 2.6.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842843.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842843.svg)
 
 See the following diagrams for details on the HTTP configuration, request handling, and response handling.
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Call Web Service](/refguide/call-web-service-action/) |[WebServiceCallAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.webservicecallaction.html)
+[Call Web Service](/refguide/call-web-service-action/) |[WebServiceCallAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.webservicecallaction.html)
 |[HttpConfiguration](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.httpconfiguration.html)
 |[RequestHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.requesthandling.html) and [ResultHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.resulthandling.html)
 
@@ -200,11 +200,11 @@ An HTTP configuration has an optional custom endpoint location, authentication c
 
 #### 2.7.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842844.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842844.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Call Web Service](/refguide/call-web-service-action/) |[HttpConfiguration](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.httpconfiguration.html)
+[Call Web Service](/refguide/call-web-service-action/) |[HttpConfiguration](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.httpconfiguration.html)
 |[HttpHeaderEntry](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.httpheaderentry.html)
 
 ### 2.8 Web Service Calls – Request Handling
@@ -218,11 +218,11 @@ A web service operation request needs to be mapped from Mendix app concepts to t
 
 #### 2.8.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582232.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582232.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Call Web Service](/refguide/call-web-service-action/) |[RequestHandling](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.requesthandling.html)
+[Call Web Service](/refguide/call-web-service-action/) |[RequestHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.requesthandling.html)
 |[SimpleRequestHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.simplerequesthandling.html) - [WebServiceOperationSimpleParameterMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.webserviceoperationsimpleparametermapping.html)
 |[AdvancedRequestHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.advancedrequesthandling.html) - [WebServiceOperationAdvancedParameterMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.webserviceoperationadvancedparametermapping.html)
 |[MappingRequestHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.mappingrequesthandling.html)
@@ -234,11 +234,11 @@ The result of a web service operation needs to be mapped to Mendix app concepts 
 
 #### 2.9.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842842.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842842.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Call Web Service](/refguide/call-web-service-action/) |[ResultHandling](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.resulthandling.html)
+[Call Web Service](/refguide/call-web-service-action/) |[ResultHandling](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.resulthandling.html)
 |[ImportMappingCall](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.importmappingcall.html)
 |[ImportMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/importmappings.importmapping.html)
 |[Range](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.range.html)
@@ -249,12 +249,12 @@ Microflow variables can be created and changed with specific actions. A create v
 
 #### 2.10.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842846.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842846.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Create Variable](/refguide/create-variable/) |[CreateVariableAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.createvariableaction.html)
-[Change Variable](/refguide/change-variable/) |[ChangeVariableAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changevariableaction.html)
+[Create Variable](/refguide/create-variable/) |[CreateVariableAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.createvariableaction.html)
+[Change Variable](/refguide/change-variable/) |[ChangeVariableAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changevariableaction.html)
 
 ### 2.11 Lists
 
@@ -262,14 +262,14 @@ Lists can be created, changed and deleted with specific actions. List aggregatio
 
 #### 2.11.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582227.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582227.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Create List](/refguide/create-list/) |[CreateListAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.createlistaction.html)
-[Change List](/refguide/change-list/) |[ChangeListAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changelistaction.html)
-[Aggregate List](/refguide/aggregate-list/) |[DeleteAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.deleteaction.html)
-[List Operation](/refguide/list-operation/) |[AggregateListAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.aggregatelistaction.html)
+[Create List](/refguide/create-list/) |[CreateListAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.createlistaction.html)
+[Change List](/refguide/change-list/) |[ChangeListAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.changelistaction.html)
+[Aggregate List](/refguide/aggregate-list/) |[DeleteAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.deleteaction.html)
+[List Operation](/refguide/list-operation/) |[AggregateListAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.aggregatelistaction.html)
 |[ListOperationAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.listoperationaction.html) and [ListOperation](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.listoperation.html)
 
 ### 2.12 Lists – Operations
@@ -278,11 +278,11 @@ Lists can be manipulated with different types of operations. Lists can be sorted
 
 #### 2.12.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582228.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582228.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[List Operation](/refguide/list-operation/) |[ListOperation](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.listoperation.html)
+[List Operation](/refguide/list-operation/) |[ListOperation](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.listoperation.html)
 |[Head](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.head.html) and [Tail](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.tail.html)
 |[Sort](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sort.html), [SortItemList](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sortitemlist.html) and [SortItem](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.sortitem.html)
 |[Filter](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.filter.html) and [Find](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.find.html)
@@ -293,11 +293,11 @@ Lists can be manipulated with several binary operations, which take two lists as
 
 #### 2.13.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842849.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16842849.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[List Operation](/refguide/list-operation/) |[BinaryListOperation](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.binarylistoperation.html)
+[List Operation](/refguide/list-operation/) |[BinaryListOperation](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.binarylistoperation.html)
 |[Contains](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.contains.html)
 |[Intersect](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.intersect.html)
 |[ListEquals](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.listequals.html)
@@ -310,11 +310,11 @@ Java action calls point to a specific Java action and have a parameter mapping w
 
 #### 2.15 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582230.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582230.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Java Action Call](/refguide/java-action-call/) |[JavaAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/javaactions.javaaction.html)
+[Java Action Call](/refguide/java-action-call/) |[JavaAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/javaactions.javaaction.html)
 |[JavaActionParameter](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/javaactions.javaactionparameter.html)
 |[JavaActionCallAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.javaactioncallaction.html)
 |[JavaActionParameterMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.javaactionparametermapping.html)
@@ -325,11 +325,11 @@ Logging actions target a single log node on a specific log level. The log messag
 
 #### 2.16.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16844080.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16844080.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Log Message](/refguide/log-message/) |[LogMessageAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.logmessageaction.html)
+[Log Message](/refguide/log-message/) |[LogMessageAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.logmessageaction.html)
 |[LogLevel](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.loglevel.html)
 |[StringTemplate](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.stringtemplate.html)
 |[TemplateArgument](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.templateargument.html)
@@ -342,7 +342,7 @@ XML export actions use a domain-to-XML mapping similar to web service request ma
 
 #### 2.17.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582238.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/18582238.svg)
 
 Model SDK API docs
 
@@ -359,10 +359,10 @@ Documents are generated from a document template. Such a template has parameters
 
 #### 2.18.1 Graphical Overview
 
-![](/attachments/apidocs-mxsdk/mxsdk//sdk-refguide/understanding-the-metamodel/microflows-metamodel/16844082.svg)
+![](/attachments/apidocs-mxsdk/mxsdk/sdk-refguide/understanding-the-metamodel/microflows-metamodel/16844082.svg)
 
 Studio Pro Guide | Model SDK API docs
 --- | --- |
-[Generate Document](/refguide/generate-document/) |[GenerateDocumentAction](https:/apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.generatedocumentaction.html)
+[Generate Document](/refguide/generate-document/) |[GenerateDocumentAction](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.generatedocumentaction.html)
 |[DocumentTemplate](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/documenttemplates.documenttemplate.html)
 |[DocumentTemplateParameterMapping](https://apidocs.rnd.mendix.com/modelsdk/latest/classes/microflows.documenttemplateparametermapping.html)

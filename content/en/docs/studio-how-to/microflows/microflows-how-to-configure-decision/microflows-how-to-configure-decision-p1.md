@@ -136,7 +136,7 @@ To configure the decision with the attribute or parameter of the enumeration typ
 
 Congratulations! You have now created the microflow that will open different order forms for customers with different grades, or show an error message when the customer has no grade.
 
-If you want to test your microflow by adding it to pages, see .
+If you want to test your microflow by adding it to pages, see [Configure an decision Step 2: Embed the Microflow in Your App](/studio-how-to/microflows-how-to-configure-decision-p2/).
 
 ## 3 Configuring the Decision with Attribute of the Boolean Type  
 
@@ -207,4 +207,4 @@ To configure the decision with the attribute of the Boolean type, follow these s
 
 Congratulations! You have now created the microflow that will show the error message and close the current page if the customer is blocked.
 
-If you want to embed your microflow to pages, see .
+If you want to embed your microflow to pages, see [Step 2: Embed the Microflow in Your App](/studio-how-to/microflows-how-to-configure-decision-p2/).

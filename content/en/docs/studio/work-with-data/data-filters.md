@@ -140,5 +140,5 @@ If you want to delete just one condition and not all of them, click the trash ca
 
 ## 6 Read More
 
-* 
-* 
+* [Microflows](/studio/microflows/)
+* [Pages](/studio/page-editor/)

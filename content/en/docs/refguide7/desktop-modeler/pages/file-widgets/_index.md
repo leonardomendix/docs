@@ -5,6 +5,6 @@ parent: "pages"
 ---
 
 
-*   [File manager](/refguide/file-manager/)
-*   [Image uploader](/refguide/image-uploader/)
-*   [Image viewer](/refguide/image-viewer/)
+*   [File manager](/refguide7/file-manager/)
+*   [Image uploader](/refguide7/image-uploader/)
+*   [Image viewer](/refguide7/image-viewer/)

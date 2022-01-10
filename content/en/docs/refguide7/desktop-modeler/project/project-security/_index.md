@@ -7,7 +7,7 @@ parent: "project"
 
 {{% alert type="info" %}}
 
-For more general information on security, see [Security](/data-hub/data-hub-catalog/security/).
+For more general information on security, see [Security](/refguide7/security/).
 
 {{% /alert %}}
 
@@ -80,7 +80,7 @@ A list of module roles of which the access rights are accumulated in the user ro
 
 **Check security**
 
-This specifies whether the consistency of security settings is checked for this user role. You can choose to not check security for a user role. For example, user roles that are used only for web service users do not need to be checked because they never sign in to the client. See [Project Security](/refguide/project-security/) for more information on the security check.
+This specifies whether the consistency of security settings is checked for this user role. You can choose to not check security for a user role. For example, user roles that are used only for web service users do not need to be checked because they never sign in to the client. See [Project Security](/refguide7/project-security/) for more information on the security check.
 
 ### User Management Properties
 
@@ -149,7 +149,7 @@ Here you can configure whether the specified demo users are created and accessib
 
 **Username**
 
-The name of the demo user. This name must be unique, and cannot be the same as the name of the [administrator user](/refguide/administrator/).
+The name of the demo user. This name must be unique, and cannot be the same as the name of the [administrator user](/refguide7/administrator/).
 
 **Password**
 
@@ -191,7 +191,7 @@ The sign-in microflow has two parameters.
 
 {{% alert type="warning" %}}
 
-Clean up objects that were attached to the anonymous user and that you do _not_ transfer to the signed-in user. Since the anonymous user is deleted after running the sign-in microflow, you can use [delete behavior](/refguide/associations/) to automatically clean objects that were attached to the anonymous user.
+Clean up objects that were attached to the anonymous user and that you do _not_ transfer to the signed-in user. Since the anonymous user is deleted after running the sign-in microflow, you can use [delete behavior](/refguide7/associations/) to automatically clean objects that were attached to the anonymous user.
 
 {{% /alert %}}
 

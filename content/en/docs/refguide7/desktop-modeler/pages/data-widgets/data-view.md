@@ -50,7 +50,7 @@ _Default value:_ Horizontal
 
 ### 4.2 Label Width (Weight)
 
-If the form orientation is set to horizontal, this property can be used to specify the width of the input widget labels inside the data view. The width is specified using column weights from the [Bootstrap grid system](http://getbootstrap.com/css/#grid). For more details, see [Layout Grid](/refguide/layout-grid/).
+If the form orientation is set to horizontal, this property can be used to specify the width of the input widget labels inside the data view. The width is specified using column weights from the [Bootstrap grid system](http:/getbootstrap.com/css/#grid). For more details, see [Layout Grid](/refguide7/layout-grid/).
 
 _Default value:_ 3
 
@@ -62,7 +62,7 @@ _Default value:_ True
 
 ### 4.4 Empty Entity Message
 
-If this message is specified, a data view that receives no source data will show this message instead of its content. Otherwise, the data view will show its static content and disabled input widgets. This property is a translatable text. For more details, see [Translatable Texts](/refguide/translatable-texts/).
+If this message is specified, a data view that receives no source data will show this message instead of its content. Otherwise, the data view will show its static content and disabled input widgets. This property is a translatable text. For more details, see [Translatable Texts](/refguide7/translatable-texts/).
 
 There are a number of ways a data view can end up without source data. For instance, a data view with a **Listen to widget** data source will remain empty until an object is selected in the target grid. In this scenario, **Empty entity message** can be used to guide the user to select an item from the grid.
 
@@ -89,7 +89,7 @@ This property determines how input widgets are rendered if read-only.
 
 ## 6 Data Source Properties
 
-The data source determines which object will be shown in the data view. For general information about data sources, see [Data Sources](/refguide/data-sources/).
+The data source determines which object will be shown in the data view. For general information about data sources, see [Data Sources](/refguide7/data-sources/).
 
 ### 6.1 Type
 
@@ -100,8 +100,8 @@ The data view supports the following types of data source: context, microflow, a
 See the corresponding data source for specific properties:
 
 * [Context source](/refguide7/entity-path-source/) - either a page parameter or a surrounding data element
-* [Microflow source](/refguide/microflow-source/) - a microflow returning only one object
-* [Listen to widget source](/refguide/listen-to-grid-source/) - any widget returning only one object
+* [Microflow source](/refguide7/microflow-source/) - a microflow returning only one object
+* [Listen to widget source](/refguide7/listen-to-grid-source/) - any widget returning only one object
 
 ### 6.3 Use Schema
 
@@ -121,5 +121,5 @@ Curently this has no effect.
 
 ## 8 Read More
 
-* [Entities](/refguide/entities/)
-* [Associations](/refguide/associations/)
+* [Entities](/refguide7/entities/)
+* [Associations](/refguide7/associations/)

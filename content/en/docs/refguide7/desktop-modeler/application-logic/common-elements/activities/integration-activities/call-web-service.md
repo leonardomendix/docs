@@ -6,6 +6,6 @@ parent: "integration-activities"
 
 {{% alert type="warning" %}}
 
-Please see [Call Web Service Action](/refguide/call-web-service-action/) for details on calling a web service.
+Please see [Call Web Service Action](/refguide7/call-web-service-action/) for details on calling a web service.
 
 {{% /alert %}}

@@ -29,11 +29,11 @@ A data grid showing a list of orders with a description and the referenced custo
 
 ### 2.1 Columns
 
-See [Columns (document template)](/refguide/columns-document-template/).
+See [Columns (document template)](/refguide8/columns-document-template/).
 
 ### 2.2 Sort Bar
 
-See [Sort Bar](/refguide/sort-bar/).
+See [Sort Bar](/refguide8/sort-bar/).
 
 ## 3 Appearance Properties
 
@@ -59,7 +59,7 @@ With striping enabled you can set the properties of even and uneven data grid ro
 
 ### 3.5 Style
 
-See [Style](/refguide/style/)
+See [Style](/refguide8/style/)
 
 ## 4 Common Properties
 

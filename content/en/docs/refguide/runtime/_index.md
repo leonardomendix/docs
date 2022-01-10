@@ -88,7 +88,7 @@ You need a license to run an application in production mode. Without a license, 
 You can extend the functionality of the Runtime Server by writing Java actions. For more information,  see the [Runtime API](/apidocs-mxsdk/apidocs/#runtime) section of *API Documentation*.
 
 {{% alert type="info" %}}
-If the app contains published services, links to available API documentation such as [OpenAPI documentation](/refguide/open-api/) for [published REST services](/refguide/published-rest-services/), links to [published OData services](/refguide/published-odata-services/), and WSDLs for [published web services](/refguide/published-web-services/), are available on the URL path `/api-doc` (for example: `https:/myapp.mendixcloud.com/api-doc/`).
+If the app contains published services, links to available API documentation such as [OpenAPI documentation](/refguide/open-api/) for [published REST services](/refguide/published-rest-services/), links to [published OData services](/refguide/published-odata-services/), and WSDLs for [published web services](/refguide/published-web-services/), are available on the URL path `/api-doc` (for example: `https://myapp.mendixcloud.com/api-doc/`).
 {{% /alert %}}
 
 ## 5 Main Documents in This Category
@@ -99,9 +99,9 @@ If the app contains published services, links to available API documentation suc
 * [Clustered Mendix Runtime](/refguide/clustered-mendix-runtime/) – describes the behavior and impact of running Mendix Runtime as a cluster
 * [Runtime Customization](/refguide/custom-settings/) – presents advanced options for customizing Runtime server settings
 * [Data Storage](/refguide/data-storage/) – presents information on data storage configuration options, such as the following:
-* [Date & Time Handling](datetime-handling-faq) – presents details on how to configure Runtime Server operations for the user's date and time
+* [Date & Time Handling](/refguide/datetime-handling-faq/) – presents details on how to configure Runtime Server operations for the user's date and time
 * [Logging](/refguide/logging/) – discusses the various log levels for Runtime
 * [Monitoring Mendix Runtime](/refguide/monitoring-mendix-runtime/) – describes the Mendix Runtime monitoring actions that are supported (such as [state statistics](/refguide/monitoring-mendix-runtime/#state) and [thread stack traces](/refguide/monitoring-mendix-runtime/#thread)).
-* [Objects & Caching](objects-and-caching) – presents details on what happens when objects are loaded from the database, cached, retrieved, changed, and committed
-* [Mendix Runtime & Java](runtime-java) – explains some of the basic concepts of Java in Mendix
+* [Objects & Caching](/refguide/objects-and-caching/) – presents details on what happens when objects are loaded from the database, cached, retrieved, changed, and committed
+* [Mendix Runtime & Java](/refguide/runtime-java/) – explains some of the basic concepts of Java in Mendix
 * [Communication Patterns in the Mendix Runtime](/refguide/communication-patterns/) – outlines the communication patterns used by the Mendix runtime

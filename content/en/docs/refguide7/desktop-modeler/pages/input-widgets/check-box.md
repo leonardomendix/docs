@@ -6,7 +6,7 @@ parent: "input-widgets"
 ---
 
 
-A check box is an [input widget](/refguide/input-widgets/) that can be used to display and edit Boolean attributes. It will display a tick if the value is true and remain empty if it is false.
+A check box is an [input widget](/refguide7/input-widgets/) that can be used to display and edit Boolean attributes. It will display a tick if the value is true and remain empty if it is false.
 
 {{% alert type="info" %}}
 
@@ -56,5 +56,5 @@ This check box allows you to change whether someone is subscribed to the newslet
 
 ## Related articles
 
-*   [Data view](/refguide/data-view/)
-*   [Attribute](/refguide/attributes/)s
+*   [Data view](/refguide7/data-view/)
+*   [Attribute](/refguide7/attributes/)s

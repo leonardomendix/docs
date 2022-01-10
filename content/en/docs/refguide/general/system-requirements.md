@@ -14,7 +14,7 @@ This document presents the system requirements for the various parts of the Mend
 
 ## 2 Mendix Studio Pro {#sp}
 
-Mendix [Studio Pro](/refguide/modeling/) version 9 is supported on 64-bit versions of Windows 10 release 1809 and above. MTS versions starting from Mendix Studio Pro 9.6.5 and Mendix Studio 9.9.1 are enabled and tested to run on Apple Silicon Macs such as the M1, which requires [Parallels 17](https:/www.parallels.com/) and Windows 11.
+Mendix [Studio Pro](/refguide/modeling/) version 9 is supported on 64-bit versions of Windows 10 release 1809 and above. MTS versions starting from Mendix Studio Pro 9.6.5 and Mendix Studio 9.9.1 are enabled and tested to run on Apple Silicon Macs such as the M1, which requires [Parallels 17](https://www.parallels.com/) and Windows 11.
 
 The following frameworks are automatically installed (if necessary):
 
@@ -109,7 +109,7 @@ The [Team Server](/developerportal/collaborate/team-server/) is implemented usin
 
 ## 4 Mendix Studio
 
-[Mendix Studio](/releasenotes/studio/) is optimized for use with Google Chrome. While Chrome is the officially supported browser, you can also use Mendix Studio with other popular browsers like Mozilla Firefox, Apple Safari, and Microsoft Edge. 
+ is optimized for use with Google Chrome. While Chrome is the officially supported browser, you can also use Mendix Studio with other popular browsers like Mozilla Firefox, Apple Safari, and Microsoft Edge. 
 
 {{% alert type="info" %}}
 The browser you use needs to have JavaScript turned on.
@@ -171,7 +171,7 @@ Current support:
 {{% alert type="warning" %}}
 Each app must have its own database. Mendix apps cannot share data by sharing the same database.
 
-If you want two apps to share the same database, then you need to share the data from one app to the other using APIs. In Mendix these are supported by [Data Hub](/data-hub/share-data/) or the REST and OData services described in the [integration](/howto/integration/) section of the *Studio Pro Guide*. This is referred to as a *microservices* architecture.
+If you want two apps to share the same database, then you need to share the data from one app to the other using APIs. In Mendix these are supported by [Data Hub](/data-hub/share-data/) or the REST and OData services described in the [integration](/refguide/integration/) section of the *Studio Pro Guide*. This is referred to as a *microservices* architecture.
 
 For more information on why data cannot be shared between apps see [Data Storage](/refguide/data-storage/#databases). Use the [Database Replication](/appstore/modules/database-replication/) module if you need to copy the data from one app to another.
 {{% /alert %}}

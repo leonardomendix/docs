@@ -23,8 +23,8 @@ Errors need to be solved before your app can be published. A consistency error c
 
 ##  2 Read More
 
-* [Page Editor Consistency Errors](/refguide/consistency-errors-pages/)
-* [Navigation Consistency Errors](/refguide/consistency-errors-navigation/)
-* [Pages](/refguide/pages/)
-* [Microflows](/refguide/microflows/) 
-* [Navigation in Mendix 7.4 & Above](/refguide/navigation/)
+* [Page Editor Consistency Errors](/refguide7/consistency-errors-pages/)
+* [Navigation Consistency Errors](/refguide7/consistency-errors-navigation/)
+* [Pages](/refguide7/pages/)
+* [Microflows](/refguide7/microflows/) 
+* [Navigation in Mendix 7.4 & Above](/refguide7/navigation/)

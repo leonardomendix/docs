@@ -66,4 +66,4 @@ For more details, see [Mobile App](/developerportal/deploy/mobileapp/).
 
 The **App Services** page lets you publish your app service, application, or widget to the Mendix Marketplace.
 
-For more details, see [App Services](/appstore/app-services/).  
+For more details, see [App Services](/developerportal/deploy/app-services/).  

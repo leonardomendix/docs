@@ -14,24 +14,24 @@ tags: ["authentication", "widgets", "studio pro", "login", "password"]
 
 Authentication widgets are used to sign users in and log them out. 
 
-Use a [navigation profile setting](/refguide/navigation/#authentication) to direct users to the correct authentication page.
+Use a [navigation profile setting](/refguide8/navigation/#authentication) to direct users to the correct authentication page.
 
 The **Authentication widgets** category contains the following widgets:
 
-* [Login ID text box](/refguide/login-id-text-box/) – allows users to provide a login id for authentication
+* [Login ID text box](/refguide8/login-id-text-box/) – allows users to provide a login id for authentication
 
     ![Login ID Text Box Example](/attachments/refguide8/modeling/pages/authentication-widgets/logid-id-example.png)
 
-* [Password text box](/refguide/password-text-box/) – allows users to provide a password for authentication
+* [Password text box](/refguide8/password-text-box/) – allows users to provide a password for authentication
 
     ![Password Text Box Example](/attachments/refguide8/modeling/pages/authentication-widgets/password-text-box-example.png)
 
-* [Sign-in button](/refguide/sign-in-button/) – sends a user’s login id and password to the server for authentication
+* [Sign-in button](/refguide8/sign-in-button/) – sends a user’s login id and password to the server for authentication
     ![Sign-In Button Example](/attachments/refguide8/modeling/pages/authentication-widgets/sign-in-button-example.png)
 
-* **Sign-out button** – signs the currently signed-in user out. The sign-out button is a button with an on-click event set to **Sign out**. For more information on on-click events, see the [On Click Event & Events Section](/refguide/on-click-event/). For details on button properties. see [Button Properties](/refguide/button-properties/).
+* **Sign-out button** – signs the currently signed-in user out. The sign-out button is a button with an on-click event set to **Sign out**. For more information on on-click events, see the [On Click Event & Events Section](/refguide8/on-click-event/). For details on button properties. see [Button Properties](/refguide8/button-properties/).
 
-* [Validation message](/refguide/validation-message/) – informs a user about authentication failures if any
+* [Validation message](/refguide8/validation-message/) – informs a user about authentication failures if any
 
     ![Validation Message Example](/attachments/refguide8/modeling/pages/authentication-widgets/validation-message-example.png)
 
@@ -41,5 +41,5 @@ The **Authentication widgets** category contains the following widgets:
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Pages](/refguide/pages/)
+* [Page](/refguide8/page/)
+* [Pages](/refguide8/pages/)

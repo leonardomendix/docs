@@ -27,11 +27,11 @@ The example below shows the design properties of a `"Button"`.
 * `"description"` — a brief explanation of the design property
 * `"options"` — the array of options that shows the name and CSS class specified in the Sass files for Atlas UI
 
-![](/attachments/howto8/front-end//atlas-ui/extend-design-properties-to-customize/extend_settings.png)
+![](/attachments/howto8/front-end/atlas-ui/extend-design-properties-to-customize/extend_settings.png)
 
 These design properties are used in the **Design** section of Studio.
 
-![Design Properties in Studio](/attachments/howto8/front-end//atlas-ui/extend-design-properties-to-customize/button-design-properties.png)
+![Design Properties in Studio](/attachments/howto8/front-end/atlas-ui/extend-design-properties-to-customize/button-design-properties.png)
 
 {{% alert type="info" %}}
 
@@ -41,8 +41,8 @@ When you use a new class as a design property, make sure that this class exists.
 
 ## 3 Read More
 
-* [Get Started with Atlas UI](/howto7/front-end/get-started-with-atlasui/)
-* [Create Company Atlas UI Resources](/howto7/front-end/create-company-atlas-ui-resources/)
-* [Create Custom Preview Images for Building Blocks & Page Templates](/howto7/front-end/create-custom-preview-images-for-building-blocks-and-page-templates/)
-* [Migrate Existing Apps to Atlas UI](/howto7/front-end/migrate-existing-projects-to-atlasui/)
-* [Share Company Atlas UI Resources](/howto7/front-end/share-company-atlas-ui-resources/)
+* [Get Started with Atlas UI](/howto8/front-end/get-started-with-atlasui/)
+* [Create Company Atlas UI Resources](/howto8/front-end/create-company-atlas-ui-resources/)
+* [Create Custom Preview Images for Building Blocks & Page Templates](/howto8/front-end/create-custom-preview-images-for-building-blocks-and-page-templates/)
+* [Migrate Existing Apps to Atlas UI](/howto8/front-end/migrate-existing-projects-to-atlasui/)
+* [Share Company Atlas UI Resources](/howto8/front-end/share-company-atlas-ui-resources/)

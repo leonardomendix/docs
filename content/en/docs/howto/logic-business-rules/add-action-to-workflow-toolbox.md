@@ -27,7 +27,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Familiarize yourself with workflow terms. For more information, see [Workflows](/refguide/workflows/). 
 * Install Atlas 3 from the Mendix Marketplace. As a result of installing Atlas 3, your app should contain the following modules that Workflow Commons depends on: Atlas_Core, Atlas_Web_Content, and DataGrid.
-* Your app has the following optional modules [Workflow Commons](https://marketplace.mendix.com/link/component/117066) and [Mendix SSO](https://marketplace.mendix.com/link/component/117212) modules for better developer experience. For more information on how to set up Workflow Commons in an existing app, see [Adding a Workflow to an Existing App: Setting Up the Basics](/refguide/workflow-setting-up-app/).
+* Your app has the following optional modules [Workflow Commons](https:/marketplace.mendix.com/link/component/117066) and [Mendix SSO](https:/marketplace.mendix.com/link/component/117212) modules for better developer experience. For more information on how to set up Workflow Commons in an existing app, see [Adding a Workflow to an Existing App: Setting Up the Basics](/refguide/workflow-setting-up-app/).
 
 ## 3 Exposing the Microflow as the Workflow Action
 
@@ -47,7 +47,7 @@ To create the calling microflow and add it as the custom action to the workflow 
 
 3. In **Toolbox**, select **Microflow call** and drag and drop it to the flow:
 
-    ![Microflow call action](/attachments/howto/logic-business-rules//add-action-to-workflow-toolbox/microflow-call.png)
+    ![Microflow call action](/attachments/howto/logic-business-rules/add-action-to-workflow-toolbox/microflow-call.png)
 
 4. Double-click the **Microflow call** activity to open its properties and set **Microflow** to **ACT_SAP_INVENTORY_LAPTOP_CHECK**.
 
@@ -61,7 +61,7 @@ To create the calling microflow and add it as the custom action to the workflow 
 
 9. Select the **Expose as workflow action** check-box:
 
-    ![Expose as Workflow Action](/attachments/howto/logic-business-rules//add-action-to-workflow-toolbox/expose-as-workflow-action.png)
+    ![Expose as Workflow Action](/attachments/howto/logic-business-rules/add-action-to-workflow-toolbox/expose-as-workflow-action.png)
 
 10. The properties for the new workflow action appear. Do the following:
 
@@ -71,7 +71,7 @@ To create the calling microflow and add it as the custom action to the workflow 
 
     3. Set Icon to **pt_feedback_checkmark**:
 
-        ![Expose as Workflow Action Settings](/attachments/howto/logic-business-rules//add-action-to-workflow-toolbox/expose-as-workflow-action-properties.png)
+        ![Expose as Workflow Action Settings](/attachments/howto/logic-business-rules/add-action-to-workflow-toolbox/expose-as-workflow-action-properties.png)
 
 11. Click **OK**.
 
@@ -85,7 +85,7 @@ Now that you have exposed the microflow as the custom workflow action, you can u
 
 2. Open the **Toolbox** and find the newly created **Integration** category there > the **Pass details to SAP** action:
 
-    ![Workflow Toolbox](/attachments/howto/logic-business-rules//add-action-to-workflow-toolbox/workflow-toolbox.png)
+    ![Workflow Toolbox](/attachments/howto/logic-business-rules/add-action-to-workflow-toolbox/workflow-toolbox.png)
 
 3. Drag and drop the action to the workflow.
 

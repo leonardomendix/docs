@@ -35,4 +35,4 @@ The **Entity (path)** property specifies the association by which the widget is 
 ## 3 Read More
 
 * [Associations](/refguide/associations/)
-* [Data Containers](/appstore/modules/data-widgets/)
+* [Data Containers](/refguide/data-widgets/)

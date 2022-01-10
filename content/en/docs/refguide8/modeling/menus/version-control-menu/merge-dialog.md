@@ -12,9 +12,9 @@ tags: ["studio pro", "merge-dialog", "merge", "version control"]
 
 ## 1 Introduction
 
-With the **Merge** dialog you can [merge](/refguide/version-control/#merge) changes from a branch line to the main line. For example, a fix that you applied in a maintenance branch line can be merged back to the main line so that you do not have to apply the fix by hand again. Also if you completed developing a large feature in a separate branch line you can use merge to incorporate that feature into the main line.
+With the **Merge** dialog you can [merge](/refguide8/version-control/#merge) changes from a branch line to the main line. For example, a fix that you applied in a maintenance branch line can be merged back to the main line so that you do not have to apply the fix by hand again. Also if you completed developing a large feature in a separate branch line you can use merge to incorporate that feature into the main line.
 
-To access the **Merge** dialog, open [Version Control menu](/refguide/version-control-menu/) > **Merge Changes Here**:
+To access the **Merge** dialog, open [Version Control menu](/refguide8/version-control-menu/) > **Merge Changes Here**:
 
 ![Merge Dialog](/attachments/refguide8/modeling/menus/version-control-menu/merge-dialog/merge-dialog.png)
 

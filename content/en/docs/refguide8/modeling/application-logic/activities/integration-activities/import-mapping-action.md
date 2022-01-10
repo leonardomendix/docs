@@ -17,7 +17,7 @@ This activity can only be used in **Microflows**.
 
 ## 1 Introduction
 
-The **Import with mapping** activity allows you to import the data stored in an XML or JSON document into [domain model](/refguide/domain-model/) entities.
+The **Import with mapping** activity allows you to import the data stored in an XML or JSON document into [domain model](/refguide8/domain-model/) entities.
 
 ## 2 Properties
 
@@ -48,15 +48,15 @@ The input variable can be the name of a string variable, a file document, an [Ht
 
 ### 3.2 Mapping
 
-The [import mapping](/refguide/import-mappings/) defines how to transform the XML or JSON into objects.
+The [import mapping](/refguide8/import-mappings/) defines how to transform the XML or JSON into objects.
 
 ### 3.3 Input Content Type
 
-If the import mapping is based on a [message definitions](/refguide/message-definitions/), it can import both XML and JSON. Select whether the input object contains XML or JSON.
+If the import mapping is based on a [message definitions](/refguide8/message-definitions/), it can import both XML and JSON. Select whether the input object contains XML or JSON.
 
 ### 3.4 The Input Contains
 
-If the import mapping is based on a [message definitions](/refguide/message-definitions/), it can import both single objects and lists. Select whether the input is a single object or a list of objects.
+If the import mapping is based on a [message definitions](/refguide8/message-definitions/), it can import both single objects and lists. Select whether the input is a single object or a list of objects.
 
 ### 3.5 If No Object Was Found
 
@@ -82,19 +82,19 @@ Indicates whether the resulting objects should be committed to the database, and
 
 | Option | Description |
 | --- | --- |
-| Yes | The objects are saved in the database and the [event handlers](/refguide/event-handlers/) are triggered. |
-| Yes without events | The objects are saved in the database, but the [event handlers](/refguide/event-handlers/) are not triggered (default). |
-| No | The objects are created without being saved in the database. You will need a [commit action](/refguide/committing-objects/) to save them. |
+| Yes | The objects are saved in the database and the [event handlers](/refguide8/event-handlers/) are triggered. |
+| Yes without events | The objects are saved in the database, but the [event handlers](/refguide8/event-handlers/) are not triggered (default). |
+| No | The objects are created without being saved in the database. You will need a [commit action](/refguide8/committing-objects/) to save them. |
 
 ### 3.9 Validate Against Schema
 
 {{% alert type="info" %}}
 
-Validation properties are only applicable if an import mapping is selected that maps from XML based on an [XML schema](/refguide/xml-schemas/) or a [consumed web service](/refguide/consumed-web-service/).
+Validation properties are only applicable if an import mapping is selected that maps from XML based on an [XML schema](/refguide8/xml-schemas/) or a [consumed web service](/refguide8/consumed-web-service/).
 
 {{% /alert %}}
 
-Determines whether the import action should validate the incoming XML against the [XML schema](/refguide/xml-schemas/).
+Determines whether the import action should validate the incoming XML against the [XML schema](/refguide8/xml-schemas/).
 
 Setting this to _yes_ can impact performance!
 

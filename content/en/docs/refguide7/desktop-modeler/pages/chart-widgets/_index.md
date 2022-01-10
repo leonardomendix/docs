@@ -9,7 +9,7 @@ tags: ["Charts", "Any Chart", "Desktop Modeler", "Pages"]
 
 You can add a wide range of charts to your app pages to display data series visually.
 
-[Basic Charts](#basic-charts) are included in Mendix app templates based on Atlas UI. They can be included in other Mendix apps by downloading them from the Mendix Marketplace here: https:/marketplace.mendix.com/link/component/105695/.
+[Basic Charts](#basic-charts) are included in Mendix app templates based on Atlas UI. They can be included in other Mendix apps by downloading them from the Mendix Marketplace here: https://marketplace.mendix.com/link/component/105695/.
 
 [Any Chart](#any-chart) gives much more control and implements all the features of [plotly.js](https:/plot.ly/). The [Any Chart](/appstore/modules/any-chart/) module can be included in your Mendix app by downloading it from the Mendix Marketplace.
 
@@ -26,7 +26,7 @@ With Mendix Charts you can quickly create beautiful charts. The following charts
 * **Pie** chart – a pie or a doughnut chart
 * **Time series** – show data ordered by time
 
-The widgets contain several settings which can be changed in the Modeler to customize the look and feel and also offer support for on click events and custom tooltips. See [Chart Configuration](/refguide/charts-configuration/) to learn how to configure Mendix charts.
+The widgets contain several settings which can be changed in the Modeler to customize the look and feel and also offer support for on click events and custom tooltips. See [Chart Configuration](/refguide7/charts-configuration/) to learn how to configure Mendix charts.
 
 **Dynamic Series Chart**
 
@@ -40,11 +40,11 @@ The plotly charts require a configuration based on JSON, therefore *Any Chart* h
 
 This module also contains several building blocks for inspiration and as starting point. If you want to create a new chart, we suggest you check out the plotly.js website.
 
-See [Any Chart Widgets](/refguide/charts-any-configuration/) to learn how to configure *Any charts* widgets.
+See [Any Chart Widgets](/refguide7/charts-any-configuration/) to learn how to configure *Any charts* widgets.
 
 ## 4 Read More
 
-* [Any Chart Configuration](/refguide/charts-any-configuration/)
+* [Any Chart Configuration](/refguide7/charts-any-configuration/)
 * [Any Chart Building Bocks](/refguide7/charts-any-building-bocks/)
-* [Any Chart Cheat Sheet](/refguide/charts-any-cheat-sheet/)
-* [Basic Chart Cheat Sheet](/refguide/charts-advanced-cheat-sheet/)
+* [Any Chart Cheat Sheet](/refguide7/charts-any-cheat-sheet/)
+* [Basic Chart Cheat Sheet](/refguide7/charts-advanced-cheat-sheet/)

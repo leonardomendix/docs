@@ -6,7 +6,7 @@ parent: "input-widgets"
 ---
 
 
-The **Radio Buttons** widget is an [input widget](/refguide/input-widgets/) that can be used to display and edit Boolean and enumeration attributes.
+The **Radio Buttons** widget is an [input widget](/refguide7/input-widgets/) that can be used to display and edit Boolean and enumeration attributes.
 
 {{% alert type="info" %}}
 
@@ -64,5 +64,5 @@ _Default value:_ Horizontal
 
 ## Read More
 
-*   [Data view](/refguide/data-view/)
-*   [Attributes](/refguide/attributes/)
+*   [Data view](/refguide7/data-view/)
+*   [Attributes](/refguide7/attributes/)

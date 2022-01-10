@@ -62,5 +62,5 @@ Only available when the [menu source](#menu-source) is set to **Menu document**.
 ## 3 Read More
 
 * [Page](/refguide/page/)
-* [Menus & Navigation](menu-widgets)
+* [Menus & Navigation](/refguide/menu-widgets/)
 * [Properties Common in the Page Editor](/refguide/common-widget-properties/)

@@ -39,7 +39,7 @@ For more details, see [Published REST Routing](/refguide/published-rest-routing/
 
 ## <a name="interactive-documentation"></a>4 Documentation
 
-Every [published REST service](/refguide/published-rest-service/) is automatically documented. This documentation is available in the app under `http:/yourapp.com/rest-doc/`. Each service has an interactive documentation page using [Swagger UI](https:/swagger.io/swagger-ui/). You can interact with the service to see how it behaves.
+Every [published REST service](/refguide/published-rest-service/) is automatically documented. This documentation is available in the app under `http://yourapp.com/rest-doc/`. Each service has an interactive documentation page using [Swagger UI](https://swagger.io/swagger-ui/). You can interact with the service to see how it behaves.
 
 The documentation of the services is available in the [OpenAPI 2.0](/refguide/open-api/) format, which is readable by many systems and tools. It contains [JSON Schemas](/refguide/published-rest-service-json-schema/) for the messages definitions.
 

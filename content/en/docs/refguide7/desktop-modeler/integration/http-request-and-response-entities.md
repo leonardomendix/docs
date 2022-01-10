@@ -6,7 +6,7 @@ parent: "integration"
 
 ## 1 Introduction
 
-`HttpRequest` is a system entity that represents a request to a server. `HttpResponse` represents the response from the server. Use these entities when [publishing](/refguide/published-rest-services/) or [consuming](/refguide/consumed-rest-services/) REST services.
+`HttpRequest` is a system entity that represents a request to a server. `HttpResponse` represents the response from the server. Use these entities when [publishing](/refguide7/published-rest-services/) or [consuming](/refguide7/consumed-rest-services/) REST services.
 
 ![](/attachments/refguide7/desktop-modeler/integration/http-request-and-response-entities/http-request-and-response-domain-model.png)
 

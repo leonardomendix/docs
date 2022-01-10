@@ -25,7 +25,7 @@ Any public version in this [list of Studio Pro releases](https://marketplace.men
 
 You can extract the files using your favorite archival tool, such as [7-Zip](https://www.7-zip.org/).
 
-For details on the system requirements for MxBuild, see [System Requirements](/refguide/system-requirements/#mxbuild).
+For details on the system requirements for MxBuild, see [System Requirements](/refguide8/system-requirements/#mxbuild).
 
 {{% alert type="info" %}}
 Except where specifically mentioned, the examples used in this document are for Windows.
@@ -128,7 +128,7 @@ The following table describes the various properties of the *problems* JSON obje
 | --- | --- |
 | `name` | A unique identifier of the problem or `null` when the consistency check is not yet defined in the Mendix Metamodel. |
 | `severity` | Describes the type of problem: `Warning`, `Error`, or `Deprecation`. |
-| `message` | The description of the problem. This is the same as the message in the [Errors pane](/refguide/errors-pane/) of Mendix Studio Pro. |
+| `message` | The description of the problem. This is the same as the message in the [Errors pane](/refguide8/errors-pane/) of Mendix Studio Pro. |
 | `locations` | Contains zero or more objects that describe the location in the Mendix project where the problem occurs (see the following table). |
 
 The location(s) associated with the problem have the following properties:

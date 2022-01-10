@@ -11,7 +11,7 @@ This activity can only be used in microflows, not in nanoflows.
 
 ## 1 Introduction
 
-The call-web-service activity can be used to call one of the [imported web service](/refguide/consumed-web-services/) operations. You can specify whether or not to use authentication, what the request should look like and how the response of the web service should be handled.
+The call-web-service activity can be used to call one of the [imported web service](/refguide7/consumed-web-services/) operations. You can specify whether or not to use authentication, what the request should look like and how the response of the web service should be handled.
 
 ## 2 Operation
 
@@ -37,7 +37,7 @@ When calling a web service using a call-web-service activity, the location of th
 
 ### 2.3 Location
 
-**Location** defines the address of the web service if you override the location. The location needs to be entered using an [expression](/refguide/expressions/) which results in a valid URL string.
+**Location** defines the address of the web service if you override the location. The location needs to be entered using an [expression](/refguide7/expressions/) which results in a valid URL string.
 
 ### 2.4 Use Timeout on Request
 
@@ -61,10 +61,10 @@ Setting this setting to yes can greatly decrease performance!
 When consuming a WSDL that uses encoding, turning on validation will lead to a consistency error, because it is not WS-I compliant.
 {{% /alert %}}
 
-Schema validation is not supported when you configure the [consumed web service](/refguide/consumed-web-service/) to send binary data as attachments.
+Schema validation is not supported when you configure the [consumed web service](/refguide7/consumed-web-service/) to send binary data as attachments.
 
 {{% alert type="info" %}}
-Support for schema validation using the [(optimized) implementation](/refguide/project-settings/#web-service-calls) was introduced in version 7.20.
+Support for schema validation using the [(optimized) implementation](/refguide7/project-settings/#web-service-calls) was introduced in version 7.20.
 {{% /alert %}}
 
 _Default value:_ No
@@ -75,7 +75,7 @@ _Default value:_ No
 
 This feature was introduced in version 7.15.0.
 
-This feature is only available when you have configured web service calls to use the new (optimized) implementation in the [project's runtime settings](/refguide/project-settings/).
+This feature is only available when you have configured web service calls to use the new (optimized) implementation in the [project's runtime settings](/refguide7/project-settings/).
 
 {{% /alert %}}
 
@@ -99,11 +99,11 @@ Use HTTP authentication defines whether the basic authentication should be used.
 
 ### 3.2 User Name
 
-User name defines the user name that will be used to authenticate over HTTP. The user name needs to be entered using [expressions](/refguide/expressions/). The microflow expression should result in a string.
+User name defines the user name that will be used to authenticate over HTTP. The user name needs to be entered using [expressions](/refguide7/expressions/). The microflow expression should result in a string.
 
 ### 3.3 Password
 
-Password defines the password that will be used to authenticate over HTTP. The password needs to be entered using [expressions](/refguide/expressions/). The microflow expression should result in a string.
+Password defines the password that will be used to authenticate over HTTP. The password needs to be entered using [expressions](/refguide7/expressions/). The microflow expression should result in a string.
 
 ### 3.4 Custom HTTP Headers
 
@@ -117,13 +117,13 @@ The XML for the request parts (header and body) can be generated in several ways
 
 ### 4.1 Export Mapping for Entire Request
 
-Using this option, a single [Export Mapping](/refguide/export-mappings/) can be used to generate the XML for the request part. You can choose the export mapping to use for the request part and, if applicable, the object or list that you want to use as parameter for the mapping.
+Using this option, a single [Export Mapping](/refguide7/export-mappings/) can be used to generate the XML for the request part. You can choose the export mapping to use for the request part and, if applicable, the object or list that you want to use as parameter for the mapping.
 
 ### 4.2 Simple Expressions for Each Request Parameter
 
 This option for request parts can be used when all children of the XML element of the request part occur at most once and are primitive values. If that is not the case, this option is disabled and cannot be used.
 
-Using this option you need to supply an argument value for all elements of a primitive type (parameters). Argument values need to be entered using [expressions](/refguide/expressions/) resulting in the same data type as the parameter.
+Using this option you need to supply an argument value for all elements of a primitive type (parameters). Argument values need to be entered using [expressions](/refguide7/expressions/) resulting in the same data type as the parameter.
 
 ![](/attachments/refguide7/desktop-modeler/integration/microflow-activities/call-web-service-action/requestParamOptNil.png)
 
@@ -143,7 +143,7 @@ _Default:_ do not send the empty values.
 
 ### 4.4 Custom Request Template
 
-This option allows you to generate the XML for the request part using a template. The template defines the XML structure of the request part in plain text. Parameters can be used by writing a number between braces, for example, '{1}'. For each parameter in the template you can specify its value using a [microflow expression](/refguide/expressions/) resulting in a String value.
+This option allows you to generate the XML for the request part using a template. The template defines the XML structure of the request part in plain text. Parameters can be used by writing a number between braces, for example, '{1}'. For each parameter in the template you can specify its value using a [microflow expression](/refguide7/expressions/) resulting in a String value.
 
 For the request header, the Modeler provides some common XML structures in the drop down menu.
 
@@ -151,11 +151,11 @@ For the request header, the Modeler provides some common XML structures in the d
 
 ![](/attachments/refguide7/desktop-modeler/integration/microflow-activities/call-web-service-action/19399023.png)
 
-If the data type is a complex XML structure it can be mapped to entities using a [Import Mapping](/refguide/import-mappings/). If it is primitive data, it can be stored in a variable immediately. The response does not have to be used though; it can also be ignored if you are not interested in it.
+If the data type is a complex XML structure it can be mapped to entities using a [Import Mapping](/refguide7/import-mappings/). If it is primitive data, it can be stored in a variable immediately. The response does not have to be used though; it can also be ignored if you are not interested in it.
 
 ### 5.1 Import Mapping (for Complex XML Structures)
 
-Here you can choose the [Import Mapping](/refguide/import-mappings/) that will be used to transform the XML into objects.
+Here you can choose the [Import Mapping](/refguide7/import-mappings/) that will be used to transform the XML into objects.
 
 ### 5.2 If No Object Was Found
 
@@ -177,9 +177,9 @@ Indicates whether the resulting objects should be committed to the database, and
 
 | Option | Description |
 | --- | --- |
-| Yes | The objects are saved in the database and the [event handlers](/refguide/event-handlers/) are triggered. |
-| Yes without events | The objects are saved in the database, but the [event handlers](/refguide/event-handlers/) are not triggered (default). |
-| No | The objects are created without being saved in the database. You will need a [commit action](/refguide/committing-objects/) to save them. |
+| Yes | The objects are saved in the database and the [event handlers](/refguide7/event-handlers/) are triggered. |
+| Yes without events | The objects are saved in the database, but the [event handlers](/refguide7/event-handlers/) are not triggered (default). |
+| No | The objects are created without being saved in the database. You will need a [commit action](/refguide7/committing-objects/) to save them. |
 
 ### 5.5 Range (If the Mapping Returns a List)
 

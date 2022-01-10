@@ -113,13 +113,13 @@ After this, all `Attachments` belonging to one `GenericObject` have been copied 
 
 ## 4 Read More
 
-* [How to Create a Custom Save Button](/howto/logic-business-rules/create-a-custom-save-button/)
+* [How to Create a Custom Save Button](/howto7/logic-business-rules/create-a-custom-save-button/)
 * [How to Create Your First Microflow: Hello World!](/howto7/logic-business-rules/create-your-first-microflow-hello-world/)
-* [How to Define Access Rules Using XPath](/howto/logic-business-rules/define-access-rules-using-xpath/)
+* [How to Define Access Rules Using XPath](/howto7/logic-business-rules/define-access-rules-using-xpath/)
 * [How to Drag Microflows & Pages into a Microflow](/howto7/logic-business-rules/drag-microflows-and-pages-into-a-microflow/)
-* [How to Extract & Use Sub-Microflows](/howto/logic-business-rules/extract-and-use-sub-microflows/)
-* [How to Optimize Microflow Aggregates](/howto/logic-business-rules/optimizing-microflow-aggregates/)
-* [How to Optimize Retrieve Activities](/howto/logic-business-rules/optimizing-retrieve-activities/)
-* [How to Set Up Error Handling](/howto/logic-business-rules/set-up-error-handling/)
+* [How to Extract & Use Sub-Microflows](/howto7/logic-business-rules/extract-and-use-sub-microflows/)
+* [How to Optimize Microflow Aggregates](/howto7/logic-business-rules/optimizing-microflow-aggregates/)
+* [How to Optimize Retrieve Activities](/howto7/logic-business-rules/optimizing-retrieve-activities/)
+* [How to Set Up Error Handling](/howto7/logic-business-rules/set-up-error-handling/)
 * [How to Trigger Logic Using Microflows](/howto7/logic-business-rules/triggering-logic-using-microflows/)
-* [How to Work with Lists in a Microflow](/howto/logic-business-rules/working-with-lists-in-a-microflow/)
+* [How to Work with Lists in a Microflow](/howto7/logic-business-rules/working-with-lists-in-a-microflow/)

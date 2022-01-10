@@ -151,7 +151,7 @@ Open the domain model to see all created entities and attributes:
 
 {{% alert type="success" %}}
 
-After import is completed, you can  and see all your data or continue configuring your app.
+After import is completed, you can [preview or publish your app](/studio/publishing-app/) and see all your data or continue configuring your app.
 
 {{% /alert %}}
 
@@ -175,5 +175,5 @@ If **Generate pages for my data** has been selected in the preview page, pages a
 
 ## 5 Read More
 
-* 
-*  
+* [Domain Model](/studio/domain-models/)
+* [Attributes](/studio/domain-models-attributes/) 

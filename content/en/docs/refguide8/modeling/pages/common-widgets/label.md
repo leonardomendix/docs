@@ -17,9 +17,9 @@ tags: ["studio pro", "label", "common widgets"]
 
 {{% alert type="warning" %}}
 
-For input widgets, it is recommended to use the [label property](/refguide/text-box/) to describe the purpose of widgets to end-users.
+For input widgets, it is recommended to use the [label property](/refguide8/text-box/) to describe the purpose of widgets to end-users.
 
-You can also use the [text widget](/refguide/text/) as it provides more features, for example, you can add parameters, and it generates semantically correct HTML.
+You can also use the [text widget](/refguide8/text/) as it provides more features, for example, you can add parameters, and it generates semantically correct HTML.
 
 {{% /alert %}}
 
@@ -57,6 +57,6 @@ The **General** section contains the **Caption** property. **Caption** defines t
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Common Widgets](/refguide7/common-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [Common Widgets](/refguide8/common-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

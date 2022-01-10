@@ -5,9 +5,9 @@ parent: "pages"
 ---
 
 
-*   [Text](/refguide/text/)
-*   [Image](/appstore/widgets/image/)
-*   [Label](/refguide/label/)
-*   [Page title](/refguide/page-title/)
-*   [Snippet Call](/refguide/snippet-call/)
-*   [Common Widget Properties](/refguide/common-widget-properties/)
+*   [Text](/refguide7/text/)
+*   [Image](/refguide7/image/)
+*   [Label](/refguide7/label/)
+*   [Page title](/refguide7/page-title/)
+*   [Snippet Call](/refguide7/snippet-call/)
+*   [Common Widget Properties](/refguide7/common-widget-properties/)

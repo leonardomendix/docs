@@ -10,7 +10,7 @@ tags: ["studio pro", "file widgets", "widget"]
 
 Images, videos & files allow end-users to upload, download, and display files, images, and videos. 
 
-* [Static Image](/appstore/widgets/image/) – displays static image:
+* [Static Image](/refguide/image/) – displays static image:
 
     ![](/attachments/refguide/modeling/pages/image-and-file-widgets/image-design-mode-example.png)
 

@@ -32,11 +32,11 @@ If Chrome launches but does not load your app, check that your app is running in
 
 You should see this page:
 
-![debug waiting](/attachments/howto8/mobile//native-mobile/build-native-apps/native-debug/debug-waiting.png)
+![debug waiting](/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/debug-waiting.png)
 
 If the status remains at **Waiting**, use the reload command (pictured above) to refresh your app. The **Waiting** status should change and indicate an **active** session:
 
-![debug active](/attachments/howto8/mobile//native-mobile/build-native-apps/native-debug/debug-active.png)
+![debug active](/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/debug-active.png)
 
 Your browser's debugging tools should be pointing to your app. Now, you can debug your app like you would any other web app. 
 
@@ -60,7 +60,7 @@ Open your native app in iOS Simulator or Android emulator and then do the follow
 2. Run `npx react-devtools@^3`.
 3.  React Developer Tools will launch and connect to Simulator. You can now inspect and modify the React Native elements the same way you could modify HTML elements in Chrome:
 
-	{{% image_container width="350" %}}![debug simulator](/attachments/howto8/mobile//native-mobile/build-native-apps/native-debug/simulator-rn-dev.png){{% /image_container %}}
+	{{% image_container width="350" %}}![debug simulator](/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/simulator-rn-dev.png){{% /image_container %}}
 	
 4. In the Make It Native App, use a three-finger tap to **Toggle Element Inspector** and enable enhanced inspection capabilities.
 
@@ -75,7 +75,7 @@ To use the Make It Native app with React Developer Tools, do the following:
 5. Run `adb reverse tcp:8097 tcp:8097` to allow the applet to interact  with your device.
 6. React Developer Tools will launch and connect to your device. You can now inspect and modify the React Native elements the same way you could modify HTML elements in Chrome:
 
-	{{% image_container width="350" %}}![debug min app](/attachments/howto8/mobile//native-mobile/build-native-apps/native-debug/min-app-rn-devtools.png){{% /image_container %}}
+	{{% image_container width="350" %}}![debug min app](/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/min-app-rn-devtools.png){{% /image_container %}}
 
 ## 3 Debugging Your Styling
 
@@ -126,6 +126,6 @@ For more detailed steps how to set up ADB, see [Install ADB](https://www.xda-dev
 
 ## 5 Read More
 
-* [Get Started with Native Mobile](/howto/mobile/getting-started-with-native-mobile/)
-* [Debug a Hybrid Mobile App](/howto7/mobile/debug-a-mobile-app/)
+* [Get Started with Native Mobile](/howto8/mobile/getting-started-with-native-mobile/)
+* [Debug a Hybrid Mobile App](/howto8/mobile/debug-a-mobile-app/)
 * [Configure Parallels](/howto8/general/using-mendix-studio-pro-on-a-mac/)

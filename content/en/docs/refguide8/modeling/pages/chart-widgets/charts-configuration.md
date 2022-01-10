@@ -12,7 +12,7 @@ tags: ["Charts", "Widgets", "Studio Pro", "Chart Configuration", "Configuration"
 
 ## 1 Introduction
 
-This guide explains the options for configuring chart widgets. The chart widgets are included in Mendix app templates based on Atlas UI. They can be included in other Mendix apps by downloading them from the [Mendix Marketplace](https://marketplace.mendix.com/link/component/105695/). For more documentation, see [Charts](/appstore/widgets/charts/) in the *Marketplace Guide*.
+This guide explains the options for configuring chart widgets. The chart widgets are included in Mendix app templates based on Atlas UI. They can be included in other Mendix apps by downloading them from the [Mendix Marketplace](https:/marketplace.mendix.com/link/component/105695/). For more documentation, see [Charts](/appstore/widgets/charts/) in the *Marketplace Guide*.
 
 This guide covers the following widgets:
 
@@ -26,7 +26,7 @@ This guide covers the following widgets:
 * Time series
   * Note that some apps may have two *Time series* widgets. This document refers to the one with this icon: ![Image of correct Time series widget](/attachments/refguide8/modeling/pages/chart-widgets/charts-configuration/time-series-icon.png)
 
-The configuration of *Any chart* widgets is in another document, here: [Any Chart Widgets](/refguide/charts-any-configuration/).
+The configuration of *Any chart* widgets is in another document, here: [Any Chart Widgets](/refguide8/charts-any-configuration/).
 
 ## 2 Common configuration
 
@@ -196,17 +196,17 @@ See the following link for more information about plotly.js and the options: htt
     ![](/attachments/refguide8/modeling/pages/chart-widgets/charts-configuration/toggle-editor.png)
 
 * **Layout options**: The JSON containing the Plotly layout options
-  * [Samples](/refguide/charts-advanced-cheat-sheet/#layout-all)
+  * [Samples](/refguide8/charts-advanced-cheat-sheet/#layout-all)
   * [Full reference](https://plot.ly/javascript/reference/#layout)
 
 * **Configuration options**: The JSON containing the Plotly configuration options
-  * [Samples](/refguide/charts-advanced-cheat-sheet/#config-options)
+  * [Samples](/refguide8/charts-advanced-cheat-sheet/#config-options)
   * [Documentation](https://plot.ly/javascript/configuration-options/)
   * [Full reference](https://github.com/plotly/plotly.js/blob/master/src/plot_api/plot_config.js)
 
 #### 2.1.5 Common
 
-These are properties which are common to many widgets. For information see [Properties Common in the Page Editor](/refguide/common-widget-properties/#common-properties).
+These are properties which are common to many widgets. For information see [Properties Common in the Page Editor](/refguide8/common-widget-properties/#common-properties).
 
 ## 3 Configuration by Chart Type {#configuration-by-chart-type}
 

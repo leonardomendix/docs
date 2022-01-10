@@ -18,11 +18,11 @@ This how to will show you how to find the information necessary to locate the ro
 
 If the application is deployed from the Modeler, the information is located in the console:
 
-![](/attachments/howto7/monitoring-troubleshooting//finding-the-root-cause-of-runtime-errors/18580024.png)
+![](/attachments/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/18580024.png)
 
 When an error occurs, a line with a red font will appear in the console.  Double-clicking on this line brings up the **VIew Log Line Details** pop-up window:
 
-![](/attachments/howto7/monitoring-troubleshooting//finding-the-root-cause-of-runtime-errors/18580023.png)
+![](/attachments/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/18580023.png)
 
 There are three key pieces of information in this window:
 
@@ -42,7 +42,7 @@ You need to have the timestamp of when the error occurred. The logs can contain 
 
 {{% /alert %}}
 
-![](/attachments/howto7/monitoring-troubleshooting//finding-the-root-cause-of-runtime-errors/18580022.png)
+![](/attachments/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/18580022.png)
 
 Go to the section of the log that corresponds to the time of the error. There will be a number of lines in that timeframe that have `ERROR – ` after the timestamp. These are the lines of the log file that contain the necessary information. There are three key pieces of information here:
 
@@ -54,13 +54,13 @@ With these three pieces of information, you shouold be able to find the cause of
 
 ## 4 Read More
 
-* [How to Clear Warning Messages](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [How to Clear Warning Messages](/howto7/monitoring-troubleshooting/clear-warning-messages/)
 * [How to Test Web Services Using SoapUI](/howto7/testing/testing-web-services-using-soapui/)
-* [How to Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [How to Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [How to Log Levels](/howto/monitoring-troubleshooting/log-levels/)
+* [How to Monitor Mendix Using JMX](/howto7/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [How to Debug Java Actions Remotely](/howto7/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [How to Log Levels](/howto7/monitoring-troubleshooting/log-levels/)
 * [How to Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [How to Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
-* [How to Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [How to Debug Microflows Remotely](/howto7/monitoring-troubleshooting/debug-microflows-remotely/)
+* [How to Debug Java Actions](/howto7/monitoring-troubleshooting/debug-java-actions/)
 * [How to Handle Common SSO Errors](/howto7/monitoring-troubleshooting/handle-common-mendix-sso-errors/)
 * [The Root Cause of Runtime Errors and Resolving the 2 Most Common Issues](http://www.mendix.com/blog/the-root-cause-of-runtime-errors-and-resolving-the-2-most-common-issues/)

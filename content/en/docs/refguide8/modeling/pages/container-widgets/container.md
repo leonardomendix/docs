@@ -87,6 +87,6 @@ The **On-click** property specifies the action that will be executed when the us
 
 ## 4 Read More
 
-* [Page](/refguide/page/)
-* [Container Widgets](/refguide7/container-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [Container Widgets](/refguide8/container-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

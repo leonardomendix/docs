@@ -19,7 +19,7 @@ This is the value you wish to display in the document.
 
 ### Style
 
-See [Style](/refguide/style/)
+See [Style](/refguide7/style/)
 
 ## Common Properties
 

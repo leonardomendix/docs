@@ -19,9 +19,9 @@ Use this setting to select the location where your app is stored. This can be th
 
 From the list select the Team Server app you wish to open, then choose the development line in which you want to start developing.
 
-For more information about the Mendix Team Server, see [Team Server](/developerportal/collaborate/team-server/).
+For more information about the Mendix Team Server, see [Team Server](/refguide7/team-server/).
 
-For more information about development lines, see [Version Control](/refguide/version-control/).
+For more information about development lines, see [Version Control](/refguide7/version-control/).
 
 ### 2.2 Other SVN Server
 
@@ -29,7 +29,7 @@ In the **SVN repository address** field, enter the address of the app you want t
 
 {{% alert type="info" %}}
 
-The **Other SVN server** option is only available when support for other SVN servers is enabled in the [Preferences](/refguide/preferences-dialog/#enabled) dialog box.
+The **Other SVN server** option is only available when support for other SVN servers is enabled in the [Preferences](/refguide7/preferences-dialog/#enabled) dialog box.
 
 {{% /alert %}}
 

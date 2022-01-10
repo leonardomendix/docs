@@ -20,14 +20,14 @@ Use the **Download from Version Control Server…** menu item to download an app
 {{% alert type="info" %}}
 If the downloaded app was created with a different version of Mendix, you will be asked if it can be converted to the current version.
 
-You can also use the [Open App Dialog](/refguide/open-app-dialog/) to download and open an app from Team Server. However, you will need to use this option if you want to download a second copy of an app (and development line) you already have on disk.
+You can also use the [Open App Dialog](/refguide8/open-app-dialog/) to download and open an app from Team Server. However, you will need to use this option if you want to download a second copy of an app (and development line) you already have on disk.
 {{% /alert %}}
 
 ![Download from Version Control Server dialog box](/attachments/refguide8/modeling/menus/version-control-menu/download-from-version-control-dialog/download-from-version-control-server.png)
 
 ## 2 Where Is Your App Stored?
 
-If **Enable private version control** is set in the project [Preferences](/refguide/preferences-dialog/#enable), you can choose between the **Mendix Team Server** or a **Private server**. If it is not enabled, you will only be able to choose an app from the Mendix Team Server.
+If **Enable private version control** is set in the project [Preferences](/refguide8/preferences-dialog/#enable), you can choose between the **Mendix Team Server** or a **Private server**. If it is not enabled, you will only be able to choose an app from the Mendix Team Server.
 
 ### 2.1 Mendix Team Server
 
@@ -45,7 +45,7 @@ Enter the URL of your private SVN server in **App repository address** and click
 
 Choose the **Development line** you want to download.
 
-For more information about development lines, see [Version Control](/refguide/version-control/).
+For more information about development lines, see [Version Control](/refguide8/version-control/).
 
 ## 4 Project Directory
 

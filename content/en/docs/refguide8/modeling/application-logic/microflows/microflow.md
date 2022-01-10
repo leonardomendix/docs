@@ -11,7 +11,7 @@ tags: ["microflow", "entity access"]
 
 ## 1 Introduction
 
-This document describes the properties of a microflow. If you want to see what microflows are for and what kind of elements they contain, you can check [Microflows](/refguide/microflows/).
+This document describes the properties of a microflow. If you want to see what microflows are for and what kind of elements they contain, you can check [Microflows](/refguide8/microflows/).
 
 ## 2 Properties
 
@@ -63,7 +63,7 @@ Disallowing concurrent execution of a microflow can be useful if a microflow wou
 
 #### 2.3.1 Return Type
 
-The return type defines what information the microflow returns. The caller of the microflow will get a result of this type. See [Data Types](/refguide/data-types/) for the possible return types.
+The return type defines what information the microflow returns. The caller of the microflow will get a result of this type. See [Data Types](/refguide8/data-types/) for the possible return types.
 
 {{% alert type="info" %}}
 To indicate whether or not an object should be committed, you can use Boolean as the return type of the microflow.
@@ -73,7 +73,7 @@ To indicate whether or not an object should be committed, you can use Boolean as
 
 #### 2.4.1 Apply Entity Access
 
-**Apply entity access** indicates whether entity access based on the current user is applied when performing operations on objects. Setting this to yes limits the objects that are retrieved by the [retrieve action](/refguide/retrieve/) to only those that the current user is allowed to see. Similarly, when reading and writing attributes and associations the entity access of the current user is applied. Conversely, if entity access is not applied, all operations are allowed and all objects are retrieved.
+**Apply entity access** indicates whether entity access based on the current user is applied when performing operations on objects. Setting this to yes limits the objects that are retrieved by the [retrieve action](/refguide8/retrieve/) to only those that the current user is allowed to see. Similarly, when reading and writing attributes and associations the entity access of the current user is applied. Conversely, if entity access is not applied, all operations are allowed and all objects are retrieved.
 
 | Option | Description |
 | --- | --- |
@@ -90,13 +90,13 @@ Microflows that apply entity access have an **Entity Access** tag in the editor.
 
 #### 2.4.2 Allowed Roles
 
-**Allowed roles** defines which [module role](/refguide/module-security/#module-role) the user must have to be able to execute the microflow.
+**Allowed roles** defines which [module role](/refguide8/module-security/#module-role) the user must have to be able to execute the microflow.
 
 {{% alert type="warning" %}}
 These roles are only checked when the microflow is executed from the client. A microflow is always allowed to call another microflow, and these roles are not checked then.
 {{% /alert %}}
 
-For more information, see [Module Security](/refguide/module-security/).
+For more information, see [Module Security](/refguide8/module-security/).
 
 ### 2.5 Usage Section {#usage}
 

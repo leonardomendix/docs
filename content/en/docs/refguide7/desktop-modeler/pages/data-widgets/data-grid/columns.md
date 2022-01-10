@@ -86,7 +86,7 @@ These are some examples:
 
 ### Caption
 
-The caption of a column is the text that appears as a header above the rows. This is a translatable text. See [Translatable Texts](/refguide/translatable-texts/).
+The caption of a column is the text that appears as a header above the rows. This is a translatable text. See [Translatable Texts](/refguide7/translatable-texts/).
 
 ### Editable
 
@@ -113,7 +113,7 @@ Note that all objects will be taken into account, and not just the ones on the c
 
 ### Aggregate Caption
 
-The aggregate caption is the text that appears in front of the computed value. This is a translatable text. See [Translatable Texts](/refguide/translatable-texts/).
+The aggregate caption is the text that appears in front of the computed value. This is a translatable text. See [Translatable Texts](/refguide7/translatable-texts/).
 
 {{% alert type="info" %}}
 
@@ -123,6 +123,6 @@ The aggregate caption is the text that appears in front of the computed value. T
 
 ### Show Tooltip
 
-This property determines whether the tooltip page is shown as the mouse is hovered over this column. The tooltip page can be configured on the [Data grid](/refguide/data-grid/).
+This property determines whether the tooltip page is shown as the mouse is hovered over this column. The tooltip page can be configured on the [Data grid](/refguide7/data-grid/).
 
 _Default value:_ False

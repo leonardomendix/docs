@@ -50,15 +50,15 @@ When your application is in the Mendix cloud:
 
 3. In the **Deploy** tab, click **Details** for the environment which you want to debug:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/18580051.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/18580051.png)
 
 4. In the **General** tab, click **Show Debugger Information**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/show-debugger-information.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/show-debugger-information.png)
 
     This invokes the **Debugger settings** pop-up window which provides a URL (such as `http://yourapp.mendixcloud.com/debugger/`) and a password:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/debugger-settings.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/debugger-settings.png)
 
 You will need to provide these credentials to Studio Pro to connect the debugger to the app running in the cloud.
 
@@ -80,13 +80,13 @@ You can only remotely debug apps deployed to Private Cloud for Mendix if you are
 
 5. If the debugger is currently disabled, click **Enable Debugger**. You will be asked to confirm the generated strong password. We recommend that you do not change this password.
 
-    ![Enter password for the private cloud debugger](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/pc-debugger-password.png)
+    ![Enter password for the private cloud debugger](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/pc-debugger-password.png)
 
     You will receive a warning that you have made some changes. Click **Apply Changes** to restart the app and apply the changes.
 
 Once the debugger is enabled, you will see the **URL** and **Password** which are the credentials you need to supply to Studio Pro. Use the **Copy to clipboard** links to simplify providing the credentials.
 
-![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/pc-debug-tab.png)
+![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/pc-debug-tab.png)
 
 When the debugger is enabled, you can click **Disable Debugger** to disable it. You will be asked to confirm your choice and will receive a warning that you have made some changes. Click **Apply Changes** to restart the app and apply the changes.
 
@@ -100,7 +100,7 @@ If your application is on the SAP S/4 HANA cloud, you will need to set the passw
 
 3. Click on the button 'Add variable' and add 'DEBUGGER_PASSWORD' and the password. Both are case-sensitive.
 
-    ![SAP Cockpit showing user-provided variables](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/debugger-settings-saps4hana.png)
+    ![SAP Cockpit showing user-provided variables](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/debugger-settings-saps4hana.png)
 
 4. Restart your application.
 
@@ -116,11 +116,11 @@ If you do cannot connect the debugger, then you do not have sufficient permissio
 
     * Go to the **Run** menu and select **Connect Debugger…**:
 
-        ![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/18580048.png)
+        ![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/18580048.png)
         
     * Click **Connect…** in the **Debugger** pane:
 
-        ![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/debugger-pane.png)
+        ![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/debugger-pane.png)
 
 2. In the **Connect Debugger** dialog box set the following:
 
@@ -128,7 +128,7 @@ If you do cannot connect the debugger, then you do not have sufficient permissio
     * **URL** – the *URL* from the **Debugger Settings** for your app environment
     * **Password** – the *Password* from the **Debugger Settings** for your app environment
 
-        ![](/attachments/howto8/monitoring-troubleshooting//debug-microflows/debug-microflows-remotely/18580047.png)
+        ![](/attachments/howto8/monitoring-troubleshooting/debug-microflows/debug-microflows-remotely/18580047.png)
 
 3. Click **OK**.
 
@@ -136,12 +136,12 @@ The debugger is now connected to your app running in the cloud.
 
 ## 4 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [Clear Warning Messages](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Clear Warning Messages](/howto8/monitoring-troubleshooting/clear-warning-messages/)
 * [Test Web Services Using SoapUI](/howto8/testing/testing-web-services-using-soapui/)
-* [Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [Log Levels](/howto/monitoring-troubleshooting/log-levels/)
-* [Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Debug Java Actions Remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [Log Levels](/howto8/monitoring-troubleshooting/log-levels/)
+* [Debug Microflows](/howto8/monitoring-troubleshooting/debug-microflows/)
+* [Debug Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)
 * [The Ultimate Debugger](http://www.mendix.com/tech-blog/the-ultimate-debugger/) 

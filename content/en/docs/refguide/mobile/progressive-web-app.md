@@ -130,20 +130,20 @@ This table lists the most used device features and APIs, and also documents thei
 
 | Feature | Chrome/Edge | Firefox | Safari |
 |---------|-----------|-------|------|
-| [Camera](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
-| [Payment](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
-| [Credentials (Biometrics)](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/credentials) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [Push Notifications](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [Permissions](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/permissions) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [Foreground Detection](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) |
-| [Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [File Access](https://developer.mozilla.org/en-US/docs/Web/API/File) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) |
-| [Geo Location](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
-| [Battery](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getBattery) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [Share](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
-| [Vibrate](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [Memory](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
-| [Connection](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
+|  | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
+|  | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) |
+|  | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) |
+|  | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
+|  | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) | ![Compatible when using HTTPS](/attachments/refguide/mobile/progressive-web-app/warning.svg) |
+|  | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
+|  | ![Fully compatible](/attachments/refguide/mobile/progressive-web-app/check-mark.svg) | ![Not compatible](/attachments/refguide/mobile/progressive-web-app/cross-mark.svg) |
 
 **Legend** — The symbols above correspond to the following definitions:
 
@@ -181,6 +181,6 @@ Use the following diagram to decide whether to build a PWA, a native mobile app,
 
 ## 8 Read More
 
-* [Native Mobile Reference Guide](/howto/mobile/native-mobile/)
+* [Native Mobile Reference Guide](/refguide/native-mobile/)
 * [Offline-First Reference Guide](/refguide/offline-first/)
 * [Navigation Reference Guide](/refguide/navigation/)

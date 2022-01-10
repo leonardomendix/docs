@@ -9,7 +9,7 @@ tags: ["studio", "microflows", "decision", "pages"]
 
 ## 1 Introduction 
 
-In the , you have configured microflows and decisions with enumeration attribute type and Boolean attribute type, now you can validate the microflows by adding them to pages. This how-to explains how you can add microflows with decisions to pages in Mendix Studio. 
+In the [previous step](/studio-how-to/microflows-how-to-configure-decision-p1/), you have configured microflows and decisions with enumeration attribute type and Boolean attribute type, now you can validate the microflows by adding them to pages. This how-to explains how you can add microflows with decisions to pages in Mendix Studio. 
 
 **This how-to will teach you how to do the following:**
 
@@ -19,7 +19,7 @@ In the , you have configured microflows and decisions with enumeration attribute
 
 To start this tutorial, make sure you have completed the following prerequisites:
 
-* 
+* [Step 1: Build the Domain Model & Configure a Microflow](/studio-how-to/microflows-how-to-configure-decision-p1/)
 
 ## 3 Embedding the Microflow to Pages   
 

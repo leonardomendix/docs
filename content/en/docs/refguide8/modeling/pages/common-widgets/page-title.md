@@ -13,13 +13,13 @@ tags: ["studio pro", "page title", "common widgets"]
 
 ## 1 Introduction
 
-This widget displays a page title of the current page that is set in [page properties](/refguide/page-properties/#title).
+This widget displays a page title of the current page that is set in [page properties](/refguide8/page-properties/#title).
 
 ![Page Title Example](/attachments/refguide8/modeling/pages/common-widgets/page-title/page-title-example.png)
 
 {{% alert type="info" %}}
 
-The page title widget makes it possible to embed the page title in a [layout](/refguide/layout/), as it will show the title of the page that uses the layout.
+The page title widget makes it possible to embed the page title in a [layout](/refguide8/layout/), as it will show the title of the page that uses the layout.
 
 {{% /alert %}}
 
@@ -50,6 +50,6 @@ Page title properties consist of the following sections:
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Common Widgets](/refguide7/common-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [Common Widgets](/refguide8/common-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

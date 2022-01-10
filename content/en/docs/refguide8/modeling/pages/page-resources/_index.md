@@ -16,18 +16,18 @@ The main difference between a page and page resources is that page is an indepen
 
 You can add the following page resources:
 
-* [Image collection](/refguide/image-collection/)
-* [Layout](/refguide/layout/)
-* [Page template](/refguide/page-templates/)
-* [Snippet](/refguide/snippet/)
-* [Building block](/refguide/building-block/) 
-* [Menu](/refguide/menu/)
+* [Image collection](/refguide8/image-collection/)
+* [Layout](/refguide8/layout/)
+* [Page template](/refguide8/page-templates/)
+* [Snippet](/refguide8/snippet/)
+* [Building block](/refguide8/building-block/) 
+* [Menu](/refguide8/menu/)
 
 ## 2 Adding Page Resources
 
 To add a resource document, do the following:
 
-1.  In the [Project Explorer](/refguide/project-explorer/), right-click the module or a folder you want to add a resource to and select **Add other**:
+1.  In the [Project Explorer](/refguide8/project-explorer/), right-click the module or a folder you want to add a resource to and select **Add other**:
 
     ![](/attachments/refguide8/modeling/pages/page-resources/project-explorer-page-resources.png)
 
@@ -35,4 +35,4 @@ To add a resource document, do the following:
 
 ## 3 Read More
 
-* [Pages](/refguide/pages/)
+* [Pages](/refguide8/pages/)

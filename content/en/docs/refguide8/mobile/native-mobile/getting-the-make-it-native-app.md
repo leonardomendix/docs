@@ -12,7 +12,7 @@ The Make It Native app allows developers to preview, test, and debug native mobi
 
 For more information on using the Make It Native app to test an app, see [How To Get Started with Native Mobile](/howto8/mobile/getting-started-with-native-mobile/). For advanced information on debugging with the Make It Native app, see [Debug Native Mobile Apps (Advanced)](/howto8/mobile/native-debug/). If your app will require custom dependencies, such as custom widgets or fonts, see [How to Create a Custom Developer App](/howto8/mobile/how-to-devapps/).
 
-For information on which mobile operating systems are supported by the Make It Native app, see the [Mobile Operating Systems](/refguide/system-requirements/#mobileos) section of *System Requirements*.
+For information on which mobile operating systems are supported by the Make It Native app, see the [Mobile Operating Systems](/refguide8/system-requirements/#mobileos) section of *System Requirements*.
 
 To download the Make It Native app, search for *Make It Native 8* in your device's app store, or select one of the download links below:
 

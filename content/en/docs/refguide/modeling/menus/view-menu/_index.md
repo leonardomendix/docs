@@ -109,7 +109,7 @@ For [Team Server](/developerportal/collaborate/team-server/) app, the **Stories*
 
 ### 3.10 Toolbox {#toolbox}
 
-The **Toolbox** pane displays the tools that can be used in the current editor. For example, in a page you can insert all kinds of widgets (for example, [data containers](/appstore/modules/data-widgets/)) by dragging them from the **Toolbox** onto your page.
+The **Toolbox** pane displays the tools that can be used in the current editor. For example, in a page you can insert all kinds of widgets (for example, [data containers](/refguide/data-widgets/)) by dragging them from the **Toolbox** onto your page.
 
 The **Toolbox** has a tile view showing larger icons and a list view showing a list of elements. You can switch between the tile and list view modes at the bottom-right corner of the **Toolbox**. 
 

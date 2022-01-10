@@ -65,6 +65,6 @@ This property determines the height of the generated thumbnail in pixels. Howeve
 
 ## Related articles
 
-*   [Data view](/refguide/data-view/)
-*   [Entities](/refguide/entities/)
-*   [Associations](/refguide/associations/)
+*   [Data view](/refguide7/data-view/)
+*   [Entities](/refguide7/entities/)
+*   [Associations](/refguide7/associations/)

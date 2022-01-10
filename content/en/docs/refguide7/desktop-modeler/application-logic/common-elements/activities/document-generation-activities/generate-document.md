@@ -13,7 +13,7 @@ This activity can only be used in microflows, not in nanoflows.
 
 ## 1 Introduction
 
-The generate-document microflow action can be used to create a document based on a [template](/refguide/document-templates/).
+The generate-document microflow action can be used to create a document based on a [template](/refguide7/document-templates/).
 
 {{% alert type="info" %}}
 
@@ -22,7 +22,7 @@ Generate document
 
 {{% /alert %}}{{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -41,7 +41,7 @@ The language in which the titles and labels of the document should appear.
 | Option | Description |
 | --- | --- |
 | Current user | Use the language of the current user. |
-| Project default | Use the default language that is specified in the [Project Settings](/refguide/project-settings/). |
+| Project default | Use the default language that is specified in the [Project Settings](/refguide7/project-settings/). |
 | Variable | Use the language stored in the selected variable. The variable should be of type System.Language. |
 
 _Default value:_ Current user
@@ -61,7 +61,7 @@ The document type specifies the type of the generated document.
 
 ### 3.3 Template
 
-Template defines which [document template](/refguide/document-templates/) is used to generate the file. Depending on the template being used one or more arguments need to be specified. For each top-level data grid and data view objects of the correct type need to be passed to the template. The value of the argument can be entered using expressions.
+Template defines which [document template](/refguide7/document-templates/) is used to generate the file. Depending on the template being used one or more arguments need to be specified. For each top-level data grid and data view objects of the correct type need to be passed to the template. The value of the argument can be entered using expressions.
 
 ### 3.4 Override Margins
 

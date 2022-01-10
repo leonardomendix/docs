@@ -43,7 +43,7 @@ To submit a request with Mendix Support, follow these steps:
 1. Click **Submit a request** in the top-right corner of the portal.
 2.  Select an issue from the drop-down menu:
 
-	![](/attachments/developerportal/support//submit-support-request/issue.png)
+	![](/attachments/developerportal/support/submit-support-request/issue.png)
 
 	You can select from the following issues:
 
@@ -76,14 +76,14 @@ To submit a request with Mendix Support, follow these steps:
 		* **App - Other** – any other issues/questions regarding your own app that you are developing on the Mendix Platform
 	* **Developer Platform** – select one of these components when you have issues with the Mendix Platform itself:
 		* **Developer Platform - Account** – issues/questions regarding your Mendix account (for example, when you have difficulties creating an account or signing in)
-		* **Developer Platform - Marketplace** - issues/questions regarding the [Mendix Marketplace](/appstore/) (for example, when you have difficulties uploading new modules to the Marketplace)
+		* **Developer Platform - Marketplace** - issues/questions regarding the  (for example, when you have difficulties uploading new modules to the Marketplace)
 		* **Developer Platform - Sprintr** – issues/questions regarding the [Developer Portal](/developerportal/) (for example, when you cannot create a [story](/developerportal/collaborate/stories/) or start a Sprint)
 		* **Developer Platform - Academy** – issues/questions regarding the [Mendix Academy](https://academy.mendix.com/link/home) (for example, when you cannot open a learning path or you cannot find the attachments required for a module)
 		* **Developer Platform - Forum** – issues/questions regarding the [Mendix Forum](https://forum.mendixcloud.com/index3.html) (for example, when you cannot create a new question or add an answer)
 		* **Developer Platform - Cloud Portal** – issues/questions regarding [deploying in the Developer Portal](/developerportal/deploy/) (for example, when you cannot view your [log](/developerportal/operate/logs/) files or [scale](/developerportal/deploy/scale-environment/) your environment)
-		* **Developer Platform - Data Hub** – issues/questions regarding [Data Hub](/data-hub/) (for example, when you have difficulties accessing the Data Hub Catalog)
+		* **Developer Platform - Data Hub** – issues/questions regarding  (for example, when you have difficulties accessing the Data Hub Catalog)
 		* **Developer Platform - Control Center** - issues/questions regarding  (for example, when you have difficulties deactivating applications from the Control Center) 
-		* **Developer Platform - Studio** - issues/questions regarding [Mendix Studio](/releasenotes/studio/) (for example, when you have difficulties opening Mendix Studio)
+		* **Developer Platform - Studio** - issues/questions regarding  (for example, when you have difficulties opening Mendix Studio)
 		* **Developer Platform - Support Portal** - issues/questions regarding the [Support Portal](https://support.mendix.com/hc) (for example, when you have difficulties creating Support tickets)
 		* **Developer Platform - Other** – any other issues/questions regarding the Mendix Platform itself
 	* **Licensing** – select this component when you have issues/questions regarding your Mendix licenses
@@ -92,7 +92,7 @@ To submit a request with Mendix Support, follow these steps:
 
 The Mendix Support Portal will first suggest relevant documentation for you to read before you submit a request. Based on a complexity check, recommendations might be skipped to improve your experience. This complexity check takes your request priority and other factors into consideration.
 
-![](/attachments/developerportal/support//submit-support-request/recommendations.png)
+![](/attachments/developerportal/support/submit-support-request/recommendations.png)
 
 If investigating the documentation and searching the [Mendix Forum](https://forum.mendixcloud.com/index4.html) does not help you solve your issue, you can submit the Mendix Support request.	
 
@@ -123,7 +123,7 @@ You can set the priority to the following levels:
 
 The [ticket priority](/developerportal/support/ticket-priority/) that Mendix Support validates is based on this matrix:
 
-![](/attachments/developerportal/support//submit-support-request/204371729-pic5.png)
+![](/attachments/developerportal/support/submit-support-request/204371729-pic5.png)
 
 ## 5 Providing Attachments & Additional Information
 
@@ -177,11 +177,11 @@ For Windows Phone, please contact Mendix Support for the current support conditi
 
 By clicking your name in the top-right side of  the screen, you can select **My activities** and see all the requests that you have submitted (**My requests**) as well as all the requests that have been submitted on the apps to which you have access:
 
-![](/attachments/developerportal/support//submit-support-request/activities.png)
+![](/attachments/developerportal/support/submit-support-request/activities.png)
 
 On the **All requests** tab, you can click **Follow** for an app to be informed of all the changes on requests on that specific app:
 
-![](/attachments/developerportal/support//submit-support-request/follow.png)
+![](/attachments/developerportal/support/submit-support-request/follow.png)
 
 ## 7 Viewing & Updating Tickets
 
@@ -200,7 +200,7 @@ The ticket can have the following statuses:
 	* You can close the ticket yourself by checking the box **Please consider this request solved**
 	* The ticket will be closed for comments automatically after a set number of days, after which you can create a follow-up ticket
 
-![](/attachments/developerportal/support//submit-support-request/request.png)
+![](/attachments/developerportal/support/submit-support-request/request.png)
 
 ## 8 Submitting a Feature Request
 

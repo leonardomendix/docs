@@ -8,17 +8,17 @@ parent: "rg-one-ats"
 
 On the configuration page under the **Project** tab you can see the current project settings. You can change the settings and add users or libraries to your project by clicking the **Edit Project Settings** button.
 
-![Configuration Page Project](/attachments/addons/ats-addon//rg-ats/rg-one-ats/rg-one-configuration/21168209.png)
+![Configuration Page Project](/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-configuration/21168209.png)
 
 ## 2 Configure the Selenium Hubs
 
 On the **Selenium** tab, you can see a list of the Selenium hubs that are configured for this project. Project users can run tests on the listed hubs:
 
-![Configuration Selenium Tab](/attachments/addons/ats-addon//rg-ats/rg-one-ats/rg-one-configuration/21168210.png)
+![Configuration Selenium Tab](/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-configuration/21168210.png)
 
 To add a new Selenium hub, click the **New** in the top bar:
 
-![Edit Selenium hub dialog](/attachments/addons/ats-addon//rg-ats/rg-one-ats/rg-one-configuration/21168211.png)
+![Edit Selenium hub dialog](/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-configuration/21168211.png)
 
 In the **Selenium hub** dialog box, you can set the following parameters:
 
@@ -34,11 +34,11 @@ Custom Capabilities | Set the Selenium DesiredCapabilities (for more information
 
 On the **Applications** tab, you can see a list of test applications that are configured for the current project:
 
-![Configuration Applications tab](/attachments/addons/ats-addon//rg-ats/rg-one-ats/rg-one-configuration/21168212.png)
+![Configuration Applications tab](/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-configuration/21168212.png)
 
 You can edit, create, and delete applications by pressing the buttons in the top bar:
 
-![New Application Dialog](/attachments/addons/ats-addon//rg-ats/rg-one-ats/rg-one-configuration/21168213.png)
+![New Application Dialog](/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-configuration/21168213.png)
 
 When creating a new application, you can set the following parameters:
 

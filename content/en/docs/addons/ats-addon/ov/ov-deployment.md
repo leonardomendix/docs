@@ -21,7 +21,7 @@ Every ATS deployment consists of four components: the ATS application, the Mendi
 
 The following diagram illustrates how the components are connected:
 
-![ATS simplified architecture](/attachments/addons/ats-addon//ov/ov-deployment/ATS_architecture_simplified.png)
+![ATS simplified architecture](/attachments/addons/ats-addon/ov/ov-deployment/ATS_architecture_simplified.png)
 
 ### 2.1 Application Test Suite (ATS) Application
 
@@ -47,19 +47,19 @@ There are three deployment options. We recommend the first option, with the SaaS
 
 This option is highly recommended for all customers. It supports all current and future features, is easy to set up, annd is maintenance-free (the SaaS provider takes care of that). It also gets the best support.
 
-![SaaS Selenium Option](/attachments/addons/ats-addon//ov/ov-deployment/deploymentoption_standard.png)
+![SaaS Selenium Option](/attachments/addons/ats-addon/ov/ov-deployment/deploymentoption_standard.png)
 
 ### 3.2 Public App On-Premises
 
 This option is meant for customers who run their app on premises. Since the app runs on premises, it is protected from external access via a firewall. In order to allow the Selenium Runner to access the app, you have to configure your firewall.
 
-![Public app on-premise](/attachments/addons/ats-addon//ov/ov-deployment/deploymentoption_alternative1.png)
+![Public app on-premise](/attachments/addons/ats-addon/ov/ov-deployment/deploymentoption_alternative1.png)
 
 ### 3.3 Private App On-Premises
 
 This option is meant for customers who run their app on premises and who don't want to open their firewall for the Selenium Runner. In order to enable communication between the Selenium Runner and your local application, you have to deploy a Selenium Saas Agent in your local network. This agent will establish a VPN tunnel to your Selenium Service Provider and route all traffic between the Selenium Runner and your application.
 
-![Private app on-premise](/attachments/addons/ats-addon//ov/ov-deployment/deploymentoption_alternative2.png)
+![Private app on-premise](/attachments/addons/ats-addon/ov/ov-deployment/deploymentoption_alternative2.png)
 
 ### 3.4 Customer-Hosted Selenium
 
@@ -69,7 +69,7 @@ This option is meant for customers who run their app on premises and who also wa
 Selenium is an open-source third-party component and there is no active support from Mendix.
 {{% /alert %}}
 
-![Customer hosted Selenium](/attachments/addons/ats-addon//ov/ov-deployment/deploymentoption_alternative3.png)
+![Customer hosted Selenium](/attachments/addons/ats-addon/ov/ov-deployment/deploymentoption_alternative3.png)
 
 Since the Selenium Runner offers fewer features compared to Selenium SaaS Providers, it is not possible to make use of the full ATS feature set.
 
@@ -124,10 +124,10 @@ ATS does not support the uploading of files in every situation. This table prese
 
 | Selenium Setup | Uploading Your Own File | Uploading a File | Uploading Possible? |
 | :-------------- | :---------------------- | :--------------- | :------------------ |
-| Local Selenium Server (Docker) | ![](/attachments/addons/ats-addon//ov/ov-deployment/grey.png) Limited<sup>1</sup> | ![](/attachments/addons/ats-addon//ov/ov-deployment/green.png) Yes | ![](/attachments/addons/ats-addon//ov/ov-deployment/green.png) Yes |
-| BrowserStack (SaaS) | ![](/attachments/addons/ats-addon//ov/ov-deployment/red.png) No | ![](/attachments/addons/ats-addon//ov/ov-deployment/green.png) Yes | ![](/attachments/addons/ats-addon//ov/ov-deployment/green.png) Yes |
-| SauceLabs (SaaS) | ![](/attachments/addons/ats-addon//ov/ov-deployment/red.png) No | ![](/attachments/addons/ats-addon//ov/ov-deployment/red.png) No | ![](/attachments/addons/ats-addon//ov/ov-deployment/red.png) No |
-| Selenium SaaS Agent | ![](/attachments/addons/ats-addon//ov/ov-deployment/grey.png) Limited<sup>2</sup> | ![](/attachments/addons/ats-addon//ov/ov-deployment/green.png) Yes | ![](/attachments/addons/ats-addon//ov/ov-deployment/green.png) Yes |
+| Local Selenium Server (Docker) | ![](/attachments/addons/ats-addon/ov/ov-deployment/grey.png) Limited<sup>1</sup> | ![](/attachments/addons/ats-addon/ov/ov-deployment/green.png) Yes | ![](/attachments/addons/ats-addon/ov/ov-deployment/green.png) Yes |
+| BrowserStack (SaaS) | ![](/attachments/addons/ats-addon/ov/ov-deployment/red.png) No | ![](/attachments/addons/ats-addon/ov/ov-deployment/green.png) Yes | ![](/attachments/addons/ats-addon/ov/ov-deployment/green.png) Yes |
+| SauceLabs (SaaS) | ![](/attachments/addons/ats-addon/ov/ov-deployment/red.png) No | ![](/attachments/addons/ats-addon/ov/ov-deployment/red.png) No | ![](/attachments/addons/ats-addon/ov/ov-deployment/red.png) No |
+| Selenium SaaS Agent | ![](/attachments/addons/ats-addon/ov/ov-deployment/grey.png) Limited<sup>2</sup> | ![](/attachments/addons/ats-addon/ov/ov-deployment/green.png) Yes | ![](/attachments/addons/ats-addon/ov/ov-deployment/green.png) Yes |
 
 <small><sup>1</sup> This is only possible when you prepare your own files on that server.<br />
 <sup>2</sup> This depends on where the agent is installed.</small>

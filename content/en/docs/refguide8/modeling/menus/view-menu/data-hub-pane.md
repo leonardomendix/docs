@@ -13,13 +13,13 @@ tags: ["studio Pro", "data hub", "data hub pane", "data hub catalog"]
 
 ## 1 Introduction 
 
-[Mendix Data Hub](/data-hub/) enables integration of available data sources from the different applications in an organization into your Mendix apps. This means that new apps can be created using shared datasets that are registered in the [Data Hub Catalog](/data-hub/data-hub-catalog/). In Studio Pro, this is possible using the integrated functionality of Data Hub Catalog through the **Data Hub** pane.
+ enables integration of available data sources from the different applications in an organization into your Mendix apps. This means that new apps can be created using shared datasets that are registered in the [Data Hub Catalog](/data-hub/data-hub-catalog/). In Studio Pro, this is possible using the integrated functionality of Data Hub Catalog through the **Data Hub** pane.
 
 {{% alert type="info" %}}
-You need a license to use Data Hub in Studio Pro. For further information see [Data Hub License](/refguide/consumed-odata-service-requirements/#license-limitations).
+You need a license to use Data Hub in Studio Pro. For further information see [Data Hub License](/refguide8/consumed-odata-service-requirements/#license-limitations).
 {{% /alert %}}
 
-You can search in the Data Hub Catalog through the **Data Hub** pane to discover data sources that you can use in your project. Via this pane you can add the entities that are exposed in the registered OData services—called **Data Sources** in Data Hub—into your app's domain model. These entities are called [external entities](/refguide/external-entities/) and are different because they enable the connection to the data associated with the entities in the originating app.
+You can search in the Data Hub Catalog through the **Data Hub** pane to discover data sources that you can use in your project. Via this pane you can add the entities that are exposed in the registered OData services—called **Data Sources** in Data Hub—into your app's domain model. These entities are called [external entities](/refguide8/external-entities/) and are different because they enable the connection to the data associated with the entities in the originating app.
 
 {{% alert type="info" %}}
 In the Data Hub Catalog, registered published services are referred to as *data sources* and exposed entities will show the **Entity set** name and are called *datasets.*
@@ -43,7 +43,7 @@ The following functionality is available in the pane:
 
 * [Filter](#search) – By default, the search will be performed on assets in the **Production** environment. Click the **Filter** icon to  **Show development environments** such as **Test**, **Acceptance**, and the Mendix Free App environment **Sandbox** in the search.
 
-* [Search results](#viewing) – The search results displays all elements in the catalog that satisfy the search string. For each "hit" the information that is displayed includes the service name, service version, environment that the service was deployed to, and the elements matching the search string. If attributes or associations satisfy the search criteria, they are displayed. You can drag from the search results into your domain model and they are displayed as [external entities](/refguide/external-entities/):
+* [Search results](#viewing) – The search results displays all elements in the catalog that satisfy the search string. For each "hit" the information that is displayed includes the service name, service version, environment that the service was deployed to, and the elements matching the search string. If attributes or associations satisfy the search criteria, they are displayed. You can drag from the search results into your domain model and they are displayed as [external entities](/refguide8/external-entities/):
 
 ![](/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/external-entity.png)
 
@@ -55,7 +55,7 @@ When no search string has been specified in the **Data Hub** pane, the **Project
 
 {{% image_container width="300" %}}![Project Section](/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/project-section.png){{% /image_container %}}
 
-To add entities to your project model, see [Adding an External Entity to a Project](/refguide/external-entities/#adding-external-entities).
+To add entities to your project model, see [Adding an External Entity to a Project](/refguide8/external-entities/#adding-external-entities).
 
 ## 3 Searching the Data Hub Catalog {#search}
 
@@ -100,7 +100,7 @@ The search results and Project pane will show the following at a service level:
   {{% image_container width="250" %}}![info on a Service](/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/data-hub-pane-menu.png){{% /image_container %}}
 
   * **View in Data Hub Catalog** – click this to go to the **Data Source Details** page in the Data Hub Catalog
-  * **Go to connection settings** – click this to open the [consumed OData service](/refguide/consumed-odata-service/) document
+  * **Go to connection settings** – click this to open the [consumed OData service](/refguide8/consumed-odata-service/) document
 
 *  **Blue** **Update Service** icon to indicate that there is another version of the consumed service available in the Data Hub. Click to update the service that is consumed in the project to the contract that is now available:
 
@@ -150,6 +150,6 @@ In the above example, there are two attributes, **Addresses** and **FavoriteColo
 ##  5 Read More
 
 * [Data Hub Catalog](/data-hub/data-hub-catalog/)
-* [External Entities](/refguide/external-entities/)
-* [Consumed OData Service](/refguide/consumed-odata-service/)
+* [External Entities](/refguide8/external-entities/)
+* [Consumed OData Service](/refguide8/consumed-odata-service/)
 * [How to Consume Registered Assets](/data-hub/data-hub-catalog/consume/)

@@ -17,7 +17,7 @@ To configure the app security, open **App Explorer** > **App** > **Security**, a
 ![](/attachments/refguide/modeling/menus/view-menu/project-explorer/security/project-security/project-security-dialog.png)
 
 {{% alert type="info" %}}
-For more general information on security, see [Security](/data-hub/data-hub-catalog/security/).
+For more general information on security, see [Security](/refguide/security/).
 {{% /alert %}}
 
 ## 2 Security Level {#security-level}
@@ -94,5 +94,5 @@ Specify the password requirements when users create their accounts and set passw
 
 ## 9 Read More
 
-* [Security](/data-hub/data-hub-catalog/security/)
+* [Security](/refguide/security/)
 * [Module Security](/refguide/module-security/)

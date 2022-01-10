@@ -54,7 +54,7 @@ Widgets have the ability to get data from the Runtime, manipulate objects, show 
 
 Mendix has a specific way of configuring your widget through the use of an XML file. For more information and an example, see [WidgetName](https://github.com/mendix/AppStoreWidgetBoilerplate/blob/master/src/WidgetName/WidgetName.xml) in the AppStoreWidgetBoilerplate repository.
 
-For the full reference on writing a widget XML, see the [Build Widgets with XML](/howto7/widget-development/use-xml-widget/).
+For the full reference on writing a widget XML, see the [Build Widgets with XML](/howto8/extensibility/use-xml-widget/).
 
 ### 3.6 Boilerplate
 
@@ -68,7 +68,7 @@ This category of how-to's presents in-depth information on how to build your own
 
 Most of the widgets in the [Mendix Marketplace](https://marketplace.mendix.com/) are open-source and available on GitHub. You can find the **View on GitHub** link on the right side of the Marketplace screen:
 
-![](/attachments/howto8/extensibility//widget-development/appstore-github-link.png)
+![](/attachments/howto8/extensibility/widget-development/appstore-github-link.png)
 
 ### 4.2 Learn by Doing
 
@@ -82,5 +82,5 @@ Within the Mendix community of developers, there are plenty of widget developers
 
 ## 5 Main Documents in This Category
 
-* [Build a Preview Image for a Custom Widget](/howto7/widget-development/add-a-preview-image-for-custom-widget/)
-* [Build Widgets with XML](/howto7/widget-development/use-xml-widget/)
+* [Build a Preview Image for a Custom Widget](/howto8/extensibility/add-a-preview-image-for-custom-widget/)
+* [Build Widgets with XML](/howto8/extensibility/use-xml-widget/)

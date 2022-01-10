@@ -84,4 +84,4 @@ For every request to the Mendix Runtime—be it from the client or via web servi
 
 ## 6 Read More
 
-*   [Java Memory Usage](/refguide/java-memory-usage/)
+*   [Java Memory Usage](/refguide7/java-memory-usage/)

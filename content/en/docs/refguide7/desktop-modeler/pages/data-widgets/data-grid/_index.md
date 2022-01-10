@@ -32,7 +32,7 @@ This property indicates whether the control bar buttons will be visible in the e
 
 {{% alert type="warning" %}}
 
-Even if the control bar buttons are invisible, there can still be a default button that is triggered by (double) clicking a row. For more information, see the property [Default Button Trigger](#dbt) and [Data Grid Buttons](/refguide/control-bar/).
+Even if the control bar buttons are invisible, there can still be a default button that is triggered by (double) clicking a row. For more information, see the property [Default Button Trigger](#dbt) and [Data Grid Buttons](/refguide7/control-bar/).
 
 {{% /alert %}}
 
@@ -97,24 +97,24 @@ _Default value:_ 0
 
 #### Tooltip Page
 
-A tooltip page is a page that appears when you hover your mouse over a row. The tooltip page should consist of a data view on the same entity as the data grid. Besides creating and connecting a tooltip page you also have to specify on which columns the tooltip will appear. See the property 'Show tooltip' of [data grid columns](/refguide/columns/).
+A tooltip page is a page that appears when you hover your mouse over a row. The tooltip page should consist of a data view on the same entity as the data grid. Besides creating and connecting a tooltip page you also have to specify on which columns the tooltip will appear. See the property 'Show tooltip' of [data grid columns](/refguide7/columns/).
 
 ### Data Source Properties
 
-The data source determines which objects will be shown in the data grid. For general information about data sources, see [Data Sources](/refguide/data-sources/).
+The data source determines which objects will be shown in the data grid. For general information about data sources, see [Data Sources](/refguide7/data-sources/).
 
 #### Type
 
-The data grid supports the following types of data sources: [Database Source](/refguide/database-source/), [XPath Source](/refguide/xpath-source/), [Association Source](/refguide/association-source/), [Microflow Source](/refguide/microflow-source/). The database and XPath sources retrieve objects from the database and supports searching and sorting. The database source can also be used in [offline](/refguide7/offline/) applications. The association source follows an association from the enclosing data view to get to the objects. Finally, the microflow source calculates the list of objects by executing a microflow.
+The data grid supports the following types of data sources: [Database Source](/refguide7/database-source/), [XPath Source](/refguide7/xpath-source/), [Association Source](/refguide7/association-source/), [Microflow Source](/refguide7/microflow-source/). The database and XPath sources retrieve objects from the database and supports searching and sorting. The database source can also be used in [offline](/refguide7/offline/) applications. The association source follows an association from the enclosing data view to get to the objects. Finally, the microflow source calculates the list of objects by executing a microflow.
 
 #### Other Properties
 
 See the corresponding data source for its properties:
 
-*   [Database source](/refguide/database-source/)
-*   [XPath source](/refguide/xpath-source/)
-*   [Microflow source](/refguide/microflow-source/)
-*   [Association source](/refguide/association-source/)
+*   [Database source](/refguide7/database-source/)
+*   [XPath source](/refguide7/xpath-source/)
+*   [Microflow source](/refguide7/microflow-source/)
+*   [Association source](/refguide7/association-source/)
 
 ### Visibility Properties
 
@@ -225,7 +225,7 @@ If you choose 'Custom' as the date format (see above) the custom date format det
 
 ##### Caption
 
-The caption of a column is the text that appears as a header above the rows. This is a translatable text. See [Translatable Texts](/refguide/translatable-texts/).
+The caption of a column is the text that appears as a header above the rows. This is a translatable text. See [Translatable Texts](/refguide7/translatable-texts/).
 
 ##### Editable
 
@@ -252,7 +252,7 @@ Note that all objects will be taken into account, and not just the ones on the c
 
 ##### Aggregate Caption
 
-The aggregate caption is the text that appears in front of the computed value. This is a translatable text. See [Translatable Texts](/refguide/translatable-texts/).
+The aggregate caption is the text that appears in front of the computed value. This is a translatable text. See [Translatable Texts](/refguide7/translatable-texts/).
 
 {{% alert type="info" %}}
 
@@ -270,16 +270,16 @@ _Default value:_ False
 
 The control bar of the template grid, data grid, and reference set selector allows you to manipulate the objects displayed by means of buttons. By default, both grids will be created with a new, edit, and delete button in the control bar. The control bar can also include a number of selection options and spreadsheet export buttons, as well as microflow buttons for custom actions.
 
-See [Control Bar](/refguide/control-bar/).
+See [Control Bar](/refguide7/control-bar/).
 
 ### Search Bar (for the Database and XPath Data Source Types)
 
 The search bar contains search fields that allow the end-user to quickly find the information he or she needs.
 
-See [Search Bar](/refguide/search-bar/).
+See [Search Bar](/refguide7/search-bar/).
 
 ### Sort Bar (for the Database and XPath Data Source Types)
 
 The sort bar contains a number of sort items. Each sort item specifies what attribute to sort on and in what direction (ascending or descending). First the contents of the grid will be sorted on the first item; if two rows are the same with respect to this sort item the second item will be used et cetera. For example, if you have sort items for name and age and two people have the same name they will be sorted on their age.
 
-See [Sort Bar](/refguide/sort-bar/).
+See [Sort Bar](/refguide7/sort-bar/).

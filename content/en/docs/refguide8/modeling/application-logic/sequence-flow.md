@@ -20,4 +20,4 @@ When you have two activities that you want to link together a sequence flow is u
 
 ## 2 Condition Value
 
-The **Condition value** describes which direction should be followed based on the outcome of a [decision](/refguide/decision/) or an [object type decision](/refguide/object-type-decision/).
+The **Condition value** describes which direction should be followed based on the outcome of a [decision](/refguide8/decision/) or an [object type decision](/refguide8/object-type-decision/).

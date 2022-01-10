@@ -21,7 +21,7 @@ Collaborative development allows users to share model changes with each other. T
 
 ## 2 Concepts
 
-For concepts and definitions, see section [2 Concepts](/refguide/version-control/#concepts) in *Version Control*. 
+For concepts and definitions, see section [2 Concepts](/refguide7/version-control/#concepts) in *Version Control*. 
 
 ## 3 The Web Modeler Is Out of Sync {#out-of-sync}
 
@@ -90,5 +90,5 @@ You can do one of the following:
 
 ## 7 Read More
 
-* [Version Control](/refguide/version-control/) 
+* [Version Control](/refguide7/version-control/) 
 * [Collaborative Development in the Web Modeler](/studio7/general-collaborative-development/)

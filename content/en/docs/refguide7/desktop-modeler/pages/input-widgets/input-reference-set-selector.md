@@ -6,12 +6,12 @@ parent: "input-widgets"
 ---
 
 
-The input reference set selector is an [input widget](/refguide/input-widgets/) that can be used to display and edit [associations](/refguide/associations/) for which the multiplicity setting is configured to allow multiple parent objects to associate with multiple children. This type of association is also known as a reference set.
+The input reference set selector is an [input widget](/refguide7/input-widgets/) that can be used to display and edit [associations](/refguide7/associations/) for which the multiplicity setting is configured to allow multiple parent objects to associate with multiple children. This type of association is also known as a reference set.
 
 {{% alert type="info" %}}
 
 ![](/attachments/refguide7/desktop-modeler/pages/input-widgets/input-reference-set-selector/16844008.jpg)
-The multiplicity settings of an association can be found by double-clicking the association in the [domain model](/refguide/domain-model/).
+The multiplicity settings of an association can be found by double-clicking the association in the [domain model](/refguide7/domain-model/).
 
 {{% /alert %}}{{% alert type="info" %}}
 
@@ -104,4 +104,4 @@ The page has displays a reference selector for the reference to country and an i
 
 ## Read More
 
-*   [Data view](/refguide/data-view/)
+*   [Data view](/refguide7/data-view/)

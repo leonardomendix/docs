@@ -13,11 +13,11 @@ tags: ["domain model", "entity", "entities", "attribute", "external entities", "
 
 ## 1 Introduction
 
-External entities connect to the data for shared data sources that are available through [Mendix Data Hub](/data-hub/). These external entities represent the link to the datasets that are maintained and stored in the external applications. You can integrate or *consume* external entities in your project and use them with local entities to create an app that uses the shared datasets. This dataset that the external entity connects to will be updated as it is changed in the source application. 
+External entities connect to the data for shared data sources that are available through . These external entities represent the link to the datasets that are maintained and stored in the external applications. You can integrate or *consume* external entities in your project and use them with local entities to create an app that uses the shared datasets. This dataset that the external entity connects to will be updated as it is changed in the source application. 
 
 This means that several properties of the external entities are determined in their originating app and cannot be changed in your project. 
 
-External entities are added to the domain model through the [Data Hub pane](/refguide/data-hub-pane/) and are displayed as *purple* entity containers in the domain model. 
+External entities are added to the domain model through the [Data Hub pane](/refguide8/data-hub-pane/) and are displayed as *purple* entity containers in the domain model. 
 
 {{% alert type="info" %}}
 A license is required to use Mendix Data Hub and connect to external data sources through consumed OData services in your apps.
@@ -43,12 +43,12 @@ To add an external entity to your project, do the following:
 If you drag an entity that is associated with an entity from the same service already in your domain model, the association will be established between the entities. For more information on associations between external entities, see [Associations](#properties).
 {{% /alert %}}
 
-When an external entity is added to the domain model, two documents will be added in the **Project Explorer**: the **Consumed OData Service** document containing the metadata for the consumed entity, and the **OData Location** of the dataset. For more information, see [Consumed OData Service](/refguide/consumed-odata-service/). 
+When an external entity is added to the domain model, two documents will be added in the **Project Explorer**: the **Consumed OData Service** document containing the metadata for the consumed entity, and the **OData Location** of the dataset. For more information, see [Consumed OData Service](/refguide8/consumed-odata-service/). 
 
 In the **Project Section** of the **Data hub** pane the consumed entities that are in the current project will be listed. 
 
 {{% alert type="info" %}}
-If there is a newer version of a consumed service becomes available in the Data Hub Catlog, this will be indicated in the **Data Hub** pane by an update arrow against the service name. For more information, see the [Updating or Switching a Consumed OData Service](/refguide/consumed-odata-service/#updating) section in *Consumed OData Service*.
+If there is a newer version of a consumed service becomes available in the Data Hub Catlog, this will be indicated in the **Data Hub** pane by an update arrow against the service name. For more information, see the [Updating or Switching a Consumed OData Service](/refguide8/consumed-odata-service/#updating) section in *Consumed OData Service*.
 {{% /alert %}}
 
 You can make local changes to the properties of external entities that only affect how the data is used and presented in the consuming app. All other properties are defined in the source application and cannot be changed. When multiple external entities from the same OData service are used in a module or app, associations between the entities (made in the source app) will automatically be made in the local module.
@@ -75,9 +75,9 @@ This tab displays the general properties of the external entity. The values that
 
 ### 2.2 Attributes {#attributes}
 
-The [attributes](/refguide/attributes/) that have been exposed in the OData service for the external entity are listed here. All changes that are made to the attributes and the attribute list are applied to the local instance of the entity. As they are consumed, these changes will not affect the metadata of the consumed service that the entity is exposed in or the attributes of the entity in the originating app.
+The [attributes](/refguide8/attributes/) that have been exposed in the OData service for the external entity are listed here. All changes that are made to the attributes and the attribute list are applied to the local instance of the entity. As they are consumed, these changes will not affect the metadata of the consumed service that the entity is exposed in or the attributes of the entity in the originating app.
 
-{{% alert type="info" %}}In the [Data Hub Pane](/refguide/data-hub-pane/#association-attributes) the associations and attributes that are not supported in your Mendix model are shown as non-selectable (gray) and will not be included when you drag them into the domain model or be included in the entity properties. For more information see [Data Hub Pane](/refguide/data-hub-pane/#association-attributes).{{% /alert %}}
+{{% alert type="info" %}}In the [Data Hub Pane](/refguide8/data-hub-pane/#association-attributes) the associations and attributes that are not supported in your Mendix model are shown as non-selectable (gray) and will not be included when you drag them into the domain model or be included in the entity properties. For more information see [Data Hub Pane](/refguide8/data-hub-pane/#association-attributes).{{% /alert %}}
 
 The following operations can be done on the displayed attribute list:
 
@@ -100,7 +100,7 @@ The **Edit Attribute** box can be used for specifying a local name for the attri
 
 ### 2.3 Associations {#associations}
 
-This tab displays the associations that the external entity has with other entities that are exposed in the same service and also any associations that have been made with local entities. For further details on association properties in Studio Pro see [Association Tab Properties](/refguide/association-member-properties/). 
+This tab displays the associations that the external entity has with other entities that are exposed in the same service and also any associations that have been made with local entities. For further details on association properties in Studio Pro see [Association Tab Properties](/refguide8/association-member-properties/). 
 
 ![Edit attributes](/attachments/refguide8/modeling/domain-model/external-entities/external-entity-associations.png)
 

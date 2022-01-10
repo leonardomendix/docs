@@ -27,7 +27,7 @@ Scheduled events can be tested locally, but they will not be run if your app is 
 
 | Property | Description |
 | --- | --- |
-| Microflow | The microflow that is executed when the scheduled event is executed. It should have no parameters and run with all rights (see [Microflow](/refguide/microflow/)). |
+| Microflow | The microflow that is executed when the scheduled event is executed. It should have no parameters and run with all rights (see [Microflow](/refguide7/microflow/)). |
 | Enabled | The microflow is only executed if the scheduled event is enabled. This setting only applies when running from the Modeler or from Eclipse. On production environments, scheduled events are enabled/disabled via the appropriate tools (Developer Portal, Windows Service Console, etc.). |
 
 ## Timing Properties

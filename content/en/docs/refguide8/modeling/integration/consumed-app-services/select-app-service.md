@@ -10,7 +10,7 @@ tags: ["studio pro"]
 {{% /alert %}}
 
 {{% alert type="info" %}}
-App services are deprecated and were removed in Studio Pro 9. Use a [consumed web service](/refguide/consumed-web-services/) to consume existing app services.
+App services are deprecated and were removed in Studio Pro 9. Use a [consumed web service](/refguide8/consumed-web-services/) to consume existing app services.
 {{% /alert %}}
 
 ## Source
@@ -29,4 +29,4 @@ In the rightmost corner of the 'Most recent app services overview', you can sele
 
 ### Tile
 
-Selecting a tile and then selecting the OK button will import the app service for you in Studio Pro. See [Consumed App Services](/refguide7/consumed-app-services/) for information about the use of imported app services.
+Selecting a tile and then selecting the OK button will import the app service for you in Studio Pro. See [Consumed App Services](/refguide8/consumed-app-services/) for information about the use of imported app services.

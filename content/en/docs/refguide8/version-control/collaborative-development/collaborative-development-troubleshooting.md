@@ -13,7 +13,7 @@ Collaborative development allows users to share model changes with each other. T
 
 ## 2 Concepts
 
-For concepts and definitions, see the [Concepts](/refguide/version-control/#concepts) section in *Version Control*. 
+For concepts and definitions, see the [Concepts](/refguide8/version-control/#concepts) section in *Version Control*. 
 
 ## 3 Studio Is Out of Sync {#out-of-sync}
 
@@ -82,5 +82,5 @@ You can do one of the following:
 
 ## 7 Read More
 
-* [Version Control](/refguide/version-control/) 
+* [Version Control](/refguide8/version-control/) 
 * [Collaborative Development in Studio](/studio8/collaborative-development/)

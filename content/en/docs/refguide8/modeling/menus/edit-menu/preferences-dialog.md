@@ -26,7 +26,7 @@ When enabled, **Project Explorer** automatically highlights the document that is
 
 #### 2.2.1 Enable MxAssist Logic Bot
 
-If **Enable MxAssist Logic Bot** is checked, then [Mx Assist Logic Bot](/refguide/mx-assist-studio-pro/) is activated and can offer suggestions for activities in your microflows.
+If **Enable MxAssist Logic Bot** is checked, then [Mx Assist Logic Bot](/refguide8/mx-assist-studio-pro/) is activated and can offer suggestions for activities in your microflows.
 
 #### 2.2.2 Show Suggestions for System Variables
 
@@ -66,7 +66,7 @@ This setting defines the default response to the question whether to automatical
 
 #### 4.1.1 Executable
 
-This is the path and name of the program that is used to view the details of file changes in the [Commit dialog box](/refguide/commit-dialog/).
+This is the path and name of the program that is used to view the details of file changes in the [Commit dialog box](/refguide8/commit-dialog/).
 
 #### 4.1.2 Argument Pattern
 
@@ -97,19 +97,19 @@ You need to restart Studio Pro for changes to these settings to take effect.
 
 ### 6.1 New Version of the Changes Pane {#new-changes}
 
-With this option, you can enable the new version of the [Changes](/refguide/changes-pane/) pane. Should you find any issues in the new version, you can switch back to the old version by clearing this check box.
+With this option, you can enable the new version of the [Changes](/refguide8/changes-pane/) pane. Should you find any issues in the new version, you can switch back to the old version by clearing this check box.
 
 Default: *enabled*
 
 ### 6.2 New Version of the Connector {#new-connector}
 
-With this option, you can enable the new version of the [Connector](/refguide/view-menu/#connector). Should you find any issues in the new version, you can switch back to the old version by clearing this check box.
+With this option, you can enable the new version of the [Connector](/refguide8/view-menu/#connector). Should you find any issues in the new version, you can switch back to the old version by clearing this check box.
 
 Default: *disabled*
 
 ### 6.3 New Version of the Project Explorer {#new-project-explorer}
 
-With this option, you can enable the new version of the [Project Explorer](/refguide/project-explorer/). Should you find any issues in the new version, you can switch back to the old version by clearing this check box.
+With this option, you can enable the new version of the [Project Explorer](/refguide8/project-explorer/). Should you find any issues in the new version, you can switch back to the old version by clearing this check box.
 
 Default: *enabled*
 
@@ -121,5 +121,5 @@ Default: *enabled*
 
 ## 7 Read More
 
-* [Upload to Version Control Server](/refguide/upload-to-version-control-dialog/)
+* [Upload to Version Control Server](/refguide8/upload-to-version-control-dialog/)
 * [How to Work with an On-Premises Version Control Server](/howto8/collaboration-requirements-management/on-premises-svn-howto/)

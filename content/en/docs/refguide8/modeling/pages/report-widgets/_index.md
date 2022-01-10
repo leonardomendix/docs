@@ -19,19 +19,19 @@ With report widgets, you can create reports from the database data. Reporting is
 
 The **Report widgets** category contains the following widgets:
 
-* [Report grid](/refguide/report-grid/) – displays data in a form of a table; the data for the reporting widgets is provided by a [Data set](/refguide/data-sets/)
+* [Report grid](/refguide8/report-grid/) – displays data in a form of a table; the data for the reporting widgets is provided by a [Data set](/refguide8/data-sets/)
 
     ![Example report grid](/attachments/refguide8/modeling/pages/report-widgets/report-grid-example.png)
 
-* [Report parameter](/refguide/report-parameter/) – allows the end-user to specify a parameter of a [Data set](/refguide/data-sets/) that is then used for filtering the data displayed in a report
+* [Report parameter](/refguide8/report-parameter/) – allows the end-user to specify a parameter of a [Data set](/refguide8/data-sets/) that is then used for filtering the data displayed in a report
 
     ![Example report parameter](/attachments/refguide8/modeling/pages/report-widgets/report-parameter-example.png)
 
-* [Report date parameter](/refguide/report-date-parameter/) – allows the end-user to specify the DateTime parameter of a [data set](/refguide/data-sets/), which is then used for filtering the data displayed in a report
+* [Report date parameter](/refguide8/report-date-parameter/) – allows the end-user to specify the DateTime parameter of a [data set](/refguide8/data-sets/), which is then used for filtering the data displayed in a report
 
     ![Example report date parameter](/attachments/refguide8/modeling/pages/report-widgets/report-date-parameter-example.png)
 
-* [Generate report button](/refguide/report-button/) – generates a report when the end-user clicks the button
+* [Generate report button](/refguide8/report-button/) – generates a report when the end-user clicks the button
 
     ![Example generate report button](/attachments/refguide8/modeling/pages/report-widgets/generate-report-button-example.png)
 
@@ -42,5 +42,5 @@ The **Report widgets** category contains the following widgets:
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Pages](/refguide/pages/)
+* [Page](/refguide8/page/)
+* [Pages](/refguide8/pages/)

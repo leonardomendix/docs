@@ -15,7 +15,7 @@ Use the **Download from Version Control Server** dialog box to download an app f
 
 {{% alert type="info" %}}
 
-You can use the [Open App](/refguide/open-app-dialog/) dialog box to download and open an app from Team Server. However, you will need to use this option if you want to download a second copy of an app (and development line) you already have on disk.
+You can use the [Open App](/refguide7/open-app-dialog/) dialog box to download and open an app from Team Server. However, you will need to use this option if you want to download a second copy of an app (and development line) you already have on disk.
 
 {{% /alert %}}
 
@@ -31,9 +31,9 @@ In the **Team Server App** drop-down list, select the Team Server app you wish t
 
 ![](/attachments/refguide7/desktop-modeler/dialogs/download-from-version-control-dialog/download-from-version-control-server.png)
 
-For more information about the Mendix Team Server, see [Team Server](/developerportal/collaborate/team-server/).
+For more information about the Mendix Team Server, see [Team Server](/refguide7/team-server/).
 
-For more information about development lines, see [Version Control Concepts](/refguide/version-control/).
+For more information about development lines, see [Version Control Concepts](/refguide7/version-control/).
 
 ### 2.2 Private Server
 
@@ -43,7 +43,7 @@ In the **App repository address** field, enter the repository address of the app
 
 {{% alert type="info" %}}
 
-This option is only available when support for other servers is enabled in the [Preferences](/refguide/preferences-dialog/#enabled) dialog box.
+This option is only available when support for other servers is enabled in the [Preferences](/refguide7/preferences-dialog/#enabled) dialog box.
 
 {{% /alert %}}
 

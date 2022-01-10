@@ -11,11 +11,11 @@ description: "Presents an overview of all the elements that can be used in a nan
 
 {{% alert type="info" %}}
 
-This page is an overview of all the elements that can be used in a nanoflow. For the properties of the nanoflow itself, see [Nanoflow Properties](/refguide/nanoflow/).
+This page is an overview of all the elements that can be used in a nanoflow. For the properties of the nanoflow itself, see [Nanoflow Properties](/refguide7/nanoflow/).
 
 {{% /alert %}}
 
-Nanoflows are similar to [microflows](/refguide/microflows/), as they allow you to express the logic of your application. However, they do have some specific benefits (for example, they run directly on the browser/device and can be used in an offline app). Furthermore, most of the actions run directly on the device, so there is also a speed benefit.
+Nanoflows are similar to [microflows](/refguide7/microflows/), as they allow you to express the logic of your application. However, they do have some specific benefits (for example, they run directly on the browser/device and can be used in an offline app). Furthermore, most of the actions run directly on the device, so there is also a speed benefit.
 
 ## 2 When to Use Nanoflows
 
@@ -85,10 +85,10 @@ Events represent the start and end points of a nanoflow and special operations i
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](start-event) | [Start event](/refguide/start-event/) | The starting point of the nanoflow. A nanoflow can only have one start event. |
-| ](end-event) | [End event](/refguide/end-event/) | Defines the location where the nanoflow will stop. Depending on the return type of the nanoflow, in some cases a value must be specified. There can be more than one end event. |
-| ](continue-event) | [Continue event](/refguide/continue-event/) | Used to stop the current iteration of a loop and continue with the next iteration. Please note that continue events can only be used inside a [loop](/refguide/loop/). |
-| ](break-event) | [Break Event](/refguide/break-event/) | Used to stop iterating over the list of objects and to continue with the rest of the flow after the loop. Please note that break events can only be used inside a [loop](/refguide/loop/). |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917902.png)](/refguide7/start-event/) | [Start event](/refguide7/start-event/) | The starting point of the nanoflow. A nanoflow can only have one start event. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918113.png)](/refguide7/end-event/) | [End event](/refguide7/end-event/) | Defines the location where the nanoflow will stop. Depending on the return type of the nanoflow, in some cases a value must be specified. There can be more than one end event. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918115.png)](/refguide7/continue-event/) | [Continue event](/refguide7/continue-event/) | Used to stop the current iteration of a loop and continue with the next iteration. Please note that continue events can only be used inside a [loop](/refguide7/loop/). |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918026.png)](/refguide7/break-event/) | [Break Event](/refguide7/break-event/) | Used to stop iterating over the list of objects and to continue with the rest of the flow after the loop. Please note that break events can only be used inside a [loop](/refguide7/loop/). |
 
 ### 5.2 Flows<a name="flows"></a>
 
@@ -96,8 +96,8 @@ Flows form the connection between elements.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](sequence-flow) | [Sequence flow](/refguide/sequence-flow/) | An arrow that links events, activities, splits, and merges with each other. Together they define the order of execution within a nanoflow. |
-| ](annotation-flow) | [Annotation flow](/refguide7/annotation-flow/) | A connection that can be used to connect an annotation to another element. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917883.png)](/refguide7/sequence-flow/) | [Sequence flow](/refguide7/sequence-flow/) | An arrow that links events, activities, splits, and merges with each other. Together they define the order of execution within a nanoflow. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917688.png)](/refguide7/annotation-flow/) | [Annotation flow](/refguide7/annotation-flow/) | A connection that can be used to connect an annotation to another element. |
 
 ### 5.3 Gateways<a name="gateways"></a>
 
@@ -105,8 +105,8 @@ Gateways deal with making choices and merging different paths.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](exclusive-split) | [Exclusive split](/refguide7/exclusive-split/) | Makes a decision based on a condition and follows one and only one of the outgoing flows. Please note that there is no parallell execution in nanoflows. |
-| ](merge) | [Merge](/refguide/merge/) | Can be used to combine multiple sequence flows into one. If a choice is made in a nanoflow and afterwards some common work needs to be done, you can combine the two (or more) paths using a merge. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917726.png)](/refguide7/exclusive-split/) | [Exclusive split](/refguide7/exclusive-split/) | Makes a decision based on a condition and follows one and only one of the outgoing flows. Please note that there is no parallell execution in nanoflows. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918116.png)](/refguide7/merge/) | [Merge](/refguide7/merge/) | Can be used to combine multiple sequence flows into one. If a choice is made in a nanoflow and afterwards some common work needs to be done, you can combine the two (or more) paths using a merge. |
 
 ### 5.4 Activities<a name="activities"></a>
 
@@ -114,15 +114,15 @@ Activities are the actions that are executed in a nanoflow.
 
 #### 5.4.1 Object Activitities
 
-Object activities can be used to create and manipulate objects. The [domain model](/refguide/domain-model/) defines the object types ([entities](/refguide/entities/)) that can be used.
+Object activities can be used to create and manipulate objects. The [domain model](/refguide7/domain-model/) defines the object types ([entities](/refguide7/entities/)) that can be used.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](change-object) | [Change object](/refguide/change-object/) | Can be used to change the members of an object. This can be done with or without commiting. |
-| ](committing-objects) | [Commit object(s)](/refguide/committing-objects/) | Can be used to commit the changes to one or more objects. |
-| ](create-object) | [Create object](/refguide/create-object/) | Can be used to create an object. |
-| ](retrieve) | [Retrieve](/refguide/retrieve/) | Can be used to get one (or more) associated objects of another object. The activity can also get one (or more) objects directly from the database. |
-| ](rollback-object) | [Rollback object](/refguide/rollback-object/) | Can be used to undo the changes (that have not been committed) made to the object in the part of the nanoflow preceding the activity. This also deletes objects that have been created but never committed. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917661.png)](/refguide7/change-object/) | [Change object](/refguide7/change-object/) | Can be used to change the members of an object. This can be done with or without commiting. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/17661961.png)](/refguide7/committing-objects/) | [Commit object(s)](/refguide7/committing-objects/) | Can be used to commit the changes to one or more objects. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917756.png)](/refguide7/create-object/) | [Create object](/refguide7/create-object/) | Can be used to create an object. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917866.png)](/refguide7/retrieve/) | [Retrieve](/refguide7/retrieve/) | Can be used to get one (or more) associated objects of another object. The activity can also get one (or more) objects directly from the database. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918119.png)](/refguide7/rollback-object/) | [Rollback object](/refguide7/rollback-object/) | Can be used to undo the changes (that have not been committed) made to the object in the part of the nanoflow preceding the activity. This also deletes objects that have been created but never committed. |
 
 #### 5.4.2 List Activitities
 
@@ -130,8 +130,8 @@ List activities can be used to create and manipulate lists of objects.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](change-list) | [Change list](/refguide/change-list/) | Can be used to change the content of a list variable. |
-| ](create-list) | [Create list](/refguide/create-list/) | Can be used to create a (empty) list variable. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918007.png)](/refguide7/change-list/) | [Change list](/refguide7/change-list/) | Can be used to change the content of a list variable. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918009.png)](/refguide7/create-list/) | [Create list](/refguide7/create-list/) | Can be used to create a (empty) list variable. |
 
 #### 5.4.3 Variable Activities
 
@@ -139,8 +139,8 @@ Variable activities can be used to create or change a variable within a microflo
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](change-variable) | [Change variable](/refguide/change-variable/) | Can be used to change the value of a variable. |
-| ](create-variable) | [Create variable](/refguide/create-variable/) | Can be used to create a new variable. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918011.png)](/refguide7/change-variable/) | [Change variable](/refguide7/change-variable/) | Can be used to change the value of a variable. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918110.png)](/refguide7/create-variable/) | [Create variable](/refguide7/create-variable/) | Can be used to create a new variable. |
 
 #### 5.4.4 Client Activities
 
@@ -148,15 +148,15 @@ Client activities can be used to have the web client of your application perform
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](close-page) | [Close page](/refguide/close-page/) | Closes the page that is opened last by the user that calls the microflow in which this activity is used. |
-| ](show-page) | [Show page](/refguide/show-page/) | Can be used to show a page to the user that calls the microflow in which this activity is used. |
-| ](validation-feedback) | [Validation feedback](/refguide/validation-feedback/) | Can be used to display red text below a widget that displays an attribute or association. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918114.png)](/refguide7/close-page/) | [Close page](/refguide7/close-page/) | Closes the page that is opened last by the user that calls the microflow in which this activity is used. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917544.png)](/refguide7/show-page/) | [Show page](/refguide7/show-page/) | Can be used to show a page to the user that calls the microflow in which this activity is used. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918097.png)](/refguide7/validation-feedback/) | [Validation feedback](/refguide7/validation-feedback/) | Can be used to display red text below a widget that displays an attribute or association. |
 
 ### 5.5 Loop
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](loop) | [Loop](/refguide/loop/) | A looped activity is used to iterate over a list of objects. For every object the flow inside the looped activity is executed. A looped activity can contain all elements used in nanoflows, with the exception of start and stop events. The flow starts at the first element with no incoming flows. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917804.png)](/refguide7/loop/) | [Loop](/refguide7/loop/) | A looped activity is used to iterate over a list of objects. For every object the flow inside the looped activity is executed. A looped activity can contain all elements used in nanoflows, with the exception of start and stop events. The flow starts at the first element with no incoming flows. |
 
 ### 5.6 Artifacts<a name="artifacts"></a>
 
@@ -164,8 +164,8 @@ Artifacts provide the nanoflow with input and allow comments to be made.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](parameter) | [Parameter](/refguide/parameter/) | Data that serves as input for the nanoflow. Parameters are filled at the location from which the nanoflow is triggered. |
-| ](annotation) | [Annotation](/refguide/annotation/) | An element that can be used to put comments in a nanoflow. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/918019.png)](/refguide7/parameter/) | [Parameter](/refguide7/parameter/) | Data that serves as input for the nanoflow. Parameters are filled at the location from which the nanoflow is triggered. |
+| [![](/attachments/refguide7/desktop-modeler/application-logic/nanoflows/917689.png)](/refguide7/annotation/) | [Annotation](/refguide7/annotation/) | An element that can be used to put comments in a nanoflow. |
 
 ## 6 Variable Usages
 

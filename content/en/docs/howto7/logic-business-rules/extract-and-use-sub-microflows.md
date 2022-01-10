@@ -38,7 +38,7 @@ There are many other examples of when it is useful to create sub-microflows. The
 
 The following example microflow checks to see if a registration has a trainee assigned and a registration date. If the registration passes both of these checks, the registration is committed to the database.
 
-![](/attachments/howto7/logic-business-rules//extract-and-use-sub-microflows/18581021.png)
+![](/attachments/howto7/logic-business-rules/extract-and-use-sub-microflows/18581021.png)
 
 In this scenario, it makes sense to create a sub-microflow for the validation steps. If you do this, you can reuse this sub-microflow in other microflows where you need to validate a registration again.
 
@@ -46,26 +46,26 @@ To create a sub-microflow for the validation steps, follow these steps:
 
 1. Select the area you want to capture and use as a sub-microflow:
 
-    ![](/attachments/howto7/logic-business-rules//extract-and-use-sub-microflows/18581020.png)
+    ![](/attachments/howto7/logic-business-rules/extract-and-use-sub-microflows/18581020.png)
 
 2. Right-click an item in the selection and select **Extract submicroflow...**:
 
-    ![](/attachments/howto7/logic-business-rules//extract-and-use-sub-microflows/18581018.png)
+    ![](/attachments/howto7/logic-business-rules/extract-and-use-sub-microflows/18581018.png)
 
 3.  Enter a name for the sub-microflow:
 
-	![](/attachments/howto7/logic-business-rules//extract-and-use-sub-microflows/18581017.png)
+	![](/attachments/howto7/logic-business-rules/extract-and-use-sub-microflows/18581017.png)
 
 	{{% alert type="warning" %}} The best practice is to identify sub-microflows by their name. You can use "Sub_MicroflowDescriptionHere", "Subflow_MicrocflowDescriptionHere", or any other notation you feel works best. The key is to be consistent when you name your microflows so that it is easy for other team members to understand and find the microflows they need.
 
 	{{% /alert %}}
 4. Click **OK** to create your first sub-microflow:
 
-    ![](/attachments/howto7/logic-business-rules//extract-and-use-sub-microflows/18581016.png)
+    ![](/attachments/howto7/logic-business-rules/extract-and-use-sub-microflows/18581016.png)
 
 5. Open the sub-microflow by right-clicking the **Sub_RegistrationValidation** microflow and selecting **Go to microflow**:
 
-    ![](/attachments/howto7/logic-business-rules//extract-and-use-sub-microflows/18581015.png)
+    ![](/attachments/howto7/logic-business-rules/extract-and-use-sub-microflows/18581015.png)
 
 The new sub-microflow will do the registration validation. You can reuse this sub-microflow whenever you need to do a registration validation. 
 
@@ -81,11 +81,11 @@ The extra sub-microflow option is based on the Mendix reusability principle. You
 
 ## 6 Read More
 
-* [How to Define Access Rules Using XPath](/howto/logic-business-rules/define-access-rules-using-xpath/)
+* [How to Define Access Rules Using XPath](/howto7/logic-business-rules/define-access-rules-using-xpath/)
 * [How to Trigger Logic Using Microflows](/howto7/logic-business-rules/triggering-logic-using-microflows/)
-* [How to Create a Custom Save Button](/howto/logic-business-rules/create-a-custom-save-button/)
-* [How to Work with Lists in a Microflow](/howto/logic-business-rules/working-with-lists-in-a-microflow/)
-* [How to Optimize Retrieve Activities](/howto/logic-business-rules/optimizing-retrieve-activities/)
-* [How to Set Up Error Handling](/howto/logic-business-rules/set-up-error-handling/)
-* [How to Optimize Microflow Aggregates](/howto/logic-business-rules/optimizing-microflow-aggregates/)
+* [How to Create a Custom Save Button](/howto7/logic-business-rules/create-a-custom-save-button/)
+* [How to Work with Lists in a Microflow](/howto7/logic-business-rules/working-with-lists-in-a-microflow/)
+* [How to Optimize Retrieve Activities](/howto7/logic-business-rules/optimizing-retrieve-activities/)
+* [How to Set Up Error Handling](/howto7/logic-business-rules/set-up-error-handling/)
+* [How to Optimize Microflow Aggregates](/howto7/logic-business-rules/optimizing-microflow-aggregates/)
 * [Microflows](/refguide7/microflows/)

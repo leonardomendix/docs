@@ -24,10 +24,10 @@ Using controls provided by the data grid you can browse, search, and edit those 
 
 A data grid contains the following components: 
 
-1. [Search bar](/refguide/search-bar/) – allows end-users to search for objects in the data grid
-2. [Control bar](/refguide/control-bar/) – allows you to control the objects displayed in the data grid by means of buttons
-3. [Sort bar](/refguide/sort-bar/) – allows end-users to sort items in the data grid 
-4.  [Grid Columns](/refguide/columns/) – allows end-users to set properties for a data grid column
+1. [Search bar](/refguide8/search-bar/) – allows end-users to search for objects in the data grid
+2. [Control bar](/refguide8/control-bar/) – allows you to control the objects displayed in the data grid by means of buttons
+3. [Sort bar](/refguide8/sort-bar/) – allows end-users to sort items in the data grid 
+4.  [Grid Columns](/refguide8/columns/) – allows end-users to set properties for a data grid column
 	![](/attachments/refguide8/modeling/pages/data-widgets/grids/data-grid/data-grid-components.png)
 
 ## 3 Properties
@@ -51,16 +51,16 @@ Data grid properties consist of the following sections:
 
 ### 3.2 Data Source Section {#data-source}
 
-The data source determines which objects will be shown in a list view. For general information on data sources, see [Data Sources](/refguide/data-sources/).
+The data source determines which objects will be shown in a list view. For general information on data sources, see [Data Sources](/refguide8/data-sources/).
 
 #### 3.2.1 Type
 
 The list view supports the following types of data sources: 
 
-* [Database source](/refguide/database-source/) – objects are retrieved directly form the database. The database source can be used in [offline](/refguide/offline-first/) applications. 
-* [XPath source](/refguide/xpath-source/) – objects are retrieved directly form the database
-* [Microflow source](/refguide/microflow-source/) – calculates the list of objects by executing a microflow
-* [Association source](/refguide/association-source/) – follows an association to get to objects
+* [Database source](/refguide8/database-source/) – objects are retrieved directly form the database. The database source can be used in [offline](/refguide8/offline-first/) applications. 
+* [XPath source](/refguide8/xpath-source/) – objects are retrieved directly form the database
+* [Microflow source](/refguide8/microflow-source/) – calculates the list of objects by executing a microflow
+* [Association source](/refguide8/association-source/) – follows an association to get to objects
 
 The database and XPath sources retrieve objects from the database and supports searching and sorting. 
 
@@ -75,7 +75,7 @@ The database and XPath sources retrieve objects from the database and supports s
 This property indicates whether the control bar buttons will be visible in the end-user interface.
 
 {{% alert type="warning" %}}
-Even if the control bar buttons are invisible, there can still be a default button that is triggered by (double) clicking a row. For more information, see the property [Default Button Trigger](#default-button-trigger) and [Control Bar](/refguide/control-bar/).
+Even if the control bar buttons are invisible, there can still be a default button that is triggered by (double) clicking a row. For more information, see the property [Default Button Trigger](#default-button-trigger) and [Control Bar](/refguide8/control-bar/).
 {{% /alert %}}
 
 Default: *True*
@@ -157,7 +157,7 @@ Default: *0*
 
 #### 3.4.10 Tooltip Page {#tooltip-page}
 
-A tooltip page is a page that appears when you hover your mouse over a row. The tooltip page should consist of a data view on the same entity as the data grid. Besides creating and connecting a tooltip page you also have to specify on which columns the tooltip will appear. See the property 'Show tooltip' of [data grid columns](/refguide/columns/).
+A tooltip page is a page that appears when you hover your mouse over a row. The tooltip page should consist of a data view on the same entity as the data grid. Besides creating and connecting a tooltip page you also have to specify on which columns the tooltip will appear. See the property 'Show tooltip' of [data grid columns](/refguide8/columns/).
 
 ### 3.5 Visibility Section {#visibility}
 
@@ -173,8 +173,8 @@ To perform actions on a data grid, select it on a page and right-click it. The l
 
 ## 5 Read More
 
-* [Page](/refguide/page/)
-* [Data Widgets](/appstore/modules/data-widgets/)
-* [Data Sources](/refguide/data-sources/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
-* [Grid Columns](/refguide/columns/) 
+* [Page](/refguide8/page/)
+* [Data Widgets](/refguide8/data-widgets/)
+* [Data Sources](/refguide8/data-sources/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)
+* [Grid Columns](/refguide8/columns/) 

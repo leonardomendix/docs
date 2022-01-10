@@ -76,7 +76,7 @@ If you have made any changes directly to your iOS or Android app, you will have 
 * The initial release of your app
 * A Studio Pro version upgrade that requires a new [Native Template](/refguide/native-template/) version
 * You fundamentally changed your app's functionality (this is an Apple App Store limitation, and will require a re-release and re-review of your app by Apple — your app might be removed if you do not comply)
-* A new native module has been added (such as the [Native Mobile AR](https://marketplace.mendix.com/link/component/117209) module—for more information see [Modules](/refguide/modules/). 
+* A new native module has been added (such as the [Native Mobile AR](https:/marketplace.mendix.com/link/component/117209) module—for more information see [Modules](/refguide/modules/). 
 * The app has been renamed
 * The app's launcher icons have been changed
 * The splash screen has been changed
@@ -90,16 +90,16 @@ Next you must build new binaries with this capability toggled on, and then relea
 1. Click **App** > **Build Native Mobile App**.
 1.  Navigate to **App Capabilities**: 
 
-	{{% image_container width="350" %}}![Start Mendix Native Mobile Builder](/attachments/howto/mobile//native-mobile/distribution/how-to-ota-appcenter/advanced-capabilities.png){{% /image_container %}}
+	{{% image_container width="350" %}}![Start Mendix Native Mobile Builder](/attachments/howto/mobile/native-mobile/distribution/how-to-ota-appcenter/advanced-capabilities.png){{% /image_container %}}
 
 1.  Toggle **App Center CodePush OTA Support** on: 
 
-	{{% image_container width="350" %}}![OTA capability enabled](/attachments/howto/mobile//native-mobile/distribution/how-to-ota-appcenter/advanced-capabilities-ota.png){{% /image_container %}}
+	{{% image_container width="350" %}}![OTA capability enabled](/attachments/howto/mobile/native-mobile/distribution/how-to-ota-appcenter/advanced-capabilities-ota.png){{% /image_container %}}
 
 1. Click **Save**.
 1.  Build an application for distribution and make a note of the version number used: 
 
-	{{% image_container width="350" %}}![Build release app page](/attachments/howto/mobile//native-mobile/distribution/how-to-ota-appcenter/build-release-app-for-ota.png){{% /image_container %}}
+	{{% image_container width="350" %}}![Build release app page](/attachments/howto/mobile/native-mobile/distribution/how-to-ota-appcenter/build-release-app-for-ota.png){{% /image_container %}}
 
 To make the OTA update functionality available to your users, release the new binaries via the appropriate app stores. If you are testing the functionality you can now install the apps on your test devices.
 
@@ -107,7 +107,7 @@ To make the OTA update functionality available to your users, release the new bi
 
 OTA updates let you correct mistakes in your published apps without issuing a new release. For example, imagine you issued a new release and later found a spelling mistake on your welcome screen:
 
-{{% image_container width="300" %}}![Typo in welcome screen](/attachments/howto/mobile//native-mobile/distribution/how-to-ota-appcenter/phone-error-text.png){{% /image_container %}}
+{{% image_container width="300" %}}![Typo in welcome screen](/attachments/howto/mobile/native-mobile/distribution/how-to-ota-appcenter/phone-error-text.png){{% /image_container %}}
 
 Before OTA updates, you would have to make a new release and configure it in the app stores. But OTA updates make fixing such a mistake easy.
 
@@ -123,9 +123,9 @@ To release a new version OTA, follow these steps:
 1. The Mendix Native Mobile Builder will compile your app and resources and release the OTA updates.
 1.  On compilation, you will receive links to the CodePush OTA update administration pages for your Android and iOS apps:
 
-	{{% image_container width="350" %}}![OTA build step success](/attachments/howto/mobile//native-mobile/distribution/how-to-ota-appcenter/advanced-ota-success.png){{% /image_container %}}
+	{{% image_container width="350" %}}![OTA build step success](/attachments/howto/mobile/native-mobile/distribution/how-to-ota-appcenter/advanced-ota-success.png){{% /image_container %}}
 
-	{{% image_container width="350" %}}![OTA App Center page](/attachments/howto/mobile//native-mobile/distribution/how-to-ota-appcenter/advanced-ota-appcenter-page.png){{% /image_container %}}
+	{{% image_container width="350" %}}![OTA App Center page](/attachments/howto/mobile/native-mobile/distribution/how-to-ota-appcenter/advanced-ota-appcenter-page.png){{% /image_container %}}
 
 1. Wait for the Native Mobile Builder to complete.
 1. Restart the app on your testing device. You should be greeted with the following message: **Update available: An update is available that must be installed**.

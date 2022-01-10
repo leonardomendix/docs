@@ -14,7 +14,7 @@ This document describes the concept of navigation in Mendix applications and the
 
 {{% /alert %}}
 
-The **Navigation** document can be found by expanding the **Project** node in the **Project Explorer**. It defines the navigation structure of the application for users. It also allows you to set the home page of your application and to define the menu structures that can be used in [menu widgets](/refguide/menu-widgets/). A user's home page can vary based on their [user roles](/refguide/user-roles/).
+The **Navigation** document can be found by expanding the **Project** node in the **Project Explorer**. It defines the navigation structure of the application for users. It also allows you to set the home page of your application and to define the menu structures that can be used in [menu widgets](/refguide7/menu-widgets/). A user's home page can vary based on their [user roles](/refguide7/user-roles/).
 
 ## 2 Profiles {#profiles}
 
@@ -36,7 +36,7 @@ In case of trouble when converting profiles from Mendix 7.2 and 7.3 to Mendix 7.
 
 {{% /alert %}}
 
-The device type of the currently logged-in user is available in [microflows](/refguide/microflows/) as the `$currentDeviceType` variable. The type of this variable is the [enumeration](/refguide/enumerations/) `System.DeviceType`, which has the values `Phone`, `Tablet`, and `Desktop`. You can use the `$currentDeviceType` variable to perform different actions based on the device type. A typical example is to show different pages based on the device type.
+The device type of the currently logged-in user is available in [microflows](/refguide7/microflows/) as the `$currentDeviceType` variable. The type of this variable is the [enumeration](/refguide7/enumerations/) `System.DeviceType`, which has the values `Phone`, `Tablet`, and `Desktop`. You can use the `$currentDeviceType` variable to perform different actions based on the device type. A typical example is to show different pages based on the device type.
 
 ### 2.1 Responsive
 
@@ -73,7 +73,7 @@ Mendix Runtime automatically redirects users to the home page of the appropriate
 | Android&#124;iPad | Tablet |
 | _(other)_ | Responsive |
 
-To configure the regular expressions used to match phone or tablet users, see [Custom Settings](/refguide/custom-settings/).
+To configure the regular expressions used to match phone or tablet users, see [Custom Settings](/refguide7/custom-settings/).
 
 It is also possible to force the client to use a specific profile by adding a `profile` query string parameter to the URL when visiting a Mendix application. The possible values are the names of the profiles, which are Responsive, Tablet, Phone, HybridTablet, and HybridPhone. For example:
 

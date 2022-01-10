@@ -52,7 +52,7 @@ If no database synchronization is required, all cluster nodes will become fully 
 
 ## 6 File Storage
 
-Uploaded files should be stored in a shared file storage facility, as every Mendix Runtime node should access the same files. Either the local storage facility is shared or the files are stored in a central storage facility such as an Amazon S3 file storage, Microsoft Azure Blob storage, or IBM Bluemix Object Storage (see [custom settings](/refguide/custom-settings/) for more information about configuring the Mendix Runtime to store files on these storage facilities).
+Uploaded files should be stored in a shared file storage facility, as every Mendix Runtime node should access the same files. Either the local storage facility is shared or the files are stored in a central storage facility such as an Amazon S3 file storage, Microsoft Azure Blob storage, or IBM Bluemix Object Storage (see [custom settings](/refguide7/custom-settings/) for more information about configuring the Mendix Runtime to store files on these storage facilities).
 
 ## 7 After-Startup and Before-Shutdown Microflows {#startup-shutdown-microflows}
 
@@ -90,7 +90,7 @@ Note that whenever the Mendix Client is restarted, all the state is discarded, a
 
 The more objects that are part of the 'Dirty State', the more data has to be transferred in the requests and responses between the Mendix Runtime and the Mendix Client. As such, it has an impact on performance. In cluster environments it is advised to minimize the amount of 'Dirty State' to minimize the impact of the synchronization on performance.
 
-The Mendix Client attempts to optimize the amount of state sent to the Mendix Runtime by only sending data that can potentially be read while processing the request. For example, if you call a microflow that gets `Booking` as a parameter and retrieves `Flight` over association, then the client will pass only `Booking` and the associated `Flight`s from the dirty state along with the request, but not the `Hotel`s. Note that this behavior is the best effort; if the microflow is too complex to analyze (for example, when a Java action is called with a state object as a parameter), the entire dirty state will be sent along. This optimization can be disabled by the [`Optimize network calls` Project Setting](/refguide/project-settings/#optimize-network-calls).
+The Mendix Client attempts to optimize the amount of state sent to the Mendix Runtime by only sending data that can potentially be read while processing the request. For example, if you call a microflow that gets `Booking` as a parameter and retrieves `Flight` over association, then the client will pass only `Booking` and the associated `Flight`s from the dirty state along with the request, but not the `Hotel`s. Note that this behavior is the best effort; if the microflow is too complex to analyze (for example, when a Java action is called with a state object as a parameter), the entire dirty state will be sent along. This optimization can be disabled by the [`Optimize network calls` Project Setting](/refguide7/project-settings/#optimize-network-calls).
 
 {{% alert type="warning" %}}
 

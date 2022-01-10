@@ -32,7 +32,7 @@ For details, see [How to Create Your First Script](/apidocs-mxsdk/mxsdk/creating
 
 ### 2.3 How to Create the Domain Model
 
-Now that you have an idea about what the Mendix SDK can do, it's time to dig a little deeper. In this step you will create a new app that's a little more complicated: it will contain a domain model with several entities and inheritance. Through this example we will explain how exactly the Model SDK API and the Meta Model are related. This will give you the conceptual framework needed to go through the reference documentation of both the [Mendix Metamodel](/apidocs-mxsdk/mxsdk/sdk-refguide/) and the [Mendix Model SDK](https:/apidocs.rnd.mendix.com/modelsdk/latest/index.html).
+Now that you have an idea about what the Mendix SDK can do, it's time to dig a little deeper. In this step you will create a new app that's a little more complicated: it will contain a domain model with several entities and inheritance. Through this example we will explain how exactly the Model SDK API and the Meta Model are related. This will give you the conceptual framework needed to go through the reference documentation of both the [Mendix Metamodel](/apidocs-mxsdk/mxsdk/sdk-refguide/) and the [Mendix Model SDK](https://apidocs.rnd.mendix.com/modelsdk/latest/index.html).
 
 To learn how to navigate to the main documentation sources, refer to the [How to Create the Domain Model](/apidocs-mxsdk/mxsdk/creating-the-domain-model/).
 

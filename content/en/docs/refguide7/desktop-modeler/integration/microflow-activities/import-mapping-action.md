@@ -12,7 +12,7 @@ This activity can only be used in microflows, not in nanoflows.
 
 ## 1 Introduction
 
-With the Import Mapping action, you can import the data stored in an XML or JSON document into [domain model](/refguide/domain-model/) entities.
+With the Import Mapping action, you can import the data stored in an XML or JSON document into [domain model](/refguide7/domain-model/) entities.
 
 ![](/attachments/refguide7/desktop-modeler/integration/microflow-activities/import-mapping-action/import-mapping-action.png)
 
@@ -34,7 +34,7 @@ Support for HttpResponse was added in version 7.22.0. Earlier versions needed a 
 
 ### 3.1 Mapping
 
-The [import mapping](/refguide/import-mappings/) defines how to transform the XML or JSON into objects.
+The [import mapping](/refguide7/import-mappings/) defines how to transform the XML or JSON into objects.
 
 ### 3.2 Input Content Type
 
@@ -86,21 +86,21 @@ Indicates whether the resulting objects should be committed to the database, and
 
 | Option | Description |
 | --- | --- |
-| Yes | The objects are saved in the database and the [event handlers](/refguide/event-handlers/) are triggered. |
-| Yes without events | The objects are saved in the database, but the [event handlers](/refguide/event-handlers/) are not triggered (default). |
-| No | The objects are created without being saved in the database. You will need a [commit action](/refguide/committing-objects/) to save them. |
+| Yes | The objects are saved in the database and the [event handlers](/refguide7/event-handlers/) are triggered. |
+| Yes without events | The objects are saved in the database, but the [event handlers](/refguide7/event-handlers/) are not triggered (default). |
+| No | The objects are created without being saved in the database. You will need a [commit action](/refguide7/committing-objects/) to save them. |
 
 ## 4 Validation
 
 {{% alert type="info" %}}
 
-Validation properties are only applicable if an import mapping is selected that maps from XML based on an [XML schema](/refguide/xml-schemas/) or a [consumed web service](/refguide/consumed-web-service/).
+Validation properties are only applicable if an import mapping is selected that maps from XML based on an [XML schema](/refguide7/xml-schemas/) or a [consumed web service](/refguide7/consumed-web-service/).
 
 {{% /alert %}}
 
 ### 4.1 Validate Against Schema
 
-Determines whether the import action should validate the incoming XML against the [XML schema](/refguide/xml-schemas/).
+Determines whether the import action should validate the incoming XML against the [XML schema](/refguide7/xml-schemas/).
 
 Setting this to _yes_ can greatly decrease performance!
 

@@ -94,7 +94,7 @@ Parameters have the following settings:
 
 To add parameters, do the following:
 
-1. Place the **Button** widget in the context of an entity, as in, inside a [data widget](/appstore/modules/data-widgets/).
+1. Place the **Button** widget in the context of an entity, as in, inside a [data widget](/refguide/data-widgets/).
 
 2. Double-click the **Caption** setting in the button widget properties.
 
@@ -171,11 +171,11 @@ The **Items** section is only shown for drop-down buttons.
 
 {{% /alert %}}
 
-When an end-user clicks a drop-down button, a pop-up window with a list of items opens. Each item performs an event when an end-user clicks this item. Different items can perform different events. For more information on events that can be assigned, see [On Click Event & Events Section](on-click-event).
+When an end-user clicks a drop-down button, a pop-up window with a list of items opens. Each item performs an event when an end-user clicks this item. Different items can perform different events. For more information on events that can be assigned, see [On Click Event & Events Section](/refguide/on-click-event/).
 
 {{% alert type="info" %}}
 
-* Items with the **Create object** event are only shown when you have sufficient permissions on. For more information, see [Security](/data-hub/data-hub-catalog/security/). 
+* Items with the **Create object** event are only shown when you have sufficient permissions on. For more information, see [Security](/refguide/security/). 
 
 * Items with the **Sign out** event are not shown for anonymous users. For more information on different security levels and anonymous users, see [App Security](/refguide/project-security/) and [Anonymous Users](/refguide/anonymous-users/). 
 
@@ -186,7 +186,7 @@ Each item has the following properties:
 
 * **Caption** – defines a caption of the item
 
-*  **Action** – defines an on-click event performed when the item is clicked (for more information on-click events, see [On Click Event & Events Section](on-click-event))
+*  **Action** – defines an on-click event performed when the item is clicked (for more information on-click events, see [On Click Event & Events Section](/refguide/on-click-event/))
 
     ![Properties of Items](/attachments/refguide/modeling/pages/button-widgets/button-properties/items-properties.png)
 
@@ -217,5 +217,5 @@ To add items to a drop-down buttons, do the following:
 * [Page](/refguide/page/)
 * [Buttons](/refguide/button-widgets/)
 * [Properties Common in the Page Editor](/refguide/common-widget-properties/)
-* [On Click Event & Events Section](on-click-event)
+* [On Click Event & Events Section](/refguide/on-click-event/)
 

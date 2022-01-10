@@ -9,7 +9,7 @@ tags: ["studio pro", "studio", "collaborative development", "sync"]
 
 ## 1 Introduction 
 
-Collaborative development is the process of sharing app model changes when a team of more than one person is working on the app. Collaborative development allows the team members to work together on one project in Mendix Studio Pro and Mendix Studio, and easily synchronize changes using [version control](/refguide/version-control/). Studio Pro can be used to work on different branches of an app, while Studio can be enabled for one of these branches. 
+Collaborative development is the process of sharing app model changes when a team of more than one person is working on the app. Collaborative development allows the team members to work together on one project in Mendix Studio Pro and Mendix Studio, and easily synchronize changes using [version control](/refguide8/version-control/). Studio Pro can be used to work on different branches of an app, while Studio can be enabled for one of these branches. 
 
 {{% alert type="info" %}}
 
@@ -25,7 +25,7 @@ Collaborative development is enabled by default for new apps created via the Dev
 
 ## 2 Collaborative Development Overview
 
-Studio Pro users can collaborate with each other through [version control](/refguide/version-control/) via **Commit** and **Update** operations. 
+Studio Pro users can collaborate with each other through [version control](/refguide8/version-control/) via **Commit** and **Update** operations. 
 
 The collaborative development process between Studio Pro and Studio consists of the following steps:
 
@@ -156,7 +156,7 @@ To create a new branch line, do the following:
 
 3.  In the **Create Branch Line** dialog box, set the following: <br/>
 
-    a. What line you are creating a new line from: the main line, a branch line, or a tagged version. For more information on these concepts, see the [Concepts](/refguide/version-control/#concepts) section in *Version Control*. <br/> b. Select the revision, if needed. <br/>
+    a. What line you are creating a new line from: the main line, a branch line, or a tagged version. For more information on these concepts, see the [Concepts](/refguide8/version-control/#concepts) section in *Version Control*. <br/> b. Select the revision, if needed. <br/>
 
     c. Type the name of the new line. 
 
@@ -186,7 +186,7 @@ You cannot delete a Studio enabled branch. If you need to delete this branch, en
 
 ## 6 Read More
 
-* [Version Control](/refguide/version-control/)
-* [Troubleshooting Collaborative Development](/refguide/collaborative-development-troubleshooting/)
+* [Version Control](/refguide8/version-control/)
+* [Troubleshooting Collaborative Development](/refguide8/collaborative-development-troubleshooting/)
 * [Collaborative Development in Studio](/studio8/collaborative-development/)
 

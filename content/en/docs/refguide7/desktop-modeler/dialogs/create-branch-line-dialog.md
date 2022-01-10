@@ -6,7 +6,7 @@ parent: "dialogs"
 
 ## 1 Introduction
 
-Use this dialog box to create a new [branch line](/refguide/version-control/) in your application.
+Use this dialog box to create a new [branch line](/refguide7/version-control/) in your application.
 
 ![](/attachments/refguide7/desktop-modeler/dialogs/create-branch-line-dialog/create-branch-line-dialog.png)
 
@@ -77,5 +77,5 @@ Since branch line names must be unique, the **Existing branch lines** are shown 
 
 ## 8 Read More
 
-* [Version Control](/refguide/version-control/)
-* [Collaborative Development](/refguide/collaborative-development/)
+* [Version Control](/refguide7/version-control/)
+* [Collaborative Development](/refguide7/collaborative-development/)

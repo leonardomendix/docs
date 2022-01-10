@@ -54,5 +54,5 @@ For example, to download a file, it is possible to get the UR (for example, `htt
 
 ## 7 Read More
 
-* [Creating a Secure App](/howto/security/create-a-secure-app/)
-* [Anonymous User Security](/howto/security/set-up-anonymous-user-security/)
+* [Creating a Secure App](/howto7/security/create-a-secure-app/)
+* [Anonymous User Security](/howto7/security/set-up-anonymous-user-security/)

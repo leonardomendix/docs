@@ -22,13 +22,13 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Download the latest Mendix desktop modeler
 * Download the latest [Chart Widget](/appstore/widgets/charts/) from the Mendix Marketplace
-* Setup a chart: see [How to create a charts](/howto/front-end/charts-basic-create/)
+* Setup a chart: see [How to create a charts](/howto7/extensibility/charts-basic-create/)
 
 ## 3 Creating a Chart Theme
 
 This is how the original chart looks:
 
-![chart](/attachments/howto7/extensibility//charts-tutorials/charts-theme/charts-toggle-editor.png)
+![chart](/attachments/howto7/extensibility/charts-tutorials/charts-theme/charts-toggle-editor.png)
 
 ### 3.1 Creating an Advanced Custom Configuration
 
@@ -44,7 +44,7 @@ To create the required custom configuration easily, follow these steps:
 
 1. Set the **Mode** to **Developer**.
 
-    ![chart widget properties](/attachments/howto7/extensibility//charts-tutorials/charts-theme/charts-widget-properties-advanced.png)
+    ![chart widget properties](/attachments/howto7/extensibility/charts-tutorials/charts-theme/charts-widget-properties-advanced.png)
 
 1. Run the app.
 
@@ -66,7 +66,7 @@ To create the required custom configuration easily, follow these steps:
 
 1. Change the font settings, till the chart shows the required font.
 
-    ![chart editor](/attachments/howto7/extensibility//charts-tutorials/charts-theme/charts-toggle-editor-open.png)
+    ![chart editor](/attachments/howto7/extensibility/charts-tutorials/charts-theme/charts-toggle-editor-open.png)
 
     {{% alert type="warning" %}}Please note that the editor changes will not persist. They need to be stored in the advanced settings of the widget or stored in the theme.{{% /alert %}}
 
@@ -114,7 +114,7 @@ To change the font in all charts in the app, follow these steps:
 
 1. Validate the expected result.
 
-    ![chart updated](/attachments/howto7/extensibility//charts-tutorials/charts-theme/charts-toggle-editor-changed.png)
+    ![chart updated](/attachments/howto7/extensibility/charts-tutorials/charts-theme/charts-toggle-editor-changed.png)
 
 ## 4 Read More
 

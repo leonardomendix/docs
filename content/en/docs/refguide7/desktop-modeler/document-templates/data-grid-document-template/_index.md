@@ -13,7 +13,7 @@ The data grid shows a list of objects in a grid. For example, a data grid can sh
 
 {{% alert type="info" %}}
 
-](data-grid-document-template)
+[![](/attachments/refguide7/desktop-modeler/document-templates/data-grid-document-template/918138.png)](/refguide7/data-grid-document-template/)
 A data grid showing a list of orders with a description and the referenced customer name.
 
 {{% /alert %}}
@@ -22,11 +22,11 @@ A data grid showing a list of orders with a description and the referenced custo
 
 ### Columns
 
-See [Columns (document template)](/refguide/columns-document-template/).
+See [Columns (document template)](/refguide7/columns-document-template/).
 
 ### Sort bar
 
-See [Sort Bar](/refguide/sort-bar/).
+See [Sort Bar](/refguide7/sort-bar/).
 
 ## Appearance Properties
 
@@ -54,7 +54,7 @@ With striping enabled you can set the properties of even and uneven datagrid row
 
 ### Style
 
-See [Style](/refguide/style/)
+See [Style](/refguide7/style/)
 
 ## Common Properties
 

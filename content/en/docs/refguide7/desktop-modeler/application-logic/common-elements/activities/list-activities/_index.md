@@ -5,16 +5,16 @@ parent: "activities"
 ---
 ## Aggregate
 
-See [Aggregate List](/refguide/aggregate-list/).
+See [Aggregate List](/refguide7/aggregate-list/).
 
 ## Change
 
-See [Change List](/refguide/change-list/).
+See [Change List](/refguide7/change-list/).
 
 ## Create
 
-See [Create List](/refguide/create-list/).
+See [Create List](/refguide7/create-list/).
 
 ## List Operation
 
-See [List Operation](/refguide/list-operation/).
+See [List Operation](/refguide7/list-operation/).

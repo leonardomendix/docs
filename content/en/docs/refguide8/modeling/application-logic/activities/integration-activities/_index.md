@@ -26,11 +26,11 @@ The activities described in this document are in the **Integration Activities** 
 
 The following are the list activities you can use in your microflow:
 
-* [Call REST Service](/refguide/call-rest-action/) – calls a REST endpoint
-* [Call Web Service](/refguide/call-web-service-action/) – calls an imported web service operation
-* [Import Mapping](/refguide/import-mapping-action/) – imports data from an XML or JSON document into objects
-* [Export Mapping](/refguide/export-mapping-action/) – exports data from objects into XML or JSON documents, or a string variable
+* [Call REST Service](/refguide8/call-rest-action/) – calls a REST endpoint
+* [Call Web Service](/refguide8/call-web-service-action/) – calls an imported web service operation
+* [Import Mapping](/refguide8/import-mapping-action/) – imports data from an XML or JSON document into objects
+* [Export Mapping](/refguide8/export-mapping-action/) – exports data from objects into XML or JSON documents, or a string variable
 
 ## 2 Read More
 
-* [Activities](/refguide/activities/)
+* [Activities](/refguide8/activities/)

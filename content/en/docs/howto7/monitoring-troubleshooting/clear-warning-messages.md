@@ -19,11 +19,11 @@ This how-to explains how to eliminate design time warnings. While these warnings
 
 Warning messages can be seen in the **Error List** tab of the Modeler (by default shown at the bottom of the Modeler). Note that the **Warnings** box must be selected for them to display.
 
-![](/attachments/howto7/monitoring-troubleshooting//clear-warning-messages/18579992.png)
+![](/attachments/howto7/monitoring-troubleshooting/clear-warning-messages/18579992.png)
 
 If this tab is not visible, it can be displayed via the **View** menu by selecting the **Error List** option:
 
-![](/attachments/howto7/monitoring-troubleshooting//clear-warning-messages/18579991.png)
+![](/attachments/howto7/monitoring-troubleshooting/clear-warning-messages/18579991.png)
 
 To get more information, double-click or right-click the warning.
 
@@ -170,14 +170,14 @@ Variable ‘Variable’ is never used.
 
 ## 4 Read More
 
-* [How to Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [How to Find the Root Cause of Runtime Errors](/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
 * [How to Test Web Services Using SoapUI](/howto7/testing/testing-web-services-using-soapui/)
-* [How to Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [How to Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [How to Configure Log Levels](/howto/monitoring-troubleshooting/log-levels/)
+* [How to Monitor Mendix Using JMX](/howto7/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [How to Debug Java Actions Remotely](/howto7/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [How to Configure Log Levels](/howto7/monitoring-troubleshooting/log-levels/)
 * [How to Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [How to Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [How to Debug Java Actions](/howto7/monitoring-troubleshooting/debug-java-actions/)
 * [How to Handle Common Mendix SSO Errors](/howto7/monitoring-troubleshooting/handle-common-mendix-sso-errors/)
-* [How to Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
+* [How to Debug Microflows Remotely](/howto7/monitoring-troubleshooting/debug-microflows-remotely/)
 
 Several warnings relate to improper security. For more information on this, see [Project Security](/refguide7/project-security/) in the Mendix Reference Guide.

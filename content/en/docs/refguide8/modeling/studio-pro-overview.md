@@ -17,7 +17,7 @@ aliases:
 
 ## 1 Introduction
 
-Mendix Studio Pro is a tool for creating, viewing, and editing your Mendix applications. A Mendix app is called a [project](/refguide/project/) in Studio Pro.  
+Mendix Studio Pro is a tool for creating, viewing, and editing your Mendix applications. A Mendix app is called a [project](/refguide8/project/) in Studio Pro.  
 
 One Studio Pro instance can have only one project open at a time, but you can open two Studio Pro instances when necessary.
 
@@ -39,9 +39,9 @@ The Studio Pro top bar contains the following items:
 
 ### 2.1 Menus {#menus}
 
-In the Studio Pro top bar, you can see several menus, such as [Edit](/refguide/edit-menu/), [View](/refguide/view-menu/), and [Version Control](/refguide/version-control-menu/). Each menu contains menu items that allow you to perform various actions, for example, to [create a deployment package](/refguide/create-deployment-package-dialog/), set [preferences](/refguide/preferences-dialog/), or view the [Errors](/refguide/errors-pane/) pane. 
+In the Studio Pro top bar, you can see several menus, such as [Edit](/refguide8/edit-menu/), [View](/refguide8/view-menu/), and [Version Control](/refguide8/version-control-menu/). Each menu contains menu items that allow you to perform various actions, for example, to [create a deployment package](/refguide8/create-deployment-package-dialog/), set [preferences](/refguide8/preferences-dialog/), or view the [Errors](/refguide8/errors-pane/) pane. 
 
-For more information on menus, see [Menus](/refguide/menus/). 
+For more information on menus, see [Menus](/refguide8/menus/). 
 
 ### 2.2 Run & View App {#run-and-view}
 
@@ -49,17 +49,17 @@ You can deploy your app by clicking the **Run** or **Run locally** buttons. To v
 
 For more information on deployment in Mendix, see [Deployment](/developerportal/deploy/).
 
-For more information on deploying your app and versioning it, see  the [Versioning a Project Deployed to the Cloud](/refguide/using-version-control-in-studio-pro/#versioning-project) section in *Using Version Control in Studio Pro*. 
+For more information on deploying your app and versioning it, see  the [Versioning a Project Deployed to the Cloud](/refguide8/using-version-control-in-studio-pro/#versioning-project) section in *Using Version Control in Studio Pro*. 
 
 ### 2.3 Links to Developer Portal & Marketplace {#links}
 
-You can find links to the [Developer Portal](/developerportal/) and [Marketplace](/appstore/) in the top-right corner of Studio Pro.
+You can find links to the  and  in the top-right corner of Studio Pro.
 
 Your account is displayed next to these buttons if you are signed in. Click the account name to navigate to your apps, the Developer Portal, your profile, or to sign out. 
 
 ## 3 Project Structure
 
-A project consists of individual files (*documents*) and settings that are grouped in folders and [modules](/appstore/modules/). The complete structure of your project can be viewed in the [Project Explorer](/refguide/project-explorer/). 
+A project consists of individual files (*documents*) and settings that are grouped in folders and [modules](/refguide8/modules/). The complete structure of your project can be viewed in the [Project Explorer](/refguide8/project-explorer/). 
 
 ## 4 Working Area
 
@@ -71,7 +71,7 @@ The documents you view and edit are shown in tabs.
 
 {{% alert type="info" %}}
 
-This section describes documents in the working area, not panes that you can open and position around the working area. For more information on behavior of panes, see the [Layout of Panes](/refguide/view-menu/#layout-of-panes) section in *View Menu*.
+This section describes documents in the working area, not panes that you can open and position around the working area. For more information on behavior of panes, see the [Layout of Panes](/refguide8/view-menu/#layout-of-panes) section in *View Menu*.
 
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ Each document has its own save state, history, and future, so undo and redo acti
 
 ## 5 Dockable Panes
 
-Dockable panes can be positioned around the working area and contain various elements and settings. For example, you can view list of errors, configure properties of a specific document or an element, view toolbox. Panes are opened via [Menus](/refguide/menus/).
+Dockable panes can be positioned around the working area and contain various elements and settings. For example, you can view list of errors, configure properties of a specific document or an element, view toolbox. Panes are opened via [Menus](/refguide8/menus/).
 
 ## 6 Status Bar
 
@@ -91,13 +91,13 @@ At the bottom of the Studio Pro main window pane is a status bar.
 
 On the left is the current status of Studio Pro.
 
-On the right is the currently selected language. If you have set up multiple languages in your app you can change the currently selected language by clicking here. For more information see [Language Menu](/refguide/translatable-texts/).
+On the right is the currently selected language. If you have set up multiple languages in your app you can change the currently selected language by clicking here. For more information see [Language Menu](/refguide8/translatable-texts/).
 
 ## 7 Shortcut Keys
 
 ### 7.1 General Shortcut Keys
 
-In the main window pane, <kbd>Ctrl</kbd> + <kbd>Tab</kbd> can be used to navigate between all open documents. Other shortcut keys that can be used in the main window pane can be found next to their relevant menu item in  [Menus](/refguide/menus/).
+In the main window pane, <kbd>Ctrl</kbd> + <kbd>Tab</kbd> can be used to navigate between all open documents. Other shortcut keys that can be used in the main window pane can be found next to their relevant menu item in  [Menus](/refguide8/menus/).
 
 In most dialog boxes for editing properties, the following shortcut keys can be used:
 
@@ -174,7 +174,7 @@ The following shortcut keys control the currently selected language:
 
 ## 8 Read More
 
-* [Project Explorer](/refguide/project-explorer/)
-* [Menus](/refguide/menus/)
+* [Project Explorer](/refguide8/project-explorer/)
+* [Menus](/refguide8/menus/)
 
   

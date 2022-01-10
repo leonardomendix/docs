@@ -15,7 +15,7 @@ tags: ["Studio Pro", "consistency errors", "checks", "errors"]
 
 To make sure that your app is always consistent and properly built, Studio Pro does consistency checks when you build your app. 
 
-When a consistency check is not met, Studio Pro will notify you about this via consistency errors on the [Errors pane](/refguide/errors-pane/). The errors in pages, microflows, domain models, and document templates will be highlighted:
+When a consistency check is not met, Studio Pro will notify you about this via consistency errors on the [Errors pane](/refguide8/errors-pane/). The errors in pages, microflows, domain models, and document templates will be highlighted:
 
 ![Errors Pane](/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/errors-pane.png)
 
@@ -33,18 +33,18 @@ Double-clicking on the error will take you directly to the element causing the e
 
 Errors need to be solved before your app can be deployed. A consistency error can occur in the following editors or functionalities of Studio Pro:
 
-* [Pages](/refguide/consistency-errors-pages/) 
-* [Navigation](/refguide/consistency-errors-navigation/) 
-* [Microflows](/refguide/microflows/)
-* [Domain Model](/refguide/domain-model/)
-* [Integration](/howto/integration/)
-* [Security](/data-hub/data-hub-catalog/security/)
+* [Pages](/refguide8/consistency-errors-pages/) 
+* [Navigation](/refguide8/consistency-errors-navigation/) 
+* [Microflows](/refguide8/microflows/)
+* [Domain Model](/refguide8/domain-model/)
+* [Integration](/refguide8/integration/)
+* [Security](/refguide8/security/)
 
 ##  2 Read More
 
-* [Page Editor Consistency Errors](/refguide/consistency-errors-pages/)
-* [Navigation Consistency Errors](/refguide/consistency-errors-navigation/)
-* [Errors Pane](/refguide/errors-pane/)
-* [Pages](/refguide/pages/)
-* [Microflows](/refguide/microflows/) 
-* [Navigation in Mendix](/refguide/navigation/)
+* [Page Editor Consistency Errors](/refguide8/consistency-errors-pages/)
+* [Navigation Consistency Errors](/refguide8/consistency-errors-navigation/)
+* [Errors Pane](/refguide8/errors-pane/)
+* [Pages](/refguide8/pages/)
+* [Microflows](/refguide8/microflows/) 
+* [Navigation in Mendix](/refguide8/navigation/)

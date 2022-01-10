@@ -19,7 +19,7 @@ This activity can be used in both **Microflows** and **Nanoflows**.
 {{% /alert %}}
 
 {{% alert type="warning" %}}
-This action is ignored and does not work when a microflow is called from an offline, native, or hybrid app. For more information, see the [Microflows](/refguide/offline-first/#microflows) section of the *Offline-First Reference Guide*.
+This action is ignored and does not work when a microflow is called from an offline, native, or hybrid app. For more information, see the [Microflows](/refguide8/offline-first/#microflows) section of the *Offline-First Reference Guide*.
 {{% /alert %}}
 
 ## 1 Introduction
@@ -65,5 +65,5 @@ This property allows you to control how many pages should be closed.
 
 ## 5 Read More
 
-* [Show Page](/refguide/show-page/)
-* [Native Navigation](/refguide/native-navigation/)
+* [Show Page](/refguide8/show-page/)
+* [Native Navigation](/refguide8/native-navigation/)

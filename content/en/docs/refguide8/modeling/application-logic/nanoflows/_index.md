@@ -14,10 +14,10 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-Nanoflows are similar to [microflows](/refguide/microflows/), in that they allow you to express the logic of your application. However, they do have some specific benefits (for example, they run directly on the browser/device and can be used in an offline app). Furthermore, most of the actions run directly on the device, so there is also a speed benefit for logic which does not need access to the server.
+Nanoflows are similar to [microflows](/refguide8/microflows/), in that they allow you to express the logic of your application. However, they do have some specific benefits (for example, they run directly on the browser/device and can be used in an offline app). Furthermore, most of the actions run directly on the device, so there is also a speed benefit for logic which does not need access to the server.
 
 {{% alert type="info" %}}
-This page is an overview of all the elements that can be used in a nanoflow. For the properties of the nanoflow itself, see [Nanoflow Properties](/refguide/nanoflow/).
+This page is an overview of all the elements that can be used in a nanoflow. For the properties of the nanoflow itself, see [Nanoflow Properties](/refguide8/nanoflow/).
 {{% /alert %}}
 
 ## 2 When to Use Nanoflows
@@ -67,7 +67,7 @@ A nanoflow is composed of elements. The following categories are used:
 * [Flows](#flows) form the connection between elements
 * [Decisions](#decisions) deal with making choices and merging different paths again
 * [Activities](#activities) are the actions that are executed in a nanoflow
-* [Loop](/refguide/loop/) is used to iterate over a list of objects
+* [Loop](/refguide8/loop/) is used to iterate over a list of objects
 * [Parameter](#parameter) is data that serves as input for the microflow.
 * [Annotation](#annotation) is an element that can be used to put comments in a microflow.
 
@@ -77,11 +77,11 @@ Events represent the start and endpoints of a nanoflow and special operations in
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](start-event) | [Start event](/refguide/start-event/) | The starting point of the nanoflow. A nanoflow can only have one start event. |
-| ](end-event) | [End event](/refguide/end-event/) | Defines the location where the nanoflow will stop. Depending on the return type of the nanoflow, in some cases a value must be specified. There can be more than one end event. |
-| ![](/attachments/refguide8/modeling/application-logic/nanoflows/error-event.png) | [Error Event](/refguide/error-event/) | An error event defines a location where the nanoflow will stop and throw an error that occurred earlier. If you call a nanoflow, you may want to know whether any errors occurred within the nanoflow or not. |
-| ](continue-event) | [Continue event](/refguide/continue-event/) | Used to stop the current iteration of a loop and continue with the next iteration. Continue events can only be used inside a [loop](/refguide/loop/). |
-| ](break-event) | [Break Event](/refguide/break-event/) | Used to stop iterating over the list of objects and to continue with the rest of the flow after the loop. Break events can only be used inside a [loop](/refguide/loop/). |
+| [![start event](/attachments/refguide8/modeling/application-logic/nanoflows/start-event.png)](/refguide8/start-event/) | [Start event](/refguide8/start-event/) | The starting point of the nanoflow. A nanoflow can only have one start event. |
+| [![end event](/attachments/refguide8/modeling/application-logic/nanoflows/end-event.png)](/refguide8/end-event/) | [End event](/refguide8/end-event/) | Defines the location where the nanoflow will stop. Depending on the return type of the nanoflow, in some cases a value must be specified. There can be more than one end event. |
+| ![](/attachments/refguide8/modeling/application-logic/nanoflows/error-event.png) | [Error Event](/refguide8/error-event/) | An error event defines a location where the nanoflow will stop and throw an error that occurred earlier. If you call a nanoflow, you may want to know whether any errors occurred within the nanoflow or not. |
+| [![continue event](/attachments/refguide8/modeling/application-logic/nanoflows/continue-event.png)](/refguide8/continue-event/) | [Continue event](/refguide8/continue-event/) | Used to stop the current iteration of a loop and continue with the next iteration. Continue events can only be used inside a [loop](/refguide8/loop/). |
+| [![break event](/attachments/refguide8/modeling/application-logic/nanoflows/break-event.png)](/refguide8/break-event/) | [Break Event](/refguide8/break-event/) | Used to stop iterating over the list of objects and to continue with the rest of the flow after the loop. Break events can only be used inside a [loop](/refguide8/loop/). |
 
 ### 4.2 Flows {#flows}
 
@@ -89,8 +89,8 @@ Flows form the connection between elements.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](sequence-flow) | [Sequence flow](/refguide/sequence-flow/) | An arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a nanoflow. |
-| ](annotation#annotation-flow) | [Annotation flow](/refguide/annotation/#annotation-flow) | A connection that can be used to connect an annotation to another element. |
+| [![](/attachments/refguide8/modeling/application-logic/nanoflows/sequence-flow.png)](/refguide8/sequence-flow/) | [Sequence flow](/refguide8/sequence-flow/) | An arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a nanoflow. |
+| [![](/attachments/refguide8/modeling/application-logic/nanoflows/annotation-flow.png)](/refguide8/annotation/#annotation-flow) | [Annotation flow](/refguide8/annotation/#annotation-flow) | A connection that can be used to connect an annotation to another element. |
 
 ### 4.3 Decisions {#decisions}
 
@@ -98,18 +98,18 @@ Decisions deal with making choices and merging different paths.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](decision) | [Decision](/refguide/decision/) | Makes a decision based on a condition and follows one and only one of the outgoing flows. **Note**: there is no parallel execution in nanoflows. |
-| ](merge) | [Merge](/refguide/merge/) | Can be used to combine multiple sequence flows into one. If a choice is made in a nanoflow and afterwards some common work needs to be done, you can combine the two (or more) paths using a merge. |
+| [![decision](/attachments/refguide8/modeling/application-logic/nanoflows/decision.png)](/refguide8/decision/) | [Decision](/refguide8/decision/) | Makes a decision based on a condition and follows one and only one of the outgoing flows. **Note**: there is no parallel execution in nanoflows. |
+| [![merge](/attachments/refguide8/modeling/application-logic/nanoflows/merge.png)](/refguide8/merge/) | [Merge](/refguide8/merge/) | Can be used to combine multiple sequence flows into one. If a choice is made in a nanoflow and afterwards some common work needs to be done, you can combine the two (or more) paths using a merge. |
 
 ### 4.4 Activities{#activities}
 
-[Activities](/refguide/activities/) are the actions that are executed in a nanoflow:
+[Activities](/refguide8/activities/) are the actions that are executed in a nanoflow:
 
 ![Activity](/attachments/refguide8/modeling/application-logic/nanoflows/activity.png)
 
 ### 4.5 Loop {#loop}
 
-A [loop](/refguide/loop/) is used to iterate over a list of objects:
+A [loop](/refguide8/loop/) is used to iterate over a list of objects:
 
 ![Loop](/attachments/refguide8/modeling/application-logic/nanoflows/loop.png)
 
@@ -117,7 +117,7 @@ For every object the flow inside the loop is executed. A loop activity can conta
 
 ### 4.6 Parameter {#parameter}
 
-A [parameter](/refguide/parameter/) is data that serves as input for the nanoflow. 
+A [parameter](/refguide8/parameter/) is data that serves as input for the nanoflow. 
 
 ![Parameter](/attachments/refguide8/modeling/application-logic/nanoflows/parameter.png)
 
@@ -125,7 +125,7 @@ Parameters are filled at the location from where the nanoflow is triggered.
 
 ### 4.7 Annotation {#annotation}
 
-An [annotation](/refguide/annotation/) is an element that can be used to put comments in a microflow:
+An [annotation](/refguide8/annotation/) is an element that can be used to put comments in a microflow:
 
 ![Annotation](/attachments/refguide8/modeling/application-logic/nanoflows/annotation.png)
 

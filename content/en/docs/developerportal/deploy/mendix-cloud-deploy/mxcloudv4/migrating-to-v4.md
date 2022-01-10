@@ -69,14 +69,14 @@ We strongly advise you to use this method to migrate your app to Mendix Cloud v4
 The flow below shows the stages of using the migration tool, and an indication of the status of the app in both the original, Mendix Cloud v3, environment and the new Mendix Cloud v4 environment at each stage.
 
 {{% image_container width="66%" %}}
-![Overview of Migration Process](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migration-process-overview.png)
+![Overview of Migration Process](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migration-process-overview.png)
 {{% /image_container %}}
 
 ### 4.1 Prerequisites
 
 To migrate your app from Mendix Cloud v3 to Mendix Cloud v4, you need the following prerequisites:
 
-* Have a [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy/) v4 node available. This **must have the subdomain name `<current-app-name>-v4`**. To request a licensed v4 Cloud Node, use the [Request New App Node](https:/newnode.mendix.com/) app. In most cases, the node will have the same environments as the v3 app you are migrating
+* Have a [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy/) v4 node available. This **must have the subdomain name `<current-app-name>-v4`**. To request a licensed v4 Cloud Node, use the [Request New App Node](https://newnode.mendix.com/) app. In most cases, the node will have the same environments as the v3 app you are migrating
 * You should have the [Technical Contact](/developerportal/collaborate/app-roles/#technical-contact) role for both your existing v3 and available v4 Cloud Nodes
 
 ### 4.2 Preparing the New Environment
@@ -123,7 +123,7 @@ Below are the steps to start with the migration.
 
 4. Select the source and target environments. In most cases, these will have the same name. For example, you want to replicate data from the v3 `production` environment to the v4 `production` environment.
 
-    ![Select v3 node and environment](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/select-v3-node-to-migrate.png)
+    ![Select v3 node and environment](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/select-v3-node-to-migrate.png)
 
 5. Ensure that the app in the target v4 environment is stopped. You cannot replicate data into an app that is running.
 
@@ -141,7 +141,7 @@ Database dump-restore will run twice – once on replication activation, and aga
 
 1. Click the **Migration** icon to see the status of your replications.
 
-    ![Icon for migration page](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migration-page.png)
+    ![Icon for migration page](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migration-page.png)
 
 2. Once initial data transfer is complete, progress will be at 100%.
 
@@ -160,7 +160,7 @@ The migration page lists all the ongoing migrations, including the following inf
 * The **Activate Replication** button when the replication status is in a **Stopped** state
 *  The **Migrate** button that triggers the [final migration](#final-migration)
 
-    ![Status of the Migration](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migration-status.png)
+    ![Status of the Migration](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migration-status.png)
 
 {{% alert type="info" %}}
 File and row counts may not be completely accurate if the v3 app is running during the replication. File sync is refreshed on every sync run (there is a 5 minute pause between the stop of the previous one and start of the new one).
@@ -266,13 +266,13 @@ These instructions are provided in case you have problems using the migration to
 
 To manually migrate your app from a v3 node to a v4 node in the Mendix Cloud, follow the steps in the sections below.
 
-![](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migratev4.png)
+![](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migratev4.png)
 
 ### 5.1 Prerequisites
 
 Before starting a manual migration, make sure you have completed the following prerequisites:
 
-* Have a [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy/) v4 node available (to request a licensed v4 Cloud Node, request one through the [Request New App Node](https:/newnode.mendix.com/) app)
+* Have a [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy/) v4 node available (to request a licensed v4 Cloud Node, request one through the [Request New App Node](https://newnode.mendix.com/) app)
 * Have the [Technical Contact](/developerportal/collaborate/app-roles/#technical-contact) role for both your existing v3 and available v4 Cloud Nodes
 * Create two new temporary Free Apps without Free App environments – instructions for unlinking a Free App from its environment are here: [Licensing Mendix Cloud Apps](/developerportal/deploy/licensing-apps/#unlink)
 
@@ -286,7 +286,7 @@ First, link one of the new temporary apps to the cloud v4 node.
 
 3.  Click **select a node**.
 
-    ![](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/select-a-node.png)
+    ![](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/select-a-node.png)
 
 4.  Select the v4 node by clicking **Use this Node** and link it to your app.
 
@@ -310,7 +310,7 @@ To download a deployment package, follow these steps:
 
 3. Click **Download Package**.
 
-    ![](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/download-package.png)
+    ![](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/download-package.png)
 
 To upload the deployment package, follow these steps:
 
@@ -318,7 +318,7 @@ To upload the deployment package, follow these steps:
 
 2. Below the **Deployment Package Repository**, click **Upload**.
 
-    ![](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/upload-package.png)
+    ![](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/upload-package.png)
 
 3. Browse and select the downloaded deployment package from your device.
 
@@ -401,7 +401,7 @@ If you have a custom domain which you want to transfer to your v4 deployment, yo
     * If you made a certificate request to Mendix, the private key will be stored in the Mendix Secure Keystore and you will need to ask Mendix Support to arrange for the certificate to be migrated to v4
 
         The two certificate request options are shown below:
-        ![](/attachments/developerportal/deploy//mendix-cloud-deploy/mxcloudv4/migrating-to-v4/tls-certificates.png)
+        ![](/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/tls-certificates.png)
 
 * When you start the app on the v4 cloud, it can take some time for the DNS servers on the web to register the new target URL and redirect your custom domain name to it — therefore you must set the TTL value to 300 seconds to speed up this process, if your TTL setting has a longer duration. This should be done some days in advance to ensure the setting is propagated to all DNS servers.
 

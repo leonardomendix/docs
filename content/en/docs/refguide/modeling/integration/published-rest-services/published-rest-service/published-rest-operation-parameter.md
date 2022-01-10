@@ -72,4 +72,4 @@ You can indicate whether the import mapping should commit the objects that it cr
 
 Provide a **Description** of the parameter. You can use [GitHub-flavored Markdown](/refguide/gfm-syntax/) for rich text.
 
-This is used in the service's [OpenAPI (Swagger) documentation page](published-rest-services#interactive-documentation).
+This is used in the service's [OpenAPI (Swagger) documentation page](/refguide/published-rest-services/#interactive-documentation).

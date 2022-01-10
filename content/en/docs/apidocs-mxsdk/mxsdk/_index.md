@@ -5,7 +5,7 @@ url: /apidocs-mxsdk/mxsdk/
 
 ## 1 Introduction & FAQ
 
-Before the [Mendix Platform SDK](https://apidocs.rnd.mendix.com/platformsdk/latest/index.html) can make your life easier, you should learn about the [Mendix Model SDK](https://apidocs.rnd.mendix.com/modelsdk/latest/index.html). Start with the [SDK Introduction](/apidocs-mxsdk/mxsdk/sdk-intro/) and the [SDK FAQ](/apidocs-mxsdk/mxsdk/sdk-faq/). 
+Before the [Mendix Platform SDK](https:/apidocs.rnd.mendix.com/platformsdk/latest/index.html) can make your life easier, you should learn about the [Mendix Model SDK](https:/apidocs.rnd.mendix.com/modelsdk/latest/index.html). Start with the [SDK Introduction](/apidocs-mxsdk/mxsdk/sdk-intro/) and the [SDK FAQ](/apidocs-mxsdk/mxsdk/sdk-faq/). 
 
 ## 2 SDK Reference Guide
 
@@ -35,4 +35,4 @@ For more information, check the [Mendix Model SDK Release Notes](/releasenotes/s
 
 ## 6 Need Help?
 
-If you need help with the SDKs, check whether your question is answered in the [SDK FAQ](/apidocs-mxsdk/mxsdk/sdk-faq/). Otherwise, ask your question in the [Mendix Forum](https:/forum.mendixcloud.com/index4.html). 
+If you need help with the SDKs, check whether your question is answered in the [SDK FAQ](/apidocs-mxsdk/mxsdk/sdk-faq/). Otherwise, ask your question in the [Mendix Forum](https://forum.mendixcloud.com/index4.html). 

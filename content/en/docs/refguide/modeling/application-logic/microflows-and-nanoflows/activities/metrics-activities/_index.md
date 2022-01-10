@@ -17,6 +17,6 @@ The following are the metrics activities you can use in your microflow:
 
 ## 2 Read More
 
-* [Metric Configuration](/developerportal/operate/metrics/)
+* [Metric Configuration](/refguide/metrics/)
 * [Activities](/refguide/activities/)
 * [Meter Concepts](https://micrometer.io/docs/concepts)

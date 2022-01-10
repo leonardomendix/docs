@@ -9,7 +9,7 @@ tags: ["Microflow", "Nanoflow", "Exclusive Split", "Logic"]
 
 A rule is a special kind of microflow. Its result should be an enumeration or a boolean and it can be used in an [exclusive split](/refguide7/exclusive-split/) to make a decision based on that result. The idea is that complicated decisions can be consolidated in rules and reused in various places.
 
-Rules are very similar to microflows; see the documentation on [Microflows](/refguide/microflows/) for more information on how to build a rule. There are only a few differences between rules and microflows:
+Rules are very similar to microflows; see the documentation on [Microflows](/refguide7/microflows/) for more information on how to build a rule. There are only a few differences between rules and microflows:
 
 *   A rule can only be used in an exclusive split
 

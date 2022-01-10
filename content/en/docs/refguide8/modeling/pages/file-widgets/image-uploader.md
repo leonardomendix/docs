@@ -60,7 +60,7 @@ Default: *5*
 
 You can specify file extensions that users are allowed to upload. If no extension is specified, all file extensions are allowed. Separate multiple extensions by a semi-colon (for example, `txt;doc`).
 
-If a file with an extension that is not allowed is selected, a [system text](/refguide/system-texts/) for **File manager/image viewer** > **Error: incorrect file extension** will be shown below the file manager.
+If a file with an extension that is not allowed is selected, a [system text](/refguide8/system-texts/) for **File manager/image viewer** > **Error: incorrect file extension** will be shown below the file manager.
 
 #### 2.4.3 Thumbnail Width
 
@@ -80,6 +80,6 @@ If a file with an extension that is not allowed is selected, a [system text](/re
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [File Widgets](/refguide7/file-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [File Widgets](/refguide8/file-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

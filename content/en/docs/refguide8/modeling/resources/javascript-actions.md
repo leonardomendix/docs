@@ -18,7 +18,7 @@ This activity can only be used in **Nanoflows**.
 
 ## 1 Introduction
 
-With JavaScript actions, you can extend your application's functionality in ways nanoflows alone cannot. To use a JavaScript action, call it from a nanoflow using the [JavaScript Action Call](/refguide/javascript-action-call/).
+With JavaScript actions, you can extend your application's functionality in ways nanoflows alone cannot. To use a JavaScript action, call it from a nanoflow using the [JavaScript Action Call](/refguide8/javascript-action-call/).
 
 {{% alert type="info" %}}
 
@@ -79,7 +79,7 @@ This setting handles the parameter's name. A name is required. Names must start 
 
 #### 2.2.3 Category
 
-Use categories to keep parameters apart in a [JavaScript Action Call](/refguide/javascript-action-call/). Categories are useful for making logical groups of parameters when your project has several parameters. If you do not specify a category, the parameter will appear in the **Input** group.
+Use categories to keep parameters apart in a [JavaScript Action Call](/refguide8/javascript-action-call/). Categories are useful for making logical groups of parameters when your project has several parameters. If you do not specify a category, the parameter will appear in the **Input** group.
 
 #### 2.2.4 Description
 
@@ -168,8 +168,8 @@ export async function Hello(message) {
 
 ## 7 Read More
 
-* [JavaScript Action Call](/refguide/javascript-action-call/)
-* [Nanoflows](/refguide/nanoflows/)
+* [JavaScript Action Call](/refguide8/javascript-action-call/)
+* [Nanoflows](/refguide8/nanoflows/)
 * [Build JavaScript Actions](/howto8/extensibility/build-javascript-actions/)
-* [Java Action Call](/refguide/java-action-call/)
-* [Microflow Call](/refguide/microflow-call/)
+* [Java Action Call](/refguide8/java-action-call/)
+* [Microflow Call](/refguide8/microflow-call/)

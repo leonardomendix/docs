@@ -24,7 +24,7 @@ aliases:
 
 ## 1 Introduction
 
-A control bar of a [template grid](/refguide/template-grid/), [data grid](/refguide/data-grid/), and [reference set selector](/refguide/reference-set-selector/) allows you to manipulate the objects displayed by means of buttons. By default, both grids will be created with [Search](#search-button), [New](#create-button), [Edit](#grid-action-button), and [Delete](#grid-action-button) buttons in the control bar:
+A control bar of a [template grid](/refguide8/template-grid/), [data grid](/refguide8/data-grid/), and [reference set selector](/refguide8/reference-set-selector/) allows you to manipulate the objects displayed by means of buttons. By default, both grids will be created with [Search](#search-button), [New](#create-button), [Edit](#grid-action-button), and [Delete](#grid-action-button) buttons in the control bar:
 
 ![Data Grid Control Bar](/attachments/refguide8/modeling/pages/data-widgets/grids/control-bar/control-bar-example.png)
 
@@ -32,21 +32,21 @@ The control bar can also include a number of selection options and spreadsheet e
 
 ## 2 Control Bar Buttons
 
-Most properties of control bar buttons are the same as properties of button widgets. For more information on button properties, see [Button Properties](/refguide/button-properties/).
+Most properties of control bar buttons are the same as properties of button widgets. For more information on button properties, see [Button Properties](/refguide8/button-properties/).
 
 Sections below describe the purpose of each control bar button and their specific properties if any. 
 
 ### 2.1 Search Button {#search-button}
 
-The **Search bar toggle** button (with default caption **Search**) opens or hides the [search bar](/refguide/search-bar/). It is only present if the **Show search bar** property of the grid is set to either *With button (initially open)* or *With button (initially closed)*.  
+The **Search bar toggle** button (with default caption **Search**) opens or hides the [search bar](/refguide8/search-bar/). It is only present if the **Show search bar** property of the grid is set to either *With button (initially open)* or *With button (initially closed)*.  
 
 {{% alert type="info" %}}
-In a [reference set selector](/refguide/reference-set-selector/) there will be no search fields set by default. See [Search Bar](/refguide/search-bar/) to learn more about search fields. 
+In a [reference set selector](/refguide8/reference-set-selector/) there will be no search fields set by default. See [Search Bar](/refguide8/search-bar/) to learn more about search fields. 
 {{% /alert %}}
 
 ### 2.2 Add Button {#add-button}
 
-The **Add** button can only be used in the [reference set selector](/refguide/reference-set-selector/). With this button, the user can select objects that have to be added to the reference set selector.
+The **Add** button can only be used in the [reference set selector](/refguide8/reference-set-selector/). With this button, the user can select objects that have to be added to the reference set selector.
 
 #### 2.2.1 Page
 
@@ -59,7 +59,7 @@ You can use an existing page or you can generate the appropriate page by either:
 
 Both these options allow you to create a page which has the correct format for use by the add button. You can, of course, edit the page to meet your own requirements once it has been generated.
 
-See the [Show a Page](/refguide/on-click-event/#show-page) section of *On Click Event & Events Section*. Note that select pages must have a [pop-up layout](/refguide/layout/#layout-type).
+See the [Show a Page](/refguide8/on-click-event/#show-page) section of *On Click Event & Events Section*. Note that select pages must have a [pop-up layout](/refguide8/layout/#layout-type).
 
 ### 2.3 Create Button {#create-button}
 
@@ -73,11 +73,11 @@ For example, you have an entity *Vehicle* and two specializations: *Bicycle* and
 
 ### 2.4 Action Button {#grid-action-button}
 
-An action button is a button that can perform various actions, such as calling a microflow or opening a page. The **Edit** and **Delete** buttons are action buttons created by default in a data grid and template grid control bar. For more information on action buttons, see [Button Widgets](/refguide/button-widgets/). 
+An action button is a button that can perform various actions, such as calling a microflow or opening a page. The **Edit** and **Delete** buttons are action buttons created by default in a data grid and template grid control bar. For more information on action buttons, see [Button Widgets](/refguide8/button-widgets/). 
 
 ### 2.5 Remove Button {#remove-button}
 
-The **Remove** button is a button specific for the reference set selector. With this button the end-user can remove objects that have been added to the reference set selector. For more information on a reference set selector, see [Reference Set Selector](/refguide/reference-set-selector/). 
+The **Remove** button is a button specific for the reference set selector. With this button the end-user can remove objects that have been added to the reference set selector. For more information on a reference set selector, see [Reference Set Selector](/refguide8/reference-set-selector/). 
 
 ### 2.6 Select Button {#select-button}
 
@@ -114,7 +114,7 @@ The **Export to Excel** button allows end-users to export the contents of the gr
 
 {{% alert type="info" %}}
 
-The Excel export function is only available in list widgets that have the [XPath data source](/refguide/xpath-source/). 
+The Excel export function is only available in list widgets that have the [XPath data source](/refguide8/xpath-source/). 
 
 Constraints you are using for search fields and sorting will also be exported.
 
@@ -143,7 +143,7 @@ The **Export to CSV** button allows end-users to export the contents of the grid
 
 {{% alert type="info" %}}
 
-The export to CSV function is only available in list widgets that have the [XPath data source](/refguide/xpath-source/). 
+The export to CSV function is only available in list widgets that have the [XPath data source](/refguide8/xpath-source/). 
 
 Constraints you are using for search fields and sorting will also be exported.
 
@@ -181,7 +181,7 @@ When **Use grid date format property** is enabled, the date format of the column
 
 ## 3 Read More
 
-* [Button Properties](/refguide/button-properties/)
-* [Data Grid](/refguide/data-grid/)
-* [Template Grid](/refguide/template-grid/)
-* [Reference Set Selector](/refguide/reference-set-selector/)
+* [Button Properties](/refguide8/button-properties/)
+* [Data Grid](/refguide8/data-grid/)
+* [Template Grid](/refguide8/template-grid/)
+* [Reference Set Selector](/refguide8/reference-set-selector/)

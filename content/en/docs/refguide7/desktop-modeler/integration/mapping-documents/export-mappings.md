@@ -6,11 +6,11 @@ parent: "mapping-documents"
 ---
 
 
-Please refer to [Mapping Documents](/refguide/mapping-documents/) for an introduction.
+Please refer to [Mapping Documents](/refguide7/mapping-documents/) for an introduction.
 
 ## Obtaining Objects in Export Mappings
 
-Figure 1 shows an example of an Export Mapping document in which two elements from a schema have been selected using the [Select Elements](/refguide/select--elements/) dialog. The entity Cheesecake (on the left) was dragged into the mapping to map to the Cheesecake element (on the right) and the entity Topping was mapped to the Topping element.
+Figure 1 shows an example of an Export Mapping document in which two elements from a schema have been selected using the [Select Elements](/refguide7/select--elements/) dialog. The entity Cheesecake (on the left) was dragged into the mapping to map to the Cheesecake element (on the right) and the entity Topping was mapped to the Topping element.
 
 ![](/attachments/refguide7/desktop-modeler/integration/mapping-documents/export-mappings/16843939.png)
 

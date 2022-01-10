@@ -467,7 +467,7 @@ When you have completed the sections above, you may have errors in your error li
 
 * If you have errors saying **Unknown option X for design property**, it means the design property option has been removed in Atlas 3. Use one of the following methods to solve the error: 
 	* Set the design property to its default option: right-click the error, then select **Set property X to default**
-	* Search for the design property option's CSS class in *theme_atlas2/settings.json* for web and *theme_atlas2/settings-native.json* for native, then add it to the applicable [widget's style property](common-widget-properties#style)  
+	* Search for the design property option's CSS class in *theme_atlas2/settings.json* for web and *theme_atlas2/settings-native.json* for native, then add it to the applicable [widget's style property](/refguide/common-widget-properties/#style)  
 
 	![](/attachments/refguide/general/moving-from-8-to-9/moving-from-atlas-2-to-3/9-set-prop.png)
 

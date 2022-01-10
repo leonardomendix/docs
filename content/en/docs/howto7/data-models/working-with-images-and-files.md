@@ -14,7 +14,7 @@ This how-to explains how you can work with images and files with Mendix. Out of 
 
 Before starting this how-to, make sure you have completed the following prerequisite:
 
-* Read [How to Create a Basic Data Layer](/howto/data-models/create-a-basic-data-layer/)
+* Read [How to Create a Basic Data Layer](/howto7/data-models/create-a-basic-data-layer/)
 
 ## 3 Images
 
@@ -22,27 +22,27 @@ Before starting this how-to, make sure you have completed the following prerequi
 2.  Double-click the entity to open its properties.
 3.  Click **Select** at the **Generalization** property to open the entity selector.
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582124.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582124.png)
 
 4.  Select **System.Image** and click the **Select** button.
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582123.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582123.png)
 
 5.  Click **OK** in the entities property form. Your entity now inherits all properties from the 'System.Image' entity you selected and should look like this:
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582136.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582136.png)
 
 6.  Create an overview and detail page to manage objects of the entity that you just created. Your detail page should look like this:
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582131.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582131.png)
 
 7.  Open the **detail page** and double click the ImageUploader to open its properties. On this form you can select the maximum file size, and thumbnail width and height. Mendix automatically generates a thumbnail for the images you upload via the ImageUploader.
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582130.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582130.png)
 
 8.  Double click the ImageViewer to open its properties. On this form you can select the default image, width, height and if the viewer should show the thumbnail or full image.
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582129.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582129.png)
 
 ## 4 File Documents
 
@@ -52,15 +52,15 @@ Before starting this how-to, make sure you have completed the following prerequi
 4.  In the **Select Entity** dialog box, select **System.FileDocument**.
 5.  Click **OK** in the entities property form. Your entity now inherits all properties from the **System.FileDocument** entity you selected and should look like this:
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582126.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582126.png)
 
 6.  Create an overview and detail page to manage objects of the entity that you just created. If you don't know how to create those pages, take a look at [this](/howto7/front-end/create-your-first-two-overview-and-detail-pages/) how-to. Your detail page should look like this:
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582125.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582125.png)
 
 7.  Open the detail page and double click the FileManager to open its properties. On this form you can select the maximum file size and allowed file extensions.
 
-    ![](/attachments/howto7/data-models//working-with-images-and-files/18582122.png)
+    ![](/attachments/howto7/data-models/working-with-images-and-files/18582122.png)
 
 ## 5 Navigation and Security
 
@@ -69,11 +69,11 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 ## 6 Read More
 
-*   [How to Work with Images & Files](/howto/data-models/working-with-images-and-files/)
-*   [How to Create a Basic Data Layer](/howto/data-models/create-a-basic-data-layer/)
+*   [How to Work with Images & Files](/howto7/data-models/working-with-images-and-files/)
+*   [How to Create a Basic Data Layer](/howto7/data-models/create-a-basic-data-layer/)
 *   [How to Work with Object Events](/howto7/data-models/working-with-object-events/)
-*   [How to Denormalize Data to Improve Performance](/howto/data-models/denormalize-data-to-improve-performance/)
-*   [How to Set Up Data Validation](/howto/data-models/setting-up-data-validation/)
+*   [How to Denormalize Data to Improve Performance](/howto7/data-models/denormalize-data-to-improve-performance/)
+*   [How to Set Up Data Validation](/howto7/data-models/setting-up-data-validation/)
 *   [How to Find the Root Cause of Runtime Errors](/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
 *   [Stories](/developerportal/collaborate/stories/)
 

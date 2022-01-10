@@ -5,7 +5,7 @@ parent: "input-widgets"
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-The reference selector is an [input widget](/refguide/input-widgets/) that can be used to display and edit [associations](/refguide/associations/).
+The reference selector is an [input widget](/refguide7/input-widgets/) that can be used to display and edit [associations](/refguide7/associations/).
 
 {{% alert type="info" %}}
 
@@ -16,7 +16,7 @@ To use a reference selector you need a many-to-one association in the domain mod
 
 {{% /alert %}}
 
-The reference selector is similar to a [Report Parameter](/refguide/report-parameter/) except that it allows users to choose from a list of objects with which to fill an association rather than items listed in an enumeration. The selector requires you to choose an entity with which the parent object shares a reference. It will also require you to choose which attribute from that referenced entity you wish to display in the selector.
+The reference selector is similar to a [Report Parameter](/refguide7/report-parameter/) except that it allows users to choose from a list of objects with which to fill an association rather than items listed in an enumeration. The selector requires you to choose an entity with which the parent object shares a reference. It will also require you to choose which attribute from that referenced entity you wish to display in the selector.
 
 {{% alert type="success" %}}
 
@@ -45,7 +45,7 @@ _Default value:_ Drop-down
 
 ### Empty Option Caption
 
-This property represents the caption for the empty option in the drop-down reference selector shown to the user. Setting the caption is not available if the Select Using property set to the Page option. This is a translatable text. For more details, see [Translatable Texts](/refguide/translatable-texts/).
+This property represents the caption for the empty option in the drop-down reference selector shown to the user. Setting the caption is not available if the Select Using property set to the Page option. This is a translatable text. For more details, see [Translatable Texts](/refguide7/translatable-texts/).
 
 {{% alert type="info" %}}
 
@@ -204,6 +204,6 @@ Keep in mind that even though you connect an attribute to the reference selector
 
 ## Read More
 
-*   [Data view](/refguide/data-view/)
-*   [Entities](/refguide/entities/)
-*   [Associations](/refguide/associations/)
+*   [Data view](/refguide7/data-view/)
+*   [Entities](/refguide7/entities/)
+*   [Associations](/refguide7/associations/)

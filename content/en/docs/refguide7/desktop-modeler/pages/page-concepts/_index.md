@@ -15,11 +15,11 @@ The documentation in this section describes the basic concepts that you need whe
 
 This page describes how pages can be made dynamic by setting conditions, based on context, to decide whether a specific element is shown.
 
-### [Data Sources](/refguide/data-sources/)
+### [Data Sources](/refguide7/data-sources/)
 
 This page describes how data can be retrieved and used in data and list views.
 
-### [On Click Event](/refguide/on-click-event/)
+### [On Click Event](/refguide7/on-click-event/)
 
 This page describes how to trigger a microflow when clicking a widget.
 

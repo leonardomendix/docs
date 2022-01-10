@@ -19,7 +19,7 @@ The CORS settings feature was introduced in Mendix version 7.18.0.
 
 Cross-Origin Resource Sharing (CORS) uses additional HTTP headers to tell a browser to give access to selected resources from a server in a different origin (domain).
 
-When you enable CORS in a [published REST service](/refguide/published-rest-service/), by default all websites on all servers are allowed to access your service. The **CORS Settings** dialog box allows you to configure this type of access on a more detailed level.
+When you enable CORS in a [published REST service](/refguide7/published-rest-service/), by default all websites on all servers are allowed to access your service. The **CORS Settings** dialog box allows you to configure this type of access on a more detailed level.
 
 ## 2 Allowed Origins
 

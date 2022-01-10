@@ -10,7 +10,7 @@ tags: ["Version Control", "Conflicts", "Resolve", "Merge", "Patch", "Branch", "D
 
 ## 1 Introduction
 
-This reference guide describes how to use version control the Desktop Modeler. The theory behind how version control works in Mendix, and a definition of the concepts can be found in [Version Contol](/refguide/version-control/).
+This reference guide describes how to use version control the Desktop Modeler. The theory behind how version control works in Mendix, and a definition of the concepts can be found in [Version Contol](/refguide7/version-control/).
 
 ## 2 Starting a Project with Version Control
 
@@ -206,7 +206,7 @@ A repository can contain a number of development lines. Each development line of
 
 ![](/attachments/refguide7/version-control/using-version-control-in-the-dm/688156.png)
 
-It is often convenient to have more than one development line. For example, one development line for fixing bugs in the currently deployed version of your project and another line where you develop new functionality. If you then find a bug in the deployed version you can fix it in the corresponding development line irrespective of the state of the development line where new functionality is developed. See [Version Control](/refguide/version-control/) for more information about branches.
+It is often convenient to have more than one development line. For example, one development line for fixing bugs in the currently deployed version of your project and another line where you develop new functionality. If you then find a bug in the deployed version you can fix it in the corresponding development line irrespective of the state of the development line where new functionality is developed. See [Version Control](/refguide7/version-control/) for more information about branches.
 
 ### 7.1 When to use a Branch
 

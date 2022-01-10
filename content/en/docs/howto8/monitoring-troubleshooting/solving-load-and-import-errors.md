@@ -15,7 +15,7 @@ This how-to will help you to solve problems that may occur when opening a projec
 
 One possible cause of errors that prevent loading is the usage of the [Mendix Model SDK](/apidocs-mxsdk/mxsdk/) for creating or editing the project. With the Mendix Model SDK it's possible to edit your project in such a way that its format becomes invalid, and in the process preventing Studio Pro from opening it. When this happens the following message is shown:
 
-![](/attachments/howto8/monitoring-troubleshooting//solving-load-and-import-errors/18580055.png)
+![](/attachments/howto8/monitoring-troubleshooting/solving-load-and-import-errors/18580055.png)
 
 Read on to find out how to determine the origin of these errors, and possible ways to solve them.
 
@@ -23,7 +23,7 @@ Read on to find out how to determine the origin of these errors, and possible wa
 
 Click the **Details >>** button to show the actual errors that occurred while loading your project:
 
-![](/attachments/howto8/monitoring-troubleshooting//solving-load-and-import-errors/18580052.png)
+![](/attachments/howto8/monitoring-troubleshooting/solving-load-and-import-errors/18580052.png)
 
 These detailed messages tell you the following:
 
@@ -37,7 +37,7 @@ Before trying to solve the problems, it's useful to discover the origin of the p
 
 ### 3.1 Is This a Team Server Project?
 
-If your project is a [Team Server](/developerportal/collaborate/team-server/) project, and you just did a [download or update](/refguide8/using-version-control-in-studio-pro/) from the server, the problem may have been added in a revision that was recently committed to the Team Server. You can check who made the most recent commit via the [Team Server](/developerportal/collaborate/team-server/) menu item in the [Developer Portal](https:/sprintr.home.mendix.com).
+If your project is a [Team Server](/developerportal/collaborate/team-server/) project, and you just did a [download or update](/refguide8/using-version-control-in-studio-pro/) from the server, the problem may have been added in a revision that was recently committed to the Team Server. You can check who made the most recent commit via the [Team Server](/developerportal/collaborate/team-server/) menu item in the [Developer Portal](https://sprintr.home.mendix.com).
 
 If the latest change on your branch line was committed by someone other than yourself, please inform the person about the problem.
 
@@ -57,12 +57,12 @@ The most likely cause for these kinds of errors is a faulty script that was run 
 
 ## 5 Read More
 
-*   [Clearing Warning Messages in Mendix](/howto/monitoring-troubleshooting/clear-warning-messages/)
-*   [Debug a Hybrid Mobile Application](/howto/monitoring-troubleshooting/debug-a-hybrid-mobile-application/)
-*   [Debugging Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
-*   [Debugging Java actions remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-*   [Debugging Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-*   [Debugging Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
-*   [Finding the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-*   [Log Levels](/howto/monitoring-troubleshooting/log-levels/)
-*   [Monitoring Mendix using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+*   [Clearing Warning Messages in Mendix](/howto8/monitoring-troubleshooting/clear-warning-messages/)
+*   [Debug a Hybrid Mobile Application](/howto8/monitoring-troubleshooting/debug-a-hybrid-mobile-application/)
+*   [Debugging Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)
+*   [Debugging Java actions remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)
+*   [Debugging Microflows](/howto8/monitoring-troubleshooting/debug-microflows/)
+*   [Debugging Microflows Remotely](/howto8/monitoring-troubleshooting/debug-microflows-remotely/)
+*   [Finding the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+*   [Log Levels](/howto8/monitoring-troubleshooting/log-levels/)
+*   [Monitoring Mendix using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)

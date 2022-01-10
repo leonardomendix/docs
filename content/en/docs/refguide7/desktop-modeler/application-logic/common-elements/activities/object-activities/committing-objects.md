@@ -6,11 +6,11 @@ parent: "object-activities"
 
 ## 1 Introduction
 
-This action can commit one or more objects. For persistable entities this means that the object will be stored in the database. Committing non-persistable entities stores the current attribute values and association values in memory, this allows a rollback to revert to those values. See also [Persistability](/refguide/persistability/).
+This action can commit one or more objects. For persistable entities this means that the object will be stored in the database. Committing non-persistable entities stores the current attribute values and association values in memory, this allows a rollback to revert to those values. See also [Persistability](/refguide7/persistability/).
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Nanoflows do not have this property. Committing while running in an online app s
 
 ### 3.2 Refresh in Client
 
-If the microflow is called from the client, the change is not reflected in the client if **Refresh in client** is set to *No*. If set to *Yes*, the object is refreshed across the client, which includes reloading the relevant [data sources](/refguide/data-sources/).
+If the microflow is called from the client, the change is not reflected in the client if **Refresh in client** is set to *No*. If set to *Yes*, the object is refreshed across the client, which includes reloading the relevant [data sources](/refguide7/data-sources/).
 
 {{% alert type="info" %}}
 
@@ -50,7 +50,7 @@ When committing a large number of objects, we recommend that you do not enable '
 
 {{% alert type="warning" %}}
 
-When inside a [nanoflow](/refguide/nanoflows/), the object is refreshed across the client as if **Refresh in client** was set to *Yes*.
+When inside a [nanoflow](/refguide7/nanoflows/), the object is refreshed across the client as if **Refresh in client** was set to *Yes*.
 
 {{% /alert %}}
 

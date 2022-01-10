@@ -156,7 +156,7 @@ To perform actions on a data grid, select it on a page and right-click it. The l
 ## 5 Read More
 
 * [Page](/refguide/page/)
-* [Data Containers](/appstore/modules/data-widgets/)
+* [Data Containers](/refguide/data-widgets/)
 * [Data Sources](/refguide/data-sources/)
 * [Properties Common in the Page Editor](/refguide/common-widget-properties/)
 * [Grid Columns](/refguide/columns/) 

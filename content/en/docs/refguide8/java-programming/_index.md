@@ -20,7 +20,7 @@ For a deep-dive look into Java programming in Mendix, check out this video:
   data-type="inline"
 />
 
-For information about Java actions in Studio Pro, see [Java Actions](/refguide/java-actions/).
+For information about Java actions in Studio Pro, see [Java Actions](/refguide8/java-actions/).
 
 
 ## 2 Writing Code in the .java Files of Your Java Actions
@@ -65,9 +65,9 @@ You should therefore ensure that you always set a timeout for any connections yo
 
 ## 5 Using Eclipse as an Environment to Write Your Mendix Java Actions
 
-For details on this topic, see [Using Eclipse](/refguide/using-eclipse/).
+For details on this topic, see [Using Eclipse](/refguide8/using-eclipse/).
 
 ## 6 Main Documents in This Category
 
-* [Troubleshooting](/refguide/troubleshooting/) – presents problematic JAR files and workarounds
-* [Using Eclipse](/refguide/using-eclipse/) – describes how to use Eclipse to write and debug the Java actions in your Mendix app
+* [Troubleshooting](/refguide8/troubleshooting/) – presents problematic JAR files and workarounds
+* [Using Eclipse](/refguide8/using-eclipse/) – describes how to use Eclipse to write and debug the Java actions in your Mendix app

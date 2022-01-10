@@ -5,7 +5,7 @@ parent: "mapping-documents"
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-Please refer to [Mapping Documents](/refguide/mapping-documents/) for an introduction.
+Please refer to [Mapping Documents](/refguide7/mapping-documents/) for an introduction.
 
 ## 1 Obtaining Objects in Import Mappings
 
@@ -49,7 +49,7 @@ The feature **Decide this at the place where the mapping gets used** was introdu
 
 {{% /alert %}}
 
-At the top level of the mapping, you can choose to decide this at the place where the mapping gets used. In that case, the option **if no object was found** shows up whenever you use the mapping, for instance in an [import mapping action](/refguide/import-mapping-action/) or a [call REST service action](/refguide/call-rest-action/).
+At the top level of the mapping, you can choose to decide this at the place where the mapping gets used. In that case, the option **if no object was found** shows up whenever you use the mapping, for instance in an [import mapping action](/refguide7/import-mapping-action/) or a [call REST service action](/refguide7/call-rest-action/).
 
 ### 1.3 Setting Associations
 
@@ -94,7 +94,7 @@ Since version 7.16.0. it is possible to define a mapping parameter with a primit
 
 {{% /alert %}}
 
-Import mappings have the additional option to receive an incoming parameter. The parameter can be passed in by the calling microflow when microflow uses the [import from mapping](/refguide/import-mapping-action/) action.
+Import mappings have the additional option to receive an incoming parameter. The parameter can be passed in by the calling microflow when microflow uses the [import from mapping](/refguide7/import-mapping-action/) action.
 
 To define a parameter for your mapping, click the parameter box and select the data type. You can also drag an entity to the parameter box. 
 

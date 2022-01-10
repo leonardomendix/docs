@@ -26,7 +26,7 @@ You can change the default layout of panes and arrange them in the layout you li
 
 {{% alert type="info" %}}
 
-Note that this section describes the behavior of panes, not the behavior of documents in the working area. For more information on the behavior of documents open in the working area, see the [Document Tabs](/refguide/studio-pro-overview/#documents) section in *Studio Pro Overview*.
+Note that this section describes the behavior of panes, not the behavior of documents in the working area. For more information on the behavior of documents open in the working area, see the [Document Tabs](/refguide8/studio-pro-overview/#documents) section in *Studio Pro Overview*.
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Menu items of the **View** menu are described in sections below.
 
 ### 3.1 Changes
 
-For version control enabled projects (projects with [Team Server](/developerportal/collaborate/team-server/) or other SVN servers), the [Changes pane](/refguide/changes-pane/) shows the local changes to the app since the last commit. You can commit changes, update to the latest revision, and view the history from here. 
+For version control enabled projects (projects with [Team Server](/developerportal/collaborate/team-server/) or other SVN servers), the [Changes pane](/refguide8/changes-pane/) shows the local changes to the app since the last commit. You can commit changes, update to the latest revision, and view the history from here. 
 
 This pane has two levels, so when you zoom into a changed document, you can review all the changes within that document without going back and forth between levels. The zoomed-in level of the pane is split into two grids, with elements on the left and properties on the right. Selecting an element on the left presents the changed properties on the right:
 
@@ -83,11 +83,11 @@ The **Connector** pane displays elements that can be connected to the currently 
 
 ### 3.3 Data Hub {#data-hub}
 
-The [Data Hub pane](/refguide/data-hub-pane/) allows you to browse the [Data Hub Catalog](/data-hub/data-hub-catalog/) and integrate registered data sources that are available for your organization. You can add [external entities](/refguide/external-entities/) to your app via this pane and view entities and services already consumed in your project. 
+The [Data Hub pane](/refguide8/data-hub-pane/) allows you to browse the [Data Hub Catalog](/data-hub/data-hub-catalog/) and integrate registered data sources that are available for your organization. You can add [external entities](/refguide8/external-entities/) to your app via this pane and view entities and services already consumed in your project. 
 
 ### 3.3 Console {#console}
 
-The **Console** pane displays the output of the [Mendix Runtime](/refguide/runtime/) while running an application.
+The **Console** pane displays the output of the [Mendix Runtime](/refguide8/runtime/) while running an application.
 
 ### 3.4 Documentation
 
@@ -95,7 +95,7 @@ The **Documentation** pane displays the documentation for the currently selected
 
 ### 3.5 Error List
 
-The [Errors pane](/refguide/errors-pane/) displays the [errors](/refguide/consistency-errors/), warnings, and deprecations that exist in your app.
+The [Errors pane](/refguide8/errors-pane/) displays the [errors](/refguide8/consistency-errors/), warnings, and deprecations that exist in your app.
 
 ### 3.6 Find Results {#find}
 
@@ -105,7 +105,7 @@ There are two **Find Results** panes. If you lock the results of the first pane,
 
 ### 3.7 Project Explorer
 
-The [Project Explorer](/refguide/project-explorer/) pane displays the complete structure of your app, including all the documents inside the modules. By default, the active document is always selected, so you can quickly see where the document you are editing is in the tree. You can change this behavior in **Edit** > [Preferences](/refguide/preferences-dialog/).
+The [Project Explorer](/refguide8/project-explorer/) pane displays the complete structure of your app, including all the documents inside the modules. By default, the active document is always selected, so you can quickly see where the document you are editing is in the tree. You can change this behavior in **Edit** > [Preferences](/refguide8/preferences-dialog/).
 
 ### 3.8 Properties
 
@@ -113,11 +113,11 @@ The **Properties** pane displays the properties of the currently selected elemen
 
 ### 3.9 Stories
 
-For [Team Server](/developerportal/collaborate/team-server/) app, the **Stories** pane shows the [stories](/developerportal/collaborate/stories/) of the current [Sprint](/developerportal/collaborate/stories/). For more information on the **Stories** pane and how to interact with it, see [Stories Pane](/refguide/stories-pane/). 
+For [Team Server](/developerportal/collaborate/team-server/) app, the **Stories** pane shows the [stories](/developerportal/collaborate/stories/) of the current [Sprint](/developerportal/collaborate/stories/). For more information on the **Stories** pane and how to interact with it, see [Stories Pane](/refguide8/stories-pane/). 
 
 ### 3.10 Toolbox {#toolbox}
 
-The **Toolbox** pane displays the tools that can be used in the current editor. For example, in a page you can insert all kinds of widgets (for example, [data widgets](/appstore/modules/data-widgets/)) by dragging them from the **Toolbox** onto your page.
+The **Toolbox** pane displays the tools that can be used in the current editor. For example, in a page you can insert all kinds of widgets (for example, [data widgets](/refguide8/data-widgets/)) by dragging them from the **Toolbox** onto your page.
 
 ### 3.11 Debug Windows
 
@@ -152,7 +152,7 @@ Resets the layout of dockable window panes to factory defaults.
 
 ## 4 Read More
 
-* [Changes Pane](/refguide/changes-pane/)
-* [Errors Pane](/refguide/errors-pane/)
-* [Project Explorer](/refguide/project-explorer/)
-* [Studio Pro Overview](/refguide/studio-pro-overview/)
+* [Changes Pane](/refguide8/changes-pane/)
+* [Errors Pane](/refguide8/errors-pane/)
+* [Project Explorer](/refguide8/project-explorer/)
+* [Studio Pro Overview](/refguide8/studio-pro-overview/)

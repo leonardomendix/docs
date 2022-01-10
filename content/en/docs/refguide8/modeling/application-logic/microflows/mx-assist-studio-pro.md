@@ -29,7 +29,7 @@ You can switch MxAssist Logic Bot on and off clicking the **On-Off** button in t
 
 ![On-Off Button](/attachments/refguide8/modeling/application-logic/microflows/mx-assist-studio-pro/on-off-button.png)
 
-To access settings of MxAssist Logic Bot, open **Edit** > **Preferences** >the **Mendix Assist** tab >the **Logic Bot** section. For more information, see [Preferences](/refguide/preferences-dialog/).
+To access settings of MxAssist Logic Bot, open **Edit** > **Preferences** >the **Mendix Assist** tab >the **Logic Bot** section. For more information, see [Preferences](/refguide8/preferences-dialog/).
 
 In the **Mendix Assist** tab, section **Logic Bot**, you can set the following: 
 
@@ -39,7 +39,7 @@ In the **Mendix Assist** tab, section **Logic Bot**, you can set the following:
 
   ![Suggestions for System Variables](/attachments/refguide8/modeling/application-logic/microflows/mx-assist-studio-pro/mx-assist-system-variables.png)
 
-For more information on preferences, see [Preferences](/refguide/preferences-dialog/).
+For more information on preferences, see [Preferences](/refguide8/preferences-dialog/).
 
 ## 3 Using MxAssist Logic Bot to Build Microflows
 
@@ -63,4 +63,4 @@ If you do not see the desired activity or element in the top-five recommendation
 
 ## 4 Read More
 
-* [Microflows](/refguide/microflows/)
+* [Microflows](/refguide8/microflows/)

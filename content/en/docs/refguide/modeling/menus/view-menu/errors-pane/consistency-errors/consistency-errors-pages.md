@@ -268,7 +268,7 @@ You have changed the association multiplicity and fixed the error.
 
 ## 7 Images, Videos & Files Consistency Errors
 
-Images, videos & files should be placed in a data container, otherwise you will get consistency errors. Another way to fix consistency errors is to place these widgets in a snippet and configure the snippet. For more information on images, videos and files , see [Images, Videos & Files](image-and-file-widgets). 
+Images, videos & files should be placed in a data container, otherwise you will get consistency errors. Another way to fix consistency errors is to place these widgets in a snippet and configure the snippet. For more information on images, videos and files , see [Images, Videos & Files](/refguide/image-and-file-widgets/). 
 
 | Error code | Message in the Error Pane                                    | Cause of the Error                                           | Way to Fix                                                   |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -282,7 +282,7 @@ A consistency error for an image widget is described in the table below:
 
 | Error code | Message in the Error Pane | Cause of the Error                                           | Way to Fix                                                   |
 | ---------- | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|            | No image selected         | You have added an image widget to a page, but do not select an image itself. | Open the image properties >**General** > **Image** and select an image. For more information on an image widget, see [Image](/appstore/widgets/image/). |
+|            | No image selected         | You have added an image widget to a page, but do not select an image itself. | Open the image properties >**General** > **Image** and select an image. For more information on an image widget, see [Image](/refguide/image/). |
 
 ## 9 On Click Event Consistency Errors 
 

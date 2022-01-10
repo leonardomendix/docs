@@ -24,7 +24,7 @@ The categories described below are available.
 
 A configuration is a group of settings. You can define any number of configurations. The active configuration (meaning, the one that will be used when running your application) is determined by the drop-down menu in the toolbar of Studio Pro.
 
-For more information on settings in a configuration, see [Configuration](/refguide/configuration/).
+For more information on settings in a configuration, see [Configuration](/refguide8/configuration/).
 
 ## 3 Runtime Tab
 
@@ -62,7 +62,7 @@ Here you can select a microflow which performs the checks on a running app that 
 
 The result of each check is returned as a string, which is displayed in the [Developer Portal](/developerportal/deploy/environments/). When the microflow returns an empty string, the application is healthy; otherwise, the string presents an explanation of why the application is not healthy.
 
-This microflow gets called every 10 seconds to check if the app is still healthy. This is done by executing it using m2ee on the admin port of your app. For more information, see the section [Health Check](/refguide/monitoring-mendix-runtime/#check-health) in *Monitoring Mendix Runtime*.
+This microflow gets called every 10 seconds to check if the app is still healthy. This is done by executing it using m2ee on the admin port of your app. For more information, see the section [Health Check](/refguide8/monitoring-mendix-runtime/#check-health) in *Monitoring Mendix Runtime*.
 
 {{% alert type="info" %}}
 
@@ -196,7 +196,7 @@ Moving from **Runtime** to **Database** means that the unique constraints will b
 
 Before switching to the Database option, the **DataStorage.EnableDiagnostics** custom runtime setting can be used to generate a uniqueness violation report. The unique constraint migration will need to be done if the generated report shows violations.
 
-For more details on migration, see [Uniqueness Constraint Migration](/refguide7/uniqueness-constraint-migration/).
+For more details on migration, see [Uniqueness Constraint Migration](/refguide8/uniqueness-constraint-migration/).
 
 ##### 3.12.3.2 Switching from Database to Runtime
 
@@ -204,7 +204,7 @@ Falling back to the **Runtime** option will remove the unique constraints from t
 
 ## 4 Languages Tab
 
-For more information about using different languages in your app, see [Language Menu](/refguide/translatable-texts/).
+For more information about using different languages in your app, see [Language Menu](/refguide8/translatable-texts/).
 
 ### 4.1 Default Language
 
@@ -225,7 +225,7 @@ Certificates are used to connect to web services over HTTPS when the following r
 
 These certificates can be imported into Studio Pro using the **Import** button. Certificate authority files usually have a *.crt* extension, and client certificates usually have a *.p12* or *.pfx* extension. After importing, use **View details** to acquire more information concerning the certificate.
 
-Client certificates added here will be used whenever a server accepts a client certificate. If you upload more than one client certificate, one of them will be chosen based on the requirements of the server. If you need more control over client certificates, you should not upload the certificates here, but use the [Runtime customization](/refguide/custom-settings/) *ClientCertificates*, *ClientCertificatePasswords*, and *ClientCertificateUsages* settings.
+Client certificates added here will be used whenever a server accepts a client certificate. If you upload more than one client certificate, one of them will be chosen based on the requirements of the server. If you need more control over client certificates, you should not upload the certificates here, but use the [Runtime customization](/refguide8/custom-settings/) *ClientCertificates*, *ClientCertificatePasswords*, and *ClientCertificateUsages* settings.
 
 {{% alert type="warning" %}}
 
@@ -262,13 +262,13 @@ For background information, see [Transport Layer Security (TLS) Renegotiation Is
 
 ### 6.1 UI Resources Package
 
-The look and feel of a Mendix application is governed by the [UI resources package](/refguide/ui-resources-package/). This package supplies the project with all the required theme information accompanied by matching page templates and building blocks. The module which is designated as the UI resources package is governed by the **UI resources package** setting. Generally, this is automatically updated when a new UI resources package is imported. However, with this setting, the desired module can also be set manually.
+The look and feel of a Mendix application is governed by the [UI resources package](/refguide8/ui-resources-package/). This package supplies the project with all the required theme information accompanied by matching page templates and building blocks. The module which is designated as the UI resources package is governed by the **UI resources package** setting. Generally, this is automatically updated when a new UI resources package is imported. However, with this setting, the desired module can also be set manually.
 
 ### 6.2 Theme ZIP File
 
 {{% alert type="warning" %}}
 
-[Deprecated] The use of a ZIP file to configure a project's theme is deprecated. A [UI resources package](/refguide/ui-resources-package/) is the preferred method of sharing themes.
+[Deprecated] The use of a ZIP file to configure a project's theme is deprecated. A [UI resources package](/refguide8/ui-resources-package/) is the preferred method of sharing themes.
 
 {{% /alert %}}
 

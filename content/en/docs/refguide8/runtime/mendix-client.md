@@ -23,7 +23,7 @@ For **mobile applications** Mendix Client acts as a React Native application. Th
 
 The three supported types of wrappers for mobile applications are as follows:
 
-* [Make It Native app](/refguide/getting-the-make-it-native-app/)
+* [Make It Native app](/refguide8/getting-the-make-it-native-app/)
 * [Custom Developer apps](/howto8/mobile/how-to-devapps/)
 * [Native apps](/howto8/mobile/deploying-native-app/)
 
@@ -92,7 +92,7 @@ This is permanent storage, usually on a mobile device, where data can be stored 
 
 This manages requests to the Runtime Server. Note that some actions in the Mendix Client will not require access to the Runtime Server. For example, if the Object Cache already has access to the required data in the temporary object storage, or if the app is written as “offline-first”.
 
-For more information about the communication between the Mendix Client and the Runtime Server, see [Communication Patterns in the Mendix Runtime](/refguide/communication-patterns/).
+For more information about the communication between the Mendix Client and the Runtime Server, see [Communication Patterns in the Mendix Runtime](/refguide8/communication-patterns/).
 
 #### 2.12.1 State Handling
 
@@ -106,7 +106,7 @@ State handling is also responsible for garbage collection. If you want to know m
 
 #### 2.12.2 Synchronization
 
-Where an app is “offline-first”, data created and changed in the app is stored locally until it is synchronized with the Runtime Server. This job is carried out by the synchronization process. This synchronizes the offline storage and object cache with the Runtime Server. For more information on offline-first apps and synchronization, see [Offline-First](/refguide/offline-first/).
+Where an app is “offline-first”, data created and changed in the app is stored locally until it is synchronized with the Runtime Server. This job is carried out by the synchronization process. This synchronizes the offline storage and object cache with the Runtime Server. For more information on offline-first apps and synchronization, see [Offline-First](/refguide8/offline-first/).
 
 #### 2.12.3 Session
 
@@ -120,7 +120,7 @@ It will also notify the Mendix Client when changes are made to the app, and allo
 
 Because all information is sent to the Mendix Client to build pages, everything in the Mendix Client is visible to the end-user. Security is carried out in the Runtime Server, which will only send information to the Mendix Client which the user is allowed to see.
 
-For a description of the Runtime Server, see [Runtime Server](/refguide/runtime-server/).
+For a description of the Runtime Server, see [Runtime Server](/refguide8/runtime-server/).
 
 ## 3 Widgets{#widgets}
 

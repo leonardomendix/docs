@@ -11,7 +11,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-This document describes the properties of a published web service. If you want a general overview of how Mendix publishes microflows as web services, see [Published Web Services](/refguide/published-web-services/).
+This document describes the properties of a published web service. If you want a general overview of how Mendix publishes microflows as web services, see [Published Web Services](/refguide8/published-web-services/).
 
 ## 2 Operations
 
@@ -19,7 +19,7 @@ This document describes the properties of a published web service. If you want a
 
 Provide the actual operations of which the web service is composed. Each of these operations is a Microflow.
 
-See [Operations](/refguide/operations/).
+See [Operations](/refguide8/operations/).
 
 ## 3 Settings
 

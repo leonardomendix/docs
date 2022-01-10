@@ -114,6 +114,6 @@ Default: *Thumbnail*
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [File Widgets](/refguide7/file-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [File Widgets](/refguide8/file-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

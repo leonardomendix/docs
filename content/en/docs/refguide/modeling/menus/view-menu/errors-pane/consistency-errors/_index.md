@@ -34,8 +34,8 @@ Errors need to be solved before your app can be deployed. A consistency error ca
 * [Microflows](/refguide/microflows/)
 * [Workflows](/refguide/workflows/)
 * [Domain Model](/refguide/domain-model/)
-* [Integration](/howto/integration/)
-* [Security](/data-hub/data-hub-catalog/security/)
+* [Integration](/refguide/integration/)
+* [Security](/refguide/security/)
 
 ##  2 Read More
 

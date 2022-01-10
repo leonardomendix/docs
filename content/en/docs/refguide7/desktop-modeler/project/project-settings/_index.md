@@ -18,7 +18,7 @@ The categories described below are available.
 
 A configuration is a group of settings with a name. You can define any number of configurations. The active configuration (meaning, the one that will be used when running your application) is determined by the drop-down menu in the toolbar of the Modeler.
 
-For the settings in a configuration, see [Configuration](/refguide/configuration/).
+For the settings in a configuration, see [Configuration](/refguide7/configuration/).
 
 ## 3 Runtime
 
@@ -54,7 +54,7 @@ Here you can select a microflow which performs the checks on a running app that 
 
 The result of each check is returned as a string, which is displayed in the [Developer Portal](/developerportal/deploy/environments/). When the microflow returns an empty string, the application is healthy; otherwise, the string presents an explanation of why the application is not healthy.
 
-This microflow gets called every 10 seconds to check if the app is still healthy. This is done by executing it using m2ee on the admin port of your app. For more information, see the section [Health Check](/refguide/monitoring-mendix-runtime/#check-health) in *Monitoring Mendix Runtime*.
+This microflow gets called every 10 seconds to check if the app is still healthy. This is done by executing it using m2ee on the admin port of your app. For more information, see the section [Health Check](/refguide7/monitoring-mendix-runtime/#check-health) in *Monitoring Mendix Runtime*.
 
 {{% alert type="info" %}}
 
@@ -243,7 +243,7 @@ Certificates are used to connect to web services over HTTPS when the following r
 
 These certificates can be imported into the Modeler using the **Import** button. Certificate authority files usually have a *.crt* extension, and client certificates usually have a *.p12* or *.pfx* extension. After importing, use **View details** to acquire more information concerning the certificate.
 
-Client certificates added here will be used whenever a server accepts a client certificate. If you upload more than one client certificate, one of them will be chosen based on the requirements of the server. If you need more control over client certificates, you should not upload the certificates here, but use [custom settings](/refguide/custom-settings/) *ClientCertificates*, *ClientCertificatePasswords*, and *ClientCertificateUsages*.
+Client certificates added here will be used whenever a server accepts a client certificate. If you upload more than one client certificate, one of them will be chosen based on the requirements of the server. If you need more control over client certificates, you should not upload the certificates here, but use [custom settings](/refguide7/custom-settings/) *ClientCertificates*, *ClientCertificatePasswords*, and *ClientCertificateUsages*.
 
 {{% alert type="warning" %}}
 
@@ -286,13 +286,13 @@ The option to designate a custom UI resources package was added in Mendix 7.9.0.
 
 {{% /alert %}}
 
-The look and feel of a Mendix application is governed by the [UI resources package](/refguide/ui-resources-package/). This package supplies the project with all the required theme information accompanied by matching page templates and building blocks. The module which is designated as the UI resources package is governed by the **UI resources package** setting. Generally, this is automatically updated when a new UI resources package is imported. However, with this setting, the desired module can also be set manually.
+The look and feel of a Mendix application is governed by the [UI resources package](/refguide7/ui-resources-package/). This package supplies the project with all the required theme information accompanied by matching page templates and building blocks. The module which is designated as the UI resources package is governed by the **UI resources package** setting. Generally, this is automatically updated when a new UI resources package is imported. However, with this setting, the desired module can also be set manually.
 
 ### 7.2 Theme ZIP File
 
 {{% alert type="warning" %}}
 
-[Deprecated] The use of a ZIP file to configure a project's theme is deprecated. As of 7.9.0, a [UI resources package](/refguide/ui-resources-package/) is the preferred method of sharing themes.
+[Deprecated] The use of a ZIP file to configure a project's theme is deprecated. As of 7.9.0, a [UI resources package](/refguide7/ui-resources-package/) is the preferred method of sharing themes.
 
 {{% /alert %}}
 

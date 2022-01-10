@@ -25,15 +25,15 @@ Some of these steps are only required for specific versions of SQL Server or Men
 
 When setting up a new database for Mendix, most of the settings can be left to the default configuration. When looking at the general settings, you only need to set up the database name. Set up the database files according to the Microsoft SQL Server best practices (for details, see [SQL Server Installation Best Practices](https://www.mssqltips.com/sqlservertip/4891/sql-server-installation-best-practices/)).
 
-![](/attachments/developerportal/deploy//on-premises-design/deploy-mendix-on-microsoft-windows/mendix-on-windows-microsoft-sql-server/setting-up-a-new-sql-server-database/18580676.png)
+![](/attachments/developerportal/deploy/on-premises-design/deploy-mendix-on-microsoft-windows/mendix-on-windows-microsoft-sql-server/setting-up-a-new-sql-server-database/18580676.png)
 
 In the database options, the default properties need to be evaluated. When choosing a collation, pay attention to the type of collation you are going to use. Mendix uses UTF-8 for all data evaluation. Depending on your exact locale, you will most likely want to choose one of the `SQL_Latin1_General_` collations. The exact encoding will depend on your OS. For an *en_US* installation, this will be `CP1`.
 
-The last two options identify how sorting and uniqueness is interpreted. For example, the collation option `_CS_` indicates that the collation sorting style will be case-sensitive. For more information on collations and case sensitivity, see  [Case-Sensitive Database Behavior](/refguide/case-sensitive-database-behavior/) and the Microsoft documentation [Windows Collation Name](https:/docs.microsoft.com/en-us/sql/t-sql/statements/windows-collation-name-transact-sql).
+The last two options identify how sorting and uniqueness is interpreted. For example, the collation option `_CS_` indicates that the collation sorting style will be case-sensitive. For more information on collations and case sensitivity, see  [Case-Sensitive Database Behavior](/refguide/case-sensitive-database-behavior/) and the Microsoft documentation [Windows Collation Name](https://docs.microsoft.com/en-us/sql/t-sql/statements/windows-collation-name-transact-sql).
 
 As a recovery model, Mendix only requires the **Simple** mode. The functionality offered in the **Full** recovery model option is not used by Mendix; usage of this recovery model will not hurt Mendix, but it could increase the data usage of all the transactions and might slow down any rollbacks in case of an error.
 
-![](/attachments/developerportal/deploy//on-premises-design/deploy-mendix-on-microsoft-windows/mendix-on-windows-microsoft-sql-server/setting-up-a-new-sql-server-database/18580675.png)
+![](/attachments/developerportal/deploy/on-premises-design/deploy-mendix-on-microsoft-windows/mendix-on-windows-microsoft-sql-server/setting-up-a-new-sql-server-database/18580675.png)
 
 After the database is created, the Mendix Runtime can initiate the initial setup and prepare all the tables and functions for usage by the platform. Some of these queries require `sysadmin` privileges. The `sysadmin` role can be temporarily assigned to the user, or these queries can be executed by the administrator. Other queries need privileges which are implicitly assigned to the `db_owner` role. If the user used by the Mendix Runtime does not have enough permissions for any of these queries, you can run them manually – see below for more information.
 

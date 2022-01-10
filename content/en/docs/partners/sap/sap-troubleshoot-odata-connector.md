@@ -85,7 +85,7 @@ The following techniques can help in identifying issues which are causing your O
 
 ### 7.1 Setting Application Log level
 
-You can get more information from your app by setting the log level. For this you will need to have the Marketplace module [SAP Logging Connector](https://marketplace.mendix.com/link/component/110219/) set up in your app. For more information see the [SAP Logging Connector](/partners/sap/sap-logger/) documentation.
+You can get more information from your app by setting the log level. For this you will need to have the Marketplace module [SAP Logging Connector](https:/marketplace.mendix.com/link/component/110219/) set up in your app. For more information see the [SAP Logging Connector](/partners/sap/sap-logger/) documentation.
 
 To set log level for an application deployed to SAP BTP, go to ‘Model Options’ in the environment and set ‘SapApplicationLogs.SapLogLevel’ to the required level. (Debug, Info, Error, Warn, or Trace).
 
@@ -103,17 +103,17 @@ To perform Java debugging, you must do the following:
 
     1. In SAP BTP, the options can be set as shown below:
 
-        ![](/attachments/partners/sap//sap-troubleshoot-odata-connector/image1.png)
+        ![](/attachments/partners/sap/sap-troubleshoot-odata-connector/image1.png)
 
     2. In the manifest file, you need to set the options as shown below:
 
-        ![](/attachments/partners/sap//sap-troubleshoot-odata-connector/image2.png)
+        ![](/attachments/partners/sap/sap-troubleshoot-odata-connector/image2.png)
 
 2. Restart the application to apply the changes.
 
     The logs will indicate whether the application is started in debug mode, as shown below:
 
-    ![](/attachments/partners/sap//sap-troubleshoot-odata-connector/image3.png)
+    ![](/attachments/partners/sap/sap-troubleshoot-odata-connector/image3.png)
 
 3. Enable SSH for the application using the Cloud Foundry command
 
@@ -131,4 +131,4 @@ To perform Java debugging, you must do the following:
 
 6. Set up remote Debugging in the Eclipse IDE as shown in the image below:
 
-    ![Debug configuration screen in Eclipse](/attachments/partners/sap//sap-troubleshoot-odata-connector/image4.png)
+    ![Debug configuration screen in Eclipse](/attachments/partners/sap/sap-troubleshoot-odata-connector/image4.png)

@@ -23,27 +23,27 @@ None.
 
 If possible, re-using logic is an important procedure while developing apps. The actions that form the reusable logic can be selected and turned into a submicroflow. This just takes two clicks, as shown in this animation:
 
-![](/attachments/howto7/logic-business-rules//drag-microflows-and-pages-into-a-microflow/18580993.gif)
+![](/attachments/howto7/logic-business-rules/drag-microflows-and-pages-into-a-microflow/18580993.gif)
 
 ## 4 Dragging a Page into a Microflow
 
 Dragging an existing form from the Project Explorer reduces the amount of mouse clicks and mouse pointer hovering:
 
-![](/attachments/howto7/logic-business-rules//drag-microflows-and-pages-into-a-microflow/18580992.gif)
+![](/attachments/howto7/logic-business-rules/drag-microflows-and-pages-into-a-microflow/18580992.gif)
 
 ## 5 Dragging a Microflow into a Microflow
 
 Instead of creating a new submicroflow action, it can be easier to drag an existing microflow into the current one.
 
-![](/attachments/howto7/logic-business-rules//drag-microflows-and-pages-into-a-microflow/18580991.gif)
+![](/attachments/howto7/logic-business-rules/drag-microflows-and-pages-into-a-microflow/18580991.gif)
 
 ## 6 Read More
 
-* [How to Define Access Rules Using XPath](/howto/logic-business-rules/define-access-rules-using-xpath/)
+* [How to Define Access Rules Using XPath](/howto7/logic-business-rules/define-access-rules-using-xpath/)
 * [How to Trigger Logic Using Microflows](/howto7/logic-business-rules/triggering-logic-using-microflows/)
-* [How to Create a Custom Save Button](/howto/logic-business-rules/create-a-custom-save-button/)
-* [How to Work With Lists in a Microflow](/howto/logic-business-rules/working-with-lists-in-a-microflow/)
-* [How to Optimize Retrieve Activities](/howto/logic-business-rules/optimizing-retrieve-activities/)
-* [How to Set Up Error Handling](/howto/logic-business-rules/set-up-error-handling/)
-* [How to Optimize Microflow Aggregates](/howto/logic-business-rules/optimizing-microflow-aggregates/)
-* [How to Extract and Use Submicroflows](/howto/logic-business-rules/extract-and-use-sub-microflows/)
+* [How to Create a Custom Save Button](/howto7/logic-business-rules/create-a-custom-save-button/)
+* [How to Work With Lists in a Microflow](/howto7/logic-business-rules/working-with-lists-in-a-microflow/)
+* [How to Optimize Retrieve Activities](/howto7/logic-business-rules/optimizing-retrieve-activities/)
+* [How to Set Up Error Handling](/howto7/logic-business-rules/set-up-error-handling/)
+* [How to Optimize Microflow Aggregates](/howto7/logic-business-rules/optimizing-microflow-aggregates/)
+* [How to Extract and Use Submicroflows](/howto7/logic-business-rules/extract-and-use-sub-microflows/)

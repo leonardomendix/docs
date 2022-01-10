@@ -37,4 +37,4 @@ This is the value that will be displayed in the document.
 
 ### 3.2 Style
 
-For details, see [Style](/refguide/style/).
+For details, see [Style](/refguide8/style/).

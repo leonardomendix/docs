@@ -14,15 +14,15 @@ tags: ["studio pro"]
 ## 1 Introduction
 
 
-A **header** combines the functionality of a page title and a control bar for your page. Due to its compact design and versatility it is often used in mobile pages. A header can only be used in a [layout](/refguide/layout/).
+A **header** combines the functionality of a page title and a control bar for your page. Due to its compact design and versatility it is often used in mobile pages. A header can only be used in a [layout](/refguide8/layout/).
 
-Headers consist of three distinct elements: a page title and a left and right [drop-zone](/refguide/page/#add-elements). The page title is indicated by the text `[Page title]`. The drop-zones cannot be seen by default, but they can be selected and also become visible when they have elements dropped into them.
+Headers consist of three distinct elements: a page title and a left and right [drop-zone](/refguide8/page/#add-elements). The page title is indicated by the text `[Page title]`. The drop-zones cannot be seen by default, but they can be selected and also become visible when they have elements dropped into them.
 
 For example, the following header has the right drop-zone selected and the user is dropping a button into the left drop-zone.
 
 ![](/attachments/refguide8/modeling/pages/page-resources/layout/header/header-layout.png)
 
-The drop-zones are intended for confirmation buttons, such as an [action button](/refguide/button-widgets/) for creating a new object, but can easily be appropriated for any number of alternate implementations.
+The drop-zones are intended for confirmation buttons, such as an [action button](/refguide8/button-widgets/) for creating a new object, but can easily be appropriated for any number of alternate implementations.
 
 The page title placeholder is replaced by the page title setting of the page being displayed.
 

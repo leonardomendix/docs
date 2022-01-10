@@ -79,7 +79,7 @@ Reading these alerts carefully and acting upon them is important, as they can af
 
 ### 5.3 Training
 
-We expect your support team to be trained and certified on Studio Pro and the Developer Portal so that they can interpret and analyze alerts, graphs, and logs in the Developer Portal. For more information, please check our available ).
+We expect your support team to be trained and certified on Studio Pro and the Developer Portal so that they can interpret and analyze alerts, graphs, and logs in the Developer Portal. For more information, please check our available [classroom courses](https://academy.mendix.com/link/classroom) and [expert webinars](https://academy.mendix.com/link/webinar) or contact the Mendix Academy ([academy@mendix.com](mailto:academy@mendix.com)).
 
 ## 6 Platform Status
 
@@ -339,7 +339,7 @@ Only when running on the Mendix Public Cloud or Cloud Dedicated, can Mendix Supp
 
 The Mendix buildpacks for [Cloud Foundry](https://github.com/mendix/cf-mendix-buildpack) and [Docker](https://github.com/mendix/docker-mendix-buildpack) are available in GitHub repositories. The documentation for the buildpacks and m2ee tools is contained within these GitHub repositories and, because they are released under an Open Source license, the code can be inspected and the functionality and options can be understood by customers who wish to use these buildpacks.
 
-If you want to run Mendix apps on a Unix-like server you will need the [m2ee tools](https://github.com/mendix/m2ee-tools), available on GitHub. Read more about installing on systems running Unix-like operating systems in [Unix Deployment](/developerportal/deploy/unix-like/).
+If you want to run Mendix apps on a Unix-like server you will need the [m2ee tools](https:/github.com/mendix/m2ee-tools), available on GitHub. Read more about installing on systems running Unix-like operating systems in [Unix Deployment](/developerportal/deploy/unix-like/).
 
 Only when running on the Mendix Public Cloud or Cloud Dedicated, can Mendix Support diagnose these components. Because Mendix has no control over the context in which the buildpack or m2ee tools are run outside of the Mendix Public Cloud and Cloud Dedicated, you will have to demonstrate that the bug is in the supported component by showing the behavior independently from the context in which you are using it.
 

@@ -38,9 +38,9 @@ For more information on publishing a REST API refer to this Mendix document: [Pu
 1. Rename the module to *ChartsREST*.
 1. Open the Domain model.
 1. Create **Value** and **Series** entities with the attributes and association shown in the picture below.
-    ![Chart Rest Domain](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-domain.png)  
+    ![Chart Rest Domain](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-domain.png)  
 1. Right-click **Value** and select **Generate overview pages...**.
-    ![Chart Rest Enter Data](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-generate-overview-pages.png)
+    ![Chart Rest Enter Data](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-generate-overview-pages.png)
 1. Add the **Value_NewEdit** page generated to your navigation.
 1. Run the app.
 1. In your browser, open the NewEdit page.
@@ -53,20 +53,20 @@ To use data from a model in the REST service, you need to create a JSON structur
 ### 4.1 Creating the Structure
 
 1. Create a **JSON Structure**  
-    ![Charts Rest MD](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/chart-series-json-structure.png)
+    ![Charts Rest MD](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/chart-series-json-structure.png)
 
 ### 4.2 Configuring the REST Service
 
 To configure the REST service, follow these steps:
 
 1. Add **Published REST service**.
-    ![Charts Rest Publish](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-publish.png)
+    ![Charts Rest Publish](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-publish.png)
 
 1. Add REST Service **Microflow**.
-    ![Charts Rest Microflow](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-microflow.png)
+    ![Charts Rest Microflow](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-microflow.png)
 
 1. Add **Export mapping**.
-    ![Charts Rest Export Mapping](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-export-mapping.png)
+    ![Charts Rest Export Mapping](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-export-mapping.png)
 
 ## 5 Using REST as a Data Source
 
@@ -82,26 +82,26 @@ To use the REST Data source endpoint in your chart, follow these steps:
 
 1. Select **Data source** REST endpoint.
 
-    ![Chart Rest Series](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-series.png)
+    ![Chart Rest Series](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-series.png)
 
 1. Add the **REST URL**.
 
-    ![Chart Rest URL](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-url.png)
+    ![Chart Rest URL](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-url.png)
 
 1. In the tab **Data points**, select the **X-axis data attribute** and the **Y-axis data attribute**.
 
-    ![select Data Points](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-data-points.png)  
+    ![select Data Points](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-data-points.png)  
 
 1. Add Parameters to the REST Request. The **contextId**, **series name** are provided by default.
 
-    ![select Data Points](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-parameters.png) 
+    ![select Data Points](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-parameters.png) 
 
 1. Run your app and view the chart.
 
-    ![Show Chart](/attachments/howto8/front-end//charts-tutorials/charts-basic-rest/charts-rest-area-chart.png)
+    ![Show Chart](/attachments/howto8/front-end/charts-tutorials/charts-basic-rest/charts-rest-area-chart.png)
 
 ## 6 Read More
 
-* [Use Chart Data Source REST](/howto/front-end/charts-basic-create/)
-* [Use Any Chart](/howto/front-end/charts-any-usage/)
-* [Use Theme Charts](/howto/front-end/charts-theme/)
+* [Use Chart Data Source REST](/howto8/front-end/charts-basic-create/)
+* [Use Any Chart](/howto8/front-end/charts-any-usage/)
+* [Use Theme Charts](/howto8/front-end/charts-theme/)

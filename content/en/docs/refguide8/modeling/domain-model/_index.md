@@ -13,28 +13,28 @@ tags: ["domain model", "entity", "association", "annotation", "studio pro"]
 
 ## 1 Introduction
 
-The **domain model** is a model that describes the information (or *data*) used by your application in an abstract way. It is central to the architecture of your application. Each [module](/appstore/modules/) has its own domain model which describes the data used in that module. All modules within an app can use data from all the domain models within the app.
+The **domain model** is a model that describes the information (or *data*) used by your application in an abstract way. It is central to the architecture of your application. Each [module](/refguide8/modules/) has its own domain model which describes the data used in that module. All modules within an app can use data from all the domain models within the app.
 
-A domain model consists of [entities](/refguide/entities/) with their relationships to other entities represented by [associations](/refguide/associations/). You can also add [annotations](/refguide/annotations/) to your domain model to explain how it is to be used.
+A domain model consists of [entities](/refguide8/entities/) with their relationships to other entities represented by [associations](/refguide8/associations/). You can also add [annotations](/refguide8/annotations/) to your domain model to explain how it is to be used.
 
-Below is a domain model that defines customers and orders. The names of the entities are `Customer` and `Order`. The line between them is an association. `Order_Customer`. One customer can have many orders, but each order is for one customer. Within the boxes representing the entities you can see the [attributes](/refguide/attributes/) of the entities together with the [type](/refguide/attributes/#type) of data they hold. There is also a [non-persistable](/refguide/persistability/) entity, `ProductQueryResults`, which is used to record product information which is retrieved from a separate product system.
+Below is a domain model that defines customers and orders. The names of the entities are `Customer` and `Order`. The line between them is an association. `Order_Customer`. One customer can have many orders, but each order is for one customer. Within the boxes representing the entities you can see the [attributes](/refguide8/attributes/) of the entities together with the [type](/refguide8/attributes/#type) of data they hold. There is also a [non-persistable](/refguide8/persistability/) entity, `ProductQueryResults`, which is used to record product information which is retrieved from a separate product system.
 
 ![Domain Model annotated with structure](/attachments/refguide8/modeling/domain-model/annotated-domain-model.png)
 
 | Element | Displays |
 | --- | --- |
 | Annotation | A comment explaining an aspect of the domain model |
-| Entity Name | How the [entity](/refguide/entities/) will be referred to in the database |
-| Event Handler(s) | An indication that one or more [event handlers](/refguide/event-handlers/) have been set up for this entity |
+| Entity Name | How the [entity](/refguide8/entities/) will be referred to in the database |
+| Event Handler(s) | An indication that one or more [event handlers](/refguide8/event-handlers/) have been set up for this entity |
 | Image | An image which helps to identify the entity |
-| Validation Rule(s) | An indication that one or more [validation rules](/refguide/validation-rules/) have been set up for this attribute |
-| Calculated Value | An indication that the value of this [attribute](/refguide/attributes/) is calculated |
+| Validation Rule(s) | An indication that one or more [validation rules](/refguide8/validation-rules/) have been set up for this attribute |
+| Calculated Value | An indication that the value of this [attribute](/refguide8/attributes/) is calculated |
 | One | Indicates that one of this entity relates to the quantity of the entity at the other end of the association |
-| Association Name | How the [association](/refguide/associations/) will be referred to in the database |
+| Association Name | How the [association](/refguide8/associations/) will be referred to in the database |
 | Many | Indicates that many of these entities relate to the quantity of the entity at the other end of the association |
-| Association Owner | An end of an association without an arrow indicates that this entity [owns](/refguide/associations/#ownership) the association (it is also possible for both entities to own the association) |
+| Association Owner | An end of an association without an arrow indicates that this entity [owns](/refguide8/associations/#ownership) the association (it is also possible for both entities to own the association) |
 | Attribute Name | How this attribute will be referred to in the database |
-| Attribute Type | The [type](/refguide/attributes/#type) of data stored in this attribute |
+| Attribute Type | The [type](/refguide8/attributes/#type) of data stored in this attribute |
 | Non-persistable Entity | This is an entity which is not stored in a database but only stored temporarily within the app |
 
 ## 2 Implementation {#implementation}

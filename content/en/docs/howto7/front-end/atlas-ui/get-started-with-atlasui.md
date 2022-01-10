@@ -8,7 +8,7 @@ tags: ["Atlas", "UI", "UX", "user experience", "Web Modeler"]
 
 ## 1 Introduction
 
-The Web Modeler is a powerful collaborative tool that lets you build your application in the cloud together with your team. When you log into the Web Modeler for the first time, you get the option to choose an app template that is powered by Atlas UI. For more information on the Web Modeler, see the [Web Modeler Guide](/releasenotes/studio/). 
+The Web Modeler is a powerful collaborative tool that lets you build your application in the cloud together with your team. When you log into the Web Modeler for the first time, you get the option to choose an app template that is powered by Atlas UI. For more information on the Web Modeler, see the . 
 
 **This how-to will teach you how to do the following:**
 
@@ -31,7 +31,7 @@ For more information about Atlas UI, see .
 
 ## 3 Editing Your App in the Web Modeler
 
-You now have access to your app **Buzz** in the [Developer Portal](/developerportal/). From **Buzz**, you can open the Web Modeler clicking **Edit App** in the top-right corner of the screen.
+You now have access to your app **Buzz** in the . From **Buzz**, you can open the Web Modeler clicking **Edit App** in the top-right corner of the screen.
 
 Note that when you click **Edit App** for any Atlas UI app, it will automatically open in the Web Modeler. If you need to edit the app in the Desktop Modeler, click the drop-down menu on the **Edit App** button and select **Edit in Desktop Modeler**.
 
@@ -39,12 +39,12 @@ Note that when you click **Edit App** for any Atlas UI app, it will automaticall
 
 Your app is ready to be built. In the **Toolbox** in the [page editor](/studio/page-editor/), you will find building blocks and widgets you can build your pages with. 
 
-![Web Modeler Page Example](/attachments/howto7/front-end//atlas-ui/get-started-with-atlasui/start_explore_the_mendix_wm.png)
+![Web Modeler Page Example](/attachments/howto7/front-end/atlas-ui/get-started-with-atlasui/start_explore_the_mendix_wm.png)
 
 All these resources have been created with Atlas UI. Each building block has an information icon that directs you to the Atlas UI website for the relevant information:
 
 {{% image_container width="200" %}}
-![Building Block Example](/attachments/howto7/front-end//atlas-ui/get-started-with-atlasui/start_building_block.png)
+![Building Block Example](/attachments/howto7/front-end/atlas-ui/get-started-with-atlasui/start_building_block.png)
 {{% /image_container %}}
 
 ## 5 Choosing a Page Template
@@ -53,7 +53,7 @@ You can choose a page template when you create a new page. For information on ho
 
 For example, **Dashboard Action Tiles**, **Dashboard Charts**, **Dashboard Expenses** are page templates. 
 
-![Page Template](/attachments/howto7/front-end//atlas-ui/get-started-with-atlasui/start_choose_a_page_template.png)
+![Page Template](/attachments/howto7/front-end/atlas-ui/get-started-with-atlasui/start_choose_a_page_template.png)
 
 Once the page is created, you can customize it.
 

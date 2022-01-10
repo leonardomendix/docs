@@ -43,19 +43,19 @@ Debugging in production is not recommended. However, if you are debugging in the
 
 2. Click **Apps** and navigate to the project that you want to debug:
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-microflows-remotely/18580045.png) 
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-microflows-remotely/18580045.png) 
 
 3. Click **Environments** in the left sidebar, and on the **Deploy** tab, click **Details** for the environment:
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-microflows-remotely/18580051.png)
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-microflows-remotely/18580051.png)
 
 4. On the **Environment Details** screen, click **Enable Debugging**:
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-microflows-remotely/18580050.png)
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-microflows-remotely/18580050.png)
 
     This invokes the **Debugger settings** pop-up window. Usually this presents a URL (such as `http://yourapp.mendixcloud.com`) and a secure password that changes each time you enable and disable the debugger:
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-microflows-remotely/18580049.png)
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-microflows-remotely/18580049.png)
 
     If you want to disable the debugger, click **Disable Debugging** on the **Environment Details** screen.
 
@@ -73,11 +73,11 @@ If you do not see an overview similar to the one below, then you do not have suf
 
 1. Go to the **Run** tab and select **Connect debugger...**:
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-microflows-remotely/18580048.png)
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-microflows-remotely/18580048.png)
 
 2. In the **Connect Debugger** dialog box, enter the **URL** and the **Password** that you got from the cloud environment (for details, see [3.1 Enabling Debugging in the Cloud](#EnablingDebuggingintheCloud)):
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-microflows-remotely/18580047.png)
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-microflows-remotely/18580047.png)
 
 #### 3.2.2 Second Method for Connecting the Modeler to the Cloud Environment
 
@@ -86,14 +86,14 @@ If you do not see an overview similar to the one below, then you do not have suf
 
 ## 4 Read More
 
-* [How to Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [How to Clear Warning Messages](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [How to Find the Root Cause of Runtime Errors](/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [How to Clear Warning Messages](/howto7/monitoring-troubleshooting/clear-warning-messages/)
 * [How to Test Web Services Using SoapUI](/howto7/testing/testing-web-services-using-soapui/)
-* [How to Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [How to Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [How to Log Levels](/howto/monitoring-troubleshooting/log-levels/)
+* [How to Monitor Mendix Using JMX](/howto7/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [How to Debug Java Actions Remotely](/howto7/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [How to Log Levels](/howto7/monitoring-troubleshooting/log-levels/)
 * [How to Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [How to Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [How to Debug Java Actions](/howto7/monitoring-troubleshooting/debug-java-actions/)
 * [How to Handle Common Mendix SSO Errors](/howto7/monitoring-troubleshooting/handle-common-mendix-sso-errors/)
 * [The Ultimate Debugger](http://www.mendix.com/tech-blog/the-ultimate-debugger/) 
 * [Debug Live Apps in the Cloud](http://www.mendix.com/tech-blog/new-goodies-for-mendix-app-platform-users-mendix-business-modeler-4-3-release-today/)

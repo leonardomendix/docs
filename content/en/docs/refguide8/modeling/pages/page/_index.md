@@ -15,11 +15,11 @@ tags: ["studio pro", "page", "properties"]
 
 {{% alert type="info" %}}
 
-This document describes basic functions you can perform in the page editor and its modes. For details on what pages are for and what kind of widgets can be placed on them, see [Pages](/refguide/pages/).
+This document describes basic functions you can perform in the page editor and its modes. For details on what pages are for and what kind of widgets can be placed on them, see [Pages](/refguide8/pages/).
 
 {{% /alert %}}
 
-Pages define the end-user interface of a Mendix application. Every page is based on a [layout](/refguide/layout/). A page fills the "gaps" defined by a layout with widgets such as the [data view](/refguide/data-view/) and [data grid](/refguide/data-grid/).
+Pages define the end-user interface of a Mendix application. Every page is based on a [layout](/refguide8/layout/). A page fills the "gaps" defined by a layout with widgets such as the [data view](/refguide8/data-view/) and [data grid](/refguide8/data-grid/).
 
 ## 2 Performing Basic Functions
 
@@ -36,7 +36,7 @@ You can perform the following basic function when working in the page editor:
 
 To open a page in Studio Pro, do the following:
 
-1. In the [Project Explorer](/refguide/project-explorer/), open a module where this page is located. 
+1. In the [Project Explorer](/refguide8/project-explorer/), open a module where this page is located. 
 
 2. Navigate to the page's location inside the module. A page can be listed as an individual element or be included in the **Pages** folder:
 
@@ -50,7 +50,7 @@ The selected page is opened.
 
 To create a new page, do the following:
 
-1.  In the [Project Explorer](/refguide/project-explorer/), right-click the module or a folder you want to create a page in and select **Add page**:
+1.  In the [Project Explorer](/refguide8/project-explorer/), right-click the module or a folder you want to create a page in and select **Add page**:
 
     {{% image_container width="350" %}}![](/attachments/refguide8/modeling/pages/page/add-page.png)
     {{% /image_container %}}
@@ -67,7 +67,7 @@ A new page is created.
 
 To delete a page, do the following:
 
-1. In the [Project Explorer](/refguide/project-explorer/), select a page you would like to delete and right-click it.
+1. In the [Project Explorer](/refguide8/project-explorer/), select a page you would like to delete and right-click it.
 2. In the displayed list, select **Delete** and confirm your choice by clicking **Delete** in the pop-up dialog.
 
 The selected page is deleted. 
@@ -199,5 +199,5 @@ It has the following features which are not available in **Structure mode**:
 
 ## 4 Read More
 
-* [Pages](/refguide/pages/)
-* [Page Properties](/refguide/page-properties/)
+* [Pages](/refguide8/pages/)
+* [Page Properties](/refguide8/page-properties/)

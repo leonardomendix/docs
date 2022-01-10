@@ -17,7 +17,7 @@ In the domain model there is an association of type reference set from customer 
 
 {{% /alert %}}
 
-The reference set selector looks a lot like a [data grid](/refguide/data-grid/) and consequently shares many properties with the data grid. Main differences are that the reference set selector lacks a search bar and that it has different buttons by default (Add, Remove).
+The reference set selector looks a lot like a [data grid](/refguide7/data-grid/) and consequently shares many properties with the data grid. Main differences are that the reference set selector lacks a search bar and that it has different buttons by default (Add, Remove).
 
 {{% alert type="warning" %}}
 
@@ -32,15 +32,15 @@ The **Add** and **Remove** buttons mean something else than the **New** and **De
 
 ### Control Bar
 
-See [Control Bar](/refguide/control-bar/).
+See [Control Bar](/refguide7/control-bar/).
 
 ### Sort Bar
 
-See [Sort Bar](/refguide/sort-bar/).
+See [Sort Bar](/refguide7/sort-bar/).
 
 ### Columns
 
-See [Columns](/refguide/columns/) for more information.
+See [Columns](/refguide7/columns/) for more information.
 
 ## Common Properties
 
@@ -60,7 +60,7 @@ This property indicates whether the control bar will be visible in the end user 
 
 {{% alert type="warning" %}}
 
-Even if the control bar is invisible there can still be a default button that is triggered by (double) clicking on a row. See the property 'Default button trigger' and [control bar](/refguide/control-bar/) for more information.
+Even if the control bar is invisible there can still be a default button that is triggered by (double) clicking on a row. See the property 'Default button trigger' and [control bar](/refguide7/control-bar/) for more information.
 
 {{% /alert %}}
 
@@ -122,7 +122,7 @@ _Default value:_ Double click
 
 ### Tooltip Page
 
-A tooltip page is a page that appears when you hover your mouse over a row. The tooltip page should consist of a data view on the same entity as the data grid. On top of creating, and connecting, a tooltip page you also have to specify on which columns the tooltip will appear. See the property 'Show tooltip' of [data grid columns](/refguide/columns/).
+A tooltip page is a page that appears when you hover your mouse over a row. The tooltip page should consist of a data view on the same entity as the data grid. On top of creating, and connecting, a tooltip page you also have to specify on which columns the tooltip will appear. See the property 'Show tooltip' of [data grid columns](/refguide7/columns/).
 
 ## Data Source Properties
 
@@ -148,15 +148,15 @@ Using non-persistable entities (NPEs) in a reference set selector is not support
 
 ## Selectable Objects Properties
 
-The selectable objects are determined in the same way as in the reference selector. See the [selectable objects properties](/refguide/reference-selector/) of the reference selector for more information. Note that you cannot use a microflow in a reference set selector.
+The selectable objects are determined in the same way as in the reference selector. See the [selectable objects properties](/refguide7/reference-selector/) of the reference selector for more information. Note that you cannot use a microflow in a reference set selector.
 
 ### XPath Constraint
 
-See [Selectable Objects Properties](/refguide/reference-selector/) of the reference selector.
+See [Selectable Objects Properties](/refguide7/reference-selector/) of the reference selector.
 
 ### Constrained By
 
-See [Selectable Objects Properties](/refguide/reference-selector/) of the reference selector.
+See [Selectable Objects Properties](/refguide7/reference-selector/) of the reference selector.
 
 ## Visibility Properties
 
@@ -166,6 +166,6 @@ See [Selectable Objects Properties](/refguide/reference-selector/) of the refere
 
 ## Read More
 
-*   [Data view](/refguide/data-view/)
-*   [Entities](/refguide/entities/)
-*   [Associations](/refguide/associations/)
+*   [Data view](/refguide7/data-view/)
+*   [Entities](/refguide7/entities/)
+*   [Associations](/refguide7/associations/)

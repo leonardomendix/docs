@@ -359,5 +359,5 @@ Great job! You have previewed your app locally and tested your workflow from the
 ## 12 Read More
 
 * [Workflows](/studio/workflows/)
-*  
-* 
+* [How to Configure a Navigation Bar](/studio-how-to/navigation-how-to-configure/) 
+* [How to Set Fields as Read-Only or Required](/studio-how-to/pages-how-to-set-validation-and-editability/)

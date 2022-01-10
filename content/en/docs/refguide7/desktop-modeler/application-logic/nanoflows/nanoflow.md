@@ -6,7 +6,7 @@ parent: "nanoflows"
 
 ## 1 Introduction
 
-This page describes the properties of nanoflows. For details on using nanoflows and nanoflow elements, see [Nanoflows](/refguide/nanoflows/).
+This page describes the properties of nanoflows. For details on using nanoflows and nanoflow elements, see [Nanoflows](/refguide7/nanoflows/).
 
 ## 2 Common Properties
 
@@ -18,7 +18,7 @@ This is the internal name of the nanoflow.
 
 ### 3.1 Return Type
 
-The return type defines what information the nanoflow returns. The caller of the nanoflow will get a result of this type. For possible return types, see [Data Types](/refguide/data-types/).
+The return type defines what information the nanoflow returns. The caller of the nanoflow will get a result of this type. For possible return types, see [Data Types](/refguide7/data-types/).
 
 ## 4 Security Properties
 
@@ -26,4 +26,4 @@ The return type defines what information the nanoflow returns. The caller of the
 
 These are the [module roles](/refguide7/module-role/) the user must have to be able to execute the nanoflow.
 
-For more information, see [Module Security](/refguide/module-security/).
+For more information, see [Module Security](/refguide7/module-security/).

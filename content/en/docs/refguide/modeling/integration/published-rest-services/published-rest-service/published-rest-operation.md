@@ -115,7 +115,7 @@ If you select an import mapping that supports both XML and JSON (for example, a 
 
 Valid requests must contain a *Content-Type* header. See [Recognized media types](#table1) for a list of media types that are understood by the import mapping. If an unsupported content type is used, the operation will result in a "**400 Bad Request**" response.
 
-The import mapping is also used to generate object schemas for operation responses in [OpenAPI (Swagger) documentation page](published-rest-services#interactive-documentation) based on [JSON Schema](/refguide/published-rest-service-json-schema/)
+The import mapping is also used to generate object schemas for operation responses in [OpenAPI (Swagger) documentation page](/refguide/published-rest-services/#interactive-documentation) based on [JSON Schema](/refguide/published-rest-service-json-schema/)
 
 #### 2.1.7 Response
 This defines the response of the operation. You can specify the type of the microflow result and the export mapping applied to it (if any).
@@ -146,11 +146,11 @@ If you select an export mapping that supports both XML and JSON (for example, a 
 
 * When there is no *Accept* header or the *Accept* header does not contain a recognizable media type, then the operation returns JSON and the *Content-Type* is *application/json*.
 
-The export mapping is also used to generate object schemas for operation responses in the [OpenAPI (Swagger) documentation page](published-rest-services#interactive-documentation) based on the [JSON schema](/refguide/published-rest-service-json-schema/).
+The export mapping is also used to generate object schemas for operation responses in the [OpenAPI (Swagger) documentation page](/refguide/published-rest-services/#interactive-documentation) based on the [JSON schema](/refguide/published-rest-service-json-schema/).
 
 ### 2.2 Public Documentation
 
-In the **Public Documentation** tab you can specify the documentation that will be used in the service's [OpenAPI (Swagger) documentation page](published-rest-services#interactive-documentation).
+In the **Public Documentation** tab you can specify the documentation that will be used in the service's [OpenAPI (Swagger) documentation page](/refguide/published-rest-services/#interactive-documentation).
 
 #### 2.2.1 Summary {#summary}
 Provide a short description of what the operation does.

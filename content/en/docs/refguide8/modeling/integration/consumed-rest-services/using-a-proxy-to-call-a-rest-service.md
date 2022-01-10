@@ -25,13 +25,13 @@ If you specify a setting both as a custom setting and as a JVM parameter, the cu
 
 ### 2.1 Custom Settings
 
-REST proxy settings can be configured as custom settings on the **Project** > **Settings** > **Configurations** > **Custom** tab. For more information, see the [Custom](/refguide/configuration/#custom) section of *Configurations*.
+REST proxy settings can be configured as custom settings on the **Project** > **Settings** > **Configurations** > **Custom** tab. For more information, see the [Custom](/refguide8/configuration/#custom) section of *Configurations*.
 
 ### 2.2 JVM Parameters
 
-REST proxy settings can be configured in the **Project** > **Settings** > **Configurations** > **Server** tab > **Extra JVM parameters** field. For more information, see the [Server](/refguide/configuration/#server) section of *Configurations*.
+REST proxy settings can be configured in the **Project** > **Settings** > **Configurations** > **Server** tab > **Extra JVM parameters** field. For more information, see the [Server](/refguide8/configuration/#server) section of *Configurations*.
 
-They can also be specified as JVM parameters in your *.m2eerc*. This is useful if you want to use these settings to also [consume web services](/refguide/using-a-proxy-to-call-a-webservice/).
+They can also be specified as JVM parameters in your *.m2eerc*. This is useful if you want to use these settings to also [consume web services](/refguide8/using-a-proxy-to-call-a-webservice/).
 
 ```java
 ...

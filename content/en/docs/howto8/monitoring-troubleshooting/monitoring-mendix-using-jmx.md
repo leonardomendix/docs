@@ -142,7 +142,7 @@ import com.mendix.core.Core;
 
 Now you're able to see the result of the values exposed by this MBean in the JConsole:
 
-![](/attachments/howto8/monitoring-troubleshooting//monitoring-mendix-using-jmx/18580003.png)
+![](/attachments/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/18580003.png)
 
 ## 5 MBean Exposing App-Specific Statistics
 
@@ -152,13 +152,13 @@ The idea is that you will have a Java Action that you can call in a microflow wh
 
 ## 6 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [Clear Warning Messages](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Clear Warning Messages](/howto8/monitoring-troubleshooting/clear-warning-messages/)
 * [Test Web Services Using SoapUI](/howto8/testing/testing-web-services-using-soapui/)
-* [Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [Log Levels](/howto/monitoring-troubleshooting/log-levels/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
-* [Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
-* [Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Debug Java Actions Remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [Log Levels](/howto8/monitoring-troubleshooting/log-levels/)
+* [Debug Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)
+* [Debug Microflows](/howto8/monitoring-troubleshooting/debug-microflows/)
+* [Debug Microflows Remotely](/howto8/monitoring-troubleshooting/debug-microflows-remotely/)
+* [Debug Java Actions Remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)

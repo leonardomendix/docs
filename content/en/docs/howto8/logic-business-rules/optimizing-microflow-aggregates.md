@@ -17,15 +17,15 @@ The Mendix Platform only creates an optimized SQL query if the list is not used 
 
 If you do want to use the list but you also want the optimized query, do two separate retrieves. This will do the optimized query, and you can use the second retrieve in your microflow.
 
-![](/attachments/howto8/logic-business-rules//optimizing-microflow-aggregates/18580944.png)
+![](/attachments/howto8/logic-business-rules/optimizing-microflow-aggregates/18580944.png)
 
 ## 2 Read More
 
-* [Define Access Rules Using XPath](/howto/logic-business-rules/define-access-rules-using-xpath/)
-* [Extend Your Application with Custom Java](/howto/logic-business-rules/extending-your-application-with-custom-java/)
-* [Work with Lists in a Microflow](/howto/logic-business-rules/working-with-lists-in-a-microflow/)
-* [Create a Custom Save Button](/howto/logic-business-rules/create-a-custom-save-button/)
-* [Optimize Retrieve Activities](/howto/logic-business-rules/optimizing-retrieve-activities/)
-* [Configure Error Handling](/howto/logic-business-rules/set-up-error-handling/)
-* [Optimize Microflow Aggregates](/howto/logic-business-rules/optimizing-microflow-aggregates/)
-* [Extract & Use Sub-Microflows](/howto/logic-business-rules/extract-and-use-sub-microflows/)
+* [Define Access Rules Using XPath](/howto8/logic-business-rules/define-access-rules-using-xpath/)
+* [Extend Your Application with Custom Java](/howto8/logic-business-rules/extending-your-application-with-custom-java/)
+* [Work with Lists in a Microflow](/howto8/logic-business-rules/working-with-lists-in-a-microflow/)
+* [Create a Custom Save Button](/howto8/logic-business-rules/create-a-custom-save-button/)
+* [Optimize Retrieve Activities](/howto8/logic-business-rules/optimizing-retrieve-activities/)
+* [Configure Error Handling](/howto8/logic-business-rules/set-up-error-handling/)
+* [Optimize Microflow Aggregates](/howto8/logic-business-rules/optimizing-microflow-aggregates/)
+* [Extract & Use Sub-Microflows](/howto8/logic-business-rules/extract-and-use-sub-microflows/)

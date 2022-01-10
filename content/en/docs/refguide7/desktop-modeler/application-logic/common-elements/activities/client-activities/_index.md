@@ -6,24 +6,24 @@ parent: "activities"
 
 ## Close Page
 
-See [Close Page](/refguide/close-page/).
+See [Close Page](/refguide7/close-page/).
 
 ## Download File
 
-See [Download File](/refguide/download-file/).
+See [Download File](/refguide7/download-file/).
 
 ## Show Page
 
-See [Show Page](/refguide/show-page/).
+See [Show Page](/refguide7/show-page/).
 
 ## Show Home Page
 
-See [Show home page](/refguide/show-home-page/).
+See [Show home page](/refguide7/show-home-page/).
 
 ## Show Message
 
-See [Show Message](/refguide/show-message/).
+See [Show Message](/refguide7/show-message/).
 
 ## Validation Feedback
 
-See [Validation Feedback](/refguide/validation-feedback/).
+See [Validation Feedback](/refguide7/validation-feedback/).

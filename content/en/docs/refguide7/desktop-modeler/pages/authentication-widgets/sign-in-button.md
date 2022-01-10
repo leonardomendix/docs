@@ -6,9 +6,9 @@ parent: "authentication-widgets"
 ---
 
 
-The sign in button sends a user's login id and password to the server for authentication. Any errors are displayed in a [validation message widget](/refguide/validation-message/) or in a pop-up window. 
+The sign in button sends a user's login id and password to the server for authentication. Any errors are displayed in a [validation message widget](/refguide7/validation-message/) or in a pop-up window. 
 
-It must be placed on a page together with a [login id text box](/refguide/login-id-text-box/) and a [password text box](/refguide/password-text-box/).
+It must be placed on a page together with a [login id text box](/refguide7/login-id-text-box/) and a [password text box](/refguide7/password-text-box/).
 
 ## Common Properties
 
@@ -34,7 +34,7 @@ It must be placed on a page together with a [login id text box](/refguide/login-
 
 ### Validation Message Widget
 
-Designates the [validation message widget](/refguide/validation-message/) that should display authentication failure messages. By default no widget is selected, which results in authentication messages being displayed in a pop-up window.
+Designates the [validation message widget](/refguide7/validation-message/) that should display authentication failure messages. By default no widget is selected, which results in authentication messages being displayed in a pop-up window.
 
 Default value: None
 

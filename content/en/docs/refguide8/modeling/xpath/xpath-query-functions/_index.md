@@ -11,11 +11,11 @@ tags: ["studio pro"]
 
 The following XPath query aggregate functions are available:
 
-* [avg](/refguide/xpath-avg/)
-* [count](/refguide/xpath-count/)
-* [max](/refguide/xpath-max/)
-* [min](/refguide/xpath-min/)
-* [sum](/refguide/xpath-sum/)
+* [avg](/refguide8/xpath-avg/)
+* [count](/refguide8/xpath-count/)
+* [max](/refguide8/xpath-max/)
+* [min](/refguide8/xpath-min/)
+* [sum](/refguide8/xpath-sum/)
 
 These functions must contain full queries as their arguments. However, the `avg`, `max`, `min`, and `sum` functions must specify a column in the query to aggregate.
 

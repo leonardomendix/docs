@@ -63,7 +63,7 @@ The template for the location can contain parameters that are written as a numbe
 
 #### 4.1.2 Parameters
 
-For each parameter in the template, you can specify its value using a [microflow expression](/refguide/expressions/) resulting in a string value. This value will be inserted at the position of the parameter.
+For each parameter in the template, you can specify its value using a [microflow expression](/refguide8/expressions/) resulting in a string value. This value will be inserted at the position of the parameter.
 
 ### 4.2 HTTP Method
 
@@ -114,7 +114,7 @@ Select from one of the following:
 When you select **Override**, you can configure the client certificate that will be used. Click **Edit** to specify the **Client certificate identifier**. This identifier can be set in different places, depending on where you deploy the app:
 
 * When you deploy the app to the Mendix cloud, the identifier is set when [pinning a client certificate](/developerportal/deploy/certificates/#outgoing-client-certificates)
-* When you deploy the app elsewhere, the identifier is set in the custom setting [ClientCertificateUsages](/refguide/custom-settings/#ca-certificates)
+* When you deploy the app elsewhere, the identifier is set in the custom setting [ClientCertificateUsages](/refguide8/custom-settings/#ca-certificates)
 
 When this identifier is not set (either not pinned or not present in _ClientCertificateUsages_), the default settings will be used (as if **Use project settings** were selected).
 
@@ -128,11 +128,11 @@ The **Use HTTP authentication** check box defines whether basic authentication s
 
 ### 5.2 User Name
 
-The **User name** property defines the user name that will be used to authenticate over HTTP. The user name needs to be entered using [microflow Expressions](/refguide/expressions/). The microflow expression should result in a string.
+The **User name** property defines the user name that will be used to authenticate over HTTP. The user name needs to be entered using [microflow Expressions](/refguide8/expressions/). The microflow expression should result in a string.
 
 ### 5.3 Password
 
-The **Password** property defines the password that will be used to authenticate over HTTP. The password needs to be entered using [expressions](/refguide/expressions/). The microflow expression should result in a string.
+The **Password** property defines the password that will be used to authenticate over HTTP. The password needs to be entered using [expressions](/refguide8/expressions/). The microflow expression should result in a string.
 
 ### 5.4 Custom HTTP Headers
 
@@ -150,7 +150,7 @@ Requests can only be generated for HTTP methods POST, PUT, PATCH, and OPTIONS.
 
 ### 6.1 Export Mapping for the Entire Request
 
-This option allows you to use a single [export mapping](/refguide/export-mappings/) for the body of the request. 
+This option allows you to use a single [export mapping](/refguide8/export-mappings/) for the body of the request. 
 
 #### 6.1.1 Mapping
 
@@ -158,15 +158,15 @@ Select the mapping that you want to apply.
 
 #### 6.1.2 Parameter Type
 
-If the [export mapping](/refguide/export-mappings/) requires an input, this field shows the type of the input.
+If the [export mapping](/refguide8/export-mappings/) requires an input, this field shows the type of the input.
 
 #### 6.1.3 Parameter
 
-If the [export mapping](/refguide/export-mappings/) requires an input, you can select a parameter of the correct type.
+If the [export mapping](/refguide8/export-mappings/) requires an input, you can select a parameter of the correct type.
 
 #### 6.1.4 Content Type
 
-If the [export mapping](/refguide/export-mappings/) is based on a message definition, it can export either XML or JSON. Choose the type of output you want.
+If the [export mapping](/refguide8/export-mappings/) is based on a message definition, it can export either XML or JSON. Choose the type of output you want.
 
 {{% alert type="info" %}}
 **Content-Type header** is not set by default. To set it, use the **Custom HTTP Headers** tab.
@@ -202,7 +202,7 @@ See [String Template](#string-template), above, for more information on construc
 
 These are the options in the drop-down menu for handling the response:
 
-* **Apply import mapping** – if the response is JSON or XML, it can be transformed directly into objects using an [import mapping](/refguide/import-mappings/); the fields that you can choose here are described in the [Import Mapping action](/refguide/import-mapping-action/)
+* **Apply import mapping** – if the response is JSON or XML, it can be transformed directly into objects using an [import mapping](/refguide8/import-mappings/); the fields that you can choose here are described in the [Import Mapping action](/refguide8/import-mapping-action/)
 * **Store in an HTTP response** – any successful HTTP response can be stored directly in an [HttpResponse](http-request-and-response-entities#http-response) object, and the [$latestHttpResponse](#latesthttpresponse) variable is also updated
 * **Store in a file document** – if the response contains binary content (for example, a PDF), it can be stored in an object of an entity type which inherits from `System.FileDocument`
 * **Store in a string** – if the response is a string (for example, CSV), it can be stored directly in a string variable
@@ -231,7 +231,7 @@ This variable can be accessed from any microflow action in the scope.
 
 #### 7.3.2  Store Message Body in $latestHttpResponse Variable {#latesthttpresponse}
 
-If HTTP response status code is not successful (for example, `[4xx]` or `[5xx]`), the flow will continue in an [error handler](/refguide/error-event/#errorhandlers).
+If HTTP response status code is not successful (for example, `[4xx]` or `[5xx]`), the flow will continue in an [error handler](/refguide8/error-event/#errorhandlers).
 
 {{% alert type="warning" %}}
 You should always add an error handler for a [call REST service](/refguide8/call-rest-action/) action.

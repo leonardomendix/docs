@@ -6,4 +6,4 @@ parent: "activities"
 
 ## Generate Document
 
-See [Generate Document](/refguide/generate-document/).
+See [Generate Document](/refguide7/generate-document/).

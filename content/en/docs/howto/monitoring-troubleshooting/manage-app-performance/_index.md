@@ -24,4 +24,4 @@ Only Datadog is supported for apps deployed to the Mendix Cloud.
 
 * **AppDynamics** – see [Manage App Performance with AppDynamics](/howto/monitoring-troubleshooting/manage-app-performance-with-appdynamics/)
 * **New Relic** – see [Manage App Performance with New Relic](/howto/monitoring-troubleshooting/manage-app-performance-with-new-relic/)
-* **Dynatrace** – for apps deployed to SAP BTP, see [SAP Business Technology Platform](/developerportal/deploy/sap-cloud-platform/#runtime-tab), for other platforms see [Monitoring Tools](https:/github.com/mendix/cf-mendix-buildpack#monitoring-tools) in the Mendix *Cloud Foundry Buildback*.
+* **Dynatrace** – for apps deployed to SAP BTP, see [SAP Business Technology Platform](/developerportal/deploy/sap-cloud-platform/#runtime-tab), for other platforms see [Monitoring Tools](https://github.com/mendix/cf-mendix-buildpack#monitoring-tools) in the Mendix *Cloud Foundry Buildback*.

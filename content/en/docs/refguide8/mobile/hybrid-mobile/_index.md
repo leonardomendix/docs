@@ -16,8 +16,8 @@ Building hybrid apps in the cloud uses the PhoneGap Build service from Adobe. Un
 
 ## 2 Documents in This Section
 
-* [Configuring Hybrid Mobile Apps To Run Offline](/refguide7/configuring-hybrid-mobile-apps-to-run-offline/)
-* [Customizing Hybrid Mobile Apps](/refguide7/customizing-hybrid-mobile-apps/)
-* [Developing Hybrid Mobile Apps](/refguide7/developing-hybrid-mobile-apps/)
-* [Managing App Signing Keys](/refguide/managing-app-signing-keys/)
-* [Packaging Hybrid Mobile Apps](/refguide7/packaging-hybrid-mobile-apps/)
+* [Configuring Hybrid Mobile Apps To Run Offline](/refguide8/configuring-hybrid-mobile-apps-to-run-offline/)
+* [Customizing Hybrid Mobile Apps](/refguide8/customizing-hybrid-mobile-apps/)
+* [Developing Hybrid Mobile Apps](/refguide8/developing-hybrid-mobile-apps/)
+* [Managing App Signing Keys](/refguide8/managing-app-signing-keys/)
+* [Packaging Hybrid Mobile Apps](/refguide8/packaging-hybrid-mobile-apps/)

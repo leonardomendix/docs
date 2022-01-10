@@ -31,9 +31,9 @@ With Mendix Charts you can quickly create beautiful charts. The following charts
 * **Pie** chart – a pie or a doughnut chart {{% image_container width="200" %}}![Sample Pie Chart](/attachments/refguide8/modeling/pages/chart-widgets/sample-pie-chart.png){{% /image_container %}}
 * **Time series** – show data ordered by time {{% image_container width="200" %}}![Sample Time Series](/attachments/refguide8/modeling/pages/chart-widgets/sample-time-series.png){{% /image_container %}}
 
-The widgets contain several settings which can be changed in Studio Pro to customize the look and feel and also offer support for on click events and custom tooltips. See [Chart Configuration](/refguide/charts-configuration/) to learn how to configure Mendix charts.
+The widgets contain several settings which can be changed in Studio Pro to customize the look and feel and also offer support for on click events and custom tooltips. See [Chart Configuration](/refguide8/charts-configuration/) to learn how to configure Mendix charts.
 
-If the standard chart settings are not sufficient for your purposes, see [Chart Advanced Cheat Sheet](/refguide/charts-advanced-cheat-sheet/) for information on advanced configuration of your basic charts.
+If the standard chart settings are not sufficient for your purposes, see [Chart Advanced Cheat Sheet](/refguide8/charts-advanced-cheat-sheet/) for information on advanced configuration of your basic charts.
 
 Note that only features up to version 1.47.4 of plotly.js can be used when configuring charts.
 
@@ -49,11 +49,11 @@ With *Any Chart* you can build all the chart types that are possible with Plotly
 
 The plotly charts require a configuration based on JSON, therefore *Any Chart* has JSON as input parameters. You can create this JSON dynamically in your microflow via a JSON Structure document and use this in the *Any Chart* configuration. It is also possible to define static JSON configuration which is combined with the dynamic JSON.
 
-This module also contains several [building blocks](/refguide/charts-any-building-blocks/) for inspiration and as starting point. If you want to create a new chart, we suggest you check out the plotly.js website.
+This module also contains several [building blocks](/refguide8/charts-any-building-blocks/) for inspiration and as starting point. If you want to create a new chart, we suggest you check out the plotly.js website.
 
-See [Any Chart Widgets](/refguide/charts-any-configuration/) to learn how to configure *Any charts* widgets.
+See [Any Chart Widgets](/refguide8/charts-any-configuration/) to learn how to configure *Any charts* widgets.
 
-The [Any Chart Cheat Sheet](/refguide/charts-any-cheat-sheet/) lists the most common chart types and the JSON required to create them in Any Chart.
+The [Any Chart Cheat Sheet](/refguide8/charts-any-cheat-sheet/) lists the most common chart types and the JSON required to create them in Any Chart.
 
 ## 4 Performing Basic Functions
 
@@ -63,8 +63,8 @@ The [Any Chart Cheat Sheet](/refguide/charts-any-cheat-sheet/) lists the most co
 
 The following documents explain how to use charts in more detail:
 
-* [Chart Configuration](/refguide/charts-configuration/)
-* [Chart Advanced Cheat Sheet](/refguide/charts-advanced-cheat-sheet/)
-* [Any Chart Widgets](/refguide/charts-any-configuration/)
-* [Any Chart Building Blocks](/refguide/charts-any-building-blocks/)
-* [Any Chart Cheat Sheet](/refguide/charts-any-cheat-sheet/)
+* [Chart Configuration](/refguide8/charts-configuration/)
+* [Chart Advanced Cheat Sheet](/refguide8/charts-advanced-cheat-sheet/)
+* [Any Chart Widgets](/refguide8/charts-any-configuration/)
+* [Any Chart Building Blocks](/refguide8/charts-any-building-blocks/)
+* [Any Chart Cheat Sheet](/refguide8/charts-any-cheat-sheet/)

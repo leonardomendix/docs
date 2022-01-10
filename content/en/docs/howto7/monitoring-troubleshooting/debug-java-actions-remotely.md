@@ -25,7 +25,7 @@ To edit the server configuration with extra JVM parameters, follow these steps:
 2. Edit the configuration.
 3. Go to the **Server** tab on the **Edit Configuration** editor and add the following line to the **Extra JVM parameters** field: `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005`
 
-    ![](/attachments/howto7/monitoring-troubleshooting//debug-java-actions-remotely/18580063.png)
+    ![](/attachments/howto7/monitoring-troubleshooting/debug-java-actions-remotely/18580063.png)
 
 4. Next, start your application in Mendix.
 
@@ -41,15 +41,15 @@ In your Java IDE, you need to configure remote debugging. This screenshot shows 
 
 ## 4 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [Clear Warning Messages in Mendix](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [Find the Root Cause of Runtime Errors](/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Clear Warning Messages in Mendix](/howto7/monitoring-troubleshooting/clear-warning-messages/)
 * [Test Web Services Using SoapUI](/howto7/testing/testing-web-services-using-soapui/)
-* [Monitor Mendix using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Log Levels](/howto/monitoring-troubleshooting/log-levels/)
+* [Monitor Mendix using JMX](/howto7/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Log Levels](/howto7/monitoring-troubleshooting/log-levels/)
 * [Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [Debug Java Actions](/howto7/monitoring-troubleshooting/debug-java-actions/)
 * [Common Mendix SSO Errors](/howto7/monitoring-troubleshooting/handle-common-mendix-sso-errors/)
-* [Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
+* [Debug Microflows Remotely](/howto7/monitoring-troubleshooting/debug-microflows-remotely/)
 * [Get Started with Nexus Maven Repository Manager](http://www.andrejkoelewijn.com/blog/2010/03/09/getting-started-with-nexus-maven-repository-manager/)
 * [Use Eclipse to Debug Your Tomcat Web Application](http://www.andrejkoelewijn.com/blog/2003/10/23/using-eclipse-to-debug-your-tomcat-web-application/)
 * [Profile Mendix Using JProfiler](http://www.andrejkoelewijn.com/blog/2014/01/15/profiling-mendix-using-jprofiler/)

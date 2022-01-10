@@ -13,11 +13,11 @@ aliases:
 
 Mendix Atlas UI is the design framework that makes building elegant user experiences a rapid process. It was built upon three design principles: simplicity, harmony, and flexibility. Simplicity helps you focus on what is important. We’ve simplified the design process with readymade page templates, building blocks, and widgets that can be arranged and customized to suit your app. Our design elements are harmonious, bringing a unified aesthetic to your app landscape. Atlas UI is built to be fully responsive, ensuring quality across scale without losing functionality. 
 
-Visit the [Atlas UI site](https://atlas2.mendix.com/) for detailed previews and descriptions of all Atlas UI elements, or see the Atlas UI Framework [GitHub repository](https://github.com/mendix/Atlas-UI-Framework). If you wish to customize your Mendix apps' styling, see [How to Customize Your Styling Using Calypso](/howto8/front-end/calypso/).
+Visit the [Atlas UI site](https:/atlas2.mendix.com/) for detailed previews and descriptions of all Atlas UI elements, or see the Atlas UI Framework [GitHub repository](https:/github.com/mendix/Atlas-UI-Framework). If you wish to customize your Mendix apps' styling, see [How to Customize Your Styling Using Calypso](/howto8/front-end/calypso/).
 
 ### 1.1 Mendix Studio
 
-[Mendix Studio](/releasenotes/studio/) brings the collaborative Mendix Platform to the browser, making it easier than ever to share and collaborate on application models. Every app built in Mendix Studio is styled with the Atlas UI framework. For more information, see [Get Started with Atlas UI](/howto7/front-end/get-started-with-atlasui/). 
+ brings the collaborative Mendix Platform to the browser, making it easier than ever to share and collaborate on application models. Every app built in Mendix Studio is styled with the Atlas UI framework. For more information, see [Get Started with Atlas UI](/howto8/front-end/get-started-with-atlasui/). 
 
 ### 1.2 Design Principles
 
@@ -35,13 +35,13 @@ Create familiarity and consistency throughout your apps landscape, regardless of
 
 Design apps that look good and scale in all situations without losing an intuitive and consistent experience.
 
-![](/attachments/howto8/front-end//atlas-ui/atlas_ui_preview.png)
+![](/attachments/howto8/front-end/atlas-ui/atlas_ui_preview.png)
 
 ## 2 Design Elements
 
 Our UI library is fully integrated into Mendix Studio. After choosing a navigation layout in Mendix Studio, you can find page templates, building blocks, and widgets directly in your **Toolbox**. These UI elements form the foundation of your app.
 
-![](/attachments/howto8/front-end//atlas-ui/designelements.png)
+![](/attachments/howto8/front-end/atlas-ui/designelements.png)
 
 **1** **Navigation Layouts**
 
@@ -65,11 +65,11 @@ You can further customize widgets by changing their design properties. Colors, t
 
 ## 3 Read More
 
-* [Get Started with Atlas UI](/howto7/front-end/get-started-with-atlasui/)
-* [Migrate Existing Apps to Atlas UI](/howto7/front-end/migrate-existing-projects-to-atlasui/)
-* [Create Company Atlas UI Resources](/howto7/front-end/create-company-atlas-ui-resources/)
-* [Share Company Atlas UI Resources](/howto7/front-end/share-company-atlas-ui-resources/)
-* [Create Custom Preview Images for Building Blocks & Page Templates](/howto7/front-end/create-custom-preview-images-for-building-blocks-and-page-templates/)
+* [Get Started with Atlas UI](/howto8/front-end/get-started-with-atlasui/)
+* [Migrate Existing Apps to Atlas UI](/howto8/front-end/migrate-existing-projects-to-atlasui/)
+* [Create Company Atlas UI Resources](/howto8/front-end/create-company-atlas-ui-resources/)
+* [Share Company Atlas UI Resources](/howto8/front-end/share-company-atlas-ui-resources/)
+* [Create Custom Preview Images for Building Blocks & Page Templates](/howto8/front-end/create-custom-preview-images-for-building-blocks-and-page-templates/)
 * [Extend Design Properties to Customize Your Studio Experience](/howto8/front-end/extend-design-properties-to-customize/)
 * [Troubleshooting Atlas UI Changes](/refguide8/migration-atlas/)
 * [How to Customize Your Styling Using Calypso](/howto8/front-end/calypso/)

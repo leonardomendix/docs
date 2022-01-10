@@ -524,11 +524,11 @@ The default class to style all reference selector inputs is named `ReferenceSele
 
 ## 7 Images, Videos & Files
 
-Images, videos & files help your user app manage images and other files. For more information on these widgets, see [Images, Videos & Files](image-and-file-widgets).
+Images, videos & files help your user app manage images and other files. For more information on these widgets, see [Images, Videos & Files](/refguide/image-and-file-widgets/).
 
 ### 4.2 Static Image {#image}
 
-The static image widget can be used to show a predefined image on a page, layout, or snippet. For more information on this widgets, see [Static Image](/appstore/widgets/image/). The widget’s style properties are as follows:
+The static image widget can be used to show a predefined image on a page, layout, or snippet. For more information on this widgets, see [Static Image](/refguide/image/). The widget’s style properties are as follows:
 
 ```xml
 <container>

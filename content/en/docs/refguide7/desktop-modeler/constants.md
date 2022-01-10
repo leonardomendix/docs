@@ -14,13 +14,13 @@ For other cloud environments, IBM Cloud Portal or MindSphere for example, the co
 When running the application locally or in a sandbox, the values defined in the Modeler are used.
 
 {{% alert type="info" %}}
-The value for a constant can also be overridden in a [Configuration](/refguide/configuration/). This allows you to run locally using different values for one or more constants, without having to change the default value for the constant every time.
+The value for a constant can also be overridden in a [Configuration](/refguide7/configuration/). This allows you to run locally using different values for one or more constants, without having to change the default value for the constant every time.
 {{% /alert %}}
 
 Constants can be used in:
 
-*   [Microflow expressions](/refguide/expressions/): by prefixing the full name of the constant with @.
-*   [Consumed Web Services](/refguide/consumed-web-services/): in this case the constant is a URL that specifies where the web service is located. This can vary based on the environment in which the application is running, so that you can for example use different web services for development and production.
+*   [Microflow expressions](/refguide7/expressions/): by prefixing the full name of the constant with @.
+*   [Consumed Web Services](/refguide7/consumed-web-services/): in this case the constant is a URL that specifies where the web service is located. This can vary based on the environment in which the application is running, so that you can for example use different web services for development and production.
 
 ## Common Properties
 
@@ -36,10 +36,10 @@ This field is for documentation purpose only: end users will never see it, and i
 
 ### Type
 
-The [data type](/refguide/data-types/) of the constant. This determines what kind of values a constant can hold. Supported data types are String, Boolean, Date and time, Float (deprecated), Decimal and Integer/Long.
+The [data type](/refguide7/data-types/) of the constant. This determines what kind of values a constant can hold. Supported data types are String, Boolean, Date and time, Float (deprecated), Decimal and Integer/Long.
 
 ## Value Properties
 
 ### Default value
 
-The default value of the constant. This value is used when running locally or in a sandbox. When running locally, the value can be overridden in the currently selected [Configuration](/refguide/configuration/).
+The default value of the constant. This value is used when running locally or in a sandbox. When running locally, the value can be overridden in the currently selected [Configuration](/refguide7/configuration/).

@@ -9,7 +9,7 @@ tags: ["Any Chart", "Charts", "Building Blocks", "Widget", "Desktop Modeler"]
 
 ## 1 Introduction
 
-Any Chart is a widget which is available in the Mendix app store here: [Any Chart](/appstore/modules/any-chart/) module. The Any Chart widget enables you to build all the chart types that are possible with Plotly.js. More about Plotly.js is available here: https:/plot.ly/javascript/reference/.
+Any Chart is a widget which is available in the Mendix app store here: [Any Chart](/appstore/modules/any-chart/) module. The Any Chart widget enables you to build all the chart types that are possible with Plotly.js. More about Plotly.js is available here: https://plot.ly/javascript/reference/.
 
 Any Chart building blocks are pre-configured page building blocks with the basic properties of a chart already defined. They can be placed on a Mendix page in the same way as any other widget or building block. They contain samples of the **data** and **Layout** objects which are required to create a chart. These objects are used for demo purposes at run time when there is no Source attribute selected or when rendering sample data in the Studio preview.
 
@@ -47,5 +47,5 @@ The attribute layout will merge and overwrite static layout options.
 Layout options for preview. It will be merged with the 'Static' in Mendix Studio or at runtime when no 'Source attribute' is selected.
 
 {{% alert type="info" %}}
-For more a detailed description of Any Chart configuration, see [Any Chart Widgets](/refguide/charts-any-configuration/)
+For more a detailed description of Any Chart configuration, see [Any Chart Widgets](/refguide7/charts-any-configuration/)
 {{% /alert %}}

@@ -8,7 +8,7 @@ description: "Describes the functions for converting and inspecting strings in M
 
 ## 1 Introduction
 
-These are functions to convert and inspect [strings](/refguide/data-types/). Note that these functions never change the string itself, they only return a new value.
+These are functions to convert and inspect [strings](/refguide7/data-types/). Note that these functions never change the string itself, they only return a new value.
 
 Strings are surrounded by quotes. If the string contains a quote, it should be escaped by another quote. For example: `'this isn''t funny'`.
 
@@ -380,8 +380,8 @@ Checks to see if a string matches a given regular expression.
 
 Please note that this function call uses a regular expression language provided by the current platform:
 
-* When used inside a [microflow](/refguide/microflow/) – Java's regular expressions (for details, see [Class Pattern documentation](https:/docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html))
-* When used inside [conditional formatting](/refguide7/conditions/) – JavaScript's regular expressions (for details, see [Regular Expressions documentation](https:/developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions))
+* When used inside a [microflow](/refguide7/microflow/) – Java's regular expressions (for details, see [Class Pattern documentation](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html))
+* When used inside [conditional formatting](/refguide7/conditions/) – JavaScript's regular expressions (for details, see [Regular Expressions documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions))
 
 {{% /alert %}}
 
@@ -431,8 +431,8 @@ Replaces all occurrences of a regular expression with another string.
 
 Please note that this function call uses a regular expression language provided by the current platform:
 
-* When used inside [microflows](/refguide/microflows/) – Java's regular expressions (for details, see [Class Pattern](https:/docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html))
-* When used inside [conditional formatting](/refguide7/conditions/) – JavaScript's regular expressions (for details, see [Regular Expressions](https:/developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions))
+* When used inside [microflows](/refguide7/microflows/) – Java's regular expressions (for details, see [Class Pattern](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html))
+* When used inside [conditional formatting](/refguide7/conditions/) – JavaScript's regular expressions (for details, see [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions))
 
 {{% /alert %}}
 
@@ -481,8 +481,8 @@ Replaces the first occurrence of the regular expression with a replacement strin
 
 Please note that this function call uses a regular expression language provided by the current platform:
 
-* When used inside a [microflow](/refguide/microflow/) – Java's regular expressions (for details, see [Class Pattern documentation](https:/docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html))
-* When used inside [conditional formatting](/refguide7/conditions/) – JavaScript's regular expressions (for details, see [Regular Expressions documentation](https:/developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions))
+* When used inside a [microflow](/refguide7/microflow/) – Java's regular expressions (for details, see [Class Pattern documentation](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html))
+* When used inside [conditional formatting](/refguide7/conditions/) – JavaScript's regular expressions (for details, see [Regular Expressions documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions))
 
 {{% /alert %}}
 

@@ -15,7 +15,7 @@ The List Operation activity can perform various actions on a list. See below for
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 

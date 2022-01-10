@@ -14,7 +14,7 @@ Offline-first applications work regardless of the connection in order to provide
 It is important to understand that offline-first is an architectural concept and not an approach based on the network state of the device. Offline-first apps do not rely on a connection, but they can use connections (for example, you can call microflows, use a Google Maps widget, or use push notifications).
 {{% /alert %}}
 
-Mendix supports building offline-first applications for [native mobile](/howto/mobile/native-mobile/) and [hybrid mobile](/howto/mobile/hybrid-mobile/) apps. Both native and hybrid apps share the same core, and this gives them the same offline-first capabilities. Native mobile apps are always offline-first, but for hybrid mobile apps, it depends on the navigation profile that is configured. The data is stored on the device in a local database, and the files are stored on the file storage of the device.
+Mendix supports building offline-first applications for [native mobile](/refguide/native-mobile/) and [hybrid mobile](/refguide/hybrid-mobile/) apps. Both native and hybrid apps share the same core, and this gives them the same offline-first capabilities. Native mobile apps are always offline-first, but for hybrid mobile apps, it depends on the navigation profile that is configured. The data is stored on the device in a local database, and the files are stored on the file storage of the device.
 
 Mendix Studio Pro performs validations to make sure your app follows an offline-first approach and works even when there is no connection.
 
@@ -58,7 +58,7 @@ This type of synchronization can only be done through a **Synchronize** action i
 
 #### 2.1.3 Selective Synchronization {#selective-sync}
 
-Selective synchronization can only be done through a **Synchronize** action inside a nanoflow. In this mode, a specific set of objects will be synchronized. These objects can be either all unsynchronized objects when the [synchronize unsynchronized objects](/refguide/synchronize/#unsynchronized-objects) mode is selected, or a manually selected set of objects when the [synchronize selected object(s)](synchronize#selected-objects) mode is selected.
+Selective synchronization can only be done through a **Synchronize** action inside a nanoflow. In this mode, a specific set of objects will be synchronized. These objects can be either all unsynchronized objects when the [synchronize unsynchronized objects](/refguide/synchronize/#unsynchronized-objects) mode is selected, or a manually selected set of objects when the [synchronize selected object(s)](/refguide/synchronize/#selected-objects) mode is selected.
 
 Deleted objects cannot be synchronized using selective synchronization.
 

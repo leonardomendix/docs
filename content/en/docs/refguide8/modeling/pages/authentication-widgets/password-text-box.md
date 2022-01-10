@@ -18,7 +18,7 @@ The **Password text box** is a widget that provides a password for authenticatio
 
 ![Password Text Box](/attachments/refguide8/modeling/pages/authentication-widgets/password-text-box/password-text-box.png)
 
-The **Password text box** should be placed on a page together with  with a [Login ID text box](/refguide/login-id-text-box/) and a [Sign-in button](/refguide/sign-in-button/).
+The **Password text box** should be placed on a page together with  with a [Login ID text box](/refguide8/login-id-text-box/) and a [Sign-in button](/refguide8/sign-in-button/).
 
 ## 2 Properties
 
@@ -54,6 +54,6 @@ A **Placeholder** shows a text when an end-user has not entered any text yet. It
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Login ID Text Box](/refguide/login-id-text-box/)
-* [Sign-In Button](/refguide/sign-in-button/)
+* [Page](/refguide8/page/)
+* [Login ID Text Box](/refguide8/login-id-text-box/)
+* [Sign-In Button](/refguide8/sign-in-button/)

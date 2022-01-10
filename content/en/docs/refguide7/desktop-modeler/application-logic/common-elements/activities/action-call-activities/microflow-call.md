@@ -11,11 +11,11 @@ This activity can only be used in microflows, not in nanoflows.
 
 ## 1 Introduction
 
-The Microflow call activity can be used to call another [microflow](/refguide/microflows/). Arguments can be passed to the microflow and the result can be stored in a variable.
+The Microflow call activity can be used to call another [microflow](/refguide7/microflows/). Arguments can be passed to the microflow and the result can be stored in a variable.
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -27,7 +27,7 @@ The microflow that is called by this activity.
 
 ### 2.2 Arguments
 
-For each parameter of the microflow you have to supply an argument of the same type. The values of the arguments are expressed using [expressions](/refguide/expressions/).
+For each parameter of the microflow you have to supply an argument of the same type. The values of the arguments are expressed using [expressions](/refguide7/expressions/).
 
 ## 3 Output Properties
 

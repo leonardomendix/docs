@@ -30,7 +30,7 @@ A column in a table.
 
 ### 2.2 Row
 
-A row in a table. See [Row (document template)](row-document-template).
+A row in a table. See [Row (document template)](/refguide/row-document-template/).
 
 ## 3 Appearance Properties
 

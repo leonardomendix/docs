@@ -16,7 +16,7 @@ _Default value:_ False
 
 ### Required message (only in web forms)
 
-This property determines the message that is shown to the end user if the widget is empty and the 'Required' property is set to true. This is a translatable text. See [Translatable Texts](/refguide/translatable-texts/).
+This property determines the message that is shown to the end user if the widget is empty and the 'Required' property is set to true. This is a translatable text. See [Translatable Texts](/refguide7/translatable-texts/).
 
 {{% alert type="info" %}}
 

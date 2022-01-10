@@ -23,4 +23,4 @@ The resource name uniquely identifies the resource in the [service](/refguide/pu
 
 ## <a name="public-documentation"></a>2.2 Public Documentation
 
-The public documentation is used in the service's [OpenAPI (Swagger) documentation page](published-rest-services#interactive-documentation). You can use [GitHub-flavored markdown](/refguide/gfm-syntax/) for rich text.
+The public documentation is used in the service's [OpenAPI (Swagger) documentation page](/refguide/published-rest-services/#interactive-documentation). You can use [GitHub-flavored markdown](/refguide/gfm-syntax/) for rich text.

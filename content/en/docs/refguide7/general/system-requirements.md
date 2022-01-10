@@ -30,7 +30,7 @@ If you want to use TortoiseSVN in combination with the Desktop Modeler, download
 
 ## 3 Team Server
 
-The [Team Server](/developerportal/collaborate/team-server/) is implemented using Subversion, and the Modeler uses the HTTPS protocol to communicate with that server. To access the Team Server from within the Desktop Modeler, the network at your location needs the following settings:
+The [Team Server](/refguide7/team-server/) is implemented using Subversion, and the Modeler uses the HTTPS protocol to communicate with that server. To access the Team Server from within the Desktop Modeler, the network at your location needs the following settings:
 
 * The HTTPS port (TCP 443) needs to be open
 * The HTTP port (TCP 80) needs to be open
@@ -38,7 +38,7 @@ The [Team Server](/developerportal/collaborate/team-server/) is implemented usin
 
 ## 4 Web Modeler
 
-The [Mendix Web Modeler](/releasenotes/studio/) is optimized for use with Google Chrome. While Chrome is the officially supported browser, you can also use the Web Modeler with other popular browsers like Mozilla Firefox, Apple Safari, and Microsoft Edge. 
+The  is optimized for use with Google Chrome. While Chrome is the officially supported browser, you can also use the Web Modeler with other popular browsers like Mozilla Firefox, Apple Safari, and Microsoft Edge. 
 
 {{% alert type="info" %}}
 The browser you use needs to have JavaScript turned on.
@@ -61,14 +61,14 @@ The browser you use needs to have JavaScript turned on.
 
 ### 5.3 Database Server
 
-* [IBM DB2](/refguide/db2/) 11.1, 11.5 for Linux, Unix, and Windows
-* [MariaDB](/refguide/mysql/) 10.2, 10.3, 10.4, 10.5
+* [IBM DB2](/refguide7/db2/) 11.1, 11.5 for Linux, Unix, and Windows
+* [MariaDB](/refguide7/mysql/) 10.2, 10.3, 10.4, 10.5
 * [Microsoft SQL Server](/developerportal/deploy/mendix-on-windows-microsoft-sql-server/) 2017, 2019
 * Azure SQL v12 (support is not independently verified and is available only through compatible versions of SQL Server)
-* [MySQL](/refguide/mysql/) 5.7, 8.0
-* [Oracle Database](/refguide/oracle/) 12c Release 2, 19
+* [MySQL](/refguide7/mysql/) 5.7, 8.0
+* [Oracle Database](/refguide7/oracle/) 12c Release 2, 19
 * PostgreSQL 9.6, 10, 11, 12, 13, 14
-* [SAP HANA](/refguide/saphana/) 2.00.040.00.1545918182
+* [SAP HANA](/refguide7/saphana/) 2.00.040.00.1545918182
 
 ### 5.4 Java
 
@@ -80,7 +80,7 @@ There is an issue since Java 7 that causes timeouts when using web services with
 
 ### 5.5 Application Server
 
-Jetty is built into the [Mendix Runtime](/refguide/runtime/), so an application server is not required.
+Jetty is built into the [Mendix Runtime](/refguide7/runtime/), so an application server is not required.
 
 ## 6 Browsers
 
@@ -111,7 +111,7 @@ For Mendix apps and the [Mendix Mobile app](/refguide7/getting-the-mendix-app/):
 
 ## 8 MxBuild{#mxbuild}
 
-MxBuild is a Windows and Linux command-line tool that can be used to build a Mendix Deployment Package. See [MxBuild](/refguide/mxbuild/) for more information.
+MxBuild is a Windows and Linux command-line tool that can be used to build a Mendix Deployment Package. See [MxBuild](/refguide7/mxbuild/) for more information.
 
 ### 8.1 Mendix Version 7.1 & Above
 

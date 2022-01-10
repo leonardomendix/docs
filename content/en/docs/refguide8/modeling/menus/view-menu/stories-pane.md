@@ -97,4 +97,4 @@ To change the status of a task, tick or clear the check box in the **Status** co
 
 * [Stories](/developerportal/collaborate/stories/)
 * [Feedback Management](/developerportal/collaborate/feedback/)
-* [View Menu](/refguide/view-menu/)
+* [View Menu](/refguide8/view-menu/)

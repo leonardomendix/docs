@@ -12,14 +12,14 @@ aliases:
 ## 1 Introduction
 
 {{% alert type="info" %}}
-For more general information on security, see [Security](/data-hub/data-hub-catalog/security/).
+For more general information on security, see [Security](/refguide/security/).
 {{% /alert %}}
 
 Within a module you can define module roles and specify security settings for pages, microflows, entities, and datasets.
 
 ## 2 Module Role {#module-role}
 
-A module role is a specific role you create within the module to define a set of access permissions. The permissions are contained within the module. You can assign multiple module roles to a user role under the **App Security** > **User roles** tab. For more information on module roles, [user roles](/refguide/user-roles/), and their relation, see [Security](/data-hub/data-hub-catalog/security/).
+A module role is a specific role you create within the module to define a set of access permissions. The permissions are contained within the module. You can assign multiple module roles to a user role under the **App Security** > **User roles** tab. For more information on module roles, [user roles](/refguide/user-roles/), and their relation, see [Security](/refguide/security/).
 
 A module role has the following properties:
 
@@ -113,5 +113,5 @@ The ranges are defined in the parameters of the data set. Whether values in thes
 
 ## 9 Read More
 
-* [Security](/data-hub/data-hub-catalog/security/)
+* [Security](/refguide/security/)
 * [User roles](/refguide/user-roles/)

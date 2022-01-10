@@ -22,7 +22,7 @@ If you start typing in any empty container the Modeler will automatically genera
 
 ### Text template
 
-Text template defines the text that will be shown. The template can contain parameters that are written as a number between braces, for example, {1}. The first parameter has number 1, the second 2 etcetera. Note that to use template parameters the widget must be placed in a context of an entity, for example, inside a [data view](/refguide/data-view/) or [list view](/refguide/list-view/).
+Text template defines the text that will be shown. The template can contain parameters that are written as a number between braces, for example, {1}. The first parameter has number 1, the second 2 etcetera. Note that to use template parameters the widget must be placed in a context of an entity, for example, inside a [data view](/refguide7/data-view/) or [list view](/refguide7/list-view/).
 
 ### Parameters
 

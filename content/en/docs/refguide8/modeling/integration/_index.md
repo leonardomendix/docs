@@ -14,20 +14,20 @@ tags: ["studio pro"]
 
 Integration with other applications (other than Mendix) can be done using REST or SOAP/Web Services. Mendix can import and export data from XML and JSON.
 
-Integration between Mendix applications is done best with REST services (for details, see [Published REST Service](/refguide/published-rest-services/) and [Call REST Service](/refguide/call-rest-action/)). Some of the terms used most often are explained below.
+Integration between Mendix applications is done best with REST services (for details, see [Published REST Service](/refguide8/published-rest-services/) and [Call REST Service](/refguide8/call-rest-action/)). Some of the terms used most often are explained below.
 
 {{% alert type="info" %}}
-For a [call REST service](/refguide/call-rest-action/) activity and JSON support in [mapping documents](/refguide/mapping-documents/), see [Consumed REST Services](/refguide/consumed-rest-services/).
+For a [call REST service](/refguide8/call-rest-action/) activity and JSON support in [mapping documents](/refguide8/mapping-documents/), see [Consumed REST Services](/refguide8/consumed-rest-services/).
 {{% /alert %}}{{% alert type="info" %}}
-For a [call web service](/refguide/call-web-service-action/) activity and support for SOAP web services/XML, see [Consumed Web Services](/refguide/consumed-web-services/).
+For a [call web service](/refguide8/call-web-service-action/) activity and support for SOAP web services/XML, see [Consumed Web Services](/refguide8/consumed-web-services/).
 {{% /alert %}}
 
 ## 2 Other Documents in This Section
 
-* [Consumed App Services](/refguide7/consumed-app-services/)
+* [Consumed App Services](/refguide8/consumed-app-services/)
 * [HttpRequest & HttpResponse System Entities](http-request-and-response-entities)
-* [JSON Structures](/refguide/json-structures/)
-* [Message Definitions](/refguide/message-definitions/)
-* [Published App Services](/refguide7/published-app-services/)
-* [Published OData Services](/refguide/published-odata-services/)
-* [XML Schemas](/refguide/xml-schemas/)
+* [JSON Structures](/refguide8/json-structures/)
+* [Message Definitions](/refguide8/message-definitions/)
+* [Published App Services](/refguide8/published-app-services/)
+* [Published OData Services](/refguide8/published-odata-services/)
+* [XML Schemas](/refguide8/xml-schemas/)

@@ -12,7 +12,7 @@ tags: ["studio pro", "demo users", "demo-users", "project security"]
 
 ## 1 Introduction
 
-Demo users are a demonstration of each [user role](/refguide/user-roles/) existing in your app. You can use demo users to test what your app looks like for each user role or to demonstrate your app to other people (for more information, see the [Testing Your App via Demo Users](#test-your-app) section . 
+Demo users are a demonstration of each [user role](/refguide8/user-roles/) existing in your app. You can use demo users to test what your app looks like for each user role or to demonstrate your app to other people (for more information, see the [Testing Your App via Demo Users](#test-your-app) section . 
 
 When the application is started for the first time, the specified demo users are created automatically.
 
@@ -45,7 +45,7 @@ Demo user properties are described in the table below:
 
 | Property   | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
-| User name  | The name of the demo user. This name must be unique, and cannot be the same as the name of the [administrator user](/refguide/administrator/). |
+| User name  | The name of the demo user. This name must be unique, and cannot be the same as the name of the [administrator user](/refguide8/administrator/). |
 | Password   | The password of the demo user is created automatically when the demo user is created. It cannot be changed, but you can click **Copy password to clipboard**, for example, to share the credentials of a demo user with someone else. |
 | Entity     | The entity of the demo user. This entity must be the System.User entity or a specialization of it. |
 | User roles | A user role of the demo user. Each demo user must have one or more roles. |
@@ -55,7 +55,7 @@ Demo user properties are described in the table below:
 You can use demo user to test what your application looks like to different user roles. Do the following:
 
 1. View you app.
-2. Sign in it as the [Administrator](/refguide/administrator/).
+2. Sign in it as the [Administrator](/refguide8/administrator/).
 3.  Click a user icon in the right side of the screen. The menu bar **Select user** will be displayed: 
 
 	![](/attachments/refguide8/modeling/menus/view-menu/project-explorer/security/project-security/demo-users/demo-users-example.png)
@@ -64,8 +64,8 @@ You can use demo user to test what your application looks like to different user
 
 ## 5 Read More
 
-* [Project Security](/refguide/project-security/)
-* [User Roles](/refguide/user-roles/)
-* [Administrator](/refguide/administrator/)
-* [Anonymous Users](/refguide/anonymous-users/)
-* [Password Policy](/refguide/password-policy/)
+* [Project Security](/refguide8/project-security/)
+* [User Roles](/refguide8/user-roles/)
+* [Administrator](/refguide8/administrator/)
+* [Anonymous Users](/refguide8/anonymous-users/)
+* [Password Policy](/refguide8/password-policy/)

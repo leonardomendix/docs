@@ -122,6 +122,6 @@ To perform actions on a list view, select it on a page and right-click it. The l
 ## 4 Read More
 
 * [Page](/refguide/page/)
-* [Data Containers](/appstore/modules/data-widgets/)
+* [Data Containers](/refguide/data-widgets/)
 * [Data Sources](/refguide/data-sources/)
 * [Properties Common in the Page Editor](/refguide/common-widget-properties/)

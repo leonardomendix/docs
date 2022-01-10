@@ -8,7 +8,7 @@ description: "Describes how to use the Mendix Java library and use Eclipse as an
 
 With Java actions, you can extend the functionality of your application in situations where it would be hard to implement this functionality in microflows.
 
-For information about Java actions in the Modeler, see [Java Actions](/refguide/java-actions/).
+For information about Java actions in the Modeler, see [Java Actions](/refguide7/java-actions/).
 
 ## 2 Writing Code in the .java Files of Your Java Actions
 
@@ -46,9 +46,9 @@ For details on usage and example, see [How to Use the Java API](/howto7/logic-bu
 
 ## 4 Using Eclipse as an Environment to Write Your Mendix Java Actions
 
-For details on this topic, see [Using Eclipse](/refguide/using-eclipse/).
+For details on this topic, see [Using Eclipse](/refguide7/using-eclipse/).
 
 ## 5 Main Documents in This Category
 
-* [Troubleshooting](/refguide/troubleshooting/)
-* [Using Eclipse](/refguide/using-eclipse/)
+* [Troubleshooting](/refguide7/troubleshooting/)
+* [Using Eclipse](/refguide7/using-eclipse/)

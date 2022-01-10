@@ -29,7 +29,7 @@ A dynamic label linking to a customer name.
 
 ### 2.1 Style
 
-For details, see [Style](/refguide/style/).
+For details, see [Style](/refguide8/style/).
 
 ### 2.2 Render XHTML
 

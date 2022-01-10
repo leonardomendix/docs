@@ -157,7 +157,7 @@ The body must adhere to *URL encoding* principles. So, for instance, spaces, tab
 
 ## 10 Updating objects {#updating-objects}
 
-When a published resource has the [Updatable (write)](published-odata-resource#capabilities) capability, clients can update its attributes and associations by sending a `PATCH` request to the URL of the object (for example, `PATCH /odata/myservice/v1/Exployees(8444249301330581)`). 
+When a published resource has the [Updatable (write)](/refguide/published-odata-resource/#capabilities) capability, clients can update its attributes and associations by sending a `PATCH` request to the URL of the object (for example, `PATCH /odata/myservice/v1/Exployees(8444249301330581)`). 
 
 Specify new values for attributes in the body of the request. Here is an example:
 

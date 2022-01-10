@@ -14,7 +14,7 @@ Offline-first applications work regardless of the connection in order to provide
 It is important to understand that offline-first is an architectural concept and not an approach based on the network state of the device. Offline-first apps do not rely on a connection, but they can use connections (for example, you can call microflows, use a Google Maps widget, or use push notifications).
 {{% /alert %}}
 
-Mendix supports building offline-first applications for [native mobile](/howto/mobile/native-mobile/) and [hybrid mobile](/howto/mobile/hybrid-mobile/) apps. Both native and hybrid apps share the same core, and this gives them the same offline-first capabilities. Native mobile apps are always offline-first, but for hybrid mobile apps, it depends on the navigation profile that is configured. The data is stored on the device in a local database, and the files are stored on the file storage of the device.
+Mendix supports building offline-first applications for [native mobile](/refguide8/native-mobile/) and [hybrid mobile](/refguide8/hybrid-mobile/) apps. Both native and hybrid apps share the same core, and this gives them the same offline-first capabilities. Native mobile apps are always offline-first, but for hybrid mobile apps, it depends on the navigation profile that is configured. The data is stored on the device in a local database, and the files are stored on the file storage of the device.
 
 Mendix Studio Pro performs validations to make sure your app follows an offline-first approach and works even when there is no connection.
 
@@ -109,9 +109,9 @@ By default, Mendix automatically determines which objects need to be synchronize
 Depending on the use-case, more fine-grained synchronization controls might be required. Therefore, it is possible to change the download behaviour for an entity. You can choose between the following options:
 
 * **All Objects** — download all objects applying the regular security constraints
-* **By XPath** — only download the objects which match the [XPath Constraints](/refguide/xpath-constraints/) in addition to the regular security constraints. This means all previously synchronized objects that do not match the XPath constraint will be removed.
+* **By XPath** — only download the objects which match the [XPath Constraints](/refguide8/xpath-constraints/) in addition to the regular security constraints. This means all previously synchronized objects that do not match the XPath constraint will be removed.
 * **Nothing (clear data)** — do not download any objects automatically, but do clear the data stored in the database for this entity when performing a synchronization (this can be useful in cases where the objects should only be uploaded, for example a `Feedback` entity)
-* **Nothing (preserve data)** — do not download any objects automatically, and do not clear the data stored in the database for this entity when performing a synchronization  (this can be useful in cases where you want have full control over the synchronization and should be used in combination with the [Synchronize to device](/refguide/synchronize-to-device/) or [Synchronize](/refguide/synchronize/) activity with specific objects selected)
+* **Nothing (preserve data)** — do not download any objects automatically, and do not clear the data stored in the database for this entity when performing a synchronization  (this can be useful in cases where you want have full control over the synchronization and should be used in combination with the [Synchronize to device](/refguide8/synchronize-to-device/) or [Synchronize](/refguide8/synchronize/) activity with specific objects selected)
 
 If you have custom widgets or JavaScript actions which use an entity that cannot be detected by Studio Pro in your offline-first profile (because its only used in the code), you can use customizable synchronization to include such entities.
 
@@ -119,7 +119,7 @@ If you have custom widgets or JavaScript actions which use an entity that cannot
 
 ### 2.5 Limitations
 
-Running multiple synchronization processes at the same time is not supported, regardless the of the type (**full** or **selective**). For more information, see the [Limitations](/refguide/synchronize/#limitations) section of the *Synchronize Reference Guide*.
+Running multiple synchronization processes at the same time is not supported, regardless the of the type (**full** or **selective**). For more information, see the [Limitations](/refguide8/synchronize/#limitations) section of the *Synchronize Reference Guide*.
 
 ### 2.6 Error Handling {#error-handling}
 
@@ -179,7 +179,7 @@ To ensure the best user experience for your Mendix application, follow these bes
 * Synchronize large files or images using selective synchronization
 * Use an `isDeleted` Boolean attribute for delete functionality so that conflicts can be handled correctly on the server
 * Use before- and after-commit microflows to pre- or post-process data.
-* Use a [microflow call](/refguide/microflow-call/) in your nanoflows to perform additional server-side logic such as retrieving data from a REST service, or accessing and using complex logic such as Java actions.
+* Use a [microflow call](/refguide8/microflow-call/) in your nanoflows to perform additional server-side logic such as retrieving data from a REST service, or accessing and using complex logic such as Java actions.
 * Help your user remember to synchronize their data so it is processed as soon as possible: you can check for connectivity and automatically synchronize in the nanoflow that commits your object, or remind a user to synchronize while using a notification or before signing out to ensure no data is lost
 
 ## 4 Ensuring Your App Is Offline-First {#limitations}
@@ -188,7 +188,7 @@ Mendix helps developers in building rich offline-first apps. However, there are 
 
 ### 4.1 Microflows {#microflows}
 
-Microflows can be called from offline apps by using [microflow call](/refguide/microflow-call/) action in your nanoflows to perform logic on the server. However, it works a bit different from when used in online profiles, these differences are explained below:
+Microflows can be called from offline apps by using [microflow call](/refguide8/microflow-call/) action in your nanoflows to perform logic on the server. However, it works a bit different from when used in online profiles, these differences are explained below:
 
 #### 4.1.1 Microflow Arguments Type
 
@@ -202,12 +202,12 @@ UI-related actions will be ignored and will not have any effect. We encourage yo
 
 These actions are as the following:
 
-* [Show message](/refguide/show-message/)
-* [Show validation message](/refguide/validation-feedback/)
-* [Show home page](/refguide/show-home-page/)
-* [Show page](/refguide/show-page/)
-* [Close page](/refguide/close-page/)
-* [Download file](/refguide/download-file/)
+* [Show message](/refguide8/show-message/)
+* [Show validation message](/refguide8/validation-feedback/)
+* [Show home page](/refguide8/show-home-page/)
+* [Show page](/refguide8/show-page/)
+* [Close page](/refguide8/close-page/)
+* [Download file](/refguide8/download-file/)
 
 #### 4.1.3 Object Side-Effects
 
@@ -220,7 +220,7 @@ Changes to persistable objects made in a microflow will not be reflected on the 
 
 #### 4.1.5 Language Switching
 
-To be able to switch the language of a Mendix app, a device must be online and have access to the Mendix runtime. For more information on the runtime, see the [Runtime Reference Guide](/refguide/runtime/).
+To be able to switch the language of a Mendix app, a device must be online and have access to the Mendix runtime. For more information on the runtime, see the [Runtime Reference Guide](/refguide8/runtime/).
 
 ### 4.2 Offline Microflow Best Practices {#offline-mf-best-practices}
 
@@ -262,4 +262,4 @@ Excel and CSV export are not available in offline applications.
 
 ### 4.9 Hashed String Attributes {#hashed-strings}
 
-Attributes with the hashed string [attribute type](/refguide/attributes/#type) will not be synchronized.
+Attributes with the hashed string [attribute type](/refguide8/attributes/#type) will not be synchronized.

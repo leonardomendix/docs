@@ -134,7 +134,7 @@ Backup Details | Cloud Version | Description
 
 At the bottom of the screen, you can click **Delete** to delete this particular backup.
 
-![Backup Details](/attachments/developerportal/operate//backups/backup-details.png)
+![Backup Details](/attachments/developerportal/operate/backups/backup-details.png)
 
 ## 4 Known issues
 

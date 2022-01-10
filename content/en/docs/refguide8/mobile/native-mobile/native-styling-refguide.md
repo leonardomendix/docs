@@ -11,7 +11,7 @@ tags: ["Native", "Class", "Design", "Property", "Style", "Widget", "studio pro"]
 
 This reference guide will contextualize the style elements Mendix uses in native mobile apps, as well as explain the classes and style properties of Mendix’s widgets. To learn the basics of native styling, you can consult [How to Implement Native Mobile Styling](/howto8/mobile/native-styling/) and then follow [How to Style Your Mendix Native Mobile App](/howto8/mobile/how-to-use-native-styling/).
 
-Mendix apps use layouts to dictate how pages can look and function. For native mobile apps specifically, you can use a native layout to easily integrate navigation and settings optimized for native functionality. For more information on layouts, see [Layout](/refguide/layout/).
+Mendix apps use layouts to dictate how pages can look and function. For native mobile apps specifically, you can use a native layout to easily integrate navigation and settings optimized for native functionality. For more information on layouts, see [Layout](/refguide8/layout/).
 
 To keep widgets responsive, Mendix apps use Flexbox. Using Flexbox, a component can set the layout of its child components. This allows your app to retain a consistent layout across multiple form factors. For more information on layout, see React Native’s [Flexbox documentation](https://reactnative.dev/docs/flexbox).
 
@@ -82,11 +82,11 @@ Data widgets are essential to many Mendix apps. These widgets will allow your us
 
 ### 3.1 Data View Widget
 
-The data view widget shows the contents of one data object. For more information about this widget, see [Data View](/refguide/data-view/).This widget has no user interface, so it does not support any styling.
+The data view widget shows the contents of one data object. For more information about this widget, see [Data View](/refguide8/data-view/).This widget has no user interface, so it does not support any styling.
 
 ### 3.2 List View Widget {#list-view}
 
-The list view shows a list of objects arranged vertically or horizontally. For more information about this widget, see [List View](/refguide/list-view/). This is not the default list view, but how a list view widget could look in an app:
+The list view shows a list of objects arranged vertically or horizontally. For more information about this widget, see [List View](/refguide8/list-view/). This is not the default list view, but how a list view widget could look in an app:
 
 {{% image_container width="350" %}}![list view](/attachments/refguide8/mobile/native-mobile/native-styling-refguide/list-view.png){{% /image_container %}}
 
@@ -118,7 +118,7 @@ Common widgets are used in almost all app pages. Because of their ubiquity, lear
 
 ### 4.1 Text
 
-The text widget shows text which can optionally contain parameters. For more information on these widgets, see [Text Widgets](/refguide/text/). The widget’s style properties are as follows:
+The text widget shows text which can optionally contain parameters. For more information on these widgets, see [Text Widgets](/refguide8/text/). The widget’s style properties are as follows:
 
 ```xml
 <container>
@@ -135,7 +135,7 @@ The default class to style all texts is named `Text`.
 
 ### 4.2 Image {#image}
 
-The image widget can be used to show a predefined image on a page, layout, or snippet. For more information on these widgets, see [Image Widgets](/appstore/widgets/image/). The widget’s style properties are as follows:
+The image widget can be used to show a predefined image on a page, layout, or snippet. For more information on these widgets, see [Image Widgets](/refguide8/image/). The widget’s style properties are as follows:
 
 ```xml
 <container>
@@ -156,7 +156,7 @@ The default class to style all static image styles is named `Image`. Please note
 
 ### 4.3 Page Title 
 
-The page title widget shows the title of the page on which it is used. This can be the title defined on the page itself, or the override title defined when showing a page. For more information on this widget, consult [Page Title](/refguide/page-title/). The widget’s style properties are as follows:
+The page title widget shows the title of the page on which it is used. This can be the title defined on the page itself, or the override title defined when showing a page. For more information on this widget, consult [Page Title](/refguide8/page-title/). The widget’s style properties are as follows:
 
 ```xml
 <container>
@@ -215,7 +215,7 @@ The resulting DOM looks like this:
 
 ## 5 Container Widgets
 
-Container widgets are a set of tools that allow you to provide structure for your page’s content. There is also a specific widget called container widget detailed below. For more information on these widgets, see [Container Widgets](/refguide7/container-widgets/).
+Container widgets are a set of tools that allow you to provide structure for your page’s content. There is also a specific widget called container widget detailed below. For more information on these widgets, see [Container Widgets](/refguide8/container-widgets/).
 
 ### 5.1 Container 
 
@@ -298,7 +298,7 @@ The default class to style all scroll containers is named `ScrollContainer`.
 
 ## 6 Input Widgets
 
-Input widgets are typically used to show data to the user and allow them to edit data. For more information on these widgets, see [Input Widgets](/refguide/input-widgets/).
+Input widgets are typically used to show data to the user and allow them to edit data. For more information on these widgets, see [Input Widgets](/refguide8/input-widgets/).
 
 ### 6.1 Text Box {#text-box}
 
@@ -508,13 +508,13 @@ The default class to style all date picker inputs is named `DatePicker`.
 
 ### 6.6 Reference selector
 
-The reference selector is an input widget that can be used to display and edit associations. For more information on this widget, see [Reference Selector](/refguide/reference-selector/). This widget supports the same style properties and structure as the [drop-down](#drop-down) widget above.
+The reference selector is an input widget that can be used to display and edit associations. For more information on this widget, see [Reference Selector](/refguide8/reference-selector/). This widget supports the same style properties and structure as the [drop-down](#drop-down) widget above.
 
 The default class to style all reference selector inputs is named `ReferenceSelector`.
 
 ## 7 File Widgets
 
-File widgets help your user app manage images and other files. For more information on these widgets, see [File Widgets](/refguide7/file-widgets/).
+File widgets help your user app manage images and other files. For more information on these widgets, see [File Widgets](/refguide8/file-widgets/).
 
 ### 7.1 Image Viewer {#image-viewer}
 
@@ -524,7 +524,7 @@ The default class to style all image viewers is named  `ImageViewer`.
 
 ## 8 Button Widgets
 
-Button widgets help your user perform actions. For more information about these widgets, see [Button Widgets](/refguide/button-widgets/).
+Button widgets help your user perform actions. For more information about these widgets, see [Button Widgets](/refguide8/button-widgets/).
 
 ### 8.1 Action Button
 

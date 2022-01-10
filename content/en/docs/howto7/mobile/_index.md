@@ -12,7 +12,7 @@ The rapid evolution of standards like HTML and the wide adoption of frameworks t
 
 ## 2 Main Documents in This Category
 
-* [Include Push Notifications](/appstore/modules/push-notifications/)
+* [Include Push Notifications](/howto7/mobile/push-notifications/)
 * [Configure the Mendix Feedback Widget for iOS](/howto7/mobile/feedback-widget-ios/)
 * [Implement SSO on a Hybrid App with Mendix & SAML](/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/)
 * [Debug a Hybrid Mobile App](/howto7/mobile/debug-a-mobile-app/)

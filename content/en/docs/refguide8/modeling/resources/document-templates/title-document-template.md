@@ -25,7 +25,7 @@ This is the value you wish to display in the document.
 
 ### 2.2 Style
 
-For details, see [Style](/refguide/style/).
+For details, see [Style](/refguide8/style/).
 
 ## 3 Common Properties
 

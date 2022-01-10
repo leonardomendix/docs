@@ -6,7 +6,7 @@ tags: ["data hub", "data hub catalog", "data hub Landscape"]
 #This document is mapped to the landing page, update the link there if renaming or moving the doc file.
 ---
 
-These release notes cover changes made to the [Mendix Data Hub](/data-hub/).
+These release notes cover changes made to the [Mendix Data Hub](/releasenotes/data-hub/).
 
 ## 2021
 
@@ -111,7 +111,7 @@ These release notes cover changes made to the [Mendix Data Hub](/data-hub/).
 
 #### Data Hub Free Edition
 
-* The Data Hub Free edition is now available to all Mendix users! Publish your data sources in the Data Hub Catalog, curate them, and then consume them in another application. Learn more about it [here](/data-hub/#data-hub-licences).
+* The Data Hub Free edition is now available to all Mendix users! Publish your data sources in the Data Hub Catalog, curate them, and then consume them in another application. Learn more about it [here](/releasenotes/data-hub/#data-hub-licences).
 
 #### Fixes
 
@@ -220,7 +220,7 @@ These release notes cover changes made to the [Mendix Data Hub](/data-hub/).
 
 #### New Features
 
-* All [Data Hub APIs](/apidocs-mxsdk/apidocs/data-hub-apis/) are now available at https:/datahub-spec.s3.eu-central-1.amazonaws.com/index.html. The original Data Hub API is now split into 2 APIs for search and registration operations and include the following changes:
+* All [Data Hub APIs](/apidocs-mxsdk/apidocs/data-hub-apis/) are now available at https://datahub-spec.s3.eu-central-1.amazonaws.com/index.html. The original Data Hub API is now split into 2 APIs for search and registration operations and include the following changes:
   * [Search](/apidocs-mxsdk/apidocs/data-hub-apis/) – includes GET calls for getting details of data sources
   * [Register](/apidocs-mxsdk/apidocs/data-hub-apis/) – PUT calls are added to enable users to update or register applications and environments by specifying a UUID
 
@@ -247,7 +247,7 @@ These release notes cover changes made to the [Mendix Data Hub](/data-hub/).
 
 #### New Features
 
-The [Data Hub Transform API](https://datahub-spec.s3.eu-central-1.amazonaws.com/transform.html) is available for Mendix users deploying their apps to non-Mendix environments.  The Transform API extracts the information from the the app’s `dependencies.json` file to generate the request bodies that are required when using the [Data Hub API](/apidocs-mxsdk/apidocs/data-hub-apis/). For further information see [Data Hub Transform API](/apidocs-mxsdk/apidocs/data-hub-apis/#transform).
+The [Data Hub Transform API](https:/datahub-spec.s3.eu-central-1.amazonaws.com/transform.html) is available for Mendix users deploying their apps to non-Mendix environments.  The Transform API extracts the information from the the app’s `dependencies.json` file to generate the request bodies that are required when using the [Data Hub API](/apidocs-mxsdk/apidocs/data-hub-apis/). For further information see [Data Hub Transform API](/apidocs-mxsdk/apidocs/data-hub-apis/#transform).
 
 ### April 29th, 2021
 
@@ -414,4 +414,4 @@ Every organization has valuable data in different applications. With Mendix Data
 
 Want to know how it can help you? Check out the launch blog post: [Data Hub: The Low-Code Approach to Data Integration](http://www.mendix.com/blogs/data-hub-the-low-code-approach-to-data-integration).
 
-For even more information, please consult the [Data Hub Guide](/data-hub/).
+For even more information, please consult the [Data Hub Guide](/releasenotes/data-hub/).

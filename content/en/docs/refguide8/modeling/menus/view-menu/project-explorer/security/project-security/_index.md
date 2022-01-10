@@ -14,14 +14,14 @@ tags: ["studio pro", "security", "project security"]
 
 ## 1 Introduction
 
-In the **Project Security**, you can switch security on or off for the whole project. You can also configure security settings related to the project, such as user roles, administrator credentials, demo users, anonymous users, and password policy. To be able to configure, for example, [security per module](/refguide/module-security/) or [access rule for entities](/refguide/access-rules/), you need to switch the project security on first. 
+In the **Project Security**, you can switch security on or off for the whole project. You can also configure security settings related to the project, such as user roles, administrator credentials, demo users, anonymous users, and password policy. To be able to configure, for example, [security per module](/refguide8/module-security/) or [access rule for entities](/refguide8/access-rules/), you need to switch the project security on first. 
 
 To configure the project security, open **Project Explorer** > **Project** > **Security**, and the dialog box will open:
 
 ![](/attachments/refguide8/modeling/menus/view-menu/project-explorer/security/project-security/project-security-dialog.png)
 
 {{% alert type="info" %}}
-For more general information on security, see [Security](/data-hub/data-hub-catalog/security/).
+For more general information on security, see [Security](/refguide8/security/).
 {{% /alert %}}
 
 ## 2 Security Level {#security-level}
@@ -78,25 +78,25 @@ Additionally, at the **Production** security level, the status of entity access 
 
 ## 4 User Roles {#user-roles}
 
-A user role aggregates a number of access rights on data, pages, and microflows. An end-user of the application is assigned one or more user roles by an administrator, and gets all access rights that these user roles represent. For more information, see [User Roles](/refguide/user-roles/).
+A user role aggregates a number of access rights on data, pages, and microflows. An end-user of the application is assigned one or more user roles by an administrator, and gets all access rights that these user roles represent. For more information, see [User Roles](/refguide8/user-roles/).
 
 ## 5 Administrator {#administrator}
 
-In the **Administrator** tab of **Project Security**, you can change the default credentials and a user role for the Administrator user. For more information, see [Administrator](/refguide/administrator/). 
+In the **Administrator** tab of **Project Security**, you can change the default credentials and a user role for the Administrator user. For more information, see [Administrator](/refguide8/administrator/). 
 
 ## 6 Demo Users {#demo-users}
 
-Demo users are a demonstration of each [user role](/refguide/user-roles/) existing in your app. You can use demo users to test what your app looks like for each user role or to demonstrate your app to other people. For more information, see [Demo Users](/refguide/demo-users/). 
+Demo users are a demonstration of each [user role](/refguide8/user-roles/) existing in your app. You can use demo users to test what your app looks like for each user role or to demonstrate your app to other people. For more information, see [Demo Users](/refguide8/demo-users/). 
 
 ## 7 Anonymous Users {#anonymous-users}
 
-Anonymous users allow end-users access your application without having to sign in. You can restrict the data that anonymous users can access by assigning a specific user role to them. For more information, see [Anonymous Users](/refguide/anonymous-users/).
+Anonymous users allow end-users access your application without having to sign in. You can restrict the data that anonymous users can access by assigning a specific user role to them. For more information, see [Anonymous Users](/refguide8/anonymous-users/).
 
 ## 8 Password Policy {#password-policy}
 
-Specify the password requirements when users create their accounts and set passwords for them. For example, you can set the minimum length of the password, if it must contain digits or an upper case characters. For more information, see [Password Policy](/refguide/password-policy/). 
+Specify the password requirements when users create their accounts and set passwords for them. For example, you can set the minimum length of the password, if it must contain digits or an upper case characters. For more information, see [Password Policy](/refguide8/password-policy/). 
 
 ## 9 Read More
 
-* [Security](/data-hub/data-hub-catalog/security/)
-* [Module Security](/refguide/module-security/)
+* [Security](/refguide8/security/)
+* [Module Security](/refguide8/module-security/)

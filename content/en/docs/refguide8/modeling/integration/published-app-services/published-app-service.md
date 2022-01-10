@@ -10,7 +10,7 @@ tags: ["studio pro"]
 {{% /alert %}}
 
 {{% alert type="info" %}}
-App services are deprecated and were removed in Studio Pro 9. Use a [published web service](/refguide/published-web-services/) or a [published REST service](/refguide/published-rest-services/) instead.
+App services are deprecated and were removed in Studio Pro 9. Use a [published web service](/refguide8/published-web-services/) or a [published REST service](/refguide8/published-rest-services/) instead.
 {{% /alert %}}
 
 ## 1 General Tab
@@ -49,7 +49,7 @@ Can be used to describe what the app service is used for.
 
 ![](/attachments/refguide8/modeling/integration/published-app-services/published-app-service/16843915.png)
 
-Provide the actual actions of which the app service is composed. Each of these actions is coupled to a microflow. See [Actions](/refguide7/actions/).
+Provide the actual actions of which the app service is composed. Each of these actions is coupled to a microflow. See [Actions](/refguide8/actions/).
 
 ## 3 Settings
 

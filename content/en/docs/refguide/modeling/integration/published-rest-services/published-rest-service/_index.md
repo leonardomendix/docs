@@ -17,13 +17,13 @@ This document describes the published REST service configuration options shown w
 
 ### 2.1 Service Name {#service-name}
 
-Service name uniquely identifies the service in the app. It is also displayed in [OpenAPI (Swagger) documentation page](open-api).
+Service name uniquely identifies the service in the app. It is also displayed in [OpenAPI (Swagger) documentation page](/refguide/open-api/).
 
 When service is initially created, service name is used in the creation of the default location for the service. If the service name contains any spaces or special characters, they will be replaced with the `_` character in the service location.
 
 ### 2.2 Version
 
-Version is used to display version information in [OpenAPI (Swagger) documentation page](open-api). You can set any string in the version field, but it is recomended to follow [semantic versioning](https://semver.org/) scheme.
+Version is used to display version information in [OpenAPI (Swagger) documentation page](/refguide/open-api/). You can set any string in the version field, but it is recomended to follow [semantic versioning](https://semver.org/) scheme.
 
 By default, version is set to "1.0.0".
 
@@ -58,11 +58,11 @@ When your application is running, you can click the location to open the [intera
 
 ### 2.3 Public Documentation {#public-documentation}
 
-The public documentation is used in the service's [OpenAPI 2.0 (Swagger) Documentation](open-api). You can use [GitHub-flavored markdown](/refguide/gfm-syntax/) for rich text.
+The public documentation is used in the service's [OpenAPI 2.0 (Swagger) Documentation](/refguide/open-api/). You can use [GitHub-flavored markdown](/refguide/gfm-syntax/) for rich text.
 
 ### 2.5 Export swagger.json {#export-swagger-json}
 
-To save a service's [OpenAPI (Swagger) documentation](open-api) somewhere on your machine, simply right-click the service in the **App Explorer** and select **Export swagger.json** (or just click the **Export swagger.json** button, depending on your Studio Pro version). This is a machine-readable file in the [OpenAPI 2.0 file format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Most API tools support this format.
+To save a service's [OpenAPI (Swagger) documentation](/refguide/open-api/) somewhere on your machine, simply right-click the service in the **App Explorer** and select **Export swagger.json** (or just click the **Export swagger.json** button, depending on your Studio Pro version). This is a machine-readable file in the [OpenAPI 2.0 file format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Most API tools support this format.
 
 When the app is running, this file is available under */rest-doc/servicename/swagger.json*.
 

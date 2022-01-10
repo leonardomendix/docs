@@ -20,7 +20,7 @@ The **Validation message** widget displays an authentication failure message on 
 
  It is only displayed to an end-user when both of the following conditions are met:
 
-1.  The validation message selected in the **Validation message widget** property of a sign-in button. For more information on this property, see the [Validation Message Widget](/refguide/sign-in-button/#validation-message-widget) section in *Sign-In Button*. 
+1.  The validation message selected in the **Validation message widget** property of a sign-in button. For more information on this property, see the [Validation Message Widget](/refguide8/sign-in-button/#validation-message-widget) section in *Sign-In Button*. 
 2.  An authentication fails, that is the end-user entered invalid credentials.
 
 ## 2 Properties
@@ -45,7 +45,7 @@ Validation message properties consist of the following sections:
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Login ID Text Box](/refguide/login-id-text-box/)
-* [Password Text Box](/refguide/password-text-box/)
-* [Sign-In Button](/refguide/sign-in-button/)
+* [Page](/refguide8/page/)
+* [Login ID Text Box](/refguide8/login-id-text-box/)
+* [Password Text Box](/refguide8/password-text-box/)
+* [Sign-In Button](/refguide8/sign-in-button/)

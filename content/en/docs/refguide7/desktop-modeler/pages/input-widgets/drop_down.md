@@ -8,7 +8,7 @@ aliases:
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-A drop-down is an [input widget](/refguide/input-widgets/) that can be used to display and edit enumeration attributes. It should not be confused with a reference selector, which is used to select a object with which to fill an [association](/refguide/associations/).
+A drop-down is an [input widget](/refguide7/input-widgets/) that can be used to display and edit enumeration attributes. It should not be confused with a reference selector, which is used to select a object with which to fill an [association](/refguide7/associations/).
 
 {{% alert type="info" %}}
 
@@ -22,7 +22,7 @@ This drop-down widget allows the user to select their favorite color.
 
 ### Empty Option Caption
 
-This property represents the caption for the empty option in the drop-down shown to the user. This is a translatable text. For more details, see [Translatable Texts](/refguide/translatable-texts/).
+This property represents the caption for the empty option in the drop-down shown to the user. This is a translatable text. For more details, see [Translatable Texts](/refguide7/translatable-texts/).
 
 {{% alert type="info" %}}
 
@@ -80,5 +80,5 @@ The empty option caption is available from Mendix 7.2.0.
 
 ## Read More
 
-*   [Data View](/refguide/data-view/)
-*   [Attributes](/refguide/attributes/)
+*   [Data View](/refguide7/data-view/)
+*   [Attributes](/refguide7/attributes/)

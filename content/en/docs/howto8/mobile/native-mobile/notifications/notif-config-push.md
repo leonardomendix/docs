@@ -19,7 +19,7 @@ If you have completed [Add Module Dependencies](/howto8/mobile/notif-add-module-
 1. Log in as the Administrator user you [previously designated](/howto8/mobile/notif-implement-module/#config).
 1. Navigate to the **Administration** page.
 
-The first time you open this page it will present you with a wizard to set up the Firebase configuration. If you have not set up Firebase yet, see [Set Up the Google Firebase Cloud Messaging Server](/howto/mobile/setting-up-google-firebase-cloud-messaging-server/). The wizard will mention the following files:
+The first time you open this page it will present you with a wizard to set up the Firebase configuration. If you have not set up Firebase yet, see [Set Up the Google Firebase Cloud Messaging Server](/howto8/mobile/setting-up-google-firebase-cloud-messaging-server/). The wizard will mention the following files:
 
 | **File**    | **Source**   | **Usage**      |
 | -------- | -------- | ------- |

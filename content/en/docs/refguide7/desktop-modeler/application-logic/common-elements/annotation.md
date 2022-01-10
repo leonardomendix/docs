@@ -21,4 +21,4 @@ Currently you warn users of unpaid orders with a pop-up message in the client. L
 
 ### 2.1 Caption
 
-For details, see [Microflow Element Common Properties](/refguide/microflow-element-common-properties/).
+For details, see [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/).

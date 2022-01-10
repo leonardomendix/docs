@@ -187,7 +187,7 @@ Any clients that use IPv6 to connect to applications which have configured Acces
 
 #### Fix/Improvement
 
-* We implemented a new `upload` API which allows you to upload large (>300MB) app packages (.mda files) and still retrieve the package ID. More information is in [Deploy API – Version 2](/apidocs-mxsdk/apidocs/deploy-api-2). (Tickets 117609 and 117622)
+* We implemented a new `upload` API which allows you to upload large (>300MB) app packages (.mda files) and still retrieve the package ID. More information is in [Deploy API – Version 2](/apidocs-mxsdk/apidocs/deploy-api-2/). (Tickets 117609 and 117622)
 
 ### March 30th, 2021
 

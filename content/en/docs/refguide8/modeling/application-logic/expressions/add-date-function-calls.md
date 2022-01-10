@@ -14,7 +14,7 @@ tags: ["studio pro", "expressions", "add date function"]
 
 Add date function calls add a time period to a date and time and return the modified value. 
 
-The first parameter can be an attribute of a domain model entity of type **Date and time**, a variable of type **Date and time**, or a **Date and time** value created using a [Date Creation](/refguide/date-creation/) function.
+The first parameter can be an attribute of a domain model entity of type **Date and time**, a variable of type **Date and time**, or a **Date and time** value created using a [Date Creation](/refguide8/date-creation/) function.
 
 The second parameter specifies the time period to be added - you can use a negative time period to subtract it from the specified date.
 

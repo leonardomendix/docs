@@ -93,5 +93,5 @@ _Default value:_ Thumbnail
 
 ## Related articles
 
-*   [Data view](/refguide/data-view/)
-*   [Entities](/refguide/entities/)
+*   [Data view](/refguide7/data-view/)
+*   [Entities](/refguide7/entities/)

@@ -15,7 +15,7 @@ With the log-message action you can create messages that appear in the log of yo
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -42,7 +42,7 @@ The log node name is a microflow expression that defines the source of the log m
 
 {{% alert type="success" %}}
 
-It is advised to use a [constant](/refguide/constants/) for the log node name. This prevents typing errors and makes it easier to change the log node name afterwards.
+It is advised to use a [constant](/refguide7/constants/) for the log node name. This prevents typing errors and makes it easier to change the log node name afterwards.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ Template defines the text of the message. The template can contain parameters th
 
 ### 2.4 Parameters
 
-For each parameter in the template you define a microflow expression of which the value will be inserted at the position of the parameter. Parameters need to be entered using [expressions](/refguide/expressions/) resulting in a string.
+For each parameter in the template you define a microflow expression of which the value will be inserted at the position of the parameter. Parameters need to be entered using [expressions](/refguide7/expressions/) resulting in a string.
 
 {{% alert type="success" %}}
 

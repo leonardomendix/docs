@@ -49,13 +49,13 @@ For more information on deploying your app and versioning it, see  the [Versioni
 
 ### 2.3 Links and User Profile Menu {#links}
 
-You can find links to the [Mendix Studio](/releasenotes/studio/) (if enabled), [Developer Portal](/developerportal/), and [Marketplace](/appstore/) in the top-right corner of Studio Pro.
+You can find links to the  (if enabled), , and  in the top-right corner of Studio Pro.
 
 Your profile picture is displayed next to them if you are signed in. When you click the profile picture, the drop-down menu is displayed with your full name and email, as well as links to your user profile, My Apps screen, and signing out option.  
 
 ## 3 App Structure
 
-An app consists of individual files (*documents*) and settings that are grouped in folders and [modules](/appstore/modules/). The complete structure of your app can be viewed in the [App Explorer](/refguide/project-explorer/). 
+An app consists of individual files (*documents*) and settings that are grouped in folders and [modules](/refguide/modules/). The complete structure of your app can be viewed in the [App Explorer](/refguide/project-explorer/). 
 
 ## 4 Working Area
 

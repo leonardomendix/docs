@@ -31,7 +31,7 @@ You can only define validation rules for persistable entities as they are design
 
 ## 2 Properties
 
-You can add and edit validation rules for an entity from the [entity dialog box](/refguide/entities/#dialog-box).
+You can add and edit validation rules for an entity from the [entity dialog box](/refguide8/entities/#dialog-box).
 
 An example of the validation rule properties is represented in the image below:
 
@@ -64,7 +64,7 @@ The rule defines which condition an attribute should satisfy.
 | Unique | The value of this attribute must be different from the values of this attribute in all other objects of the same entity. |
 | Equals | The attribute value needs to be equal to a specified value or equal to the value of another attribute of the same object. |
 | Range | The attribute value needs to be greater than or equal to, less than or equal to, or between two values. The values are either specified fixed values or values of other attributes of the same object. |
-| Regular expression | The attribute needs to match a regular expression stored in a [regular expression](/refguide/regular-expressions/) resource. |
+| Regular expression | The attribute needs to match a regular expression stored in a [regular expression](/refguide8/regular-expressions/) resource. |
 | Maximum length | The attribute may have no more than the specified number of characters. |
 
 {{% alert type="info" %}}

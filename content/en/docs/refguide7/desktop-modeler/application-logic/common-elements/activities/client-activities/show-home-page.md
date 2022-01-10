@@ -15,6 +15,6 @@ The Show home page action navigates to the home page for the current user. It go
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all activities share (for example, caption).
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all activities share (for example, caption).
 
 {{% /alert %}}

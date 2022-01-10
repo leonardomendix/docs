@@ -105,4 +105,4 @@ Congratulations! You have configured fields as read-only and required for the fo
 
 You can now preview your app and test your page. For more information on how to preview your page, see [Previewing & Publishing Your App](/studio/publishing-app/).
 
-You can also add new functionality to your app, for example, enable employees attach images for their business trip reports. For more information, see .
+You can also add new functionality to your app, for example, enable employees attach images for their business trip reports. For more information, see [How to Enable End-Users to Attach Images](/studio-how-to/pages-how-to-attach-images/).

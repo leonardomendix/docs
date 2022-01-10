@@ -14,4 +14,4 @@ Cells are part of a table. They can contain other widgets.
 
 ### Style
 
-See [Style](/refguide/style/).
+See [Style](/refguide7/style/).

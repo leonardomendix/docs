@@ -63,11 +63,11 @@ To create a line chart with the **Any Chart** widget, follow these steps:
     [ { "x": [ 1, 2 ], "y": [ 1, 2 ] } ]
     ```
 
-    ![Any Chart Configuration](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-configuration.png)
+    ![Any Chart Configuration](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-configuration.png)
 
 7. Run the app to preview the chart.
 
-    ![Any Chart result](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/charts-any-sample.png)
+    ![Any Chart result](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/charts-any-sample.png)
 
 ## 5 Exporting Data
 
@@ -75,16 +75,16 @@ To generate JSON data for the Charts widget, follow these steps:
 
 1. Add a **Data** string (unlimited length) attribute to the Chart (context) entity.
 2. In the widget, set the **Source attribute** field in the **Data** tab.
-    ![Select data attribute](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-configuration-attribute.png)
+    ![Select data attribute](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-configuration-attribute.png)
 3. Create a **JSON Structure** and use the **Sample data** as the snippet.
-    ![Create export mapping](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-json-structure-line-chart-data.png)
+    ![Create export mapping](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-json-structure-line-chart-data.png)
 4. Create an **Export Mapping** with the **JSON Structure**.
-    ![Select data structure](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-line-chart-export-mapping-select.png)
-    ![Map objects](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-line-chart-export-mapping.png)
+    ![Select data structure](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-line-chart-export-mapping-select.png)
+    ![Map objects](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-line-chart-export-mapping.png)
 5. Create a microflow that retrieves the data.
 6. Use the **Export Mapping** to generate a **String Variable**. Store the value in the object attribute that is selected as **Source attribute**.
-    ![Export microflow](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-export-microflow.png)
-    ![Export microflow](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/any-chart-export-microflow-structure.png)
+    ![Export microflow](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-export-microflow.png)
+    ![Export microflow](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/any-chart-export-microflow-structure.png)
 
 If need be, the layout can also be generated in the same way as the data. In most cases, a **Static** layout will suffice.
 
@@ -106,7 +106,7 @@ To fine tune a Charts widget configuration, follow these steps:
 
 3. Click the **Toggle Editor** button on the top right of the chart to fine-tune your settings.
 
-    ![chart editor](/attachments/howto8/front-end//charts-tutorials/charts-any-usage/charts-toggle-editor-open.png)
+    ![chart editor](/attachments/howto8/front-end/charts-tutorials/charts-any-usage/charts-toggle-editor-open.png)
 
 4. In the editor, select either **Data** or **Layout** from the drop-down menu.
 

@@ -29,7 +29,7 @@ In order to create the Charts widget with dynamic series, a specific data struct
 1. Configure your domain model to contain an entity **Value** with attributes **xValue** and **yValue**.
 1. Add another entity, **Series**, with attributes **name**, **color**, and **fillColor**.
 1. Add an association **Value_Series** between the two entities.
-    ![Values entity](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-model.png)
+    ![Values entity](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-model.png)
 
 ### 3.2 Entering Data for the Chart
 
@@ -41,7 +41,7 @@ Now you need to enter data for the chart.
 
 3. Select both **Series** and **Value** as the entities for which to generate pages.
 
-    ![Generate Series and Value overview and data entry pages](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-generate-pages.png)
+    ![Generate Series and Value overview and data entry pages](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-generate-pages.png)
 
 4. Connect the **Series_Overview** page to the navigation.
 
@@ -49,7 +49,7 @@ Now you need to enter data for the chart.
 
 6. Enter some sample data.
 
-    ![Enter data for chart](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-data-entry.png)
+    ![Enter data for chart](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-data-entry.png)
 
 ## 4 Configuring the Charts Widget
 
@@ -71,7 +71,7 @@ To configure a Charts widget with a dynamic series, follow these steps:
 
 1. In the tab **Chart properties**, add a new **Series** property.
 
-    ![Chart Series](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-series.png)
+    ![Chart Series](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-series.png)
 
 1. In the tab **Data source**, select **Dynamic**.
    
@@ -79,7 +79,7 @@ To configure a Charts widget with a dynamic series, follow these steps:
 
 1. Set the **Data source** as **Database** (note that REST endpoints are not supported for dynamic series).
 
-    ![select Dynamic](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-select.png)
+    ![select Dynamic](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-select.png)
 
 1. In the tab **Data Points**, set:
 
@@ -87,7 +87,7 @@ To configure a Charts widget with a dynamic series, follow these steps:
 
     * **Y-axis data attribute** to *Value/yValue*
 
-    ![select Data Points](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-data-points.png)
+    ![select Data Points](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-data-points.png)
 
 
 1. In the tab **Dynamic series**, set: 
@@ -100,7 +100,7 @@ To configure a Charts widget with a dynamic series, follow these steps:
 
     * **Area color attribute** to *Series/fillcolor*
 
-    ![select Data Points](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-attributes.png)
+    ![select Data Points](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-attributes.png)
 
 1. Add the charts page to user navigation.
 
@@ -112,7 +112,7 @@ To view the chart, follow these steps:
 
 1. Open the page containing the dynamic series chart.
 
-    ![Dynamic Series Chart](/attachments/howto/front-end//charts-tutorials/charts-dynamic-series/charts-dynamic-series-chart.png)
+    ![Dynamic Series Chart](/attachments/howto/front-end/charts-tutorials/charts-dynamic-series/charts-dynamic-series-chart.png)
 
 ## 6 Read More
 

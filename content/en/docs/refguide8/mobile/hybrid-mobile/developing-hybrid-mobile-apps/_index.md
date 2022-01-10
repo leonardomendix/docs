@@ -21,7 +21,7 @@ However, when you use native widgets on your hybrid pages, some of these widgets
 
 ![](/attachments/refguide8/mobile/hybrid-mobile/developing-hybrid-mobile-apps/View_Hybrid_Mobile_App_Popup.png)
 
-For more information about how to download the Mendix Mobile app, see [Getting the Mendix Mobile App](/refguide7/getting-the-mendix-app/).
+For more information about how to download the Mendix Mobile app, see [Getting the Mendix Mobile App](/refguide8/getting-the-mendix-app/).
 
 {{% alert type="warning" %}}
 
@@ -31,8 +31,8 @@ Your mobile device has to be on the same network as your development machine for
 
 ## 3 Read More
 
-* [Mobile](/howto/mobile/)
-* [Getting the Mendix Mobile App](/refguide7/getting-the-mendix-app/)
-* [Customizing Hybrid Mobile Apps](/refguide7/customizing-hybrid-mobile-apps/)
-* [Packaging Hybrid Mobile Apps](/refguide7/packaging-hybrid-mobile-apps/)
+* [Mobile](/refguide8/mobile/)
+* [Getting the Mendix Mobile App](/refguide8/getting-the-mendix-app/)
+* [Customizing Hybrid Mobile Apps](/refguide8/customizing-hybrid-mobile-apps/)
+* [Packaging Hybrid Mobile Apps](/refguide8/packaging-hybrid-mobile-apps/)
 

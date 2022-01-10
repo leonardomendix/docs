@@ -11,7 +11,7 @@ tags: ["studio", "consistency errors", "checks", "errors", "navigation"]
 
 ## 1 Introduction 
 
-In this document, we explain how to solve the most common consistency errors that can occur when configuring navigation in Mendix Studio. For more information on navigation, see .
+In this document, we explain how to solve the most common consistency errors that can occur when configuring navigation in Mendix Studio. For more information on navigation, see [Navigation Document](/studio/navigation/).
 
 An example of a consistency error is when you set a page that has a data view as a menu item. 
 
@@ -72,7 +72,7 @@ You have the **Customer Details** page with a data view that expects an object *
 
 However, the home page is the first page to be opened in your app by default, and the **Customer Details** page cannot function as a home page, as it needs to get data first. 
 
-In this example, the best way to solve the error is to set another page as the home page that does not have a data view on it. For more information on navigation and properties of the menu items, see . 
+In this example, the best way to solve the error is to set another page as the home page that does not have a data view on it. For more information on navigation and properties of the menu items, see [Navigation Document](/studio/navigation/). 
 
 However, you can also solve this error by creating a microflow that will create a new *Customer* object and pass it to the page, do the following:
 
@@ -111,8 +111,8 @@ Now the new object of type *Customer* will be created and passed to the home pag
 
 ## 3 Read More
 
-* 
-* 
-* 
-* 
-* 
+* [Navigation Document](/studio/navigation/)
+* [Page Consistency Errors](/studio/consistency-errors-pages/)
+* [Microflow Consistency Errors](/studio/consistency-errors-microflows/)
+* [Microflows](/studio/microflows/)
+* [Checks](/studio/checks/)

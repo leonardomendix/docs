@@ -27,15 +27,15 @@ The Screen reader caption property allows information to be read by screen reade
 
 The **Screen reader caption** property can be set on the following widgets:
 
-*   [Text Box](/refguide/text-box/)
-*   [Text Area](/refguide/text-area/)
-*   [Drop-down](/refguide/drop-down/)
-*   [Check Box](/refguide/check-box/)
-*   [Radio Buttons](/refguide/radio-buttons/)
-*   [Date Picker](/refguide/date-picker/)
-*   [File Manager](/refguide/file-manager/)
-*   [Reference Selector](/refguide/reference-selector/)
-*   [Input Reference Set Selector](/refguide/input-reference-set-selector/)
+*   [Text Box](/refguide8/text-box/)
+*   [Text Area](/refguide8/text-area/)
+*   [Drop-down](/refguide8/drop-down/)
+*   [Check Box](/refguide8/check-box/)
+*   [Radio Buttons](/refguide8/radio-buttons/)
+*   [Date Picker](/refguide8/date-picker/)
+*   [File Manager](/refguide8/file-manager/)
+*   [Reference Selector](/refguide8/reference-selector/)
+*   [Input Reference Set Selector](/refguide8/input-reference-set-selector/)
 
 ## 3 Common Section{#common-properties}
 
@@ -75,7 +75,7 @@ The style property allows you to specify additional CSS styling. If a class is a
 
 ### 3.5 Dynamic Classes{#dynamicclasses}
 
-The dynamic classes property allows you to specify one or more cascading stylesheet (CSS) class like the class property, but based on an [expression](/refguide/expressions/). This allows you to dynamically construct classes based on data from an enclosing data container. The dynamic classes constructed in the expression are appended to the classes defined in the [`Class`](#class) property.
+The dynamic classes property allows you to specify one or more cascading stylesheet (CSS) class like the class property, but based on an [expression](/refguide8/expressions/). This allows you to dynamically construct classes based on data from an enclosing data container. The dynamic classes constructed in the expression are appended to the classes defined in the [`Class`](#class) property.
 
 ![](/attachments/refguide8/modeling/pages/common-widget-properties/dynamic-classes.png)
 
@@ -101,12 +101,12 @@ This property identifies an attribute which is used in an input widget.
 
 With the following widgets, the Attribute (Path) specifies the attribute which is being changed (or displayed) by the widget:
 
-*   [Text Box](/refguide/text-box/)
-*   [Text Area](/refguide/text-area/)
-*   [Drop-down](/refguide/drop-down/)
-*   [Check Box](/refguide/check-box/)
-*   [Radio Buttons](/refguide/radio-buttons/)
-*   [Date Picker](/refguide/date-picker/)
+*   [Text Box](/refguide8/text-box/)
+*   [Text Area](/refguide8/text-area/)
+*   [Drop-down](/refguide8/drop-down/)
+*   [Check Box](/refguide8/check-box/)
+*   [Radio Buttons](/refguide8/radio-buttons/)
+*   [Date Picker](/refguide8/date-picker/)
 
 The attribute can be one of the following:
 
@@ -132,9 +132,9 @@ In Mendix 8.8 and above, you can edit attributes of any enclosing data container
 
 For widgets which manipulate associations, the Attribute (Path) specifies an attribute which is from an entity which is reachable from the current data container using an association. This applies to the following input widgets:
 
-*   [Reference Selector](/refguide/reference-selector/)
-*   [Reference Set Selector](/refguide/reference-set-selector/)
-*   [Input Reference Set Selector](/refguide/input-reference-set-selector/)
+*   [Reference Selector](/refguide8/reference-selector/)
+*   [Reference Set Selector](/refguide8/reference-set-selector/)
+*   [Input Reference Set Selector](/refguide8/input-reference-set-selector/)
 
 For these widgets, only an **Attribute path** can be selected. In other words, the selected attribute must be from an entity associated with the data container entity by following an association, of the type which matches the widget, through the domain model.
 
@@ -142,7 +142,7 @@ For these widgets, only an **Attribute path** can be selected. In other words, t
 For these widgets you are selecting an association to another object. The attribute should therefore indicate uniquely to the end-user which object is being selected.
 {{% /alert %}}
 
-The attribute can be of one of the following [data types](/refguide/data-types/):
+The attribute can be of one of the following [data types](/refguide8/data-types/):
 
 * Autonumber
 * Date and Time
@@ -179,12 +179,12 @@ When selected, this enables the widget when a particular attribute has a certain
 
 #### 5.2.2 Based on Expression
 
-When selected, this enables the widget when a provided [expression](/refguide/expressions/) evaluates to true. The object of the containing data container is available inside an expression as the `$currentObject` variable.
+When selected, this enables the widget when a provided [expression](/refguide8/expressions/) evaluates to true. The object of the containing data container is available inside an expression as the `$currentObject` variable.
 
 The expression provided is evaluated in the browser and, currently, does not support all the functions that are available in microflows. The autocomplete function will only list those functions which are supported.
 
 {{% alert type="info" %}}
-As the expression is evaluated in the browser, we advise against using "secret" values (like access keys) in it. In particular, we disallow usages of [constants](/refguide/constants/).
+As the expression is evaluated in the browser, we advise against using "secret" values (like access keys) in it. In particular, we disallow usages of [constants](/refguide8/constants/).
 {{% /alert %}}
 
 ### 5.3 Read-Only Style
@@ -251,7 +251,7 @@ There are three options, described below:
 This mode only applies to attributes of type Decimal.
 {{% /alert %}}
 
-If set to _Fixed_, the decimal part always will be displayed with the number of places specified in the [Decimal precision](#decimal-precision) property. The value will be rounded using the method defined in the [rounding](/refguide/project-settings/#rounding) section of *Project Settings*.
+If set to _Fixed_, the decimal part always will be displayed with the number of places specified in the [Decimal precision](#decimal-precision) property. The value will be rounded using the method defined in the [rounding](/refguide8/project-settings/#rounding) section of *Project Settings*.
 
 If set to _Auto_, the whole decimal part of the attribute value will be displayed. No decimal part will be be displayed if the attribute value is an integer.
 
@@ -277,7 +277,7 @@ This only applies to attributes of type Decimal and is available only when the [
 
 The precision of a value describes the number of decimal places that are used to express that value. This property indicates the number of decimal places (the number of digits following the point).
 
-The way that the number is rounded when displayed is defined in the [rounding](/refguide/project-settings/#rounding) section of *Project Settings*.
+The way that the number is rounded when displayed is defined in the [rounding](/refguide8/project-settings/#rounding) section of *Project Settings*.
 
 Default: *2*
 
@@ -310,7 +310,7 @@ There are two settings in the validation section which are described below:
 
 This property indicates whether this widget value should be validated and, if so, how. These are the possible options:
 
-* No validation – the data has to be the correct [data type](/refguide/data-types/) for the widget, but otherwise there is no further validation
+* No validation – the data has to be the correct [data type](/refguide8/data-types/) for the widget, but otherwise there is no further validation
 * A [predefined validation](#predefined-validation) – see description below
 * A [custom validation](#custom-validation) – see description below
 
@@ -326,7 +326,7 @@ The possible values of a predefined validation are the following:
 
 #### 8.1.2 Custom Validation{#custom-validation}
 
-Custom validation is an expression that follows the [Microflow expression](/refguide/expressions/) syntax.
+Custom validation is an expression that follows the [Microflow expression](/refguide8/expressions/) syntax.
 
 There are a number of variables you can use in your expression:
 * `$currentObject` – the current object
@@ -342,7 +342,7 @@ Default: *(none)*
 
 ### 8.2 Message
 
-This property determines the message that is shown to the user if widget validation is enabled and has failed. This is a translatable text (for more information, see [Language Menu](/refguide/translatable-texts/)).
+This property determines the message that is shown to the user if widget validation is enabled and has failed. This is a translatable text (for more information, see [Language Menu](/refguide8/translatable-texts/)).
 
 For example, if an address field is required, the validation message for the text box of the address could be something like, `The address is required.`
 
@@ -372,9 +372,9 @@ When selected, this shows the widget while a particular attribute has a certain 
 
 ##### 9.1.1.2 Based on Expression{#visibility-based-on-expression}
 
-When selected, this shows the widget while a provided [expression](/refguide/expressions/) evaluates to true. The object of the containing data container is available inside an expression as a `$currentObject` variable. In Mendix 8.1 and above, the expression can access objects of all the data containers enclosing that data container widget. These objects are available under the name of the widget they originate from (for example, `$dataView1`).
+When selected, this shows the widget while a provided [expression](/refguide8/expressions/) evaluates to true. The object of the containing data container is available inside an expression as a `$currentObject` variable. In Mendix 8.1 and above, the expression can access objects of all the data containers enclosing that data container widget. These objects are available under the name of the widget they originate from (for example, `$dataView1`).
 
-Note that the expression is evaluated in the browser, and hence, we advise against using "secret" values (like access keys) in it. In particular, we disallow usages of [constants](/refguide/constants/). Also, client-side expressions currently do not support all the functions that are available in the microflows. Please refer to an autocomplete list to know what functions are supported in your version.
+Note that the expression is evaluated in the browser, and hence, we advise against using "secret" values (like access keys) in it. In particular, we disallow usages of [constants](/refguide8/constants/). Also, client-side expressions currently do not support all the functions that are available in the microflows. Please refer to an autocomplete list to know what functions are supported in your version.
 
 #### 9.1.2 Module Roles
 

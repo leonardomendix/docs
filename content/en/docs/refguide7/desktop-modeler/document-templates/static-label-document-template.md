@@ -40,4 +40,4 @@ This is the value that will be displayed in the document.
 
 ### Style
 
-See [Style](/refguide/style/)
+See [Style](/refguide7/style/)

@@ -27,7 +27,7 @@ Every page is *based on* a layout and a template:
 
 *Look and structure* of a page is defined by the following elements:
 
-* **Widgets** – single user-interface elements. For more information, see the [Widgets](#widgets) section and .
+* **Widgets** – single user-interface elements. For more information, see the [Widgets](#widgets) section and [Widgets](/studio/page-editor-widgets/).
 * **Building blocks** – pre-configured set of *widgets* that speeds up the process of building your page and styling it. For more information, see the [Building Blocks](#building-blocks) section. 
 
 The diagram below explains function of layouts, templates, and widgets:
@@ -73,7 +73,7 @@ To create a new page in Studio, do the following:
 
     ![](/attachments/studio/page-editor/new-page.png)
     
-    For more information on what modules are, see .
+    For more information on what modules are, see [Domain Model](/studio/domain-models/).
 
 3.  In the **Create new page** dialog box, fill out the title of the page, select a layout and a page template.  
 
@@ -107,7 +107,7 @@ To copy and paste a page, do the following:
 
 3. Open the Studio app where you want to paste the page and press <kbd>Ctrl</kbd> +<kbd>V</kbd> or <kbd>Cmd</kbd> +<kbd>V</kbd>. 
 
-Your page is pasted. For more information on copy/paste function in Studio, see the  section in *General Info*.
+Your page is pasted. For more information on copy/paste function in Studio, see the [Copy/Paste Pages, Microflows, and Enumerations](/studio/general/#copy-paste-documents) section in *General Info*.
 
 ### 2.5 Deleting a Page {#deleting-page}
 
@@ -155,7 +155,7 @@ To delete an element from a page, do one of the following:
 
 ### 2.9 Creating an Entity from a Page {#create-entity}
 
-You can create an entity from a page when configuring a data source for a widget that requires it. For example, you have a  and you would like to set the *Customer* entity as its data source, but you do not have the **Customer** entity in you app yet. You can create it from the **Select Entity** dialog box without having to switch to the . Do the following:
+You can create an entity from a page when configuring a data source for a widget that requires it. For example, you have a [data view](/studio/page-editor-data-view-list-view/) and you would like to set the *Customer* entity as its data source, but you do not have the **Customer** entity in you app yet. You can create it from the **Select Entity** dialog box without having to switch to the [domain model](/studio/domain-models/). Do the following:
 
 1. Select data view properties > **Entity** property.
 2. In the **Select Entity** dialog box, click the plus icon:
@@ -168,9 +168,9 @@ The new entity has been created in your app.
 
 ### 2.10 Creating an Association from a Page {#create-association}
 
-You can create an  from a page when configuring a data source for a widget that requires it. 
+You can create an [association](/studio/domain-models-association-properties/) from a page when configuring a data source for a widget that requires it. 
 
-For example, you have a  with the **Customers** entity. *Inside* the data view, you add a  to show *reports* associated only with the customer who is currently shown in the data view. This means that you will show reports through an association. You can create the association from the page without having to open the domain model. Do the following:
+For example, you have a [data view](/studio/page-editor-data-view-list-view/) with the **Customers** entity. *Inside* the data view, you add a [list view](/studio/page-editor-data-view-list-view/) to show *reports* associated only with the customer who is currently shown in the data view. This means that you will show reports through an association. You can create the association from the page without having to open the domain model. Do the following:
 
 1. Open the list view properties and click the **Entity** property.
 
@@ -182,11 +182,11 @@ For example, you have a  with the **Customers** entity. *Inside* the data view, 
 
 4. Click **Select**.
 
-The association with the correct  has been added to your app. 
+The association with the correct [multiplicity](/studio/domain-models-association-properties/#multiplicity) has been added to your app. 
 
 ## 3 The Show Option
 
-Located in the top-left corner of a page, the **Show** option highlights items that have  configured for them. Click the eye icon to enable this option. For more information on conditional visibility and how it works, see .  
+Located in the top-left corner of a page, the **Show** option highlights items that have [conditional visibility](/studio/page-editor-widgets-visibility-section/) configured for them. Click the eye icon to enable this option. For more information on conditional visibility and how it works, see [Conditional Visibility Section](/studio/page-editor-widgets-visibility-section/).  
 
 ## 4 Breadcrumb {#breadcrumb}
 
@@ -213,9 +213,9 @@ This tab consists of the following:
 
 Widgets are single user-interface elements that can be configured. 
 
-You can  most of the non-custom widgets when adding them on a page. For more information on how to configure widgets, see . 
+You can [quickly configure](/studio/page-editor-widgets/#quick-config) most of the non-custom widgets when adding them on a page. For more information on how to configure widgets, see [Widgets](/studio/page-editor-widgets/). 
 
-You can update widgets in the . 
+You can update widgets in the [Widget Overview](/studio/settings-widget-overview/). 
 
 ### 5.2 Building Blocks {#building-blocks}
 
@@ -266,4 +266,4 @@ For example, if you click **Layout**—which is the layout that you choose when 
 
 ## 7 Main Documents in This Category
 
-*  – describes different type of widgets
+* [Widgets](/studio/page-editor-widgets/) – describes different type of widgets

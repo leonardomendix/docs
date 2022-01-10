@@ -45,5 +45,5 @@ ORDER BY LastName DESC
 ```
 
 {{% alert type="info" %}}
-For default ordering behavior of NULL values, see the [NULL Values Order Behavior](/refguide/ordering-behavior/#null-ordering-behavior) section of *Order By Behavior*.
+For default ordering behavior of NULL values, see the [NULL Values Order Behavior](/refguide8/ordering-behavior/#null-ordering-behavior) section of *Order By Behavior*.
 {{% /alert %}}

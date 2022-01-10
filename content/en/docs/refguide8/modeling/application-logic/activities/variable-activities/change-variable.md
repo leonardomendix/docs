@@ -39,7 +39,7 @@ The variable which you want to change the value of.
 
 ### 3.2 Value
 
-The new value for the variable. The value is entered using an [expression](/refguide/expressions/). The type of the expression must be the same as the type of the selected variable.
+The new value for the variable. The value is entered using an [expression](/refguide8/expressions/). The type of the expression must be the same as the type of the selected variable.
 
 ## 4 Common Section {#common}
 
@@ -47,4 +47,4 @@ The new value for the variable. The value is entered using an [expression](/refg
 
 ## 5 Read More
 
-* [Activities](/refguide/activities/)
+* [Activities](/refguide8/activities/)

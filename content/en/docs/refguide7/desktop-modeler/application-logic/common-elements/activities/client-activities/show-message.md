@@ -17,7 +17,7 @@ With the show-message action you can show a blocking or non-blocking message to 
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -41,7 +41,7 @@ Template defines the text of the message. The template can contain parameters th
 
 ### 2.3 Parameters
 
-For each parameter in the template you define a microflow expression of which the value will be inserted at the position of the parameter. Parameters need to be entered using [expressions](/refguide/expressions/) resulting in a string.
+For each parameter in the template you define a microflow expression of which the value will be inserted at the position of the parameter. Parameters need to be entered using [expressions](/refguide7/expressions/) resulting in a string.
 
 {{% alert type="success" %}}
 

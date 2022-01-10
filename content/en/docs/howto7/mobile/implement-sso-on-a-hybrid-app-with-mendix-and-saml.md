@@ -56,7 +56,7 @@ When authenticating against an identity provider (IdP), the following steps are 
 7. The client now requests the page requested initially.
 8. Now that a security context exists, Mendix responds with the requested resource (page).<a name="diagram"></a>
 
-![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/saml-2.0-from-wikipedia.png)
+![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/saml-2.0-from-wikipedia.png)
 
 Diagram source: [SAML 2.0 Web Browser SSO Profile](https://en.wikipedia.org/wiki/SAML_2.0#SP_POST_Request;_IdP_POST_Response)
 
@@ -84,7 +84,7 @@ Mendix has created a standard approach to support SSO via the SAML module in a M
 
 The JavaScript code below will address the two problems described above.
 
-To address the [first problem](#firstproblem), when the mobile app is starting to load, the JavaScript below will be executed. It opens a new window using [Cordova’s InAppBrowser](https:/cordova.apache.org/docs/en/latest/reference/cordova-plugin-inappbrowser/), and all the redirects for the authentication are done there. When all the redirects are completed and the requested resource is sent from the Mendix Server back to the app (which is step 8 in the [SAML 2.0 Web Browser SSO Profile](#diagram) diagram), the authentication process is complete. The new window can then be closed, and the loading of the localhost *index.html* page can proceed.
+To address the [first problem](#firstproblem), when the mobile app is starting to load, the JavaScript below will be executed. It opens a new window using [Cordova’s InAppBrowser](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-inappbrowser/), and all the redirects for the authentication are done there. When all the redirects are completed and the requested resource is sent from the Mendix Server back to the app (which is step 8 in the [SAML 2.0 Web Browser SSO Profile](#diagram) diagram), the authentication process is complete. The new window can then be closed, and the loading of the localhost *index.html* page can proceed.
 
 ```javascript
 MxApp.onConfigReady(function(config) {
@@ -144,22 +144,22 @@ To use the hybrid app package, follow these steps:
 1.  Open your app in the Developer Portal and under **DEPLOY** in the left sidebar menu, click **Mobile App**.
 2.  Click **Publish for Mobile App Stores**:
 
-    ![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/download-hybrid-app-package-step1.png)
+    ![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/download-hybrid-app-package-step1.png)
     
 3.  Select **Do it yourself** and then click **Download Customizable Package**:
 
-    ![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/download-hybrid-app-package-step2.png)
+    ![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/download-hybrid-app-package-step2.png)
 
     This package you just downloaded is a customizable hybrid app package for your specific Mendix app. You can make changes to it, build a new PhoneGap Build package, and then upload it to PhoneGap Build to create the binaries (for example, APK for Android and IPA for iOS). To better understand the structure of what you just downloaded, see the **Folder Structure** section in the [Mendix PhoneGap Build App Template documentation](https://github.com/mendix/hybrid-app-template#folder-structure).
 
 4.  Unzip the hybrid app package.
 5.  Edit the *Entry.js* file (under `src\www\scripts`). The file should look like this:
 
-    ![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/entry.js.png)
+    ![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/entry.js.png)
 
 6.  Add the JavaScript code provided in [5.1 The JavaScript](#javascript) under `MxApp.onConfigReady(function(config) {`. Your *Entry.js* file should now look like this:
     ​     
-    ![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/entry.js-with-fix.png)
+    ![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/entry.js-with-fix.png)
 
 7.  Create the PhoneGap Build package by following the instructions in the **Through Uploading to PhoneGap Build** section of the [Mendix PhoneGap Build App Template documentation](https://github.com/mendix/hybrid-app-template#through-uploading-to-phonegap-build). Be sure to read the **Prerequisites** and **Build on PhoneGap** sections of this documentation as well. This is an overview of the steps:<br>
     a. Install the latest stable version of [Node.js](https://nodejs.org/en/download/). <br>
@@ -167,7 +167,7 @@ To use the hybrid app package, follow these steps:
     c. In the hybrid app root folder execute **npm run package**.<br>
 8.  Create an APK or iOS package from the PhoneGap Build package. You can upload the new PhoneGap Build package (in the **dist** folder) to PhoneGap to build the APK or iOS binary.
 
-    ![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/build.phonegap.com.png)
+    ![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/build.phonegap.com.png)
     
 ### 5.3 The SAML Module 
 
@@ -177,7 +177,7 @@ Not all versions of the SAML module will work correctly when implementing SSO fo
 
 The last thing to do is to check the **Enable mobile authentication token** box in the **Provisioning** tab when configuring an identity provider in the Mendix SAML module. This will make sure the SAML module provides the correct login token to the JavaScript part.
 
-![](/attachments/howto7/mobile//implement-sso-on-a-hybrid-app-with-mendix-and-saml/saml-module.png)
+![](/attachments/howto7/mobile/implement-sso-on-a-hybrid-app-with-mendix-and-saml/saml-module.png)
 
 ## 6 Read More
 

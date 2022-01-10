@@ -357,7 +357,7 @@ Explaining the Promise API code:
 
 * As this is a part of a promise already, it does not need to call a `resolve` function or return a promise itself — this makes error handling on promises easier, as a single error function can be used to catch errors at all three steps: fetch, parse JSON, and accessing the data (for a more detailed explanation, see the [MDN promise documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise))
 
-* For more information on building a JavaScript action rest consume function, see [Build JavaScript Actions: Part 2 (Advanced)](/howto/extensibility/write-javascript-github/).
+* For more information on building a JavaScript action rest consume function, see [Build JavaScript Actions: Part 2 (Advanced)](/howto8/extensibility/write-javascript-github/).
 
 #### 2.3.3 Understanding Common Promise Functions
 
@@ -416,7 +416,7 @@ JavaScript Actions can be used in a nanoflow with a JavaScript action call activ
 
 Use **Category** to group actions, and **Icon** to give the exposed nanoflow action easy recognition inside the nanoflow:
 
-![exposed nanoflow with info](/attachments/howto8/extensibility//best-practices-javascript-actions/narrow-expose.png)
+![exposed nanoflow with info](/attachments/howto8/extensibility/best-practices-javascript-actions/narrow-expose.png)
 
 ### 3.3 Publishing JavaScript Actions
 
@@ -460,7 +460,7 @@ Initially, JavaScript actions' source code is not loaded. Their source code will
 
 After the file is loaded, breakpoints can be set in the code by clicking the inline number (**A**, in the screenshot below). Alternatively, select **Pause on caught exceptions**  could be used to find issues (**B**). As a last resort, you could alter the source code by adding the line `debugger;` (**C**). This statement will start the debugging tools the first time the action is executed, and will apply a breakpoint:
 
-{{% image_container width="500" %}}![debugging](/attachments/howto8/extensibility//best-practices-javascript-actions/debugging.png){{% /image_container %}}
+{{% image_container width="500" %}}![debugging](/attachments/howto8/extensibility/best-practices-javascript-actions/debugging.png){{% /image_container %}}
 
 ## 6 Understanding Bad Practices {#badpractice}
 

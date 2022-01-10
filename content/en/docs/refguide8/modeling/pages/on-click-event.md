@@ -79,7 +79,7 @@ No action is taken. This option is useful for setting up a page without defining
 
 The **Show a page** event opens the specified page. Select the page which opens using the options below:
 
-* **Page** – a [page](/refguide/page/) that should open.
+* **Page** – a [page](/refguide8/page/) that should open.
 
 * **Page title** – the page you open can be given a unique title, depending on where you open it from. This allows you to re-use the same page for different purposes. For example, by setting the title to **New Customer** from one button and **Edit Customer** from another, you can use the same page for editing new and existing customers.
 
@@ -104,7 +104,7 @@ The following settings are specific for this event:
 
 #### 3.3.1 Microflow {#microflow}
 
-The [microflow](/refguide/microflow/) that should be executed.
+The [microflow](/refguide8/microflow/) that should be executed.
 
 #### 3.3.2 Microflow Settings
 
@@ -198,7 +198,7 @@ For microflows that are used within a data widget, setting **Abort on Validation
 
 The **Call a nanoflow** event executes the specified nanoflow. 
 
-Set the **Nanoflow** property to specify a [nanoflow](/refguide/nanoflow/) that should be executed.
+Set the **Nanoflow** property to specify a [nanoflow](/refguide8/nanoflow/) that should be executed.
 
 ### 3.5 Open Link {#open-link}
 
@@ -231,14 +231,14 @@ When you Specify  **Email**, **Call**, or **Text** options, the corresponding de
 The **Create object** event creates a new object. The following properties are specific for this event:
 
 * **Entity (path)** – specifies which entity to create. It is also possible to choose an association (if available) from the context object. If an entity is configured, a new instance of the entity will be created. If an entity through association from the context object is configured, a new instance of the entity will be created and an object associated with the context will be created.
-* **On {event} page** – specifies which [page](/refguide/page/) should be shown to allow the end-user to enter values for the new created object. This page must accept a context parameter object (for example, a data view) with the same entity or a sub-type of the created entity. **{event}** specifies which event is being used to trigger this action (**click**, for example).
+* **On {event} page** – specifies which [page](/refguide8/page/) should be shown to allow the end-user to enter values for the new created object. This page must accept a context parameter object (for example, a data view) with the same entity or a sub-type of the created entity. **{event}** specifies which event is being used to trigger this action (**click**, for example).
 
 ### 3.7 Save Changes {#save-changes}
 
 The **Save changes** event commits all changes made on the page. The following properties are specific for this event:
 
 * **Close page** – specifies whether the current page should be closed.
-* **Auto-synchronize** –  specifies whether synchronization should happen when the save button is clicked for a Mendix application running in an offline profile. When an object is saved in a Mendix application running in an offline profile it is stored in a local database until it can be synchronized with the server (for more information on the capabilities of offline apps, see [Offline First](/refguide/offline-first/). In practice, this means that uploading a new object to the server requires two distinct actions: saving the object and [syncing it](/refguide/offline-first/#synchronization).
+* **Auto-synchronize** –  specifies whether synchronization should happen when the save button is clicked for a Mendix application running in an offline profile. When an object is saved in a Mendix application running in an offline profile it is stored in a local database until it can be synchronized with the server (for more information on the capabilities of offline apps, see [Offline First](/refguide8/offline-first/). In practice, this means that uploading a new object to the server requires two distinct actions: saving the object and [syncing it](/refguide8/offline-first/#synchronization).
 
 ### 3.8 Cancel Changes {#cancel-changes}
 
@@ -258,7 +258,7 @@ Set the **Close page** property to indicate whether the current page should be c
 
 ### 3.11 Synchronize {#synchronize}
 
-The **Synchronize** event [synchronizes](/refguide/offline-first/#synchronization) the data stored locally on your device with the server database.
+The **Synchronize** event [synchronizes](/refguide8/offline-first/#synchronization) the data stored locally on your device with the server database.
 
 ### 3.12 Sign Out {#sign-out}
 
@@ -266,5 +266,5 @@ The **Sign out** event signs the currently signed-in user out. When no user is s
 
 ## 4 Read More
 
-* [Pages](/refguide/pages/)
-* [Page](/refguide/page/)
+* [Pages](/refguide8/pages/)
+* [Page](/refguide8/page/)

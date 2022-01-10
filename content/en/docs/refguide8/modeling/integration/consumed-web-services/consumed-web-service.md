@@ -12,7 +12,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-This document describes the properties of an imported web service. For a general overview of imported web services, see [Consumed Web Services](/refguide/consumed-web-services/) overview documentation.
+This document describes the properties of an imported web service. For a general overview of imported web services, see [Consumed Web Services](/refguide8/consumed-web-services/) overview documentation.
 
 ## 2 WSDL Source
 
@@ -35,7 +35,7 @@ This part specifies the services to be found in the WSDL.
 * **Name** – the name of the service.
 * **Port** – the selected port.
 * **Location** – where the service is located.
-* **Location constant** – can be used to add additional locations for a service in the case of, for example, when the URL of the SOAP service changes when moving from a development to a production environment. See also [Constants](/refguide/constants/).
+* **Location constant** – can be used to add additional locations for a service in the case of, for example, when the URL of the SOAP service changes when moving from a development to a production environment. See also [Constants](/refguide8/constants/).
 
 If there is a multiple-port service defined in the WSDL, a pop-up dialog box will enable you to select which of the ports to use.
 
@@ -55,4 +55,4 @@ Message optimization will only be applied when you use one or more export mappin
 
 ## 6 Calling consumed web services
 
-For details on how to call a consumed web service, see [Call Web Service](/refguide/call-web-service-action/).
+For details on how to call a consumed web service, see [Call Web Service](/refguide8/call-web-service-action/).

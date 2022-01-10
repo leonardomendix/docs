@@ -40,13 +40,13 @@ To set up AppDynamics, follow these steps:
 
 1.  Navigate to your AppDynamics controller, where you should see the following screen:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/home.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/home.png)
     
 2. Select **Java**.
 3. This will open up the configuration screen for your AppDynamics application. 
 4. Download the Agent Installer and extract it to any directory (but remember the path, as this will be used later for integrating the Java Agent with your Mendix application):
 
-   ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/download-installer.png)
+   ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/download-installer.png)
    
 
 ## 3.2 Setting Up Your Mendix Deployment
@@ -72,13 +72,13 @@ To the `javaopts` list in your *m2ee.yaml* file, add "-javaagent:<path-to-javaag
 1. Open your Mendix application, and then select **Settings** in the **Project Explorer**:
 2. Open a configuration:
 
-     ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/19398903.png)
+     ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/19398903.png)
 
 3. In the **Extra JVM parameters** field on the **Server** tab, add `-javaagent:<path-to-javaagent>javaagent.jar` and `-Dappagent.install.dir=<path-to-javaagent>` WITHOUT the `javaagent.jar`:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/edit-configuration-appagent-jar.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/edit-configuration-appagent-jar.png)
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/edit-configuration-d-appagent.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/edit-configuration-d-appagent.png)
 
 4. As the last step of setting up your Mendix application, set the following extra configuration values in the `AppServerAgent/ver4.x/conf/controller-info.xml` file (where `x` is the version of AppDynamics you downloaded):
 
@@ -96,15 +96,15 @@ To configure these business transactions, follow these steps:
 
 1.  From the **Applications** page, select your application:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/select-applications.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/select-applications.png)
 
 2.  Open the **Configuration** page (1) and click **Instrumentation** (2):
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/configuration-instrumentation.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/configuration-instrumentation.png)
 
 3.  On the **Instrumentation** page, navigate to the **Transaction Detection** tab (1), and add a new **Custom Match Rule** (2):
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/transaction-detection-add.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/transaction-detection-add.png)
 
 ### 4.1 Mendix Actions
 
@@ -112,19 +112,19 @@ To monitor your actions as business transactions, follow these steps:
 
 1. From the **Add Rule** page, select **Java** for the **Agent Type** of the custom match rule and **POJO** as the **Entry Point Type**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/add-rule-java-pojo.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/add-rule-java-pojo.png)
 
 2. Fill in the **Summary** tab with **POJO** as the **Entry Point Type**, then enter *ExecutionAction* for the **Name**, click the **Enabled** check box, and set **Scope** to **Default Scope**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/add-rule-summary-execution-action.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/add-rule-summary-execution-action.png)
 
 3. Fill in the **Rule Configuration** tab with the information presented in this screenshot (the yellow highlighted field should be **com.mendix.core.actionmanagement.CoreAction**):
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/add-rule-configuration-execution-action.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/add-rule-configuration-execution-action.png)
 
 4. After saving, the Mendix actions will appear under **Business Transactions**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/execution-action-business-transactions.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/execution-action-business-transactions.png)
 
 ### 4.2 Request Handlers
 
@@ -132,37 +132,37 @@ To set up monitoring on the request handlers, follow these steps:
 
 1. From the **Add Rule** page, select **Java** for the **Agent Type** of the custom match rule and **POJO** as the **Entry Point Type**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/add-rule-java-pojo.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/add-rule-java-pojo.png)
 
 2. Fill in the **Summary** tab with **POJO** as **Entry Point Type**, then enter *RequestHandler* for the **Name**, click the **Enabled** check box, and set **Scope** to **Default Scope**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/add-rule-request-handler.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/add-rule-request-handler.png)
 
 3. Fill in the **Rule Configuration** tab with the information presented in this screenshot (the yellow highlighted field should be **com.mendix.externalinterface.connector.RequestHandler**):
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/add-rule-configuration-request-handler.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/add-rule-configuration-request-handler.png)
 
 4. After saving, the requests will appear as **Business Transactions**:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/request-handler-business-transactions.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/request-handler-business-transactions.png)
 
 ## 5 Web Services
 
 AppDynamics can automatically detect web service calls. This feature is enabled by default and can be found in the **Service Endpoints** menu item:
 
-![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/service-endpoints.png)
+![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/service-endpoints.png)
 
 ## 6 Database
 
 AppDynamics automatically detects database calls. These can be viewed by navigating to the **Database Calls** page:
 
-![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/19398926.png)
+![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/19398926.png)
 
 ## 7 Application Topology
 
 Once you have performed all of the steps above for your Mendix application, its topology should become visible by navigating to the **Application Dashboard** page. Here you can see an overview of your application and all of its integrations with external systems.
 
-![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-appdynamics/19398927.png)
+![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-appdynamics/19398927.png)
 
 ## 8 Further Documentation
 
@@ -170,12 +170,12 @@ For more information on AppDynamics, see the AppDynamics documentation here: [ht
 
 ## 9 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [Clear Warning Messages](/howto/monitoring-troubleshooting/clear-warning-messages/)
-* [Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [Set Log Levels](/howto/monitoring-troubleshooting/log-levels/)
-* [Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
-* [Solve Load & Import Errors](/howto/monitoring-troubleshooting/solving-load-and-import-errors/)
-* [Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
+* [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Clear Warning Messages](/howto8/monitoring-troubleshooting/clear-warning-messages/)
+* [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Debug Java Actions Remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [Set Log Levels](/howto8/monitoring-troubleshooting/log-levels/)
+* [Debug Microflows](/howto8/monitoring-troubleshooting/debug-microflows/)
+* [Debug Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)
+* [Solve Load & Import Errors](/howto8/monitoring-troubleshooting/solving-load-and-import-errors/)
+* [Debug Microflows Remotely](/howto8/monitoring-troubleshooting/debug-microflows-remotely/)

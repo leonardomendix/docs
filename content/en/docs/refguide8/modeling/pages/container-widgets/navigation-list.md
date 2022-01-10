@@ -60,11 +60,11 @@ A row in a navigation list is a navigation list item. You can set a separate **O
 
 #### 3.1.2 General Section
 
-In the **General** section, you can set a specific on click event for each navigation list item. An on click event defines what action is performed when a user clicks a row. For more information on on click events, see [On Click Event & Events Section](/refguide/on-click-event/).
+In the **General** section, you can set a specific on click event for each navigation list item. An on click event defines what action is performed when a user clicks a row. For more information on on click events, see [On Click Event & Events Section](/refguide8/on-click-event/).
 
 {{% alert type="info" %}}
 
-Microflows set as an on click event for a navigation list item have no **Execution**, **Confirmation**, or **Advanced** microflow settings. For more information on calling a microflow, see [On Click Event & Events Section](/refguide/on-click-event/#call-microflow). 
+Microflows set as an on click event for a navigation list item have no **Execution**, **Confirmation**, or **Advanced** microflow settings. For more information on calling a microflow, see [On Click Event & Events Section](/refguide8/on-click-event/#call-microflow). 
 
 {{% /alert %}}
 
@@ -74,6 +74,6 @@ Microflows set as an on click event for a navigation list item have no **Executi
 
 ## 4 Read More
 
-* [Page](/refguide/page/)
-* [Container Widgets](/refguide7/container-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [Container Widgets](/refguide8/container-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

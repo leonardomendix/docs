@@ -31,15 +31,15 @@ A template grid showing employees with their profile picture.
 
 ### Control bar
 
-See [Control Bar](/refguide/control-bar/).
+See [Control Bar](/refguide7/control-bar/).
 
 ### Search bar (for data source type 'Database' and 'XPath')
 
-See [Search Bar](/refguide/search-bar/).
+See [Search Bar](/refguide7/search-bar/).
 
 ### Sort bar (for data source type 'Database' and 'XPath')
 
-See [Sort Bar](/refguide/sort-bar/).
+See [Sort Bar](/refguide7/sort-bar/).
 
 ## General properties
 
@@ -49,7 +49,7 @@ This property indicates whether the control bar will be visible in the end user 
 
 {{% alert type="warning" %}}
 
-Even if the control bar is invisible there can still be a default button that is triggered by (double) clicking a row. See the property 'Default button trigger' and [grid buttons](/refguide/control-bar/) for more information.
+Even if the control bar is invisible there can still be a default button that is triggered by (double) clicking a row. See the property 'Default button trigger' and [grid buttons](/refguide7/control-bar/) for more information.
 
 {{% /alert %}}
 
@@ -116,7 +116,7 @@ _Default value:_ 0
 
 ## Data source properties
 
-The data source determines which objects will be shown in the template grid. For general information about data sources, see [Data Sources](/refguide/data-sources/).
+The data source determines which objects will be shown in the template grid. For general information about data sources, see [Data Sources](/refguide7/data-sources/).
 
 ### Type
 
@@ -126,10 +126,10 @@ The template grid supports the following types of data sources: Database Source,
 
 See the corresponding data source for its properties:
 
-*   [Database source](/refguide/database-source/)
-*   [XPath source](/refguide/xpath-source/)
-*   [Microflow source](/refguide/microflow-source/)
-*   [Association source](/refguide/association-source/)
+*   [Database source](/refguide7/database-source/)
+*   [XPath source](/refguide7/xpath-source/)
+*   [Microflow source](/refguide7/microflow-source/)
+*   [Association source](/refguide7/association-source/)
 
 ## Visibility properties
 

@@ -41,7 +41,7 @@ For a deep-dive look into styling with Calypso, check out this video:
 
 2.  Open Calypso:
 
-	![calypso](/attachments/howto8/front-end//customize-styling/calypso/calypso.png)
+	![calypso](/attachments/howto8/front-end/customize-styling/calypso/calypso.png)
 
 3. In the **Hostname** drop-down menu, select the host name of your Mendix app's device (or put its IP address in manually by clicking **Other** and typing in the IP address). 
 	
@@ -59,11 +59,11 @@ For a deep-dive look into styling with Calypso, check out this video:
 
 	Most users will only need to select the **Watching** > **theme/styles** option. However, when you are building custom error pages or are using JavaScript on your pages, you may wish to select the other two folders as well.
 
-	![files to watch](/attachments/howto8/front-end//customize-styling/calypso/calypso-watching.png)
+	![files to watch](/attachments/howto8/front-end/customize-styling/calypso/calypso-watching.png)
 
 9.  Click the sun in the top-right corner to toggle between dark mode and regular mode:
 
-	![dark mode](/attachments/howto8/front-end//customize-styling/calypso/dark-mode.png)
+	![dark mode](/attachments/howto8/front-end/customize-styling/calypso/dark-mode.png)
 
 10. Click **Run Locally** in Mendix Studio Pro to use Calypso.
 
@@ -71,11 +71,11 @@ For a deep-dive look into styling with Calypso, check out this video:
 
     Browser address:
 
-    ![browser address](/attachments/howto8/front-end//customize-styling/calypso/browser-address.png)
+    ![browser address](/attachments/howto8/front-end/customize-styling/calypso/browser-address.png)
 
     Calypso's **Console**:
 
-    ![console](/attachments/howto8/front-end//customize-styling/calypso/console.png)
+    ![console](/attachments/howto8/front-end/customize-styling/calypso/console.png)
 
 ## 4 Testing Calypso
 
@@ -83,23 +83,23 @@ With your Mendix app and Calypso running, complete the steps below to see how Ca
 
 1.  Add a button widget to your app's **Home_Responsive** page: 
 
-	![drop a button](/attachments/howto8/front-end//customize-styling/calypso/drop-a-button.png)
+	![drop a button](/attachments/howto8/front-end/customize-styling/calypso/drop-a-button.png)
 	
 2.  Run your app again by clicking **Run Locally** to see your new button in your browser:
 	
-	![blue text button](/attachments/howto8/front-end//customize-styling/calypso/blue-button.png)
+	![blue text button](/attachments/howto8/front-end/customize-styling/calypso/blue-button.png)
 
 2. Click **Project** > **Show Project Directory in Explorer**.
 3. Open `theme\styles\web\sass\app\_custom-variables.scss` .
 4. Change `$brand-primary: #0595DB;` to `$brand-primary: brown`, then save your changes.
 5.  Look at your app in your browser again. The button's text has switched from blue to brown.
 
-	![brown text button](/attachments/howto8/front-end//customize-styling/calypso/brown-button.png)
+	![brown text button](/attachments/howto8/front-end/customize-styling/calypso/brown-button.png)
 
 Good job! You've installed Calypso and used it to customize your styling quickly and easily.
 
 ## 5 Read More
 
-* [Get Started with Atlas UI](/howto7/front-end/get-started-with-atlasui/)
-* [Migrate Existing Apps to Atlas UI](/howto7/front-end/migrate-existing-projects-to-atlasui/)
+* [Get Started with Atlas UI](/howto8/front-end/get-started-with-atlasui/)
+* [Migrate Existing Apps to Atlas UI](/howto8/front-end/migrate-existing-projects-to-atlasui/)
 * [How to Set Up Gulp & Sass](/howto8/front-end/sass-eight/)

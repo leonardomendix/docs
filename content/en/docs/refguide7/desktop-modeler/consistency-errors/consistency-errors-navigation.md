@@ -85,5 +85,5 @@ Now the new object of type *Customer* will be created and passed to the home pag
 ## 3 Read More
 
 * [Navigation Profile](/refguide7/navigation-profile/)
-* [Microflows](/refguide/microflows/)
-* [Microflow Properties](/refguide/microflow/)
+* [Microflows](/refguide7/microflows/)
+* [Microflow Properties](/refguide7/microflow/)

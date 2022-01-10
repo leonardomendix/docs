@@ -44,36 +44,36 @@ Consider the following query:
 `//Sales.Customer[Name='Jansen']`
 
 The constraint is clearly visible between brackets and restricts the objects retrieved to those for which the attribute 'Name' equals 'Jansen'. Objects with any other name than Jansen are excluded from the list.
-The number of possible constraints on a single query is unlimited. For more information on how to add and manipulate these constraints, see [XPath Constraints](/refguide/xpath-constraints/).
+The number of possible constraints on a single query is unlimited. For more information on how to add and manipulate these constraints, see [XPath Constraints](/refguide7/xpath-constraints/).
 
 Element D of a query is optional and specifies an attribute of the retrieved entity. This option is rarely used in the modeler itself as all data is stored in objects, making it cumbersome and needlessly complicated to deal with a list of single attribute. However, various Java actions have use of such lists. Also, this functionality can be used in conjunction with Part A to create aggregates of certain variables easily.
 
-Element A of a query is optional and specifies an aggregation. Element A can be one of the following functions: [avg](/refguide/xpath-avg/), [count](/refguide/xpath-count/), [max](/refguide/xpath-max/), [min](/refguide/xpath-min/) and [sum](/refguide/xpath-sum/). With the exception of 'count', each of these functions require that a particular attribute is specified in element D.
+Element A of a query is optional and specifies an aggregation. Element A can be one of the following functions: [avg](/refguide7/xpath-avg/), [count](/refguide7/xpath-count/), [max](/refguide7/xpath-max/), [min](/refguide7/xpath-min/) and [sum](/refguide7/xpath-sum/). With the exception of 'count', each of these functions require that a particular attribute is specified in element D.
 
 The exception to these basic guidelines is the ID query. See [XPath id](/refguide7/xpath-id/) for more information.
 
 ## 3 Tokens
 
-For details, see [XPath Tokens](/refguide/xpath-tokens/).
+For details, see [XPath Tokens](/refguide7/xpath-tokens/).
 
 ## 4 Operators
 
-For details, see [XPath Operators](/refguide/xpath-operators/).
+For details, see [XPath Operators](/refguide7/xpath-operators/).
 
 ## 5 Functions
 
 The following XPath functions are available:
 
-* [XPath functions](/refguide/xpath-query-functions/):
-	* [avg](/refguide/xpath-avg/)
-	* [count](/refguide/xpath-count/)
-	* [max](/refguide/xpath-max/)
-	* [min](/refguide/xpath-min/)
-	* [sum](/refguide/xpath-sum/)
-* [Constraint functions](/refguide/xpath-constraint-functions/):
-	* [contains](/refguide/xpath-contains/)
-	* [starts-with](/refguide/xpath-starts-with/)
-	* [ends-with](/refguide/xpath-ends-with/)
-	* [not](/refguide/xpath-not/)
-	* [true](/refguide/xpath-true/)
-	* [false](/refguide/xpath-false/)
+* [XPath functions](/refguide7/xpath-query-functions/):
+	* [avg](/refguide7/xpath-avg/)
+	* [count](/refguide7/xpath-count/)
+	* [max](/refguide7/xpath-max/)
+	* [min](/refguide7/xpath-min/)
+	* [sum](/refguide7/xpath-sum/)
+* [Constraint functions](/refguide7/xpath-constraint-functions/):
+	* [contains](/refguide7/xpath-contains/)
+	* [starts-with](/refguide7/xpath-starts-with/)
+	* [ends-with](/refguide7/xpath-ends-with/)
+	* [not](/refguide7/xpath-not/)
+	* [true](/refguide7/xpath-true/)
+	* [false](/refguide7/xpath-false/)

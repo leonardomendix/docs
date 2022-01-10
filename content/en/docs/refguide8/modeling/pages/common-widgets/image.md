@@ -23,7 +23,7 @@ For example, you can configure an image clicking which a page with customer deta
 
 {{% alert type="info" %}}
 
-If you want to dynamically show different images based on data, you need to add [image viewer](/refguide/image-viewer/) on your page.
+If you want to dynamically show different images based on data, you need to add [image viewer](/refguide8/image-viewer/) on your page.
 
 {{% /alert %}}
 
@@ -38,7 +38,7 @@ Image properties consist of the following sections:
 
 * [Common](#common)
 * [Design Properties](#design-properties)
-* [Events](/refguide/events/)
+* [Events](/refguide8/events/)
 * [General](#general)
 * [Visibility](#visibility)
 
@@ -52,13 +52,13 @@ Image properties consist of the following sections:
 
 ### 2.3 Events Section {#events}
 
-For information on the Events section and its properties, see [On Click Event & Events Section](/refguide/on-click-event/). 
+For information on the Events section and its properties, see [On Click Event & Events Section](/refguide8/on-click-event/). 
 
 ### 2.4 General Section {#general}
 
 #### 2.4.1 Image
 
-The file name that this widget shows. For more information on when to use images and supported formats, see [Images](/refguide/images/).
+The file name that this widget shows. For more information on when to use images and supported formats, see [Images](/refguide8/images/).
 
 #### 2.4.2 Width Unit
 
@@ -110,7 +110,7 @@ Default: *Yes*
 
 ## 3 Converting to an Image Viewer
 
-You can convert an image to an image viewer that allows you to display dynamic data. For more information on image viewer and its properties, see [Image Viewer](/refguide/image-viewer/). 
+You can convert an image to an image viewer that allows you to display dynamic data. For more information on image viewer and its properties, see [Image Viewer](/refguide8/image-viewer/). 
 
 To convert an image widget into an image viewer, do the following:
 
@@ -121,8 +121,8 @@ The image widget is converted to the image viewer and you can configure it.
 
 ## 4 Read More
 
-* [Page](/refguide/page/)
-* [Common Widgets](/refguide7/common-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [Common Widgets](/refguide8/common-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)
 
 

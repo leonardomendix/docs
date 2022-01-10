@@ -41,7 +41,7 @@ Tick the boxes next to the stories that are related to your commit. We recommend
 
 ![Version Control Menu](/attachments/refguide8/modeling/menus/version-control-menu/commit-dialog/commit-dialog-model-changes.png)
 
-If there are changes in the model this tab shows a summary of those changes. See [Changes Pane](/refguide/changes-pane/) for a description of how changes are reported in Studio Pro.
+If there are changes in the model this tab shows a summary of those changes. See [Changes Pane](/refguide8/changes-pane/) for a description of how changes are reported in Studio Pro.
 
 ### 4.3 Changes on Disk
 

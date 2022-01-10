@@ -27,7 +27,7 @@ The **Synchronize** activity can be used to synchronize your data between your d
 
 This mode synchronizes the entire local database. The server database is updated with the changes from the local database. The local database is updated with the latest data from the server, including the file contents.
 
-The behavior of this mode can be configured through [**Synchronization configuration**](/refguide/offline-first/#customizable-synchronization).
+The behavior of this mode can be configured through [**Synchronization configuration**](/refguide8/offline-first/#customizable-synchronization).
 
 ### 1.2 Synchronize Selected Object(s)
 
@@ -85,5 +85,5 @@ Such an error can be handled in the nanoflow from which the synchronization atte
 
 ## 6 Read More
 
-* [Activities](/refguide/activities/)
-* [Offline-first](/refguide/offline-first/)
+* [Activities](/refguide8/activities/)
+* [Offline-first](/refguide8/offline-first/)

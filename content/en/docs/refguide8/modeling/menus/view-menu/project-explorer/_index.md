@@ -19,10 +19,10 @@ The **Project Explorer** shows the complete structure of your project including 
 
 The **Project Explorer** consists of the following:
 
-* **Project** folder – contains settings and documents that apply to your project as a whole (for more information, see [Projects](/refguide/project/))
-* **Modules**  – contain settings, a domain model, and *documents* that apply to this module (for more information, see [Modules](/appstore/modules/)) 
+* **Project** folder – contains settings and documents that apply to your project as a whole (for more information, see [Projects](/refguide8/project/))
+* **Modules**  – contain settings, a domain model, and *documents* that apply to this module (for more information, see [Modules](/refguide8/modules/)) 
   * **Domain model** – a model that describes the information (or *data*) used by your application in an abstract way; one module can have one domain model only 
-  * **Document** – an individual file, for example, a [page](/refguide/pages/), [microflow](/refguide/microflows/), or a [scheduled event](/refguide/scheduled-events/). 
+  * **Document** – an individual file, for example, a [page](/refguide8/pages/), [microflow](/refguide8/microflows/), or a [scheduled event](/refguide8/scheduled-events/). 
 
 ## 2 Performing Basic Functions
 
@@ -41,6 +41,6 @@ In the **Project Explorer**, you can do the following:
 
 ## 3 Read More
 
-* [Projects](/refguide/project/)
-* [Modules](/appstore/modules/)
-* [Security](/data-hub/data-hub-catalog/security/)
+* [Projects](/refguide8/project/)
+* [Modules](/refguide8/modules/)
+* [Security](/refguide8/security/)

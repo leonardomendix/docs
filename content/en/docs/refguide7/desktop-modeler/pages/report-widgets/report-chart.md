@@ -29,7 +29,7 @@ This property determines the aspect ratio (width : height) of the report chart a
 
 ### Generate Report on Page Load
 
-If this property is false, the report chart will not show its data until the user clicks [Report](/refguide/report-button/). This is especially useful if the report uses parameters that should be specified by the user. 
+If this property is false, the report chart will not show its data until the user clicks [Report](/refguide7/report-button/). This is especially useful if the report uses parameters that should be specified by the user. 
 
 ## Chart Properties
 
@@ -99,4 +99,4 @@ Maximum value of the vertical axis. This is only used if property 'Use min/max' 
 
 ### Name, Class, Style
 
-For details, see [Common Widget Properties](/refguide/common-widget-properties/).
+For details, see [Common Widget Properties](/refguide7/common-widget-properties/).

@@ -13,7 +13,7 @@ aliases:
 
 ## 1 Introduction
 
-The Mendix Desktop Modeler is the tool for creating, viewing, and editing your Mendix applications. A Mendix app is called a [project](/refguide/project/) in the Modeler. A project consists of many documents that are grouped in [modules](/appstore/modules/) and folders. There are some project-level settings, but the core of the functionality is inside the modules. Examples of documents are [project settings](/refguide/project-settings/), [domain models](/refguide/domain-model/), [pages](/refguide/pages/), and [microflows](/refguide/microflows/). One Modeler instance can have only one project open at a time, but you can open two Modeler instances when necessary.
+The Mendix Desktop Modeler is the tool for creating, viewing, and editing your Mendix applications. A Mendix app is called a [project](/refguide7/project/) in the Modeler. A project consists of many documents that are grouped in [modules](/refguide7/modules/) and folders. There are some project-level settings, but the core of the functionality is inside the modules. Examples of documents are [project settings](/refguide7/project-settings/), [domain models](/refguide7/domain-model/), [pages](/refguide7/pages/), and [microflows](/refguide7/microflows/). One Modeler instance can have only one project open at a time, but you can open two Modeler instances when necessary.
 
 This documentation describes the graphical user interface of the Modeler. The rest of the documentation follows the structure of the project explorer.
 
@@ -32,7 +32,7 @@ The table below describes all the available dockable window panes.
 | Pane | Description |
 | --- | --- |
 | Breakpoints (via Debug Windows) | Shows all breakpoints in the project. You can enable/disable breakpoints from here. |
-| Changes | For [Team Server](/developerportal/collaborate/team-server/) projects, this pane shows the local changes to the project since the last commit. You can commit changes, update to the latest revision and view the history from here. |
+| Changes | For [Team Server](/refguide7/team-server/) projects, this pane shows the local changes to the project since the last commit. You can commit changes, update to the latest revision and view the history from here. |
 | Connector | Shows what elements can be connected to the currently selected element. For example, when a button is a selected, the connector will show microflows that you can drag and drop onto the button to connect them. |
 | Console | Shows the output of the Mendix Runtime while running an application. |
 | Debugger (via Debug Windows) | This can be used to debug your application. |
@@ -42,7 +42,7 @@ The table below describes all the available dockable window panes.
 | Get Started | Shows useful resources for getting started with the Mendix Modeler. |
 | Project Explorer | Shows the complete structure of your project including all documents inside the modules. By default the active document is always selected in the project explorer so you can quickly see where the document you are editing is in the tree. You can change this behavior in the **Edit** > **Preferences** window pane. |
 | Properties | Shows properties of the currently selected element. This is where a lot of editing in the Modeler takes place. |
-| Stories | For [Team Server](/developerportal/collaborate/team-server/) enabled projects, this pane shows the stories of the current sprint. |
+| Stories | For [Team Server](/refguide7/team-server/) enabled projects, this pane shows the stories of the current sprint. |
 | Toolbox | Shows the tools that can be used in the current editor. For example, in a page you can insert all kinds of widgets (for example, text box and data view) by dragging them from the **Toolbox** to your form. |
 | Variables (via Debug Windows) | You can view the current values of variables here when debugging your application. |
 

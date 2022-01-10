@@ -8,7 +8,7 @@ tags: ["Atlas", "UI", "UX", "user experience"]
 
 ## 1 Introduction
 
-Mendix Studio is a powerful collaborative tool that lets you build your application in the cloud together with your team. When you sign into Mendix Studio for the first time, you get the option to choose an app template that is powered by Atlas UI. For more information on Mendix Studio, see the [Studio Guide](/releasenotes/studio/). 
+Mendix Studio is a powerful collaborative tool that lets you build your application in the cloud together with your team. When you sign into Mendix Studio for the first time, you get the option to choose an app template that is powered by Atlas UI. For more information on Mendix Studio, see the . 
 
 **This how-to will teach you how to do the following:**
 
@@ -27,16 +27,16 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 In the [Developer Portal](https://sprintr.home.mendix.com/index.html), click **Create App**.You will see a number of apps marked with **ATLAS UI**, which are Atlas UI-based app templates. You can select one to get started.
 
-![App template in Developer Portal](/attachments/howto8/front-end//atlas-ui/get-started-with-atlasui/start_choose_your_starter_app.png)
+![App template in Developer Portal](/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_choose_your_starter_app.png)
 
 For more information about Atlas UI, see . 
 
 ## 3 Editing Your App in Mendix Studio
 
-You now have access to your app **Buzz** in the [Developer Portal](/developerportal/). From **Buzz**, you can open Mendix Studio clicking **Edit App** in the top-right corner of the screen:
+You now have access to your app **Buzz** in the . From **Buzz**, you can open Mendix Studio clicking **Edit App** in the top-right corner of the screen:
 
 {{% image_container width="300" %}}
-![Edit App Button in the Developer POrtal](/attachments/howto8/front-end//atlas-ui/get-started-with-atlasui/start_edit_your_app.png)
+![Edit App Button in the Developer POrtal](/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_edit_your_app.png)
 {{% /image_container %}}
 
 Note that when you click **Edit App** for any Atlas UI app, it will automatically open in Mendix Studio. If you need to edit the app in Studio Pro, click the drop-down menu on the **Edit App** button and select **Edit in Studio Pro**.
@@ -45,12 +45,12 @@ Note that when you click **Edit App** for any Atlas UI app, it will automaticall
 
 Your app is ready to be built. In the **Toolbox** in the [page editor](/studio8/page-editor/), you will find building blocks and widgets you can build your pages with. 
 
-![Studio Page Example](/attachments/howto8/front-end//atlas-ui/get-started-with-atlasui/start_explore.png)
+![Studio Page Example](/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_explore.png)
 
 All these resources have been created with Atlas UI. Each building block has an information icon that directs you to the Atlas UI website for the relevant information:
 
 {{% image_container width="200" %}}
-![Building Block Example](/attachments/howto8/front-end//atlas-ui/get-started-with-atlasui/start_building_block.png)
+![Building Block Example](/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_building_block.png)
 {{% /image_container %}}
 
 ## 5 Choosing a Page Template
@@ -59,7 +59,7 @@ You can choose a page template when you create a new page. For information on ho
 
 For example, **Dashboard Action Tiles**, **Dashboard Charts**, **Dashboard Expenses** are page templates. 
 
-![Page Template](/attachments/howto8/front-end//atlas-ui/get-started-with-atlasui/start_choose_a_page_template.png)
+![Page Template](/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_choose_a_page_template.png)
 
 Once the page is created, you can customize it.
 
@@ -69,10 +69,10 @@ The [Theme Customizer](/studio8/theme-customizer/) allows you to customize your 
 
 ## 7 Read More
 
-* [How to Create Custom Preview Images for Building Blocks & Page Templates](/howto7/front-end/create-custom-preview-images-for-building-blocks-and-page-templates/)
+* [How to Create Custom Preview Images for Building Blocks & Page Templates](/howto8/front-end/create-custom-preview-images-for-building-blocks-and-page-templates/)
 * [How to Extend Design Properties to Customize Your Studio Experience](/howto8/front-end/extend-design-properties-to-customize/)
-* [How to Migrate Existing Apps to Atlas UI](/howto7/front-end/migrate-existing-projects-to-atlasui/)
-* [How to Share Company Atlas UI Resources](/howto7/front-end/share-company-atlas-ui-resources/)
+* [How to Migrate Existing Apps to Atlas UI](/howto8/front-end/migrate-existing-projects-to-atlasui/)
+* [How to Share Company Atlas UI Resources](/howto8/front-end/share-company-atlas-ui-resources/)
 * [General Info](/studio8/general/) 
 * [Page Editor](/studio8/page-editor/)
 * [Theme Customizer](/studio8/theme-customizer/)

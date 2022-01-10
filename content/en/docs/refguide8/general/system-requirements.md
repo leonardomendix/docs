@@ -18,7 +18,7 @@ This document presents the system requirements for the various parts of the Mend
 
 ## 2 Mendix Studio Pro {#sp}
 
-Mendix [Studio Pro](/refguide/modeling/) supports 64-bit versions of Windows 7, 8, and 10. Windows 7 must be at least Service Pack 1. LTS versions starting from Mendix Studio Pro 8.18.14 are enabled and tested to run on Apple Silicon Macs such as the M1, which requires [Parallels 17](https:/www.parallels.com/) and Windows 11.
+Mendix [Studio Pro](/refguide8/modeling/) supports 64-bit versions of Windows 7, 8, and 10. Windows 7 must be at least Service Pack 1. LTS versions starting from Mendix Studio Pro 8.18.14 are enabled and tested to run on Apple Silicon Macs such as the M1, which requires [Parallels 17](https://www.parallels.com/) and Windows 11.
 
 The following frameworks are automatically installed (if necessary):
 
@@ -67,7 +67,7 @@ The [Team Server](/developerportal/collaborate/team-server/) is implemented usin
 
 ## 4 Mendix Studio
 
-[Mendix Studio](/releasenotes/studio/) is optimized for use with Google Chrome. While Chrome is the officially supported browser, you can also use Mendix Studio with other popular browsers like Mozilla Firefox, Apple Safari, and Microsoft Edge. 
+ is optimized for use with Google Chrome. While Chrome is the officially supported browser, you can also use Mendix Studio with other popular browsers like Mozilla Firefox, Apple Safari, and Microsoft Edge. 
 
 {{% alert type="info" %}}
 The browser you use needs to have JavaScript turned on.
@@ -114,14 +114,14 @@ Mendix tries to support the most recent and patched database server versions fro
 
 Current support:
 
-* [IBM DB2](/refguide/db2/) 11.1 and 11.5 for Linux, Unix, and Windows
-* [MariaDB](/refguide/mysql/) 10.2, 10.3, 10.4, 10.5
+* [IBM DB2](/refguide8/db2/) 11.1 and 11.5 for Linux, Unix, and Windows
+* [MariaDB](/refguide8/mysql/) 10.2, 10.3, 10.4, 10.5
 * [Microsoft SQL Server](/developerportal/deploy/mendix-on-windows-microsoft-sql-server/) 2017, 2019
 * [Azure SQL](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level?view=sql-server-2017) v12 compatibility mode 140 or higher
-* [MySQL](/refguide/mysql/) 8.0
-* [Oracle Database](/refguide/oracle/) 19
+* [MySQL](/refguide8/mysql/) 8.0
+* [Oracle Database](/refguide8/oracle/) 19
 * PostgreSQL 9.6, 10, 11, 12, 13, 14
-* [SAP HANA](/refguide/saphana/) 2.00.040.00.1545918182
+* [SAP HANA](/refguide8/saphana/) 2.00.040.00.1545918182
 
 {{% alert type="warning" %}}
 Each app should have its own database. Mendix apps cannot share data by sharing the same database. 
@@ -164,20 +164,20 @@ Using a hybrid preview is not the same as using an emulator. A hybrid preview on
 
 ## 12 Mobile Operating Systems {#mobileos}
 
-For Mendix apps and the [Mendix Mobile app](/refguide7/getting-the-mendix-app/):
+For Mendix apps and the [Mendix Mobile app](/refguide8/getting-the-mendix-app/):
 
 * iOS 12 and above
 * Android 5.0 and above
 
 ## 13 MxBuild {#mxbuild}
 
-MxBuild is a Windows and Linux command-line tool that can be used to build a Mendix Deployment Package. For more information, see [MxBuild](/refguide/mxbuild/).
+MxBuild is a Windows and Linux command-line tool that can be used to build a Mendix Deployment Package. For more information, see [MxBuild](/refguide8/mxbuild/).
 
 * Mono v5.20.x or .NET v4.7.2
 * JDK 11
 
 ## 14 mx Command-Line Tool {#mxtool}
 
-The **mx** command-line tool is a Windows and Linux command-line tool that can be used to do useful things with your Mendix app. For more information, see [mx Command-Line Tool](/refguide/mx-command-line-tool/).
+The **mx** command-line tool is a Windows and Linux command-line tool that can be used to do useful things with your Mendix app. For more information, see [mx Command-Line Tool](/refguide8/mx-command-line-tool/).
 
 * Mono v5.20.x or .NET v4.7.2

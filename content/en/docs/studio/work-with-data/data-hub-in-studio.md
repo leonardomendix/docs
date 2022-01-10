@@ -46,9 +46,9 @@ You can select external entities as a data source for data containers (a data vi
 The selected external entity will be added to your domain model automatically together with all integration and security settings. 
 ![Domain Model](/attachments/studio/work-with-data/data-hub-in-studio/domain-model-example.png)
 
-When you , you can see that the data from the external entity is shown in your app. 
+When you [publish your app](/studio/publishing-app/), you can see that the data from the external entity is shown in your app. 
 
-When you , you will see data from the external entities, except for external entities from services that require authentication credentials. In this case you have to publish your app to see the data. 
+When you [preview your app](/studio/publishing-app/), you will see data from the external entities, except for external entities from services that require authentication credentials. In this case you have to publish your app to see the data. 
 
 ### 2.1 The Data Hub Tab
 

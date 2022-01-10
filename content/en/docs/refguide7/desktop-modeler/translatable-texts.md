@@ -6,9 +6,9 @@ category: "Desktop Modeler"
 ---
 
 
-All texts that are presented to the end user can be translated to different languages. Examples include [labels](/refguide/label/), the captions of [buttons](/refguide/button-widgets/) and [data grid](/refguide/data-grid/) columns, [menu items](/refguide7/menu-item/) and [messages](/refguide/show-message/) that are sent from a [microflow](/refguide/microflows/).
+All texts that are presented to the end user can be translated to different languages. Examples include [labels](/refguide7/label/), the captions of [buttons](/refguide7/button-widgets/) and [data grid](/refguide7/data-grid/) columns, [menu items](/refguide7/menu-item/) and [messages](/refguide7/show-message/) that are sent from a [microflow](/refguide7/microflows/).
 
-The Modeler makes it really easy to translate your application to another language. You can add a language in the [project settings](/refguide/project-settings/) and then you can switch to that language using the drop-down in the toolbar. For texts that have not been translated yet the text in the default language is shown between pointy brackets. For example, a caption can be shown as '<Name>'. This means that the caption has not been translated yet and was 'Name' in the default language. By simply typing the text in the currently selected language (for example, 'Naam' in Dutch) the caption has been translated.
+The Modeler makes it really easy to translate your application to another language. You can add a language in the [project settings](/refguide7/project-settings/) and then you can switch to that language using the drop-down in the toolbar. For texts that have not been translated yet the text in the default language is shown between pointy brackets. For example, a caption can be shown as '<Name>'. This means that the caption has not been translated yet and was 'Name' in the default language. By simply typing the text in the currently selected language (for example, 'Naam' in Dutch) the caption has been translated.
 
 {{% alert type="success" %}}
 

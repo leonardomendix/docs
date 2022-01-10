@@ -10,7 +10,7 @@ tags: ["domain model", "association"]
 
 An association describes a relation between entities. In the domain model, an association is represented by a line or arrow between two entities.
 
-The value of the association can only be viewed or edited from the object of the entity that is the _[owner](/refguide/associations/#owner)_ of the association. Either one entity or both entities can be the owner of the association. If one entity is the owner, there is an arrow that points from the owner to the other entity. If both entities are owners, there is a line between the two entities.
+The value of the association can only be viewed or edited from the object of the entity that is the _[owner](/refguide7/associations/#owner)_ of the association. Either one entity or both entities can be the owner of the association. If one entity is the owner, there is an arrow that points from the owner to the other entity. If both entities are owners, there is a line between the two entities.
 
 The [multiplicity](#multiplicity) (or number of referred objects) of an association is indicated by the number one (`1`) or a star (`*`) at either side of the association.
 
@@ -20,7 +20,7 @@ In the example below, the arrow indicates that **Order** is the owner of the ass
 
 {{% alert type="info" %}}
 
-An association between a persistable entity and a non-persistable entity must start in the non-persistable entity and have the owner **Default**. For more information on persistable and non-persistable entities, see [Persistability](/refguide/persistability/).
+An association between a persistable entity and a non-persistable entity must start in the non-persistable entity and have the owner **Default**. For more information on persistable and non-persistable entities, see [Persistability](/refguide7/persistability/).
 
 {{% /alert %}}
 
@@ -57,7 +57,7 @@ Multiplicity can be of the following types:
 * One-to-many – one X object is associated with multiple Y object
 * Many-to-many – multiple X objects are associated with multiple Y objects
 
-Multiplicity shows the owner and the direction of association if the association is of the one-to-many or many-to-many type. In case the association is one-to-one, both entities are owners. For more information about ownership, see section [4 Owner](/refguide/associations/#owner) in *Associations*.
+Multiplicity shows the owner and the direction of association if the association is of the one-to-many or many-to-many type. In case the association is one-to-one, both entities are owners. For more information about ownership, see section [4 Owner](/refguide7/associations/#owner) in *Associations*.
 
 ### 2.4 Navigability {#navigability}
 
@@ -88,4 +88,4 @@ This delete behavior is used if you want to be able to delete a **Customer** onl
 
 ## 3 Read More
 
-* [Associations](/refguide/associations/)
+* [Associations](/refguide7/associations/)

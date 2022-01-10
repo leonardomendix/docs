@@ -12,10 +12,10 @@ Learn some basics about starting to model a Mendix app with the introductory how
 
 * [Install the Mendix Desktop Modeler](/howto7/general/install-the-mendix-desktop-modeler/)
 * [Show the Project Directory in Explorer](/howto7/general/show-project-directory/)
-* [Implement Best Practices for Development](/howto/general/dev-best-practices/)
-* [Implement Community Best Practices for App Performance](/howto/general/community-best-practices-for-app-performance/)
+* [Implement Best Practices for Development](/howto7/general/dev-best-practices/)
+* [Implement Community Best Practices for App Performance](/howto7/general/community-best-practices-for-app-performance/)
 * [Find Your Way in an App ](/howto7/general/find-your-way/)
 * [Find Unused App Items](/howto7/general/find-unused-items/)
-* [Minimize the Number of In-Use Objects in Your Session](/howto/general/minimize-number/)
+* [Minimize the Number of In-Use Objects in Your Session](/howto7/general/minimize-number/)
 
 

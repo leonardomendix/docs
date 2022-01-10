@@ -12,7 +12,7 @@ tags: ["studio pro", "data hub", "odata service", "consumed odata service"]
 
 ## 1 Introduction
 
-When an external entity is used in a project module through the [Data Hub pane](/refguide/data-hub-pane/), a consumed OData service document is added specifying the details of the consumed service. This is the API to the publishing app and the data associated with the entity.
+When an external entity is used in a project module through the [Data Hub pane](/refguide8/data-hub-pane/), a consumed OData service document is added specifying the details of the consumed service. This is the API to the publishing app and the data associated with the entity.
 
 ## 2 Consume OData Service screen
 
@@ -23,7 +23,7 @@ The **Consumed OData Service** document that is added to the project displays th
 * Service name and the icon for the source application of the originating app
 * Version number of the consumed service
 * **View in Data Hub Catalog** link to the **Service Details** where you can see the full service details that are registered
-* **Update/Switch** – you can update the consumed service contract to another version that has been detected in [Mendix Data Hub](/data-hub/) for the same app and service; the button will show the following, depending on what has been returned for the consumed contract in Data Hub:
+* **Update/Switch** – you can update the consumed service contract to another version that has been detected in  for the same app and service; the button will show the following, depending on what has been returned for the consumed contract in Data Hub:
   * **Update** – this button is displayed so that you can **Update** the contract that is currently consumed (and shown in the **Consumed OData Service** document). You will be presented with the contract that is currently at the service end-point. It is good practice that only minor, non-breaking changes are deployed to the same end-point.
    * **Switch** – this button is shown if other registered instances of the same service (with the same name, from the same app) are available in Data Hub and are deployed to different endpoints (for example, to another environment or because of changes that would break existing apps consuming the previous version)
 
@@ -113,7 +113,7 @@ Support for basic authentication was added from [version 8.16.0](/releasenotes/s
 This information is not stored, so if you download the metadata from the same server again, you will have to enter your username and password again.
 {{% /alert %}}
 
-When you import the metadata, you can add external entities from the consumed OData service in the [Data Hub Pane](/refguide/data-hub-pane/).
+When you import the metadata, you can add external entities from the consumed OData service in the [Data Hub Pane](/refguide8/data-hub-pane/).
 
 ### 3.2 Consumed OData Service Properties
 
@@ -240,5 +240,5 @@ To consume the service deployed to the **Acceptance environment**, follow these 
 
 ## 5 Read More
 
-* [Data Hub Pane](/refguide/data-hub-pane/)
-* [Consumed OData Service](/refguide/consumed-odata-service/)
+* [Data Hub Pane](/refguide8/data-hub-pane/)
+* [Consumed OData Service](/refguide8/consumed-odata-service/)

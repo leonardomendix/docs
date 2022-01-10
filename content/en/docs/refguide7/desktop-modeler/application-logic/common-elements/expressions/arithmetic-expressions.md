@@ -122,7 +122,7 @@ Adds two numbers.
 
 {{% alert type="info" %}}
 
-See [String function calls](/refguide/string-function-calls/) for more information.
+See [String function calls](/refguide7/string-function-calls/) for more information.
 
 {{% /alert %}}
 

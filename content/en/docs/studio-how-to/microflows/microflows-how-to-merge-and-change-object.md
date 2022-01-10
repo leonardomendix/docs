@@ -21,7 +21,7 @@ A merge is used to combine flows into one. If you split the microflow flow (with
 
 This how-to describes the following use case: 
 
-In  you have configured the decision to open a specific page depending on the customer's grade. In case the customer's grade is not set, the error message is shown. So you have four flows after the decision: 
+In [Configure a Decision Step 1: Build the Domain Model & Configure a Microflow ](/studio-how-to/microflows-how-to-configure-decision-p1/) you have configured the decision to open a specific page depending on the customer's grade. In case the customer's grade is not set, the error message is shown. So you have four flows after the decision: 
 
 * Showing a page for bronze  grade customers
 * Showing a page for silver grade customers
@@ -34,7 +34,7 @@ In this how-to, you will merge flows for bronze, silver, and gold customer grade
 
 To start this tutorial, make sure you have completed the following prerequisites:
 
-* Create a microflow with a decision: 
+* Create a microflow with a decision: [Configure a Decision Step 1: Build the Domain Model & Configure a Microflow](/studio-how-to/microflows-how-to-configure-decision-p1/)
 
 ## 3 Creating a Merge
 

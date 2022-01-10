@@ -39,7 +39,7 @@ The team server runs in the trusted Mendix cloud environment and on a trusted in
 
 ### How do I merge changes from one development line to another?
 
-The modeler automates most of this process; you can simply merge development lines by selecting model revisions on the team server. The Mendix Desktop Modeler will do the merging and will keep track of consistency. [Read more](/refguide/version-control/)
+The modeler automates most of this process; you can simply merge development lines by selecting model revisions on the team server. The Mendix Desktop Modeler will do the merging and will keep track of consistency. [Read more](/refguide7/version-control/)
 
 ### How do I resolve a conflict when two changes cannot be combined?
 

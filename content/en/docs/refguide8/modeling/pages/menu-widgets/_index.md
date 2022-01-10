@@ -13,17 +13,17 @@ tags: ["studio pro", "menu widgets", "navigation", "widget"]
 
 ## 1 Introduction
 
-Menu widgets display menu items configured in the [Navigation](/refguide/navigation/) or in a [Menu](/refguide/menu/).
+Menu widgets display menu items configured in the [Navigation](/refguide8/navigation/) or in a [Menu](/refguide8/menu/).
 
-* [Menu Bar](/refguide/menu-bar/) – displays menu items of a [navigation profile](/refguide/navigation/#profiles) or a [menu](/refguide/menu/) document in a form of a horizontal bar
+* [Menu Bar](/refguide8/menu-bar/) – displays menu items of a [navigation profile](/refguide8/navigation/#profiles) or a [menu](/refguide8/menu/) document in a form of a horizontal bar
 
     ![Menu Bar Example](/attachments/refguide8/modeling/pages/menu-widgets/menu-bar-example.png)
 
-* [Navigation Tree](/refguide/navigation-tree/) – displays menu items of a [navigation profile](/refguide/navigation/#profiles) or a [menu](/refguide/menu/) document in a form of a tree
+* [Navigation Tree](/refguide8/navigation-tree/) – displays menu items of a [navigation profile](/refguide8/navigation/#profiles) or a [menu](/refguide8/menu/) document in a form of a tree
 
     ![Navigation Tree Example](/attachments/refguide8/modeling/pages/menu-widgets/navigation-tree-example.png)
 
-* [Simple Menu Bar](/refguide/simple-menu-bar/) – displays menu items of a [navigation profile](/refguide/navigation/#profiles) or a [menu](/refguide/menu/) document in a form a horizontal or vertical bar 
+* [Simple Menu Bar](/refguide8/simple-menu-bar/) – displays menu items of a [navigation profile](/refguide8/navigation/#profiles) or a [menu](/refguide8/menu/) document in a form a horizontal or vertical bar 
 
     ![Simple Menu Bar Example](/attachments/refguide8/modeling/pages/menu-widgets/simple-menu-bar-example.png)
 
@@ -34,5 +34,5 @@ Menu widgets display menu items configured in the [Navigation](/refguide/navigat
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Pages](/refguide/pages/)
+* [Page](/refguide8/page/)
+* [Pages](/refguide8/pages/)

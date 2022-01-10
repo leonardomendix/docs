@@ -23,13 +23,13 @@ Below is a list of known errors and the steps to fix them.
 
 ### 2.1 Getting an Error Containing `SharpSvn.SvnAuthenticationException: Proxy authentication failed`
 
-![Error dialog with proxy authentication failed](/attachments/howto8/collaboration-requirements-management//troubleshoot-version-control-issues/oopsproxy.png)
+![Error dialog with proxy authentication failed](/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/oopsproxy.png)
 
 This error means that Studio Pro has problems reaching the version control server because of a proxy server.
 
 The proxy settings can be changed in Studio Pro by selecting **Edit** > **Preferences** and then the **Advanced** tab. In the **Proxy server** section, you can change the proxy authentication settings. Fill in the correct **User name** and **Password** for the proxy server.
 
-![Proxy settings](/attachments/howto8/collaboration-requirements-management//troubleshoot-version-control-issues/proxysettings.png)
+![Proxy settings](/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/proxysettings.png)
 
 ### 2.2 Getting an Error Containing Another `SharpSvn.SvnAuthenticationException`
 
@@ -47,7 +47,7 @@ Follow these steps:
 
 Follow these steps:
 
-1.  Install [TortoiseSVN](https://tortoisesvn.net/), as suggested in [System Requirements](/refguide8/system-requirements/).
+1.  Install [TortoiseSVN](https:/tortoisesvn.net/), as suggested in [System Requirements](/refguide8/system-requirements/).
 
 	{{% alert type="warning" %}}Mendix Studio Pro uses the Subversion 1.9 working copy. Previous versions of the Mendix Desktop Modeler used a Subversion 1.7 working copy. These working copy versions are NOT compatible.<br/>
 	
@@ -67,7 +67,7 @@ Follow these steps to remove your user settings and restart Studio Pro.
 
 Follow these steps:
 
-1.  Install [TortoiseSVN](https://tortoisesvn.net/), as suggested in [System Requirements](/refguide8/system-requirements/).
+1.  Install [TortoiseSVN](https:/tortoisesvn.net/), as suggested in [System Requirements](/refguide8/system-requirements/).
 
 	{{% alert type="warning" %}}Mendix Studio Pro uses the Subversion 1.9 working copy. Previous versions of the Mendix Desktop Modeler used a Subversion 1.7 working copy. These working copy versions are NOT compatible.<br/>
 	
@@ -133,7 +133,7 @@ The first five lines are the same and after that, the lists deviate.
 
 Merging the branch to the main line will result in the following information message: 
 
-![](/attachments/howto8/collaboration-requirements-management//troubleshoot-version-control-issues/mergesuccessfuldialog.png)
+![](/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png)
 
 {{% alert type="info" %}}
 A conflict is reported on the project *folder*. This usually means that there is a conflict on the `svn:ignore` property.
@@ -141,7 +141,7 @@ A conflict is reported on the project *folder*. This usually means that there is
 
 To resolve a conflict on the `svn:ignore` property, perform these steps:
 
-1.  Install [TortoiseSVN](https://tortoisesvn.net/), as suggested in [System Requirements](/refguide8/system-requirements/).
+1.  Install [TortoiseSVN](https:/tortoisesvn.net/), as suggested in [System Requirements](/refguide8/system-requirements/).
 
 	{{% alert type="warning" %}}Mendix Studio Pro uses the Subversion 1.9 working copy. Previous versions of the Mendix Desktop Modeler used a Subversion 1.7 working copy. These working copy versions are NOT compatible.<br/>
 	
@@ -150,7 +150,7 @@ To resolve a conflict on the `svn:ignore` property, perform these steps:
 2. Open the project directory in Windows File Explorer
 3.  Right-click the white background and choose **TortoiseSVN** > **Edit Conflicts**. The following pop-up window will be shown (resize the window to display all the information):
 
-	![](/attachments/howto8/collaboration-requirements-management//troubleshoot-version-control-issues/editconflictsdialog.png)
+	![](/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png)
 
 4. Copy all the lines starting with `modeler-merge-marker` to the clipboard. 
 5. Click **Manually edit property**.
@@ -158,7 +158,7 @@ To resolve a conflict on the `svn:ignore` property, perform these steps:
 7. Paste the previously copied lines via <kbd>Ctrl</kbd>+<kbd>A</kbd> followed by <kbd>Ctrl</kbd>+<kbd>V</kbd>.
 8.  Remove the special lines that start with `<<<<<<<`, `=======`, and `>>>>>>>`. For this example, we end up with the following combined ignore list:
 
-	![](/attachments/howto8/collaboration-requirements-management//troubleshoot-version-control-issues/combinedignorelist.png)
+	![](/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png)
 
 	{{% alert type="info" %}}This includes both the lines from the main line and from the branch. The order is not important.
 	{{% /alert %}}
@@ -176,7 +176,7 @@ If you get this error, try the following options:
 * In the [Developer Portal](/developerportal/collaborate/team/), check whether the user has access to the app:
 	* If they do not have access, invite them to the app
 	* If they do have access, remove them from the app and add them back – this will re-sync the access rules
-* If the above does not work, make sure the [WebDAV protocol](http://www.webdav.org/) is not blocked within your network – this protocol is [required](/refguide8/system-requirements/) by Studio Pro for [version control](/refguide8/version-control/) to work, but it might be blocked by your proxy server or other software like a firewall
+* If the above does not work, make sure the [WebDAV protocol](http:/www.webdav.org/) is not blocked within your network – this protocol is [required](/refguide8/system-requirements/) by Studio Pro for [version control](/refguide8/version-control/) to work, but it might be blocked by your proxy server or other software like a firewall
 
 ## 3 Other Problems
 

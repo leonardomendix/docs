@@ -25,7 +25,7 @@ A data grid showing a list of orders with a description and the referenced custo
 
 ### 2.1 Columns
 
-See [Columns (document template)](columns-document-template).
+See [Columns (document template)](/refguide/columns-document-template/).
 
 ### 2.2 Sort Bar
 

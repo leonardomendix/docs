@@ -10,7 +10,7 @@ menu_order: 20
 
 If **XPath** is selected as the data source for a widget then the object or objects shown are retrieved directly from the database with a query. You can filter data with an [XPath constraint](#xpath-constraints).  
 
-The **XPath** data source is very similar to the [**Database** data source](database-source), except that XPath constraints are more flexible than the database ones. 
+The **XPath** data source is very similar to the [**Database** data source](/refguide/database-source/), except that XPath constraints are more flexible than the database ones. 
 
 The data retrieved can also be limited by the following factors:
 
@@ -39,7 +39,7 @@ This differs from the [association data source](/refguide/association-source/) w
 | Value                          | Description                                                  |
 | ------------------------------ | ------------------------------------------------------------ |
 | Never                          | No search bar or search button are ever shown. Effectively disables search. |
-| With button (initially open)   | An end-user can open and close the search bar using the [**Search** button](control-bar#search-button); the search bar is initially open. |
+| With button (initially open)   | An end-user can open and close the search bar using the [**Search** button](/refguide/control-bar/#search-button); the search bar is initially open. |
 | With button (initially closed)  *(default)* | The user can open and close the search bar using the search button; the search bar is initially closed. |
 | Always                         | The search bar is always visible and cannot be close, nor is there a search button. |
 
@@ -61,6 +61,6 @@ XPath constraints are applied equally to all users and only apply to the data di
 
 ## 3 Read More
 
-* [Data Containers](/appstore/modules/data-widgets/)
+* [Data Containers](/refguide/data-widgets/)
 * [Data Grid](/refguide/data-grid/)
 

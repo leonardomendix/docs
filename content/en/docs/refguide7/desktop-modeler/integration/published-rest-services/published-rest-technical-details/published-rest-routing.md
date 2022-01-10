@@ -13,7 +13,7 @@ The **published REST service** feature was introduced in Mendix 7.10.0.
 
 {{% /alert %}}
 
-When a REST HTTP request arrives at the server, the server needs to determine which [operation](/refguide/published-rest-operation/) to execute and what security to apply.
+When a REST HTTP request arrives at the server, the server needs to determine which [operation](/refguide7/published-rest-operation/) to execute and what security to apply.
 
 This flow chart shows an example request, how this will be processed, and what will be returned by the service under different circumstances.
 

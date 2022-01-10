@@ -66,7 +66,7 @@ To start the packaging process, follow these steps:
 10. Leave the default choice of how to build the package **Build Mobile  packages for me by sending the build configuration to Adobe PhoneGap Build** selected. You can use the alternative option to manually download a PhoneGap Build package, which you can then inspect, modify, and upload manually to Adobe PhoneGap Build (for more information, see [Customizing Local Build Packages](/refguide7/customizing-phonegap-build-packages/)). This is unnecessary in most scenarios.
 11. Before proceeding, you must accept linking your PhoneGap account to your Mendix account:
 
-	![phonegap authorization](/attachments/howto7/mobile//publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/phonegap-authorization-dialog.png)
+	![phonegap authorization](/attachments/howto7/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/phonegap-authorization-dialog.png)
 
 12. Start the hybrid mobile app package building process by clicking **Start PhoneGap Build job**, which will initiate the packaging process. 
 13. The first time you start this process, you will need to authorize the Mendix Developer Portal to act on your behalf with the Adobe PhoneGap Build service. You will be presented with a pop-up window asking if you want to start the redirect to Adobe PhoneGap. To build for the authorization, click **Authorize use of Adobe PhoneGap Build**, after which you will be temporarily redirected to the website of your Adobe PhoneGap Build.
@@ -118,7 +118,7 @@ To install the iOS app on your test device, follow these steps:
 
 1.  Connect your Apple mobile device to your device. Both devices will show dialog boxes which ask you to confirm that you trust the devices. Click **Continue** on your device, and **Trust This Computer?** on your mobile device to proceed.
 
-	![trust dialog](/attachments/howto7/mobile//publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/appletrust.png)
+	![trust dialog](/attachments/howto7/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/appletrust.png)
 
 2. Open iTunes and connect your iOS device to your computer.
 5. Select the *.ipa* package file that you downloaded earlier, and drag it onto your mobile device's **Devices** section on iTunes' left menu. Drop the *.ipa* file there to install it on your mobile device.
@@ -211,4 +211,4 @@ The video below shows how to build a PhoneGap app in the cloud. After showing yo
 
 * [Deploy your First Hybrid Mobile App](/howto7/mobile/deploy-your-first-hybrid-mobile-app/)
 * [Debug a Hybrid Mobile App](/howto7/mobile/debug-a-mobile-app/)
-* [Include Push Notifications](/appstore/modules/push-notifications/)
+* [Include Push Notifications](/howto7/mobile/push-notifications/)

@@ -52,14 +52,14 @@ For more information on rows and columns, see [Row Properties](#row) and [Column
 
 ### 3.1 Layout Grid Properties {#layout-grid-properties}
 
-You can access the **Layout Grid** properties through the breadcrumb (for more information, see the  section in *Pages*). 
+You can access the **Layout Grid** properties through the breadcrumb (for more information, see the [Breadcrumb](/studio/page-editor/#breadcrumb) section in *Pages*). 
 Layout grid properties consist of the following sections:
 
 * [Expand](#expand-section) 
 
 * [General](#general-section)
 
-* 
+* [Design](/studio/page-editor-widgets-design-section/)
 
     {{% image_container width="250" %}}![Layout Grid Properties](/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-structure/layout-grid-properties.png)
     {{% /image_container %}}
@@ -91,7 +91,7 @@ In the **General** section, you can set the width of the layout grid. You can ch
 
 #### 3.1.3 Design Section
 
-For information on the **Design** section and its properties, see .
+For information on the **Design** section and its properties, see [Design Section](/studio/page-editor-widgets-design-section/).
 
 ### 3.2 Row Properties {#row}
 
@@ -214,7 +214,7 @@ A **Container** is used as a layout element where you can place a widget or a gr
 {{% image_container width="300" %}}![Container Example](/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-structure/container.png)
 {{% /image_container %}}
 
-Container properties consist of the **Design** section. For information, see .
+Container properties consist of the **Design** section. For information, see [Design Section](/studio/page-editor-widgets-design-section/).
 
 ## 5 Group Box Overview {#group-box-overview}
 
@@ -225,7 +225,7 @@ A group box is used to group widgets together. The group box can be configured t
 
 ### 5.1 Group Box Properties
 
-Group box properties consist of the **General** section and the **Design** section. For information on the **Design** section and its properties, see .
+Group box properties consist of the **General** section and the **Design** section. For information on the **Design** section and its properties, see [Design Section](/studio/page-editor-widgets-design-section/).
 
 Properties available in the **General** section are described in the table below.
 
@@ -260,7 +260,7 @@ In the **General** section, you can configure the following properties:
 
 ### 6.2 Design Section
 
-For information on the **Design** section and its properties, see .
+For information on the **Design** section and its properties, see [Design Section](/studio/page-editor-widgets-design-section/).
 
 ### 6.3 Tab Properties {#tab-properties}
 
@@ -302,5 +302,5 @@ The snippet is added to your page.
 
 ## 8 Read More
 
-*  
-* 
+* [Pages](/studio/page-editor/) 
+* [Widgets](/studio/page-editor-widgets/)

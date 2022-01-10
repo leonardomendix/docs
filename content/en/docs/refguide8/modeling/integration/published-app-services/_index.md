@@ -13,7 +13,7 @@ tags: ["studio pro"]
 ## 1 Introduction
 
 {{% alert type="info" %}}
-App services are deprecated and were removed in Studio Pro 9. Use a [published web service](/refguide/published-web-services/) or a [published REST service](/refguide/published-rest-services/) instead.
+App services are deprecated and were removed in Studio Pro 9. Use a [published web service](/refguide8/published-web-services/) or a [published REST service](/refguide8/published-rest-services/) instead.
 {{% /alert %}}
 
 An app service can be created via **File** > **New Document**.
@@ -24,7 +24,7 @@ Names of published app service documents must be unique (also with regard to pub
 
 ## 2 Create Version
 
-The **Create version** button instantiates a new app service version. For more information, see [Published App Service](/refguide7/published-app-service/).
+The **Create version** button instantiates a new app service version. For more information, see [Published App Service](/refguide8/published-app-service/).
 
 ## 3 Edit
 

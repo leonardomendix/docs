@@ -209,4 +209,4 @@ Note that *errors* can be introduced by the *merge* process even if no conflicts
 ## 5 Main Documents in This Category
 
 * [Using Version Control in the Desktop Modeler](/refguide7/using-version-control-in-the-dm/)
-* [Team Server](/developerportal/collaborate/team-server/)
+* [Team Server](/refguide7/team-server/)

@@ -22,4 +22,4 @@ If you want to stop your flow after an activity, you link the activity, using a 
 
 ### 2.1 Return value
 
-The return value is the value that is returned to the flow that called the current flow. The value can be entered as an [expression](/refguide/expressions/).
+The return value is the value that is returned to the flow that called the current flow. The value can be entered as an [expression](/refguide7/expressions/).

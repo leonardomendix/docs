@@ -5,7 +5,7 @@ category: "Data Models"
 menu_order: 2
 tags: []
 ---
-This how-to explains how you can set up data validation with Mendix. Before you can start with this how-to you need to setup a basic data structure, otherwise there won't be any data to validate. If you don't know how to setup a basic data structure, you can take a look at [this how-to](/howto/data-models/create-a-basic-data-layer/).
+This how-to explains how you can set up data validation with Mendix. Before you can start with this how-to you need to setup a basic data structure, otherwise there won't be any data to validate. If you don't know how to setup a basic data structure, you can take a look at [this how-to](/howto7/data-models/create-a-basic-data-layer/).
 
 ## 1 Data Validation on Entity Level
 
@@ -15,11 +15,11 @@ This section will explain how you can add validation rules to the domain model o
 2.  Double click a persistable entity to open its **properties.**
 3.  Open the **Validation Rules** tab page.
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582149.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582149.png)
 
 4.  Click **New** to start configuring a new validation rule for this entity.
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582148.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582148.png)
 
 5.  Select the **attribute** of which the value should be validated.
 6.  Enter an **error message** that is shown to the user if the validation fails.
@@ -33,7 +33,7 @@ The page builder of the Desktop Modeler allows you to configure which inputs are
 1.  Open a **detail page** and double click an input to open its properties.
 2.  Enter a message for **Placeholder text**. This message is shown below the input if a user clicks the save button without filling in a value.
 
-![](/attachments/howto7/data-models//setting-up-data-validation/18582144.png)
+![](/attachments/howto7/data-models/setting-up-data-validation/18582144.png)
 
 Please note that a _required_ validation rule on entity level overrules this property.
 
@@ -48,13 +48,13 @@ Validation rules are great for simple validations, but Mendix also offers ways t
 5.  Select **Before** as moment and **Commit** as event. This forces the event to trigger every time an object of this entity is committed.
 6.  Make sure that the event object is passed, because this object holds the data that you want to validate.
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582146.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582146.png)
 
 7.  Click **Select** to connect a Microflow to this event.
 8.  Click **New** in the Microflow selector to create a new one.
 9.  Click **OK** to save the event handler and open the created Microflow. It should look similar to this:
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582145.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582145.png)
 
 As long as this Microflow returns a Boolean value, you are free to add any logic to determine if the data is valid or not. If the Microflow returns 'false', the commit is cancelled. Returning 'true' will commit the object. If you don't know how to work with microflows, take a look at how-to.
 
@@ -62,23 +62,23 @@ As long as this Microflow returns a Boolean value, you are free to add any logic
 
 Validating user input can also be achieved by overriding the default save button on a detail page. Start by creating an overview and detail page. If you don't know how to create overview and detail pages, take a look at [this](/howto7/front-end/create-your-first-two-overview-and-detail-pages/) how-to. Your detail page should look similar to this:
 
-![](/attachments/howto7/data-models//setting-up-data-validation/18582143.png)
+![](/attachments/howto7/data-models/setting-up-data-validation/18582143.png)
 
 1.  Right click the **Save** button and select **Delete** to remove it from the page.
 2.  Right click the drop-zone below the **Cancel** button and select **Add widget > Button widgets > Call microflow**.
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582142.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582142.png)
 
 3.  In the **Select Microflow** dialog box, click **New** to create a new microflow. It should look like this:
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582141.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582141.png)
 
 4.  Create a **Commit** activity to store the object in the database.
 5.  Create a **Close Page** activity to close the detail page.
 
     You have now created a Microflow that mimics the default 'Save' button behavior. It should look like this:
     
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582140.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582140.png)
 
     You can now extend the Microflow to validate user input.
 6.  After the start event insert an **Exclusive split**.
@@ -88,18 +88,18 @@ Validating user input can also be achieved by overriding the default save button
 8. Save the properties by clicking **OK.**
 9. Right click the line between the split and commit activity and select **true** as condition value. In this case if the customer's name not is 'John', the object is stored in the database and the page is closed.
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582139.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582139.png)
 
 10. Add an **End event** to the Exclusive Split.
 11. Draw an additional line from the split to the new end event.
 12. Right click the line between the split and end event and select **false** as condition value.
 13. Insert a **Validation feedback** activity between the split and end event. In the activity's properties editor, enter these details:
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582137.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582137.png)
 
     Your microflow should now look similar to this:
 
-    ![](/attachments/howto7/data-models//setting-up-data-validation/18582138.png)
+    ![](/attachments/howto7/data-models/setting-up-data-validation/18582138.png)
 
 14. Select the **input parameter** as variable.
 15. Select for example **Name** as member.
@@ -107,10 +107,10 @@ Validating user input can also be achieved by overriding the default save button
 
 ## 5 Read More
 
-* [How to Work with Images & Files](/howto/data-models/working-with-images-and-files/)
-* [How to Create a Basic Data Layer](/howto/data-models/create-a-basic-data-layer/)
+* [How to Work with Images & Files](/howto7/data-models/working-with-images-and-files/)
+* [How to Create a Basic Data Layer](/howto7/data-models/create-a-basic-data-layer/)
 * [How to Work with Object Events](/howto7/data-models/working-with-object-events/)
-* [How to Denormalize Data to Improve Performance](/howto/data-models/denormalize-data-to-improve-performance/)
-* [How to Set Up Data Validation](/howto/data-models/setting-up-data-validation/)
+* [How to Denormalize Data to Improve Performance](/howto7/data-models/denormalize-data-to-improve-performance/)
+* [How to Set Up Data Validation](/howto7/data-models/setting-up-data-validation/)
 * [How to Find the Root Cause of Runtime Errors](/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
 * [Stories](/developerportal/collaborate/stories/)

@@ -8,7 +8,7 @@ tags: ["workflow", "workflows", "call microflow"]
 
 ## 1 Introduction
 
-System actions in workflows consist of a **Call microflow** action that is used to call a selected . 
+System actions in workflows consist of a **Call microflow** action that is used to call a selected [microflow](/studio/microflows/). 
 
 ![](/attachments/studio/workflows/workflow-system-actions/call-microflow-example.jpg)
 
@@ -45,4 +45,4 @@ Parameters pass data to the element. Currently the parameters can only be select
 
 ## 3 Read More
 
-* 
+* [General Activities](/studio/workflows-general-activities/)

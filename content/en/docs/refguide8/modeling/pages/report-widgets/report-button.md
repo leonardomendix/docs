@@ -13,7 +13,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-You can set a [report grid](/refguide/report-grid/) to automatically generate the report when the page is loaded. However, if a report page has parameter widgets, you must also add a **Generate report button** widget so that the end-user can regenerate the report after specifying the parameter(s).
+You can set a [report grid](/refguide8/report-grid/) to automatically generate the report when the page is loaded. However, if a report page has parameter widgets, you must also add a **Generate report button** widget so that the end-user can regenerate the report after specifying the parameter(s).
 
 The reports are generated when the end-user clicks the generate report button.
 

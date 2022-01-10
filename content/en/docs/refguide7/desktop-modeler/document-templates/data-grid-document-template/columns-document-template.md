@@ -13,7 +13,7 @@ aliases:
 
 ### Caption
 
-The caption of a column is the text that appears as a header above the rows. This is a translatable text. See [Internationalization](/refguide/translatable-texts/).
+The caption of a column is the text that appears as a header above the rows. This is a translatable text. See [Internationalization](/refguide7/translatable-texts/).
 
 ### Enumeration Format (Only for Attributes of the Enumeration Type)
 

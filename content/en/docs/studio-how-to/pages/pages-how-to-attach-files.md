@@ -178,4 +178,4 @@ Congratulations! You have configured the form that allows IT administrators to a
 
 ![Previewed List](/attachments/studio-how-to/pages/pages-how-to-attach-files/list-previewed.png) 
 
-You can also configure a button to attach images instead of files. For more information, see .
+You can also configure a button to attach images instead of files. For more information, see [How to Enable End-Users to Attach Images](/studio-how-to/pages-how-to-attach-images/).

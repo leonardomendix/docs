@@ -35,14 +35,14 @@ The following steps are only relevant for on-premises deployments (skip to [2.2.
 
 1. Sign in to New Relic and create a new application:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398929.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398929.png)
 2. Select Java:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398930.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398930.png)
 
 3. Download the Java agent archive and save your license key:
 
-     ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398932.png)
+     ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398932.png)
 
 4. Add your license key to the *newrelic.yml* file from the downloaded archive as described here: [https://docs.newrelic.com/docs/agents/java-agent/installation/java-agent-manual-installation#h2-download-files](https://docs.newrelic.com/docs/agents/java-agent/installation/java-agent-manual-installation#h2-download-files).
 
@@ -70,22 +70,22 @@ To the `javaopts` list in your *m2ee.yaml* file, add "-javaagent:<path-to-javaag
 
 2. Open a configuration:
 
-     ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398903.png)
+     ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398903.png)
 
 3. In the **Extra JVM parameters** field on the **Server** tab, add: `-javaagent:<path-to-javaagent>javaagent.jar`:
 
-    ![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398904.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398904.png)
 
 ## 4 Transactions
 
 After completing the steps described above, all the requests handled by your Mendix application should become visible together with various graphs and statistics:
 
-![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398943.png) 
+![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398943.png) 
 
 ## 5 Databases
 
 Your database calls and queries will now be visible on the database page:
-![](/attachments/howto8/monitoring-troubleshooting//manage-app-performance/manage-app-performance-with-new-relic/19398944.png) 
+![](/attachments/howto8/monitoring-troubleshooting/manage-app-performance/manage-app-performance-with-new-relic/19398944.png) 
 
 ## 6 Further Documentation
 
@@ -93,12 +93,12 @@ For more information on New Relic, see the New Relic documentation here: [https:
 
 ## 7 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [Clear Warning Messages in Mendix](/howto/monitoring-troubleshooting/clear-warning-messages/)
-* [Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [Set Log Levels](/howto/monitoring-troubleshooting/log-levels/)
-* [Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
-* [Solve Load & Import Errors](/howto/monitoring-troubleshooting/solving-load-and-import-errors/)
-* [Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
+* [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Clear Warning Messages in Mendix](/howto8/monitoring-troubleshooting/clear-warning-messages/)
+* [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Debug Java Actions Remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [Set Log Levels](/howto8/monitoring-troubleshooting/log-levels/)
+* [Debug Microflows](/howto8/monitoring-troubleshooting/debug-microflows/)
+* [Debug Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)
+* [Solve Load & Import Errors](/howto8/monitoring-troubleshooting/solving-load-and-import-errors/)
+* [Debug Microflows Remotely](/howto8/monitoring-troubleshooting/debug-microflows-remotely/)

@@ -12,11 +12,11 @@ This activity can only be used in microflows, not in nanoflows.
 
 The Cast Object activity can be used in a microflow after an [inheritance split](/refguide7/inheritance-split/) to change the type of object from the generalized object type to the specialized object type of the path out of the inheritance split. 
 
-To read more about specialization and generalization, see [Entities](/refguide/entities/).
+To read more about specialization and generalization, see [Entities](/refguide7/entities/).
 
 {{% alert type="info" %}}
 
-For the properties that all the activities share (for example, a caption), see [Microflow Element Common Properties](/refguide/microflow-element-common-properties/). This page only describes the properties specific to the action.
+For the properties that all the activities share (for example, a caption), see [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 

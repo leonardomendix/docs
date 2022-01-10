@@ -48,7 +48,7 @@ SELECT Name AS CustomerName, LastName AS CustomerLastName, Birthday, Category FR
 
 {{% /alert %}}
 
-See [this page](/refguide/oql-expressions/) for more information.
+See [this page](/refguide7/oql-expressions/) for more information.
 
 `column_alias` – is an alternative name to replace the column name in the result. When the attribute Name is retrieved, the result column is 'Name'. With an alias, you can specify another result column name, like 'Customer Name'. An alias can contain spaces.
 

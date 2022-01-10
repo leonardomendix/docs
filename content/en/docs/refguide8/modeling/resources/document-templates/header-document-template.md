@@ -25,9 +25,9 @@ A header.
 
 {{% /alert %}}
 
-For details on enabling the header from the properties of the document template itself, see the [Appearance Properties](/refguide/document-template/#appearance-properties) section of *Document Template*.
+For details on enabling the header from the properties of the document template itself, see the [Appearance Properties](/refguide8/document-template/#appearance-properties) section of *Document Template*.
 
-For details on inserting page numbers, see [Static Label](/refguide/static-label-document-template/).
+For details on inserting page numbers, see [Static Label](/refguide8/static-label-document-template/).
 
 ## 2 Appearance
 

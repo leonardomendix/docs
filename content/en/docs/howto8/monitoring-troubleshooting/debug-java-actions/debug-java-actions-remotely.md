@@ -24,7 +24,7 @@ To edit the server configuration with extra JVM parameters, follow these steps:
 2. Edit the configuration on the **Configurations** tab.
 3.  Go to the **Server** tab of the configuration, add the following line to the **Extra JVM parameters** field: `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005`
 
-    ![](/attachments/howto8/monitoring-troubleshooting//debug-java-actions/debug-java-actions-remotely/18580063.png)
+    ![](/attachments/howto8/monitoring-troubleshooting/debug-java-actions/debug-java-actions-remotely/18580063.png)
 
 4. Run your application.
 
@@ -38,7 +38,7 @@ To configure IntelliJ, follow these steps:
 2. Place some breakpoints in your Java code.
 3. Start debugging.
 
-![](/attachments/howto8/monitoring-troubleshooting//debug-java-actions/debug-java-actions-remotely/intellij_rundebug_configurations.png)
+![](/attachments/howto8/monitoring-troubleshooting/debug-java-actions/debug-java-actions-remotely/intellij_rundebug_configurations.png)
 
 To configure Eclipse, follow these steps:
 
@@ -52,8 +52,8 @@ To configure Eclipse, follow these steps:
 
 ## 4 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [Clear Warning Messages in Mendix](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Clear Warning Messages in Mendix](/howto8/monitoring-troubleshooting/clear-warning-messages/)
 * [Test Web Services Using SoapUI](/howto8/testing/testing-web-services-using-soapui/)
-* [Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Debug Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)

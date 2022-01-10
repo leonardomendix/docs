@@ -7,7 +7,7 @@ tags: ["domain model", "entity", "access rule", "xpath constraint", "module role
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-The access rules of an entity define what a user is allowed to do with objects of the entity. Users can be allowed to create and/or delete objects, and to view and/or edit member values. A member is an attribute or an association of an entity. Furthermore, the set of objects available for viewing, editing and removing can be limited by means of an [XPath constraint](/refguide/xpath-constraints/).
+The access rules of an entity define what a user is allowed to do with objects of the entity. Users can be allowed to create and/or delete objects, and to view and/or edit member values. A member is an attribute or an association of an entity. Furthermore, the set of objects available for viewing, editing and removing can be limited by means of an [XPath constraint](/refguide7/xpath-constraints/).
 
 Every access rule is applicable to one or more [module roles](/refguide7/module-role/). An access rule grants certain access rights to those roles. Rules are additive, which means that if multiple access rules apply to the same module role, all access rights of those rules are combined for that module role.
 
@@ -25,7 +25,7 @@ Access rules are defined in the entity **Properties** > the **Access rules** sec
 
 {{% alert type="info" %}}
 
-The **Access rules** section is visible only if  the project security is set to **Production**. For more information, see [Project Security](/refguide/project-security/).
+The **Access rules** section is visible only if  the project security is set to **Production**. For more information, see [Project Security](/refguide7/project-security/).
 
 {{% /alert %}}
 
@@ -69,7 +69,7 @@ A customer is allowed to view the discount, but is not allowed to edit it. The a
 
 ### XPath constraint
 
-The [XPath constraint](/refguide/xpath-constraints/) can be used to constrain the set of objects to which the access rule applies. If the XPath constraint is empty, the rule applies to all objects of the entity.
+The [XPath constraint](/refguide7/xpath-constraints/) can be used to constrain the set of objects to which the access rule applies. If the XPath constraint is empty, the rule applies to all objects of the entity.
 
 Entity 'Customer' is a specialization of entity 'User'. Entity 'Order' is associated to entity 'Customer'.
 

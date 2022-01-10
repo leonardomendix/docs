@@ -22,11 +22,11 @@ This how-to will walk you through the steps needed to implement push notificatio
 
 The [Push Notifications Connector](/appstore/modules/push-notifications/) module is published in the Mendix Marketplace. To import it into your project, click the Marketplace icon in the top right of Mendix Studio Pro. Search for "Push Notifications Connector" and click the title of the result:
 
-![](/attachments/howto8/mobile//hybrid-mobile/push-notifications/implementation-guide/20218020.png)
+![](/attachments/howto8/mobile/hybrid-mobile/push-notifications/implementation-guide/20218020.png)
 
 On the resulting page, click the green **Download** button. Make sure that **Add as a new module** is selected, and then click **Import**:
 
-![](/attachments/howto8/mobile//hybrid-mobile/push-notifications/implementation-guide/20217885.jpg)
+![](/attachments/howto8/mobile/hybrid-mobile/push-notifications/implementation-guide/20217885.jpg)
 
 {{% alert type="warning" %}}
 The Push Notifications Connector assumes that the mobile app and the back-end part will reside in the same app.
@@ -47,7 +47,7 @@ To include these dependencies, download them from the Marketplace in a way simil
 
 If your project is using an older version of the [Encryption](/appstore/modules/encryption/) module, it might trigger an error for referencing a non-existent layout. You can fix this by assigning the master layout of the **Encryption.ResponsiveLayout_Certificate** layout to another layout (please note that in this specific use case, it is not important which layout is used). This does not apply to version 1.3.1 and above.
 
-![](/attachments/howto8/mobile//hybrid-mobile/push-notifications/implementation-guide/20217886.jpg)
+![](/attachments/howto8/mobile/hybrid-mobile/push-notifications/implementation-guide/20217886.jpg)
 
 {{% /alert %}}
 
@@ -65,7 +65,7 @@ Please do not remove the button with the caption **Device Registration reference
 
 {{% /alert %}}
 
-![](/attachments/howto8/mobile//hybrid-mobile/push-notifications/implementation-guide/20217888.jpg)
+![](/attachments/howto8/mobile/hybrid-mobile/push-notifications/implementation-guide/20217888.jpg)
 
 ## 5 Starting Connectors from Your After-Startup Microflow
 
@@ -76,7 +76,7 @@ If your project already has an AfterStartup microflow configured, it is recommen
 * create a new microflow, from which you will call both the existing AfterStartup microflow and the AfterStartup_PushNotifications microflow, and then set this as the AfterStartup microflow for your app
 * add a new action to the existing AfterStartup microflow to run the AfterStartup_PushNotifications microflow
 
-![On start push microflow](/attachments/howto8/mobile//hybrid-mobile/push-notifications/implementation-guide/on-app-startup.png)
+![On start push microflow](/attachments/howto8/mobile/hybrid-mobile/push-notifications/implementation-guide/on-app-startup.png)
 
 ## 6 Setting Up the Administration Pages {#setting}
 
@@ -99,7 +99,7 @@ On the **User roles** tab of the **Project Security** dialog box, include the fo
 * The **PushNotifications.User** role as part of the main **User** role
 * The **PushNotifications.Anonymous** role role as part of the main **Anonymous** role (if your application allows anonymous users)
 
-![](/attachments/howto8/mobile//hybrid-mobile/push-notifications/implementation-guide/21168173.png)
+![](/attachments/howto8/mobile/hybrid-mobile/push-notifications/implementation-guide/21168173.png)
 
 ## 8 Deploying Your App
 
@@ -128,13 +128,13 @@ Configure FCM as follows:
 Make sure the **Encryption.EncryptionKey** constant has a valid value before you start the application. If the value is not set, the private key will not be stored correctly and you will get a **NullPointerException** error when you try to send a notification to FCM. If you get the **NullPointerException** error, please double-check the value of the **Encryption.EncryptionKey** constant, restart your app, and upload the private key again.
 {{% /alert %}}
 
-For more details, see [How to Set Up the Apple Push Notification Server](/howto7/mobile/setting-up-apple-push-notification-server/) and [How to Set Up the Firebase Cloud Messaging Server](/howto/mobile/setting-up-google-firebase-cloud-messaging-server/).
+For more details, see [How to Set Up the Apple Push Notification Server](/howto8/mobile/setting-up-apple-push-notification-server/) and [How to Set Up the Firebase Cloud Messaging Server](/howto8/mobile/setting-up-google-firebase-cloud-messaging-server/).
 
 ## 10 Building the Hybrid Mobile Application
 
-You now need to build the hybrid mobile application. For an explanation on how to do this, see [How to Publish a Mendix Hybrid Mobile App](/howto7/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/).
+You now need to build the hybrid mobile application. For an explanation on how to do this, see [How to Publish a Mendix Hybrid Mobile App](/howto8/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/).
 
 ## 11 Read More
 
 * [Microflows](/refguide8/microflows/)
-* [Test the Push Notifications Implementation](/howto7/mobile/testing-the-implementation/)
+* [Test the Push Notifications Implementation](/howto8/mobile/testing-the-implementation/)

@@ -62,20 +62,20 @@ The Native Mobile Builder simplifies the process of adding any capabilities to y
 
 1.  Click **App** > **Build Native Mobile App**:
 
-	{{% image_container width="350" %}}![Start Mendix Native Mobiler Builder](/attachments/howto/mobile//native-mobile/implementation/notifications/setting-up-native-push-notifications/start-nbui.png){{% /image_container %}}
+	{{% image_container width="350" %}}![Start Mendix Native Mobiler Builder](/attachments/howto/mobile/native-mobile/implementation/notifications/setting-up-native-push-notifications/start-nbui.png){{% /image_container %}}
 
 1.  When the Mendix Native Mobile Builder launches you will see the home screen:
 
-	{{% image_container width="350" %}}![Mendix Natve Mobile Builder Home Screen](/attachments/howto/mobile//native-mobile/implementation/notifications/setting-up-native-push-notifications/home-screen.png){{% /image_container %}}
+	{{% image_container width="350" %}}![Mendix Natve Mobile Builder Home Screen](/attachments/howto/mobile/native-mobile/implementation/notifications/setting-up-native-push-notifications/home-screen.png){{% /image_container %}}
 
 1. Select **Build app for distribution**.
 1.  Click **Capabilities** on the left menu:
 
-	{{% image_container width="350" %}}![Mendix Natve Mobile Builder Capabilities Screen](/attachments/howto/mobile//native-mobile/implementation/notifications/setting-up-native-push-notifications/advanced-capabilities.png){{% /image_container %}}
+	{{% image_container width="350" %}}![Mendix Natve Mobile Builder Capabilities Screen](/attachments/howto/mobile/native-mobile/implementation/notifications/setting-up-native-push-notifications/advanced-capabilities.png){{% /image_container %}}
 
 1.  Toggle **Push notifications** on:
 
-	{{% image_container width="350" %}}![Mendix Natve Mobile Builder Capabilities Screen](/attachments/howto/mobile//native-mobile/implementation/notifications/setting-up-native-push-notifications/advanced-capabilities-push-notifications.png){{% /image_container %}}
+	{{% image_container width="350" %}}![Mendix Natve Mobile Builder Capabilities Screen](/attachments/howto/mobile/native-mobile/implementation/notifications/setting-up-native-push-notifications/advanced-capabilities-push-notifications.png){{% /image_container %}}
 
 1. Click **Upload google-service.json file**. Navigate to where you saved your app's **google-services.json** file and select it. The tool will verify that the required app id is included in *json* file and will notify you if otherwise. That is to prevent you using the wrong configuration files, which would result in push notifications not working. 
 

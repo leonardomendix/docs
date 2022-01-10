@@ -166,4 +166,4 @@ You can now preview your app and test your page. For more information on how to 
 
 You can also work on the page details, for example, add a dynamic image to the inspection report list to display a unique company logo next to its name. For more information on dynamic images, see [Images & Files](/studio/page-editor-widgets-images-and-files/). 
 
-You can also add new functionality. For example, you can enable inspectors to attach images to their reports. For more information, see .
+You can also add new functionality. For example, you can enable inspectors to attach images to their reports. For more information, see [How to Enable End-Users to Attach Images](/studio-how-to/pages-how-to-attach-images/).

@@ -66,7 +66,7 @@ The green part (apps) is basically the JVM in which the Mendix application is ru
 
 ## 3 Read More
 
-* [Transient Objects & Garbage Collecting](/refguide/transient-objects-garbage-collecting/)
-* [Java Memory Usage](/refguide/java-memory-usage/)
-* [Common Runtime & Java Errors](/refguide/runtime-java-errors/)
+* [Transient Objects & Garbage Collecting](/refguide7/transient-objects-garbage-collecting/)
+* [Java Memory Usage](/refguide7/java-memory-usage/)
+* [Common Runtime & Java Errors](/refguide7/runtime-java-errors/)
 

@@ -7,7 +7,7 @@ parent: "document-templates"
 
 {{% alert type="warning" %}}
 
-This document describes the properties of a document template. If you want to see what document templates are for and what kind of widgets can be placed on them, you can check the [Document Templates](/refguide/document-templates/) overview documentation.
+This document describes the properties of a document template. If you want to see what document templates are for and what kind of widgets can be placed on them, you can check the [Document Templates](/refguide7/document-templates/) overview documentation.
 
 {{% /alert %}}
 
@@ -53,7 +53,7 @@ Indicates whether the page has a footer that is displayed on each page (except o
 
 ## Style
 
-See [Style](/refguide/style/).
+See [Style](/refguide7/style/).
 
 ## Common Properties
 

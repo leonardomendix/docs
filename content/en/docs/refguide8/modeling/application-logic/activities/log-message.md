@@ -42,7 +42,7 @@ You can also open the dialog box by double-clicking the activity in the microflo
 
 ### 3.3 Log Level
 
-The log level defines the severity of the log message. In the [Studio Pro Console pane](/refguide/view-menu/#console), messages have a different color and an icon for some log levels.
+The log level defines the severity of the log message. In the [Studio Pro Console pane](/refguide8/view-menu/#console), messages have a different color and an icon for some log levels.
 
 | Option | Icon | Description |
 | --- | --- | --- |
@@ -59,12 +59,12 @@ The log level defines the severity of the log message. In the [Studio Pro Consol
 This property is only available in microflows.
 {{% /alert %}}
 
-The log node name is a microflow expression that defines the source of the log message. For example, if you log messages from an email module, the log node name could be *Email module*. Use your own log node names as this avoids confusion with messages from the Mendix runtime which are written to the Mendix log nodes. The Mendix log nodes are listed in the [Default Mendix Log Nodes](/refguide/logging/#mendix-nodes) section of *Logging*.
+The log node name is a microflow expression that defines the source of the log message. For example, if you log messages from an email module, the log node name could be *Email module*. Use your own log node names as this avoids confusion with messages from the Mendix runtime which are written to the Mendix log nodes. The Mendix log nodes are listed in the [Default Mendix Log Nodes](/refguide8/logging/#mendix-nodes) section of *Logging*.
 
 {{% alert type="info" %}}
-It is advised to use a [constant](/refguide/constants/) for the log node name. This prevents errors when entering the node name and makes it easier to change the log node name afterwards.
+It is advised to use a [constant](/refguide8/constants/) for the log node name. This prevents errors when entering the node name and makes it easier to change the log node name afterwards.
 
-You can only set custom [log node levels](/developerportal/deploy/environments-details/#log-levels) for the environment if your app has posted a message to that log node. It is therefore recommended that you send an initial message to all your custom log nodes in an [after startup microflow](/refguide/project-settings/#after-startup).
+You can only set custom [log node levels](/developerportal/deploy/environments-details/#log-levels) for the environment if your app has posted a message to that log node. It is therefore recommended that you send an initial message to all your custom log nodes in an [after startup microflow](/refguide8/project-settings/#after-startup).
 {{% /alert %}}
 
 ### 3.3 Template
@@ -73,7 +73,7 @@ A **Template** defines the message text. The template can contain parameters tha
 
 ### 3.4 Parameters
 
-For each parameter in the template you define a microflow expression of which the value will be inserted at the position of the parameter. Parameters need to be entered using [expressions](/refguide/expressions/) resulting in a string.
+For each parameter in the template you define a microflow expression of which the value will be inserted at the position of the parameter. Parameters need to be entered using [expressions](/refguide8/expressions/) resulting in a string.
 
 {{% alert type="info" %}}
 

@@ -94,5 +94,5 @@ The placeholder text is shown when no text has been entered yet. It can be used 
 
 ## Read More
 
-*   [Data view](/refguide/data-view/)
-*   [Attributes](/refguide/attributes/)
+*   [Data view](/refguide7/data-view/)
+*   [Attributes](/refguide7/attributes/)

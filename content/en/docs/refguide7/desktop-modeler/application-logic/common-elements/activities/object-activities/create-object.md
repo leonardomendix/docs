@@ -10,7 +10,7 @@ The Create object action can be used to create an object.
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -26,8 +26,8 @@ The **Commit type** defines the way the object is committed.
 
 | Option | Description |
 | --- | --- |
-| Yes with event handlers | The object is saved in the database and the [event handlers](/refguide/event-handlers/) are triggered. |
-| Yes without event handlers | The object is saved in the database, but the [event handlers](/refguide/event-handlers/) are not triggered. |
+| Yes with event handlers | The object is saved in the database and the [event handlers](/refguide7/event-handlers/) are triggered. |
+| Yes without event handlers | The object is saved in the database, but the [event handlers](/refguide7/event-handlers/) are not triggered. |
 | No | The object is changed without being saved in the database. |
 
 {{% alert type="warning" %}}
@@ -40,11 +40,11 @@ _Default value:_ No
 
 ### 2.3 Refresh in Client
 
-If the microflow is called from the client, [data sources](/refguide/data-sources/) do not reload, unless **Refresh in client** is set to *Yes*.
+If the microflow is called from the client, [data sources](/refguide7/data-sources/) do not reload, unless **Refresh in client** is set to *Yes*.
 
 {{% alert type="warning" %}}
 
-When inside a [nanoflow](/refguide/nanoflows/), the Create object action reloads [data sources](/refguide/data-sources/) as if Refresh in client was set to *Yes*.
+When inside a [nanoflow](/refguide7/nanoflows/), the Create object action reloads [data sources](/refguide7/data-sources/) as if Refresh in client was set to *Yes*.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ _Default value_: No
 
 ### 2.3 Initialize Members
 
-You can initialize members of the newly created object. Values for members are specified with an [expression](/refguide/expressions/) and should be of the same type as the member.
+You can initialize members of the newly created object. Values for members are specified with an [expression](/refguide7/expressions/) and should be of the same type as the member.
 
 ## 3 Output Properties
 

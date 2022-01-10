@@ -18,8 +18,8 @@ With Mendix, you can generate documents in different ways. Here, you will learn 
 
 Before we start, we recommend you first read the following two pages:
 
-* [Document Templates](/refguide/document-templates/)
-* [Generate Documents](/refguide/generate-document/)
+* [Document Templates](/refguide8/document-templates/)
+* [Generate Documents](/refguide8/generate-document/)
 
 ## 2 Knowing Your Document
 

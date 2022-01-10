@@ -6,6 +6,6 @@ parent: "integration-activities"
 
 {{% alert type="warning" %}}
 
-Please see [Import Mapping Action](/refguide/import-mapping-action/) for details on importing XML.
+Please see [Import Mapping Action](/refguide7/import-mapping-action/) for details on importing XML.
 
 {{% /alert %}}

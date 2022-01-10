@@ -22,7 +22,7 @@ This guide covers the following widgets:
 * Time series
   * Note that some apps may have two *Time series* widgets. This document refers to the one with this icon: ![Image of correct Time series widget](/attachments/refguide7/desktop-modeler/pages/chart-widgets/charts-configuration/time-series-icon.png)
 
-The configuration of *Any chart* widgets is in another document, here: [Any Chart Widgets](/refguide/charts-any-configuration/).
+The configuration of *Any chart* widgets is in another document, here: [Any Chart Widgets](/refguide7/charts-any-configuration/).
 
 ## 2 Common configuration
 
@@ -192,17 +192,17 @@ See the following link for more information about plotly.js and the options: htt
     ![](/attachments/refguide7/desktop-modeler/pages/chart-widgets/charts-configuration/toggle-editor.png)
 
 * **Layout options**: The JSON containing the Plotly layout options
-  * [Samples](/refguide/charts-advanced-cheat-sheet/#layout-all)
+  * [Samples](/refguide7/charts-advanced-cheat-sheet/#layout-all)
   * [Full reference](https://plot.ly/javascript/reference/#layout)
 
 * **Configuration options**: The JSON containing the Plotly configuration options
-  * [Samples](/refguide/charts-advanced-cheat-sheet/#config-options)
+  * [Samples](/refguide7/charts-advanced-cheat-sheet/#config-options)
   * [Documentation](https://plot.ly/javascript/configuration-options/)
   * [Full reference](https://github.com/plotly/plotly.js/blob/master/src/plot_api/plot_config.js)
 
 #### 2.1.5 Common
 
-These are properties which are common to many widgets. For information see [Common Widget Properties](/refguide/common-widget-properties/#common-properties).
+These are properties which are common to many widgets. For information see [Common Widget Properties](/refguide7/common-widget-properties/#common-properties).
 
 ## 3 Configuration by Chart Type {#configuration-by-chart-type}
 

@@ -39,7 +39,7 @@ With this property you can change the number of containers that will be shown in
 
 ## Data source properties
 
-The data source determines which objects will be shown in the list view. For general information about data sources, see [Data Sources](/refguide/data-sources/).
+The data source determines which objects will be shown in the list view. For general information about data sources, see [Data Sources](/refguide7/data-sources/).
 
 ### Type
 
@@ -49,10 +49,10 @@ The list view supports the following types of data sources: database source, XPa
 
 See the corresponding data source for its properties:
 
-*   [Database source](/refguide/database-source/)
-*   [XPath source](/refguide/xpath-source/)
-*   [Microflow source](/refguide/microflow-source/)
-*   [Association source](/refguide/association-source/)
+*   [Database source](/refguide7/database-source/)
+*   [XPath source](/refguide7/xpath-source/)
+*   [Microflow source](/refguide7/microflow-source/)
+*   [Association source](/refguide7/association-source/)
 
 ## Templates properties
 

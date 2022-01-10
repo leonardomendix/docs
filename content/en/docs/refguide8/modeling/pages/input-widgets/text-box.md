@@ -13,7 +13,7 @@ tags: ["studio pro", "data"]
 
 ## 1 Introduction
 
-A text box is used to display and, optionally, allow the end-user to edit the value of an attribute from an object in a textual form. It can be used to display attributes of the following [data types](/refguide/data-types/):
+A text box is used to display and, optionally, allow the end-user to edit the value of an attribute from an object in a textual form. It can be used to display attributes of the following [data types](/refguide8/data-types/):
 
 * Autonumber
 * Decimal
@@ -22,7 +22,7 @@ A text box is used to display and, optionally, allow the end-user to edit the va
 * Long
 * String
 
-A text box must be placed in a [data widget](/appstore/modules/data-widgets/) and displays an attribute of the object(s) retrieved by that widget. The name of the attribute to be displayed is shown inside the text box, between square brackets, and colored blue.
+A text box must be placed in a [data widget](/refguide8/data-widgets/) and displays an attribute of the object(s) retrieved by that widget. The name of the attribute to be displayed is shown inside the text box, between square brackets, and colored blue.
 
 For example, the following text box allows the end-user to see, and set, the **Name** of a customer.
 
@@ -196,6 +196,6 @@ It can be used, for example, to give a hint to the end-user what kind of text sh
 
 ## 3 Read More
 
-* [Data Types](/refguide/data-types/)  
-* [Data View](/refguide/data-view/)
-* [Attributes](/refguide/attributes/)
+* [Data Types](/refguide8/data-types/)  
+* [Data View](/refguide8/data-view/)
+* [Attributes](/refguide8/attributes/)

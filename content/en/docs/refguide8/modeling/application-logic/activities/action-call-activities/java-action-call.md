@@ -17,7 +17,7 @@ This activity can only be used in **Microflows**.
 
 ## 1 Introduction
 
-The **Java action call** activity can be used to call a [Java action](/refguide/java-actions/). 
+The **Java action call** activity can be used to call a [Java action](/refguide8/java-actions/). 
 
 {{% image_container width="200" %}}
 
@@ -56,7 +56,7 @@ Click **Edit** next to the parameter to fill in the arguments.
 
 An argument is the input data that you are passing to the Java action. For each Java action parameter, you must supply an argument of the same type. 
 
-The values of the arguments are defined using [expressions](/refguide/expressions/):
+The values of the arguments are defined using [expressions](/refguide8/expressions/):
 
 ![argument](/attachments/refguide8/modeling/application-logic/activities/action-call-activities/java-action-call/argument-edit.png)
 

@@ -15,7 +15,7 @@ With Mendix 8, you have the capacity to alter design properties with Mendix Stud
 ## 2 Prerequisites 
 
 * Install an integrated development environment (IDE) of your choice (Mendix recommends [Microsoft Visual Studio Code](https://code.visualstudio.com/))
-* Create a Mendix app based on the Blank Native Mobile App template by following the [Creating a New App Based on the Quickstart App](/howto/mobile/getting-started-with-native-mobile/#quickstartapp) section of *Get Started with Native Mobile*
+* Create a Mendix app based on the Blank Native Mobile App template by following the [Creating a New App Based on the Quickstart App](/howto8/mobile/getting-started-with-native-mobile/#quickstartapp) section of *Get Started with Native Mobile*
 * Download the Make It Native 8 app on your mobile device via either the [Google Play](https://play.google.com/store/apps/details?id=com.mendix.developerapp) store or the [Apple App Store](https://apps.apple.com/us/app/make-it-native/id1334081181) so you can text your app and see your styling changes
 
 ### 3 Customizing the Quickstart App
@@ -32,7 +32,7 @@ These resources let you style your app with a wide variety of interface parts. H
 1. On your **Home_Native** home page, delete the **Intro screen** content.
 1.  Place a button widget on your app's home page:
 
-	![button](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/button-one.png)
+	![button](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/button-one.png)
 
 2.  Click **Run Locally** and then click **View** to see your app. The button will be blue with white text, which is its default styling.
 3. Open *theme/styles/native/app/custom-variables.js* using your IDE of choice.
@@ -51,7 +51,7 @@ These resources let you style your app with a wide variety of interface parts. H
 5. Save your file.
 6.  Click **Run Locally** to apply your changes:
 
-	![rosybrown button](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/brand-primary-rosybrown.png)
+	![rosybrown button](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/brand-primary-rosybrown.png)
 
 	You have successfully altered a default button to look rosy brown These screenshots employ the Make It Native app's [Dark Mode](/releasenotes/mobile/make-it-native-app/#new-features-5).
 
@@ -64,11 +64,11 @@ Classes are groups of styling properties which define how certain elements of yo
 3. Select the button widget, and then click the **Properties** panel. Under **Common** you will see the button's **Class** field.
 4.  Type *btnSuccess* into the **Class** field:
 
-	![class field](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/btn-success.png)
+	![class field](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/btn-success.png)
 
 5.  Click **Run Locally** to save and refresh your app. Notice the button turned green:
 
-	![green button](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/green-button.png)
+	![green button](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/green-button.png)
 	
 	You have successfully applied an Atlas-provided class to a button widget.
 
@@ -80,11 +80,11 @@ Design properties are easy-to-use classes in Mendix Studio Pro which you do not 
 2. Select the button, and find its **Design Properties** in the **Properties** panel.
 3.  Click the **Button style** drop-down arrow and select **Warning**.
 
-	![warning button](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/btn-warning.png)
+	![warning button](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/btn-warning.png)
 
 4.  Run your app again to see the *design* button's new color:
 
-	![orange button](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/orange-button.png)
+	![orange button](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/orange-button.png)
 
 	Using design properties, you have changed the blue default button widget to orange. For any other warning buttons, you could easily apply the same design property.
 
@@ -141,7 +141,7 @@ When you have specific design requirements, you will need to build custom classe
 9. In Mendix Studio Pro, select your fourth button. In the **Properties** panel, type *btnBordered* into the **Class** field.
 10.  Click **Run Locally** to see that your button's background color is transparent:
 
-	![bordered button](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/bordered-button.png)
+	![bordered button](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/bordered-button.png)
 	
 	You have successfully customized a simple button widget. Using these basic principles, you can go on to customize widgets with distinct looks.
 
@@ -165,13 +165,13 @@ In this section you will learn to turn the class you made into a design property
 4. In Mendix Studio Pro, press <kbd>F4</kbd> to synchronize your project directory.
 5.  Select the fifth button. In **Properties** > **Design Properties**, your **Bordered** design property should now be visible:
 
-	![bordered design property](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/bordered-design-property.png)
+	![bordered design property](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/bordered-design-property.png)
 
 6.  Enable the **Bordered** design property by clicking its drop-down menu and selecting **Yes**.
 
 7.  Click **Run Locally** again and view your app:
 
-	![design properties border](/attachments/howto8/mobile//native-mobile/native-styling/how-to-use-native-styling/design-property-border-button.png)
+	![design properties border](/attachments/howto8/mobile/native-mobile/native-styling/how-to-use-native-styling/design-property-border-button.png)
 
 	You have implemented your own custom design property. Other users can quickly harness your design property without having to consult a class name list.
 
@@ -179,7 +179,7 @@ Congratulations! By completing this how-to, you have learned how to alter a styl
 
 ## 8 Read More
 
-* [How to Implement Native Mobile Styling](/howto/mobile/native-styling/)
+* [How to Implement Native Mobile Styling](/howto8/mobile/native-styling/)
 * [Native Mobile Styling Reference Guide](/refguide8/native-styling-refguide/)
 * [Mendix Atlas UI](/howto8/front-end/atlas-ui/)
-* [How to Get Started with Native Mobile](/howto/mobile/getting-started-with-native-mobile/)
+* [How to Get Started with Native Mobile](/howto8/mobile/getting-started-with-native-mobile/)

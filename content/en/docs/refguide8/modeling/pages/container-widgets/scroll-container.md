@@ -98,7 +98,7 @@ Default: *Center*
 Regions define the content area of a scroll container. For more information see the [Scroll Container Region](#scroll-container-region) section.
 
 {{% alert type="info" %}}
-If you add regions in a [layout](/refguide/layout/), they will automatically be filled with [placeholders](/refguide/placeholder/).
+If you add regions in a [layout](/refguide8/layout/), they will automatically be filled with [placeholders](/refguide8/placeholder/).
 {{% /alert %}}
 
 #### 2.4.1 Enable Top
@@ -150,7 +150,7 @@ A scroll container region has the following properties in the **General** sectio
 
 ##### 3.1.2.2 Toggle Mode (Layouts Only)
 
-One (left or right) scroll container region within a layout can be set to toggle using a [sidebar toggle button](/refguide/sidebar-toggle-button/). This setting determines which region (here called a sidebar) will be toggled, and how the toggling is implemented.
+One (left or right) scroll container region within a layout can be set to toggle using a [sidebar toggle button](/refguide8/sidebar-toggle-button/). This setting determines which region (here called a sidebar) will be toggled, and how the toggling is implemented.
 
 | Mode | Effect |
 | --- | --- |
@@ -162,6 +162,6 @@ One (left or right) scroll container region within a layout can be set to toggle
 
 ## 4 Read More
 
-* [Page](/refguide/page/)
-* [Container Widgets](/refguide7/container-widgets/)
-* [Properties Common in the Page Editor](/refguide/common-widget-properties/)
+* [Page](/refguide8/page/)
+* [Container Widgets](/refguide8/container-widgets/)
+* [Properties Common in the Page Editor](/refguide8/common-widget-properties/)

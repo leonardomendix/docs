@@ -13,7 +13,7 @@ With this action you can show a page to the end user.
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -21,13 +21,13 @@ See [Microflow Element Common Properties](/refguide/microflow-element-common-pro
 
 ### 2.1 Object to pass
 
-Object that will be passed to the opened page. This object will be used by [data views](/refguide/data-view/) with a page parameter data source.
+Object that will be passed to the opened page. This object will be used by [data views](/refguide7/data-view/) with a page parameter data source.
 
 ## 3 Action Properties
 
 ### 3.1 Page
 
-The [page](/refguide/page/) to show to the end user. If the Object to pass is specified, the page must contain a data view connected to the same entity as the passed object (or its generalization).
+The [page](/refguide7/page/) to show to the end user. If the Object to pass is specified, the page must contain a data view connected to the same entity as the passed object (or its generalization).
 
 {{% alert type="success" %}}
 

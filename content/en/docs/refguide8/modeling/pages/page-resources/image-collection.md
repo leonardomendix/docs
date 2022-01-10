@@ -15,7 +15,7 @@ tags: ["Studio Pro", "Images", "Image Collection"]
 
 If you want to use your own static images within an application, for example for branding or to give your buttons a unique feel, you will need to store them in your app. To do this, you create an **image collection** where you can store your images.
 
-For information on how to use images in your app, see [Images](/refguide/images/).
+For information on how to use images in your app, see [Images](/refguide8/images/).
 
 Remember that, if you want to use the same set of custom images in several apps, you can export and import complete image collections, with their images, using [Import & Export Objects](/howto8/integration/importing-and-exporting-objects/).
 

@@ -28,11 +28,11 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 The [Push Notifications Connector module](/appstore/modules/push-notifications/) is published in the Mendix Marketplace. To import it into your app, click the Marketplace icon in the top right of Modeler, which will open the Marketplace in a new tab. Search for "Push Notifications Connector" and click the title of the result:
 
-![](/attachments/howto7/mobile//push-notifications/implementation-guide/20218020.png)
+![](/attachments/howto7/mobile/push-notifications/implementation-guide/20218020.png)
 
 On the resulting page, click the green **Download** button. Make sure that **Add as a new module** is selected, and then click **Import**:
 
-![](/attachments/howto7/mobile//push-notifications/implementation-guide/20217885.jpg)
+![](/attachments/howto7/mobile/push-notifications/implementation-guide/20217885.jpg)
 
 {{% alert type="warning" %}}
 The Push Notifications Connector assumes that the mobile app and the back-end part will reside in the same app.
@@ -51,7 +51,7 @@ To include these dependencies, download them from the Marketplace in a way simil
 
 If your app is using an older version of the [Encryption](/appstore/modules/encryption/) module, it might trigger an error for referencing a non-existent layout. You can fix this by assigning the master layout of the **Encryption.ResponsiveLayout_Certificate** layout to another layout (please note that in this specific use case, it is not important which layout is used). This does not apply to version 1.3.1 and above.
 
-![](/attachments/howto7/mobile//push-notifications/implementation-guide/20217886.jpg)
+![](/attachments/howto7/mobile/push-notifications/implementation-guide/20217886.jpg)
 
 {{% /alert %}}
 
@@ -69,7 +69,7 @@ Please do not remove the button with the caption **Device Registration reference
 
 {{% /alert %}}
 
-![](/attachments/howto7/mobile//push-notifications/implementation-guide/20217888.jpg)
+![](/attachments/howto7/mobile/push-notifications/implementation-guide/20217888.jpg)
 
 ## 6 Starting Connectors from Your After-Startup Microflow
 
@@ -77,7 +77,7 @@ The PushNotifications module contains a microflow named **AfterStartup_PushNotif
 
 If your app already has a microflow set to execute after startup, we suggest to change your startup microflow to a new microflow, from where you call both after startup microflows. Reference the microflow below:
 
-![](/attachments/howto7/mobile//push-notifications/implementation-guide/after-startup-microflow.png)
+![](/attachments/howto7/mobile/push-notifications/implementation-guide/after-startup-microflow.png)
 
 
 ## 7 Setting Up the Administration Pages {#setting}
@@ -100,7 +100,7 @@ On the **User roles** tab of the **Project Security** dialog box, include the fo
 * The **PushNotifications.User** role as part of the main **User** role
 * The **PushNotifications.Anonymous** role role as part of the main **Anonymous** role (if your application allows anonymous users)
 
-![](/attachments/howto7/mobile//push-notifications/implementation-guide/21168173.png)
+![](/attachments/howto7/mobile/push-notifications/implementation-guide/21168173.png)
 
 ## 9 Deploying Your App
 
@@ -116,7 +116,7 @@ Make sure that the `Encryption.EncryptionKey` constant has a value before you st
 
 Set up access to APNs or FCM and configure them in your application. Please note that starting with FCM is recommended, because it is significantly less complicated than setting up APNs. You can return to this step later on to set up APNs.
 
-For more details, see [How to Set Up the Apple Push Notification Server](/howto7/mobile/setting-up-apple-push-notification-server/) and [How to Set Up the Firebase Cloud Messaging Server](/howto/mobile/setting-up-google-firebase-cloud-messaging-server/).
+For more details, see [How to Set Up the Apple Push Notification Server](/howto7/mobile/setting-up-apple-push-notification-server/) and [How to Set Up the Firebase Cloud Messaging Server](/howto7/mobile/setting-up-google-firebase-cloud-messaging-server/).
 
 ## 11 Building the Hybrid Mobile Application
 

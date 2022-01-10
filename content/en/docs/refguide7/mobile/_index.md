@@ -10,15 +10,15 @@ Mendix allows you to quickly build apps for mobile devices. This document gives 
 
 ## 2 Navigation
 
-Every app starts at the home page. You can specify different home pages for phones and tablets in the [Navigation](/refguide/navigation/) document. The mobile profiles can be added and removed separately. If you add a profile, you also have to provide its home page. Apart from the home page, different home page for different user roles can be specified. In addition, there is a default menu that can be used in [menu widgets](/refguide/menu-widgets/).
+Every app starts at the home page. You can specify different home pages for phones and tablets in the [Navigation](/refguide7/navigation/) document. The mobile profiles can be added and removed separately. If you add a profile, you also have to provide its home page. Apart from the home page, different home page for different user roles can be specified. In addition, there is a default menu that can be used in [menu widgets](/refguide7/menu-widgets/).
 
 ![](/attachments/refguide7/mobile/18582284.png)
 
 ## 3 Layout
 
-In theory, you can show the whole desktop site on mobile devices, but you probably want to have optimized pages with simpler layouts and less information. [Layouts](/refguide/layout/) help you to create pages that suit a device.
+In theory, you can show the whole desktop site on mobile devices, but you probably want to have optimized pages with simpler layouts and less information. [Layouts](/refguide7/layout/) help you to create pages that suit a device.
 
-For mobile devices, you might want to have a layout that hides the menu in a collapsible [sidebar](/refguide/sidebar-toggle-button/).
+For mobile devices, you might want to have a layout that hides the menu in a collapsible [sidebar](/refguide7/sidebar-toggle-button/).
 
 You will need at least one layout per supported device type (desktop, tablet, phone) to optimize your app, but you can create as many as you like.
 
@@ -26,7 +26,7 @@ You will need at least one layout per supported device type (desktop, tablet, ph
 
 ## 4 Widgets
 
-Some widgets are more suitable to mobile use than others. For example, the [data grid](/refguide/data-grid/) is not very well suited because of its reliance on multiple columns and multiple search fields. The [list view](/refguide/list-view/) is a simpler, more compact widget for showing a list of objects. [Data views](/refguide/data-view/) lend themselves equally to mobile and desktop usage, but of course this depends on all the widgets you place inside. Some custom widgets can only be used in hybrid mobile apps, because they access native features of the device.
+Some widgets are more suitable to mobile use than others. For example, the [data grid](/refguide7/data-grid/) is not very well suited because of its reliance on multiple columns and multiple search fields. The [list view](/refguide7/list-view/) is a simpler, more compact widget for showing a list of objects. [Data views](/refguide7/data-view/) lend themselves equally to mobile and desktop usage, but of course this depends on all the widgets you place inside. Some custom widgets can only be used in hybrid mobile apps, because they access native features of the device.
 
 ## 5 Hybrid Mobile Apps
 
@@ -50,5 +50,5 @@ Separate profiles are available for building [offline apps](/refguide7/offline/)
 * [Customizing Hybrid Mobile Apps](/refguide7/customizing-hybrid-mobile-apps/)
 * [Developing Hybrid Mobile Apps](/refguide7/developing-hybrid-mobile-apps/)
 * [Getting the Mendix Mobile App](/refguide7/getting-the-mendix-app/)
-* [Managing App Signing Keys](/refguide/managing-app-signing-keys/)
+* [Managing App Signing Keys](/refguide7/managing-app-signing-keys/)
 * [Packaging Hybrid Mobile Apps](/refguide7/packaging-hybrid-mobile-apps/)

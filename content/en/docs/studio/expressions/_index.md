@@ -17,14 +17,14 @@ You can use expressions for workflows, pages, and microflows. The expressions ar
 
 You can use expressions for the following elements in a workflow:
 
-* 
-* **Due date** property of a  and a 
+* [Decision](/studio/workflows-general-activities/)
+* **Due date** property of a [workflow](/studio/workflow-properties/) and a [user task](/studio/workflows-user-task/)
 
 Expressions can be used in the following properties on a page:
 
 * Conditional editability of a widget
 * Conditional visibility of a widget
-* **Content** property of a 
+* **Content** property of a [text widget](/studio/page-editor-widgets-text/)
 
 Expressions can be used for the following activities in a microflow: 
 
@@ -32,10 +32,10 @@ Expressions can be used for the following activities in a microflow:
 *  Change Variable
 *  Create Object
 *  Create Variable
-*  
+*  [Decision](/studio/microflows-decision/)
 *  End Event
 
-For more information on setting and changing values for microflow activities, see .
+For more information on setting and changing values for microflow activities, see [Set & Change a Value for Different Activities in the Microflows](/studio/microflows-setting-and-changing-value/).
 
 ## 2 Writing an Expression
 
@@ -56,7 +56,7 @@ You cannot type plain text in an expression, text needs the be written with sing
 You can use a list of suggestions to help you write an expression. Use <kbd>Ctrl</kbd> + <kbd>Space</kbd> shortcut to display this list. Suggestions can be divided into the following categories:
 
 * **Variables and their attributes** – variables or attributes that are available in a current microflow, on a page, or in a workflow
-* **Enumeration values** – values of  that can be used in an expression
+* **Enumeration values** – values of [enumeration type of attributes](/studio/domain-models-enumeration/) that can be used in an expression
 * **Functions** – operations you can use in an expression (for more information, see the [Expression Types](#expression-types) section below)
 * **Keywords** – key phrases or words that you can use in an expression (for example, `empty` – a value that can be used to check if a variable is empty)
 * **Booleans** – true or false keywords
@@ -73,7 +73,7 @@ Examples that illustrate how expressions can be used are described below.
 
 #### 2.3.1 Example 1
 
-You have a  in a microflow and you would like to write an expression that checks whether the customer grade is gold and the price of the order is more than 100 (you can configure a discount after the **Decision** that is allowed if this expression is true):
+You have a [Decision](/studio/microflows-decision/) in a microflow and you would like to write an expression that checks whether the customer grade is gold and the price of the order is more than 100 (you can configure a discount after the **Decision** that is allowed if this expression is true):
 
 ![](/attachments/studio/expressions/example-decision.png) 
 
@@ -83,13 +83,13 @@ The expression will look the following way:
 
 #### 2.3.2 Example 2
 
-You add a  to a microflow to check if an object (in the example below the object is *Customer*) exists. And you also check if the Customer's name matches a particular one (in the example below Customer's name is *Mendix*). The expression will look the following way:
+You add a [Decision](/studio/microflows-decision/) to a microflow to check if an object (in the example below the object is *Customer*) exists. And you also check if the Customer's name matches a particular one (in the example below Customer's name is *Mendix*). The expression will look the following way:
 
 ![](/attachments/studio/expressions/customer-empty-and-name-example.png)
 
 #### 2.3.3 Example 3
 
-You have a  in a workflow and would like to add a **Due Date** as a reminder that the user task should be done by the day after tomorrow. You can write the following expression for it:
+You have a [user task](/studio/workflows-user-task/) in a workflow and would like to add a **Due Date** as a reminder that the user task should be done by the day after tomorrow. You can write the following expression for it:
 
 ![User Task Expression](/attachments/studio/expressions/user-task-due-date.png)
 
@@ -183,7 +183,7 @@ The list of expressions that are used in Studio the most is represented below. F
 
 ## 4 Read More
 
-* 
-* 
-* 
+* [Microflows](/studio/microflows/)
+* [Workflows](/studio/workflows/)
+* [Set & Change a Value for Different Activities in the Microflows](/studio/microflows-setting-and-changing-value/)
 * [Expressions](/refguide/expressions/)

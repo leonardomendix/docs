@@ -12,9 +12,9 @@ tags: ["domain model", "association", "studio pro"]
 
 ## 1 Introduction
 
-There are two ways to edit the properties of an [association](/refguide/associations/). This document describes the properties you can edit from the **Associations** tab in the entity properties. If you want to edit the association as described in [Association Properties](/refguide/association-properties/), you can click **Edit** to open the association properties dialog.
+There are two ways to edit the properties of an [association](/refguide8/associations/). This document describes the properties you can edit from the **Associations** tab in the entity properties. If you want to edit the association as described in [Association Properties](/refguide8/association-properties/), you can click **Edit** to open the association properties dialog.
 
-For more information on associations, see [Associations](/refguide/associations/). 
+For more information on associations, see [Associations](/refguide8/associations/). 
 
 ## 2 Properties
 
@@ -36,7 +36,7 @@ You can sort the list of associations by any of these properties (ascending or d
 The name of the association is used to refer to it. For example, in forms or microflows.
 
 {{% alert type="info" %}}
-You cannot change this name in the association tab. To change the name, click **Edit** (or double-click the association name) to open the [Association Properties](/refguide/association-properties/).
+You cannot change this name in the association tab. To change the name, click **Edit** (or double-click the association name) to open the [Association Properties](/refguide8/association-properties/).
 {{% /alert %}}
 
 ### 2.2 Type {#type}
@@ -78,7 +78,7 @@ So, for a one-to-many association the *many* end owns the association to ensure 
 
 #### 2.3.2 Association Recording
 
-An association is recorded in the object which owns it. If both objects own the association, then the association is recorded with both objects. You can see examples of where the associations are recorded in the [Association Examples](/refguide/associations/#examples) section of *Associations*.
+An association is recorded in the object which owns it. If both objects own the association, then the association is recorded with both objects. You can see examples of where the associations are recorded in the [Association Examples](/refguide8/associations/#examples) section of *Associations*.
 
 Where the association is recorded has an important impact on the user of reference and reference set selectors in your app. The selector can only be inside a data view containing the _owning_ object. This is because it is only when you commit the owning object that the association is recorded.
 
@@ -94,7 +94,7 @@ Recording the association on only one of the entities does not affect your abili
 
 ### 2.4 Type & Owner Relationship with Multiplicity & Navigability {#types}
 
-**Type** and **Owner** properties of an entity are related to [Multiplicity](/refguide/association-properties/#multiplicity) and [Navigability](/refguide/association-properties/#navigability) properties of an association. When you change **Type** or **Owner**, you change **Multiplicity** and **Navigability** as well. 
+**Type** and **Owner** properties of an entity are related to [Multiplicity](/refguide8/association-properties/#multiplicity) and [Navigability](/refguide8/association-properties/#navigability) properties of an association. When you change **Type** or **Owner**, you change **Multiplicity** and **Navigability** as well. 
 
 You can find the correspondence between **Type**/**Owner** and **Multiplicity**/**Navigability** in the table below.
 
@@ -105,7 +105,7 @@ You can find the correspondence between **Type**/**Owner** and **Multiplicity**/
 | Many-to-many     | X objects refer to Y objects | Reference set | Default |
 | Many-to-many     | X and Y objects refer to each other | Reference set | Both    |
 
-For more information on multiplicity and navigability, see the [Multiplicity](/refguide/association-properties/#multiplicity) and [Navigability](/refguide/association-properties/#navigability) sections in *Association Properties*.
+For more information on multiplicity and navigability, see the [Multiplicity](/refguide8/association-properties/#multiplicity) and [Navigability](/refguide8/association-properties/#navigability) sections in *Association Properties*.
 
 ## 3 Parent/Child {#parent-child}
 
@@ -113,5 +113,5 @@ Parent and child settings show you the direction of the association. Parent defi
 
 ## 4 Read More
 
-* [Association Properties](/refguide/association-properties/)
-* [Entities](/refguide/entities/)
+* [Association Properties](/refguide8/association-properties/)
+* [Entities](/refguide8/entities/)

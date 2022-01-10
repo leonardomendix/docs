@@ -54,7 +54,7 @@ For more information on contributing to this repository, see [How to Contribute 
 ## 7 Documents in This Section
 
 * [How to Implement Push Notifications](/howto7/mobile/implementation-guide/)
-* [How to Send Push Notifications](/howto/mobile/sending-push-notifications/)
-* [How to Set Up the Firebase Cloud Messaging Server](/howto/mobile/setting-up-google-firebase-cloud-messaging-server/)
+* [How to Send Push Notifications](/howto7/mobile/sending-push-notifications/)
+* [How to Set Up the Firebase Cloud Messaging Server](/howto7/mobile/setting-up-google-firebase-cloud-messaging-server/)
 * [How to Set Up the Apple Push Notification Server](/howto7/mobile/setting-up-apple-push-notification-server/)
 * [How to Test the Push Notifications Implementation](/howto7/mobile/testing-the-implementation/)

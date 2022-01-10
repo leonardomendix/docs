@@ -44,7 +44,7 @@ You have the following user roles:
 
 ![User Roles](/attachments/studio-how-to/pages/pages-how-to-set-visibility/user-roles.png)
 
-For more information on how to enable security and configure user roles, see .
+For more information on how to enable security and configure user roles, see [How to Secure Your App and Configure Access to Its Functionality](/studio-how-to/security-how-to-configure-roles/).
 
 ## 2 Prerequisites
 
@@ -52,7 +52,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Familiarize yourself with page terms and how to perform basic functions on pages. For more information, see [Pages](/studio/page-editor/). 
 * Familiarize yourself with conditional visibility. For more information, see [Conditional Visibility Section](/studio/page-editor-widgets-visibility-section/).
-* Enable security and add user roles to your app. For more information, see .
+* Enable security and add user roles to your app. For more information, see [How to Secure Your App and Configure Access to Its Functionality](/studio-how-to/security-how-to-configure-roles/).
 * Familiarize yourself with the domain model terms and learn how to perform basic functions. For more information, see [Domain Model](/studio/domain-models/).
 
 ## 3 Setting Condition for a Billing Address
@@ -88,7 +88,7 @@ Good job! If you [preview your app](/studio/publishing-app/), you will see that 
 
 ## 4 Showing an Element to Certain User Roles Only
 
- You have a list of products with the **Edit** button. You have three user roles in your app: **Administrators**, **Sales_Managers**, and **Customers**, and you would like to show this button only to Administrators and Sales managers only, hiding it from customers. For more information, on how to create user roles, see .
+ You have a list of products with the **Edit** button. You have three user roles in your app: **Administrators**, **Sales_Managers**, and **Customers**, and you would like to show this button only to Administrators and Sales managers only, hiding it from customers. For more information, on how to create user roles, see [How to Secure Your App and Configure Access to Its Functionality](/studio-how-to/security-how-to-configure-roles/).
 
 To show an element only to a certain user role, do the following:
 

@@ -7,7 +7,7 @@ tags: ["microflow", "entity access"]
 
 ## 1 Introduction
 
-This document describes the properties of a microflow. If you want to see what microflows are for and what kind of elements they contain, you can check [Microflows](/refguide/microflows/).
+This document describes the properties of a microflow. If you want to see what microflows are for and what kind of elements they contain, you can check [Microflows](/refguide7/microflows/).
 
 ## 2 Common Properties
 
@@ -42,7 +42,7 @@ Error microflow defines which microflow is executed when concurrent execution is
 
 ### 4.1 Return type
 
-The return type defines what information the microflow returns. The caller of the microflow will get a result of this type. See [Data Types](/refguide/data-types/) for the possible return types.
+The return type defines what information the microflow returns. The caller of the microflow will get a result of this type. See [Data Types](/refguide7/data-types/) for the possible return types.
 
 {{% alert type="info" %}}
 
@@ -62,11 +62,11 @@ Note that these roles are only checked when the microflow is executed from the c
 
 {{% /alert %}}
 
-See also [Module Security](/refguide/module-security/).
+See also [Module Security](/refguide7/module-security/).
 
 ### 5.2 Apply entity access
 
-This property indicates whether entity access based on the current user is applied when performing operations on objects. Applying entity access limits the objects that are retrieved by the [retrieve action](/refguide/retrieve/) to only those that the current user is allowed to see. Similarly, to reading and writing attributes and associations the entity access of the current user is applied. If entity access is not applied on the other hand, all operations are allowed and all objects are retrieved.
+This property indicates whether entity access based on the current user is applied when performing operations on objects. Applying entity access limits the objects that are retrieved by the [retrieve action](/refguide7/retrieve/) to only those that the current user is allowed to see. Similarly, to reading and writing attributes and associations the entity access of the current user is applied. If entity access is not applied on the other hand, all operations are allowed and all objects are retrieved.
 
 {{% alert type="warning" %}}
 Microflows that apply entity access have an **Entity Access** tag in the editor for Mendix versions 7.14 and above. For Mendix versions below that, the editor has a yellow background for microflows that apply entity access.

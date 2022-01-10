@@ -18,7 +18,7 @@ This activity can only be used in **Nanoflows**.
 
 ## 1 Introduction
 
-The JavaScript action call activity can be used to call a [JavaScript action](/refguide/javascript-actions/). Arguments can be passed to the action, and the result can be stored.
+The JavaScript action call activity can be used to call a [JavaScript action](/refguide8/javascript-actions/). Arguments can be passed to the action, and the result can be stored.
 
 {{% image_container width="200" %}}
 ![javascript action call properties](/attachments/refguide8/modeling/application-logic/activities/action-call-activities/javascript-action-call/javascript-call.png)
@@ -57,7 +57,7 @@ Click **Edit** next to the parameter to fill in the arguments.
 
 An argument is the input data that you are passing to the JavaScript action. For each JavaScript action parameter, you must supply an argument of the same type. 
 
-The values of the arguments are defined using [expressions](/refguide/expressions/):
+The values of the arguments are defined using [expressions](/refguide8/expressions/):
 
 ![argument](/attachments/refguide8/modeling/application-logic/activities/action-call-activities/javascript-action-call/argument-edit.png)
 
@@ -79,7 +79,7 @@ The name of the variable, list, or object returned by the activity. If it is an 
 
 ## 5 Read More
 
-* [JavaScript Actions](/refguide/javascript-actions/)
+* [JavaScript Actions](/refguide8/javascript-actions/)
 * [Build JavaScript Actions](/howto8/extensibility/build-javascript-actions/)
-* [Nanoflows](/refguide/nanoflows/)
-* [Java Action Call](/refguide/java-action-call/)
+* [Nanoflows](/refguide8/nanoflows/)
+* [Java Action Call](/refguide8/java-action-call/)

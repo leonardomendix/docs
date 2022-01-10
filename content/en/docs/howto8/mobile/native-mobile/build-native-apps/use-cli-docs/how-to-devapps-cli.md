@@ -43,7 +43,7 @@ As with a release build, when the Native Builder is done building you should hav
 
 ### 4.1 Android
 
-By default your custom developer app will be unsigned. To get a signed *IPA*, follow the steps in the [Signing Your Build](/howto/mobile/deploying-native-app/#signing-a-build) section of *How to Deploy Your First Mendix Native Mobile App*. Your Custom developer app branch is named **developer**.
+By default your custom developer app will be unsigned. To get a signed *IPA*, follow the steps in the [Signing Your Build](/howto8/mobile/deploying-native-app/#signing-a-build) section of *How to Deploy Your First Mendix Native Mobile App*. Your Custom developer app branch is named **developer**.
 
 For Android the output of the build is an *APK* file. *APK* files can be directly installed on devices or emulators.
 
@@ -72,7 +72,7 @@ There are various ways install an app on a device. Installing using a USB is det
 
 ### 4.2 iOS
 
-By default your custom developer app will be unsigned. To get a signed *IPA*, follow the steps in the [Signing Your Build](/howto/mobile/deploying-native-app/#signing-a-build) section of *How to Deploy Your First Mendix Native Mobile App*. Your custom developer app branch is named **developer**.
+By default your custom developer app will be unsigned. To get a signed *IPA*, follow the steps in the [Signing Your Build](/howto8/mobile/deploying-native-app/#signing-a-build) section of *How to Deploy Your First Mendix Native Mobile App*. Your custom developer app branch is named **developer**.
 
 The unsigned output of an iOS build is an *XCArchive* file. *XCArchive* files require manual signing before they are ready to be installed on a device.
 
@@ -92,11 +92,11 @@ Builds with the Native Builder are stripped of simulator artifacts. Therefore, t
 1. Navigate to your GitHub repo.
 2.  Switch to your **developer** branch:
    
-	![Switch branch on Github](/attachments/howto8/mobile//native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/github-branch-switching.png)
+	![Switch branch on Github](/attachments/howto8/mobile/native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/github-branch-switching.png)
    
 3.  Click **Clone or Download** and then click **Download ZIP**:
 
-	![Download repository](/attachments/howto8/mobile//native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/github-download-branch.png)
+	![Download repository](/attachments/howto8/mobile/native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/github-download-branch.png)
    
 4. Unzip the downloaded archive.
 5. Open a terminal and change directory into the folder.
@@ -109,11 +109,11 @@ Builds with the Native Builder are stripped of simulator artifacts. Therefore, t
 	This will install the node module dependencies and the iOS Dependencies
 7.  In the **ios** folder, open the **NativeTemplate.xcworkspace** file:
 
-	![iOS folder structure](/attachments/howto8/mobile//native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/ios-folder.png)
+	![iOS folder structure](/attachments/howto8/mobile/native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/ios-folder.png)
 
 8.  In XCode select the **Dev** target and the emulator you want to build your developer app for:
 
-	![Dev target selection](/attachments/howto8/mobile//native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/xcode-target-selection.png)
+	![Dev target selection](/attachments/howto8/mobile/native-mobile/build-native-apps/use-cli-docs/how-to-devapps-cli/xcode-target-selection.png)
 
 9. Click **Play**.
 
@@ -127,5 +127,5 @@ If you want Native Builder to sign your custom developer app, follow the steps i
 
 ## 5 Read More
 
-* [How to Deploy Your First Mendix Native Mobile App](/howto/mobile/deploying-native-app/)
-* [How to Use Over the Air Updates](/howto/mobile/how-to-ota/)
+* [How to Deploy Your First Mendix Native Mobile App](/howto8/mobile/deploying-native-app/)
+* [How to Use Over the Air Updates](/howto8/mobile/how-to-ota/)

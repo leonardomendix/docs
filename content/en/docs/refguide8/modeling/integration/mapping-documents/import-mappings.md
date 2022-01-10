@@ -12,7 +12,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-For an introduction to import mappings, refer to [Mapping Documents](/refguide/mapping-documents/).
+For an introduction to import mappings, refer to [Mapping Documents](/refguide8/mapping-documents/).
 
 ## 2 Obtaining Objects in Import Mappings
 
@@ -52,7 +52,7 @@ This is the action that the runtime will perform when an error occurred in the s
 | **Ignore** | Don't map this element and continue parsing the rest of the XML. |
 | **Error** | Explicitly stop parsing the XML and throw an error. This error needs to be handled in the calling microflow. |
 
-If this is the top level of the mapping, you can check **Decide this at the place where the mapping gets used**. If this is checked the option **if no object was found** can be set whenever you use the mapping, for instance in an [import mapping action](/refguide/import-mapping-action/) or a [call REST service action](/refguide/call-rest-action/).
+If this is the top level of the mapping, you can check **Decide this at the place where the mapping gets used**. If this is checked the option **if no object was found** can be set whenever you use the mapping, for instance in an [import mapping action](/refguide8/import-mapping-action/) or a [call REST service action](/refguide8/call-rest-action/).
 
 ### 2.3 Setting Associations
 
@@ -91,7 +91,7 @@ Having defined the mappings for the attributes, these mappings are also shown in
 
 ## 4 Mapping Parameter
 
-Import mappings have the additional option to receive an incoming parameter. The parameter can be passed in by the calling microflow when microflow uses the [import from mapping](/refguide/import-mapping-action/) action.
+Import mappings have the additional option to receive an incoming parameter. The parameter can be passed in by the calling microflow when microflow uses the [import from mapping](/refguide8/import-mapping-action/) action.
 
 To define a parameter for your mapping, click the parameter box and select the data type. You can also drag an entity to the parameter box. 
 

@@ -31,7 +31,7 @@ The sign-in microflow has two parameters.
 
 {{% alert type="warning" %}}
 
-Clean up objects that were attached to the anonymous user and that you do _not_ transfer to the signed-in user. Since the anonymous user is deleted after running the sign-in microflow, you can use [delete behavior](/refguide/associations/) to automatically clean objects that were attached to the anonymous user.
+Clean up objects that were attached to the anonymous user and that you do _not_ transfer to the signed-in user. Since the anonymous user is deleted after running the sign-in microflow, you can use [delete behavior](/refguide7/associations/) to automatically clean objects that were attached to the anonymous user.
 
 {{% /alert %}}
 

@@ -112,7 +112,7 @@ isNew($object1)
 
 ## 5 Checking Whether an Object Is Synced {#synced}
 
-This function is available only in expressions for [conditional visibility or editability](/refguide/common-widget-properties/), as only they are evaluated on client side.
+This function is available only in expressions for [conditional visibility or editability](/refguide8/common-widget-properties/), as only they are evaluated on client side.
 
 ### 5.1 Input Parameters
 
@@ -128,7 +128,7 @@ The output is described in the table below:
 
 | Value                                                        | Type    |
 | ------------------------------------------------------------ | ------- |
-| Returns whether the changes done to the object [offline](/refguide/offline-first/) have been synchronized to the runtime database. In web profiles and [hybrid profiles](/refguide/navigation/#hybrid-profiles) without offline support, this always returns `true`. | Boolean |
+| Returns whether the changes done to the object [offline](/refguide8/offline-first/) have been synchronized to the runtime database. In web profiles and [hybrid profiles](/refguide8/navigation/#hybrid-profiles) without offline support, this always returns `true`. | Boolean |
 
 ### 5.3 Example
 

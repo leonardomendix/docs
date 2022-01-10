@@ -76,8 +76,8 @@ Only use this functionality if you know exactly what you are doing. Wrong values
 
 Each custom setting consists of a name and a value. For example, to enable persistent sessions you add a custom setting with name `PersistentSessions` and value `true`.
 
-For settings overview, see [Runtime Customization](/refguide/custom-settings/).
+For settings overview, see [Runtime Customization](/refguide8/custom-settings/).
 
 ## 3 Read More
 
-* [Project Settings](/refguide/project-settings/)
+* [Project Settings](/refguide8/project-settings/)

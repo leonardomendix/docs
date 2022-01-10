@@ -82,5 +82,5 @@ The following actions are available in the drop-down menu:
 
 ##  4 Read More
 
-* [Consistency Errors](/refguide/consistency-errors/)
-* [Studio Pro Overview](/refguide/studio-pro-overview/)
+* [Consistency Errors](/refguide8/consistency-errors/)
+* [Studio Pro Overview](/refguide8/studio-pro-overview/)

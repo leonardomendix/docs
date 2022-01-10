@@ -10,7 +10,7 @@ The image widget can be used to show a predefined image on a page, layout or sni
 
 {{% alert type="success" %}}
 
-If you want to dynamically show different images based on data, please take a look at the [image viewer](/refguide/image-viewer/).
+If you want to dynamically show different images based on data, please take a look at the [image viewer](/refguide7/image-viewer/).
 
 {{% /alert %}}
 
@@ -32,7 +32,7 @@ If you want to dynamically show different images based on data, please take a lo
 
 The actual image that this widget shows.
 
-See [Images](/refguide/images/).
+See [Images](/refguide7/images/).
 
 {{% snippet file="refguide7/Image+Width+Unit.md" %}}
 

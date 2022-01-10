@@ -12,7 +12,7 @@ menu_order: 40
 
 ## 1 Introduction
 
-In most cases, you use the **Database**, **XPath**, or **Association** data sources to fill a [data widget](/appstore/modules/data-widgets/). For example, if the properties of a data grid require an object of an entity selected in the data grid, the data grid gets its objects from a database query. Another example is that a nested template grid can retrieve its objects over an association. However, sometimes the target objects need to adhere to very specific criteria, or different objects are shown under different circumstances that cannot be handled by an [XPath](/refguide/xpath-constraints/). In these situations a **Microflow** data source may be required.
+In most cases, you use the **Database**, **XPath**, or **Association** data sources to fill a [data widget](/refguide8/data-widgets/). For example, if the properties of a data grid require an object of an entity selected in the data grid, the data grid gets its objects from a database query. Another example is that a nested template grid can retrieve its objects over an association. However, sometimes the target objects need to adhere to very specific criteria, or different objects are shown under different circumstances that cannot be handled by an [XPath](/refguide8/xpath-constraints/). In these situations a **Microflow** data source may be required.
 
 When a data widget with a microflow data source is displayed in the browser or refreshed, it runs the designated microflow and displays the return value. The manner in which the objects are acquired in the microflow is entirely up to you, which allows for unlimited control over what objects to return.
 
@@ -65,4 +65,4 @@ This duplicates the [Microflow](#microflow) specified above.
 
 ## 4 Read More
 
-* [Data Widgets](/appstore/modules/data-widgets/)
+* [Data Widgets](/refguide8/data-widgets/)

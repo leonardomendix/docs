@@ -20,7 +20,7 @@ Indexes can be added and edited from the **Indexes** tab of the entity propertie
 ![Example of index tab](/attachments/refguide8/modeling/domain-model/entities/indexes/index-properties.png)
 
 {{% alert type="info" %}}
-Index properties are read-only for external entities. For further details, see [External Entities](/refguide/external-entities/).
+Index properties are read-only for external entities. For further details, see [External Entities](/refguide8/external-entities/).
 {{% /alert %}}
 
 ## 2 Important Considerations
@@ -31,7 +31,7 @@ Indexes are ordered, which means that when you create an index on two or more at
 
 ### 2.2 Indexes on System Members
 
-If you choose to store an entity's `owner` and `changedBy` system members, an index is created. This is not so for the `createdDate` and `changedDate` system members. In addition, an index is created for the automatically generated attribute `id`. See [Domain Model](/refguide/domain-model/) for more information about the implementation of these attributes.
+If you choose to store an entity's `owner` and `changedBy` system members, an index is created. This is not so for the `createdDate` and `changedDate` system members. In addition, an index is created for the automatically generated attribute `id`. See [Domain Model](/refguide8/domain-model/) for more information about the implementation of these attributes.
 
 ### 2.3 Indexes on Non-Persistable Entities
 

@@ -23,13 +23,13 @@ Below is a list of known problems and steps to fix them.
 
 ### 2.1 Getting an Error Containing `SharpSvn.SvnAuthenticationException: Proxy authentication failed`
 
-![Error dialog with proxy authentication failed](/attachments/howto7/collaboration-requirements-management//troubleshoot-version-control-issues/oopsproxy.png)
+![Error dialog with proxy authentication failed](/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/oopsproxy.png)
 
 This error means that the Modeler has problems reaching the version control server because of a proxy server.
 
 The proxy settings can be changed in the Modeler by selecting **Edit** > **Preferences** and then the **Advanced** tab. In the **Proxy server** section, you can change the proxy authentication settings. Fill in the correct **User name** and **Password** for the proxy server.
 
-![Proxy settings](/attachments/howto7/collaboration-requirements-management//troubleshoot-version-control-issues/proxysettings.png)
+![Proxy settings](/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/proxysettings.png)
 
 ### 2.2 Getting an Error Containing Another `SharpSvn.SvnAuthenticationException`
 
@@ -50,7 +50,7 @@ If you are using the Desktop Modeler version 7.18 or higher, follow these steps:
 
 ### 2.4 Getting an Error with the Message `<project folder> is already locked`
 
-1. Install TortoiseSVN, as suggested in [System Requirements](/refguide7/system-requirements/). Use version 1.7.x, which can be downloaded [here](https:/sourceforge.net/projects/tortoisesvn/files/1.7.15/).
+1. Install TortoiseSVN, as suggested in [System Requirements](/refguide7/system-requirements/). Use version 1.7.x, which can be downloaded [here](https://sourceforge.net/projects/tortoisesvn/files/1.7.15/).
 2. Go to the parent directory (folder) of your project (this is the folder with the **<folder_name>** from the error message).
 3. Right-click to open the folder's context menu.
 4. On the **TortoiseSVN** sub-menu, select **Clean up**.
@@ -64,7 +64,7 @@ Remove your user settings and restart the Modeler.
 
 ### 2.6 Getting an Error with the Message `SharpSvn.SvnRepositoryIOException: At least one property change failed; repository is unchanged` {#error-with-message}
 
-1. Install TortoiseSVN, as suggested in [System Requirements](/refguide7/system-requirements/). Use version 1.7.x, which can be downloaded from [Sourceforge](https:/sourceforge.net/projects/tortoisesvn/files/1.7.15/).
+1. Install TortoiseSVN, as suggested in [System Requirements](/refguide7/system-requirements/). Use version 1.7.x, which can be downloaded from [Sourceforge](https://sourceforge.net/projects/tortoisesvn/files/1.7.15/).
 2. Open the project folder via the Desktop Modeler by choosing **Show Project Directory in Explorer** from the **Project** menu.
 3. Right-click the white background of the project folder.
 4. Select **TortoiseSVN > Properties**.
@@ -122,19 +122,19 @@ Note that the first five lines are the same and after that the lists deviate.
 
 Merging the branch to the main line will result in the following information message.
 
-![](/attachments/howto7/collaboration-requirements-management//troubleshoot-version-control-issues/mergesuccessfuldialog.png)
+![](/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png)
 
 Note that a conflict is reported on the project *folder*. This usually means that there is a conflict on the `svn:ignore` property.
 
 To resolve a conflict on the svn:ignore property, perform the following steps.
 
-1. Install TortoiseSVN, as suggested in [System Requirements](/refguide7/system-requirements/). Use version 1.7.x, which can be downloaded from [Sourceforge](https:/sourceforge.net/projects/tortoisesvn/files/1.7.15/).
+1. Install TortoiseSVN, as suggested in [System Requirements](/refguide7/system-requirements/). Use version 1.7.x, which can be downloaded from [Sourceforge](https://sourceforge.net/projects/tortoisesvn/files/1.7.15/).
 2. Open the project directory in the Windows File Explorer
 3. Right-click the white background and choose **TortoiseSVN > Edit Conflicts**.
 
     The following dialog is shown (resized to show everything):
 
-    ![](/attachments/howto7/collaboration-requirements-management//troubleshoot-version-control-issues/editconflictsdialog.png)
+    ![](/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png)
 
 4. Copy all lines starting from `modeler-merge-marker` to the clipboard. 
 5. Click **Manually edit property**.
@@ -144,7 +144,7 @@ To resolve a conflict on the svn:ignore property, perform the following steps.
 
     For this example, we end up with the following combined ignore list:
 
-    ![](/attachments/howto7/collaboration-requirements-management//troubleshoot-version-control-issues/combinedignorelist.png)
+    ![](/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png)
 
     Note that it includes both the lines from the main line and from the branch. The order is not important.
 

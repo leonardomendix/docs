@@ -25,7 +25,7 @@ To import a project package, do the following:
 
     ![Import Project Package Dialog Window](/attachments/refguide8/modeling/menus/file-menu/import-project-package-dialog/import-project-package.png)
 
-Project packages can be created using [Export Project Package](/refguide/export-project-package-dialog/).
+Project packages can be created using [Export Project Package](/refguide8/export-project-package-dialog/).
 
 ## 2 Where Should We Store Your App?
 
@@ -66,4 +66,4 @@ Use this field to choose the directory where the project files of the app will b
 ## 4 Read More
 
 * [Team Server](/developerportal/collaborate/team-server/)
-* [Export Project Package](/refguide/export-project-package-dialog/)
+* [Export Project Package](/refguide8/export-project-package-dialog/)

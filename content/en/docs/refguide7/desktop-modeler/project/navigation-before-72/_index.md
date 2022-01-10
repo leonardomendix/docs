@@ -9,11 +9,11 @@ description: "Describes the concept of navigation in apps and the properties of 
 
 {{% alert type="warning" %}}
 
-This document describes the concept of navigation in Mendix applications and the properties of a profile. Applicable for Mendix versions 7.0 and 7.1. For details on how this works in Mendix versions 7.2 and 7.3, see [Navigation in 7.2 and 7.3](/refguide7/navigation-in-72-and-73/). For Mendix version 7.4 and above, see [Navigation](/refguide/navigation/).
+This document describes the concept of navigation in Mendix applications and the properties of a profile. Applicable for Mendix versions 7.0 and 7.1. For details on how this works in Mendix versions 7.2 and 7.3, see [Navigation in 7.2 and 7.3](/refguide7/navigation-in-72-and-73/). For Mendix version 7.4 and above, see [Navigation](/refguide7/navigation/).
 
 {{% /alert %}}
 
-The **Navigation** document defines the navigation structure of the application for users. It allows you to set the home page of your application as well as to define menu structures that can be used in [menu widgets](/refguide/menu-widgets/). A user's home page can vary based on their [roles](/refguide/user-roles/).
+The **Navigation** document defines the navigation structure of the application for users. It allows you to set the home page of your application as well as to define menu structures that can be used in [menu widgets](/refguide7/menu-widgets/). A user's home page can vary based on their [roles](/refguide7/user-roles/).
 
 ## 2 Profiles
 
@@ -25,7 +25,7 @@ In Mendix 7.0.2, the Offline device profile is replaced by the [hybrid phone pro
 
 {{% /alert %}}
 
-The device type of a currently logged-in user is available in [microflows](/refguide/microflows/) as the `$currentDeviceType` variable. The type of this variable is the [enumeration](/refguide/enumerations/) `System.DeviceType`, which has the values `Phone`, `Tablet`, and `Desktop`. You can use the `$currentDeviceType` variable to perform different actions based on the device type. A typical example is to show different pages based on the device type.
+The device type of a currently logged-in user is available in [microflows](/refguide7/microflows/) as the `$currentDeviceType` variable. The type of this variable is the [enumeration](/refguide7/enumerations/) `System.DeviceType`, which has the values `Phone`, `Tablet`, and `Desktop`. You can use the `$currentDeviceType` variable to perform different actions based on the device type. A typical example is to show different pages based on the device type.
 
 ## 3 Hybrid Profiles
 
@@ -41,7 +41,7 @@ Mendix Runtime automatically redirects users to the home page of the appropriate
 | Android&#124;iPad | Tablet |
 | _(other)_ | Desktop |
 
-To configure the regular expressions used to match phone or tablet users, see [Custom Settings](/refguide/custom-settings/).
+To configure the regular expressions used to match phone or tablet users, see [Custom Settings](/refguide7/custom-settings/).
 
 If a profile is not enabled, it falls back to another device type as shown in this table:
 

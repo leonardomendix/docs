@@ -33,19 +33,19 @@ To create a menu item, follow these steps:
 
 2. In the **Responsive** tab > the **Menu** section, click **New Item**:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/new-menu-item.jpg)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/new-menu-item.jpg)
 
 3. In the **New Menu Item** dialog box, set the **Caption** to *Hello World*:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/caption.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/caption.png)
 
 4. For **On click**, select **Call a microflow**:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/call-microflow.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/call-microflow.png)
 
 5. In the **Select Microflow** dialog box, select a microflow and then click **New**:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/new-microflow.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/new-microflow.png)
 
 6. Enter *HelloWorld* for the **Name** of the new microflow.
 
@@ -61,41 +61,41 @@ To edit the new microflow, follow these steps:
 
 1.  Open the **Hello World** microflow by right-clicking the new menu item created in the [Creating a Menu Item](#creating-menu-item) section above and selecting **Go to target** from the context menu:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/go-to-target.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/go-to-target.png)
 
     You will see an empty microflow like this:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/created-microflow.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/created-microflow.png)
 
 2.  Open the **Toolbox** and search for the **Show message** activity:
     
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/toolbox.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/toolbox.png)
 
 3.  Drag the **Show message** activity from the **Toolbox** to the flow between the start event and end event, which will insert a show message activity:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/show-message-activity.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/show-message-activity.png)
 
 4. Double-click the message activity to open the **Show Message** properties.
 
 5.  Enter *Hello World* for the **Template** value and click **OK**:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/show-message-properties.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/show-message-properties.png)
 
 6. Click **Run Locally** and then **View** to see the application in your default browser.
 
 7. Click the **Hello World** menu item in the menu bar to see the message:
 
-    ![](/attachments/howto8/logic-business-rules//trigger-microflow-from-menu-item/hello-world-message.png)
+    ![](/attachments/howto8/logic-business-rules/trigger-microflow-from-menu-item/hello-world-message.png)
 
 Congratulations! You have created the menu item that triggers the microflow and shows the **Hello World** message to your end-users! 
 
 ## 4 Read More
 
-* [Define Access Rules Using XPath](/howto/logic-business-rules/define-access-rules-using-xpath/)
-* [Create a Custom Save Button](/howto/logic-business-rules/create-a-custom-save-button/)
-* [Extend Your Application with Custom Java](/howto/logic-business-rules/extending-your-application-with-custom-java/)
-* [Work with Lists in a Microflow](/howto/logic-business-rules/working-with-lists-in-a-microflow/)
-* [Optimize the Retrieve Activities](/howto/logic-business-rules/optimizing-retrieve-activities/)
-* [Configure Error Handling](/howto/logic-business-rules/set-up-error-handling/)
-* [Optimize Microflow Aggregates](/howto/logic-business-rules/optimizing-microflow-aggregates/)
-* [Extract and Use Sub-Microflows](/howto/logic-business-rules/extract-and-use-sub-microflows/)
+* [Define Access Rules Using XPath](/howto8/logic-business-rules/define-access-rules-using-xpath/)
+* [Create a Custom Save Button](/howto8/logic-business-rules/create-a-custom-save-button/)
+* [Extend Your Application with Custom Java](/howto8/logic-business-rules/extending-your-application-with-custom-java/)
+* [Work with Lists in a Microflow](/howto8/logic-business-rules/working-with-lists-in-a-microflow/)
+* [Optimize the Retrieve Activities](/howto8/logic-business-rules/optimizing-retrieve-activities/)
+* [Configure Error Handling](/howto8/logic-business-rules/set-up-error-handling/)
+* [Optimize Microflow Aggregates](/howto8/logic-business-rules/optimizing-microflow-aggregates/)
+* [Extract and Use Sub-Microflows](/howto8/logic-business-rules/extract-and-use-sub-microflows/)

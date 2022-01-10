@@ -19,7 +19,7 @@ Note that there are minor differences between the way this function works in mic
 
 ## 1 Introduction
 
-The **Change list** activity allows you to change a list by adding objects to, and removing objects from, it. The activity works directly on the list provided, in contrast to the [List operation](/refguide/list-operation/) activity.
+The **Change list** activity allows you to change a list by adding objects to, and removing objects from, it. The activity works directly on the list provided, in contrast to the [List operation](/refguide8/list-operation/) activity.
 
 ## 2 Properties
 
@@ -59,7 +59,7 @@ Defines the type of change that is applied to the list.
 
 #### 3.2.1 Notes When Using the Add Type{#notes}
 
-If you do not want duplicates in your (microflow) list, you can either remove the object(s) first, or use the **Contains** [list operation](/refguide/list-operation/) to examine the list before adding the object(s).
+If you do not want duplicates in your (microflow) list, you can either remove the object(s) first, or use the **Contains** [list operation](/refguide8/list-operation/) to examine the list before adding the object(s).
 
 {{% alert type="warning" %}}
 Currently, this works differently in **nanoflows** and **microflows**. In a **nanoflow** objects will *not* be added if they are already in the list whereas, in a **microflow**, the same object can be added multiple times.
@@ -67,7 +67,7 @@ Currently, this works differently in **nanoflows** and **microflows**. In a **na
 
 ### 3.3 Value
 
-Value defines the objects that are used to change the list. The value is entered using an [expression](/refguide/expressions/). The expression must result in an object or list of objects of the same type of [entity](/refguide/entities/) as the input list.
+Value defines the objects that are used to change the list. The value is entered using an [expression](/refguide8/expressions/). The expression must result in an object or list of objects of the same type of [entity](/refguide8/entities/) as the input list.
 
 ## 4 Common Section{#common}
 

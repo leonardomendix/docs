@@ -56,6 +56,6 @@ You can specify a list of tags to enrich the gauge name with key/value pairs. Se
 
 ## 5 Read More
 
-* [Metric Configuration](/developerportal/operate/metrics/)
+* [Metric Configuration](/refguide/metrics/)
 * [Metrics Activities](/refguide/metrics-activities/)
 * [Meter Concepts](https://micrometer.io/docs/concepts)

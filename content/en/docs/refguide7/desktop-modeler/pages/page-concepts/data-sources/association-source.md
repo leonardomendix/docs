@@ -5,9 +5,9 @@ parent: "data-sources"
 ---
 
 
-The association source is a data source available to nested [data grids](/refguide/data-grid/), [template grids](/refguide/template-grid/), and [list views](/refguide/list-view/). This will fill the widget with the objects linked to an object already in the context by manner of an association. For this to function the data widget needs to be nested within another data widget to provide that context.
+The association source is a data source available to nested [data grids](/refguide7/data-grid/), [template grids](/refguide7/template-grid/), and [list views](/refguide7/list-view/). This will fill the widget with the objects linked to an object already in the context by manner of an association. For this to function the data widget needs to be nested within another data widget to provide that context.
 
-Data widgets that can function as a container for other data widgets are the [template grid](/refguide/template-grid/), [list view](/refguide/list-view/), and [data view](/refguide/data-view/).
+Data widgets that can function as a container for other data widgets are the [template grid](/refguide7/template-grid/), [list view](/refguide7/list-view/), and [data view](/refguide7/data-view/).
 
 {{% alert type="warning" %}}
 

@@ -19,7 +19,7 @@ Security is a way of controlling access to your app. For example, you can decide
 
 Whether security is enabled for your app by default, depends on whether the security has been enabled in Studio Pro and on the way it has been configured there. You can come across the following cases:
 
-1. Your app security is **off** in Studio Pro. In this case, you can either enable it via **App Settings**>**Roles and Permissions** >the **Enable Security** button, or you will be prompted to enable security, when you try to . 
+1. Your app security is **off** in Studio Pro. In this case, you can either enable it via **App Settings**>**Roles and Permissions** >the **Enable Security** button, or you will be prompted to enable security, when you try to [publish the app](/studio/publishing-app/). 
 
     {{% image_container width="300" %}}![Secure Your App Pop-up Window](/attachments/studio/settings/settings-security/security-pop-up.png) {{% /image_container %}}
     
@@ -157,7 +157,7 @@ Demo users are a demonstration of each user role existing in your app. You can u
 
 You can test how your app looks like for different roles the following way:
 
-1. .
+1. [Preview your app](/studio/publishing-app/).
 
 2. Click a user icon in the right side of the screen:
 

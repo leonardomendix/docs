@@ -7,7 +7,7 @@ parent: "input-widgets"
 
 ## 1 Introduction
 
-A date picker is an [input widget](/refguide/input-widgets/) that can be used to display and edit date/time attributes. It takes into account the language setting to display a localized calendar.
+A date picker is an [input widget](/refguide7/input-widgets/) that can be used to display and edit date/time attributes. It takes into account the language setting to display a localized calendar.
 
 {{% alert type="info" %}}
 
@@ -87,5 +87,5 @@ The placeholder text is shown if the date attribute is empty. It can be used to 
 
 ## 9 Read More
 
-*   [Data View](/refguide/data-view/)
-*   [Attributes](/refguide/attributes/)
+*   [Data View](/refguide7/data-view/)
+*   [Attributes](/refguide7/attributes/)

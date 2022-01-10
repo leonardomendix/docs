@@ -7,7 +7,7 @@ tags: ["domain model", "entity", "association", "annotation"]
 ---
 
 
-The domain model is a data model that describes the information in your application domain in an abstract way. It is central to the architecture of your application. The domain model consists of [entities](/refguide/entities/) and their relations represented by [associations](/refguide/associations/).
+The domain model is a data model that describes the information in your application domain in an abstract way. It is central to the architecture of your application. The domain model consists of [entities](/refguide7/entities/) and their relations represented by [associations](/refguide7/associations/).
 
 Here is a domain model that defines customers and orders. The line between them is an association. The words 'Customer' and 'Order' are the names of the entities. The words below the entity names are the attributes of the entities.
 
@@ -15,9 +15,9 @@ Here is a domain model that defines customers and orders. The line between them 
 
 ## Components
 
-*   [Entities](/refguide/entities/)
-*   [Associations](/refguide/associations/)
-*   [Annotations](/refguide/annotations/)
+*   [Entities](/refguide7/entities/)
+*   [Associations](/refguide7/associations/)
+*   [Annotations](/refguide7/annotations/)
 
 ## Technical Appendix
 

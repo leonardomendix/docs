@@ -10,7 +10,7 @@ The Change object activity can be used to change the members of an object. This 
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -28,8 +28,8 @@ Commit type defines the way the object is committed.
 
 | Option | Description |
 | --- | --- |
-| Yes with event handlers | The object is saved in the database and the [event handlers](/refguide/event-handlers/) are triggered |
-| Yes without event handlers | The object is saved in the database, but the [event handlers](/refguide/event-handlers/) are not triggered |
+| Yes with event handlers | The object is saved in the database and the [event handlers](/refguide7/event-handlers/) are triggered |
+| Yes without event handlers | The object is saved in the database, but the [event handlers](/refguide7/event-handlers/) are not triggered |
 | No | The object is changed without being saved in the database |
 
 {{% alert type="success" %}}
@@ -48,17 +48,17 @@ _Default value:_ No
 
 ### 3.2 Refresh in Client
 
-If the microflow is called from the client, the change is not reflected in the client if **Refresh in client** is set to *No*. If set to *Yes*, the object is refreshed across the client, which includes reloading the relevant [data sources](/refguide/data-sources/).
+If the microflow is called from the client, the change is not reflected in the client if **Refresh in client** is set to *No*. If set to *Yes*, the object is refreshed across the client, which includes reloading the relevant [data sources](/refguide7/data-sources/).
 
 {{% alert type="info" %}}
 
-As of 7.19.0, changed attribute values are always reflected in the client. If the object is committed, the object is refreshed from the Mendix Runtime, which includes updating virtual attributes. [Data sources](/refguide/data-sources/) are only reloaded if **Refresh in client** is set to *Yes*.
+As of 7.19.0, changed attribute values are always reflected in the client. If the object is committed, the object is refreshed from the Mendix Runtime, which includes updating virtual attributes. [Data sources](/refguide7/data-sources/) are only reloaded if **Refresh in client** is set to *Yes*.
 
 {{% /alert %}}
 
 {{% alert type="warning" %}}
 
-When inside a [nanoflow](/refguide/nanoflows/), the Change object action does not have the **Refresh in client option** available, and the refresh behavior depends on the **Commit type** option. It always reflects the changed attribute values in the client, including [conditions](/refguide7/conditions/).
+When inside a [nanoflow](/refguide7/nanoflows/), the Change object action does not have the **Refresh in client option** available, and the refresh behavior depends on the **Commit type** option. It always reflects the changed attribute values in the client, including [conditions](/refguide7/conditions/).
 
 If **Commit type** is set to *Yes*, the object is refreshed across the client as if **Refresh in client** was set to *Yes*.
 
@@ -68,4 +68,4 @@ _Default value_: No
 
 ### 3.3 Change Members
 
-You can specify a list of changes that to apply to the object. Values for members are specified with [expressions](/refguide/expressions/) and should be of the same type as the member. For a reference set association, it is also possible to add and remove (instead of only setting the member). For **add**, an object or a list of objects can be added to the currently associated objects. For **remove**, an object or a list of objects can be removed from the currently associated objects.
+You can specify a list of changes that to apply to the object. Values for members are specified with [expressions](/refguide7/expressions/) and should be of the same type as the member. For a reference set association, it is also possible to add and remove (instead of only setting the member). For **add**, an object or a list of objects can be added to the currently associated objects. For **remove**, an object or a list of objects can be removed from the currently associated objects.

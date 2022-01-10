@@ -11,7 +11,7 @@ tags: ["studio pro"]
 {{% /alert %}}
 
 {{% alert type="warning" %}}
-This document describes published web services. If you're looking for specific information on the published web services screen, you can check the [Published web service](/refguide/published-web-service/) documentation.
+This document describes published web services. If you're looking for specific information on the published web services screen, you can check the [Published web service](/refguide8/published-web-service/) documentation.
 {{% /alert %}}
 
 ## 1 Introduction

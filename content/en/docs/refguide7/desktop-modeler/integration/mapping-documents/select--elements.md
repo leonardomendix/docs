@@ -8,13 +8,13 @@ aliases:
 ---
 
 
-For both [import](/refguide/import-mappings/)and [export mappings](/refguide/export-mappings/) you need to specify the elements structure you want to map. You do this in the **Select schema elements** window. An example of this screen is shown below.
+For both [import](/refguide7/import-mappings/)and [export mappings](/refguide7/export-mappings/) you need to specify the elements structure you want to map. You do this in the **Select schema elements** window. An example of this screen is shown below.
 
 ![](/attachments/refguide7/desktop-modeler/integration/mapping-documents/select--elements/19399143.png)
 
 Perform the following steps in the **Select schema elements** window:
 
-1.  Depending on whether you want to make a mapping for an [XML schema](/refguide/xml-schemas/), a [Consumed web service](/refguide/consumed-web-services/) or a [JSON structure](/refguide/json-structures/) documents you need to select an **XML schema**, **Web service operation** or **JSON structure** as the source.
+1.  Depending on whether you want to make a mapping for an [XML schema](/refguide7/xml-schemas/), a [Consumed web service](/refguide7/consumed-web-services/) or a [JSON structure](/refguide7/json-structures/) documents you need to select an **XML schema**, **Web service operation** or **JSON structure** as the source.
 2.  If source is XML schema then select the root element of the mapping. This is done by selecting the **Start at** element for the XML schema or the **request part** for the web service operation. **Start at** lists the root elements in an XML schema. You can select one root element to base your mapping on. If source is Web service operation, **Request part** lists the header and body element of the request part of an operation. If an operation has multiple parameters, these are listed in the Request part as well. **Request part** is only applicable to export mappings.
 3.  Finally, select specific elements in the tree explorer below. Typically you do not need to map an entire source, since they can be quite large.
 

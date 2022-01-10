@@ -163,9 +163,9 @@ If any attributes have been converted during this process, the next time your ap
 
 ## 6 Using REST and Web Service Calls
 
-Mendix 8 introduces two [Custom Settings](/refguide/custom-settings/) which relate to **Call REST Service** and **Call Web Service** activities.
+Mendix 8 introduces two [Custom Settings](/refguide8/custom-settings/) which relate to **Call REST Service** and **Call Web Service** activities.
 
-If you use either of these activities, it is recommended that you increase the values of `http.client.MaxConnectionsPerRoute` and `http.client.MaxConnectionsTotal` to reduce the possibility of performance issues for concurrent end-users. For more information, see the [General Settings](/refguide/custom-settings/#general) of the *Custom Settings* documentation.
+If you use either of these activities, it is recommended that you increase the values of `http.client.MaxConnectionsPerRoute` and `http.client.MaxConnectionsTotal` to reduce the possibility of performance issues for concurrent end-users. For more information, see the [General Settings](/refguide8/custom-settings/#general) of the *Custom Settings* documentation.
 
 ## 7 64-Bit Studio Pro
 

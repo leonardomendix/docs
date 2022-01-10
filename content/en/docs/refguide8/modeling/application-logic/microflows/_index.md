@@ -16,12 +16,12 @@ tags: ["studio pro"]
 
 Microflows allow you to express the logic of your application. A microflow can perform actions such as creating and updating objects, showing pages and making choices. It is a visual way of expressing what traditionally ends up in textual program code.
 
-Microflows run in the runtime server and can therefore not be used in offline apps. For application logic within offline apps, see [Nanoflows](/refguide/nanoflows/).
+Microflows run in the runtime server and can therefore not be used in offline apps. For application logic within offline apps, see [Nanoflows](/refguide8/nanoflows/).
 
 This page is a summary of the elements which make up a microflow, together with their visual representation within the microflow. It also covers [keyboard support](#keyboard) when editing microflows.
 
 {{% alert type="info" %}}
-For the properties of the microflow itself, see [Microflow Properties](/refguide/microflow/).
+For the properties of the microflow itself, see [Microflow Properties](/refguide8/microflow/).
 {{% /alert %}}
 
 ## 2 Microflow Notation
@@ -34,7 +34,7 @@ A microflow is composed of elements. Below is a categorized overview of all elem
 *   [Flows](#flows) form the connection between elements.
 *   [Decisions](#decisions) deal with making choices and merging different paths again.
 *   [Activities](#activities) are the actions that are executed in a microflow.
-*   [Loop](/refguide/loop/) is used to iterate over a list of objects.
+*   [Loop](/refguide8/loop/) is used to iterate over a list of objects.
 *   [Parameter](#parameter) is data that serves as input for the microflow.
 *   [Annotation](#annotation) is an element that can be used to put comments in a microflow.
 
@@ -44,11 +44,11 @@ Events represent start and endpoints of a microflow and special operations in a 
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](start-event) | [Start Event](/refguide/start-event/) | A start event is the starting point of the microflow. A microflow can only have one start event. |
-| ](end-event) | [End Event](/refguide/end-event/) | An end event defines the location where the microflow will stop. Depending on the return type of the microflow in some cases a value must be specified. There can be more than one end event. |
-| ](error-event) | [Error Event](/refguide/error-event/) | An error event defines a location where the microflow will stop and throw an error that occurred earlier. If you call a microflow, you may want to know whether any errors occurred within the microflow or not. |
-| ](continue-event) | [Continue Event](/refguide/continue-event/) | A continue event is used to stop the current iteration of a loop and continue with the next iteration. Continue events can only be used inside a [Loop](/refguide/loop/). |
-| ](break-event) | [Break Event](/refguide/break-event/) | A break event is used to stop iterating over the list of objects and continue with the rest of the flow after the loop. Break events can only be used inside a [Loop](/refguide/loop/). |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/start-event.png)](/refguide8/start-event/) | [Start Event](/refguide8/start-event/) | A start event is the starting point of the microflow. A microflow can only have one start event. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/end-event.png)](/refguide8/end-event/) | [End Event](/refguide8/end-event/) | An end event defines the location where the microflow will stop. Depending on the return type of the microflow in some cases a value must be specified. There can be more than one end event. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/error-event.png)](/refguide8/error-event/) | [Error Event](/refguide8/error-event/) | An error event defines a location where the microflow will stop and throw an error that occurred earlier. If you call a microflow, you may want to know whether any errors occurred within the microflow or not. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/continue-event.png)](/refguide8/continue-event/) | [Continue Event](/refguide8/continue-event/) | A continue event is used to stop the current iteration of a loop and continue with the next iteration. Continue events can only be used inside a [Loop](/refguide8/loop/). |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/break-event.png)](/refguide8/break-event/) | [Break Event](/refguide8/break-event/) | A break event is used to stop iterating over the list of objects and continue with the rest of the flow after the loop. Break events can only be used inside a [Loop](/refguide8/loop/). |
 
 ### 2.2 Flows{#flows}
 
@@ -56,8 +56,8 @@ Flows form the connection between elements.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| ](sequence-flow) | [Sequence Flow](/refguide/sequence-flow/) | A sequence flow is an arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a microflow. |
-| ](annotation#annotation-flow) | [Annotation flow](/refguide/annotation/#annotation-flow) | An association is a connection that can be used to connect an annotation to another element. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/sequence-flow.png)](/refguide8/sequence-flow/) | [Sequence Flow](/refguide8/sequence-flow/) | A sequence flow is an arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a microflow. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/annotation-flow.png)](/refguide8/annotation/#annotation-flow) | [Annotation flow](/refguide8/annotation/#annotation-flow) | An association is a connection that can be used to connect an annotation to another element. |
 
 ### 2.3 Decisions {#decisions}
 
@@ -65,19 +65,19 @@ Decisions deal with making choices and merging different paths again.
 
 | Graphic                                                      | Name                                         | Description                                                  |
 | ------------------------------------------------------------ | -------------------------------------------- | ------------------------------------------------------------ |
-| ](decision) | [Decision](/refguide/decision/)                         | A decision makes a decision based on a condition and follows one and only one of the outgoing flows. There is no parallel execution in microflows. |
-| ](object-type-decision) | [Object Type Decision](/refguide/object-type-decision/) | An object type decision is an element that makes a choice based on the [specialization](/refguide/entities/) of the selected object. You can give the specialized object a name using a [cast object](/refguide/cast-object/) action. |
-| ](merge) | [Merge](/refguide/merge/)                               | A merge can be used to combine multiple sequence flows into one. If a choice is made in a microflow and afterwards some common work needs to be done, you can combine the two (or more) paths using a merge. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/decision.png)](/refguide8/decision/) | [Decision](/refguide8/decision/)                         | A decision makes a decision based on a condition and follows one and only one of the outgoing flows. There is no parallel execution in microflows. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/object-type-decision.png)](/refguide8/object-type-decision/) | [Object Type Decision](/refguide8/object-type-decision/) | An object type decision is an element that makes a choice based on the [specialization](/refguide8/entities/) of the selected object. You can give the specialized object a name using a [cast object](/refguide8/cast-object/) action. |
+| [![](/attachments/refguide8/modeling/application-logic/microflows/merge.png)](/refguide8/merge/) | [Merge](/refguide8/merge/)                               | A merge can be used to combine multiple sequence flows into one. If a choice is made in a microflow and afterwards some common work needs to be done, you can combine the two (or more) paths using a merge. |
 
 ### 2.4 Activities{#activities}
 
-[Activities](/refguide/activities/) are the actions that are executed in a microflow:
+[Activities](/refguide8/activities/) are the actions that are executed in a microflow:
 
 ![Activity](/attachments/refguide8/modeling/application-logic/microflows/activity.png)
 
 ### 2.5 Loop {#loop}
 
-A [loop](/refguide/loop/) is used to iterate over a list of objects:
+A [loop](/refguide8/loop/) is used to iterate over a list of objects:
 
 ![Loop](/attachments/refguide8/modeling/application-logic/microflows/loop.png)
 
@@ -85,7 +85,7 @@ For every object the flow inside the loop is executed. A loop activity can conta
 
 ### 2.6 Parameter {#parameter}
 
-A [parameter](/refguide/parameter/) is data that serves as input for the microflow. 
+A [parameter](/refguide8/parameter/) is data that serves as input for the microflow. 
 
 ![Parameter](/attachments/refguide8/modeling/application-logic/microflows/parameter.png)
 
@@ -93,7 +93,7 @@ Parameters are filled at the location from where the microflow is triggered.
 
 ### 2.7 Annotation {#annotation}
 
-An [annotation](/refguide/annotation/) is an element that can be used to put comments in a microflow:
+An [annotation](/refguide8/annotation/) is an element that can be used to put comments in a microflow:
 
 ![Annotation](/attachments/refguide8/modeling/application-logic/microflows/annotation.png)
 

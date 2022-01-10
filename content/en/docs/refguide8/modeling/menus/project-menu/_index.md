@@ -72,7 +72,7 @@ The **Create Deployment Package** option creates a Mendix Deployment Archive pac
 
 Shortcut key:  <kbd>F7</kbd>
 
-For more information on settings displayed on the Create Deployment Package dialog box, see [Create Deployment Package](/refguide/create-deployment-package-dialog/).
+For more information on settings displayed on the Create Deployment Package dialog box, see [Create Deployment Package](/refguide8/create-deployment-package-dialog/).
 
 ## 7 Clean Deployment Directory
 
@@ -88,9 +88,9 @@ Shortcut key:  <kbd>Ctrl</kbd> + <kbd>F5</kbd>
 The [Mendix Studios Target](/developerportal/deploy/studio-deployment-settings/#target) needs to be set and the deploying user needs to have transport rights to the set target.
 {{% /alert %}}
 
-For more information on using this option, see [Deploy to the Cloud](/refguide/deploy-to-the-cloud-dialog/).
+For more information on using this option, see [Deploy to the Cloud](/refguide8/deploy-to-the-cloud-dialog/).
 
 ## 9 Read More
 
-* [Studio Pro Overview](/refguide/studio-pro-overview/)
+* [Studio Pro Overview](/refguide8/studio-pro-overview/)
 * [Deployment](/developerportal/deploy/)

@@ -9,7 +9,7 @@ tags: ["studio", "microflow", "loop", "loops"]
 
 ## 1 Introduction 
 
-A loop is used to iterate over a list of object and perform actions on each item of the list when building . For example, you can retrieve a list of orders from your database, then loop over this list and mark orders as processed. For more details on use cases, see the [Configuring a Loop](#loop-example) section.
+A loop is used to iterate over a list of object and perform actions on each item of the list when building [microflows](/studio/microflows/). For example, you can retrieve a list of orders from your database, then loop over this list and mark orders as processed. For more details on use cases, see the [Configuring a Loop](#loop-example) section.
 
 The loop is visualized as a frame. The flow inside the loop is executed for each object. That means, if you add more than one activity to the loop, the full flow gets executed on each item. For example, you can add a loop that will prevent orders from processing if the order is not paid:
 
@@ -36,9 +36,9 @@ A straightforward use-case is where you retrieve a list of orders from your data
 
 Make sure you have the following prerequisites:
 
-1.  in your domain model and name it *Order*.
-2.  of the Boolean type for this entity to indicate the status of an order and name this attribute *Processed*.
-3. .
+1. [Create an entity](/studio/domain-models/#adding-new-entities) in your domain model and name it *Order*.
+2. [Create an attribute](/studio/domain-models/#adding-new-attributes) of the Boolean type for this entity to indicate the status of an order and name this attribute *Processed*.
+3. [Create a microflow](/studio/microflows/#create).
 
 To start the use-case, do the following:
 
@@ -91,4 +91,4 @@ As a result, you have a list of orders retrieved to your microflow, and a loop t
 
 ## 4 Read More
 
-* 
+* [Microflows](/studio/microflows/)

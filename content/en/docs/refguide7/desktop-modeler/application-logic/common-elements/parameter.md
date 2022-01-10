@@ -25,6 +25,6 @@ Variable name defines the name of the variable in which the argument of the para
 
 ### 2.2 Data Type
 
-The data type of a flow parameter defines the type of the value that it expects. See [Data Types](/refguide/data-types/) for the possible data types.
+The data type of a flow parameter defines the type of the value that it expects. See [Data Types](/refguide7/data-types/) for the possible data types.
 
 _Default value:_ Object

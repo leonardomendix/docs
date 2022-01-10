@@ -6,13 +6,13 @@ parent: "pages"
 ---
 
 
-A menu document defines a navigation menu that can be used by a [menu widget](/refguide/menu-widgets/). Typically the main menus for your application are defined in [device types](/refguide7/desktop-profile/), while you use menu documents for auxiliary menus, for example, a side bar.
+A menu document defines a navigation menu that can be used by a [menu widget](/refguide7/menu-widgets/). Typically the main menus for your application are defined in [device types](/refguide7/desktop-profile/), while you use menu documents for auxiliary menus, for example, a side bar.
 
 A menu consists of a list of menu items, which optionally contain sub-items. Depending on the widget a number of levels are allowed.
 
 {{% alert type="info" %}}
 
-If [security](/refguide/project-security/) is enabled, the menu will only show items that the user has access to.
+If [security](/refguide7/project-security/) is enabled, the menu will only show items that the user has access to.
 
 {{% /alert %}}
 

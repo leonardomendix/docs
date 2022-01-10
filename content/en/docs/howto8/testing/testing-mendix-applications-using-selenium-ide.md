@@ -44,15 +44,15 @@ Follow these steps to install and run the Company Expenses app:
 1. Open Mendix Studio Pro.
 2.  Click the Marketplace icon in the top toolbar:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/app-store.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/app-store.png)
 
 3.  Search for *Company Expenses*, then select **Company Expenses**:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/company-ex.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/company-ex.png)
 
 4.  Click **Download** and then **OK**. This will open the Company Expenses app in Studio Pro.
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/download.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/download.png)
 
 5. Click **Run Locally**, then **View**.
 
@@ -62,11 +62,11 @@ To create an automated test by using the record button in Selenium IDE, follow t
 
 1.  Open **Firefox** and click the **Selenium IDE** icon in the browser toolbar:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/icon.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/icon.png)
 
 2.  Select **Record a new test in a new project**:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/sel-menu.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/sel-menu.png)
 
 3. Enter a name for your new Selenium project (for example, *CompanyExpenses*).
 4. Enter the URL for your Company Expenses app's login screen (`http://localhost:8080/login.html`), then click **START RECORDING**. This will open up your app in a new browser window. The Selenium IDE is now recording.
@@ -76,23 +76,23 @@ To create an automated test by using the record button in Selenium IDE, follow t
 	
 6.  After you logged in, click **Sign out** on the right side of the app:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/sign-out.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/sign-out.png)
 
 7.  In the Selenium IDE, click the record icon to stop recording: 
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/record.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/record.png)
 
 8.  Enter a name for your new test, (for example, *Test1*). The Selenium IDE should now look like this:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/after-test.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/after-test.png)
 
 7.  Now that you have a test, click the **Run current test** icon:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/run-current-test.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/run-current-test.png)
 
 	Every passed test step will be marked green:
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/green-test.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/green-test.png)
 
 ## 5  Locating  & Changing a Test Target
 
@@ -102,7 +102,7 @@ When necessary, you will need to find the right locators in order to tell Seleni
 
 In this example scenario, a running test has failed on the target `id=mxui_widget_Wrapper_23`:
 
-![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/fail.png)
+![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/fail.png)
 
 The element with this target does not exist on the page for Selenium IDE, because the number in the ID is not always the same. You need to find another target selector for the same element that Selenium IDE will pick up. Mendix uses CSS classes to identify page content like widgets and pop-up windows, so you can use these classes in Selenium IDE to manipulate pages and verify data. 
 
@@ -114,25 +114,25 @@ In this example scenario, you need to do the following:
 2. Highlight the element where the Selenium IDE test failed.
 2. The **Name** property for the **User name** field is **textBox10**. Every Mendix element automatically gets the CSS class `mx-name-[Name]`, so note that this field will have the CSS class `mx-name-textBox10`.
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/name.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/name.png)
 
 4. Open the developer tools for your browser (with the app still open to where the Selenium IDE test failed) and search for `mx-name-textBox10`. There is a matching node, so you have now verified a unique selector for the **User name** field.
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/inspector.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/inspector.png)
 
 5. In Selenium IDE, change the **Target** `id=mxui_widget_Wrapper_23` into `css=.mx-name-textBox6`: 
 
-	![](/attachments/howto8/testing//testing-mendix-applications-using-selenium-ide/change.png)
+	![](/attachments/howto8/testing/testing-mendix-applications-using-selenium-ide/change.png)
 
 6. Click the **Run current test** icon to see if your test passes. 
 
 ## 6 Read More
 
-* [Automated Tests with TestNG](/howto/testing/create-automated-tests-with-testng/)
-* [Test Microflows Using the Unit Testing Module](/howto/testing/testing-microflows-using-the-unittesting-module/)
+* [Automated Tests with TestNG](/howto8/testing/create-automated-tests-with-testng/)
+* [Test Microflows Using the Unit Testing Module](/howto8/testing/testing-microflows-using-the-unittesting-module/)
 * [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
 * [Clear Warning Messages in Mendix](/howto8/monitoring-troubleshooting/clear-warning-messages/)
-* [Test Web Services Using SoapUI](/howto/testing/testing-web-services-using-soapui/)
+* [Test Web Services Using SoapUI](/howto8/testing/testing-web-services-using-soapui/)
 * [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
 
 Learn more about this topic using the following helpful link:

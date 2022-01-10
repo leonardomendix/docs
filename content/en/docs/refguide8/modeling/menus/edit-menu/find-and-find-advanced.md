@@ -113,4 +113,4 @@ Click **Lock results** in the **Find Results** pane. Now if you click **Find Usa
 
 ## 5 Read More
 
-* [Go to Option](/refguide/go-to-option/)
+* [Go to Option](/refguide8/go-to-option/)

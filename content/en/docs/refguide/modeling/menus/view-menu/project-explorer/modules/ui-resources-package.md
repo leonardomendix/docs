@@ -7,7 +7,7 @@ tags: ["studio pro", "ui resources"]
 
 ## 1 Introduction
 
-The UI resources package is a specific [module](/appstore/modules/) marked by a green icon in the App Explorer, that determines the app's look and feel. It does this in two distinct ways. First, the package supplies the app with all the page documents required to create well-designed, consistent pages, such as [page templates](/refguide/page-templates/) and [building blocks](/refguide/building-block/). Second, the package contains theme information, which allows users to easily switch out themes that complement the accompanying page documents. 
+The UI resources package is a specific [module](/refguide/modules/) marked by a green icon in the App Explorer, that determines the app's look and feel. It does this in two distinct ways. First, the package supplies the app with all the page documents required to create well-designed, consistent pages, such as [page templates](/refguide/page-templates/) and [building blocks](/refguide/building-block/). Second, the package contains theme information, which allows users to easily switch out themes that complement the accompanying page documents. 
 
 Which module is set as the UI resources package is governed by the **UI resources package** setting in the **Theme** tab of the [App Settings settings](/refguide/project-settings/). This setting will automatically be updated if a new UI resources package is imported. 
 

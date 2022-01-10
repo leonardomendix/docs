@@ -39,7 +39,7 @@ Select the Team Server app you would like to open, then choose the development l
 
 For more information about the Mendix Team Server, see [Team Server](/developerportal/collaborate/team-server/).
 
-For more information about development lines, see [Version Control](/refguide/version-control/).
+For more information about development lines, see [Version Control](/refguide8/version-control/).
 
 ### 2.2 Private Server {#private-server}
 
@@ -57,4 +57,4 @@ For opening an app you already have on disk, simply point to the project file.
 
 ## 3 Read More
 
-* [Import Project Package](/refguide/import-project-package-dialog/)
+* [Import Project Package](/refguide8/import-project-package-dialog/)

@@ -117,7 +117,7 @@ You can filter on attributes of an associated entity. The way you do this depend
 | Filter on an associated object | `People?$filter=BirthPlace/CityName eq 'Rotterdam'` |
 | Filter on an associated list  | `City?$filter=BornIn/any(person:person/Year le 1919)` |
 
-Filtering on an associated object or list in this way is possible when you [expose associations as a link](/refguide/odata-representation/#associations). It is not possible when you [expose associations as an associated object ID](/refguide/odata-representation/#associations).
+Filtering on an associated object or list in this way is possible when you [expose associations as a link](/refguide8/odata-representation/#associations). It is not possible when you [expose associations as an associated object ID](/refguide8/odata-representation/#associations).
 
 ## 5 Sorting
 

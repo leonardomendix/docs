@@ -16,7 +16,7 @@ aliases:
 ## 1 Introduction
 You can export a project package (*.mpk*) from Mendix Studio Pro for backup purposes or to share it with other Mendix developers. This is useful if you want to give someone the entire app, or if you need to provide a test app when submitting a ticket.
 
-Project packages can be imported again into a new app using the [Import Project Package](/refguide/import-project-package-dialog/).
+Project packages can be imported again into a new app using the [Import Project Package](/refguide8/import-project-package-dialog/).
 
 To export the package, open the **File** menu > **Export Project Package** and select the relevant options in the **Export Project Package** dialog box:
 
@@ -46,5 +46,5 @@ Mendix project packages can be exported to a Mendix package file (*.mpk*).  You 
 
 ## 4 Read More
 
-* [Import Project Package](/refguide/import-project-package-dialog/)
-* [Version Control Menu](/refguide/version-control-menu/)
+* [Import Project Package](/refguide8/import-project-package-dialog/)
+* [Version Control Menu](/refguide8/version-control-menu/)

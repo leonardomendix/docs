@@ -8,9 +8,9 @@ parent: "common-widgets"
 
 {{% alert type="warning" %}}
 
-For input widgets it is recommended to use the more powerful [label property](/refguide/text-box/) to describe their purpose.
+For input widgets it is recommended to use the more powerful [label property](/refguide7/text-box/) to describe their purpose.
 
-For all other text use the [text widget](/refguide/text/) as it provides more features, for example, text templates, and generates semantically correct HTML.
+For all other text use the [text widget](/refguide7/text/) as it provides more features, for example, text templates, and generates semantically correct HTML.
 
 {{% /alert %}}
 

@@ -25,7 +25,7 @@ In the example below, you use a **Show message** activity to warn end-users abou
 
 ### 2.1 Caption
 
-For details, see [Common Properties](/refguide/microflow-element-common-properties/).
+For details, see [Common Properties](/refguide8/microflow-element-common-properties/).
 
 ## 3 Annotation Flow {#annotation-flow}
 

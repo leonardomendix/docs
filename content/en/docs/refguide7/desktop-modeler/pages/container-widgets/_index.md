@@ -7,10 +7,10 @@ parent: "pages"
 
 Container widgets are a set of tools that allow you to provide structure for your page's content.
 
-*   [Container](/refguide/container/)
-*   [Group box](/refguide/group-box/)
-*   [Layout grid](/refguide/layout-grid/)
-*   [Navigation list](/refguide/navigation-list/)
-*   [Scroll Container](/refguide/scroll-container/)
-*   [Tab container](/refguide/tab-container/)
-*   [Table](/refguide/table/)
+*   [Container](/refguide7/container/)
+*   [Group box](/refguide7/group-box/)
+*   [Layout grid](/refguide7/layout-grid/)
+*   [Navigation list](/refguide7/navigation-list/)
+*   [Scroll Container](/refguide7/scroll-container/)
+*   [Tab container](/refguide7/tab-container/)
+*   [Table](/refguide7/table/)

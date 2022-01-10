@@ -9,10 +9,10 @@ tags: ["build", "app", "charts", "extensibility", "studio", "desktop modeler"]
 
 The following how-to's are available here:
 
-* [How to Create a Basic Chart](/howto/front-end/charts-basic-create/)
-* [How to Use Any Chart](/howto/front-end/charts-any-usage/)
-* [How to Fine-Tune a Chart with Advanced Settings](/howto/front-end/charts-advanced-tuning/)
-* [How to Use the Charts Theme](/howto/front-end/charts-theme/)
-* [How to Create a Dynamic Series Chart](/howto/front-end/charts-dynamic-series/)
-* [How to Use a Chart with a REST Data Source](/howto/front-end/charts-basic-rest/)
-* [How to Use the Plotly Images REST Service Endpoint](/howto/front-end/charts-plotly-images-rest/)
+* [How to Create a Basic Chart](/howto7/extensibility/charts-basic-create/)
+* [How to Use Any Chart](/howto7/extensibility/charts-any-usage/)
+* [How to Fine-Tune a Chart with Advanced Settings](/howto7/extensibility/charts-advanced-tuning/)
+* [How to Use the Charts Theme](/howto7/extensibility/charts-theme/)
+* [How to Create a Dynamic Series Chart](/howto7/extensibility/charts-dynamic-series/)
+* [How to Use a Chart with a REST Data Source](/howto7/extensibility/charts-basic-rest/)
+* [How to Use the Plotly Images REST Service Endpoint](/howto7/extensibility/charts-plotly-images-rest/)

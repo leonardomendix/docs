@@ -19,11 +19,11 @@ This how-to explains how to eliminate design time warnings. While these warnings
 
 Warning messages can be seen in the **Error List** tab of Studio Pro (by default shown at the bottom of Studio Pro). Note that the **Warnings** box must be selected for them to display.
 
-![](/attachments/howto8/monitoring-troubleshooting//clear-warning-messages/18579992.png)
+![](/attachments/howto8/monitoring-troubleshooting/clear-warning-messages/18579992.png)
 
 If this tab is not visible, it can be displayed via the **View** menu by selecting the **Error List** option:
 
-![](/attachments/howto8/monitoring-troubleshooting//clear-warning-messages/18579991.png)
+![](/attachments/howto8/monitoring-troubleshooting/clear-warning-messages/18579991.png)
 
 To get more information, double-click or right-click the warning.
 
@@ -170,13 +170,13 @@ Variable ‘Variable’ is never used.
 
 ## 4 Read More
 
-* [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [Find the Root Cause of Runtime Errors](/howto8/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
 * [Test Web Services Using SoapUI](/howto8/testing/testing-web-services-using-soapui/)
-* [Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [Configure Log Levels](/howto/monitoring-troubleshooting/log-levels/)
-* [Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
-* [Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
+* [Monitor Mendix Using JMX](/howto8/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [Debug Java Actions Remotely](/howto8/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [Configure Log Levels](/howto8/monitoring-troubleshooting/log-levels/)
+* [Debug Microflows](/howto8/monitoring-troubleshooting/debug-microflows/)
+* [Debug Java Actions](/howto8/monitoring-troubleshooting/debug-java-actions/)
+* [Debug Microflows Remotely](/howto8/monitoring-troubleshooting/debug-microflows-remotely/)
 
 Several warnings relate to improper security. For more information on this, see [Project Security](/refguide8/project-security/) in the *Studio Pro Guide*.

@@ -28,8 +28,8 @@ The examples of using the **Go to** option are described below:
 
 ## 3 Read More
 
-* [Find, Find Advanced, and Find Usages](/refguide/find-and-find-advanced/)
-* [Navigation](/refguide/navigation/)
-* [Pages](/refguide/pages/)
-* [Microflows](/refguide/microflows/)
-* [Domain Model](/refguide/domain-model/)
+* [Find, Find Advanced, and Find Usages](/refguide8/find-and-find-advanced/)
+* [Navigation](/refguide8/navigation/)
+* [Pages](/refguide8/pages/)
+* [Microflows](/refguide8/microflows/)
+* [Domain Model](/refguide8/domain-model/)

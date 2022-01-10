@@ -25,7 +25,7 @@ A non-versioned deployment package is based on your local project on disk and ca
 
 ## 3 Options for Versioned Deployment Packages
 
-If you are creating a versioned deployment package, you will need to enter the information described below. For more information on versioning, see [Version Control](/refguide/version-control/).
+If you are creating a versioned deployment package, you will need to enter the information described below. For more information on versioning, see [Version Control](/refguide8/version-control/).
 
 ### 3.1 Development Line
 

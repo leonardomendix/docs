@@ -13,7 +13,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-A **Report parameter** allows the end-user to select a parameter for the [data set](/refguide/data-sets/) that supplies the data for a [Report grid](/refguide/report-grid/). The parameter is used to filter the results in different ways so that the same report can display different sets of data.
+A **Report parameter** allows the end-user to select a parameter for the [data set](/refguide8/data-sets/) that supplies the data for a [Report grid](/refguide8/report-grid/). The parameter is used to filter the results in different ways so that the same report can display different sets of data.
 
 For example, a report may show order data for a customer and the report parameter can be used to specify which customer's data should be displayed.
 
@@ -22,9 +22,9 @@ The report parameter is displayed in structure mode with the data set parameter 
 ![Report parameter in structure mode](/attachments/refguide8/modeling/pages/report-widgets/report-parameter/report-parameter.png)
 
 {{% alert type="info" %}}
-A **Report parameter** cannot be used for data set parameters of type **Date and time**. Date and time parameters must be filtered by a [Report Date Parameter](/refguide/report-date-parameter/) widget.
+A **Report parameter** cannot be used for data set parameters of type **Date and time**. Date and time parameters must be filtered by a [Report Date Parameter](/refguide8/report-date-parameter/) widget.
 
-If you add a report parameter widget on the page, you must also add a [Report Button](/refguide/report-button/) widget. This allows the end-user to regenerate the report after specifying the parameter.
+If you add a report parameter widget on the page, you must also add a [Report Button](/refguide8/report-button/) widget. This allows the end-user to regenerate the report after specifying the parameter.
 {{% /alert %}}
 
 ## 2 Report Parameter Properties

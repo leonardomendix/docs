@@ -113,7 +113,7 @@ Here is an example of a **Toggle** design property:
 
 This is how the **Toggle** design property appears:
 
-![Toggle property in Studio Pro](/attachments/apidocs-mxsdk/apidocs//design-properties/design_property_toggle_studio_pro.png)
+![Toggle property in Studio Pro](/attachments/apidocs-mxsdk/apidocs/design-properties/design_property_toggle_studio_pro.png)
 
 Here is an example of a **Dropdown** design property:
 
@@ -137,9 +137,9 @@ Here is an example of a **Dropdown** design property:
 
 This is how the **Dropdown** design property appears:
 
-![Dropdown property in Studio Pro](/attachments/apidocs-mxsdk/apidocs//design-properties/design_property_dropdown_studio_pro.png)
+![Dropdown property in Studio Pro](/attachments/apidocs-mxsdk/apidocs/design-properties/design_property_dropdown_studio_pro.png)
 
-![Dropdown property options in Studio Pro](/attachments/apidocs-mxsdk/apidocs//design-properties/design_property_dropdown_open_studio_pro.png)
+![Dropdown property options in Studio Pro](/attachments/apidocs-mxsdk/apidocs/design-properties/design_property_dropdown_open_studio_pro.png)
 
 #### 4.1.1 Common Fields
 

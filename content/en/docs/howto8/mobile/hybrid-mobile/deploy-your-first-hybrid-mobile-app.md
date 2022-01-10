@@ -30,30 +30,30 @@ To open a hybrid example app, follow these steps:
 3. Adjust your configurations (be sure to keep **Enable online services** > **Yes** selected) and then click **Create app**.
 4. Click **Run** to deploy this application to the Mendix Cloud:
 
-    ![](/attachments/howto8/mobile//hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581186.png) 
+    ![](/attachments/howto8/mobile/hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581186.png) 
 
     Studio Pro will notify you as soon as the application is deployed. While you wait, go to **Navigation**, click the **Hybrid phone app online** tab, and make sure your **Default home page** is set to **MyFirstModule.Dashboard**.
 5. Click the small arrow to open the **View App** menu and select **View Hybrid Mobile App**:
 
-    ![](/attachments/howto8/mobile//hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581185.png) 
+    ![](/attachments/howto8/mobile/hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581185.png) 
 
     This will open the **View Hybrid Mobile App** pop-up window:
 
-    ![](/attachments/howto8/mobile//hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581184.png)
+    ![](/attachments/howto8/mobile/hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581184.png)
 
 6. Open the hybrid Mendix mobile app on your device and tap **Scan QR Code**:
 
-    ![](/attachments/howto8/mobile//hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581190.png)
+    ![](/attachments/howto8/mobile/hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581190.png)
 
 7. Scan the QR code on the screen with your hybrid Mendix mobile app:
 
-    ![](/attachments/howto8/mobile//hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581189.png)
+    ![](/attachments/howto8/mobile/hybrid-mobile/deploy-your-first-hybrid-mobile-app/18581189.png)
 
 You should see the example application running on your device.
 
 ## 4 Installing the App on Your Device
 
-If you want to install this application as a native mobile app on your device, you can install it via iTunes or publish it to one of the mobile app stores. For details on how to achieve this, see [How to Publish a Mendix Hybrid Mobile App in App Stores](/howto7/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/).
+If you want to install this application as a native mobile app on your device, you can install it via iTunes or publish it to one of the mobile app stores. For details on how to achieve this, see [How to Publish a Mendix Hybrid Mobile App in App Stores](/howto8/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores/).
 
 ## 5 Read More
 

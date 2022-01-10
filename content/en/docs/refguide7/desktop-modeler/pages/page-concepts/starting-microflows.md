@@ -13,7 +13,7 @@ Mendix allows for microflows to be triggered in pages by a variety of widgets. T
 | --- | --- | --- |
 | Action button (data view) | On click | Data view object |
 | Data view | Data source | Object of the data view containing this data view |
-| Action button (grid)<sup><a name="ref1" href="#fn1">1</a></sup> | On click | Grid selection or clicked row (as an object or as a list, depending on the [selection mode](/refguide/data-grid/)) |
+| Action button (grid)<sup><a name="ref1" href="#fn1">1</a></sup> | On click | Grid selection or clicked row (as an object or as a list, depending on the [selection mode](/refguide7/data-grid/)) |
 | Reference set selector | On change | Data view object |
 | Input widget<sup><a name="ref2" href="#fn2">2</a></sup> | On change | Data view object |
 | Input widget | On enter | Data view object |

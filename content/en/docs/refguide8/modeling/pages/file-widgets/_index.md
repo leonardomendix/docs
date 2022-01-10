@@ -14,15 +14,15 @@ tags: ["studio pro", "file widgets", "widget"]
 
 File widgets allow end-users to upload, download, and display files and images. 
 
-* [File manager](/refguide/file-manager/) – allows end-users to upload and/or download files:
+* [File manager](/refguide8/file-manager/) – allows end-users to upload and/or download files:
 
     ![File Manager Example](/attachments/refguide8/modeling/pages/file-widgets/file-manager-example.png)
 
-* [Image uploader](/refguide/image-uploader/) – allows end-users to upload images to the server:
+* [Image uploader](/refguide8/image-uploader/) – allows end-users to upload images to the server:
 
     ![Image Uploader Example](/attachments/refguide8/modeling/pages/file-widgets/image-uploader-example.png)
 
-* [Image viewer](/refguide/image-viewer/) – displays an image or its thumbnail:
+* [Image viewer](/refguide8/image-viewer/) – displays an image or its thumbnail:
 
     ![Image Viewer Example](/attachments/refguide8/modeling/pages/file-widgets/image-viewer-example.png)
 
@@ -32,5 +32,5 @@ File widgets allow end-users to upload, download, and display files and images.
 
 ## 3 Read More
 
-* [Page](/refguide/page/)
-* [Pages](/refguide/pages/)
+* [Page](/refguide8/page/)
+* [Pages](/refguide8/pages/)

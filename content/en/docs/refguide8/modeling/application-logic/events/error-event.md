@@ -20,7 +20,7 @@ An error event defines where a microflow will stop and throw an error that occur
 
 For more information on error handlers and their settings in microflows, see the [Error Handlers](#errorhandlers) subsection of [Handling Errors in Microflows](#errors-in-microflows), below. More information on error handlers and their settings in nanoflows is in the [Error Handlers](#errorhandlers-nano) subsection of [Handling Errors in Nanoflows](#errors-in-nanoflows), below.
 
-Link an error event and an activity which has an error handlers set on it with a [sequence flow](/refguide/sequence-flow/).
+Link an error event and an activity which has an error handlers set on it with a [sequence flow](/refguide8/sequence-flow/).
 
 {{% alert type="warning" %}}
 You can only use an error event if an error is in scope: Studio Pro does not accept it if you connect the normal execution flow to an error event, because there would not be an error to pass back to the caller.
@@ -108,6 +108,6 @@ With the **Custom without rollback** option, you can draw an additional flow fro
 
 ### 3.2 Error Inspection
 
-In a custom error handler executed after an error occurs, the `$latestError` variable is set to the message of the error information. The `$latestError` variable type is `String`, unlike in [microflows](/refguide/microflows/) where errors' type is the `System.Error` entity.
+In a custom error handler executed after an error occurs, the `$latestError` variable is set to the message of the error information. The `$latestError` variable type is `String`, unlike in [microflows](/refguide8/microflows/) where errors' type is the `System.Error` entity.
 
 The `$latestSoapFault` variable is not available in nanoflows.

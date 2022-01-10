@@ -12,4 +12,4 @@ Mendix recommends the Calypso GUI styling tool for most users. For more informat
 
 To use Gulp and Sass in your Mendix app, start with [How to Set Up Gulp & Sass](/howto8/front-end/sass-eight/).
 
-For more details, move to [How to Start Styling with Gulp & Sass](/howto7/front-end/style-with-gulp-and-sass/).
+For more details, move to [How to Start Styling with Gulp & Sass](/howto8/front-end/style-with-gulp-and-sass/).

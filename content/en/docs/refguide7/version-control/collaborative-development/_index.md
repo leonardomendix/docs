@@ -22,13 +22,13 @@ You will still be able to open your project in the Web Modeler (the Web Modeler 
 
 {{% /alert %}}
 
-Collaborative development is the process of sharing app model changes when a team of more than one person is working on the app. Collaborative development allows the team members to work together on one project in the Desktop Modeler and the Web Modeler and easily synchronize changes using [version control](/refguide/version-control/). The Desktop Modeler can be used to work on different branches of an app, while the Web Modeler can be enabled for one of these branches. 
+Collaborative development is the process of sharing app model changes when a team of more than one person is working on the app. Collaborative development allows the team members to work together on one project in the Desktop Modeler and the Web Modeler and easily synchronize changes using [version control](/refguide7/version-control/). The Desktop Modeler can be used to work on different branches of an app, while the Web Modeler can be enabled for one of these branches. 
 
 If you have never used the Mendix Web Modeler before, mind that you need to enable it for a development line first. For more information on managing development lines, see the [Managing Development Lines in the Desktop Modeler](#managing-branches) section.  
 
 ## 2 Collaborative Development Overview
 
-Desktop Modeler users can collaborate with each other through [version control](/refguide/version-control/) via **Commit** and **Update** operations. 
+Desktop Modeler users can collaborate with each other through [version control](/refguide7/version-control/) via **Commit** and **Update** operations. 
 
 The collaborative development process between the Desktop Modeler and the Web Modeler consists of the following steps:
 
@@ -141,7 +141,7 @@ To create a new branch line, do the following:
 
 3.  In the **Create Branch Line** dialog window, set the following: <br/>
 
-	a. What line you are creating a new line from: the main line, a branch line, or a tagged version. For more information on these concepts, see section [2 Concepts](/refguide/version-control/#concepts) in *Version Control*. <br/> 
+	a. What line you are creating a new line from: the main line, a branch line, or a tagged version. For more information on these concepts, see section [2 Concepts](/refguide7/version-control/#concepts) in *Version Control*. <br/> 
 	
 	b. Select revision if needed. <br/>
 
@@ -173,6 +173,6 @@ You cannot delete the Web Modeler enabled branch. If you need to delete this bra
 
 ## 6 Read More
 
-* [Version Control](/refguide/version-control/)
-* [Troubleshooting Collaborative Development](/refguide/collaborative-development-troubleshooting/)
+* [Version Control](/refguide7/version-control/)
+* [Troubleshooting Collaborative Development](/refguide7/collaborative-development-troubleshooting/)
 * [Collaborative Development in the Web Modeler](/studio7/general-collaborative-development/)

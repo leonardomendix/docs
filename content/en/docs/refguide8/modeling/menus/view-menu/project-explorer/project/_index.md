@@ -13,33 +13,33 @@ tags: ["studio pro", "project"]
 
 ## 1 Introduction
 
-A Mendix project consists of project-level documents and a number of modules. Each module can contain many documents. At the project level there are some settings and documents that apply to your project as a whole. For example, navigation is a project-level document; the menu bar is project-wide and can refer to functionality in all modules. Most documents, however, live at the level of a [module](/appstore/modules/).
+A Mendix project consists of project-level documents and a number of modules. Each module can contain many documents. At the project level there are some settings and documents that apply to your project as a whole. For example, navigation is a project-level document; the menu bar is project-wide and can refer to functionality in all modules. Most documents, however, live at the level of a [module](/refguide8/modules/).
 
 ## 2 Settings
 
 Project settings include the languages for the end-user, project directory and database and server settings.
 
-See [Project Settings](/refguide/project-settings/).
+See [Project Settings](/refguide8/project-settings/).
 
 ## 3 Security
 
 At the project level you can change the security level, manage user roles and manage administrator and anonymous user access.
 
-See [Project Security](/refguide/project-security/).
+See [Project Security](/refguide8/project-security/).
 
 ## 4 Navigation
 
 In navigation you can configure the menu bar and navigation tree for your application. Also you can specify what the home page is, as in, the page you see right after signing in.
 
-See [Navigation](/refguide/navigation/).
+See [Navigation](/refguide8/navigation/).
 
 ## 5 System Texts
 
 System texts are texts like information and error messages that are produced by the server or the client. You can translate these texts so that they appear in the preferred language of the user.
 
-See [System Texts](/refguide/system-texts/).
+See [System Texts](/refguide8/system-texts/).
 
 ## 6 Read More
 
-* [Modules](/appstore/modules/)
-* [Security](/data-hub/data-hub-catalog/security/)
+* [Modules](/refguide8/modules/)
+* [Security](/refguide8/security/)

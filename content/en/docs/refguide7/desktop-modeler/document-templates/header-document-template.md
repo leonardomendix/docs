@@ -11,7 +11,7 @@ aliases:
 
 When enabled, the header will be inserted at the top of every page. Other widgets can be put in the header.
 
-For inserting page numbers, see [Static Label](/refguide/static-label-document-template/).
+For inserting page numbers, see [Static Label](/refguide7/static-label-document-template/).
 
 {{% alert type="info" %}}
 

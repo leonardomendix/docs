@@ -37,7 +37,7 @@ Mendix's native mobile apps are always configured with offline-first capabilitie
 
 ## 5 Main Documents in This Category
 
-* [Native Mobile](/howto/mobile/native-mobile/) – presents information on building fully native mobile apps with the Mendix Platform that utilize native UI elements
+* [Native Mobile](/refguide/native-mobile/) – presents information on building fully native mobile apps with the Mendix Platform that utilize native UI elements
 * [Progressive Web Apps](/refguide/progressive-web-app/) – explains the capabilities and configurations of progressive web apps
-* [Hybrid Mobile](/howto/mobile/hybrid-mobile/) – describes the depreciated state of hybrid mobile in Mendix 9 
+* [Hybrid Mobile](/refguide/hybrid-mobile/) – describes the depreciated state of hybrid mobile in Mendix 9 
 * [Offline First](/refguide/offline-first/) – provides details on the architectural concepts of offline-first applications in Mendix

@@ -26,13 +26,13 @@ These are commonly caused by compatibility issues with JAR files in the `<projec
 
 ## 4 Read More
 
-* [How to Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
-* [How to Clear Warning Messages in Mendix](/howto/monitoring-troubleshooting/clear-warning-messages/)
+* [How to Find the Root Cause of Runtime Errors](/howto7/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
+* [How to Clear Warning Messages in Mendix](/howto7/monitoring-troubleshooting/clear-warning-messages/)
 * [How to Test Web Services Using SoapUI](/howto7/testing/testing-web-services-using-soapui/)
-* [How to Monitor Mendix Using JMX](/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
-* [How to Debug Java Actions Remotely](/howto/monitoring-troubleshooting/debug-java-actions-remotely/)
-* [How to Configure Log Levels](/howto/monitoring-troubleshooting/log-levels/)
+* [How to Monitor Mendix Using JMX](/howto7/monitoring-troubleshooting/monitoring-mendix-using-jmx/)
+* [How to Debug Java Actions Remotely](/howto7/monitoring-troubleshooting/debug-java-actions-remotely/)
+* [How to Configure Log Levels](/howto7/monitoring-troubleshooting/log-levels/)
 * [How to Debug Microflows](/howto7/monitoring-troubleshooting/debug-microflows/)
-* [How to Debug Java Actions](/howto/monitoring-troubleshooting/debug-java-actions/)
+* [How to Debug Java Actions](/howto7/monitoring-troubleshooting/debug-java-actions/)
 * [How to Handle Common Mendix SSO Errors](/howto7/monitoring-troubleshooting/handle-common-mendix-sso-errors/)
-* [How to Debug Microflows Remotely](/howto/monitoring-troubleshooting/debug-microflows-remotely/)
+* [How to Debug Microflows Remotely](/howto7/monitoring-troubleshooting/debug-microflows-remotely/)

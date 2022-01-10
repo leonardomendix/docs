@@ -28,7 +28,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 ## 3 Creating a New App Based on the Quickstart App {#quickstartapp}
 
-For details on making a Mendix app using the Blank Native Mobile App template, download the Make It Native 8 app on either the [Google Play store](https://play.google.com/store/apps/details?id=com.mendix.developerapp) or the [Apple App Store](https://apps.apple.com/us/app/make-it-native/id1334081181). This app template includes the latest version of Atlas UI, as well as the [Native Mobile Resources](/appstore/modules/native-mobile-resources/) module containing widgets and nanoflow actions for native mobile apps. For more information on building native mobile apps, see the [Build a Native Mobile Inspection App](https:/academy.mendix.com/link/path/66) learning path (you must be signed in to the Mendix Platform to see this learning path). Using the Make It Native app to view the changes to your Mendix app, see the sections below.
+For details on making a Mendix app using the Blank Native Mobile App template, download the Make It Native 8 app on either the [Google Play store](https:/play.google.com/store/apps/details?id=com.mendix.developerapp) or the [Apple App Store](https:/apps.apple.com/us/app/make-it-native/id1334081181). This app template includes the latest version of Atlas UI, as well as the [Native Mobile Resources](/appstore/modules/native-mobile-resources/) module containing widgets and nanoflow actions for native mobile apps. For more information on building native mobile apps, see the [Build a Native Mobile Inspection App](https://academy.mendix.com/link/path/66) learning path (you must be signed in to the Mendix Platform to see this learning path). Using the Make It Native app to view the changes to your Mendix app, see the sections below.
 
 ### 3.1 Starting a Quickstarter App
 
@@ -49,13 +49,13 @@ At this point you have a running native mobile app. To view your app on a mobile
 
 To view your app on an Android device (or emulator), you must download and install the Make It Native 8 app from the [Google Play store](https://play.google.com/store/apps/details?id=com.mendix.developerapp):
 
-{{% image_container width="500" %}}![native app on googleplay](/attachments/howto8/mobile//native-mobile/getting-started-with-native-mobile/make-it-native-googleplay.png){{% /image_container %}}
+{{% image_container width="500" %}}![native app on googleplay](/attachments/howto8/mobile/native-mobile/getting-started-with-native-mobile/make-it-native-googleplay.png){{% /image_container %}}
 
 #### 3.2.2 Downloading for iOS {#downloading-for-ios}
 
 To view your app on a iOS device, you must download and install the Make It Native 8 app from the [Apple App Store](https://apps.apple.com/us/app/make-it-native/id1334081181):
 
-{{% image_container width="500" %}}![native app on app store](/attachments/howto8/mobile//native-mobile/getting-started-with-native-mobile/make-it-native-ios.png){{% /image_container %}}
+{{% image_container width="500" %}}![native app on app store](/attachments/howto8/mobile/native-mobile/getting-started-with-native-mobile/make-it-native-ios.png){{% /image_container %}}
 
 ### 3.3 Viewing Your App on Your Testing Device
 
@@ -65,7 +65,7 @@ Viewing your app on a mobile device will allow you to test native features and o
 2. Start the Make It Native app by tapping its icon on your device.
 3.  Tap the  **Scan a QR Code** button:
 
-	{{% image_container width="500" %}}![Scan QR Code](/attachments/howto8/mobile//native-mobile/getting-started-with-native-mobile/scan-qr.png){{% /image_container %}}
+	{{% image_container width="500" %}}![Scan QR Code](/attachments/howto8/mobile/native-mobile/getting-started-with-native-mobile/scan-qr.png){{% /image_container %}}
 
 4. If prompted, grant the app permission to access your device's camera.
 5. Point your mobile device's camera at the QR code. It will automatically launch your test app on your mobile device.
@@ -80,7 +80,7 @@ Now you can see your app on your device. While this is just a template app, when
 
 You may notice an **Enable dev mode** toggle on the Make It Native app home page. Turning this toggle on will give you more detailed warning messages during error screens, as well as additional functionality on the developer app menu:
 
-{{% image_container width="500" %}}![enable dev mode](/attachments/howto8/mobile//native-mobile/getting-started-with-native-mobile/enable-dev-mode.png){{% /image_container %}}
+{{% image_container width="500" %}}![enable dev mode](/attachments/howto8/mobile/native-mobile/getting-started-with-native-mobile/enable-dev-mode.png){{% /image_container %}}
 
 ### 3.4 Viewing Changes to Your App on Your Testing Device {#viewingchanges}
 
@@ -88,7 +88,7 @@ To see how changes made in Mendix Studio Pro are displayed live on your testing 
 
 1.  Put a text widget on your app's home page. Then, write some text into it. In this example, "Native rules!" has been added: 
 
-	![new studio pro text](/attachments/howto8/mobile//native-mobile/getting-started-with-native-mobile/new-text-studiopro.png)
+	![new studio pro text](/attachments/howto8/mobile/native-mobile/getting-started-with-native-mobile/new-text-studiopro.png)
 
 2. Click **Run Locally** to automatically update the running app on your device, and see your new text. When you click **Run Locally**, your app will automatically reload while keeping state. 
 
@@ -97,10 +97,10 @@ If you get an error screen while testing your app, there are easy ways to restar
 * Tap your test app with three fingers to restart your app
 * With the **Enable dev mode** toggle turned on, hold a three-fingered tap to bring up the developer app menu—here you can access **ADVANCED SETTINGS** and **ENABLE REMOTE JS DEBUGGING** 
 
-For more detailed instructions on debugging a native mobile app, see [Debug Native Mobile Apps (Advanced)](/howto/mobile/native-debug/).
+For more detailed instructions on debugging a native mobile app, see [Debug Native Mobile Apps (Advanced)](/howto8/mobile/native-debug/).
 
 ## 4 Read More
 
 * [How to Build Pluggable Widgets](/howto8/extensibility/pluggable-widgets/)
 * [Native Mobile Styling Reference Guide](/refguide8/native-styling-refguide/)
-* [How to Debug Native Mobile Apps (Advanced)](/howto/mobile/native-debug/)
+* [How to Debug Native Mobile Apps (Advanced)](/howto8/mobile/native-debug/)

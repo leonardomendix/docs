@@ -7,8 +7,8 @@ parent: "activities"
 
 ## Create Variable
 
-See [Create Variable](/refguide/create-variable/).
+See [Create Variable](/refguide7/create-variable/).
 
 ## Change Variable
 
-See [Change Variable](/refguide/change-variable/).
+See [Change Variable](/refguide7/change-variable/).

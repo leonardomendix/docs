@@ -14,11 +14,11 @@ This activity can only be used in microflows, not in nanoflows.
 
 ![](/attachments/refguide7/desktop-modeler/integration/microflow-activities/export-mapping-action/19399019.png)
 
-With the Export Mapping action, you can export the data stored in [domain model](/refguide/domain-model/) entities into an XML document, JSON document, or string variable.
+With the Export Mapping action, you can export the data stored in [domain model](/refguide7/domain-model/) entities into an XML document, JSON document, or string variable.
 
 {{% alert type="info" %}}
 
-For details on the properties that all activities share (for example, caption), see [Microflow Element Common Properties](/refguide/microflow-element-common-properties/). This page only describes the properties specific to the action.
+For details on the properties that all activities share (for example, caption), see [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ For details on the properties that all activities share (for example, caption), 
 
 ### 2.1 Export Mapping
 
-The [Export Mapping](/refguide/export-mappings/) action defines in which way the data in the [domain model](/refguide/domain-model/) corresponds with the XML schema or JSON structure.
+The [Export Mapping](/refguide7/export-mappings/) action defines in which way the data in the [domain model](/refguide7/domain-model/) corresponds with the XML schema or JSON structure.
 
 {{% alert type="info" %}}
  
@@ -36,11 +36,11 @@ Export mappings support flat JSON. You can select a JSON structure document in a
 
 ### 2.2 Parameter Type
 
-If the [export mapping](/refguide/export-mappings/) requires an input, this field shows the type of the input.
+If the [export mapping](/refguide7/export-mappings/) requires an input, this field shows the type of the input.
 
 ### 2.3 Parameter
 
-If the [export mapping](/refguide/export-mappings/) requires an input, you can select a variable of the correct type.
+If the [export mapping](/refguide7/export-mappings/) requires an input, you can select a variable of the correct type.
 
 ### 2.4 Content Type
 
@@ -50,7 +50,7 @@ This feature was introduced in version 7.10.0.
 
 {{% /alert %}}
 
-If the [export mapping](/refguide/export-mappings/) is based on a message definition, it can export both XML and JSON. Choose which type of output you want.
+If the [export mapping](/refguide7/export-mappings/) is based on a message definition, it can export both XML and JSON. Choose which type of output you want.
 
 ## 3 Validation Properties
 

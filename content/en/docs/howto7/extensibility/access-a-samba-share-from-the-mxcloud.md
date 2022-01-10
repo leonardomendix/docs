@@ -73,4 +73,4 @@ For more details on all the properties, see here: [http://jcifs.samba.org/src/do
 
 ## 5 Read More
 
-* [How to Access a Samba Share from the MxCloud](/howto/integration/access-a-samba-share-from-the-mxcloud/)
+* [How to Access a Samba Share from the MxCloud](/howto7/extensibility/access-a-samba-share-from-the-mxcloud/)

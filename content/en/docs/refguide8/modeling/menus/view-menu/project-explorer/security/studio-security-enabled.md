@@ -22,10 +22,10 @@ When security is enabled, a number of checks and changes are done at several lev
 
 1. Studio checks if security is enabled. If security is set to **Prototype/demo** or **Production**, the process stops. If security is off, steps described below are executed. 
 2. The [Mendix SSO](/appstore/modules/mendix-sso/) module is set up if the project does not have it yet (for more information on this process, see the [Modules Set Up](#module-set-up) section). If the Mendix SSO module has been already installed for this project, the process stops. 
-3. Studio does checks and changes (if necessary) to [demo users](/refguide/demo-users/) , [module roles](/refguide/module-security/) , and [user roles](/refguide/user-roles/) (for more information on this process, see the [Module Roles and Demo Users Set Up](#module-roles-and-demo-users) section).
+3. Studio does checks and changes (if necessary) to [demo users](/refguide8/demo-users/) , [module roles](/refguide8/module-security/) , and [user roles](/refguide8/user-roles/) (for more information on this process, see the [Module Roles and Demo Users Set Up](#module-roles-and-demo-users) section).
 4. Studio sets access rules for entities (and their attributes and associations), if entities do not have access rules yet (for more information on this process, see the [Entity Access Set Up](#entity-access) section).
 5. Studio checks if the *login.html* file exists, backs it up, and replaces it with a new version (for more information on this process, see the [File Set Up](#file-set-up) section).
-6. Studio does checks and changes (if necessary) at the [Project Security](/refguide/project-security/) level (for more information on this process, see the [Project Security Level Set Up](#project-security-level) section).
+6. Studio does checks and changes (if necessary) at the [Project Security](/refguide8/project-security/) level (for more information on this process, see the [Project Security Level Set Up](#project-security-level) section).
 
 {{% alert type="info" %}}
 
@@ -153,5 +153,5 @@ Studio Pro security settings are compatible with Studio (that means that roles a
 ## 9 Read More
 
 * [Security, Roles & Permissions](/studio8/settings-security/) 
-* [Project Security](/refguide/project-security/)
-* [Module Security](/refguide/module-security/)
+* [Project Security](/refguide8/project-security/)
+* [Module Security](/refguide8/module-security/)

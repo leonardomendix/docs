@@ -21,11 +21,11 @@ Links to available API documentation such as WSDLs for published web services ar
 
 ## 4 Main Documents in This Category
 
-* [Clustered Mendix Runtime](/refguide/clustered-mendix-runtime/)
-* [Customization](/refguide/custom-settings/)
-* [Data Storage](/refguide/data-storage/)
-* [Date & Time Handling](/refguide/datetime-handling-faq/)
-* [Logging](/refguide/logging/)
-* [Monitoring Mendix Runtime](/refguide/monitoring-mendix-runtime/)
-* [Objects & Caching](/refguide/objects-and-caching/)
-* [Transient Objects & Garbage Collecting](/refguide/transient-objects-garbage-collecting/)
+* [Clustered Mendix Runtime](/refguide7/clustered-mendix-runtime/)
+* [Customization](/refguide7/custom-settings/)
+* [Data Storage](/refguide7/data-storage/)
+* [Date & Time Handling](/refguide7/datetime-handling-faq/)
+* [Logging](/refguide7/logging/)
+* [Monitoring Mendix Runtime](/refguide7/monitoring-mendix-runtime/)
+* [Objects & Caching](/refguide7/objects-and-caching/)
+* [Transient Objects & Garbage Collecting](/refguide7/transient-objects-garbage-collecting/)

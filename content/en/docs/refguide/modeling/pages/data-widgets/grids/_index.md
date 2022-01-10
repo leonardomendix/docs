@@ -20,5 +20,5 @@ Grids have the following components in common:
 
 * [Data Grid](/refguide/data-grid/)
 * [Template Grid](/refguide/template-grid/)
-* [Data Containers](/appstore/modules/data-widgets/)
+* [Data Containers](/refguide/data-widgets/)
 * [Properties Common in the Page Editor](/refguide/common-widget-properties/)

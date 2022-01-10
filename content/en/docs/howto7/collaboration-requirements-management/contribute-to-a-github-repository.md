@@ -48,4 +48,4 @@ To submit changes, follow these guidelines:
 * [Stories](/developerportal/collaborate/stories/)
 * [How to Start Your Own Repository](/howto7/collaboration-requirements-management/starting-your-own-repository/)
 * [Version Control](/refguide7/version-control/)
-* [How to Share the Development Database](/howto/collaboration-requirements-management/sharing-the-development-database/)
+* [How to Share the Development Database](/howto7/collaboration-requirements-management/sharing-the-development-database/)

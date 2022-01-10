@@ -11,7 +11,7 @@ This action can be used to change the value of an existing variable.
 
 {{% alert type="info" %}}
 
-See [Microflow Element Common Properties](/refguide/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
+See [Microflow Element Common Properties](/refguide7/microflow-element-common-properties/) for properties that all microflow activities share (for example, caption). This page only describes the properties specific to the action.
 
 {{% /alert %}}
 
@@ -25,4 +25,4 @@ The variable of which you want to change the value.
 
 ### 3.1 Value
 
-The new value for the variable. The value is entered using an [expression](/refguide/expressions/). The type of the expression should be the same as the type of the selected variable.
+The new value for the variable. The value is entered using an [expression](/refguide7/expressions/). The type of the expression should be the same as the type of the selected variable.

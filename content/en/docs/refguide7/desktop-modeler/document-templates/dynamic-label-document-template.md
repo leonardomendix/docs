@@ -22,7 +22,7 @@ A dynamic label linking to a customer name.
 
 ### Style
 
-See [Style](/refguide/style/)
+See [Style](/refguide7/style/)
 
 ### Render XHTML
 
