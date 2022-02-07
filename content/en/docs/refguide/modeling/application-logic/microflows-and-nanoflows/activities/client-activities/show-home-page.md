@@ -22,7 +22,7 @@ This action is ignored and does not work when a microflow is called from an offl
 The **Show home page** activity opens the home page for an end-user. For example, you can navigate your user to the home page when they are not logged in. 
 
 {{% image_container width="200" %}}
-![Show Home Page](/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/client-activities/show-home-page/show-home-page.png)
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/client-activities/show-home-page/show-home-page.png" alt="Show Home Page" >}}
 {{% /image_container %}}
 
 This activity shows the same page that is displayed to the end-user after they log in, meaning it shows the home page defined for the current user role. For more information on role-based home pages, see [Navigation](/refguide/navigation/).
@@ -36,7 +36,7 @@ The **Show home page** activity properties consists of the following sections:
 * [Common](#common)
 
     {{% image_container width="300" %}}
-![Show Home Page Properties](/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/client-activities/show-home-page/show-home-page-properties.png)
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/client-activities/show-home-page/show-home-page-properties.png" alt="Show Home Page Properties" >}}
 {{% /image_container %}}
 
 ## 3 Action Section {#action}

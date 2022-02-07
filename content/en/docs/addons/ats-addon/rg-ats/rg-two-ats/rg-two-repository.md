@@ -10,7 +10,7 @@ The repository is the heart of ATS, as it allows you to create and manage folder
 
 You can access the repository by clicking **Test Cases** in the navigation menu.
 
-![](/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/repository.png)
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/repository.png" alt="" >}}
 
 You search for a specific item by using the search bar in the repository. ATS searches for the desired item in the current folder and all sub-folders. So, if you start searching ATS, only searches inside your current folder and its sub-folders.
 
@@ -20,23 +20,23 @@ With the type icons on the left side of the item name, you can identify at a gla
 
 *  This is a folder:
 
-    ![](/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/folder-icon.png)
+    {{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/folder-icon.png" alt="" >}}
 
 *  This is a test case:
 
-    ![](/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/test-case-icon.png)
+    {{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/test-case-icon.png" alt="" >}}
 
 *  This is test suite:
 
-    ![](/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/test-suite-icon.png)
+    {{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/test-suite-icon.png" alt="" >}}
 
 *  This is a action:
 
-    ![](/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/action-icon.png)
+    {{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/action-icon.png" alt="" >}}
 
 If you want to cut, copy, or delete an item in the repository, you can do so by marking it with the check-box. After that, the actions become available.
 
-![](/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/repository-actions.png)
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-repository/repository-actions.png" alt="" >}}
 
 ## 2 Actions
 

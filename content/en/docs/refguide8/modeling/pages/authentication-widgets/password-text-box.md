@@ -16,7 +16,7 @@ tags: ["studio pro", "password text box", "authentication widget", "authenticati
 
 The **Password text box** is a widget that provides a password for authentication:
 
-![Password Text Box](/attachments/refguide8/modeling/pages/authentication-widgets/password-text-box/password-text-box.png)
+{{< figure src="/attachments/refguide8/modeling/pages/authentication-widgets/password-text-box/password-text-box.png" alt="Password Text Box" >}}
 
 The **Password text box** should be placed on a page together with  with a [Login ID text box](/refguide8/login-id-text-box/) and a [Sign-in button](/refguide8/sign-in-button/).
 
@@ -24,7 +24,7 @@ The **Password text box** should be placed on a page together with  with a [Logi
 
 An example of password text box properties is represented in the image below:
 
-{{% image_container width="250" %}}![](/attachments/refguide8/modeling/pages/authentication-widgets/password-text-box/password-text-box-properties.png)
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/authentication-widgets/password-text-box/password-text-box-properties.png" alt="" >}}
 {{% /image_container %}}
 
 Password text box properties consist of the following sections:

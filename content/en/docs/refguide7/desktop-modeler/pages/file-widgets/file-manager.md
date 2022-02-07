@@ -10,7 +10,7 @@ A file manager is used to upload and/or download files.
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/file-widgets/file-manager/file-manager.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/file-widgets/file-manager/file-manager.png" alt="" >}}
 
 {{% /alert %}}
 

@@ -13,19 +13,19 @@ Decisions are elements that split or merge sequence flows based on conditions se
 The elements described in this document are in the **Decisions** section of the **Toolbox**:
 
 {{% image_container width="300" %}}
-![Decisions](/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/decisions.png)
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/decisions.png" alt="Decisions" >}}
 {{% /image_container %}}
 
 There are following types of decisions:
 
 * [Decision](/refguide/decision/) – makes a choice based on a condition and follows one and only one of the outgoing sequence flows
 
-	{{% image_container width="400" %}}![](/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/decision/decision-example.png){{% /image_container %}}
+	{{% image_container width="400" %}}{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/decision/decision-example.png" alt="" >}}{{% /image_container %}}
 
 * [Object Type Decision](/refguide/object-type-decision/) – makes a choice based on the type of an object of a generalized entity
 
-	![](/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/object-type-decision.png)
+	{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/object-type-decision.png" alt="" >}}
 
 * [Merge](/refguide/merge/) – merges incoming flows 
 
-	![](/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/merge.png)
+	{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/merge.png" alt="" >}}

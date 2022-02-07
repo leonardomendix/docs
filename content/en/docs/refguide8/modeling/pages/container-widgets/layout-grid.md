@@ -15,7 +15,7 @@ tags: ["studio pro", "layout grid", "container widget", "column", "row", "grid",
 
 The layout grid is a widget that gives structure to your pages.  
 
-A layout grid consists of [rows](#rows) and [columns](#columns): ![Layout Grid Example](attachments/container-widgets/layout-grid.png)
+A layout grid consists of [rows](#rows) and [columns](#columns): {{< figure src="attachments/container-widgets/layout-grid.png" alt="Layout Grid Example" >}}
 
 In a browser, the layout grid is based on the Bootstrap grid system. For more information on the Bootstrap grid system, see the [official Bootstrap documentation](http://getbootstrap.com/css/#grid).
 
@@ -31,7 +31,7 @@ For more information on row and column properties, see the [Rows and Their Prope
 
 An example of layout grid properties is represented in the image below:
 
-{{% image_container width="250" %}}![Layout Grid Properties](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-grid-properties.png)
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-grid-properties.png" alt="Layout Grid Properties" >}}
 {{% /image_container %}}
 
 Layout grid properties consist of the following sections:
@@ -76,7 +76,7 @@ A layout grid can contain one or more rows. Each row contains [columns](#columns
 
 An example of layout grid row properties is represented in the image below:
 
-{{% image_container width="300" %}}![Row Properties](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/row-properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/row-properties.png" alt="Row Properties" >}}
 {{% /image_container %}}
 
 Row properties consist of the following sections:
@@ -121,7 +121,7 @@ Columns form a row of a layout grid.
  An example of layout grid column properties is represented in the image below:
 
 {{% image_container width="300" %}}
-![Column Properties](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-properties.png)
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-properties.png" alt="Column Properties" >}}
 {{% /image_container %}}
 
 Layout grid column properties consist of the following sections:
@@ -155,17 +155,17 @@ For example, you have a layout grid with one row and two columns: a picture is i
 
 For the *desktop* and *tablet*, you might want to set the first column with a picture to **Auto-fit content** and and the second one to **Auto-fill**, this way the first column will adjust to the size of the picture, while the second one will take the rest of the row:
 
-![Layout Example, Desktop](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-example-desktop.png)
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-example-desktop.png" alt="Layout Example, Desktop" >}}
 
 For *phone*, it can be a good idea to place two columns one under another, setting them to **Manual** width of *12* (for more information on the column size property, see the [Size](#column-size) section). In this case, the second column will be automatically wrapped to another line:
 
  {{% image_container width="300" %}}
-![Layout Example, Phone](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-example-phone.png)
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-example-phone.png" alt="Layout Example, Phone" >}}
 {{% /image_container %}}
 
 On the picture below you can see the settings for two column described above:
 
-![](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-settings-example.png)
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-settings-example.png" alt="" >}}
 
 #### 4.2.2 **Size** {#column-size}
 
@@ -187,7 +187,7 @@ To add a new row, do the following:
 
 2. Right-click and select **Insert row above** or **Insert row below**:
 
-    ![Adding a New Row](/attachments/refguide8/modeling/pages/container-widgets/layout-grid/adding-row.png)
+    {{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/adding-row.png" alt="Adding a New Row" >}}
 
 3. Select a column layout (how many columns should be in a row and what weight columns should have).
 

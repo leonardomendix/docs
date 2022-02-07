@@ -17,7 +17,7 @@ The generate-document microflow action can be used to create a document based on
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/application-logic/common-elements/activities/document-generation-activities/generate-document/918200.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/application-logic/common-elements/activities/document-generation-activities/generate-document/918200.png" alt="" >}}
 Generate document
 
 {{% /alert %}}{{% alert type="info" %}}

@@ -11,7 +11,7 @@ Like data grid rows, single tiles do not have their content updated. For example
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/data-widgets/template-grid/template-grid.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/data-widgets/template-grid/template-grid.png" alt="" >}}
 
 A template grid showing employees with their profile picture.
 

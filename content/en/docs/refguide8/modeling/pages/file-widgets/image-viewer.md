@@ -14,7 +14,7 @@ tags: ["studio pro"]
 
 An image viewer can be used to display an image or its thumbnail. For example, you can show a profile picture:
 
-![](/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer.png)
+{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer.png" alt="" >}}
 
 An image viewer must be placed in a data view or a template grid.
 
@@ -22,7 +22,7 @@ An image viewer must be placed in a data view or a template grid.
 
 An example of image viewer properties is represented in the image below:
 
-{{% image_container width="250" %}}![Image Viewer Properties](/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer-properties.png)
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer-properties.png" alt="Image Viewer Properties" >}}
 {{% /image_container %}}
 
 Image viewer properties consist of the following sections:

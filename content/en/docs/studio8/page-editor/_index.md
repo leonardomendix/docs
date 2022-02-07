@@ -12,7 +12,7 @@ Pages define the end-user interface of a Mendix application. Pages are created a
 
 To view the **Pages** of your app in Mendix Studio, click the **Pages** icon in the left menu bar of Studio.
 
-{{% image_container width="300" %}}![](/attachments/studio8/page-editor/pages-icon.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/pages-icon.png" alt="" >}}
 {{% /image_container %}}
 
 {{% alert type="warning" %}}
@@ -33,7 +33,7 @@ Every page is *based on* a layout and a template:
 
 The diagram below explains function of layouts, templates, and widgets:
 
-![](/attachments/studio8/page-editor/page-structure.png)
+{{< figure src="/attachments/studio8/page-editor/page-structure.png" alt="" >}}
 
 All elements described above (layouts, templates, widgets, and building blocks) are powered by Atlas UI. For more information on what Atlas UI is, see [Atlas UI](/howto8/front-end/atlas-ui/). 
 
@@ -49,7 +49,7 @@ To open a page in Studio, do the following:
 
 2.  In the displayed list of app pages, select the one you want to open and click it.
 
-    {{% image_container width="400" %}}![](/attachments/studio8/page-editor/opening-a-page.png)
+    {{% image_container width="400" %}}{{< figure src="/attachments/studio8/page-editor/opening-a-page.png" alt="" >}}
     {{% /image_container %}}
 
 The selected page is opened. 
@@ -62,12 +62,12 @@ To create a new page in Studio, do the following:
 
 2.  Click **New** in the top right corner of the displayed side panel.
 
-    {{% image_container width="400" %}}![](/attachments/studio8/page-editor/new-page.png)
+    {{% image_container width="400" %}}{{< figure src="/attachments/studio8/page-editor/new-page.png" alt="" >}}
     {{% /image_container %}}
 
 3.  In the **Create new page** dialog box, fill out the title of the page, select a layout and a page template.  
 
-	![](/attachments/studio8/page-editor/create-new-page-dialog.png)
+	{{< figure src="/attachments/studio8/page-editor/create-new-page-dialog.png" alt="" >}}
 
 5. Click **Create**.
 
@@ -82,7 +82,7 @@ To duplicate an existing page, do the following:
 2. In the side panel, click the ellipsis icon and select **Duplicate** in the drop-down menu:
 
     {{% image_container width="400" %}}
-![Duplicate Page](/attachments/studio8/page-editor/duplicate-page.png)
+{{< figure src="/attachments/studio8/page-editor/duplicate-page.png" alt="Duplicate Page" >}}
 {{% /image_container %}}
 
 The page is duplicated.
@@ -96,7 +96,7 @@ To copy and paste a page, do the following:
 2.  In the side panel, click the ellipsis icon and select **Copy to clipboard** in the drop-down menu:
 
     {{% image_container width="400" %}}
-![Copying a Page](/attachments/studio8/page-editor/copy-page.png)
+{{< figure src="/attachments/studio8/page-editor/copy-page.png" alt="Copying a Page" >}}
 {{% /image_container %}}
 
 3. Open the Studio app where you want to paste the page and press <kbd>Ctrl</kbd> +<kbd>V</kbd> or <kbd>Cmd</kbd> +<kbd>V</kbd>. 
@@ -111,14 +111,14 @@ To delete a page in Studio, do one of the following:
     1. Open the **Properties** tab.
     2. Click **Delete** at the bottom of the **Properties** tab.
 
-    ![](/attachments/studio8/page-editor/page-delete.png)
+    {{< figure src="/attachments/studio8/page-editor/page-delete.png" alt="" >}}
 
 2. Click the **Pages** icon in the left menu bar and do the following:
 
     1. In the side panel, click the ellipsis icon and select **Delete** in the drop-down menu:
 
 		{{% image_container width="400" %}}
-![Delete Page](/attachments/studio8/page-editor/delete-page.png)
+{{< figure src="/attachments/studio8/page-editor/delete-page.png" alt="Delete Page" >}}
 {{% /image_container %}}
 
 The selected page is deleted.
@@ -139,7 +139,7 @@ There are two ways to view an element and its [properties](#page-editor-properti
 
 The selected element is indicated with an blue border. Additionally, if the element is inside a data container (data view or a list view), it will be indicated with a data container icon:
 
-{{% image_container width="400" %}}![](/attachments/studio8/page-editor/input-widget-example.png)
+{{% image_container width="400" %}}{{< figure src="/attachments/studio8/page-editor/input-widget-example.png" alt="" >}}
 {{% /image_container %}}
 
 ### 2.8 Deleting Elements from a Page
@@ -161,7 +161,7 @@ The breadcrumb serves two functions:
 
 * Shows a bottom-up layering of a selected item on a page. For example, when you select a button on a page, you will see that it is placed in a container, which is in a column.  Whereas, the column is in a row, and this row is placed in a layout grid on the page:
 
-	![](/attachments/studio8/page-editor/breadcrumb.png)
+	{{< figure src="/attachments/studio8/page-editor/breadcrumb.png" alt="" >}}
 
 * Allows you to select an element on the page and view its properties. To navigate to an element on a page and view element's properties, click this element in the breadcrumb.
 
@@ -186,7 +186,7 @@ You can update widgets in the [Widget Overview](/studio8/settings-widget-overvie
 
 Building blocks consist of pre-set widgets that allow you to build a page faster:  
 
-![](/attachments/studio8/page-editor/building-blocks.png)
+{{< figure src="/attachments/studio8/page-editor/building-blocks.png" alt="" >}}
 
 Building blocks of Studio are divided into the following categories:
 
@@ -207,7 +207,7 @@ Building blocks of Studio are divided into the following categories:
 
 If you want to read documentation on a particular building block and to know more about how and when to use it, click the small icon in the top right corner of the building block.
 
-![](/attachments/studio8/page-editor/info-icon-building-blocks.png)
+{{< figure src="/attachments/studio8/page-editor/info-icon-building-blocks.png" alt="" >}}
 
 {{% alert type="info" %}}
 
@@ -219,12 +219,12 @@ Building blocks categories may differ because Atlas UI can be customized using S
 
 The **Properties** tab displays the properties of the currently selected element and can differ per element. 
 
-{{% image_container width="300" %}}![](/attachments/studio8/page-editor/properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/properties.png" alt="" >}}
 {{% /image_container %}}
 
 For example, if you click **Layout**—which is the layout that you choose when [creating a page](#creating-new-page)—in the breadcrumb, properties will display reference information on page-related actions that you can perform, such as changing the page title and customizing pages' look: 
 
-{{% image_container width="300" %}}![](/attachments/studio8/page-editor/layout.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/layout.png" alt="" >}}
 {{% /image_container %}}
 
 ## 7 Main Documents in This Category

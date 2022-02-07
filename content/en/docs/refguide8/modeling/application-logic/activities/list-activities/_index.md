@@ -19,7 +19,7 @@ Additional activities which work on lists, [commit object(s)](/refguide8/committ
 The activities described in this document are in the **List Activities** section of the **Toolbox**:
 
 {{% image_container width="40%" %}}
-![list activities toolbox](/attachments/refguide8/modeling/application-logic/activities/list-activities/list-activities-toolbox.png)
+{{< figure src="/attachments/refguide8/modeling/application-logic/activities/list-activities/list-activities-toolbox.png" alt="list activities toolbox" >}}
 {{% /image_container %}}
 
 The following are the list activities you can use in your microflow or nanoflow:

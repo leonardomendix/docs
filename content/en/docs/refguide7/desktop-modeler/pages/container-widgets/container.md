@@ -9,7 +9,7 @@ A container widget can be used to style or simultaneously hide a group of widget
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/container-widgets/container/16843976.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/container-widgets/container/16843976.png" alt="" >}}
 An empty container.
 
 {{% /alert %}}

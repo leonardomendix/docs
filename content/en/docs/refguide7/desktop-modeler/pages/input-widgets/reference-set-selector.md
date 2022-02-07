@@ -9,10 +9,10 @@ The reference set selector allows you to set an association of type reference se
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/input-widgets/reference-set-selector/reference-set-selector.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/input-widgets/reference-set-selector/reference-set-selector.png" alt="" >}}
 In this data view on customer you can select multiple groups using the reference set selector.
 
-![](/attachments/refguide7/desktop-modeler/pages/input-widgets/reference-set-selector/reference-set-selector-domain-model.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/input-widgets/reference-set-selector/reference-set-selector-domain-model.png" alt="" >}}
 In the domain model there is an association of type reference set from customer to group.
 
 {{% /alert %}}

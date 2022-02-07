@@ -10,11 +10,11 @@ tags: ["studio", "navigation", "app menu"]
 
 A navigation document in Mendix Studio shows a configured menu of your app in a form of a tree. You can create items and sub-items in your navigation. 
 
-![](/attachments/studio7/navigation/nagigation-wm-vs-app.png)
+{{< figure src="/attachments/studio7/navigation/nagigation-wm-vs-app.png" alt="" >}}
 
 Open the **Navigation Document** by clicking the corresponding icon in the left menu bar.
 
-{{% image_container width="300" %}}![](/attachments/studio7/navigation/navigation-icon.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio7/navigation/navigation-icon.png" alt="" >}}
 {{% /image_container %}}
 
 {{% alert type="info" %}}
@@ -30,7 +30,7 @@ Properties of the menu items consists of the following sections:
 * [Events](#events-section-navigation) 
 * [General](#general-section-navigation) 
 
-{{% image_container width="300" %}}![](/attachments/studio7/navigation/navigation-properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio7/navigation/navigation-properties.png" alt="" >}}
 {{% /image_container %}}
 
 ### 2.1 Events Section {#events-section-navigation}
@@ -72,7 +72,7 @@ To create a new navigation item, do the following:
 
 2.  Click a plus at the end of the navigation tree to create a menu item, or click a plus next to the existing navigation item to create its sub-item
 
-    ![](/attachments/studio7/navigation/adding-navigation-items.png)
+    {{< figure src="/attachments/studio7/navigation/adding-navigation-items.png" alt="" >}}
 
 3. Specify the properties of the created item if needed (For more information, see [Properties of Menu Items](#properties-of-menu-items)). 
 

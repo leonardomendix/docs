@@ -24,12 +24,12 @@ The how-to describes the following use case:
 Your company has an app where company's IT department keeps track of assets assigned to employees. You have the **Employee Profile** page with a form (a data view) that has such details as employee's name, department, their email, phone, title, and assets assigned to them (for example, a mobile phone or laptop). This information is filled in and updated by IT administrators:
 
 {{% image_container width="600" %}}
-![Employee Profile Page](/attachments/studio-how-to/pages/pages-how-to-attach-files/employee-profile-form.png)
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/employee-profile-form.png" alt="Employee Profile Page" >}}
 {{% /image_container %}}
 
 The domain model looks the following way:
 
-{{% image_container width="200" %}}![Domain Model](/attachments/studio-how-to/pages/pages-how-to-attach-files/domain-model.png){{% /image_container %}}
+{{% image_container width="200" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/domain-model.png" alt="Domain Model" >}}{{% /image_container %}}
 
 You would like to add a new functionality: IT administrators should be able to attach files to an employee profile, for example, to attach phone or laptop policy signed by the employee.  
 
@@ -52,27 +52,27 @@ First of all, to be able to attach and/or download files you need to add a speci
 
 3. In the **Create New File Entity** dialog box, set **Name** to *Document* and click **Create**.
 
-    {{% image_container width="450" %}}![Create File Entity](/attachments/studio-how-to/pages/pages-how-to-attach-files/create-file-entity.png){{% /image_container %}}
+    {{% image_container width="450" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-file-entity.png" alt="Create File Entity" >}}{{% /image_container %}}
 
 4. Now you need to create an association from the **File** entity to the **Employee** entity. Do one of the following:
 
     1. Hover over the **File** entity, click the dot icon, and drag the dot to the **Employee** entity:
 
-		{{% image_container width="500" %}}![Create Association](/attachments/studio-how-to/pages/pages-how-to-attach-files/create-association-method-one.png){{% /image_container %}}
+		{{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-association-method-one.png" alt="Create Association" >}}{{% /image_container %}}
 
     2. Select the **File** entity, click the arrow icon, and select **Employee** as a second entity for the association:
 
-		{{% image_container width="250" %}}![Create Association](/attachments/studio-how-to/pages/pages-how-to-attach-files/create-association-method-two.png){{% /image_container %}}
+		{{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-association-method-two.png" alt="Create Association" >}}{{% /image_container %}}
 
 Good job! You have created the file entity and an association from it to the **Employee** entity:
 
-{{% image_container width="600" %}}![Domain Model Configured](/attachments/studio-how-to/pages/pages-how-to-attach-files/domain-model-configured.png){{% /image_container %}}
+{{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/domain-model-configured.png" alt="Domain Model Configured" >}}{{% /image_container %}}
 
 ## 4 Adding a File Manager
 
 A **File Manager** is a widget that allows your end-users to attach and/or download files. However, it can only function inside a data container (a list view or data view), and the list view or data view can only have a file entity as its data source. If you just drag and drop the file manager to your employee profile form, it will not work correctly, because your current data view has the **Employee** entity as its data source, and you need the data source to be a file entity, which is in this case the **Document** entity:
 
-{{% image_container width="600" %}}![Employee Profile Page](/attachments/studio-how-to/pages/pages-how-to-attach-files/employee-profile-form.png){{% /image_container %}}
+{{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/employee-profile-form.png" alt="Employee Profile Page" >}}{{% /image_container %}}
 
 To solve this, you can add a button which will open a pop-up page where your end-users (IT administrators) can upload images. This page will be connected to your current report form over the *Document_Employee* association and will upload files that are associated to this specific report. 
 
@@ -84,7 +84,7 @@ Follow the steps below:
 
 3. Drag and drop the button above **Save** and **Cancel** buttons:
 
-    {{% image_container width="450" %}}![Create Object Button](/attachments/studio-how-to/pages/pages-how-to-attach-files/create-object-button.png){{% /image_container %}}
+    {{% image_container width="450" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-object-button.png" alt="Create Object Button" >}}{{% /image_container %}}
 
 4. Open button properties and do the following:
 
@@ -96,13 +96,13 @@ Follow the steps below:
 
     4. Click the **Style** property and change it from **Default** to **Success**. After your changes, the button will look the following way:
 
-        {{% image_container width="150" %}}![Attach Files](/attachments/studio-how-to/pages/pages-how-to-attach-files/attach-file-button.png){{% /image_container %}}
+        {{% image_container width="150" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/attach-file-button.png" alt="Attach Files" >}}{{% /image_container %}}
 
     5. Click the **Entity** property.
 
     6. In the **Select Entity** dialog box, choose the **Document** entity over **Document_Employee** association and click **Select**:
 
-        {{% image_container width="400" %}}![Select File Entity](/attachments/studio-how-to/pages/pages-how-to-attach-files/select-file-entity.png){{% /image_container %}}
+        {{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/select-file-entity.png" alt="Select File Entity" >}}{{% /image_container %}}
 
     7. Click the **Page** property.
 
@@ -116,11 +116,11 @@ Follow the steps below:
 
          3. The **Pre-fill page contents based on the Document entity** option is on, so the page template (Forms) is selected automatically for you. Choose **Form Vertical** and click **Create**.
 
-             {{% image_container width="500" %}}![](/attachments/studio-how-to/pages/pages-how-to-attach-files/create-attach-file-page.png){{% /image_container %}}
+             {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-attach-file-page.png" alt="" >}}{{% /image_container %}}
 
         4. A new pop-up page with a preconfigured form (a data view) is created:
 
-             {{% image_container width="500" %}}![Attach Files Page](/attachments/studio-how-to/pages/pages-how-to-attach-files/attach-file-page.png){{% /image_container %}}
+             {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/attach-file-page.png" alt="Attach Files Page" >}}{{% /image_container %}}
 
 		5. As you only need your end-users to attach files on this page, delete **Name** and **Size** text boxes from the data view. 
 
@@ -128,7 +128,7 @@ Follow the steps below:
 
 You have created a pop-up page that will allow IT administrators to attach files to the employee profile form:
 
-{{% image_container width="450" %}}![Attach Files Page Configured](/attachments/studio-how-to/pages/pages-how-to-attach-files/attach-file-page-configured.png){{% /image_container %}}
+{{% image_container width="450" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/attach-file-page-configured.png" alt="Attach Files Page Configured" >}}{{% /image_container %}}
 
 
 ## 5 Downloading Files
@@ -139,7 +139,7 @@ After your end-users attach the files, it would be nice to display files in a li
 
 2. In the **Building Blocks**, search for **List 4** and drag and drop it under the **Attach File** button (make sure you drop it *inside* the data view, this way you will be able to list only files associated with a selected employee instead of all files that were attached to any employee profile). A list view with widgets inside it is added to your page:
 
-    {{% image_container width="550" %}}![List 4](/attachments/studio-how-to/pages/pages-how-to-attach-files/list-4.png){{% /image_container %}}
+    {{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/list-4.png" alt="List 4" >}}{{% /image_container %}}
 
 3. Select the list view, open its properties, and do the following:
 
@@ -147,11 +147,11 @@ After your end-users attach the files, it would be nice to display files in a li
 
     2. In the **Select Entity** dialog box, choose the **Document** entity over **Document_Employee** association and click **Select**:
 
-        {{% image_container width="400" %}}![Select Entity](/attachments/studio-how-to/pages/pages-how-to-attach-files/select-file-entity.png){{% /image_container %}}
+        {{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/select-file-entity.png" alt="Select Entity" >}}{{% /image_container %}}
 
 4. Delete the image and a column it is placed in from the list:
 
-    ![Delete Column From the List](/attachments/studio-how-to/pages/pages-how-to-attach-files/column-list.png)
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/column-list.png" alt="Delete Column From the List" >}}
 
 5. Delete a subtitle in the list saying *Here you can put a subtitle*.
 
@@ -160,7 +160,7 @@ After your end-users attach the files, it would be nice to display files in a li
     1. In the **Content** property, delete the *Name* text and click **Add attribute**.
     2. In the **Select Attribute** dialog box, choose the **Name** attribute and click **Select** to display the name of the attached file.
 
-    	{{% image_container width="400" %}}![Select Attribute](/attachments/studio-how-to/pages/pages-how-to-attach-files/select-attribute.png){{% /image_container %}}
+    	{{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/select-attribute.png" alt="Select Attribute" >}}{{% /image_container %}}
 
 7. Delete the **Details** button in the list view.
 
@@ -170,12 +170,12 @@ After your end-users attach the files, it would be nice to display files in a li
 
 Great job! Now you have the list that shows attached files and your users can download files from this list:
 
-{{% image_container width="500" %}}![Configured List View](/attachments/studio-how-to/pages/pages-how-to-attach-files/list-view-configured.png){{% /image_container %}}
+{{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/list-view-configured.png" alt="Configured List View" >}}{{% /image_container %}}
 
 Congratulations! You have configured the form that allows IT administrators to attach files and displays these files in the list.
 
 [Preview your app](/studio/publishing-app/) to test how the file uploading and downloading works:
 
-![Previewed List](/attachments/studio-how-to/pages/pages-how-to-attach-files/list-previewed.png) 
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/list-previewed.png" alt="Previewed List" >}} 
 
 You can also configure a button to attach images instead of files. For more information, see [How to Enable End-Users to Attach Images](/studio-how-to/pages-how-to-attach-images/).

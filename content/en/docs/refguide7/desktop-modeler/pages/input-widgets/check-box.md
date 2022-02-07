@@ -10,7 +10,7 @@ A check box is an [input widget](/refguide7/input-widgets/) that can be used to 
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/input-widgets/check-box/check-box.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/input-widgets/check-box/check-box.png" alt="" >}}
 
 This check box allows you to change whether someone is subscribed to the newsletter.
 

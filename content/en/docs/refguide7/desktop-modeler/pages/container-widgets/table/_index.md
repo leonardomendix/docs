@@ -10,7 +10,7 @@ Tables can be used to lend structure to a page. They contain a number of [rows](
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/container-widgets/table/table.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/container-widgets/table/table.png" alt="" >}}
 An example of how you can create a structured page with a table.
 
 {{% /alert %}}
@@ -19,7 +19,7 @@ Cells can be merged horizontally and vertically to allow for asymmetric lay-outs
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/container-widgets/table/table-merge.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/container-widgets/table/table-merge.png" alt="" >}}
 The merge button
 
 {{% /alert %}}

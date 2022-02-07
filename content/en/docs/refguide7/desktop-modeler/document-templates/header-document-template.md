@@ -15,7 +15,7 @@ For inserting page numbers, see [Static Label](/refguide7/static-label-document-
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/document-templates/header-document-template/918236.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/document-templates/header-document-template/918236.png" alt="" >}}
 A header
 
 {{% /alert %}}

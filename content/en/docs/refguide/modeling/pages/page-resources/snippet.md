@@ -15,14 +15,14 @@ A snippet is indicated by a blue bar above a drop-zone. The blue bar has the sni
 
 In the example below, the snippet is used in the context of the **Orders.Order** entity.
 
-{{% image_container width="400" %}}![Example of a snippet](/attachments/refguide/modeling/pages/page-resources/snippet/snippet.png)
+{{% image_container width="400" %}}{{< figure src="/attachments/refguide/modeling/pages/page-resources/snippet/snippet.png" alt="Example of a snippet" >}}
 {{% /image_container %}}
 
 ## 2 Properties
 
 An example of snippet properties is represented in the image below:
 
-{{% image_container width="250" %}}![Example of the snippet properties pane](/attachments/refguide/modeling/pages/page-resources/snippet/snippet-properties.png)
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/page-resources/snippet/snippet-properties.png" alt="Example of the snippet properties pane" >}}
 {{% /image_container %}}
 
 Snippet properties consist of the following sections:

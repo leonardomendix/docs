@@ -10,7 +10,7 @@ A group box can be used to visually group related widgets together. Group boxes 
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/container-widgets/group-box/16843974.jpg)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/container-widgets/group-box/16843974.jpg" alt="" >}}
 An empty group box.
 
 {{% /alert %}}

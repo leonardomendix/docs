@@ -15,7 +15,7 @@ tags: ["studio pro", "container", "container widgets", "widget"]
 
 A container is a layout element that can be used to simultaneously style, hide, drag, or delete a group of widgets placed in it:
 
-![Container Example](/attachments/refguide8/modeling/pages/container-widgets/container/container.png)
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/container/container.png" alt="Container Example" >}}
 
 In a browser, it is rendered as a simple `div` element by default. It is also possible to render a container as one of HTML5 semantic elements (for example, `section`, `main`, `article`, `nav`).
 
@@ -23,7 +23,7 @@ In a browser, it is rendered as a simple `div` element by default. It is also po
 
 An example of container properties is represented in the image below:
 
-{{% image_container width="300" %}}![Container Properties](/attachments/refguide8/modeling/pages/container-widgets/container/container-properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/container/container-properties.png" alt="Container Properties" >}}
 {{% /image_container %}}
 
 Container properties consist of the following sections:

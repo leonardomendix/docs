@@ -15,14 +15,14 @@ A *data view* is a starting point for showing the contents of one object on a pa
 
 For example, if you want to fill out the information on each customer, a data view is the best way to do that.
 
-{{% image_container width="400" %}}![](/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/data-view-example.png)
+{{% image_container width="400" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/data-view-example.png" alt="" >}}
 {{% /image_container %}}
 
 In more complex templates, a data view can contain other data views for related objects, for example, showing customer details and showing customer payment status, if these are modeled as two different entities. 
 
 A *list view* is a starting point for showing a list of objects. For example, if you want to display a list of all customers, use a list view. 
 
-{{% image_container width="400" %}}![](/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/list-view-example.png)
+{{% image_container width="400" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/list-view-example.png" alt="" >}}
 {{% /image_container %}}
 
 ## 2 Data View Properties {#data-view-properties}
@@ -33,7 +33,7 @@ Data view consists of the following properties:
 * [General](#general-section-data-view)
 * [Design](#design-section-data-view)
 
-{{% image_container width="300" %}}![](/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/data-view-properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/data-view-properties.png" alt="" >}}
 {{% /image_container %}}
 
 ### 2.1 Data Source {#data-source-data-view} 
@@ -65,7 +65,7 @@ List view consists of the following properties:
 * [General](#general-section-list-view)
 * [Design](#design-section-list-view)
 
-{{% image_container width="300" %}}![](/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/list-view-properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/list-view-properties.png" alt="" >}}
 {{% /image_container %}}
 
 ### 3.1 Data Source {#data-source-list-view}
@@ -92,7 +92,7 @@ In the **General** section, you can select the number of rows to be displayed on
 
 * **Page Size** – the number of rows displayed on the page; after the indicated limit is reached, the **Load more...** button is displayed on the page.
 
-{{% image_container width="400" %}}![](/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/load-more-list-view.png)
+{{% image_container width="400" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-data-view-list-view/load-more-list-view.png" alt="" >}}
 {{% /image_container %}}
 
 * **Read-Only** (enabled by default) – when enabled, all [input widgets](/studio7/page-editor-widgets-input-elements/) (for example, a text area, a check box) in the list view will be in read-only mode

@@ -15,7 +15,7 @@ The data grid shows a list of objects in a grid. For example, a data grid can sh
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide/modeling/resources/document-templates/data-grid-document-template/918138.png)
+{{< figure src="/attachments/refguide/modeling/resources/document-templates/data-grid-document-template/918138.png" alt="" >}}
 
 A data grid showing a list of orders with a description and the referenced customer name.
 

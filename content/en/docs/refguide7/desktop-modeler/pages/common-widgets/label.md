@@ -18,7 +18,7 @@ A label shows static text, which intent is to describe the purpose of a specific
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/common-widgets/label/label.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/common-widgets/label/label.png" alt="" >}}
 A label placed in a cell with render mode header.
 
 {{% /alert %}}

@@ -10,7 +10,7 @@ An image viewer can be used to display an image or its thumbnail.
 
 {{% alert type="info" %}}
 
-![](/attachments/refguide7/desktop-modeler/pages/file-widgets/image-viewer/image-viewer.png)
+{{< figure src="/attachments/refguide7/desktop-modeler/pages/file-widgets/image-viewer/image-viewer.png" alt="" >}}
 This image viewer shows the product image.
 
 {{% /alert %}}

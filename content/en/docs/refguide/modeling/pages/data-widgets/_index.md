@@ -14,22 +14,22 @@ The Data containers category contains the following widgets:
 
 * [Data view](/refguide/data-view/) – This widget shows the contents of exactly one object. If, for example, you want to show details of a single program item, you would use a data view for this:
 
-    {{% image_container width="500" %}}![](/attachments/refguide/modeling/pages/data-widgets/data-view-example.png)
+    {{% image_container width="500" %}}{{< figure src="/attachments/refguide/modeling/pages/data-widgets/data-view-example.png" alt="" >}}
     {{% /image_container %}}
 
 * [Data grid](/refguide/data-grid/) – This widget shows a list of objects in a table format. For example, a data grid can show all the orders a customer has placed. Using controls provided by the data grid you can browse, search, and edit those objects.
 
-    {{% image_container width="450" %}}![](/attachments/refguide/modeling/pages/data-widgets/data-grid-example.png)
+    {{% image_container width="450" %}}{{< figure src="/attachments/refguide/modeling/pages/data-widgets/data-grid-example.png" alt="" >}}
     {{% /image_container %}}
 
 * [Template grid](/refguide/template-grid/) – This widget shows a list of objects in a tile view. For example, a template grid can show a list of employees with their profile pictures. Using controls provided by the template grid you can browse, search, and manipulate those objects.
 
-    {{% image_container width="450" %}}![](/attachments/refguide/modeling/pages/data-widgets/template-grid-example.png)
+    {{% image_container width="450" %}}{{< figure src="/attachments/refguide/modeling/pages/data-widgets/template-grid-example.png" alt="" >}}
     {{% /image_container %}}
 
 * [List view](/refguide/list-view/) – This widget shows a list of objects. For example, you can display list of all profiles using a list view. 
 
-    {{% image_container width="450" %}}![](/attachments/refguide/modeling/pages/data-widgets/list-view-example.png)
+    {{% image_container width="450" %}}{{< figure src="/attachments/refguide/modeling/pages/data-widgets/list-view-example.png" alt="" >}}
     {{% /image_container %}}
 
 ## 2 Performing Basic Functions

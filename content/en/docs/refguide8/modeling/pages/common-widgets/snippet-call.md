@@ -15,13 +15,13 @@ tags: ["studio pro", snippet call", "common widget"]
 
 The **Snippet call** widget allows you to use a [snippet](/refguide8/snippet/) on a [page](/refguide8/page/), a [layout](/refguide8/layout/), or another snippet:
 
-![Snippet Call Example](/attachments/refguide8/modeling/pages/common-widgets/snippet-call/snippet-call-example.png)
+{{< figure src="/attachments/refguide8/modeling/pages/common-widgets/snippet-call/snippet-call-example.png" alt="Snippet Call Example" >}}
 
 ## 2 Properties
 
 An example of snippet call properties is represented in the image below:
 
-{{% image_container width="300" %}}![Snippet Call Properties](/attachments/refguide8/modeling/pages/common-widgets/snippet-call/snippet-call-properties.png)
+{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/common-widgets/snippet-call/snippet-call-properties.png" alt="Snippet Call Properties" >}}
 {{% /image_container %}}
 
 Snippet call properties consist of the following sections:

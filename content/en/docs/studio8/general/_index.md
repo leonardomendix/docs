@@ -15,7 +15,7 @@ With Studio you can create and edit applications in your browser without install
 
 The picture below shows the components of Studio's interface:
 
-![Studio Diagram](/attachments/studio8/general/home-page.png)
+{{< figure src="/attachments/studio8/general/home-page.png" alt="Studio Diagram" >}}
 
 ## 2 Opening Studio
 
@@ -26,7 +26,7 @@ You can open Mendix Studio via [Developer Portal](#opening-studio-via-dev-portal
 You can edit an app in Mendix Studio by opening your app in [Developer Portal](https://home.mendix.com) and clicking **Edit in Studio**:
 
 {{% image_container width="350" %}}
-![Edit in Studio](/attachments/studio8/general/edit-app.jpg)
+{{< figure src="/attachments/studio8/general/edit-app.jpg" alt="Edit in Studio" >}}
 {{% /image_container %}}
 
 If you do not see **Edit in Studio**, go to [General Settings](/developerportal/collaborate/general-settings/) in the Developer Portal and [enable Studio](/developerportal/collaborate/general-settings/#web).
@@ -38,7 +38,7 @@ You can also open your app in Studio via Studio Pro. Do the following:
 1. In Studio Pro, open the app in that you want to view in Studio.
 2.  Click the globe icon in the top right corner (only available if Studio is enabled).
 
-	![Globe Icon](/attachments/studio8/general/globe-icon.png)
+	{{< figure src="/attachments/studio8/general/globe-icon.png" alt="Globe Icon" >}}
 
 The app opens in Studio.
 
@@ -46,7 +46,7 @@ The app opens in Studio.
 
 After clicking **Edit in Studio** you may need to upgrade your app to the latest version.
 
-{{% image_container width="350" %}}![Upgrade](/attachments/studio8/general/upgrade.png)
+{{% image_container width="350" %}}{{< figure src="/attachments/studio8/general/upgrade.png" alt="Upgrade" >}}
 {{% /image_container %}}
 
 You may also see an orange top bar suggesting an upgrade to the next Mendix version. For more information on Studio upgrades and Mendix versions, see [Studio Ranges & Mendix Versions](/studio8/general-versions/).
@@ -68,7 +68,7 @@ You can change the view of your page to different views by clicking the correspo
 * Tablet
 * Responsive (Desktop) 
 
-    {{% image_container width="350" %}}![Device Modes](/attachments/studio8/general/view.png)
+    {{% image_container width="350" %}}{{< figure src="/attachments/studio8/general/view.png" alt="Device Modes" >}}
     {{% /image_container %}}
 
 ## 5 Left Menu Bar
@@ -76,7 +76,7 @@ You can change the view of your page to different views by clicking the correspo
 The left menu bar allows you to go back to the Developer Portal, access pages, the domain model, microflows, and the navigation document in Studio, search for different elements in your app, open settings, and customize the look of your app:
 
 {{% image_container width="250" %}}
-![Left Menu Bar](/attachments/studio8/general/left-menu-bar.png)
+{{< figure src="/attachments/studio8/general/left-menu-bar.png" alt="Left Menu Bar" >}}
 {{% /image_container %}}
 
 All items of the left menu bar are described in the table below:
@@ -96,7 +96,7 @@ All items of the left menu bar are described in the table below:
 
 The top right menu of Studio consists of the **Toolbox**, **Properties** , and **Buzz** tabs: 
 
-![Toolbox, Properties, Buzz](/attachments/studio8/general/toolbox-properties-buzz.png)
+{{< figure src="/attachments/studio8/general/toolbox-properties-buzz.png" alt="Toolbox, Properties, Buzz" >}}
 
 The **Toolbox**, **Properties** , and **Buzz** tabs are described in the table below:
 
@@ -110,7 +110,7 @@ The **Toolbox**, **Properties** , and **Buzz** tabs are described in the table b
 
 The top menu bar allows to check whether Studio is connected to the internet, undo or redo actions, view your recent documents, preview or publish your app, and view errors in your app (if any). You can also access help and learning and view various information in the top menu bar. 
 
-![Top Menu Bar](/attachments/studio8/general/top-bar.png)
+{{< figure src="/attachments/studio8/general/top-bar.png" alt="Top Menu Bar" >}}
 
 The top menu bar items are described in the table below: 
 

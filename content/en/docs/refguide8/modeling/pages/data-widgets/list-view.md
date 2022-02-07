@@ -15,7 +15,7 @@ tags: ["studio pro"]
 
 A list view shows a list of objects. For example, you can display a list of all profiles:
 
-![](/attachments/refguide8/modeling/pages/data-widgets/list-view/list-view-example-profile.png) 
+{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/list-view/list-view-example-profile.png" alt="" >}} 
 
 Each object is shown using a template. This template is defined by placing widgets inside the list view's drop-zone. The list of objects shown is determined by a [data source](#data-source).
 
@@ -23,7 +23,7 @@ Each object is shown using a template. This template is defined by placing widge
 
 An example of list view properties is represented in the image below:
 
-{{% image_container width="250" %}}![](/attachments/refguide8/modeling/pages/data-widgets/list-view/list-view-properties.png)
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/list-view/list-view-properties.png" alt="" >}}
 {{% /image_container %}}
 
 List view properties consist of the following sections:
