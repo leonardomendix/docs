@@ -1,5 +1,5 @@
-baseURL = "http://mendix-new-docs-site.s3-website.eu-central-1.amazonaws.com/"
-title = "Mendix Docs Test Site"
+baseURL = "http://docs.mendix.com/"
+title = "Mendix Docs"
 
 enableRobotsTXT = true
 
@@ -40,11 +40,6 @@ disableKinds = ["taxonomy","taxonomyTerm","term"]
         languageName ="English"
         # Weight used for sorting.
         weight = 1
-    [languages.es]
-        languageName ="Espanol"
-        contentDir = "content/es"
-        time_format_default = "02.01.2006"
-        time_format_blog = "02.01.2006"
 
 [markup]
     [markup.goldmark]
@@ -105,11 +100,11 @@ disableKinds = ["taxonomy","taxonomyTerm","term"]
 
     # A link to latest version of the docs. Used in the "version-banner" partial to
     # point people to the main doc site.
-    url_latest_version = "http://mendix-new-docs-site.s3-website.eu-central-1.amazonaws.com/"
+    url_latest_version = "http://doc.mendix.com/"
 
     # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
     # ==========================================================================================
-    github_repo = "https://github.com/mendix/docs-site-test"
+    github_repo = "https://github.com/mendix/docs"
     # Specify development branch for GitHub links (e.g. to edit)
     github_branch= "development"
 
