@@ -29,7 +29,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 This section presents guidelines for developing content that you will submit to the Mendix Marketplace.
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 Submitted Marketplace content will be reviewed within five working days.
 {{% /alert %}}
 
@@ -112,7 +112,7 @@ Follow these steps to continue adding content:
 	
 	![](/attachments/appstore/general/share-app-store-content/public-private.jpg)
 	
-	{{% alert type="warning" %}}You can only set the location in the initial version of your content. You cannot change this setting by updating the Marketplace component later.
+	{{% alert color="warning" %}}You can only set the location in the initial version of your content. You cannot change this setting by updating the Marketplace component later.
 	{{% /alert %}}
 	
 ### 4.2 General {#general}
@@ -124,12 +124,12 @@ Follow these steps to describe your content:
 1. Enter a **Name** for your component.<br />
 2.  Enter a **Description** of your component.
 
-	{{% alert type="warning" %}}You can use rich text in the editor. However, using rich text at the beginning of the description is not recommended, as the rich text will not get rendered properly. You should add a few lines of regular text before using rich text.
+	{{% alert color="warning" %}}You can use rich text in the editor. However, using rich text at the beginning of the description is not recommended, as the rich text will not get rendered properly. You should add a few lines of regular text before using rich text.
 	{{% /alert %}}
 
 3. The **Category** you selected earlier will be listed here. You can change this if necessary.
 	
-	{{% alert type="warning" %}}You can only set the category in the initial version of your content. You cannot change this setting after the inital version is published.
+	{{% alert color="warning" %}}You can only set the category in the initial version of your content. You cannot change this setting after the inital version is published.
 	{{% /alert %}}
 
 4. Select the **Studio Pro Version** on which you built the content.
@@ -157,7 +157,7 @@ Follow these steps to describe your content:
 
 On the **Package** page, select your content source. 
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 If you are using **Solutions**, you will not see the option to select your content source. If you are using **Solutions Template**, selecting a content source is optional.
 {{% /alert %}}
 
@@ -226,11 +226,11 @@ Component submissions are processed in a queue and reviewed on a first-come, fir
 
 It may sometimes take a few iterations for a component to be approved, depending on the issues identified. To avoid a high number of necessary iterations, make sure you follow the [content development guidelines](#guidelines) before you submit a component for approval.
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 Review and approval by Mendix is required only for the first version of a publicly-listed component. Subsequent versions of a public component do not need review or approval by Mendix.
 {{% /alert %}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 [Private Marketplace](#private-app-store) content does not require any review or approval.
 {{% /alert %}}
 
@@ -245,7 +245,7 @@ To update content that has already been published, follow these steps:
 	
 2.  Click **Manage** next to the component you want to update.
 
-	{{% alert type="info" %}}Only one draft version of a component can exist at a time, so when one draft version is in progress, another draft cannot be started. If there is a draft version in progress, click **View draft** on the page where you manage the component in order to see the draft.
+	{{% alert color="info" %}}Only one draft version of a component can exist at a time, so when one draft version is in progress, another draft cannot be started. If there is a draft version in progress, click **View draft** on the page where you manage the component in order to see the draft.
 	{{% /alert %}}
 
 3. You can edit all component details, as described in the [Adding New Marketplace Content](#adding) section above.
