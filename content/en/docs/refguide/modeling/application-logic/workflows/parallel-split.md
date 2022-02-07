@@ -12,7 +12,7 @@ The parallel split is used to have parallel processes in your workflow. For exam
 
 {{< figure src="/attachments/refguide/modeling/application-logic/workflows/parallel-split/parallel-split.jpg" alt="Parallel Split Example" >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 The workflow needs to complete all paths of the parallel split before it can continue to the next activity.
 {{% /alert %}}
 

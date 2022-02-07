@@ -85,7 +85,7 @@ Entities have the following properties:
 
         {{< figure src="/attachments/studio/work-with-data/domain-models/entity-stored-info.png" alt="Stored Information Properties of an Entity" >}}
 
-        {{% alert type="info" %}}You cannot toggle **Stored Information** properties for Image, File, and Workflow entities.{{% /alert %}}
+        {{% alert color="info" %}}You cannot toggle **Stored Information** properties for Image, File, and Workflow entities.{{% /alert %}}
 
 ### 2.3 Attributes {#attributes}
 
@@ -101,7 +101,7 @@ For more information on association types and their properties, see [Association
 
 ## 3 Adding New Entities {#adding-new-entities}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 This section describes how to create an entity in the domain model editor, but you can also create entities from a page. For more information, see the [Creating an Entity from a Page](/studio/page-editor/#create-entity) section in *Pages*. 
 
@@ -125,7 +125,7 @@ The new entity is added to the domain model.
 
 {{< figure src="/attachments/studio/work-with-data/domain-models/new-entity.png"   width="250"  >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 You can also create entities from a page. For more information, see the [Creating an Entity from a Page](/studio/page-editor/#create-entity) section in *Pages*. 
 
@@ -174,7 +174,7 @@ A new attribute is added to the entity.
 
 ## 5 Adding New Associations
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 This section describes how to create an association in the domain model editor, but you can also create associations from a page. For more information, see the [Creating an Association from a Page](/studio/page-editor/#create-association) section in *Pages*. 
 
@@ -204,7 +204,7 @@ There are several ways to add an association in the domain model. You can do one
 
         A module name is indicated next to the entity name in brackets. 
     
-        {{% alert type="info" %}} If you select the entity from another module, you will create a cross-module association. For more information, see the [Cross-Module Associations](/studio/domain-models-association-properties/#cross-module-associations) section in *Associations*. The entities of the current module are listed first.     
+        {{% alert color="info" %}} If you select the entity from another module, you will create a cross-module association. For more information, see the [Cross-Module Associations](/studio/domain-models-association-properties/#cross-module-associations) section in *Associations*. The entities of the current module are listed first.     
         {{% /alert %}}
         
         
@@ -241,13 +241,13 @@ To change the attribute properties, click the attribute in the domain model. The
 {{< figure src="/attachments/studio/work-with-data/domain-models/selecting-attribute.png" >}}
 
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 Fields that are displayed in **Properties** may vary depending on the type of the attribute.
 
 {{% /alert %}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 Properties of *Name* and *Size* attributes of image and file entities are read-only, as in, you cannot edit them. 
 
@@ -279,7 +279,7 @@ To delete an entity, attribute, or association, do the following:
 
     {{< figure src="/attachments/studio/work-with-data/domain-models/deletion.png"   width="300"  >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 You cannot delete *Name* and *Size* attributes of image and file entities. 
 

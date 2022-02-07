@@ -14,7 +14,7 @@ To view the **Pages** of your app in Mendix Studio, click the **Pages** icon in 
 
 {{< figure src="/attachments/studio/page-editor/pages-icon.png" >}}
 
-{{% alert type="warning" %}}
+{{% alert color="warning" %}}
 
 Studio supports apps based on the Atlas UI framework only. For details on Atlas UI, see [Atlas UI](/howto/front-end/atlas-ui/).
 
@@ -242,7 +242,7 @@ If you want to read documentation on a particular building block and to know mor
 
 {{< figure src="/attachments/studio/page-editor/info-icon-building-blocks.png"   width="300"  >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 Building blocks categories may differ because Atlas UI can be customized using Studio Pro.
 

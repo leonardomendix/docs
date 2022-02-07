@@ -63,7 +63,7 @@ The **Display Information** section properties are described in the table below:
 
 {{< figure src="/attachments/studio/workflows/workflow-properties/permissions.jpg" alt="Permissions Section" >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 This section is only displayed when the security is on. For more information, see [Security](/studio/settings-security/).
 {{% /alert %}}
 

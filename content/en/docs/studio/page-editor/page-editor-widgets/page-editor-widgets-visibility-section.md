@@ -62,7 +62,7 @@ The widget can be made visible to users with a specific user role only. For exam
 
 {{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/visible-based-on-role.jpg" alt="Visible Based on Role" >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 You can only configure role-based conditional visibility when security is enabled. For more information, see [Security, Roles & Permissions](/studio/settings-security/).
 

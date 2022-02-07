@@ -14,7 +14,7 @@ To view the **Pages** of your app in Mendix Studio, click the **Pages** icon in 
 
 {{< figure src="/attachments/studio7/page-editor/pages-icon.png"   width="300"  >}}
 
-{{% alert type="warning" %}}
+{{% alert color="warning" %}}
 
 Studio supports apps based on the Atlas UI framework only. For details on Atlas UI, see [Atlas UI](/howto/front-end/atlas-ui/).
 
@@ -119,7 +119,7 @@ This tab consists of the following:
 
 Widgets are single user-interface elements that can be configured. You can [quickly configure](/studio7/page-editor-widgets/#quick-config) most of the non-custom widgets when adding them on a page. For more information, see [Widgets](/studio7/page-editor-widgets/). 
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 You can update widgets in the [Widget Overview](/studio7/settings-widget-overview/). 
 
@@ -154,7 +154,7 @@ If you want to read documentation on a particular building block and to know mor
 
 {{< figure src="/attachments/studio7/page-editor/info-icon-building-blocks.png" >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 Building Blocks categories may differ because Atlas UI can be customized using Studio Pro.
 
@@ -164,7 +164,7 @@ Building Blocks categories may differ because Atlas UI can be customized using S
 
 Widgets are single user-interface elements that can be configured. You can [quickly configure](/studio7/page-editor-widgets/#quick-config) most of the non-custom widgets when adding them on a page. For more information, see [Widgets](/studio7/page-editor-widgets/). 
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 
 You can update widgets in the [Widget Overview](/studio7/settings-widget-overview/). 
 

@@ -40,7 +40,7 @@ The first profile card below the header presents your **Stats**, which are your 
 
 {{< figure src="/attachments/developerportal/community-tools/mendix-profile/stats.png"   width="350"  >}}
 
-{{% alert type="warning" %}}
+{{% alert color="warning" %}}
 Don't get bummed out about a low number of points, because everyone in the Mendix community started like that, even our Expert developers! There are plenty of opportunities to gain more points and climb the [Leaderboard](#leaderboard).
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ In addition to the **Stats** chart, on the **Overview** tab you gain an overview
 
 To see all your badges as well as the badges you can work towards, click **View all** to go to the **Badges** tab of your profile. On that tab, you can select up to four badges from the **Earned badges** section to make visible in your profile [header](#header) by clicking **Select as featured**.
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 In the **Earned badges** section, you find the badges you have completed. If the badge is a multi-level badge, only the highest completed badge is shown.
 {{% /alert %}}
 
@@ -239,13 +239,13 @@ For example, you can use an API key to perform scripted operations on your appli
 
 To get a Mendix API key, click **Create New API Key** and follow the instructions.
 
-{{% alert type="warning" %}}
+{{% alert color="warning" %}}
 Make a note of the API key, as it will only be shown once. 
 {{% /alert %}}
 
 {{< figure src="/attachments/developerportal/community-tools/mendix-profile/api-key.png" >}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 We may cache your API key. This means that when you revoke an API key, it may take some time before the change takes effect.
 {{% /alert %}}
 
@@ -302,10 +302,10 @@ Before merging, make sure your profile is public and that you logged in with the
 
 We’ll take things from there!
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 Once the old account has been merged into the new account, you no longer have access to the apps of your old account. With your new account, you will need a new invitation to those apps to gain access. Adding your new account to the relevant apps before the merge is recommended.{{% /alert %}}
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 With the merge, the accounts are only combined. The old account is not deactivated from the Mendix Platform. That should be done by a [Mendix Admin](/developerportal/control-center/#members).
 {{% /alert %}}
 
@@ -322,7 +322,7 @@ Be sure to do the following to make your profile public:
 * Add at least 1 **Skill**
 * Add at least 1 **Industry Experience** item
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 To make your public profile private again, click **Make this profile private**. 
 {{% /alert %}}
 
@@ -330,7 +330,7 @@ To make your public profile private again, click **Make this profile private**.
 
 The Mendix Platform stores certain personal information about you. You can view this information by clicking  **View Audit Trail** in the **Personal Information Stored by Mendix**.
 
-{{% alert type="info" %}}
+{{% alert color="info" %}}
 Mendix has been tracking these data changes since November 2018.
 {{% /alert %}}
 

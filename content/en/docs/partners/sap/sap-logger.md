@@ -37,7 +37,7 @@ To initialize the connector, do the following:
 
     {{< figure src="/attachments/partners/sap/sap-logger/logger_project_runtime_show_startup.png" alt="Runtime show After startup microflow" >}}
 
-    {{% alert type="info" %}}If there's no existing microflow (as indicated by the text `(none)`, instead of a microflow name), click **Select…** and create a new microflow by clicking **New**:<br/>   
+    {{% alert color="info" %}}If there's no existing microflow (as indicated by the text `(none)`, instead of a microflow name), click **Select…** and create a new microflow by clicking **New**:<br/>   
     {{< figure src="/attachments/partners/sap/sap-logger/logger_project_runtime_nostartup.png" alt="Runtime no After Startup" >}}
     {{% /alert %}}
 
