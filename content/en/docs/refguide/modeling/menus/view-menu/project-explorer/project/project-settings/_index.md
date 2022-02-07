@@ -12,7 +12,7 @@ tags: ["app", "configuration", "runtime", "Studio Pro", "languages", "certificat
 
 In the **App Settings** dialog box, you can alter the settings that are applicable to the whole app:
 
-{{< figure src="/attachments/refguide/modeling/menus/view-menu/project-explorer/project/project-settings/project-settings-configuration.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/menus/view-menu/project-explorer/project/project-settings/project-settings-configuration.png" >}}
 
 The categories described below are available.
 

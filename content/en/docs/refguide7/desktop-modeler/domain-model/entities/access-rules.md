@@ -63,7 +63,7 @@ The set of objects to which the member access rights apply can be limited by usi
 
 A customer is allowed to view the discount, but is not allowed to edit it. The access rights for the discount attribute are 'Read'.
 
-{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/entities/access-rules/917534.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/entities/access-rules/917534.png" >}}
 
 {{% /alert %}}
 
@@ -73,7 +73,7 @@ The [XPath constraint](/refguide7/xpath-constraints/) can be used to constrain t
 
 Entity 'Customer' is a specialization of entity 'User'. Entity 'Order' is associated to entity 'Customer'.
 
-{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/entities/access-rules/917537.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/entities/access-rules/917537.png" >}}
 
 A logged in customer is allowed to view personal orders, but is not allowed to view orders of other customers. This is accomplished by using the following XPath constraint in the access rule of entity 'Order':
 

@@ -76,11 +76,11 @@ Despite it's name, navigability is usually only important when adding or changin
 
 <sup><small>[1]</small></sup> This delete behavior is used if you want to delete any associated **Profile** when a **Customer** is deleted:
 
-{{< figure src="/attachments/refguide8/modeling/domain-model/associations/association-properties/association-delete-both.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/domain-model/associations/association-properties/association-delete-both.png" >}}
 
 <sup><small>[2]</small></sup>This delete behavior is used if you want to be able to delete a **Customer** only if it is not associated with any **Order**. In this case you will be asked to enter an **Error message if 'Customer' object cannot be deleted** to inform the end user that this customer cannot be deleted and perhaps suggest a next course of action:
 
-{{< figure src="/attachments/refguide8/modeling/domain-model/associations/association-properties/association-prevent-delete.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/domain-model/associations/association-properties/association-prevent-delete.png" >}}
 
 ## 3 Read More
 

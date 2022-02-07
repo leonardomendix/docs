@@ -33,7 +33,7 @@ We will start by providing the Modeler as an example of what the REST service re
     c. Paste the JSON snippet.<br>
 4.  Click **Refresh**. This analyzes the structure of the JSON snippet so we can use later.
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/json-structure.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/json-structure.png" >}}
 
 5. Click **OK**.
 
@@ -48,7 +48,7 @@ To create an import mapping:
 3. Double-click **JSON_structure**.
 4. Click **Expand all** and then click **Check all**.
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/import-mapping.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/import-mapping.png" >}}
 
 5. Click **OK**. You will now see the structure on the right.
 6. Click **Map automatically** in the editor toolbar. The Modeler will inform you that it has applied some changes. That means that it has generated entities that match the JSON structure.
@@ -71,7 +71,7 @@ To add an input entity to the domain model, follow these steps:
 7. Click **OK**.
 8. Drag an association from **Input** to **Summary**.
 
-  {{< figure src="/attachments/howto7/integration/consume-a-rest-service/domain-model.png" alt="" >}}
+  {{< figure src="/attachments/howto7/integration/consume-a-rest-service/domain-model.png" >}}
 
 ## 5 Calling the REST Service in a Microflow
 
@@ -84,13 +84,13 @@ To call the REST service in a microflow, follow these steps:
 3. From the **Toolbox**, drag a **Call REST service** activity onto the microflow and double-click it.
 4. Edit the location to `https://en.wikipedia.org/api/rest_v1/page/summary/{1}`, with the parameter `$Input/Title`.
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/location.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/location.png" >}}
 
 5. On the **Response** tab, set **Response handling** to **Apply import mapping** (or to **Import mapping for the entire response**, depending on your Modeler version).
 6. Click **Select** and double-click **Import_mapping**.
 7. For **Variable**, enter *Summary*.
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/response.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/response.png" >}}
 
 8. Click **OK**.
 9. From the **Toolbox**, drag a **Change object** activity onto the microflow and double-click it.
@@ -100,15 +100,15 @@ To call the REST service in a microflow, follow these steps:
 13. Under **Member**, select **MyFirstModule.Input_Summary (MyFirstModule.Summary)**.
 14. Under **Value**, enter `$Summary`.
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/set-association.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/set-association.png" >}}
 
 15. Click **OK**
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/change-object.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/change-object.png" >}}
 
 16. Click **OK**
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/microflow.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/microflow.png" >}}
 
 There you have it: a microflow that takes the title of an article as input and associates it with its summary.
 
@@ -136,7 +136,7 @@ To create a page for this app, follow these steps:
 16. Click **OK**.
 17. Delete the **Save** and **Cancel** buttons.
 
-    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/page.png" alt="" >}}
+    {{< figure src="/attachments/howto7/integration/consume-a-rest-service/page.png" >}}
 
 ## 7 Filling In the CreateInput Microflow
 

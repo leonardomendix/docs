@@ -84,13 +84,13 @@ To configure visibility based on the attribute value, follow the steps below:
 
 3. The **Condition Based on** is set to **Attribute** by default. Click the **Attribute** property: 
 
-    {{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/attribute-based-property.png" alt="" >}}
+    {{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/attribute-based-property.png" >}}
 
 4. In the **Select Attribute** dialog box, select an attribute of the Boolean or enumeration type and click **Select**.
 
 5. The **Attribute Values** property is now displayed in properties. Untick the values that do not meet the conditions you would like to set:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/attribute-values.png" alt="" >}}{{% /image_container %}} 
+    {{% image_container width="300" %}}{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/attribute-values.png" >}}{{% /image_container %}} 
 
 Conditional visibility based on the attribute value is set for the widget.
 
@@ -104,7 +104,7 @@ To configure role-based conditional visibility, do the following:
 
 3. A list of roles available in your app is displayed in the **Roles** property. Untick the roles who would like to hide the widget from:
 
-    {{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/role-based-example.png" alt="" >}}    
+    {{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/role-based-example.png" >}}    
 
 Conditional visibility based on user roles is set for the widget.
 

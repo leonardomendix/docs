@@ -103,17 +103,17 @@ To perform Java debugging, you must do the following:
 
     1. In SAP BTP, the options can be set as shown below:
 
-        {{< figure src="/attachments/partners/sap/sap-troubleshoot-odata-connector/image1.png" alt="" >}}
+        {{< figure src="/attachments/partners/sap/sap-troubleshoot-odata-connector/image1.png" >}}
 
     2. In the manifest file, you need to set the options as shown below:
 
-        {{< figure src="/attachments/partners/sap/sap-troubleshoot-odata-connector/image2.png" alt="" >}}
+        {{< figure src="/attachments/partners/sap/sap-troubleshoot-odata-connector/image2.png" >}}
 
 2. Restart the application to apply the changes.
 
     The logs will indicate whether the application is started in debug mode, as shown below:
 
-    {{< figure src="/attachments/partners/sap/sap-troubleshoot-odata-connector/image3.png" alt="" >}}
+    {{< figure src="/attachments/partners/sap/sap-troubleshoot-odata-connector/image3.png" >}}
 
 3. Enable SSH for the application using the Cloud Foundry command
 

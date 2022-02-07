@@ -29,7 +29,7 @@ To *edit* a comment, do the following:
 
 3.  Click the edit icon and change the comment.
 
-    {{< figure src="/attachments/studio8/collaboration/collaboration-buzz/edit-comment.png" alt="" >}}
+    {{< figure src="/attachments/studio8/collaboration/collaboration-buzz/edit-comment.png" >}}
 
 4. Click **Save**. 
 

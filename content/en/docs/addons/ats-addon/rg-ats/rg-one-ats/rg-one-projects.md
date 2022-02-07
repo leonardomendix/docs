@@ -18,7 +18,7 @@ An action library is a special type of project which can only contain actions. T
 
 Projects and action libraries can be created by users and administrators. A user clicks **Add Project** on the application starting screen. Administrators create new projects/libraries from the project overview page they see after login. Users are automatically added as project administrators when they create a new project/library.
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-projects/21168197.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-projects/21168197.png" >}}
 
 **Project type**
 

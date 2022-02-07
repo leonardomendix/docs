@@ -43,7 +43,7 @@ In the database every entity is stored in a separate table and has columns for t
 
 Take a look at the following domain model.
 
-{{< figure src="/attachments/refguide8/modeling/domain-model/customer-order.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/domain-model/customer-order.png" >}}
 
 The entity 'Customer' is stored in the table 'module$customer' which is shown below. Take note of the 'system$owner' and 'system$changedby' columns which contain the IDs of the 'User' objects from the 'System' module.
 

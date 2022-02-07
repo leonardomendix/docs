@@ -16,7 +16,7 @@ For more information on associations, see [Associations](/refguide/associations/
 
 An example of the **Associations** tab of the entity properties is represented in the image below:
 
-{{< figure src="/attachments/refguide/modeling/domain-model/associations/association-member-properties/edit-entity-association.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/domain-model/associations/association-member-properties/edit-entity-association.png" >}}
 
 Associations in the Association tab have the following properties:
 

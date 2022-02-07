@@ -48,11 +48,11 @@ Before starting this how-to, make sure you have completed the following prerequi
 
     * The PhoneModel enumeration:
     
-        {{< figure src="attachments/workflow-how-to-configure/enumeration-phone-model.png" alt="" >}}
+        {{< figure src="attachments/workflow-how-to-configure/enumeration-phone-model.png" >}}
     
     * The LaptopModel enumeration:
     
-        {{< figure src="attachments/workflow-how-to-configure/enumeration-laptop-model.png" alt="" >}}
+        {{< figure src="attachments/workflow-how-to-configure/enumeration-laptop-model.png" >}}
   
 * Make sure you have an **EmployeesToOnboard** page that contains a list view and has the **EmployeeOnboarding** entity as the data source:
 
@@ -84,7 +84,7 @@ Do the following:
 
 6. In the **User Role** dialog box, click **Edit** in the **Module roles** section.
 
-    {{< figure src="attachments/workflow-how-to-configure/edit-module-roles.png" alt="" >}}
+    {{< figure src="attachments/workflow-how-to-configure/edit-module-roles.png" >}}
 
 7. In the **Select Module Roles** dialog box, tick the User role for Administration, MendixSSO, WorkflowCommons modules where no role is selected and click **OK**:
 
@@ -215,7 +215,7 @@ To add a button that will initiate the workflow, do the following:
 
 Good job! Now when the HR specialist clicks the button, the workflow will start:
 
-{{< figure src="attachments/workflow-how-to-configure/employees-page-configured.png" alt="" >}} 
+{{< figure src="attachments/workflow-how-to-configure/employees-page-configured.png" >}} 
 
 ## 6 Selecting a Device for the New Hire {#select-device}
 

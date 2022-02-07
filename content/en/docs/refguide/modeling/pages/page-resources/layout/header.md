@@ -16,7 +16,7 @@ Headers consist of three distinct elements: a page title and a left and right [d
 
 For example, the following header has the right drop-zone selected and the user is dropping a button into the left drop-zone.
 
-{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/header/header-layout.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/header/header-layout.png" >}}
 
 The drop-zones are intended for confirmation buttons, such as an [action button](/refguide/button-widgets/) for creating a new object, but can easily be appropriated for any number of alternate implementations.
 
@@ -24,14 +24,14 @@ The page title placeholder is replaced by the page title setting of the page bei
 
 For example, the image below shows an edit page derived from a layout with a header. The page title is automatically set to that of the page and the drop-zones have been used to add a save and cancel button, replacing the need to add a control bar to the data view.
 
-{{% image_container width="350" %}}{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/header/header-page.png" alt="" >}}
+{{% image_container width="350" %}}{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/header/header-page.png" >}}
 {{% /image_container %}}
 
 ## 2 Properties
 
 An example of header properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/header/header-properties.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/header/header-properties.png" >}}
 {{% /image_container %}}
 
 Header properties consist of the following sections:

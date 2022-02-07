@@ -25,7 +25,7 @@ To edit the server configuration with extra JVM parameters, follow these steps:
 2. Edit the configuration.
 3. Go to the **Server** tab on the **Edit Configuration** editor and add the following line to the **Extra JVM parameters** field: `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005`
 
-    {{< figure src="/attachments/howto7/monitoring-troubleshooting/debug-java-actions-remotely/18580063.png" alt="" >}}
+    {{< figure src="/attachments/howto7/monitoring-troubleshooting/debug-java-actions-remotely/18580063.png" >}}
 
 4. Next, start your application in Mendix.
 

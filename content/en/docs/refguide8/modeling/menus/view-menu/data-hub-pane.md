@@ -35,7 +35,7 @@ The Data Hub pane is used to search the Data Hub Catalog for entities that can b
 
 ### 2.1 Data Hub Search
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/data-hub-pane.png" alt="" >}}{{% /image_container %}}
+{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/data-hub-pane.png" >}}{{% /image_container %}}
 
 The following functionality is available in the pane:
 
@@ -45,7 +45,7 @@ The following functionality is available in the pane:
 
 * [Search results](#viewing) – The search results displays all elements in the catalog that satisfy the search string. For each "hit" the information that is displayed includes the service name, service version, environment that the service was deployed to, and the elements matching the search string. If attributes or associations satisfy the search criteria, they are displayed. You can drag from the search results into your domain model and they are displayed as [external entities](/refguide8/external-entities/):
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/external-entity.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/data-hub-pane/external-entity.png" >}}
 
   Services and the entities that are currently being used in the current domain model are indicated with a green check-mark in the search results.
 

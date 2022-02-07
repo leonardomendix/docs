@@ -102,4 +102,4 @@ Wherever an object is initialized, all the events are always executed. The defau
 	* The object will have the **Instantiated** state
 	* This influences the behavior in the other object actions
 
-{{< figure src="/attachments/refguide8/modeling/application-logic/activities/object-activities/create-object/18582173.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/application-logic/activities/object-activities/create-object/18582173.png" >}}

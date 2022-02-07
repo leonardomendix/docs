@@ -45,7 +45,7 @@ Changing and deleting objects of an entity with indexes takes longer, because th
 
 Customers are usually retrieved by a combination of ZIP code and house number. So, *one* index is set on the combination of the attributes:
 
-{{< figure src="/attachments/refguide8/modeling/domain-model/entities/indexes/customer-index-example.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/domain-model/entities/indexes/customer-index-example.png" >}}
 
 The objects are retrieved by the following OQL query – note that the order of the attributes in the `WHERE` clause is the same as the order of the attributes for the index:
 

@@ -12,7 +12,7 @@ Images, videos & files allow end-users to upload, download, and display files, i
 
 * [Static Image](/refguide/image/) – displays static image:
 
-    {{< figure src="/attachments/refguide/modeling/pages/image-and-file-widgets/image-design-mode-example.png" alt="" >}}
+    {{< figure src="/attachments/refguide/modeling/pages/image-and-file-widgets/image-design-mode-example.png" >}}
 
 * [Dynamic Image](/refguide/image-viewer/) – displays an image or its thumbnail:
 

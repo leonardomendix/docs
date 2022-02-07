@@ -25,7 +25,7 @@ Every Mendix app has a system module containing an entity `UserReportInfo`. This
 
 The *Mendix Metering* module relies on this attribute to ascertain the end-user type and report it back to us.
 
-{{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/user-type-enumeration.png" alt="" >}}
+{{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/user-type-enumeration.png" >}}
 
 ## 3 Approach
 
@@ -40,9 +40,9 @@ Outlined below is an example of a module that can be used to update UserType att
 In the example below, our aim is to update UserType attribute of UserReportInfo entity. However, the entity `UserReportInfo` is protected in the System module and has no access rules. As a result, it cannot be exposed directly in the UI pages. 
 Therefore, the approach we take is to create a new non-persistable entity, `UserTypeReport`, which we will populate based on the values of `UserReportInfo` to show in the UI.
 
-{{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/usertypereport.png" alt="" >}}
+{{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/usertypereport.png" >}}
 
-{{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/usertypereport-properties.png" alt="" >}}
+{{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/usertypereport-properties.png" >}}
 
 ### 3.2 Populating **UserType** for Existing Users of an App
 
@@ -68,14 +68,14 @@ Therefore, the approach we take is to create a new non-persistable entity, `User
 
 4. Create a page `UserTypeReport` with a DataGrid which uses the microflow `User_Correct_UserType` as its source.
 
-    {{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/grid-general.png" alt="" >}}
+    {{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/grid-general.png" >}}
 
-    {{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/grid-data-source.png" alt="" >}}
+    {{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/grid-data-source.png" >}}
 
 5. Add the page to the **Navigation**.
 6. When you go to that page it will set the `UserType` as per your logic and show you the UserType report.
 
-    {{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/user-type-report.png" alt="" >}}
+    {{< figure src="/attachments/howto/monitoring-troubleshooting/populate-user-type/user-type-report.png" >}}
 
 7. The report can be exported into an Excel file.
 

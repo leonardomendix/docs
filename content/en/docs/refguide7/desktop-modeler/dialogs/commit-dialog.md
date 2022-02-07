@@ -16,8 +16,8 @@ At the top of the dialog box you will see the branch which you are committing. T
 
 | Branch type | Description |
 | --- | --- |
-| {{< figure src="/attachments/refguide7/desktop-modeler/dialogs/commit-dialog/commit-main.png" alt="" >}} | You are committing the main line. |
-| {{< figure src="/attachments/refguide7/desktop-modeler/dialogs/commit-dialog/commit-branch.png" alt="" >}} | You are committing the specified branch. |
+| {{< figure src="/attachments/refguide7/desktop-modeler/dialogs/commit-dialog/commit-main.png" >}} | You are committing the main line. |
+| {{< figure src="/attachments/refguide7/desktop-modeler/dialogs/commit-dialog/commit-branch.png" >}} | You are committing the specified branch. |
 
 ## 3 Message
 

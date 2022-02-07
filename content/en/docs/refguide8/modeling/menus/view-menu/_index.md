@@ -32,7 +32,7 @@ Note that this section describes the behavior of panes, not the behavior of docu
 
 When you drag a pane, you can see arrows that indicate where you can position this pane. You can position the pane either inside the current pane (arrows grouped together) or make it full-window height or width (individual arrows on the borders). Each position is labelled and explained below:
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/interaction-with-panes.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/interaction-with-panes.png" >}}
 
 1. Within the current *pane* you can position a pane in one of the following ways:
 
@@ -75,7 +75,7 @@ For version control enabled projects (projects with [Team Server](/developerport
 
 This pane has two levels, so when you zoom into a changed document, you can review all the changes within that document without going back and forth between levels. The zoomed-in level of the pane is split into two grids, with elements on the left and properties on the right. Selecting an element on the left presents the changed properties on the right:
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/changes.gif" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/changes.gif" >}}
 
 ### 3.2 Connector {#connector}
 

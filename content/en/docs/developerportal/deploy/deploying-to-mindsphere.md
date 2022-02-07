@@ -27,7 +27,7 @@ There are some limitations to what you can do in your Mendix app if it is deploy
 {{% alert type="info" %}}
 You can easily copy code examples shown within grey blocks into the clipboard. Hover the cursor over the code block and click the copy button which appears.
 
-{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/copy-from-documentation.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/copy-from-documentation.png" >}}
 
 {{% /alert %}}
 
@@ -66,21 +66,21 @@ Open Studio Pro (version 7.22.2 or above) and follow these steps:
 
 1. Click the icon in the upper right of the menu bar to open the Mendix Marketplace.
 
-	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-icon.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-icon.png" >}}
 
 2. Enter *MindSphere* in the search box, and press <kbd>Enter</kbd>.
 
 3. Select **MindSphere Starter Application** in the search results.
 
-	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-search.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-search.png" >}}
 
 4. Click **Download** to create a new app using this app as the template.
 
-	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-download.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-download.png" >}}
 
 5. To start the new app, confirm where to store the app, the app name, and the app directory, then click **OK**.
 
-	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-download-project.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/app-store-download-project.png" >}}
 
 ### 3.2 Option B: Customizing an Existing App{#existingapp}
 
@@ -218,7 +218,7 @@ To create a Mendix deployment package from your app, do the following:
 1.  Open your app in Studio Pro.
 2.  Select **App** > **Create Deployment Package**.
 
-    {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image13.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image13.png" >}}
 
 3.  Select the correct **Development line** and **Revision**.
 4.  Set the **New version** number and add a **Description** if required.
@@ -436,7 +436,7 @@ To create a new app manually in the MindSphere launchpad, do the following:
 
       {{% alert type="info" %}}These content security policy (CSP) settings are needed to ensure that the MindSphere OS Bar and the [Mendix Feedback](/appstore/widgets/mendix-feedback/) widget are loaded correctly. You may need to set additional CSP settings if you make additional calls to other domains (for example, if you use Google maps from maps.googleapi.com).{{% /alert %}}
 
-      {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image14.png" alt="" >}}
+      {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image14.png" >}}
 
 15.  Click **Save** to save these details.
 
@@ -453,7 +453,7 @@ To set up the appropriate scopes in MindSphere, do the following:
 3.  Associate it with the MindSphere default roles **USER** and/or **ADMIN**. Or associate it with one of your self created MindSphere roles. MindSphere supports up to five application roles.
 4.  Click **Save**.
 
-    {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image15.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image15.png" >}}
 
 {{% alert type="info" %}}
 If you are using the app template, you should create two scopes, *user* and *admin*.
@@ -461,7 +461,7 @@ If you are using the app template, you should create two scopes, *user* and *adm
 
 For an explanation of the relationship between Mendix roles and MindSphere roles, see section [Roles & Scopes](/partners/siemens/mindsphere-module-details/#rolesscopes) in *MindSphere Module Details*.
 
-{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image8.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image8.png" >}}
 
 {{% alert type="info" %}}
 You will also need to use the **Add Core Role** option to add *Core Roles* to your app if it makes calls to MindSphere. The ones you need to add will depend on which features of MindSphere you are using.
@@ -473,14 +473,14 @@ Once you have created the scopes for your app, you will need to assign them to t
 
 1.  Go to **Settings > Roles** from the MindSphere launchpad.
 
-    {{% image_container width="50%" %}}{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image16.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="50%" %}}{{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image16.png" >}}{{% /image_container %}}
 
 2.  Choose the app role (scope) you want to assign from the list of **Roles**.
 3.  Click **Edit user assignment**.
 4.  Assign **Available users** to **Assigned users** using the assignment symbols (for example `>` to assign a user).
 5.  Click **Close**.
 
-    {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image17.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/deploying-to-mindsphere/image17.png" >}}
 
 {{% alert type="info" %}}
 The user will have to sign out and sign in again for this assignment to take effect.

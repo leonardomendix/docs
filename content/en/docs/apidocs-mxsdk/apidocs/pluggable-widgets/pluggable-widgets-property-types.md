@@ -90,7 +90,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/string.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/string.png" >}}
 
 When the property is defined as follows:
 
@@ -103,7 +103,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/string-multiline.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/string-multiline.png" >}}
 
 ### 2.2 Boolean{#boolean}
 
@@ -130,7 +130,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/boolean.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/boolean.png" >}}
 
 ### 2.3 Integer{#integer}
 
@@ -157,7 +157,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/integer.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/integer.png" >}}
 
 ### 2.4 Decimal{#decimal}
 
@@ -226,7 +226,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/enumeration.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/enumeration.png" >}}
 
 ## 3 Component Types
 
@@ -254,7 +254,7 @@ When the component is defined as follows:
 
 Then the Studio Pro UI for the component appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/icon.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/icon.png" >}}
 
 ### 3.2 Image {#image}
 
@@ -284,7 +284,7 @@ When the component is defined as follows:
 
 Then the Studio Pro UI for the component appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/image.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/image.png" >}}
 
 ### 3.3 Widgets {#widgets}
 
@@ -379,7 +379,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/expression.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/expression.png" >}}
 
 ### 4.2 TextTemplate{#texttemplate}
 
@@ -422,7 +422,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/text.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/text.png" >}}
 
 ### 4.3 Action{#action}
 
@@ -453,7 +453,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/action.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/action.png" >}}
 
 ### 4.4 Attribute{#attribute}
 
@@ -514,7 +514,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/attribute.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/attribute.png" >}}
 
 ### 4.5 Object{#object}
 
@@ -558,7 +558,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/object.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/object.png" >}}
 
 ### 4.6 File {#file}
 
@@ -585,7 +585,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/file.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/file.png" >}}
 
 ### 4.7 Datasource {#datasource}
 
@@ -619,7 +619,7 @@ When the property is defined as follows:
 
 Then the Studio Pro UI for the property appears like this:
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/datasource.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/pluggable-widgets/pluggable-widgets-property-types/datasource.png" >}}
 
 ## 5 System Properties {#system-properties}
 

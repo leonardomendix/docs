@@ -19,7 +19,7 @@ When inserting a page break, the current page will be cut off after the break an
 
 {{% alert type="info" %}}
 
-{{< figure src="/attachments/refguide8/modeling/resources/document-templates/918135.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/resources/document-templates/918135.png" >}}
 
 A page break.
 

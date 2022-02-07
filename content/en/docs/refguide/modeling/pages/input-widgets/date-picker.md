@@ -15,13 +15,13 @@ A date picker must be placed in a [data widget](/refguide/data-widgets/) and dis
 
 For example, the following date picker allows the end-user to see, and set, the **LastContacted** date of a customer.
 
-{{< figure src="/attachments/refguide/modeling/pages/input-widgets/date-picker/date-picker.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/pages/input-widgets/date-picker/date-picker.png" >}}
 
 ## 2 Properties
 
 An example of date picker properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/date-picker/date-picker-properties.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/date-picker/date-picker-properties.png" >}}
 {{% /image_container %}}
 
 Date picker properties consist of the following sections:

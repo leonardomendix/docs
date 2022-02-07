@@ -266,7 +266,7 @@ These instructions are provided in case you have problems using the migration to
 
 To manually migrate your app from a v3 node to a v4 node in the Mendix Cloud, follow the steps in the sections below.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migratev4.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/migratev4.png" >}}
 
 ### 5.1 Prerequisites
 
@@ -286,7 +286,7 @@ First, link one of the new temporary apps to the cloud v4 node.
 
 3.  Click **select a node**.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/select-a-node.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/select-a-node.png" >}}
 
 4.  Select the v4 node by clicking **Use this Node** and link it to your app.
 
@@ -310,7 +310,7 @@ To download a deployment package, follow these steps:
 
 3. Click **Download Package**.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/download-package.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/download-package.png" >}}
 
 To upload the deployment package, follow these steps:
 
@@ -318,7 +318,7 @@ To upload the deployment package, follow these steps:
 
 2. Below the **Deployment Package Repository**, click **Upload**.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/upload-package.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/upload-package.png" >}}
 
 3. Browse and select the downloaded deployment package from your device.
 
@@ -401,7 +401,7 @@ If you have a custom domain which you want to transfer to your v4 deployment, yo
     * If you made a certificate request to Mendix, the private key will be stored in the Mendix Secure Keystore and you will need to ask Mendix Support to arrange for the certificate to be migrated to v4
 
         The two certificate request options are shown below:
-        {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/tls-certificates.png" alt="" >}}
+        {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mxcloudv4/migrating-to-v4/tls-certificates.png" >}}
 
 * When you start the app on the v4 cloud, it can take some time for the DNS servers on the web to register the new target URL and redirect your custom domain name to it — therefore you must set the TTL value to 300 seconds to speed up this process, if your TTL setting has a longer duration. This should be done some days in advance to ensure the setting is propagated to all DNS servers.
 

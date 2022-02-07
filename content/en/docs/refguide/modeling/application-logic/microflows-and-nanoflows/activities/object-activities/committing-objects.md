@@ -133,4 +133,4 @@ During commit the the following will occur:
 	* Depending on the object state, the platform will do an insert for objects with the state **Instantiated** and an update for all other states
 * Result: an object with the state Instantiated will be inserted into the database, and an object with any other state will be updated
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/committing-objects/18582172.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/committing-objects/18582172.png" >}}

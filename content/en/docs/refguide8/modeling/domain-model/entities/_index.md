@@ -44,7 +44,7 @@ The entity type defines how the data is handled and there are two types:
 * [Persistable entity](#persistable-entity) 
 * [Non-persistable entity](#non-persistable-entity)
 
-{{< figure src="/attachments/refguide8/modeling/domain-model/entities/type-of-entities.jpg" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/domain-model/entities/type-of-entities.jpg" >}}
 
 ### 2.1 Persistable Entity {#persistable-entity}
 
@@ -58,7 +58,7 @@ Non-persistable entities are stored in the runtime memory and never get committe
 
 An example of the entity properties is represented in the image below:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/domain-model/entities/entity-properties.png" alt="" >}}
+{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/domain-model/entities/entity-properties.png" >}}
 {{% /image_container %}}
 
 Entity properties consist of the following sections:
@@ -104,7 +104,7 @@ One important use of this feature is to derive functionality from the **System**
 
 For example, this property can be used in a situation where, you have a **Student** entity and a **Professor** entity, which have some generic properties. They both have a name, telephone number, and email address and can be a member of one or more courses. Both entities are *generalized* in the **Member** entity. Conversely, this means that the **Member** entity is *specialized* in the **Student** and **Professor** entities.
 
-{{< figure src="/attachments/refguide8/modeling/domain-model/entities/917900.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/domain-model/entities/917900.png" >}}
 
 For more information, and a discussion on the relative merits of using generalization or associations, see [Generalization vs 1-1 Associations](/refguide8/generalization-and-association/).
 

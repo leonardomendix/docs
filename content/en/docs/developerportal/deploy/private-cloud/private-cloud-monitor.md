@@ -298,27 +298,27 @@ If you would like to enable Prometheus scraping only for a specific environment,
 
 1. Go to the Cluster Manager page by clicking **Cluster Manager** in the top menu of the **Clouds** page of the Developer Portal.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-manager.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-manager.png" >}}
 
 2. Click **Details** next to the namespace where your environment is deployed.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-details.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-details.png" >}}
     
 3. Click **Configure** next to the environment name where Prometheus scraping should be enabled.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/image27.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/image27.png" >}}
 
 4. Click **Quick setup** within  **Pod annotations**:
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/private-cloud-prometheus-annotations.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/private-cloud-prometheus-annotations.png" >}}
 
 5. Check the **Prometheus Metrics** checkbox and click  **Close**:
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/private-cloud-quick-setup-prometheus.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/private-cloud-quick-setup-prometheus.png" >}}
 
 6. Click **Apply Changes**:
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/private-cloud-apply-annotations.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/private-cloud-apply-annotations.png" >}}
 
 <!-- Be careful - this documentation reuses some screenshots from other pages like private-cloud-cluster.md -->
 
@@ -371,25 +371,25 @@ To install the reference dashboard, download the [dashboard JSON](https://cdn.me
 1. Open Grafana in a web browser using the domain name, admin username and password from [Section 2](#install-grafana-loki).
 2. Click **Create**, then **Import**:
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-import-button.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-import-button.png" >}}
 3. Then click **Upload JSON file** and select the dashboard JSON you downloaded earlier.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-import.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-import.png" >}}
 4. Select **Prometheus** from the _Prometheus data source_ dropdown, and **Loki** from the _Loki data source_ dropdown.
    If necessary, rename the dashboard and change its uid.
    Press **Import** to import the dashboard into Grafana.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-import-settings.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-import-settings.png" >}}
 
 ### 4.2 Using the Dashboard
 
 Click **Dashboards**, then **Manage** and click _Mendix app dashboard_ to open the dashboard:
 
-{{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-open-dashboard.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-open-dashboard.png" >}}
 
 Select the **Namespace**, **Environment internal name** and **Pod name** from the dropdowns to see the metrics and logs for a specific Pod:
 
-{{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-select-pod.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-monitor/grafana-select-pod.png" >}}
 
 {{% alert type="info" %}}If the dropdowns are empty, this means that no metrics are available for that date range.
 Select another date range in the top right corner, or check if Prometheus is set up correctly.{{% /alert %}}
@@ -427,14 +427,14 @@ To set the **Metrics** and **Logs** links:
 
 1. Go to the Cluster Manager page by clicking **Cluster Manager** in the top menu of the **Clouds** page of the Developer Portal.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-manager.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-manager.png" >}}
 
 2. Click **Details** next to the namespace where your environment is deployed.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-details.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/cluster-details.png" >}}
 
 3. Open the **Operate** tab, enter dashboard URL for the **Metrics** and **Logs** links, and click **Save** for each one.
 
-    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/image32.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/private-cloud/private-cloud-cluster/image32.png" >}}
 
 <!-- Be careful - this documentation reuses some screenshots from other pages like private-cloud-cluster.md -->

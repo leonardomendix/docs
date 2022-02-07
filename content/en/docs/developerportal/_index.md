@@ -23,14 +23,14 @@ The Developer Portal also offers open, well-defined APIs, enabling third-party d
 
 To create a new app click **Create App**, which will open a page where you can choose a starting pointing for your new app:
 
-{{< figure src="/attachments/developerportal/create-app.png" alt="" >}}
+{{< figure src="/attachments/developerportal/create-app.png" >}}
 
 On the right side of the top bar, you can search and access your [Mendix Profile](/developerportal/community-tools/mendix-profile/). You can also click the **+** icon to create a new app.
 
 On the left side of the top bar, you open an access menu by clicking the **Switch to** menu:
 
 {{% image_container width="300" %}}
-{{< figure src="/attachments/developerportal/switcher.png" alt="" >}}
+{{< figure src="/attachments/developerportal/switcher.png" >}}
 {{% /image_container %}}
 
 You can then access the following parts of the Mendix Platform:
@@ -88,7 +88,7 @@ To go to the [licensed environments](/developerportal/deploy/environments/) of y
 
 In the header, you can click links to see your **Company Apps** and **Company Buzz**:
 
-{{< figure src="/attachments/developerportal/company-links.png" alt="" >}}
+{{< figure src="/attachments/developerportal/company-links.png" >}}
 
 On the **My Company's Apps** page, you will see all the apps created by members of your [company](/developerportal/control-center/#company).
 
@@ -108,7 +108,7 @@ For details on **Company Buzz**, see the [Company Buzz](/developerportal/collabo
 
 Clicking the question icon in the Developer Portal brings up the options Mendix provides for getting assistance:
 
-{{< figure src="/attachments/developerportal/developerportal-assistance.jpg" alt="" >}}
+{{< figure src="/attachments/developerportal/developerportal-assistance.jpg" >}}
 
 * **Ask the Community** – click this to go to the [Mendix Forum](https://forum.mendixcloud.com/index4.html)
 * **Check the documentation** – click this to go to the [Mendix Documentation](https://docs.mendix.com/)

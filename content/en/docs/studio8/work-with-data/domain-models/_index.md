@@ -31,12 +31,12 @@ The rows in the table are CDs. So, a *CD* is an *entity*. A specific CD like "Ho
 
 To view the **Domain Models** of your app in Studio, click the **Domain Models** icon in the left menu bar of Studio.
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/domain-model.png" alt="" >}}
+{{% image_container width="350" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/domain-model.png" >}}
 {{% /image_container %}}
 
 After opening a domain model, you will see an overview of all entities, attributes, and associations. The complexity of your domain model depends on the complexity of your app.
 
-{{< figure src="/attachments/studio8/work-with-data/domain-models/domain-overview.png" alt="" >}}
+{{< figure src="/attachments/studio8/work-with-data/domain-models/domain-overview.png" >}}
 
 The **Auto Arrange** option in the upper-left corner groups and aligns entities by associations. Entities with no associations will be vertically aligned. 
 
@@ -103,7 +103,7 @@ For more information on association types and their properties, see [Association
 
 You can add new entities in the **Toolbox**. 
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/toolbox-entity.png" alt="" >}}
+{{% image_container width="300" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/toolbox-entity.png" >}}
 {{% /image_container %}}
 
 To add an entity, do the following:
@@ -114,11 +114,11 @@ To add an entity, do the following:
 
 3.  Fill out the name for the entity and click **Create**:
 
-    {{< figure src="/attachments/studio8/work-with-data/domain-models/create-new-entity-dialog.png" alt="" >}}
+    {{< figure src="/attachments/studio8/work-with-data/domain-models/create-new-entity-dialog.png" >}}
 
 The new entity is added to the domain model.
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/new-entity.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/new-entity.png" >}}
 {{% /image_container %}}
 
 ### 3.1 Adding New Image or File Entities {#adding-image-or-file-entities}
@@ -150,18 +150,18 @@ To add attributes in the domain mode, do the following:
 
 1.  Select a block with entity you want to add an attribute to. The **New attribute** option appears:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/adding-attribute.png" alt="" >}}
+    {{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/adding-attribute.png" >}}
     {{% /image_container %}}
 
 2.  Click **New attribute** and specify its **Name** and **Type**:
 
-    {{< figure src="/attachments/studio8/work-with-data/domain-models/create-new-attribute-dialog.png" alt="" >}}
+    {{< figure src="/attachments/studio8/work-with-data/domain-models/create-new-attribute-dialog.png" >}}
 
 3. Click **Create**.
 
 A new attribute is added to the entity. 
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/new-attribute.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/new-attribute.png" >}}
 {{% /image_container %}}
 
 ## 5 Adding New Associations
@@ -170,24 +170,24 @@ There are several ways to add an association in the domain model. You can do one
 
 1. Click the dot icon that appears and do one the following:
 
-    {{< figure src="/attachments/studio8/work-with-data/domain-models/adding-association-dot-icon.png" alt="" >}}
+    {{< figure src="/attachments/studio8/work-with-data/domain-models/adding-association-dot-icon.png" >}}
 
     1. To create an association with an existing entity, drag the dot to the second entity. 
 
     2.  To create an association with a new entity, drag the dot icon and hold it for a couple of seconds until it turns into a plus icon. By dropping the plus icon, you can create a new entity with an association from the first entity:
 
-        {{< figure src="/attachments/studio8/work-with-data/domain-models/plus-icon.png" alt="" >}}
+        {{< figure src="/attachments/studio8/work-with-data/domain-models/plus-icon.png" >}}
 
 4. Select a block with an entity you want to add an association to do the following:
 
     1.  Click the arrow icon:
     
-        {{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/adding-association.png" alt="" >}}
+        {{% image_container width="250" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/adding-association.png" >}}
         {{% /image_container %}}
 
     2.  Select a second entity for the new association from the list of existing entities and click **Select**. You can also create a new entity for the association from the dialog box. 
 
-        {{< figure src="/attachments/studio8/work-with-data/domain-models/new-association.png" alt="" >}}
+        {{< figure src="/attachments/studio8/work-with-data/domain-models/new-association.png" >}}
 
         A module name is indicated next to the entity name in brackets. 
     
@@ -208,7 +208,7 @@ You can manage the following properties of an entity:
 
 * [Persistability](/refguide8/persistability/) of the entity
 
-    {{< figure src="/attachments/studio8/work-with-data/domain-models/entity-properties.png" alt="" >}}
+    {{< figure src="/attachments/studio8/work-with-data/domain-models/entity-properties.png" >}}
 
 To change the entity properties, click the entity in the domain model. The **Properties** tab for the selected entity is displayed automatically. 
 
@@ -219,11 +219,11 @@ You can manage the following properties of an attribute:
 * The **Name** of the attribute
 * The [Type](/studio8/domain-models-attributes/)  of the attribute
 
-    {{< figure src="/attachments/studio8/work-with-data/domain-models/attribute-properties.png" alt="" >}}
+    {{< figure src="/attachments/studio8/work-with-data/domain-models/attribute-properties.png" >}}
 
 To change the attribute properties, click the attribute in the domain model. The **Properties** tab for the selected attribute is displayed automatically. 
 
-{{< figure src="/attachments/studio8/work-with-data/domain-models/selecting-attribute.png" alt="" >}}
+{{< figure src="/attachments/studio8/work-with-data/domain-models/selecting-attribute.png" >}}
 
 
 {{% alert type="info" %}}
@@ -252,7 +252,7 @@ To change the association, click the line in the domain model. The **Properties*
 
 If the association type is one-to-many or many-to-many, you can swap direction of it clicking the corresponding icon. For more information, see section [3 Multiplicity](/studio8/domain-models-association-properties/#multiplicity) in *Associations*. 
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/managing-associations.png" alt="" >}}
+{{% image_container width="350" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/managing-associations.png" >}}
 {{% /image_container %}}
 
 ## 7 Deleting Entities, Attributes, or Associations
@@ -263,7 +263,7 @@ To delete an entity, attribute, or association, do the following:
 
 2.  Press **Delete** or click the **Delete** button at the bottom of the **Properties** tab.
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/deletion.png" alt="" >}}
+    {{% image_container width="300" %}}{{< figure src="/attachments/studio8/work-with-data/domain-models/deletion.png" >}}
     {{% /image_container %}}
 
 {{% alert type="info" %}}

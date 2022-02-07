@@ -14,7 +14,7 @@ tags: ["studio pro"]
 
 An image viewer can be used to display an image or its thumbnail. For example, you can show a profile picture:
 
-{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer.png" >}}
 
 An image viewer must be placed in a data view or a template grid.
 

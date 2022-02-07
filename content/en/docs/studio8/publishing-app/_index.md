@@ -18,7 +18,7 @@ The app preview shows you what your app will look like for end-users. Previewing
 
 To preview your app, click **Preview** in the upper-right corner of Studio. 
 
-{{< figure src="/attachments/studio8/publishing-app/preview.jpg" alt="" >}}
+{{< figure src="/attachments/studio8/publishing-app/preview.jpg" >}}
 
 Your app will now get built and launched in a preview environment, and will appear in your browser window so you can interact with the app.
 

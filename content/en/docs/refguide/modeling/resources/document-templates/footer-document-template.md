@@ -17,7 +17,7 @@ For inserting page numbers, see [Static Label](/refguide/static-label-document-t
 
 {{% alert type="info" %}}
 
-{{< figure src="/attachments/refguide/modeling/resources/document-templates/footer-document-template/918235.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/resources/document-templates/footer-document-template/918235.png" >}}
 
 A footer.
 

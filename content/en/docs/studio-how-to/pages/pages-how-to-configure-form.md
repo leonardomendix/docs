@@ -21,7 +21,7 @@ The how-to describes the following use case:
 
 The HSE department of your company has the following inspection report:
 
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/report-example.png" alt="" >}}
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/report-example.png" >}}
 
 Your company has an application that is used by inspectors who travel to different companies and inspect whether these companies comply with safety regulations. They fill in their names, a company name, site location, date and time when the inspection was conducted, as well as full name of a superintendent who was present during the inspection. 
 
@@ -36,7 +36,7 @@ If any of the above requirements are not met, during the next inspection the ins
 
 Your app already contains a list of all inspection reports:
 
-{{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/inspection-report-list.png" alt="" >}}{{% /image_container %}}
+{{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/inspection-report-list.png" >}}{{% /image_container %}}
 
 You would like the **Details** button in this list to open a page showing the details of the selected report and a table with checklist questions related to this report. You also would like to be able to add new checklists to the table or edit existing ones. 
 
@@ -54,11 +54,11 @@ Before starting this how-to, make sure you have completed the following prerequi
 
     * Make sure you have configured the **Question** attribute as the following enumeration:
 
-		{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/enumeration.png" alt="" >}}{{% /image_container %}}
+		{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/enumeration.png" >}}{{% /image_container %}}
 
 * Make sure your app contains a page with inspection reports list and the **Details** button:
 
-    {{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/inspection-report-list.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/inspection-report-list.png" >}}{{% /image_container %}}
 
 ## 3 Adding a Page with a Form
 
@@ -82,11 +82,11 @@ The **Details** button in the inspection report list should open a page with the
 	
 7. The page with a form (a data view) is created. Open data view properties and make sure that the data source was automatically set to **Context** and **Entity** was set to **InspectionReport**:
 
-      {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-view-source.png" alt="" >}}{{% /image_container %}} 
+      {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-view-source.png" >}}{{% /image_container %}} 
 
 
 The form on the page is configured: 
-{{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-view-configured.png" alt="" >}}{{% /image_container %}}
+{{% image_container width="600" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-view-configured.png" >}}{{% /image_container %}}
 
 ## 4 Showing Checklist Questions
 
@@ -94,7 +94,7 @@ An inspector has a list of *questions* and indicates with **Yes** or **No** whet
 
 {{% image_container width="550" %}}
 
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/inspection-report-example.png" alt="" >}}
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/inspection-report-example.png" >}}
 
 {{% /image_container %}}
 
@@ -106,13 +106,13 @@ Follow the steps below:
 
 2. Drag and drop **Data Grid** *inside* the data view:
 
-    {{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-grid-inside-data-view.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-grid-inside-data-view.png" >}}{{% /image_container %}}
 
 3. Go to the data grid properties and click **Entity**.  
 
 4. To show only checklist items associated with the current inspection report, choose the **Checklist** entity over association (*Checklist_InspectionReport/Checklist*) in the **Select Entity** dialog box and click **Select**:
 
-    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-grid-over-association.png" alt="" >}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-grid-over-association.png" >}}
 
 5. As the main purpose of the page is to display information, you do not need the **Search** section in the data grid. Open data grid properties > **Search** section and disable the **Enable Search** toggle:
 
@@ -124,7 +124,7 @@ Follow the steps below:
 
 8. Enable **Create Object** property. The **Entity** property is automatically set to **Checklist**:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/new-button-properties.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/new-button-properties.png" >}}{{% /image_container %}}
 
 9. Click the **Page** property.
 
@@ -134,7 +134,7 @@ Follow the steps below:
 
 12. The **Pre-fill page contents based on the Checklist entity** option is on, so the page template (*Forms*) is selected automatically for you. Choose **Forms Vertical**: 
 	
-	{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/manage-checklist.png" alt="" >}}{{% /image_container %}}
+	{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/manage-checklist.png" >}}{{% /image_container %}}
 
 13. Click **Create**.
 
@@ -144,13 +144,13 @@ Follow the steps below:
 
 16. Set the **Page** property to **Manage_Checklist**.
 
-      {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/edit-button-properties.png" alt="" >}}{{% /image_container %}}
+      {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/edit-button-properties.png" >}}{{% /image_container %}}
 
 Now checklist items are displayed in the table. You can add new checklist by clicking the **New** button in the table, and edit the selected checklist by clicking the **Edit** button.
 
 {{% image_container width="80%" %}}
 
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-grid-configured.png" alt="" >}}
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-form/data-grid-configured.png" >}}
 
 {{% /image_container %}}
 

@@ -60,7 +60,7 @@ You cannot use the **Jump** activity in a Parallel split or in a path where it w
 
 An example of Jump activity properties is represented in the image below:
 
-{{< figure src="/attachments/studio/workflows/workflows-general-activities/jump-properties.jpg" alt="" >}}
+{{< figure src="/attachments/studio/workflows/workflows-general-activities/jump-properties.jpg" >}}
 
 The Jump activity properties consist of the **General** section and are described in the table below:
 

@@ -165,7 +165,7 @@ For *phone*, it can be a good idea to place two columns one under another, setti
 
 On the picture below you can see the settings for two column described above:
 
-{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-settings-example.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-settings-example.png" >}}
 
 #### 4.2.2 **Size** {#column-size}
 

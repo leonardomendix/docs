@@ -10,7 +10,7 @@ tags: ["studio", "navigation", "menu item", "navigation item", "app menu"]
 
 A **Navigation Document** in Mendix Studio shows a configured menu of your app in a form of a tree. You can create items and sub-items in your navigation. 
 
-{{< figure src="/attachments/studio/navigation/navigation-vs-app.png" alt="" >}}
+{{< figure src="/attachments/studio/navigation/navigation-vs-app.png" >}}
 
 To open the **Navigation Document**, click the corresponding icon in the left menu bar.
 
@@ -26,7 +26,7 @@ To create a new menu item, do the following:
 
 2. Click a plus at the bottom of the navigation tree to create a menu item, or click a plus next to the existing navigation item to create its sub-item
 
-   {{< figure src="/attachments/studio/navigation/adding-navigation-items.png" alt="" >}}
+   {{< figure src="/attachments/studio/navigation/adding-navigation-items.png" >}}
 
 3. Specify the properties of the created item if needed (For more information, see [Properties of Menu Items](#properties-of-menu-items)). 
 
@@ -80,7 +80,7 @@ When adding or editing the role-specific home page, you can set the following pr
 
 * **Microflow** – This property is only available when **Type** is set to **Microflow**. Allows you to set a microflow that is performed when a user with the selected role opens the app.
 
-    {{< figure src="/attachments/studio/navigation/role-specific-home-page-properties.jpg" alt="" >}}
+    {{< figure src="/attachments/studio/navigation/role-specific-home-page-properties.jpg" >}}
 
 A role-specific home page icon is displayed in a list of pages or microflows against a page or microflow that is set as a home page:
 
@@ -113,7 +113,7 @@ Properties of the menu items consists of the following sections:
 * [Events](#events-section-navigation) 
 * [General](#general-section-navigation) 
 
-{{< figure src="/attachments/studio/navigation/navigation-properties.png" alt="" >}}
+{{< figure src="/attachments/studio/navigation/navigation-properties.png" >}}
 
 ### 3.1 Events Section {#events-section-navigation}
 

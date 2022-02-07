@@ -20,12 +20,12 @@ There are following types of decisions:
 
 * [Decision](/refguide/decision/) – makes a choice based on a condition and follows one and only one of the outgoing sequence flows
 
-	{{% image_container width="400" %}}{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/decision/decision-example.png" alt="" >}}{{% /image_container %}}
+	{{% image_container width="400" %}}{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/decision/decision-example.png" >}}{{% /image_container %}}
 
 * [Object Type Decision](/refguide/object-type-decision/) – makes a choice based on the type of an object of a generalized entity
 
-	{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/object-type-decision.png" alt="" >}}
+	{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/object-type-decision.png" >}}
 
 * [Merge](/refguide/merge/) – merges incoming flows 
 
-	{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/merge.png" alt="" >}}
+	{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/decisions/merge.png" >}}

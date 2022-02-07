@@ -76,7 +76,7 @@ Events represent the start and endpoints of a nanoflow and special operations in
 | --- | --- | --- |
 | [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/start-event.png" alt="start event" >}}](/refguide/start-event/) | [Start event](/refguide/start-event/) | The starting point of the nanoflow. A nanoflow can only have one start event. |
 | [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/end-event.png" alt="end event" >}}](/refguide/end-event/) | [End event](/refguide/end-event/) | Defines the location where the nanoflow will stop. Depending on the return type of the nanoflow, in some cases a value must be specified. There can be more than one end event. |
-| {{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/error-event.png" alt="" >}} | [Error Event](/refguide/error-event/) | An error event defines a location where the nanoflow will stop and throw an error that occurred earlier. If you call a nanoflow, you may want to know whether any errors occurred within the nanoflow or not. |
+| {{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/error-event.png" >}} | [Error Event](/refguide/error-event/) | An error event defines a location where the nanoflow will stop and throw an error that occurred earlier. If you call a nanoflow, you may want to know whether any errors occurred within the nanoflow or not. |
 | [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/continue-event.png" alt="continue event" >}}](/refguide/continue-event/) | [Continue event](/refguide/continue-event/) | Used to stop the current iteration of a loop and continue with the next iteration. Continue events can only be used inside a [loop](/refguide/loop/). |
 | [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/break-event.png" alt="break event" >}}](/refguide/break-event/) | [Break Event](/refguide/break-event/) | Used to stop iterating over the list of objects and to continue with the rest of the flow after the loop. Break events can only be used inside a [loop](/refguide/loop/). |
 
@@ -86,8 +86,8 @@ Flows form the connection between elements.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/sequence-flow.png" alt="" >}}](/refguide/sequence-flow/) | [Sequence flow](/refguide/sequence-flow/) | An arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a nanoflow. |
-| [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/annotation-flow.png" alt="" >}}](/refguide/annotation/#annotation-flow) | [Annotation flow](/refguide/annotation/#annotation-flow) | A connection that can be used to connect an annotation to another element. |
+| [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/sequence-flow.png" >}}](/refguide/sequence-flow/) | [Sequence flow](/refguide/sequence-flow/) | An arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a nanoflow. |
+| [{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/annotation-flow.png" >}}](/refguide/annotation/#annotation-flow) | [Annotation flow](/refguide/annotation/#annotation-flow) | A connection that can be used to connect an annotation to another element. |
 
 ### 4.3 Decisions {#decisions}
 
@@ -132,7 +132,7 @@ Studio Pro visualizes which items are used by the selected element(s). It does t
 
 In the example below, the parameter **AccountPasswordData** is highlighted because it is used in the selected activity (**Retrieve Account**). And the activity **Save password** has a **Usage** label because it uses the object returned by **Retrieve Account**.
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/microflow-nanoflow-example.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/microflows/microflow-nanoflow-example.png" >}}
 
 ## 5 Keyboard Support
 

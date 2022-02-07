@@ -45,7 +45,7 @@ The **Get Destination** action properties look like this:
 
 By default, your destination will be found and authenticated using XSUAA. This is controlled using a constant `XSUAAEnabled` which defaults to `true`.
 
-{{< figure src="/attachments/partners/sap/sap-destination-service/xsuaaenabled.png" alt="" >}}
+{{< figure src="/attachments/partners/sap/sap-destination-service/xsuaaenabled.png" >}}
 
 Set `XSUAAEnabled` to `true` if your application is using XSUAA for user authentication, and you want to use the generated access token to authenticate with destination service.
 
@@ -170,7 +170,7 @@ You need to get the destination at least once before you perform any actions whi
 
 You should catch any exceptions when using the **Get Destination** to access the service in your microflows.
 
-{{< figure src="/attachments/partners/sap/sap-destination-service/get-destination-error-flow.png" alt="" >}}
+{{< figure src="/attachments/partners/sap/sap-destination-service/get-destination-error-flow.png" >}}
 
 If your access token has expired, you will get a return code of **401**. The access token cannot be refreshed automatically and the end user will be signed out and will need to sign in again to get a new token.
 

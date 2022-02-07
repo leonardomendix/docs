@@ -163,11 +163,11 @@ When you set a microflow as an on-click action for a widget, and this microflow 
 
 For example, on a page named *Customers* you have a button that calls a microflow (that is an **On Click Action** of the button is set to *Microflow*):
 
- {{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/button-on-click-action.png" alt="" >}}
+ {{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/button-on-click-action.png" >}}
 
 However, the microflow contains a parameter *Customer*:
 
-{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/microflow-parameter.png" alt="" >}}
+{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/microflow-parameter.png" >}}
 
 The microflow parameter expects an object *Customer*, and since this object is not available on the page where button is located, it results in an error. 
 
@@ -177,7 +177,7 @@ To fix it, do the following:
 
 2.  Set the data source of the list view to *Database* and set **Entity** to *Customer*.
 
-    {{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/list-view-data-source.png" alt="" >}}
+    {{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/list-view-data-source.png" >}}
 
 3. Place the button inside the list view.
 
@@ -189,15 +189,15 @@ When you set a microflow as an on-click action for a widget, and this microflow 
 
 For example, on a page called *Customers* you have a button that calls a microflow (meaning, an **On Click Action** of the button is set to *Microflow*):
 
-{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/button-on-click-action.png" alt="" >}}
+{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/button-on-click-action.png" >}}
 
 The microflow contains a parameter *Customer*:
 
-{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/microflow-parameter.png" alt="" >}}
+{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/microflow-parameter.png" >}}
 
 On the *Customers* page you also have a data container, for example, a data view, that has an object *Photo* available. That means that the data source of the data view is set to *Context* and **Entity** is set to *Photo*:
 
-{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/data-view-photo-data-source.png" alt="" >}}
+{{< figure src="/attachments/studio/checks/consistency-errors/consistency-errors-pages/data-view-photo-data-source.png" >}}
 
 As the microflow has the parameter *Customer*, and the data view has the object *Photo*, they are conflicting and resulting into an error.
 

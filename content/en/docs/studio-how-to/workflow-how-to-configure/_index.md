@@ -122,7 +122,7 @@ To start your workflow, you need to trigger it. In this use case, the workflow i
 
 4. Set **Entity** to **EmployeeOnboarding**:
 
-    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/create-object-button.png" alt="" >}}
+    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/create-object-button.png" >}}
 
 5. Click the **Page** property. 
 

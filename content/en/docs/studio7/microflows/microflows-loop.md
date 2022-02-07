@@ -13,7 +13,7 @@ A loop is used to iterate over a list of object and perform actions on each item
 
 The loop is visualized as a frame. The flow inside the loop is executed for each object. That means, if you add more than one activity to the loop, the full flow gets executed on each item. For example, you can add a loop that will prevent orders from processing if a customer is blocked. 
 
-{{< figure src="/attachments/studio7/microflows/microflows-loop/loop.png" alt="" >}}
+{{< figure src="/attachments/studio7/microflows/microflows-loop/loop.png" >}}
 
 The loop can contain all types of elements used in other parts of microflows, with the exception of start and stop events. Additionally, only a loop can contain [break events](/refguide7/break-event/) and [continue events](/refguide7/continue-event/). A break event is used in loops only to stop iterating over a list of objects and continue with the rest of the flow in a microflow. A continue event is used in loops only to stop the current iteration and start the iteration of the next object.
 

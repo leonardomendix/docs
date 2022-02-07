@@ -53,7 +53,7 @@ API Version 1.
 
 List of PermissionsAPI.AppRole objects.
 
-{{< figure src="/attachments/apidocs-mxsdk/apidocs/permissions-api/18582265.png" alt="" >}}
+{{< figure src="/attachments/apidocs-mxsdk/apidocs/permissions-api/18582265.png" >}}
 
 ##### 2.1.4.1 AppRole
 

@@ -31,13 +31,13 @@ In the input reference set selector, the path to the attribute to be displayed (
 
 For example, using the domain model above, the following input reference set selector allows the end-user to associate a Customer with one or more Groups by setting the association **Customer_Group**. This is done by selecting the **Name**(s) of the **Group**(s) associated with the current **Customer**.
 
-{{< figure src="/attachments/refguide/modeling/pages/input-widgets/input-reference-set-selector/input-reference-set-selector.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/pages/input-widgets/input-reference-set-selector/input-reference-set-selector.png" >}}
 
 ## 2 Properties
 
 An example of input reference set selector properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/input-reference-set-selector/input-reference-set-selector-properties.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/input-reference-set-selector/input-reference-set-selector-properties.png" >}}
 {{% /image_container %}}
 
 Reference set selector properties consist of the following sections:

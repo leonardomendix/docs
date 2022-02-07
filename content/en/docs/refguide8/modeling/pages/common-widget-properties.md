@@ -65,19 +65,19 @@ Styling is applied in the following order:
 
 You can see which widgets in a page have styling applied via the class or style property by clicking the <strong>Show styles</strong> button.
 
-{{< figure src="/attachments/refguide8/modeling/pages/common-widget-properties/show-styles.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/common-widget-properties/show-styles.png" >}}
 
 ### 3.4 Style{#style}
 
 The style property allows you to specify additional CSS styling. If a class is also specified, this styling is applied *after* the class. For example, `>background-color:lightblue; color:red;` will result in red text on a blue background:
 
-{{< figure src="/attachments/refguide8/modeling/pages/common-widget-properties/style-example.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/common-widget-properties/style-example.png" >}}
 
 ### 3.5 Dynamic Classes{#dynamicclasses}
 
 The dynamic classes property allows you to specify one or more cascading stylesheet (CSS) class like the class property, but based on an [expression](/refguide8/expressions/). This allows you to dynamically construct classes based on data from an enclosing data container. The dynamic classes constructed in the expression are appended to the classes defined in the [`Class`](#class) property.
 
-{{< figure src="/attachments/refguide8/modeling/pages/common-widget-properties/dynamic-classes.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/common-widget-properties/dynamic-classes.png" >}}
 
 {{% alert type="info" %}}
 The dynamic classes property was introduced in Mendix Studio Pro v8.14.

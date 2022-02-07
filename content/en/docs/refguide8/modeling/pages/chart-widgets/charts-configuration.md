@@ -193,7 +193,7 @@ See the following link for more information about plotly.js and the options: htt
   * **Advanced**: specify additional JSON configuration
   * **Developer**: this will add a **Toggle Editor** button to the chart at runtime which toggles an editor to play with different advanced configuration options
 
-    {{< figure src="/attachments/refguide8/modeling/pages/chart-widgets/charts-configuration/toggle-editor.png" alt="" >}}
+    {{< figure src="/attachments/refguide8/modeling/pages/chart-widgets/charts-configuration/toggle-editor.png" >}}
 
 * **Layout options**: The JSON containing the Plotly layout options
   * [Samples](/refguide8/charts-advanced-cheat-sheet/#layout-all)

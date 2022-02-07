@@ -13,11 +13,11 @@ tags: ["Deploy","App","Environment","Developer Portal"]
 
 To enter the **Environment details** page, go to the [Developer Portal](http://sprintr.home.mendix.com), select your licensed app, click **Environments**, and then click **Details** on the specific environment. 
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-details.png" alt="" >}}   
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-details.png" >}}   
 
 ## 2 General Tab
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-details-general.png" alt="" >}}   
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-details-general.png" >}}   
 
 The view of the **General** tab depends on the Mendix Cloud version on which the app is hosted. In this tab, you can find the following information about your environment:
 
@@ -26,7 +26,7 @@ The view of the **General** tab depends on the Mendix Cloud version on which the
    * Green – the environment is working correctly
    * Orange – the environment has warnings
    * Red – the environment is not working correctly
-        {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-status.png" alt="" >}}   
+        {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-status.png" >}}   
 * **Running since** date – the date on which the app was started
 * **Name** – the type of environment (Test, Acceptance, Production or the name of a [flexible environment](/developerportal/deploy/mendix-cloud-deploy/#flexible-environments)): see [Naming of Environments](#naming) for more information
 * **URL** – the URL of the app
@@ -80,7 +80,7 @@ You will need to confirm that you want to clear your environment by typing *clea
 
 #### 2.1.2 Logging and Debugging in Mendix Cloud v4
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/actions-v4.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/actions-v4.png" >}}
 
 In Mendix Cloud v4 environments, you have two additional action buttons:
 
@@ -93,7 +93,7 @@ In Mendix Cloud v4 environments, you have two additional action buttons:
 Our Mendix Cloud V3 is deprecated, currently in a grace period, and will be retired at the beginning of Q3 2021. To continue running your licensed Mendix application on the Mendix Cloud, you need to migrate your app to Mendix Cloud V4. To learn more about Mendix Cloud V4 and how to migrate from Mendix Cloud V3, please visit the following page: [Migrate to Mendix Cloud V4](/developerportal/deploy/migrating-to-v4/). 
 {{% /alert %}}
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/actions-v3.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/actions-v3.png" >}}
 
 In Mendix Cloud v3 environments, you have two additional action buttons:
 
@@ -116,7 +116,7 @@ If you rename an environment, it may take up to 15 minutes before you can access
 
 If your app is hosted in Mendix Cloud v4, you will see a section named **Instances** in the **General** tab. Click the **Change scaling** button to see the options for changing the scaling.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/scale.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/scale.png" >}}
 
 In **Scaling**, there are two sliders that you can control:
 
@@ -172,7 +172,7 @@ The limitation types are the following:
 
 ## 3 Model Options Tab {#model-options}
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/model-options.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/model-options.png" >}}
 
 On this tab, you can edit the model options described below.
 
@@ -215,7 +215,7 @@ For more information, see [Constants](/refguide/constants/).
 ## 4 Network Tab {#network-tab}
 
 {{% image_container width="50%" %}}
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/network1.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/network1.png" >}}
 {{% /image_container %}}
 
 On this tab, you can manage the elements described below.
@@ -258,15 +258,15 @@ There are three types of value for these headers:
 
 *  Choose a value from a drop-down
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/http-header-dropdown.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/http-header-dropdown.png" >}}
 
 *  Choose a value from a drop-down and specify a URL
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/http-header-url.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/http-header-url.png" >}}
 
 *  Enter the required values as a string
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/http-header-string.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/http-header-string.png" >}}
 
 The changes to the headers will be implemented when the app is redeployed.
 
@@ -345,7 +345,7 @@ You can add or edit a number of different IP address and port combinations. Any 
 
 For each range where you define whitelisted IP addresses and ports, you can enter the following information:
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/whitelist.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/whitelist.png" >}}
 
 * **Name** – A name to identify this range
 * **IP** – An inclusive range of whitelisted IP addresses in IPv4 format. All the IP addresses must be in a public range, see [Valid IP Ranges](#valid-ip), below. All addresses between the **Start** address and the **End** address will be whitelisted, including the start and end addresses. If you only want to whitelist a single address, make the start and end addresses the same
@@ -396,7 +396,7 @@ Add client certificates (in the PKCS12 format) or certificate authorities (in th
 
 ## 5 Log Levels Tab {#log-levels}
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/loglevels-tab.png" alt="" >}}   
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/loglevels-tab.png" >}}   
 
 Log levels are used to distinguish the log messages and to highlight the highest priority ones so that they can receive the immediate intervention they require. Note that custom log nodes appear in the list only after a message has been logged to them. See [Log Message](/refguide/log-message/#log-node-name) for more information.
 
@@ -425,7 +425,7 @@ For an application running **more than one instance**, the changes can only be a
 Log levels may not persist across restarts if you change them outside the Developer Portal (for example, using an app module).
 {{% /alert %}}
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/loglevels.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/loglevels.png" >}}
 
 The log level types are the following:
 
@@ -444,7 +444,7 @@ For more information about log levels, see [How to Set Log Levels](/howto/monito
 
 On this tab, you can add **Custom Runtime Settings** and **Custom Environment Variables**
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/runtime.png" alt="" >}}   
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/runtime.png" >}}   
 
 ### 6.1 Custom Runtime Settings {#custom-runtime-settings}
 
@@ -504,7 +504,7 @@ Select **Supported** and you can choose from the following variables:
 
 In addition, to support features which are in beta, you can add **Unsupported** environment variables. If you are involved in using a beta feature, you will be told what **Name** needs to be entered here and what the **Value** should be.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-variable.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/environment-variable.png" >}}
 
 {{% alert type="info" %}}
 The *Unsupported* environment variables can only be used for controlling Mendix beta features.
@@ -512,7 +512,7 @@ The *Unsupported* environment variables can only be used for controlling Mendix 
 
 ## 7 Maintenance Tab {#maintenance-tab}
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/maintenance.png" alt="" >}}   
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/maintenance.png" >}}   
 
 There are two types of maintenance:
 
@@ -533,7 +533,7 @@ You will automatically receive **email notifications** about planned maintenance
 
 ## 8 Tags Tab
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/tags.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/tags.png" >}}
 
 You can set tags on your environment. These are arbitrary strings that are not interpreted by the Developer Portal. Tags serve two purposes:
 

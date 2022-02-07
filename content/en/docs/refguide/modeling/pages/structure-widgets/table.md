@@ -16,7 +16,7 @@ Tables can be used to give structure to a page. They contain [rows](/refguide/ta
 
 For example, you can create a table with text widgets, a logo, and a data view information as a customer report:
 
-{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/table/table.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/table/table.png" >}}
 
 ## 2 Components
 

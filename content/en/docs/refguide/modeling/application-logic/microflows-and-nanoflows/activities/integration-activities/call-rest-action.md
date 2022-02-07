@@ -46,7 +46,7 @@ The properties dialog box consists of four tabs:
 ## 4 General Tab {#general}
 
 {{% image_container width="66%" %}}
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/general-tab.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/general-tab.png" >}}
 {{% /image_container %}}
 
 ### 4.1 Location
@@ -115,7 +115,7 @@ When this identifier is not set for the environment where your app is deployed (
 
 ## 5 HTTP Headers Tab {#http-headers}
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/http-headers-tab.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/http-headers-tab.png" >}}
 
 ### 5.1 Use HTTP Authentication
 
@@ -139,7 +139,7 @@ REST endpoints which are using NGINX as a webserver will ['silently drop'](https
 
 ## 6 Request Tab {#request}
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/request-tab.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/request-tab.png" >}}
 
 The sections below describe the options in the drop-down menu for generating the request.
 
@@ -197,7 +197,7 @@ See [String Template](#string-template), above, for more information on construc
 
 ## 7 Response Tab {#response}
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/response-tab.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/response-tab.png" >}}
 
 ### 7.1 Response Handling
 
@@ -254,4 +254,4 @@ There are two ways to resolve this:
 
 2. Handle the error in your microflow and retry a number of times before returning the error. Your flow might look similar to the one below.
 
-    {{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/retry-rest-connection-timeout.png" alt="" >}}
+    {{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/retry-rest-connection-timeout.png" >}}

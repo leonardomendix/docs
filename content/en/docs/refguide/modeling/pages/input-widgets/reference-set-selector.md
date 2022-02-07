@@ -31,7 +31,7 @@ In the reference set selector, the related entity and association used to connec
 
 For example, using the domain model above, the following reference set selector allows the end-user to associate a Customer with one or more Groups by setting the association **Customer_Group**. This is done by selecting the **Name**(s) of the **Group**(s) associated with the current **Customer**.
 
-{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/reference-set-selector.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/reference-set-selector.png" >}}
 
 The reference set selector looks a lot like a [data grid](/refguide/data-grid/) and consequently shares many properties with it. The main differences are that the reference set selector lacks a search bar and that it has **Add** and **Remove** buttons instead of **New** and **Delete**. This is because they perform slightly different functions:
 
@@ -46,7 +46,7 @@ You must explicitly commit the object in the data view containing your reference
 
 An example of reference set selector properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/reference-set-selector-properties.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/reference-set-selector-properties.png" >}}
 {{% /image_container %}}
 
 Reference set selector properties consist of the following sections:
@@ -65,7 +65,7 @@ There are three additional sets of properties which do not appear in the propert
 
 2. The rows of the reference set selector can be sorted using the properties of the sort bar. For more information on using the sort bar, see [Sort Bar](/refguide/sort-bar/).
 
-    {{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/sort-bar.png" alt="" >}}
+    {{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/sort-bar.png" >}}
 
 3. Each attribute is displayed in a column. You can find out more about the properties of these columns in [Grid Columns](/refguide/columns/)
 

@@ -114,11 +114,11 @@ Microsoft Azure AD is one of the most used IDP’s, which supports OpenID Connec
 
 4. Click **Register** to save the registration.
 
-	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-1.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-1.png" >}}
 
 5. In the app registration details that opens after you save your registration, hover over **Application (client) ID** and copy the ID to the clipboard with the button that appears.
 
-	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-2.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-2.png" >}}
 
     You will need this Client ID when setting up the Customer IDP in the Developer Portal.
 
@@ -126,7 +126,7 @@ Microsoft Azure AD is one of the most used IDP’s, which supports OpenID Connec
 
 7. Copy the **OpenID Connect metadata document** URL.
 
-	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-3.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-3.png" >}}
 
 8. Close the sidebar with the X in the top right corner and you will return to the App registration details page.
 
@@ -134,17 +134,17 @@ Microsoft Azure AD is one of the most used IDP’s, which supports OpenID Connec
 
 10. Click **New client secret** in the page that opens.
 
-	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-4.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-4.png" >}}
 
 11. In the pop-up box that opens, enter a name for your certificate, select a expiration type, and click **Add**.
 
-	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-5.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-5.png" >}}
 
 	If you wish to let the certificate to expire, please write down the date the certificate will expire.
 
 12. Copy the client secret. You will need this to set up the Customer IDP setup in the Developer Portal.
 
-	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-6.png" alt="" >}}
+	{{< figure src="/attachments/developerportal/control-center/set-up-sso-byoidp/azure-app-registration-step-6.png" >}}
 
 That’s it! You are now ready to resume the Customer IDP setup in the Developer Portal.
 

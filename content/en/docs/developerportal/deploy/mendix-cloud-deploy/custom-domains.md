@@ -53,7 +53,7 @@ Before starting this how-to, you will need to have the following prerequisites:
 
 Before configuring your custom domain in the Mendix Cloud, you will need to configure a DNS record for your custom domain with your domain registrar or DNS provider.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168230.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168230.png" >}}
 
 Create a CNAME (Canonical Name) record and point it to `[YOUR-CUSTOM-DOMAIN].cname.mendix.net.`. For example, if your custom domain is `myapp.mycompany.com`, create a CNAME record pointing to `myapp.mycompany.com.cname.mendix.net.` so that Mendix can direct your custom domain to your Mendix app.
 
@@ -71,7 +71,7 @@ You can have more than one certificate for an application. For example when your
 
 You can choose which certificate to use when you configure a custom domain for an environment (test, acceptance, or production).
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168233.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168233.png" >}}
 
 To manage custom domains, follow these steps:
 
@@ -81,7 +81,7 @@ To manage custom domains, follow these steps:
 
 3. Open the **Custom Domains** tab.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/custom-domains-tab.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/custom-domains-tab.png" >}}
 
 If you already have a signed SSL/TLS certificate, continue with [Uploading Your Own Custom Domain Certificate](#Uploading), below.
 
@@ -97,17 +97,17 @@ To create a CSR and an RSA (Rivest–Shamir–Adleman) encryption key, follow th
 
 2.  Click **Create a Certificate Request**.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/newcustomdomain.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/newcustomdomain.png" >}}
 
 2.  Fill in the required fields.
 
 4.  Click **Generate**.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168225.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168225.png" >}}
 
     An SSL/TLS private key and a certificate request is generated. The certificate request will be shown in PEM (Privacy-Enhanced Mail) format.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168226.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168226.png" >}}
 
     {{% alert type="info" %}}The SSL/TLS private key will be stored in our secure keystore. It will not be available for download in order to keep it secure.{{% /alert %}}
 
@@ -121,7 +121,7 @@ Once you have a signed SSL/TLS certificate, you can upload it by following these
 
 2. Click **Upload Signed Certificate**. 
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/certificate.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/certificate.png" >}}
 
 3. Add a **Description** of your certificate.
 
@@ -129,7 +129,7 @@ Once you have a signed SSL/TLS certificate, you can upload it by following these
 
 5. Paste an **Intermediate Certificate Chain**. This is optional, but most browsers will required it. The intermediate certificate chain is provided by your certificate authority.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168227.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168227.png" >}}
 
 You can now configure your custom domain. See [Configuring a Custom Domain](#Configuring), below.
 
@@ -147,7 +147,7 @@ To upload the custom domain certificate, follow these steps:
 
 2. Click **Upload Certificate, Chain and Key**.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/upload-certificate.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/upload-certificate.png" >}}
 
 3. Type a **Description** for the certificate.
 
@@ -157,7 +157,7 @@ To upload the custom domain certificate, follow these steps:
 
 6. Paste an **Intermediate Certificate Chain**. This is optional, but most browsers will required it. The intermediate certificate chain is provided by your certificate authority.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168228.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168228.png" >}}
 
 7. Click **Save** to save your new custom domain certificate. It will be uploaded to the Mendix Cloud automatically.
 
@@ -207,11 +207,11 @@ To configure a custom domain for your application environment, follow these step
 
 2. Click **Details** for the environment you want to configure.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/environment-details.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/environment-details.png" >}}
 
 3. Go to the **Network** tab.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/network.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/network.png" >}}
 
 4. Under **Custom Domains**, you can manage your custom domains.
 
@@ -223,7 +223,7 @@ To configure a custom domain for your application environment, follow these step
 
 8. Click **Save** to save your custom domain. It will be configured for your application environment automatically.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168229.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/custom-domains/21168229.png" >}}
     
 
 {{% alert type="info" %}}

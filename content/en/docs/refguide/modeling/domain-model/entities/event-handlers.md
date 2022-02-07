@@ -37,7 +37,7 @@ You can add and edit event handlers for an entity from the [entity dialog box](/
 
 An example of the event handler properties is represented in the image below:
 
-{{< figure src="/attachments/refguide/modeling/domain-model/entities/event-handlers/event-handler-properties.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/domain-model/entities/event-handlers/event-handler-properties.png" >}}
 
 Event handler properties consist of the following sections:
 

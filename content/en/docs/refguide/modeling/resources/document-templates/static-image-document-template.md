@@ -15,7 +15,7 @@ A static image shows a predefined image. It can be put either inside or outside 
 
 {{% alert type="info" %}}
 
-{{< figure src="/attachments/refguide/modeling/resources/document-templates/918133.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/resources/document-templates/918133.png" >}}
 
 A static image inside a table cell.
 

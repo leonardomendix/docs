@@ -23,7 +23,7 @@ To start a new project with version control do the following:
 
 The app is created on the Team Server, and a working copy is created in the **Project directory**. This is opened in the Desktop Modeler so that you can start working immediately.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-03-02_11-11-18.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-03-02_11-11-18.png" >}}
 
 ## 3 Joining a Project
 
@@ -39,7 +39,7 @@ Once you are a team member, providing you have been given a role with sufficient
 
 The project will be downloaded from the Team Server and opened in the Desktop Modeler.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/open-new-team-server-app.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/open-new-team-server-app.png" >}}
 
 ## 4 Day-to-day Development
 
@@ -59,12 +59,12 @@ The project explorer shows an icon in front of items (documents, folders and mod
 
 | Icon | Meaning |
 | --- | --- |
-| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688173.png" alt="" >}} | Nothing happened to this item. It is unchanged w.r.t. to the original. |
-| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688172.png" alt="" >}} | You modified this item (as in, document, folder or module). |
-| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688175.png" alt="" >}} | You added this item. |
-| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688174.png" alt="" >}} | You moved this item to another position in the project tree. |
-| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688164.png" alt="" >}} | You deleted this item. |
-| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688165.png" alt="" >}} | This item is conflicted. See [Dealing With Conflicts](#conflicts) for more information. |
+| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688173.png" >}} | Nothing happened to this item. It is unchanged w.r.t. to the original. |
+| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688172.png" >}} | You modified this item (as in, document, folder or module). |
+| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688175.png" >}} | You added this item. |
+| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688174.png" >}} | You moved this item to another position in the project tree. |
+| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688164.png" >}} | You deleted this item. |
+| {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688165.png" >}} | This item is conflicted. See [Dealing With Conflicts](#conflicts) for more information. |
 
 {{% alert type="info" %}}
 There is only room for one icon and if a document is both modified and moved it is shown as modified.
@@ -72,11 +72,11 @@ There is only room for one icon and if a document is both modified and moved it 
 
 For example, say that the microflow ChangePassword has been modified. Also a new folder called 'Flows' was added and all microflows were moved inside this folder. In the screenshot you can see that the folders and modules containing changes are depicted with a yellow icon, and the microflows which have been moved have a blue icon. This helps you to quickly see where in the project the changes are.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_13-27-21.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_13-27-21.png" >}}
 
 You can see the same information in the Changes Dock. In this case there is an entry for each *change* to an item. If a document is both modified and moved there are *two* lines for that document. The dock also shows items that were deleted, something the project explorer cannot do.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_13-41-50.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_13-41-50.png" >}}
 
 {{% alert type="info" %}}
 When you successfully commit your project, this becomes the new original and all the change information is removed from the project explorer and the changes dock.
@@ -101,7 +101,7 @@ Committing results in a new revision in the repository. You can add the followin
 * A textual message. This should be a summary of the changes you made
 * A list of Developer Portal stories that relate to the commit. A small commit will probably relate to one story. The Modeler shows stories that are in the current sprint and do not have a status of *Done*. Adding the story to the commit will not change the state of the Developer Portal story. Setting the status to 'Done' must be done manually and depends on your *definition of done*.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_13-50-03.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_13-50-03.png" >}}
 
 The Modeler also attaches some information automatically:
 
@@ -140,7 +140,7 @@ The revisions are shown in reverse chronological order (newest is at top of list
 
 Select a revision to see additional details such as related Developer Portal stories, changed documents, Modeler version and changes on disk. Icons summarize the kinds of changes that happened in the project.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_14-06-46.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_14-06-46.png" >}}
 
 ## 5 Reverting Changes
 
@@ -204,7 +204,7 @@ You can resolve a project conflict by choosing **Tasks > Use mine** or by deleti
 
 A repository can contain a number of development lines. Each development line offers independent development from the other development lines. In the simple case there is just one development line called the main line (called 'trunk' in subversion). All development then happens inside that one line.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688156.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/688156.png" >}}
 
 It is often convenient to have more than one development line. For example, one development line for fixing bugs in the currently deployed version of your project and another line where you develop new functionality. If you then find a bug in the deployed version you can fix it in the corresponding development line irrespective of the state of the development line where new functionality is developed. See [Version Control](/refguide7/version-control/) for more information about branches.
 
@@ -217,7 +217,7 @@ If you want to add some functionality to a deployed application or you want to f
 1. Determine the version of the deployed application. This information is in the Developer Portal. Alternatively, you can find the version in the metadata.json file in the **model** subfolder of your deployment package (mda) archive. For example, `"ModelVersion": "1.0.0.16"`
 2. Choose **Project > More Versioning > Manage Branch Lines...** and create a branch based on the tag with the that version number as its name.
 
-    {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/create-from-tag.png" alt="" >}}
+    {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/create-from-tag.png" >}}
 
 3. Add the functionality or fix the bug in this newly created branch.
 4. Testing that things work as intended.
@@ -235,7 +235,7 @@ Another reason for creating a branch is to develop a big new feature without int
 
 Firstly, select **Project > More Versioning > Manage Branch Lines...** and create a branch from a revision of the main line.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-28_13-50-39.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-28_13-50-39.png" >}}
 
 Now work on the branch until the feature is done and commit the completed work.
 
@@ -245,7 +245,7 @@ When you want to merge the whole branch back to the main line to integrate the f
 2. Choose **Project > More Versioning > Merge changes here**.
 3. Choose **Merge feature branch**.
 
-    {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-28_14-05-23.png" alt="" >}}
+    {{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-28_14-05-23.png" >}}
 
 4. Select the branch and click **Merge**.
 5. Resolve any conflicts and errors.
@@ -261,7 +261,7 @@ Development lines other than the main line are called branch lines. Our advice w
 
 You can create branch lines from the Branch Line Manager which you can find at **Project > More Versioning > Manage Branch Lines...**.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_14-16-20.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_14-16-20.png" >}}
 
 #### 7.2.2 Merging
 
@@ -273,7 +273,7 @@ Choose **Project > More Versioning > Merge Changes Here**.
 
 Choose the appropriate *type of merge*, for example **Port fix**.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_14-19-47.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_14-19-47.png" >}}
 
 You can merge either a single revision, or a whole range of revisions, from one development line to another. If a branch line represents a big new feature that you want to integrate completely into the main line, you can merge all the revisions of the branch.
 
@@ -283,7 +283,7 @@ Reverting changes works for changes that have not been committed yet. Changes th
 
 Choose **Project > More Versioning > Reverse Merge Changes...**
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/revert-committed-changes.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/revert-committed-changes.png" >}}
 
 After a reverse merge the project will look like the changes never happened; if you 'reverse merge' the adding of a form, the form will be deleted locally. Just like when you are doing a normal merge, conflicts can arise. In the example, if later commits change the added form, the reverse merge will result in a conflict. After resolving any problems, you can commit the results to the repository.
 
@@ -313,13 +313,13 @@ When it creates the package, the Modeler will also create a tag representing thi
 
 If you are using the Mendix Cloud you can choose **Project > Deploy to Licensed Cloud Node** to dpeloy a specific version.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_17-05-05.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-21_17-05-05.png" >}}
 
 #### 8.3.2 Creating a Deployment Package from a Specific Version
 
 If you are using a different hosting environment, you create a deployment package using the menu item **Project > Create Deployment Package...**.
 
-{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-28_13-44-04.png" alt="" >}}
+{{< figure src="/attachments/refguide7/version-control/using-version-control-in-the-dm/2018-02-28_13-44-04.png" >}}
 
 ## 9 Working Outside the Desktop Modeler
 

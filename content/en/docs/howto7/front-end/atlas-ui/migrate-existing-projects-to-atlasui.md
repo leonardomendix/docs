@@ -33,7 +33,7 @@ To replace the UI Framework, follow these steps:
 2. Download and import the [Atlas UI Resources](/appstore/modules/atlas-ui-resources/) module from the Mendix Marketplace.
 3.  When the Atlas UI Resources module is downloaded from the Mendix Marketplace, it will be found in **App Store modules**:
 
-    {{< figure src="/attachments/howto7/front-end/atlas-ui/migrate-existing-projects-to-atlasui/migrate_dm_appstore.png" alt="" >}}
+    {{< figure src="/attachments/howto7/front-end/atlas-ui/migrate-existing-projects-to-atlasui/migrate_dm_appstore.png" >}}
 
 After the import is complete, there may be some errors in the **Error** pane for navigation profiles or layouts that do not exist. Be sure to resolve all of these errors.
 
@@ -45,7 +45,7 @@ Once the Atlas UI Resources module is imported, all the new resources will be av
 
 The Atlas UI Resources module comes with navigation layouts, which are required in order to use the page templates. If your existing navigation layouts are in a separate module, you will have to replace all the layouts for your pages with the Atlas UI layouts in order to make use of the new page templates. It is possible to keep using your old navigation layouts, but you will not be able to access the full capabilities of Atlas UI if you choose to do so.
 
-{{< figure src="/attachments/howto7/front-end/atlas-ui/migrate-existing-projects-to-atlasui/migrate_dm_navlayouts.png" alt="" >}}
+{{< figure src="/attachments/howto7/front-end/atlas-ui/migrate-existing-projects-to-atlasui/migrate_dm_navlayouts.png" >}}
 
 ## 5 Enabling the Mendix Web Modeler (Optional)
 

@@ -25,7 +25,7 @@ End-users of your application only see the user roles and not the module roles.
 
 To access user roles, open **Project Security** > **User roles** tab:
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/project-explorer/security/project-security/user-roles/user-roles-example.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/project-explorer/security/project-security/user-roles/user-roles-example.png" >}}
 
 ## 2 User Role Properties
 
@@ -36,7 +36,7 @@ The user role has the following properties:
 *  [General properties](#general)
 *  [User management properties](#user-management)
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/project-explorer/security/project-security/user-roles/user-role-properties.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/project-explorer/security/project-security/user-roles/user-role-properties.png" >}}
 
 ### 2.1 General Properties {#general}
 

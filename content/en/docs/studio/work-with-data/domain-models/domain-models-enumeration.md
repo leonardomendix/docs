@@ -36,16 +36,16 @@ To create a new enumeration, do the following:
     c. Click **Select enumeration**.<br />d. In the **Select enumeration** dialog box, click the plus icon in the top right corner.<br/>
     e. In the **Create new enumeration** dialog box, click **Add Item** to add possible options of the enumeration (**Name** is filled out automatically and is the same as the attribute name).<br />
 
-    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-enumeration-add-item.png" alt="" >}}<br />
+    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-enumeration-add-item.png" >}}<br />
 
     f. Fill out the name for the **Caption** (**Name** is filled out automatically). In the example below, you need to fill out  *Bronze*, as one of three possible items of the enumeration: Bronze, Silver, and Gold. <br />
 
-    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-enumeration-add-item-bronze.png" alt="" >}}<br />
+    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-enumeration-add-item-bronze.png" >}}<br />
 
     g. Click **Add Item** and repeat the step above to create other enumeration items.<br />
     h. Click **Create** to close the dialog box and create the new attribute.
 
-    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-enumeration-bronze-silver-gold.png" alt="" >}}
+    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-enumeration-bronze-silver-gold.png" >}}
 
 The attribute and the enumeration items are created.
 
@@ -63,11 +63,11 @@ You can also set an existing enumeration for attributes of the enumeration type.
     b. Set the [Type](/studio/domain-models-attributes/) to **Enumeration**.<br />
     c. Click **Select enumeration**.<br />
 
-    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-attribute-select-enumeration.png" alt="" >}} <br/>
+    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/new-attribute-select-enumeration.png" >}} <br/>
 
     d. In the **Select enumeration** dialog box, the existing enumerations are displayed in the list. Click the one you want to use, then click **Select**.<br />
 
-    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/selecting-existing-enumeration.png" alt="" >}}
+    {{< figure src="/attachments/studio/work-with-data/domain-models/domain-models-enumeration/selecting-existing-enumeration.png" >}}
 
 The existing enumeration is selected for the attribute of the enumeration type. 
 

@@ -79,7 +79,7 @@ Events represent the start and endpoints of a nanoflow and special operations in
 | --- | --- | --- |
 | [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/start-event.png" alt="start event" >}}](/refguide8/start-event/) | [Start event](/refguide8/start-event/) | The starting point of the nanoflow. A nanoflow can only have one start event. |
 | [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/end-event.png" alt="end event" >}}](/refguide8/end-event/) | [End event](/refguide8/end-event/) | Defines the location where the nanoflow will stop. Depending on the return type of the nanoflow, in some cases a value must be specified. There can be more than one end event. |
-| {{< figure src="/attachments/refguide8/modeling/application-logic/microflows/error-event.png" alt="" >}} | [Error Event](/refguide8/error-event/) | An error event defines a location where the nanoflow will stop and throw an error that occurred earlier. If you call a nanoflow, you may want to know whether any errors occurred within the nanoflow or not. |
+| {{< figure src="/attachments/refguide8/modeling/application-logic/microflows/error-event.png" >}} | [Error Event](/refguide8/error-event/) | An error event defines a location where the nanoflow will stop and throw an error that occurred earlier. If you call a nanoflow, you may want to know whether any errors occurred within the nanoflow or not. |
 | [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/continue-event.png" alt="continue event" >}}](/refguide8/continue-event/) | [Continue event](/refguide8/continue-event/) | Used to stop the current iteration of a loop and continue with the next iteration. Continue events can only be used inside a [loop](/refguide8/loop/). |
 | [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/break-event.png" alt="break event" >}}](/refguide8/break-event/) | [Break Event](/refguide8/break-event/) | Used to stop iterating over the list of objects and to continue with the rest of the flow after the loop. Break events can only be used inside a [loop](/refguide8/loop/). |
 
@@ -89,8 +89,8 @@ Flows form the connection between elements.
 
 | Graphic | Name | Description |
 | --- | --- | --- |
-| [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/sequence-flow.png" alt="" >}}](/refguide8/sequence-flow/) | [Sequence flow](/refguide8/sequence-flow/) | An arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a nanoflow. |
-| [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/annotation-flow.png" alt="" >}}](/refguide8/annotation/#annotation-flow) | [Annotation flow](/refguide8/annotation/#annotation-flow) | A connection that can be used to connect an annotation to another element. |
+| [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/sequence-flow.png" >}}](/refguide8/sequence-flow/) | [Sequence flow](/refguide8/sequence-flow/) | An arrow that links events, activities, decisions, and merges with each other. Together they define the order of execution within a nanoflow. |
+| [{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/annotation-flow.png" >}}](/refguide8/annotation/#annotation-flow) | [Annotation flow](/refguide8/annotation/#annotation-flow) | A connection that can be used to connect an annotation to another element. |
 
 ### 4.3 Decisions {#decisions}
 
@@ -135,7 +135,7 @@ Studio Pro visualizes which items are used by the selected element(s). It does t
 
 In the example below, the parameter **AccountPasswordData** is highlighted because it is used in the selected activity (**Retrieve Account**). And the activity **Save password** has a **Usage** label because it uses the object returned by **Retrieve Account**.
 
-{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/microflow-nanoflow-example.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/application-logic/microflows/microflow-nanoflow-example.png" >}}
 
 ## 5 Keyboard Support
 

@@ -27,7 +27,7 @@ The example below shows the design properties of a `"Button"`.
 * `"description"` — a brief explanation of the design property
 * `"options"` — the array of options that shows the name and CSS class specified in the Sass files for Atlas UI
 
-{{< figure src="/attachments/howto8/front-end/atlas-ui/extend-design-properties-to-customize/extend_settings.png" alt="" >}}
+{{< figure src="/attachments/howto8/front-end/atlas-ui/extend-design-properties-to-customize/extend_settings.png" >}}
 
 These design properties are used in the **Design** section of Studio.
 

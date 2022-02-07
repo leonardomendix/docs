@@ -48,7 +48,7 @@ This process will copy the new version of the project software into the configur
 2.  There are two ways to install the required server distribution:
 
     1. If you are online and have access to the Mendix Marketplace, click **Download server** and the correct server distribution will be fetched and installed. You will then see the following 
-    {{< figure src="/attachments/developerportal/deploy/on-premises-design/deploy-mendix-on-microsoft-windows/updating-a-mendix-application/update_server_download.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/on-premises-design/deploy-mendix-on-microsoft-windows/updating-a-mendix-application/update_server_download.png" >}}
     2. If you are offline or automatic downloading fails, click **Add Server** and select the required server distribution (*.tar.gz*).  The server distribution can be found under the **Related Downloads** from the specific Mendix Studio Pro version in the [Mendix Marketplace](https://marketplace.mendix.com/link/studiopro/). The server distribution is a *tar.gz* file. The Service Console will extract the server distribution to the same folder as the other server distributions.
 
     After the server distribution has been updated you will be able to start the Service using the new project and Mendix Runtime version. 
@@ -59,7 +59,7 @@ This process will copy the new version of the project software into the configur
 
 In the Preferences of the Mendix Service Console you can configure the main directory for all applications and server distributions. You can find the installed platform version in the folder `/Servers`. This folder is located directly in the configured base path from the service console.
 
-{{< figure src="/attachments/developerportal/deploy/on-premises-design/deploy-mendix-on-microsoft-windows/updating-a-mendix-application/18580698.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/on-premises-design/deploy-mendix-on-microsoft-windows/updating-a-mendix-application/18580698.png" >}}
 
 This should be something like:
 

@@ -14,7 +14,7 @@ In **App Security**, you can switch security on or off for the whole app. You ca
 
 To configure the app security, open **App Explorer** > **App** > **Security**, and the dialog box will open:
 
-{{< figure src="/attachments/refguide/modeling/menus/view-menu/project-explorer/security/project-security/project-security-dialog.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/menus/view-menu/project-explorer/security/project-security/project-security-dialog.png" >}}
 
 {{% alert type="info" %}}
 For more general information on security, see [Security](/refguide/security/).

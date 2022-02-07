@@ -15,7 +15,7 @@ The template grid shows a list of objects in a tile view. For example, a templat
 
 {{% alert type="info" %}}
 
-{{< figure src="/attachments/refguide/modeling/resources/document-templates/918137.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/resources/document-templates/918137.png" >}}
 
 A template grid showing products with name, description, and image.
 

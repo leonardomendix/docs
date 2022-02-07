@@ -122,7 +122,7 @@ Note that the first five lines are the same and after that the lists deviate.
 
 Merging the branch to the main line will result in the following information message.
 
-{{< figure src="/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png" alt="" >}}
+{{< figure src="/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png" >}}
 
 Note that a conflict is reported on the project *folder*. This usually means that there is a conflict on the `svn:ignore` property.
 
@@ -134,7 +134,7 @@ To resolve a conflict on the svn:ignore property, perform the following steps.
 
     The following dialog is shown (resized to show everything):
 
-    {{< figure src="/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png" alt="" >}}
+    {{< figure src="/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png" >}}
 
 4. Copy all lines starting from `modeler-merge-marker` to the clipboard. 
 5. Click **Manually edit property**.
@@ -144,7 +144,7 @@ To resolve a conflict on the svn:ignore property, perform the following steps.
 
     For this example, we end up with the following combined ignore list:
 
-    {{< figure src="/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png" alt="" >}}
+    {{< figure src="/attachments/howto7/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png" >}}
 
     Note that it includes both the lines from the main line and from the branch. The order is not important.
 

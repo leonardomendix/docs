@@ -16,7 +16,7 @@ tags: ["studio pro", "translation", "languages", "translatable text"]
 
 Usually you will want to translate from the default language to a second language, but you can use any other dictionary of texts. For example, if your default language is *English, United States* you may already have translated the text into *Dutch, Netherlands* and you can use this as a reference for translating into *Dutch, Belgium* as there are likely to be more similarities.
 
-{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-translate/batch-translate.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-translate/batch-translate.png" >}}
 
 ## 2 Using Batch Translate
 
@@ -55,7 +55,7 @@ Tip: move the dialog box to one side to get a better look at the document.
 
 In **Translation**, type new text that you want to use instead of the existing text. Click **Translate** to confirm the replacement.
 
-{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-translate/batch-translate-translate.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-translate/batch-translate-translate.png" >}}
 
 If you have two texts which are identical in the source language but different in the translation language, you will have to review and change these individually. This is not very common but imagine, for example, you have used `Order Lines` to both *describe the lines on an order* and to *label a button which sorts some lines*. See [Working in the Currently Selected Language](/refguide8/translatable-texts/#selected-language) in *Language Menu* to find how to change individual texts.
 

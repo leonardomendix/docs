@@ -119,7 +119,7 @@ When you import the metadata, you can add external entities from the consumed OD
 
 Click the **Properties** tab for the consumed OData service which displays the properties that were defined for the OData service document and the following additional properties:
 
-{{< figure src="/attachments/refguide8/modeling/integration/consumed-odata-services/consumed-odata-service/consumed-odata-service-doc-properties.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/integration/consumed-odata-services/consumed-odata-service/consumed-odata-service-doc-properties.png" >}}
 
 * **Entities** – the URL of the metadata defining the entities and associated datasets
 * **Documentation** – an additional description about this service for the current app

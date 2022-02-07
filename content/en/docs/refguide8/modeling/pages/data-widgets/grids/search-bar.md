@@ -21,7 +21,7 @@ The search bar contains search fields that allow the end-user to quickly find th
 
 To add a search field to the search bar, right-click within the search bar in your data grid and choose **Add search field** > [Type of the search field](#search-field-type). 
 
-{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/grids/search-bar/add-search-field.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/grids/search-bar/add-search-field.png" >}}
 
 ## 2 Search Field Types {#search-field-type}
 

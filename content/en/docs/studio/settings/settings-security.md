@@ -27,11 +27,11 @@ Whether security is enabled for your app by default, depends on whether the secu
 
 2. Security is set to the **Production** level in Studio Pro and settings are compatible with Studio. In this case, you can view and edit **Roles and Permissions** in Studio. (For more information on what security settings are compatible with Studio, see the [Studio Compatibility](/refguide/studio-security-enabled/#studio-compatible) section in *Model Changes When Security Is Enabled in Studio*.)
 
-    {{< figure src="/attachments/studio/settings/settings-security/roles-and-permissions-screen.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/roles-and-permissions-screen.png" >}}
 
 3. Security is set to the **Prototype/demo** or **Production** level in Studio Pro and settings are not compatible with Studio. In this case, you can only view, but not edit **Roles and Permissions** in Studio. (For more information on security settings compatible with Studio, see the [Studio Compatibility](/refguide/studio-security-enabled/#studio-compatible) section in *Model Changes When Security Is Enabled in Studio*.)
 
-    {{< figure src="/attachments/studio/settings/settings-security/security-read-only.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/security-read-only.png" >}}
 
 
 
@@ -87,7 +87,7 @@ To create a new app role, do the following:
 
 2.  Click **Add Role** in the right corner.
 
-    {{< figure src="/attachments/studio/settings/settings-security/add-role-button.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/add-role-button.png" >}}
 
 3.  Specify the name of the new role in the **Create Role** dialog box and click **Create**.
 
@@ -103,11 +103,11 @@ To edit an existing role, do the following:
 
 2.  Click the **More Options** (ellipsis) icon and select **Edit**.
 
-    {{< figure src="/attachments/studio/settings/settings-security/edit-role-option.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/edit-role-option.png" >}}
 
 3.  In the **Edit Role** pop-up dialog perform the changes, and click **Save**.
 
-    {{< figure src="/attachments/studio/settings/settings-security/edit-role-dialog.png" alt="" >}}    
+    {{< figure src="/attachments/studio/settings/settings-security/edit-role-dialog.png" >}}    
 
 The role has been edited.
 
@@ -119,11 +119,11 @@ To delete an existing role, do the following:
 
 2.  Click the **More Options** icon and select **Delete**.
 
-    {{< figure src="/attachments/studio/settings/settings-security/delete-role-option.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/delete-role-option.png" >}}
 
 3.  Confirm the deletion in the pop-up dialog.
 
-    {{< figure src="/attachments/studio/settings/settings-security/delete-role-dialog.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/delete-role-dialog.png" >}}
 
 The role has been deleted.
 
@@ -141,13 +141,13 @@ There are two ways to change access for specific pages/microflows/workflows in y
 	2.  Open **Roles and Permissions** > **Page**/**Microflow/Workflows Access** tab.
 	3.   Find the user role in the column and tick the box next to a page/microflow/workflow to open access for it, or untick – to restrict access. For example, you can restrict a page access for the User role:
 
-    {{< figure src="/attachments/studio/settings/settings-security/page-access-example.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/page-access-example.png" >}}
 
 2.  To set access for a page/microflow via properties of this page/microflow/workflows, do the following: 
 	3.  Open the page/microflow/workflow. 
 	4.  Go to **Properties** > the **Permissions** section and tick/untick **Allowed Roles** to grant/restrict access. 
 
-		{{% image_container width="300" %}}{{< figure src="/attachments/studio/settings/settings-security/permissions-section.png" alt="" >}}{{% /image_container %}}
+		{{% image_container width="300" %}}{{< figure src="/attachments/studio/settings/settings-security/permissions-section.png" >}}{{% /image_container %}}
 
 ## 4 Demo Users {#demo-users}
 
@@ -161,11 +161,11 @@ You can test how your app looks like for different roles the following way:
 
 2. Click a user icon in the right side of the screen:
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/studio/settings/settings-security/user-icon.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="400" %}}{{< figure src="/attachments/studio/settings/settings-security/user-icon.png" >}}{{% /image_container %}}
 
 4. In the displayed menu bar, select a demo user and the app will be viewed from the perspective of the corresponding role.
 
-    {{< figure src="/attachments/studio/settings/settings-security/select-user.png" alt="" >}}
+    {{< figure src="/attachments/studio/settings/settings-security/select-user.png" >}}
 
 ## 5 Managing App Users {#managing-app-users}
 
@@ -177,7 +177,7 @@ You can manage App Users only after you publish your app.
 
 To manage App Users, open **Roles and Permissions** and click **Manage Users** in the top-right of the screen:
 
-{{< figure src="/attachments/studio/settings/settings-security/manage-users-button.png" alt="" >}}
+{{< figure src="/attachments/studio/settings/settings-security/manage-users-button.png" >}}
 
 You will be taken to the [App User Management](/developerportal/collaborate/general-settings/#managing-app-users) page in the Developer Portal, where you can invite people to your app and manage their user roles. 
 

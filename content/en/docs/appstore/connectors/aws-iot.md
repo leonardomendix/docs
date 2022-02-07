@@ -33,14 +33,14 @@ For the MQTT actions you need to provide the certificates as provided by AWS IoT
 in the **resources** folder of your Mendix app:
 
 {{% image_container width="400" %}}
-{{< figure src="/attachments/appstore/connectors/aws-iot/certificates.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/certificates.png" >}}
 {{% /image_container %}}
 
 ### 2.1 Things
 
 To get a list of all the things registered at AWS IoT, you can use **Things - get list** action:
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/thing-get-list.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/thing-get-list.png" >}}
 
 This returns a JSON document as provided by AWS IoT. Then you can use a JSON import mapping to create entities from the JSON that is returned.
 
@@ -57,7 +57,7 @@ This returns a JSON document as provided by AWS IoT. Then you can use a JSON imp
 
 To get the details of a device, you can use the **Thing - describe** action:
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/thing-describe.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/thing-describe.png" >}}
 
 ### 2.2 State
 
@@ -65,13 +65,13 @@ AWS IoT has a shadow of the device state, and it provides a REST API to this sha
 
 To read the last known status of a device, use the **Data - get shadow** action:
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/data-get-shadow.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/data-get-shadow.png" >}}
 
 This action needs the endpoint of the REST API. You can copy-paste this from AWS IoT, or you can use the **Thing - get endpoint** action to determine the endpoint:
 
 To change the status of a device, you can update the shadow using the **Data - change shadow** action:
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/data-change-shadow.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/data-change-shadow.png" >}}
 
 ### 2.3 Messages
 
@@ -79,7 +79,7 @@ In addition to the REST API, you can work with the state of devices through MQTT
 
 To receive messages from devices, you need to subscribe to the required topic using the **Data - subscribe to MQTT topic** action:
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/data-subscribe-mqtt-topic.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/data-subscribe-mqtt-topic.png" >}}
 
 Typically, you should do this when your Mendix app is started.
 
@@ -103,11 +103,11 @@ To subscribe, you need to provide the certificate information as provided by AWS
 When a message is received, the microflow you specify is called using the `topic` and `payload` string parameters. The
 `payload` contains a JSON document that you can import using JSON import mappings. The format of this message depends on the data sent by the device.
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/log-message.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/log-message.png" >}}
 
 To publish a message on an MQTT topic, you can use the **Data - publish MQTT message** action:
 
-{{< figure src="/attachments/appstore/connectors/aws-iot/data-publish-mqtt-message.png" alt="" >}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/data-publish-mqtt-message.png" >}}
 
 When configuring this action, you also need the certificates provided by AWS IoT:
 

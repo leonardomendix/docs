@@ -40,7 +40,7 @@ To open a page in Studio Pro, do the following:
 
 2. Navigate to the page's location inside the module. A page can be listed as an individual element or be included in the **Pages** folder:
 
-    {{< figure src="/attachments/refguide8/modeling/pages/page/project-explorer-pages.png" alt="" >}}
+    {{< figure src="/attachments/refguide8/modeling/pages/page/project-explorer-pages.png" >}}
 
 3. Select a page you want to open and double-click it.
 
@@ -52,12 +52,12 @@ To create a new page, do the following:
 
 1.  In the [Project Explorer](/refguide8/project-explorer/), right-click the module or a folder you want to create a page in and select **Add page**:
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/refguide8/modeling/pages/page/add-page.png" alt="" >}}
+    {{% image_container width="350" %}}{{< figure src="/attachments/refguide8/modeling/pages/page/add-page.png" >}}
     {{% /image_container %}}
 
 2.  In the **Create Page** dialog box, fill in the **Page name** and select a **Navigation layout**.
 
-    {{< figure src="/attachments/refguide8/modeling/pages/page/create-page.png" alt="" >}}
+    {{< figure src="/attachments/refguide8/modeling/pages/page/create-page.png" >}}
 
 3. Click **OK**. 
 
@@ -82,7 +82,7 @@ In **Structure mode**, there are several ways to add an element on a page:
 
     1. Open the **Toolbox** and select **Widgets** or **Building blocks** tab there.
     
-        {{< figure src="/attachments/refguide8/modeling/pages/page/toolbox.png" alt="" >}}
+        {{< figure src="/attachments/refguide8/modeling/pages/page/toolbox.png" >}}
       
     2. Select an element you would like to add and drag and drop this element on your page.
    
@@ -94,7 +94,7 @@ In **Structure mode**, there are several ways to add an element on a page:
 
         ii. Click **Add widget**  or **Add building block**, find an element in a list and click **Select**.
 
-        {{< figure src="/attachments/refguide8/modeling/pages/page/top-menu.png" alt="" >}}
+        {{< figure src="/attachments/refguide8/modeling/pages/page/top-menu.png" >}}
         
     2. Click a drop-zone on a page to position an element.
 
@@ -104,7 +104,7 @@ In **Structure mode**, there are several ways to add an element on a page:
 
     b. Select between adding a widget or a building block.<br/>
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/refguide8/modeling/pages/page/adding-widget-in-drop-zone.png" alt="" >}}
+    {{% image_container width="400" %}}{{< figure src="/attachments/refguide8/modeling/pages/page/adding-widget-in-drop-zone.png" >}}
     {{% /image_container %}}<br/>
 
     c. Select an element you would like to add and confirm your choice by clicking **Select**.

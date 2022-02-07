@@ -10,11 +10,11 @@ aliases:
 
 With this dialog box you can upload an application that is not yet stored in a version control server.
 
-{{< figure src="/attachments/refguide7/desktop-modeler/dialogs/upload-to-version-control-dialog/upload-to-version-control-server-dialog.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/dialogs/upload-to-version-control-dialog/upload-to-version-control-server-dialog.png" >}}
 
 To open the **Upload to Version Control Server** dialog box, go to **Project > More Versioning > Upload to Version Control Server**.
 
-{{< figure src="/attachments/refguide7/desktop-modeler/dialogs/upload-to-version-control-dialog/project-more-versioning-upload-to-version-control-server.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/dialogs/upload-to-version-control-dialog/project-more-versioning-upload-to-version-control-server.png" >}}
 
 ## 2 Where Should We Upload Your App?
 

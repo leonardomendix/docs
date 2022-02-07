@@ -67,9 +67,9 @@ The following steps will teach you to build a pluggable input widget, and show y
 5. Go back to the home page, open the **Add Widget** menu, and then add a **TextBox** widget inside the data view.
 6. Open the Textbox's properties and select the **Datasource Attribute (path)** string attribute you created above. Then click the **OK** button to close the dialog box. The end result should look like this:
 
-	{{< figure src="/attachments/howto/extensibility/pluggable-widgets/create-a-pluggable-widget-one/createtestobject.png" alt="" >}}
+	{{< figure src="/attachments/howto/extensibility/pluggable-widgets/create-a-pluggable-widget-one/createtestobject.png" >}}
 
-	{{< figure src="/attachments/howto/extensibility/pluggable-widgets/create-a-pluggable-widget-one/microflowcreateentity.png" alt="" >}}
+	{{< figure src="/attachments/howto/extensibility/pluggable-widgets/create-a-pluggable-widget-one/microflowcreateentity.png" >}}
 
 ### 3.2 Widget Scaffolding
 
@@ -224,7 +224,7 @@ Open the **(YourMendixApp)/CustomWidgets/TextBox** folder in your IDE of choice 
 
 	The end result will be similar to the screenshot below:
 
-	{{< figure src="/attachments/howto/extensibility/pluggable-widgets/create-a-pluggable-widget-one/updateallwidgets.png" alt="" >}}
+	{{< figure src="/attachments/howto/extensibility/pluggable-widgets/create-a-pluggable-widget-one/updateallwidgets.png" >}}
 
 	{{% alert type="info" %}}The widgets in Studio and Studio Pro are not automatically updated. First, run the `npm start` command again. To refresh your widgets, press F4 or select **App** > **Synchronize App Directory** from the Studio Pro menu to reload the widgets from the file system. Finally, right-click the widget and select Update all widgets to update the newly-changed properties in the widget.{{% /alert %}}
 

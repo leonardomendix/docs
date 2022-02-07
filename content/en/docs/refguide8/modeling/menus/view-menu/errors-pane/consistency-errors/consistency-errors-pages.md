@@ -138,7 +138,7 @@ To fix this error you can do one of the following:
 
 * Place the **Details** button in a data container that will pass the correct type of data to the page:
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/details-button.png" alt="" >}}
+	{{% image_container width="350" %}}{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/details-button.png" >}}
 	{{% /image_container %}}
 
 * Select another page for the button that will not expect any object to be passed to it, or will expect the object of type *Engineer*
@@ -164,11 +164,11 @@ When you set a microflow or a nanoflow as an on-click event for a widget, and th
 
 For example, on a page named *Customers* you have a button that calls a microflow (that is an [**On click** event](/refguide8/on-click-event/) of the button is set to *Microflow*):
 
- {{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/on-click-event-button.png" alt="" >}}
+ {{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/on-click-event-button.png" >}}
 
 However, the microflow contains a parameter *Customer*:
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/microflow-parameter.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/microflow-parameter.png" >}}
 
 The microflow parameter expects an argument *Customer*, and since this argument is not available on the page where the button is located, it results in an error. 
 
@@ -178,7 +178,7 @@ To fix it, do the following:
 
 2.  Set the data source type of the list view to *Database* and set **Entity (path)** to *Customer*.
 
-    {{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/data-source-list-view.png" alt="" >}}
+    {{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/data-source-list-view.png" >}}
 
 3. Place the button inside the list view.
 
@@ -190,15 +190,15 @@ When you set a microflow or nanoflow as an on-click event for a widget, and this
 
 For example, on a page named *Customers* you have a button that calls a microflow (that is an [On click event](/refguide8/on-click-event/) of the button is set to *Microflow*):
 
- {{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/on-click-event-button.png" alt="" >}}
+ {{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/on-click-event-button.png" >}}
 
 The microflow contains a parameter *Customer*:
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/microflow-parameter.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/microflow-parameter.png" >}}
 
 On the *Customers* page you also have a data container, for example, a data view, that has an object *Photo* available. That means that the data source type of the data view is set to *Context* and **Entity (path)** is set to *Photo*:
 
-{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/data-view-data-source.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/errors-pane/consistency-errors/consistency-errors-pages/data-view-data-source.png" >}}
 
 As the microflow has the parameter *Customer*, and the data view has the object *Photo*, they are conflicting and resulting into an error.
 

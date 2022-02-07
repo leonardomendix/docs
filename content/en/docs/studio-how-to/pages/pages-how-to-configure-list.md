@@ -22,7 +22,7 @@ The how-to describes the following use case:
 
 Sales Representatives in your company would like to view a list of opportunity contacts – potential customers. When Sales Representatives click a row in this list, the details of the corresponding opportunity contact are displayed next to the list:
 
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/configured-page.png" alt="" >}}
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/configured-page.png" >}}
 
 ## 2 Prerequisites
 
@@ -34,7 +34,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Make sure your domain model is configured the following way:
 
-    {{% image_container width="200" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/domain-model.png" alt="" >}}{{% /image_container %}} 
+    {{% image_container width="200" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/domain-model.png" >}}{{% /image_container %}} 
 
 ## 3 Adding the Master Detail Page
 
@@ -58,14 +58,14 @@ You would like to open a page with opportunity contact list and its details from
 
     4. Select the page template by clicking **Master Detail** in the side bar and choose **Master Detail**:
 
-    	{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/create-master-detail.png" alt="" >}}{{% /image_container %}}
+    	{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/create-master-detail.png" >}}{{% /image_container %}}
 
     5. Click **Create**.
 
 
 The page is created. In the responsive (Desktop) view, a list is displayed on the left and list item details are displayed on the right:
 
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/master-details.png" alt="" >}} 
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/master-details.png" >}} 
 
 ## 4 Configuring the List
 
@@ -81,20 +81,20 @@ The page is created, now you need to configure it. First of all, you need to con
 
     1. Select the **Name** text in the list view and open the **Properties** tab.
 
-    	{{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/text.png" alt="" >}}{{% /image_container %}}
+    	{{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/text.png" >}}{{% /image_container %}}
 
     2. In the **Content** property, delete *Name* and click **Add** > **Attribute**:
 
-    	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/text-content.png" alt="" >}}
+    	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/text-content.png" >}}
 
     3. In the **Select Attribute** dialog box, choose **Name** and click **Select**. 
 
 4. Delete the image from the list and the column where this image is placed, as now the image displays a a user image that does not correspond to opportunity contacts you are displaying.
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-with-no-image.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-with-no-image.png" >}}{{% /image_container %}}
 
 5. As the goal of the new page is to merely display data, delete the **New** button above the list view together with the container it is placed in:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/container.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/container.png" >}}{{% /image_container %}}
 
 Now the list view will display the list of opportunity contacts by their name:
 
@@ -112,19 +112,19 @@ To displayed all the details that a contact has, do the following:
 
 1. Delete the empty column and **Edit**, **Send Email**, and **Delete** buttons inside the data view as you will only display data, not change it:
 
-    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/data-view-buttons.png" alt="" >}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/data-view-buttons.png" >}}
 
 2. Double-click the *User Details* text widget (which is displayed as a data view heading) and rename it to *Opportunity Contact Details*. 
 
 3. Open the **Toolbox** and search for **Radio Buttons**, drag and drop it *inside* the data view above the **Name** text box.
 
-    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/radio-buttons.png" alt="" >}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/radio-buttons.png" >}}
 
 4. Open radio buttons properties and click **Data Source** > **Attribute**.
 
 5. In the **Select Attribute** dialog box, choose **Title** and click **Select**:
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/title.png" alt="" >}}{{% /image_container %}}
+    {{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/title.png" >}}{{% /image_container %}}
 
 6. Select the **Name** text box and click **Data Source** > **Attribute** in its properties. 
 
@@ -132,11 +132,11 @@ To displayed all the details that a contact has, do the following:
 
 8. Repeat steps 6 and 7 to set the **Phone** attribute for the **Phonenumber** text box, the **Email** attribute for the **Email** text box, **DateCreated**  for the **Birthday** text box, and **EstimatedValue** for the **Bio** text box. 
 
-    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/attributes-replaced.png" alt="" >}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/attributes-replaced.png" >}}
 
 9. You lack information on the contact's job title and status. To add the job title information, open the **Toolbox**, search for a **Text Box**, drag and drop it inside the data view below the **Name** text box:
 
-    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/job-title-text-box.png" alt="" >}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/job-title-text-box.png" >}}
 
 10. Open text box properties and click **Data Source** > **Attribute**. 
 

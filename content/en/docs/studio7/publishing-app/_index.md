@@ -18,17 +18,17 @@ The app preview shows you what your app will look like after it is published.
 
 To preview your app, click **Preview** in the upper-right corner of Studio. 
 
-{{< figure src="/attachments/studio7/publishing-app/preview.jpg" alt="" >}}
+{{< figure src="/attachments/studio7/publishing-app/preview.jpg" >}}
 
 Your app will now get built and launched in a preview environment, and will appear in your browser window so you can interact with the app.
 
 You can preview your app in the Phone, Tablet, and Responsive (Desktop) mode. Click the corresponding icon to change the mode.
 
-{{< figure src="/attachments/studio7/publishing-app/preview-modes.jpg" alt="" >}}
+{{< figure src="/attachments/studio7/publishing-app/preview-modes.jpg" >}}
 
 To exit the preview environment, click **Close Preview** in the upper-right corner of the screen.
 
-{{< figure src="/attachments/studio7/publishing-app/close-preview.jpg" alt="" >}}
+{{< figure src="/attachments/studio7/publishing-app/close-preview.jpg" >}}
 
 You cannot preview your app if it has [consistency errors](/studio7/consistency-errors/). You will be notified when this is the case, and you will need to fix errors first to preview your app.
 

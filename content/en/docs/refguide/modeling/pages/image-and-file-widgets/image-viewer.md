@@ -10,7 +10,7 @@ tags: ["studio pro"]
 
 A dynamic image can be used to display an image or its thumbnail. For example, you can show a profile picture:
 
-{{< figure src="/attachments/refguide/modeling/pages/image-and-file-widgets/image-viewer/image-viewer.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/pages/image-and-file-widgets/image-viewer/image-viewer.png" >}}
 
 A dynamic image must be placed in a data view or a template grid.
 

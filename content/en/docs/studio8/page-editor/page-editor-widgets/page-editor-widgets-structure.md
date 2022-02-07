@@ -24,7 +24,7 @@ There are the following Structure widgets:
 
 * [Snippet](#snippet)
 
-    {{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/structure-widgets.jpg" alt="" >}}
+    {{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/structure-widgets.jpg" >}}
 
 ## 2 Columns and Sidebars{#columns}
 
@@ -132,7 +132,7 @@ In the **General** section of a row you can select the number of columns in it, 
 
 * <a name="align-columns"></a>**Align Columns Vertically** – aligns all columns in the row vertically, you can select the following options:
 
-    {{% image_container width="280" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/align-columns.png" alt="" >}}
+    {{% image_container width="280" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/align-columns.png" >}}
     {{% /image_container %}}
 
 * **Spacing Between Columns** – when enabled, adds spacing between columns
@@ -169,7 +169,7 @@ In the **General** section, you can set the column [width](#column-width) and [a
 
 You can set the column width for desktop, tablet, or phone by choosing the corresponding device mode:
 
-{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/width-per-device.png" alt="" >}}
+{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/width-per-device.png" >}}
 
 You can choose the following options:
 
@@ -181,7 +181,7 @@ You can choose the following options:
 
     * When you select **Manual** the slider appears that allows you to set the width of the column from 1 to 12:
     
-	    {{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/column-size.png" alt="" >}}
+	    {{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/column-size.png" >}}
 
 You can also resize columns manually in the working area: drag the column border to change its size. 
 
@@ -250,12 +250,12 @@ In the **General** section, you can configure the following properties:
 
 *  **Tabs** – use radio buttons to switch from one tab to another; click the tab and drag it to change the order of tabs; click the **Edit** icon to open the tab properties and configure it (for more information, see section the [Tab Properties](#tab-properties) section)
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-container-tabs-property.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-container-tabs-property.png" >}}
 	{{% /image_container %}}
 
 *  **Add New Tab** – adds a new tab to your tab container; tab properties will open automatically (for more information, see section the [Tab Properties](#tab-properties) section)
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/add-new-tab.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/add-new-tab.png" >}}
 	{{% /image_container %}}
 
 ### 6.2 Design Section
@@ -270,7 +270,7 @@ Each tab has the following properties:
 
 *  **Default Tab** – defines which tab is active when the page is opened. If no tab is set as the default one, the first tab page will be shown. By default, none of the tabs are set as a default tab.
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-properties.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-properties.png" >}}
 	{{% /image_container %}}
 
 ## 7 Snippet Overview {#snippet}
@@ -279,7 +279,7 @@ Snippets define reusable elements of pages and are created in Studio Pro. By usi
 
 For example, your team member in Studio Pro has created a snippet and added a customer form to it turning this form into a reusable page element. You can use this snippet on your pages in Studio too:
 
-{{% image_container width="500" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/snippet-example.jpg" alt="" >}}
+{{% image_container width="500" %}}{{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/snippet-example.jpg" >}}
 {{% /image_container %}}
 
 While you can call (use) snippets on your pages in Studio, you cannot create, change, or delete them. For more information on snippets in Studio Pro, see [Snippet](/refguide8/snippet/).
@@ -296,7 +296,7 @@ To call a snippet and add it to your page, do the following:
 
 3. In the **Select Snippet** dialog box, select a snippet you would like to use on your page and click **Select**. 
 
-    {{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/select-snippet.jpg" alt="" >}}
+    {{< figure src="/attachments/studio8/page-editor/page-editor-widgets/page-editor-widgets-structure/select-snippet.jpg" >}}
 
 The snippet is added to your page. 
 

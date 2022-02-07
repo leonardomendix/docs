@@ -143,7 +143,7 @@ The first five lines are the same, and after that the lines in your list can be 
 
 Merging the branch to the main line will result in the following information message: 
 
-{{< figure src="/attachments/howto/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png" alt="" >}}
+{{< figure src="/attachments/howto/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png" >}}
 
 {{% alert type="info" %}}
 A conflict is reported on the app *folder*. This usually means that there is a conflict on the `svn:ignore` property.
@@ -159,7 +159,7 @@ To resolve a conflict on the `svn:ignore` property, follow these steps:
 
 3.  Right-click the background of the app folder and choose **TortoiseSVN** > **Edit Conflicts**. The following pop-up window will be shown (resize the window to display all the information):
 
-	{{< figure src="/attachments/howto/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png" alt="" >}}
+	{{< figure src="/attachments/howto/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png" >}}
 
 4. Copy all the lines starting with `modeler-merge-marker` to the clipboard. 
 
@@ -171,7 +171,7 @@ To resolve a conflict on the `svn:ignore` property, follow these steps:
 
 8.  Remove the special lines that start with `<<<<<<<`, `=======`, and `>>>>>>>`. For this example, we end up with the following combined ignore list:
 
-	{{< figure src="/attachments/howto/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png" alt="" >}}
+	{{< figure src="/attachments/howto/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png" >}}
 
 	{{% alert type="info" %}}
 	This includes both the lines from the main line and from the branch. The order is not important.

@@ -16,7 +16,7 @@ The [multiplicity](#multiplicity) (or number of referred objects) of an associat
 
 In the example below, the arrow indicates that **Order** is the owner of the association, and the `1` and `*` indicate that one customer is associated with many orders:
 
-{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/association-properties/918217.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/association-properties/918217.png" >}}
 
 {{% alert type="info" %}}
 
@@ -80,11 +80,11 @@ Delete behavior defines what should happen to the associated object when an obje
 
 This delete behavior is used if you want to delete any associated **Profile** when a **Customer** is deleted:
 
-{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/association-properties/918143.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/association-properties/918143.png" >}}
 
 This delete behavior is used if you want to be able to delete a **Customer** only if it is not associated with any **Order**:
 
-{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/association-properties/918146.png" alt="" >}}
+{{< figure src="/attachments/refguide7/desktop-modeler/domain-model/association-properties/918146.png" >}}
 
 ## 3 Read More
 

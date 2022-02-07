@@ -31,11 +31,11 @@ Under **Test Steps**, you can find all test cases and test suites that are used 
 
 For a more detailed search, use the **Test Step Setup** dialog box by clicking this button:
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-test-suite/search-testcase-testsuite.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-test-suite/search-testcase-testsuite.png" >}}
 
 Then search for the desired test case or test suite in your project. You can also navigate through your project and explore all the available tests in it. 
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-test-suite/dialog-testcase-testsuite.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-test-suite/dialog-testcase-testsuite.png" >}}
 
 Add a new step above or below an existing test step by clicking **Add above** or **Add below**. The buttons appear when you hover over an existing test step.
 
@@ -43,7 +43,7 @@ Add a new step above or below an existing test step by clicking **Add above** or
 
 To delete a test step in a test suite, click this icon on the right side of the test step:
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-test-suite/delete-2.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-two-ats/rg-two-test-suite/delete-2.png" >}}
 
 You can delete multiple test steps at once by marking them with the check box and clicking **Delete**.
 

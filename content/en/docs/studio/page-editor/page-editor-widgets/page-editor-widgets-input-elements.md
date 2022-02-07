@@ -11,12 +11,12 @@ tags: ["studio", "page editor", "input elements", "input widgets", "widgets"]
 
 **Input Elements** are [widgets](/studio/page-editor-widgets/) in Mendix Studio that are typically used to allow end-users enter or edit data. For example, a text box below allows users to fill in their full names:
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-input-elements/text-box-example.png" alt="" >}}
+{{% image_container width="350" %}}{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-input-elements/text-box-example.png" >}}
 {{% /image_container %}}
 
 **Input Elements** can only function inside a data container (a data view, a list view, or a data grid). You can either place widget in an existing data container; or click **Wrap with a new data view** in **Properties** to create a data view and place an input element inside it automatically. 
 
-{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-input-elements/wrap-in-data-view.png" alt="" >}}
+{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-input-elements/wrap-in-data-view.png" >}}
 
 ## 2 Input Elements Overview
 
@@ -146,7 +146,7 @@ The **Format** section is specific for the **Date Picker** widget only.
 In **Input Validation**, you can specify whether the widget's value should be validated. You can set a validation type for an input widget and specify an end-user message in case validation fails. For example, you can mark the **Full name** field as required for new customers and you can add a message saying: "Please specify your name to proceed".
 
 {{% image_container width="350" %}}
-{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-input-elements/Validation-type-required.png" alt="" >}}
+{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-input-elements/Validation-type-required.png" >}}
 {{% /image_container %}}
 
 

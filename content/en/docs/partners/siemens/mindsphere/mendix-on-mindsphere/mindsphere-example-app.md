@@ -36,23 +36,23 @@ Open Studio Pro without opening an app and follow these steps:
 
 1. Open the *Switch to* menu in the top bar of Studio Pro and click the Marketplace icon to open the Mendix Marketplace in the browser:
 
-	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-icon.png" alt="" >}}
+	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-icon.png" >}}
 
 2. Enter *MindSphere Operations* in the search box and select **Siemens MindSphere Operations Insight** from the search results:
 
-	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-search.png" alt="" >}}
+	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-search.png" >}}
 
 3. Click **Download**, and store the **Siemens_MindSphere_Operations_Insight_Example.mpk** on your local machine.
 
-	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-download.png" alt="" >}}
+	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-download.png" >}}
 
 4. Go back to your Studio Pro and select **Import App Package…** from the **File** menu to import the downloaded app package.
 
-    {{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-import-app-package.png" alt="" >}}
+    {{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-import-app-package.png" >}}
 
 5. Confirm the **App name**, and the **App directory**, then click **OK**:
 
-	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-download-project.png" alt="" >}}
+	{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-download-project.png" >}}
 
 ## 4 Deploy and Run the Example App
 
@@ -61,11 +61,11 @@ For more information about the deployment options see [Deploying to MindSphere](
 
 To start the Auto Registration process just click the **Publish** button.
 
-{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-publish.png" alt="" >}}
+{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-publish.png" >}}
 
 Once your app is deployed to Mendix, click **View App**.
 
-{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-view-app.png" alt="" >}}
+{{< figure src="/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-view-app.png" >}}
 
 Your default Browser will open and when your app starts, it will trigger the registration process.
 

@@ -91,4 +91,4 @@ Pressing a **Cancel** button or triggering a rollback activity will initiate the
 * Database: there is no database communication happening during this event unless it is specified in a before- or after-create event
 * Result: an object with the state **Instantiated** will be removed, and an object with any other state will be reverted back to the values it had during the last commit
 
-{{< figure src="/attachments/refguide8/modeling/application-logic/activities/object-activities/rollback-object/18582170.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/application-logic/activities/object-activities/rollback-object/18582170.png" >}}

@@ -30,7 +30,7 @@ We are in the process of adding the Mendix SSO module to the Mendix app template
 
 You can see if your app has the Mendix SSO module, and which version it has, by looking in the **Marketplace modules** section in the **App Explorer** for your app. The version number is recorded in the **Version** constant within the module.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/mxsso-app-store-module.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/mxsso-app-store-module.png" >}}
 
 If your app does not have the Mendix SSO module, it is available from the Mendix Marketplace [here](https://marketplace.mendix.com/link/component/111349/). Follow the instructions in [How to Use Marketplace Content in Studio Pro](/appstore/general/app-store-content/) to import it into your app and then follow the instructions in [Setting Up Mendix Single Sign-On](#setting-up), below.
 
@@ -131,7 +131,7 @@ To enable Mendix SSO in your app, follow these steps:
     2. Click the **Runtime** tab.
     3. Click **Select…** for the **After startup** microflow.
     4. Choose the microflow **Marketplace modules** > **MendixSSO** > **MOVE_THIS** > **CustomizableMendixSSOMicroflows** > **MendixSSO_AfterStartup** (you can use the filter to find it quickly) and click **Select**.
-        {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/after-startup.png" alt="" >}}
+        {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/after-startup.png" >}}
     5. Click **OK** to close the **App Settings**.
 
     {{% alert type="info" %}}If there is already an After startup microflow, you should not replace it, but rather add the MendixSSO_AfterStartup microflow as an action in the existing microflow{{% /alert %}}
@@ -285,13 +285,13 @@ Local users don't have tokens as they don't sign in via SSO.
 
 Tokens are held in encrypted form in the `Token` entity, and are associated with the end-user via the `Token_User` association.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/domain-model-token.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/domain-model-token.png" >}}
 
 You can allow an administrator to see all the tokens by displaying them on an administration page of your app.
 
 For example, you can create a data grid sourced from the database entity `MendixSSO.Token` and display the attributes you require from the `Token` entity, and the associated `User` and `Session` entities. Remember that, in this case, the tokens will still be encrypted.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/token-datagrid.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/mendix-sso/token-datagrid.png" >}}
 
 If you implement a page like this, ensure that security is set up to prevent unauthorized users accessing the page.
 

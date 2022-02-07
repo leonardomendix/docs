@@ -39,9 +39,9 @@ You can search for microflows that have object activities in them. Do the follow
 
 1.  Click **Edit** > **Find** **Advanced** in the top-bar or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>.
     The **Find Advanced** dialog box will open:
-    {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/find-advanced-dialog-box.png" alt="" >}}
+    {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/find-advanced-dialog-box.png" >}}
 3.  In the **Search for** option, select **Microflow actions**:
-    {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/search-for-microflow-actions.png" alt="" >}}
+    {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/search-for-microflow-actions.png" >}}
 3.  Select the entity for which you want to search for object activities, and click **Find**.
 
 You can see search results in the **Find Results** pane.
@@ -56,7 +56,7 @@ To find the unused items, do the following:
 
 2. In the **Find Advanced** dialog box, select **Unused items** in the **Search for** option:
 
-   {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/search-for-unused-items.png" alt="" >}}
+   {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/search-for-unused-items.png" >}}
 
 3. Click **Find**. 
 

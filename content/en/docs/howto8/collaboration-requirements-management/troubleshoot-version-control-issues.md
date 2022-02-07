@@ -133,7 +133,7 @@ The first five lines are the same and after that, the lists deviate.
 
 Merging the branch to the main line will result in the following information message: 
 
-{{< figure src="/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png" alt="" >}}
+{{< figure src="/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/mergesuccessfuldialog.png" >}}
 
 {{% alert type="info" %}}
 A conflict is reported on the project *folder*. This usually means that there is a conflict on the `svn:ignore` property.
@@ -150,7 +150,7 @@ To resolve a conflict on the `svn:ignore` property, perform these steps:
 2. Open the project directory in Windows File Explorer
 3.  Right-click the white background and choose **TortoiseSVN** > **Edit Conflicts**. The following pop-up window will be shown (resize the window to display all the information):
 
-	{{< figure src="/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png" alt="" >}}
+	{{< figure src="/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/editconflictsdialog.png" >}}
 
 4. Copy all the lines starting with `modeler-merge-marker` to the clipboard. 
 5. Click **Manually edit property**.
@@ -158,7 +158,7 @@ To resolve a conflict on the `svn:ignore` property, perform these steps:
 7. Paste the previously copied lines via <kbd>Ctrl</kbd>+<kbd>A</kbd> followed by <kbd>Ctrl</kbd>+<kbd>V</kbd>.
 8.  Remove the special lines that start with `<<<<<<<`, `=======`, and `>>>>>>>`. For this example, we end up with the following combined ignore list:
 
-	{{< figure src="/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png" alt="" >}}
+	{{< figure src="/attachments/howto8/collaboration-requirements-management/troubleshoot-version-control-issues/combinedignorelist.png" >}}
 
 	{{% alert type="info" %}}This includes both the lines from the main line and from the branch. The order is not important.
 	{{% /alert %}}

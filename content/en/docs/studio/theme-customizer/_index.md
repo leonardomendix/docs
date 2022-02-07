@@ -48,7 +48,7 @@ For more information on how to select a new color in a setting, see [Adjusting C
 
 In the **Brand Colors** section, you can define colors of different styles: **Default**, **Primary**, **Inverse**, **Info**, etc. These styles are applied for widgets that have the **Style** property, for example, buttons. That means, if you selected a green color for the **Success** style, buttons that have *Success* selected in the **Style** property will be green: 
 
-{{< figure src="/attachments/studio/theme-customizer/brand-colors-style-dependency.png" alt="" >}}
+{{< figure src="/attachments/studio/theme-customizer/brand-colors-style-dependency.png" >}}
 
 ### 2.3 UI Customization
 

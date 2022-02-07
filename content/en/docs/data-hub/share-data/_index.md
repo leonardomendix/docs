@@ -49,7 +49,7 @@ Follow these steps to create a simple app in Mendix Studio Pro.
     
 6. Repeat steps 5a and 5b to create attributes *FirstName*, *LastName*, *CompanyName*, *Address* and set type to *String* for all of them. 
 
-	{{< figure src="/attachments/data-hub/share-data/entity-properties-pane.png" alt="" >}}
+	{{< figure src="/attachments/data-hub/share-data/entity-properties-pane.png" >}}
 	
 7. Click **OK** to save your changes.
 
@@ -60,7 +60,7 @@ Follow these steps to create a simple app in Mendix Studio Pro.
 10. In the **Information** pop-up dialog, click **OK**. 
     Overview pages for the new entity are added in the **OverviewPages** folder of **MyFirstModule**.
 
-	{{< figure src="/attachments/data-hub/share-data/overview-pages-for-customer-entity.png" alt="" >}}
+	{{< figure src="/attachments/data-hub/share-data/overview-pages-for-customer-entity.png" >}}
 
 11. In the **App Explorer**, double-click **Home_Web** to open the **Home_Web** page.
 
@@ -82,23 +82,23 @@ Do the following:
 
 2.  In the **Domain Model**, right-click the **Customer** entity and select **Expose as OData resource…**.
 
-	{{< figure src="/attachments/data-hub/share-data/expose-as-odata-resource.png" alt="" >}}
+	{{< figure src="/attachments/data-hub/share-data/expose-as-odata-resource.png" >}}
 
 3.  In the **Select Published OData Service** dialog box, select the **MyFirstModule** > **APIs** folder and click **New** to add a new OData service to this folder.
 
-	{{< figure src="/attachments/data-hub/share-data/select-published-odata-service.png" alt="" >}}
+	{{< figure src="/attachments/data-hub/share-data/select-published-odata-service.png" >}}
 	
 4. Name the published OData service *{yourname}CustomerODataService* and click **OK**.
 
     The new **{yourname}CustomerODataService** is added to the module and the **Edit published resource** dialog box is displayed for the entity **Customer**. 
 
-    {{< figure src="/attachments/data-hub/share-data/edit-published-resource-box.png" alt="" >}}
+    {{< figure src="/attachments/data-hub/share-data/edit-published-resource-box.png" >}}
 
     {{% alert type="info" %}}  Make a note of the the **Exposed set name**. This defaults to the **Exposed name** with an "**s"** added to the end. When the service is registered in the Data Hub Catalog, the **Exposed set name** will be displayed as the available **Dataset**. {{% /alert %}}
     
 5. Click **OK** twice to display the **OData Service** document that will be registered in the Data Hub Catalog. In the **General** tab, notice the **Version** number. 
 
-	{{< figure src="/attachments/data-hub/share-data/customer-odata-service-page.png" alt="" >}}
+	{{< figure src="/attachments/data-hub/share-data/customer-odata-service-page.png" >}}
 
 	Under **Entities**, the **Customer** entity is listed. The details of the entity are displayed on the right. To expose more entities in the service, add them on this page.
 
@@ -155,7 +155,7 @@ To do this, follow the steps below:
 	{{< figure src="/attachments/data-hub/share-data/data-hub-pane-empty.png" alt="data hub pane" >}}
 
 	If you do not see the **Data Hub** pane, click **View** > **Data Hub** to display it:
-	{{< figure src="/attachments/data-hub/share-data/view-data-hub.png" alt="" >}}
+	{{< figure src="/attachments/data-hub/share-data/view-data-hub.png" >}}
 	
 3. In the [Data Hub](/refguide/data-hub-pane/) pane, enter the search string *{yourname}*.
 
@@ -209,7 +209,7 @@ You can view the two apps that you have created in the Data Hub Landscape and se
 1. Open the [Data Hub](https://hub.mendix.com/#/home) home page.
 2. Find your service using the search pane. Remember to use the filter to ensure you can see **Sandbox** apps. 
 3. Click the **Landscape** tab to see a visual representation of your apps (rounded squares), services (circles), and connections (lines). The number of entity sets/datasets that have been exposed appears beneath the service. 
-    {{< figure src="/attachments/data-hub/share-data/landscape-full-screen.png" alt="" >}}
+    {{< figure src="/attachments/data-hub/share-data/landscape-full-screen.png" >}}
 
     The service **{yourname}CustomerODataAPI** is linked by a solid line to the running instance of **{yourname}CustomerCustomerServiceApp**, which is deployed as a Free App.
 

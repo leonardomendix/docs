@@ -73,7 +73,7 @@ Data is exported from the repository.
 
 In the **Test Data** tab of the **Repository** you can create datasets by clicking the **New Data Set** button. You can name the dataset and give it a description.
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-data-management/21168208.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-data-management/21168208.png" >}}
 
 A dataset is defined by one or more fields and records. Fields are the columns of your table, records are the lines in your table containing the field values. Fields can have the data types integer or string. After you have created a dataset you can add fields and records to the set.
 

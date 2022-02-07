@@ -39,15 +39,15 @@ There are two ways of making a combined action:
 
 These are the steps in a Mendix app:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/combined-action-app-steps.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/combined-action-app-steps.png" >}}
 
 These are the steps in ATS:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/combined-action-ats-steps.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/combined-action-ats-steps.png" >}}
 
 This is the combined action:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/combined-action-ats-newexpense-action.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/combined-action-ats-newexpense-action.png" >}}
 
 ### 3.2 Summary
 
@@ -71,15 +71,15 @@ Follow the guidelines for building a custom action to create an unsupported widg
 
 This is the widget in a Mendix app:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/unsupported-widget-action-app-widget.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/unsupported-widget-action-app-widget.png" >}}
 
 These are the steps in ATS:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/unsupported-widget-action-ats-steps.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/unsupported-widget-action-ats-steps.png" >}}
 
 This is the unsupported widget action:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/unsupported-widget-action-ats-switch-action.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/unsupported-widget-action-ats-switch-action.png" >}}
 
 ### 4.3 Summary
 
@@ -100,15 +100,15 @@ The focus is on finding an element that you can use to find the widget. The [Fin
 
 This is an element in a Mendix app:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/searchcontext-action-listview-app.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/searchcontext-action-listview-app.png" >}}
 
 These are the steps in ATS:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/searchcontext-action-listview-ats-steps.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/searchcontext-action-listview-ats-steps.png" >}}
 
 This is the search context action:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/searchcontext-action-listview-ats-searchcontext-action.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/searchcontext-action-listview-ats-searchcontext-action.png" >}}
 
 ### 5.3 Summary
 
@@ -131,11 +131,11 @@ Function actions distinguish themselves from other actions by their purpose. If 
 
 These are the steps in ATS:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/function-action-ats-teststeps.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/function-action-ats-teststeps.png" >}}
 
 This the function action:
 
-{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/function-action-ats-function-action.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/ht/ht-two/ht-two-create-custom-actions/ht-two-custom-action-general/ht-two-custom-action-definitions/function-action-ats-function-action.png" >}}
 
 ### 6.3 Summary
 

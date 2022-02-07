@@ -13,7 +13,7 @@ When you create a new test case it is empty and has no test steps assigned.
 
 _Buttons on the Test Case Window_
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-test-dev/rg-one-manual-test-steps/21168179.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-test-dev/rg-one-manual-test-steps/21168179.png" >}}
 
 To add a new test step follow these steps:
 
@@ -25,7 +25,7 @@ To add a new test step follow these steps:
 
 You can now select the created test step and edit its parameters under the _Test Step Settings_ to the right.
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-test-dev/rg-one-manual-test-steps/21168180.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-test-dev/rg-one-manual-test-steps/21168180.png" >}}
 
 On the test step settings you can configure the following:
 

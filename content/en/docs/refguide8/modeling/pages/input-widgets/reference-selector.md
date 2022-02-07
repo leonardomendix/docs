@@ -19,13 +19,13 @@ A reference selector must be placed in a [data widget](/refguide8/data-widgets/)
 
 For example, if you have an employee they will work for one company. A company can have many employees. The entities **Employee** and **Company** have a one-to-many association, **Employee_Company**, which you can select by choosing a Company from the Employee through the reference selector.  
 
-{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/reference-selector-domain-model.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/reference-selector-domain-model.png" >}}
 
 In the reference selector, the name of the attribute of the associated objects which will be  displayed is shown inside the reference selector, between square brackets, and colored blue.
 
 For example, the following reference allows the end-user to see, and set, the association **Employee_Company** by selecting the **CompanyName** for the current **Employee**.
 
-{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/reference-selector.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/reference-selector.png" >}}
 
 {{% alert type="info" %}}
 If you only want to _display_ information, you can also use a [text box](/refguide8/text-box/). This has the added advantage that you can choose an attribute from an object which is linked via several association steps.
@@ -35,7 +35,7 @@ If you only want to _display_ information, you can also use a [text box](/refgui
 
 An example of reference selector properties is represented in the image below:
 
-{{% image_container width="400" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/reference-selector-properties.png" alt="" >}}
+{{% image_container width="400" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/reference-selector-properties.png" >}}
 {{% /image_container %}}
 
 Reference selector properties consist of the following sections:
@@ -221,7 +221,7 @@ A reference selector can be constrained by one or more paths. This is typically 
 Imagine you have an ordering system where the products are sorted into categories – for example, food products and drink products. On a page where you can edit an order line, a product selector can be constrained by a category selector. After selecting a category (*food*, for example), the product selector is constrained by this category and shows only products in the category.
 
 _Example Domain model_
-{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/orderline-domain-model.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/orderline-domain-model.png" >}}
 
 In the domain model the order line has many-to-one associations to both category and product. These associations can be be edited using reference selectors. A third association, from product to category, describes the relation between those two entities – that is, that every product has an associated category.
 
@@ -231,7 +231,7 @@ Such a triangle-shaped part of the domain model is what makes using **constraine
 
 On the form, you have two reference selectors: one for **Category** and one for **Product**.
 
-{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/orderline-reference-selectors.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/orderline-reference-selectors.png" >}}
 
 Without a constraint, the reference set selector will offer all the products:
 
@@ -239,7 +239,7 @@ Without a constraint, the reference set selector will offer all the products:
 
 However, because of the structure of the domain model, you can add a constraint which means that only the products of the previously selected category will be chosen. This is set by the **Constrained by** property.
 
-{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/orderline-constrained-by.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/reference-selector/orderline-constrained-by.png" >}}
 
 Now the end-user will only see products in the selected category:
 

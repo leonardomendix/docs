@@ -146,12 +146,12 @@ In the **General** section, you can configure the following properties:
 
 *  **Tabs** – use radio buttons to switch from one tab to another; click the tab and drag it to change the order of tabs; click the **Edit** icon to open the tab properties and configure it (for more information, see section [5.3 Tab Properties](#tab-properties))
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-container-tabs-property.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-container-tabs-property.png" >}}
 	{{% /image_container %}}
 
 *  **Add New Tab** – adds a new tab to your tab container; tab properties will open automatically (for more information, see section [5.3 Tab Properties](#tab-properties))
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-structure/add-new-tab.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-structure/add-new-tab.png" >}}
 	{{% /image_container %}}
 
 ### 6.2 Tab Container Design Properties
@@ -166,7 +166,7 @@ Each tab has the following properties:
 
 *  **Default Tab** – defines which tab is active when the page is opened. If no tab is set as the default one, the first tab page will be shown. By default, none of the tabs are set as a default tab.
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-properties.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-structure/tab-properties.png" >}}
 	{{% /image_container %}}
 
 ## 7 Read More

@@ -34,15 +34,15 @@ If you want to restore a backup to a different cloud node, or have your backup s
 
 2. Select the environment to which the backup should be restored (for example *Acceptance*).
 
-    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/environment.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/environment.png" >}}
 
 3. Select the backup you want to restore and click **Restore Backup**.
 
-    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/backupoptions.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/backupoptions.png" >}}
 
 4. Confirm the backup restore by clicking **Restore Backup**.
 
-    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/restore-backup.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/restore-backup.png" >}}
 
 {{% alert type="info" %}}
 
@@ -70,7 +70,7 @@ The app previously deployed to the node does not, however, need to have had the 
 
 2. Select the environment to which the backup should be restored (for example *Acceptance*).
 
-    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/environment.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/operate/backups/restore-backup/environment.png" >}}
 
 3. Click **Upload Archive**.
 
@@ -110,7 +110,7 @@ The *.tar* archive within the *.tar.gz* archive (for example, *files_and_databas
 
 Here is an example:
 
-{{< figure src="/attachments/developerportal/operate/backups/restore-backup/tar-gz-structure.png" alt="" >}}
+{{< figure src="/attachments/developerportal/operate/backups/restore-backup/tar-gz-structure.png" >}}
 
 contains the following files:
 

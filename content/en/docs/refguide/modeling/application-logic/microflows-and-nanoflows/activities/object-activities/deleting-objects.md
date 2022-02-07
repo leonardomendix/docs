@@ -84,11 +84,11 @@ For more information on associations' delete behavior, see the [Delete Behavior]
 <a name="delete-example"></a> For example, the **On delete of 'Customer' object** option below should be set to **Keep 'Order' objects**:
 
 {{% image_container width="350" %}}
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/deleting-objects/delete-limitations-example-0.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/deleting-objects/delete-limitations-example-0.png" >}}
 {{% /image_container %}}
 
 {{% image_container width="350" %}}
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/deleting-objects/delete-limitations-example-1.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/deleting-objects/delete-limitations-example-1.png" >}}
 {{% /image_container %}}
 
 ## 5 Common Section{#common}
@@ -114,7 +114,7 @@ In detail, this is what happens during deletions:
 	* The object will be removed from memory and (if applicable) from the database
 	* All delete behavior for the associations is validated, and any associated objects are removed as well
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/deleting-objects/18582171.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/object-activities/deleting-objects/18582171.png" >}}
 
 ### 6.2 Activity Used in a Nanoflow in an Offline-First App 
 

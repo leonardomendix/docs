@@ -8,7 +8,7 @@ parent: "rg-one-ats"
 
 The link Monitoring/Results shows you pending and most recent tests to review the results of test case or test suite runs. You can switch between both views via tabs.
 
-{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-monitoring/21168217.png" alt="" >}}
+{{< figure src="/attachments/addons/ats-addon/rg-ats/rg-one-ats/rg-one-monitoring/21168217.png" >}}
 
 Results allows to search previous test runs by
 

@@ -24,7 +24,7 @@ You can only use an error event if an error is in scope: Studio Pro does not acc
 
 In this example, an error occurs while committing an object to the database. It is caught, and the flow continues to the error event where the error is passed back to the caller of the microflow. So you can implement your error handling on multiple levels.
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/events/error-event/error-event.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/events/error-event/error-event.png" >}}
 
 {{% alert type="info" %}}
 When adding an error event, you need to add an [error handler](#errorhandlers) for an activity before the error event, and select **Set as error handler** for the sequence flow.
@@ -50,7 +50,7 @@ Unlike the [Rollback object](/refguide/rollback-object/) action, the rollback op
 
 The **Custom without rollback** option is only invoked when the action itself causes an error event, meaning you will still have access to any database objects you created or modified before the action which caused the error handler event. If you want to keep changes to objects of a persistable entity, you still need to commit them explicitly after a **Custom without rollback** error if they weren't committed before the error occurred.
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/events/error-event/custom-without-rollback-microflows.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/events/error-event/custom-without-rollback-microflows.png" >}}
 
 On a loop you get two options:
 
@@ -59,7 +59,7 @@ On a loop you get two options:
 
 The continue option means that when an error occurs, the loop will simply continue to the next iteration. It will show as a continue icon on the exit flow of the loop.
 
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/events/error-event/error-event-loop.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/events/error-event/error-event-loop.png" >}}
 
 ### 2.2 Inspecting Errors
 

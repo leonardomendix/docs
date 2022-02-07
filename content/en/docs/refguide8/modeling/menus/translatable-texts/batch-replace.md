@@ -20,7 +20,7 @@ There are a number of reasons that you may wish to do this:
 * If all occurrences of a piece of text are identical, you only need to enter the translation once — this saves time and improves consistency
 * If you find better wording for a common label or text, you can change them all at once with a single command
 
-{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-replace/batch-replace.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-replace/batch-replace.png" >}}
 
 ## 2 Using Batch Replace
 
@@ -57,7 +57,7 @@ Tip: move the dialog box to one side to get a better look at the document.
 
 In **Replace with**, type new text that you want to use instead of the existing text. Click **Replace** to confirm the replacement.
 
-{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-replace/batch-replace-replace.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/menus/translatable-texts/batch-replace/batch-replace-replace.png" >}}
 
 Identical replacement and original texts will be combined into a single entry.
 

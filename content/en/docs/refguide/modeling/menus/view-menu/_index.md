@@ -27,7 +27,7 @@ Note that this section describes the behavior of panes, not the behavior of docu
 
 When you drag a pane, you can see arrows that indicate where you can position this pane. You can position the pane either inside the current pane (arrows grouped together) or make it full-window height or width (individual arrows on the borders). Each position is labelled and explained below:
 
-{{< figure src="/attachments/refguide/modeling/menus/view-menu/interaction-with-panes.png" alt="" >}}
+{{< figure src="/attachments/refguide/modeling/menus/view-menu/interaction-with-panes.png" >}}
 
 1. Within the current *pane* you can position a pane in one of the following ways:
 

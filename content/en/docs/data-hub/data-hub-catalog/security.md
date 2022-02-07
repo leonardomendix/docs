@@ -60,7 +60,7 @@ For an example of how to implement authentication using security assertion marku
 
 The following steps describe how the security proposal is set with [ADFS](https://docs.microsoft.com/en-us/windows-server/identity/active-directory-federation-services) and the [SAML](/appstore/modules/saml/) Mendix Marketplace module:
 
-{{< figure src="/attachments/data-hub/data-hub-catalog/security/federation-with-ADFS-SAML-schematic.png" alt="" >}}
+{{< figure src="/attachments/data-hub/data-hub-catalog/security/federation-with-ADFS-SAML-schematic.png" >}}
 
 1. The app end-user logs into an app that uses external entities.
 2. The end-user is not yet authenticated, so the SAML module forwards the user to ADFS for authentication.

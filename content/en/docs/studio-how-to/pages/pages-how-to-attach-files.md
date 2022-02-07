@@ -116,7 +116,7 @@ Follow the steps below:
 
          3. The **Pre-fill page contents based on the Document entity** option is on, so the page template (Forms) is selected automatically for you. Choose **Form Vertical** and click **Create**.
 
-             {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-attach-file-page.png" alt="" >}}{{% /image_container %}}
+             {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-attach-files/create-attach-file-page.png" >}}{{% /image_container %}}
 
         4. A new pop-up page with a preconfigured form (a data view) is created:
 

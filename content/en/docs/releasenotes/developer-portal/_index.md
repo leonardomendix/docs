@@ -667,7 +667,7 @@ To see the current status of the Mendix Developer Portal and Control Center, see
 
 * The [Mendix Shop](https://mendixshop.mendixcloud.com) is open for business! This is a web shop where you can spend the credits you have gained by completing various [challenges](/developerportal/community-tools/mendix-profile/#challenges). The shop has cool products like Mendix t-shirts, socks, and sweatbands, so be sure to check it out.
 
-	{{% image_container width="300" %}}{{< figure src="/attachments/releasenotes/developer-portal/shop.png" alt="" >}}
+	{{% image_container width="300" %}}{{< figure src="/attachments/releasenotes/developer-portal/shop.png" >}}
 	{{% /image_container %}}
 
 ### November 1st, 2018

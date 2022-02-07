@@ -58,11 +58,11 @@ To access the node permissions, do the following:
 
 2. Open the **Permissions** tab.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/node-permissions/node-permissions.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/node-permissions/node-permissions.png" >}}
 
 3. Select the environment for which you want to change permissions from the drop-down.
 
-    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/node-permissions/node-flexible-environments.png" alt="" >}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/node-permissions/node-flexible-environments.png" >}}
 
 4. Complete two-factor authentication, if required for the selected environment.
 
@@ -70,7 +70,7 @@ To access the node permissions, do the following:
 
 The Technical Contact and team members specifically allowed to *Manage Permissions* can set the following node permissions.
 
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/node-permissions/nodepermission.png" alt="" >}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/node-permissions/nodepermission.png" >}}
 
 #### 3.4.1 Manage Permissions
 

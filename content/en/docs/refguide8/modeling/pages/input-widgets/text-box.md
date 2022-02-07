@@ -26,13 +26,13 @@ A text box must be placed in a [data widget](/refguide8/data-widgets/) and displ
 
 For example, the following text box allows the end-user to see, and set, the **Name** of a customer.
 
-{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/text-box/text-box.png" alt="" >}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/text-box/text-box.png" >}}
 
 ## 2 Properties
 
 An example of text box properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/text-box/text-box-properties.png" alt="" >}}
+{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/text-box/text-box-properties.png" >}}
 {{% /image_container %}}
 
 Text box properties consist of the following sections:
