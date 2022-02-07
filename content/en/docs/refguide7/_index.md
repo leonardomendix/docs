@@ -20,5 +20,5 @@ If you are looking for step-by-step guides on performing various Mendix actions,
 
 The *Mendix Reference Guide* is divided into the following categories:
 
-{{% category_block %}}
+
 
