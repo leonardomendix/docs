@@ -17,8 +17,7 @@ Studio Pro supports a number of dockable window panes, such as the **Changes** a
 
 Via this menu you can also enable or disable the [full screen mode](#full-screen) or [reset the layout](#reset-layout) of your project to the default.  
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/menus/view-menu/view-menu.png" alt="View Menu" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/menus/view-menu/view-menu.png" alt="View Menu"   width="300"  >}}
 
 ## 2 Layout of Panes {#layout-of-panes}
 

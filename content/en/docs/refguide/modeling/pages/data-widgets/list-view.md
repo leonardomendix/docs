@@ -19,8 +19,7 @@ Each object is shown using a template. This template is defined by placing widge
 
 An example of list view properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/data-widgets/list-view/list-view-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/data-widgets/list-view/list-view-properties.png"   width="250"  >}}
 
 List view properties consist of the following sections:
 

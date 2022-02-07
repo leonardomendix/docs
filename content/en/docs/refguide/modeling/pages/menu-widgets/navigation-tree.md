@@ -21,8 +21,7 @@ The menu structure of a navigation tree can have three levels, that means that m
 
 An example of navigation tree properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/menu-widgets/navigation-tree/navigation-tree-properties.png" alt="Navigation Tree Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/menu-widgets/navigation-tree/navigation-tree-properties.png" alt="Navigation Tree Properties"   width="250"  >}}
 
 Navigation tree properties consist of the following sections:
 

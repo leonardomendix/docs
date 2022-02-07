@@ -80,7 +80,7 @@ To create the menu item for the **New_Employee** page, do the following:
 
 1. Click a plus at the bottom of the navigation tree to create a menu item:
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio-how-to8/navigation-how-to-configure/adding-menu-item.png" alt="Adding Menu Item" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/navigation-how-to-configure/adding-menu-item.png" alt="Adding Menu Item"   width="350"  >}}
 
 2. Open the new menu item properties and do the following:
 

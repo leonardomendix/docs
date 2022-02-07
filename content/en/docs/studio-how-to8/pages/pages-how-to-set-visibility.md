@@ -26,19 +26,11 @@ You have a web shop and you would like to show a field with a billing address on
 
 You also have a page called **Product Overview** which lists products and you would like to make the **Edit** button in the list visible to Administrators and Sales managers only:
 
-{{% image_container width="450" %}}
-
-{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products" >}}
-
-{{% /image_container %}}
+{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products"   width="450"  >}}
 
 The domain model looks the following way:
 
-{{% image_container width="550" %}}
-
-{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/domain-model.png" alt="Domain Model" >}}
-
-{{% /image_container %}}
+{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/domain-model.png" alt="Domain Model"   width="550"  >}}
 
 You have the following user roles:
 
@@ -77,13 +69,13 @@ To set conditional visibility for the **Billing Address** field, do the followin
 
 3. In **Conditional Visibility** section, click the **Attribute-Based** property:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/conditional-visibility-section.png" alt="Conditional Visibility Section" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/conditional-visibility-section.png" alt="Conditional Visibility Section"   width="250"  >}}
 
 4. In the **Select Attribute** dialog box, choose the **BillingAddressSame** attribute and click **Select**.
 
 5. The **Attribute Values** property is now displayed in properties. Untick the *True* value as it does not meet the conditions you would like to set, and leave the **False** value selected:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/attribute-based-visibility-set.png" alt="Attribute-Based Visibility" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/attribute-based-visibility-set.png" alt="Attribute-Based Visibility"   width="250"  >}}
 
 Good job! If you [preview your app](/studio8/publishing-app/), you will see that the billing address is only shown when you untick the  **Billing address is the same as delivery address** option.
 
@@ -95,15 +87,15 @@ To show an element only to a certain user role, do the following:
 
 1. Open the **Product Overview** page with the list of products and select the **Edit** button:
 
-    {{% image_container width="450" %}}{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products"   width="450"  >}}
 
 2. Open its properties and in **Conditional Visibility** section toggle the **Role-Based** property:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/role-based-property.png" alt="Role-Based Property" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/role-based-property.png" alt="Role-Based Property"   width="250"  >}}
 
 3. A list of roles available in your app is displayed in the **Roles** property. Untick the **Customer** role:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/unselected-roles.png" alt="Unselected Roles" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/unselected-roles.png" alt="Unselected Roles"   width="250"  >}}
 
 Well done! Now the **Edit** button will only be shown to **Administrator** and **Sales_Manager** user roles only.
 
@@ -115,7 +107,7 @@ To easily find which elements on your page have conditional visibility, you can 
 
 2. Click the eye icon in the upper-left corner of the page:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/eye-icon.png" alt="Eye Icon" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to8/pages/pages-how-to-set-visibility/eye-icon.png" alt="Eye Icon"   width="250"  >}}
 
 Widgets with conditional visibility are highlighted:
 

@@ -56,7 +56,7 @@ Starts the AR camera view, and contains all other AR widgets. This widget is the
 every AR widget that is embedded in it. For example, if you use a **ImageTracker (AR)** to recognize an image, and put a
 **Cube (AR)** in it, the cube will start in the exact middle of your image:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide/mobile/ar-widgets/scale-one.jpg" alt="Cube" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/mobile/ar-widgets/scale-one.jpg" alt="Cube"   width="300"  >}}
 
 ### 3.3 Plane Selector (AR)
 

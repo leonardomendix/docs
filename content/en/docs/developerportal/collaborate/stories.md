@@ -30,9 +30,7 @@ The sections below describe the main actions to be performed on the **Overview**
 
 Click **New Sprint** to open the **Edit Sprint** dialog box:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/new-sprint.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/new-sprint.jpg"   width="400"  >}}
 
 Fill in the following details:
 
@@ -47,9 +45,7 @@ For more information on Sprints, see the [Sprint Actions](#sprint-actions) secti
 
 Each Sprint contains a number of stories that describe the specific functionality to be implemented, built, or fixed. Click **New Story** to open the **New Story** dialog box:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/new-story.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/new-story.png"   width="400"  >}}
 
 Fill in the following details:
 
@@ -64,9 +60,7 @@ Fill in the following details:
 
 You can also create a story via the [New Story](#new-story) button for Sprint or from within a new Sprint by clicking **Add a new story**:
 
-{{% image_container width="550" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/new-story-from-sprint.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/new-story-from-sprint.jpg"   width="550"  >}}
 
 For more information on stories, see the [Story Actions](#story-actions) section below.
 
@@ -74,9 +68,7 @@ For more information on stories, see the [Story Actions](#story-actions) section
 
 Click **New Label** to create a new label for your app:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/new-label.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/new-label.png"   width="400"  >}}
 
 * **Label caption** – the caption of the label
 * **Label color** – select a color from the drop-down list for easy visibility (the small square below the drop-down list shows how the color looks)
@@ -95,9 +87,7 @@ Click **More** to access the following options:
 
 After you click **Import / Export**, you will be asked what you want to do:
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/import-export.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/import-export.png"   width="350"  >}}
 
 In Mendix, you can export stories from your app at any time. If you select **Export single sprint to Excel**, you can select just the stories in one Sprint and export these to Excel to work on.
 
@@ -115,9 +105,7 @@ When editing stories in Excel, follow these guidelines:
 
 The **Manage Labels** page is where you can add or remove your labels:
 
-{{% image_container width="550" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/labels.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/labels.png"   width="550"  >}}
 
 The following buttons are available:
 
@@ -130,9 +118,7 @@ The following buttons are available:
 
 The **Completed Sprints** page presents an overview of Sprints that have been completed and archived:
 
-{{% image_container width="550" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/completed-sprints.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/completed-sprints.png"   width="550"  >}}
 
 The following buttons are available:
 
@@ -145,9 +131,7 @@ The following buttons are available:
 
 The **Project History** page presents the collaboration actions for the app. On this page, you can see what change was made, who performed it, and when it occurred:
 
-{{% image_container width="550" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/history.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/history.jpg"   width="550"  >}}
 
 When you select a history item and click **Show item**, the details of the story, Sprint, or [feedback item](/developerportal/collaborate/feedback/) will be presented.
 
@@ -155,9 +139,7 @@ When you select a history item and click **Show item**, the details of the story
 
 For each Sprint, the following options are provided via the menu button on the right:
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/sprint-options.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/sprint-options.jpg"   width="350"  >}}
 
 * **Complete Sprint** (only available for the Sprint identified as an **Active Sprint**) – enables completing the Sprint, which will move it to the [Completed Sprints](#completed-sprints) page
 * **Add Story** – enables [creating a new story](#new-story) 
@@ -183,9 +165,7 @@ These actions support multi-selection of stories, except for the **Clone** actio
 
 When you click a story title, the story details page opens:
 
-{{% image_container width="500" %}}
-{{< figure src="/attachments/developerportal/collaborate/stories/story-details.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/stories/story-details.png"   width="500"  >}}
 
 On this page, you can perform a number of actions:
 
@@ -212,8 +192,7 @@ If you need to reorder stories or move a story to a different Sprint, there are 
 
 * Select the story, click **Move**, and then select the new Sprint from the **Move Stories** dialog box
 
-	{{% image_container width="500" %}}{{< figure src="/attachments/developerportal/collaborate/stories/move-story-move-button.jpg" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/developerportal/collaborate/stories/move-story-move-button.jpg"   width="500"  >}}
 
 * Select the story and drag it to the desired Sprint location:
 

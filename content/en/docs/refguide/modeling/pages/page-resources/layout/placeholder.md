@@ -17,9 +17,7 @@ Each placeholder is colored blue with its name displayed in the middle of it. Th
 
 For example, the image below shows two placeholders, **Main** and **Other** positioned within a layout grid. 
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/placeholder/placeholder.png" alt="Two placeholders in a layout grid. One is labeled 'Main', and one is labeled 'Other'" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/page-resources/layout/placeholder/placeholder.png" alt="Two placeholders in a layout grid. One is labeled 'Main', and one is labeled 'Other'"   width="400"  >}}
 
 ## 2 Properties
 

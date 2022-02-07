@@ -25,9 +25,7 @@ This action is ignored and does not work when a microflow is called from an offl
 
 The **Download file** activity can be used to enable the browser to download a specific file. The end-user either sees a download pop-up window or the file is shown directly in the browser.
 
-{{% image_container width="300" %}}
-{{< figure src="/attachments/refguide8/modeling/application-logic/activities/client-activities/download-file/download-file.png" alt="Download File Example" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/application-logic/activities/client-activities/download-file/download-file.png" alt="Download File Example"   width="300"  >}}
 
 ## 2 Properties
 

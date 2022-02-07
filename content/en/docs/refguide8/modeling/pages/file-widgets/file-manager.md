@@ -28,8 +28,7 @@ When uploading a file through the file manager, the FileDocument object will be 
 
 An example of file manager properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/file-manager/file-manager-properties.png" alt="File Manager Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/file-manager/file-manager-properties.png" alt="File Manager Properties"   width="250"  >}}
 
 File manager properties consist of the following sections:
 

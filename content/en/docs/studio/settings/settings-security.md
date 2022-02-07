@@ -21,7 +21,7 @@ Whether security is enabled for your app by default, depends on whether the secu
 
 1. Your app security is **off** in Studio Pro. In this case, you can either enable it via **App Settings**>**Roles and Permissions** >the **Enable Security** button, or you will be prompted to enable security, when you try to [publish the app](/studio/publishing-app/). 
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio/settings/settings-security/security-pop-up.png" alt="Secure Your App Pop-up Window" >}} {{% /image_container %}}
+    {{< figure src="/attachments/studio/settings/settings-security/security-pop-up.png" alt="Secure Your App Pop-up Window"   width="300"  >}}
     
     {{% alert type="info" %}}When you enable security, it is enabled for the whole app, and there are checks and changes applied to the model that are visible in Studio Pro. For more technical information on these checks and changes, see [Model Changes When Security Is Enabled in Studio](/refguide/studio-security-enabled/).{{% /alert %}}
 
@@ -147,7 +147,7 @@ There are two ways to change access for specific pages/microflows/workflows in y
 	3.  Open the page/microflow/workflow. 
 	4.  Go to **Properties** > the **Permissions** section and tick/untick **Allowed Roles** to grant/restrict access. 
 
-		{{% image_container width="300" %}}{{< figure src="/attachments/studio/settings/settings-security/permissions-section.png" >}}{{% /image_container %}}
+		{{< figure src="/attachments/studio/settings/settings-security/permissions-section.png"   width="300"  >}}
 
 ## 4 Demo Users {#demo-users}
 
@@ -161,7 +161,7 @@ You can test how your app looks like for different roles the following way:
 
 2. Click a user icon in the right side of the screen:
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/studio/settings/settings-security/user-icon.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio/settings/settings-security/user-icon.png"   width="400"  >}}
 
 4. In the displayed menu bar, select a demo user and the app will be viewed from the perspective of the corresponding role.
 
@@ -193,9 +193,7 @@ If you have created a new user role on the **Roles and Permissions** page, you n
 
 When you try to publish your app, you may be notified that upgrade of the service that secures your app is required first:
 
-{{% image_container width="300" %}}
-{{< figure src="/attachments/studio/settings/settings-security/upgrade.png" alt="Upgrade Required" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/settings/settings-security/upgrade.png" alt="Upgrade Required"   width="300"  >}}
 
 A special service makes it possible to manage your app users. As of April 1st, 2020 we are replacing the current service with an improved one. This upgrade will be done automatically for you when you click **Auto-Upgrade**. 
 

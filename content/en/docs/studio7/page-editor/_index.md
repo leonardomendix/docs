@@ -12,8 +12,7 @@ The page editor allows a user to define the end-user interface of a Mendix appli
 
 To view the **Pages** of your app in Mendix Studio, click the **Pages** icon in the left menu bar of Studio.
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/pages-icon.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/page-editor/pages-icon.png"   width="300"  >}}
 
 {{% alert type="warning" %}}
 
@@ -44,8 +43,7 @@ To open a page in Studio, do the following:
 
 2.  In the displayed list of app pages, select the one you want to open and click it.
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/studio7/page-editor/opening-a-page.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/page-editor/opening-a-page.png"   width="400"  >}}
 
 The selected page is opened. 
 
@@ -56,8 +54,7 @@ To create a new page in Studio, do the following:
 1. Click the **Pages** icon.
 2.  Click **New** in the top right corner of the displayed side panel.
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/studio7/page-editor/new-page.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/page-editor/new-page.png"   width="400"  >}}
 
 3. In the **Create new page** dialog window, fill out the title of the page, select the layout and the page template.  
 4.  Click **Create**.
@@ -84,8 +81,7 @@ To view an element and its [properties](#page-editor-properties), click this ele
 
 The selected element is indicated with an blue border. Additionally, if the element is inside a data container (data view or a list view), it will be indicated with a data container icon.
 
-{{% image_container width="400" %}}{{< figure src="/attachments/studio7/page-editor/input-widget-example.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/page-editor/input-widget-example.png"   width="400"  >}}
 
 ## 4 Breadcrumb Trail {#breadcrumb}
 
@@ -108,8 +104,7 @@ You can also view the information on Navigation layout by clicking it in the bre
 
 The following options will be displayed in the **Properties** tab:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/navigation-layout.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/page-editor/navigation-layout.png"   width="300"  >}}
 
 ## 5 Toolbox Tab
 
@@ -179,8 +174,7 @@ You can update widgets in the [Widget Overview](/studio7/settings-widget-overvie
 
 The **Properties** tab displays the properties of the currently selected element and differs depending on this element. 
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/page-editor/properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/page-editor/properties.png"   width="300"  >}}
 
 
 ## 7 Read More

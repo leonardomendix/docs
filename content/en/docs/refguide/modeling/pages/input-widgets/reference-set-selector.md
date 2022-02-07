@@ -46,8 +46,7 @@ You must explicitly commit the object in the data view containing your reference
 
 An example of reference set selector properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/reference-set-selector-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-set-selector/reference-set-selector-properties.png"   width="250"  >}}
 
 Reference set selector properties consist of the following sections:
 

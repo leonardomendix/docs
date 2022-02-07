@@ -25,8 +25,7 @@ Loop properties consists of the **Data Source** section and are described below:
 
 *  **Loop Variable Name** – refers to the name of the list item that is currently being worked on
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/studio7/microflows/microflows-loop/loop-properties.png" alt="Data Source Properties of a Loop" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/studio7/microflows/microflows-loop/loop-properties.png" alt="Data Source Properties of a Loop"   width="350"  >}}
 
 ## 3 Loop Example {#loop-example}
 
@@ -50,8 +49,7 @@ To start the use-case, do the following:
 
     b. In **Properties** > the **Data Source** section, select **From Database**, and set *Order* as an entity for this activity. (The **Range** property is set to **All** by default.)<br />
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio7/microflows/microflows-loop/retrieve-properties.png" alt="Retrieve Object Properties" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/microflows/microflows-loop/retrieve-properties.png" alt="Retrieve Object Properties"   width="350"  >}}
 
 3. As we have retrieved the list of orders we can work on, we will create a loop and logic for it. Do the following: <br />
 
@@ -61,8 +59,7 @@ To start the use-case, do the following:
 
     b. In **Properties**, set **OrderList** as **Loop Over** (**Loop Variable Name** is set automatically). We have selected the entity, and will loop over the list of its objects. <br />
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio7/microflows/microflows-loop/loop-properties-in-example.png" alt="Loop Properties in an Example" >}}
-     {{% /image_container %}}
+    {{< figure src="/attachments/studio7/microflows/microflows-loop/loop-properties-in-example.png" alt="Loop Properties in an Example"   width="350"  >}}
 
 4. Now we can add the activity that will change the status of each order to *Processed*. This means that the activities you add inside the loop will be performed on each object (each order). Do the following:<br />
 

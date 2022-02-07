@@ -29,9 +29,7 @@ On the right side of the top bar, you can search and access your [Mendix Profile
 
 On the left side of the top bar, you open an access menu by clicking the **Switch to** menu:
 
-{{% image_container width="300" %}}
-{{< figure src="/attachments/developerportal/switcher.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/switcher.png"   width="300"  >}}
 
 You can then access the following parts of the Mendix Platform:
 
@@ -98,9 +96,7 @@ If you click an app for which you are a team member, you will be taken to the ap
 
 If you click an app for which you are not an team member, you will see the app details:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/developerportal/app-details.png" alt="Example of app details" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/app-details.png" alt="Example of app details"   width="400"  >}}
 
 For details on **Company Buzz**, see the [Company Buzz](/developerportal/collaborate/buzz/#company-buzz) section of *Buzz*.
 

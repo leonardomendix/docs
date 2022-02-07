@@ -41,8 +41,7 @@ Search field properties depend on the type of the search field.
 
 An example of drop-down search field properties properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/grids/search-bar/search-field-properties.png" alt="Search Field Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/grids/search-bar/search-field-properties.png" alt="Search Field Properties"   width="250"  >}}
 
 Search field properties consist of the following sections:
 

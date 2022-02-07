@@ -30,8 +30,7 @@ On this page, you can do the following:
 * Click **Invite member** to invite a new user to the team (for more information, see the [Inviting Team Members](#inviting) section below)
 *  Click **Role settings** to view and edit the permissions for the team roles (clicking **Security Guide** in the **Role** dialog box will present useful information for configuring roles)
 
-	{{% image_container width="400" %}}{{< figure src="/attachments/developerportal/collaborate/team/role-settings.png" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/developerportal/collaborate/team/role-settings.png"   width="400"  >}}
 
 * Click **Change log** to view the change log for the team and [node permissions](/developerportal/deploy/node-permissions/)
 

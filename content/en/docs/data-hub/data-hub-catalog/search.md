@@ -282,7 +282,7 @@ The **Search** screen is divided into the [search](#search-pane) pane on the lef
 
 The collapsible **Search** pane is used to search for registered assets in the Data Hub Catalog:
 
- {{% image_container width="300" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/search/search-pane.png" alt="search pane" >}}{{% /image_container %}}
+ {{< figure src="/attachments/data-hub/data-hub-catalog/search/search-pane.png" alt="search pane"   width="300"  >}}
 
 #### 3.4.1 Specifying the Search
 
@@ -388,7 +388,7 @@ You can perform the following actions from this screen:
 
 The metadata panel at the right of the asset details screen displays details from the OData service metadata contract and values that have been curated in the Data Hub Catalog:
 
- {{% image_container width="300" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/search/metadata.png" alt="metadata pane" >}}{{% /image_container %}}
+ {{< figure src="/attachments/data-hub/data-hub-catalog/search/metadata.png" alt="metadata pane"   width="300"  >}}
 
 #### 3.6.1 Tags
 

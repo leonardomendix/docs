@@ -60,7 +60,7 @@ Open your native app in iOS Simulator or Android emulator and then do the follow
 2. Run `npx react-devtools@^3`.
 3.  React Developer Tools will launch and connect to Simulator. You can now inspect and modify the React Native elements the same way you could modify HTML elements in Chrome:
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/simulator-rn-dev.png" alt="debug simulator" >}}{{% /image_container %}}
+	{{< figure src="/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/simulator-rn-dev.png" alt="debug simulator"   width="350"  >}}
 	
 4. In the Make It Native App, use a three-finger tap to **Toggle Element Inspector** and enable enhanced inspection capabilities.
 
@@ -75,7 +75,7 @@ To use the Make It Native app with React Developer Tools, do the following:
 5. Run `adb reverse tcp:8097 tcp:8097` to allow the applet to interact  with your device.
 6. React Developer Tools will launch and connect to your device. You can now inspect and modify the React Native elements the same way you could modify HTML elements in Chrome:
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/min-app-rn-devtools.png" alt="debug min app" >}}{{% /image_container %}}
+	{{< figure src="/attachments/howto8/mobile/native-mobile/build-native-apps/native-debug/min-app-rn-devtools.png" alt="debug min app"   width="350"  >}}
 
 ## 3 Debugging Your Styling
 

@@ -36,22 +36,19 @@ To configure **Content** and add attributes to it, do the following:
 
 2.  Open **Properties** of the **Text**, **Paragraph**, or **Heading**, delete the default text in the **General** section > **Content** and start typing the message you want to show to the end-user.  
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-text/content.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-text/content.png"   width="350"  >}}
 
 3. To insert attribute values into your message, click **Add attribute** or press <kbd>Ctrl</kbd> + <kbd>Space</kbd>.  The list of attributes which can be inserted will be shown. 
 
 4.  Scroll through the list of attributes (you can also use <kbd>Up</kbd> and <kbd>Down</kbd> arrows for that) and select the attribute you want to add to the **Text**. 
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-text/list-of-attributes.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-text/list-of-attributes.png"   width="350"  >}}
 
 5. Type the rest of the text, and insert more attributes if required, to finish your message.
 
 You have configured the **Content** of your widget. If you want to edit it, you can double click the widget in the page; the **Edit Text** pop-up dialog will be shown for widgets with attributes in their content.
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-text/edit-text.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-text/edit-text.png"   width="350"  >}}
 
 ### 2.2 Render Mode {#render-mode}
 

@@ -23,8 +23,7 @@ For example, clicking one row can open a page, clicking another one can execute 
 
 An example of navigation list properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/navigation-list/navigation-list-properties.png" alt="Navigation List Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/navigation-list/navigation-list-properties.png" alt="Navigation List Properties"   width="250"  >}}
 
 Navigation list properties consist of the following sections:
 

@@ -29,8 +29,7 @@ The footer of the data view is the section at the bottom of the data view that o
 
 An example of data view properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/data-view/data-view-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/data-view/data-view-properties.png"   width="250"  >}}
 
 Data view properties consist of the following sections:
 

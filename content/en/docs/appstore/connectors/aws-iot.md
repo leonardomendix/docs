@@ -32,9 +32,7 @@ The microflow actions need AWS credentials. Most use an AWS access key ID and an
 For the MQTT actions you need to provide the certificates as provided by AWS IoT. These should be stored
 in the **resources** folder of your Mendix app:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/appstore/connectors/aws-iot/certificates.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/appstore/connectors/aws-iot/certificates.png"   width="400"  >}}
 
 ### 2.1 Things
 

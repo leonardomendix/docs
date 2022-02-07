@@ -14,8 +14,7 @@ A **Navigation Document** in Mendix Studio shows a configured menu of your app i
 
 To open the **Navigation Document**, click the corresponding icon in the left menu bar.
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio8/navigation/navigation-icon.png" alt="Navigation Document Icon" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio8/navigation/navigation-icon.png" alt="Navigation Document Icon"   width="300"  >}}
 
 The **Navigation Document** consists of menu items that allow end-users navigate your app or that perform certain actions. For example, you can configure a menu item to open a specific page or to log an end-user out of their profile. For more information on actions you can assign to menu items, see the [Events Section](#events-section-navigation).
 
@@ -34,8 +33,7 @@ Properties of the menu items consists of the following sections:
 * [Events](#events-section-navigation) 
 * [General](#general-section-navigation) 
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio8/navigation/navigation-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio8/navigation/navigation-properties.png"   width="300"  >}}
 
 ### 2.1 Events Section {#events-section-navigation}
 

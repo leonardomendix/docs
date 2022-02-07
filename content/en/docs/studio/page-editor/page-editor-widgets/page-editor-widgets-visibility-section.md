@@ -90,7 +90,7 @@ To configure visibility based on the attribute value, follow the steps below:
 
 5. The **Attribute Values** property is now displayed in properties. Untick the values that do not meet the conditions you would like to set:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/attribute-values.png" >}}{{% /image_container %}} 
+    {{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-widgets-visibility-section/attribute-values.png"   width="300"  >}} 
 
 Conditional visibility based on the attribute value is set for the widget.
 

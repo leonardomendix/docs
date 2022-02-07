@@ -41,8 +41,7 @@ For example, using the domain model above, the following input reference set sel
 
 An example of input reference set selector properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/input-reference-set-selector/input-reference-set-selector-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/input-reference-set-selector/input-reference-set-selector-properties.png"   width="250"  >}}
 
 Reference set selector properties consist of the following sections:
 

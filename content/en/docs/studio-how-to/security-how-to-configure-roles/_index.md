@@ -58,7 +58,7 @@ Depending on your app type and version, you might need to enable security first.
 
 2. In the **Roles and Permissions** screen, click **Enable Security**:
 
-	{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/security-how-to-configure-roles/enable-security.png" alt="Enable Security" >}}{{% /image_container %}}
+	{{< figure src="/attachments/studio-how-to/security-how-to-configure-roles/enable-security.png" alt="Enable Security"   width="550"  >}}
 	
 3. After security is enabled, you can see a table with three tabs: **Roles,** **Pages**, **Microflows**. Two roles are created by default: **Administrator** and **User**. The **Administrator** role is read-only, meaning you cannot delete or rename it. As it is already configured and has access to all functionality, you can use this role for your app administrators in the future. 
 
@@ -72,7 +72,7 @@ Depending on your app type and version, you might need to enable security first.
 
 6. In the **Create Role** dialog box, fill in the role name as **Front_Desk** and click **Save**:
 
-    {{% image_container width="450" %}}{{< figure src="/attachments/studio-how-to/security-how-to-configure-roles/create-role.png" alt="Create Role" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/security-how-to-configure-roles/create-role.png" alt="Create Role"   width="450"  >}}
 
 You now have three user roles: Administrator, Customer, and Front_Desk.
 
@@ -108,7 +108,7 @@ You can test the roles that you set with [demo users](/studio/settings-security/
 
 4. In the displayed menu bar, select a demo user and the app will be viewed from the perspective of the corresponding role. Click the **demo_customer** to test which functionality can the **Customer** role view and access.
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio-how-to/security-how-to-configure-roles/select-user.png" alt="Select Demo User" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/security-how-to-configure-roles/select-user.png" alt="Select Demo User"   width="350"  >}}
 
 5. Repeat steps 3-4 to test the **Front_Desk** role:
 

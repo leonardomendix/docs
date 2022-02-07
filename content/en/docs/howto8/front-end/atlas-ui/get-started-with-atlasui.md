@@ -35,9 +35,7 @@ For more information about Atlas UI, see [Atlas UI](/howto8/front-end/atlas-ui/)
 
 You now have access to your app **Buzz** in the [Developer Portal](/developerportal/). From **Buzz**, you can open Mendix Studio clicking **Edit App** in the upper-right corner of the screen:
 
-{{% image_container width="300" %}}
-{{< figure src="/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_edit_your_app.png" alt="Edit App Button in the Developer POrtal" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_edit_your_app.png" alt="Edit App Button in the Developer POrtal"   width="300"  >}}
 
 Note that when you click **Edit App** for any Atlas UI app, it will automatically open in Mendix Studio. If you need to edit the app in Studio Pro, click the drop-down menu on the **Edit App** button and select **Edit in Studio Pro**.
 
@@ -49,9 +47,7 @@ Your app is ready to be built. In the **Toolbox** in the [page editor](/studio8/
 
 All these resources have been created with Atlas UI. Each building block has an information icon that directs you to the Atlas UI website for the relevant information:
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_building_block.png" alt="Building Block Example" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/howto8/front-end/atlas-ui/get-started-with-atlasui/start_building_block.png" alt="Building Block Example"   width="200"  >}}
 
 ## 6 Choosing a Page Template
 

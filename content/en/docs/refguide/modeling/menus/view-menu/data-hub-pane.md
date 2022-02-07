@@ -61,7 +61,7 @@ The search strings must be a minimum of three alphanumeric characters. Punctuati
 ### 3.2 Filtering Environments {#filter}
 By default, the search is performed on assets in the **Production** environment. To include all other environments such as test, acceptance, and also the Mendix free app environment, **Sandbox** in the search, click the **Filter** icon and check **Show development environments**:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide/modeling/menus/view-menu/data-hub-pane/filter-icon.png" alt="Filter Icon" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/menus/view-menu/data-hub-pane/filter-icon.png" alt="Filter Icon"   width="300"  >}}
 
 {{% alert type="info" %}}
 When the **Show development environments** is checked, all subsequent searches results will also include those in non-production environments.

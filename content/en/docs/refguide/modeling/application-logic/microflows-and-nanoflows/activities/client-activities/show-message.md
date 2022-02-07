@@ -21,9 +21,7 @@ This action is ignored and does not work when a microflow is called from an offl
 
 The **Show message** activity shows a blocking or non-blocking message to an end-user. For example, if the end-user did not select the customer grade in a form, you can show an error message telling them to select a grade to proceed:
 
-{{% image_container width="300" %}}
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/client-activities/show-message/show-message.png" alt="Show Message" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/client-activities/show-message/show-message.png" alt="Show Message"   width="300"  >}}
 
 ## 2 Properties
 

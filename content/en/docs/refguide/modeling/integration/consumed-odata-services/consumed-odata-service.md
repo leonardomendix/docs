@@ -138,7 +138,7 @@ When you import the metadata, you can add external entities from the consumed OD
 
 Click the **Properties** tab for the consumed OData service which displays the properties that were defined for the OData service document and the following additional properties:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/consumed-odata-service-doc-properties.png" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/consumed-odata-service-doc-properties.png"   width="300"  >}}
 
 * **Entities** – The URL of the metadata defining the entities and associated datasets.
 * **Documentation** – An additional description about this service for the current app.
@@ -158,7 +158,7 @@ When you add an external entity to your app, you are consuming the entity from a
 
 The same service, deployed to a different environment will be to a different service endpoint and this will be registered as a different asset in the Data Hub Catalog. In the following example, there are three endpoints for the **Sales 1.0.0** which is deployed to the production environment and the **Acceptance** and **Test** environments:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/same-service-different-endpoints.png" alt="2 endpoints" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/same-service-different-endpoints.png" alt="2 endpoints"   width="250"  >}}
 
 When you drag the **Customer** entity from **CustomerApi version 1.0.0** deployed to the **Acceptance** environment into your app, Studio Pro will retrieve the information it requires from the contract that is at that endpoint.
 
@@ -184,7 +184,7 @@ When a major change has been made to a published service we recommend that the s
 
 In this case the new service should be registered in the Data Hub Catalog as a different service, and show up in the catalog as a separate asset. In the following example, there are 4 registered occurrences of the **OrderManagementService**:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/consume-major-service-update-version.png" alt="4 endpoints" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/consume-major-service-update-version.png" alt="4 endpoints"   width="250"  >}}
 
 There is a major service update indicated by the change in the version number from **1.0.0** to **2.0.0**. Further, both major versions have also been deployed to **Acceptance** which also results in separately registered assets in the Data Hub Catalog at different endpoints.
 
@@ -244,7 +244,7 @@ To consume the service deployed to the **Acceptance environment**, follow these 
 
 3. The consumed service is be consumed from the new selected environment. The information on the **Consumed OData Service** document will display the changed service details and the **Data Hub** pane now displays that you are consuming from the selected environment:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/switch-new-environment.png" alt="major change environment dh pane" >}}{{% /image_container %}}
+    {{< figure src="/attachments/refguide/modeling/integration/consumed-odata-services/consumed-odata-service/switch-new-environment.png" alt="major change environment dh pane"   width="300"  >}}
 
 ## 5 Read More
 

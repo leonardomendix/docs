@@ -331,13 +331,13 @@ Follow the steps below:
 
 2. On the **Contract** screen, upload your XML or ZIP file.
 
-	{{% image_container width="400" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/register-data/register-data-source-contract.png" alt="upload contract" >}} {{% /image_container %}}
+	{{< figure src="/attachments/data-hub/data-hub-catalog/register-data/register-data-source-contract.png" alt="upload contract"   width="400"  >}}
 
 	If you selected the wrong file, click the **x** to remove it and upload a different one. 
 
 3. On the **Data Source** screen, specify the following Data Source details: **Data Source Name**, **Data Source Version**, **Data Source Relative Path**.  The **Data Source Relative Path** is the path of the OData service contract relative to the *environment URL of the application*. For more advice on versioning, see [Semantic numbering](/refguide/consumed-odata-service/#semantic). The other fields on the form are optional.
 
-	{{% image_container width="400" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/register-data/register-data-source-details.png" alt="upload contract" >}} {{% /image_container %}}
+	{{< figure src="/attachments/data-hub/data-hub-catalog/register-data/register-data-source-details.png" alt="upload contract"   width="400"  >}}
 
 4. Select the **Go to next step** option that appears once you have filled out all the required fields.
 

@@ -30,8 +30,7 @@ The rows in the table are CDs. The type of the two rows is "CD" and this is the 
 
 To view the **Domain Models** of your app in Studio, click the **Domain Models** icon in the left menu bar of Studio.
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/domain-models/domain-model.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/domain-models/domain-model.png"   width="350"  >}}
 
 After opening a domain model, you will see an overview of all the entities, attribute, and associations of the entities. 
 
@@ -59,8 +58,7 @@ For examples and more technical details, see [Domain Model](/refguide7/domain-mo
 
 You can add new entities in the **Toolbox**. 
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio7/domain-models/toolbox-entity.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/domain-models/toolbox-entity.png"   width="250"  >}}
 
 To add an entity, do the following:
 
@@ -74,8 +72,7 @@ To add an entity, do the following:
 
 The new entity is added to the domain model.
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio7/domain-models/new-entity.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/domain-models/new-entity.png"   width="250"  >}}
 
 ## 4 Adding New Attributes {#adding-new-attributes}
 
@@ -83,8 +80,7 @@ To add attributes in the domain mode, do the following:
 
 1.  Select a block with entity you want to add attribute to. The **New attribute** option appears:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio7/domain-models/adding-attribute.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/domain-models/adding-attribute.png"   width="250"  >}}
 
 2.  Click **New attribute** and specify its **Name** and **Type**:
 
@@ -94,8 +90,7 @@ To add attributes in the domain mode, do the following:
 
 New attribute is added to the entity. 
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio7/domain-models/new-attribute.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/domain-models/new-attribute.png"   width="250"  >}}
 
 ## 5 Adding New Associations
 
@@ -104,8 +99,7 @@ To add association in the domain model, do the following:
 1. Select a block with entity you want to add association to.
 2.  Click the arrow icon that appears:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio7/domain-models/adding-association.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/domain-models/adding-association.png"   width="250"  >}}
    
 3.  Select a second entity for the new association from the list of existing entities and click **Select**. You can also create a new entity for the association from the dialog box. 
 
@@ -169,8 +163,7 @@ To change the association, click the line in the domain model. The **Properties*
 
 If the association type is one-to-many or many-to-many, you can swap direction of it clicking the corresponding icon. For more information, see section [3 Multiplicity](/studio7/domain-models-association-properties/#multiplicity) in *Association Properties*. 
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/domain-models/managing-associations.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/domain-models/managing-associations.png"   width="350"  >}}
 
 ## 7 Deleting Entities, Attributes or Associations
 
@@ -180,8 +173,7 @@ To delete the entity, attribute or association, do the following:
 
 2.  Press **Delete** or click the **Delete** button at the bottom of the **Properties** tab.
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio7/domain-models/deletion.png" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/domain-models/deletion.png"   width="300"  >}}
 
 ## 8 Read More
 

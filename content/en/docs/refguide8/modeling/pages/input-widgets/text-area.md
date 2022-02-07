@@ -25,8 +25,7 @@ For example, the following text area allows the end-user to see, and set, the **
 
 An example of text area properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/text-area/text-area-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/text-area/text-area-properties.png"   width="250"  >}}
 
 Text area properties consist of the following sections:
 

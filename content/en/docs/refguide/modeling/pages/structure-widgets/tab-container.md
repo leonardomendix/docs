@@ -20,8 +20,7 @@ Tab containers are used to show information categorized into tabs. This can be v
 
 An example of tab container properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/tab-container/tab-container-properties.png" alt="Tab Container Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/tab-container/tab-container-properties.png" alt="Tab Container Properties"   width="250"  >}}
 
 Tab container properties consist of the following sections:
 

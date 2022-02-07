@@ -31,8 +31,7 @@ If you only want to _display_ information, you can also use a [text box](/refgui
 
 An example of reference selector properties is represented in the image below:
 
-{{% image_container width="400" %}}{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-selector/reference-selector-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/input-widgets/reference-selector/reference-selector-properties.png"   width="400"  >}}
 
 Reference selector properties consist of the following sections:
 

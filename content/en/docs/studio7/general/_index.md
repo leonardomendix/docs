@@ -44,8 +44,7 @@ The app opens in Studio.
 
 After clicking **Edit in Studio** you may need to upgrade your app to the latest version.
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/general/upgrade.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/general/upgrade.png"   width="350"  >}}
 
 {{% alert type="info" %}}
 When you upgrade your app in Studio to the latest  Mendix version, you will need to upgrade your app in the Studio Pro to the same version as well. 
@@ -64,15 +63,13 @@ You can change the view of your page to different views by clicking the correspo
 *  Tablet
 *  Responsive (Desktop)    
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/studio7/general/view.png" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/studio7/general/view.png"   width="350"  >}}
 
 ## 5 Left Menu Bar
 
 The left menu bar provides the following options:
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/general/left-menu-bar.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/general/left-menu-bar.png"   width="350"  >}}
 
 | Menu item                            | Shortcut     | Description                                                  |
 | ------------------------------------ | ------------ | ------------------------------------------------------------ |

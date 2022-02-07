@@ -50,15 +50,13 @@ First, you need to enable workflows for your app. Do the following:
 
 2. Before enabling workflows, you need to enable security first. Click **Enable Security**:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/enable-security.png" alt="Enable Security" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/enable-security.png" alt="Enable Security"   width="250"  >}}
 
 3. After security is enabled, click **Enable Workflows**.
 
 4. In the **Workflows Enabled** pop-up menu, click **Create Workflow**:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/create-workflow.png" alt="Create Workflow" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/create-workflow.png" alt="Create Workflow"   width="300"  >}}
 
 5. In the **Create new workflow** dialog box, set the **Title** to **Employee_Onboarding**, and then click the **Workflow Entity** field to create a new workflow entity.
 
@@ -100,8 +98,7 @@ To start your workflow, you need to trigger it. In this use case, the workflow i
 
 1. Create an **EmployeesToOnboard** page that contains a list view with the **EmployeeOnboarding** entity as its data source. (For more information on how to create a page and add widgets to it, see the [Performing Basic Functions](/studio/page-editor/#page-editor-basic-functions) section in *Pages*.)
 
-    {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/employees-to-onboard-list.png" alt="Employees to Onboard List" >}}
-     {{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/employees-to-onboard-list.png" alt="Employees to Onboard List"   width="500"  >}}
 
 2. Add a button that will initiate the workflow to the list view. Follow the steps below:
 
@@ -117,8 +114,7 @@ To start your workflow, you need to trigger it. In this use case, the workflow i
 
 3. The HR specialist also needs a page where they can fill in new hire's details. Add a **Create Object** button on the top of the page (outside the list view):
 
-    {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/employees-to-onboard-page.png" alt="Employees to Onboard Page" >}} 
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/employees-to-onboard-page.png" alt="Employees to Onboard Page"   width="500"  >}}
 
 4. Set **Entity** to **EmployeeOnboarding**:
 
@@ -228,7 +224,7 @@ Do the following:
 
     3. In the **Configure condition** dialog box, type in the expression that will split one flow into two depending on the **WFH** attribute: `$workflowData/WFH`.
 
-        {{% image_container width="500" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/decision-properties.png" alt="Decision Properties" >}}{{% /image_container %}}
+        {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/decision-properties.png" alt="Decision Properties"   width="500"  >}}
 
     4. Click **Save**.
 
@@ -279,9 +275,7 @@ Do the following:
 
 Great job! You have created the decision and user tasks on whether the new hire is working from the office or from home. Your workflow is configured! 
 
-{{% image_container width="250" %}}
-{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/worfklow-configured.png" alt="Configured Workflow" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/worfklow-configured.png" alt="Configured Workflow"   width="250"  >}}
 
 ## 10 Configuring Navigation
 
@@ -311,7 +305,7 @@ You need to configure navigation otherwise the user roles will not be able to re
 
     3. In the **Select Page** dialog box, switch from the current module to the Workflow Commons one using the drop-down menu in the upper-right corner:
 
-        {{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/select-page-for-navigation.png" alt="Select Page" >}}{{% /image_container %}}
+        {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/select-page-for-navigation.png" alt="Select Page"   width="400"  >}}
 
     4. Find the **TaskInbox** page in the list and click **Select**.
 
@@ -343,7 +337,7 @@ To test your workflow, you need to switch between different user roles. Follow t
 
 2. Click the user icon on the right and select a user role:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/workflow-how-to-configure/user-roles.png" alt="Demo User Role" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/workflow-how-to-configure/user-roles.png" alt="Demo User Role"   width="300"  >}}
 
 3. You can switch between different demo user roles to test the use case. Do can do the following:
     1. Select the HR user role, open the **EmployeesToOnboard** page and add a new onboarding request.

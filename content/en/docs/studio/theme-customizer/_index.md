@@ -39,8 +39,7 @@ In the **Upload Logo** section, you can upload a picture that will be used as a 
 
 Once the logo is uploaded, a color palette is generated based on the logo colors. You can then select **Logo Colors** in color-pickers of different settings and align your app style with the style of your logo:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio/theme-customizer/logo-colors.png" alt="Logo Colors" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/theme-customizer/logo-colors.png" alt="Logo Colors"   width="250"  >}}
 
 For more information on how to select a new color in a setting, see [Adjusting Colors](#adjusting-colors).
 
@@ -58,8 +57,7 @@ In the **UI Customization** section, you can adjust the style and color of the m
 
 In the **Typography** section, you can override the text styles and text colors for your app, such as colors and size of headings and hyperlinks in your app:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio/theme-customizer/widget-view.png" alt="Widget View" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/theme-customizer/widget-view.png" alt="Widget View"   width="250"  >}}
 
 ## 3 Widget View {#widget-view}
 
@@ -107,8 +105,7 @@ To change the color, do the following:
     1. Select a color in the palette.
     2. Filling in the code of the color.
     3. Selecting the color from **Brand Colors** and **Logo Colors** (**Logo Colors** are only available when you [upload a logo](#uploading-logo)).<br/>
-	{{% image_container width="200" %}}{{< figure src="/attachments/studio/theme-customizer/adjusting-color.png" alt="Brand Colors and Logo Colors" >}}
-    {{% /image_container %}}
+	{{< figure src="/attachments/studio/theme-customizer/adjusting-color.png" alt="Brand Colors and Logo Colors"   width="200"  >}}
 
 3. See the result in the preview.
 

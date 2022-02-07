@@ -14,9 +14,7 @@ This activity can be used in both **Microflows** and **Nanoflows**.
 
 The **Microflow call** activity can be used to call a [microflow](/refguide/microflows/). 
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/action-call-activities/microflow-call/microflow-call.png" alt="Call Microflow" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/action-call-activities/microflow-call/microflow-call.png" alt="Call Microflow"   width="200"  >}}
 
 Arguments can be passed to the microflow and the result can be stored.
 

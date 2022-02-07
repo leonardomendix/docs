@@ -48,7 +48,7 @@ To start the built-in database viewer, follow these steps:
 
 1.  Run the application locally (if this is the first time, Studio Pro will ask you to create the new database, click **Yes** when this occurs):
 
-    {{% image_container width="150" %}}{{< figure src="/attachments/howto/collaboration-requirements-management/sharing-the-development-database/18580426.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/howto/collaboration-requirements-management/sharing-the-development-database/18580426.png"   width="150"  >}}
 
 2.  When the application is running, in the **Console** pane, select **Advanced** > **Start built-in database viewer** to open the built-in database viewer:
 

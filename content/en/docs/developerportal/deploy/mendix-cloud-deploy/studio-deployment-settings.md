@@ -33,7 +33,7 @@ To select the target environment, do the following:
 
 3. In the **Select Studio Target** dialog box, click the drop-down menu and select the environment.
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/studio-deployment-settings/setup-studios-deployment.png" alt="Select Studios Target Dialog" >}}{{% /image_container %}}
+    {{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/studio-deployment-settings/setup-studios-deployment.png" alt="Select Studios Target Dialog"   width="400"  >}}
 
     {{% alert type="info" %}}If you do not want to deploy your app to an environment automatically from Studio Pro, choose the option **Build Only**. This will place your MDA in the **Deployment Package Repository** and you can deploy it from within the Developer Portal.<br /><br />If you choose **Build Only**, you will not be able to publish your app from Studio, but will get an error **No target selected**.{{% /alert %}}
 

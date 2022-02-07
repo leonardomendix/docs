@@ -59,20 +59,17 @@ To create a feedback item, do the following:
 
 2.  Click the ellipsis icon and select **Create Feedback Item**:
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/studio/collaboration/collaboration-buzz/creating-feedback-item.png" alt="Creating Feedback Item" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/studio/collaboration/collaboration-buzz/creating-feedback-item.png" alt="Creating Feedback Item"   width="350"  >}}
 	
 3.  In the **Create feedback item** dialog box, fill in the type of feedback, its title, and additional information if necessary.
 
-    {{% image_container width="450" %}}{{< figure src="/attachments/studio/collaboration/collaboration-buzz/feedback-item-info.png" alt="Create Feedback Item Dialog Box" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio/collaboration/collaboration-buzz/feedback-item-info.png" alt="Create Feedback Item Dialog Box"   width="450"  >}}
 
 4. Click **Create**.
 
 The feedback item is submitted and a corresponding comment is posted in the **Buzz** tab with a link to the Developer Portal:
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio/collaboration/collaboration-buzz/feedback-item-created.png" alt="Created Feedback Item" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/collaboration/collaboration-buzz/feedback-item-created.png" alt="Created Feedback Item"   width="350"  >}}
 
 ## 4 Read More
 

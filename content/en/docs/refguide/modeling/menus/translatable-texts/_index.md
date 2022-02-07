@@ -24,11 +24,7 @@ These *translatable texts* include the following:
 
 You can see the language you are currently working in at the bottom right of the screen.
 
-{{% image_container width="350" %}}
-
-{{< figure src="/attachments/refguide/modeling/menus/translatable-texts/language-status.png" alt="Language Status" >}}
-
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/menus/translatable-texts/language-status.png" alt="Language Status"   width="350"  >}}
 
 When you have multiple languages set up in your app, you can choose a language to work in by doing one of the following:
 

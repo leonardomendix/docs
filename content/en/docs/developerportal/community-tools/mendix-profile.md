@@ -38,9 +38,7 @@ Your profile opens to the **Overview** tab, which shows you at a quick glance ho
 
 The first profile card below the header presents your **Stats**, which are your points divided between Mendix products and activities:
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-profile/stats.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/stats.png"   width="350"  >}}
 
 {{% alert type="warning" %}}
 Don't get bummed out about a low number of points, because everyone in the Mendix community started like that, even our Expert developers! There are plenty of opportunities to gain more points and climb the [Leaderboard](#leaderboard).
@@ -58,23 +56,17 @@ In the **Earned badges** section, you find the badges you have completed. If the
 
 The percentage on the card of the **Badges in progress** shows how far you have come to earn that particular badge. If the badge is a multi-level badge, only the highest completed badge is shown, so don't get distracted while earning it!
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-profile/badges.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/badges.png"   width="350"  >}}
 
 ## 5 Challenges {#challenges}
 
 The **Challenge** card presents a featured challenge you can complete to gain credits. You can use the credits in the [Mendix Shop](https://shop.mendix.com) to order low-code t-shirts or other Mendix swag. Some challenges are going to be easy for you, whilst others might be harder to complete!
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-profile/challenges.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/challenges.png"   width="350"  >}}
 
 Click **View All** to go to the **Challenges** tab of your profile. This tab presents more details on the challenge steps, the time left, and how many credits you can earn with them. You can complete these activities in any order you like.
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-profile/credits.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/credits.png"   width="350"  >}}
 
 When you complete a challenge, click **Claim Credits** to claim the Mendix credits. You can then spend your credits on cool items in the Mendix Shop.
 
@@ -84,18 +76,14 @@ One of the greatest strengths of Mendix is our awesome developers community, and
 
 You can also see a list of people you may know so that you can add further connections to your profile. To connect with someone, click the plus icon to send an invitation.
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-profile/connections.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/connections.png"   width="350"  >}}
 
 Clicking **View All** on the card will bring you to the **Connections** tab of your profile. On this tab, you can invite friends and colleagues to Mendix in two ways:
 
 * **Share URL** – copy the personalized invite link and share it directly
 * **Send Invite** – send someone a Mendix invite by entering their email address
 
-{{% image_container width="500" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-profile/referral.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/referral.png"   width="500"  >}}
 
 ## 7 Leaderboard {#leaderboard}
 
@@ -233,8 +221,7 @@ There is also a link to [Mendix Support](https://support.mendix.com/hc/en-us) if
 
 Here you can tell the Mendix community about yourself and your work experience. Let everyone know your area of expertise by filling in your **Industry Experience** and **Skills**. You can also let the community know if you are looking for a job or an app to contribute to. 
 
-{{% image_container width="500" %}}{{< figure src="/attachments/developerportal/community-tools/mendix-profile/work-experience.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/work-experience.png"   width="500"  >}}
 
 ### 10.3 Social {#social}
 
@@ -281,8 +268,7 @@ This section presents all the documents you have shared within different apps.
 
 ### 10.6.3 Feedback {#feedback}
 
-{{% image_container width="500" %}}{{< figure src="/attachments/developerportal/community-tools/mendix-profile/feedback.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/feedback.png"   width="500"  >}}
 
 In this section, you can view feedback submitted on the following:
 
@@ -295,8 +281,7 @@ When you click **Details** for a feedback item on an app of which you are a team
 
 Changes made through Studio Pro are stored in the Mendix [Team Server](/developerportal/collaborate/team-server/). This section provides an overview of the revisions you have committed for all your apps.
 
-{{% image_container width="500" %}}{{< figure src="/attachments/developerportal/community-tools/mendix-profile/team-server.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-profile/team-server.png"   width="500"  >}}
 
 ### 10.6.5 Pending Invites
 

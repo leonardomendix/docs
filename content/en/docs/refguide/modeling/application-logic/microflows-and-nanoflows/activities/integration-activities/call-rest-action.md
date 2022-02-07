@@ -45,9 +45,7 @@ The properties dialog box consists of four tabs:
 
 ## 4 General Tab {#general}
 
-{{% image_container width="66%" %}}
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/general-tab.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/integration-activities/call-rest-action/general-tab.png"   width="66%"  >}}
 
 ### 4.1 Location
 

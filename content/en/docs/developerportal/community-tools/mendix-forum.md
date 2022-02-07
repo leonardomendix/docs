@@ -41,9 +41,7 @@ Each question specifies the following elements:
 
 Hovering over the developer name brings up the profile card:
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_profile_card.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_profile_card.jpg"   width="200"  >}}
 
 The profile card presents the Mendix points for the developer. Clicking the developer name on the card will bring you to their Mendix Profile.
 
@@ -51,9 +49,7 @@ The profile card presents the Mendix points for the developer. Clicking the deve
 
 The **Sort by** drop-down menu at the top of the screen has three options for sorting the questions on this page: **Last Updated**, **Newest**, and **Most Popular**.
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_sort_by.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_sort_by.jpg"   width="200"  >}}
 
 #### 2.1.2 Searching {#searching}
 
@@ -81,9 +77,7 @@ To filter the questions that appear on the overview page, select from the follow
 
 Clicking the title of a question will bring you to the details page for that question:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_specific_page.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_specific_page.jpg"   width="400"  >}}
 
 On this page, you can read the full descriptive text of the question and do the following:
 
@@ -135,8 +129,7 @@ To ask your own question on the Mendix Forum, follow these steps:
 1.  Click **Ask a question** on the main page of the [Questions tab](#questions-tab).
 2.  On the **Ask your question** page, fill in the following details in the editor:
 
-	{{% image_container width="500" %}}{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_ask_screen.jpg" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/developerportal/community-tools/mendix-forum/questions_ask_screen.jpg"   width="500"  >}}
 
 	* The **Title** of your question (which is how Mendix Forum users will first see your question, so make the title descriptive and interesting)
 	* The text of your question (add all the details about your question to make it searchable and so other users can answer it; consider including steps to reproduce the issue)
@@ -177,9 +170,7 @@ Each idea specifies the following elements:
 
 The **Sort by** drop-down menu at the top of the screen has three options for sorting the ideas on this page: **Last Updated**, **Newest**, and **Most Votes**.
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/developerportal/community-tools/mendix-forum/ideas_sort_by.jpg" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/community-tools/mendix-forum/ideas_sort_by.jpg"   width="200"  >}}
 
 #### 3.1.2 Searching
 
@@ -237,8 +228,7 @@ To submit your own idea to the idea forum, follow these steps:
 1.  Click **Submit idea** on the main page of the [Ideas tab](#ideas-tab).
 2.  On the **Submit your idea** page, fill in the following details in the editor:
 
-	{{% image_container width="500" %}}{{< figure src="/attachments/developerportal/community-tools/mendix-forum/ideas_submit_screen.jpg" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/developerportal/community-tools/mendix-forum/ideas_submit_screen.jpg"   width="500"  >}}
 
 	* The **Title** of your idea (which is how Mendix Forum users will first see your idea, so make the title descriptive and interesting)
 	* The text of your idea (add all the details about your idea to make it searchable and so other users can vote and comment on it)

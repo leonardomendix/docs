@@ -94,7 +94,7 @@ To duplicate a microflow, do the following:
 
 2.  In the side panel, click the ellipsis icon and select **Duplicate** in the drop-down menu:
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio/microflows/duplicate-microflow.png" alt="Duplication a Microflow" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio/microflows/duplicate-microflow.png" alt="Duplication a Microflow"   width="350"  >}}
 
 The microflow is duplicated.
 
@@ -106,9 +106,7 @@ To copy and paste a microflow, do the following:
 
 2.  In the side panel, click the ellipsis icon and select **Copy to clipboard** in the drop-down menu:
 
-    {{% image_container width="350" %}}
-{{< figure src="/attachments/studio/microflows/copy-microflow.png" alt="Copying a Microflow" >}}
-{{% /image_container %}}
+    {{< figure src="/attachments/studio/microflows/copy-microflow.png" alt="Copying a Microflow"   width="350"  >}}
 
 3. Open the Studio app where you want to paste the microflow and press <kbd>Ctrl</kbd> +<kbd>V</kbd> or <kbd>Cmd</kbd> +<kbd>V</kbd>. 
 
@@ -128,7 +126,7 @@ To delete a microflow in Studio, do one of the following:
 
     1. In the side panel, click the ellipsis icon and select **Delete** in the drop-down menu:
     
-        {{% image_container width="350" %}}{{< figure src="/attachments/studio/microflows/delete-microflow.png" alt="Delete Microflow" >}}{{% /image_container %}}
+        {{< figure src="/attachments/studio/microflows/delete-microflow.png" alt="Delete Microflow"   width="350"  >}}
 
 ### 3.6 Adding a New Event or Activity {#add-elements}
 
@@ -153,8 +151,7 @@ The **Toolbox** tab contains elements that you can drag and drop on to a microfl
 
 The **General** section contains various elements, such as a parameter and an end event: 
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio/microflows/microflows-general-properties.png" alt="Microflow General Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/microflows/microflows-general-properties.png" alt="Microflow General Properties"   width="300"  >}}
 
 Elements available in the **General** section are described in the table below.
 
@@ -174,8 +171,7 @@ Elements available in the **General** section are described in the table below.
 
 The **Object Activities** section contains activities that interact with an object or objects (for more information on what an object is, see [Domain Model](/studio/domain-models/)): 
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio/microflows/object-activities.png" alt="Microflow Object Activities" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/microflows/object-activities.png" alt="Microflow Object Activities"   width="350"  >}}
 
 
 
@@ -235,8 +231,7 @@ The **Variable Activities** are described in the table below:
 
 For example, you can first create a variable named *Discount* to a microflow, and then change the variable Discount depending on the type of the customer's grade. You can give a discount for customers with Gold and Silver grades. 
 
-{{% image_container width="400" %}}{{< figure src="/attachments/studio/microflows/example-of-using-var-activities.png" alt="Example a Microflow" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/microflows/example-of-using-var-activities.png" alt="Example a Microflow"   width="400"  >}}
 
 ## 5 Flows {#flows} 
 

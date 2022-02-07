@@ -69,8 +69,7 @@ You can access this mobile view by installing the [Mendix Mobile app](https://pl
 
 When you click the **Share** icon on the widget, a pop-up window appears for sharing your app via **Email**:
 
-{{% image_container width="450" %}}{{< figure src="/attachments/appstore/widgets/mendix-feedback/share.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/appstore/widgets/mendix-feedback/share.png"   width="450"  >}}
 
 You can add as many email addresses as you like and email your app to colleagues for further collaboration and feedback.
 
@@ -78,8 +77,7 @@ You can add as many email addresses as you like and email your app to colleagues
 
 When you click the **App Switcher** button, a pop-up window appears with a list of other Mendix SSO-enabled apps that you have access to:
 
-{{% image_container width="450" %}}{{< figure src="/attachments/appstore/widgets/mendix-feedback/app-switcher.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/appstore/widgets/mendix-feedback/app-switcher.png"   width="450"  >}}
 
 When you click an app, you are redirected to it.
 

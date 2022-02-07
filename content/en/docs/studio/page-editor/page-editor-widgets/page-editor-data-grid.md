@@ -62,8 +62,7 @@ The **Columns** section properties are described in the table below:
 
 In the **Grid Column** properties, you can select the attribute, change the name, width, and editability of the data grid column. 
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-data-grid/grid-column-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/page-editor/page-editor-widgets/page-editor-data-grid/grid-column-properties.png"   width="300"  >}}
 
 The properties are described in the table below:
 

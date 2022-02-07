@@ -36,8 +36,7 @@ There are two ways of writing an expression:
 
 If an error appears in the expression, error messages with explanations will be displayed. 
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio8/microflows/microflows-expressions/expression-error.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio8/microflows/microflows-expressions/expression-error.png"   width="350"  >}}
 
 ### 2.1 Writing an Expression Using Suggestions {#suggestions}
 

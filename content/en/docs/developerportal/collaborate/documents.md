@@ -22,8 +22,7 @@ You can perform the actions described below via the buttons on your app's **Docu
 
 Click **Upload document** to upload a new document:
 
-{{% image_container width="400" %}}{{< figure src="/attachments/developerportal/collaborate/documents/upload-file.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/collaborate/documents/upload-file.png"   width="400"  >}}
 
 {{% alert type="info" %}}
 All file types are allowed, and they are scanned for viruses by Mendix.

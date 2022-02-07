@@ -35,11 +35,11 @@ You can select external entities as a data source for data containers (a data vi
 3. In the **Select Entity** dialog box, you can search for external entities in the Data Hub Catalog and use them on your page. There are two ways to discover entities, you can do one of the following:
     1. **Search for a specific service or entity name** – enter a search term in the search field to find an entity you would like to add:
 
-        {{% image_container width="400" %}}{{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/searching-for-entity.png" alt="Searching for an Entity" >}}{{% /image_container %}}
+        {{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/searching-for-entity.png" alt="Searching for an Entity"   width="400"  >}}
         
     2. **Browse through available data** – click the **Data Hub** section and browse through available services and entities:
     
-        {{% image_container width="400" %}}{{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/selecting-entity.png" alt="Selecting an Entity" >}}{{% /image_container %}}
+        {{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/selecting-entity.png" alt="Selecting an Entity"   width="400"  >}}
 
 3. Click **Select**.
 
@@ -71,7 +71,7 @@ In the **Data Hub** tab, you can do the following:
 
 * **Update services** – when a new version of the service is available, you can update it. However, it is best to check out the changes made to the service in the Data Hub Catalog first. 
 
-    {{% image_container width="500" %}}{{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/service-update.png" alt="Update Available" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/service-update.png" alt="Update Available"   width="500"  >}}
 
     Click the drop-down menu to choose the following options:
 
@@ -96,7 +96,7 @@ In the **Data Hub** tab, you can do the following:
     
     * **View in Data Hub Catalog** – a link to the Data Hub Catalog of your organization.
     
-        {{% image_container width="300" %}}{{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/service-information.jpg" alt="Service Information" >}}{{% /image_container %}}
+        {{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/service-information.jpg" alt="Service Information"   width="300"  >}}
 
 
 ## 3 External Entity Properties
@@ -117,7 +117,7 @@ You can rename external entity attributes to better fit your app structure. It w
 
 External attributes may have limitations that you can see in their properties. Limitation are added by the external service owner to indicate the features that are not supported. For example, if there are limitations on an attribute, you will not be able to use it in filters and/or sort on it on pages and in microflows.
 
-{{% image_container width="250" %}}{{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/attribute-with-limitations.jpg" alt="Attribute with Limitations" >}}{{% /image_container %}}
+{{< figure src="/attachments/studio/work-with-data/data-hub-in-studio/attribute-with-limitations.jpg" alt="Attribute with Limitations"   width="250"  >}}
 
 {{% alert type="info" %}}
 

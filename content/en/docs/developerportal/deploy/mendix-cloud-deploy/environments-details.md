@@ -69,9 +69,7 @@ You do not need to clear your environment if you are restoring an existing backu
 
 When you click **Clear Environment** you will have two options:
 
-{{% image_container width="400" %}}
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/clear-environment.png" alt="Clear Environment options and confirmation" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/clear-environment.png" alt="Clear Environment options and confirmation"   width="400"  >}}
 
 * **Only clear the database** – this empties all data from your database — after delete confirmation, the application will be stopped, the existing database will be deleted, a new database will be created, and the application will be restarted — ensure you have a backup of any data you want to keep
 * **Clear the full environment (model and database)** *(default)* – this clears all data from your database and file storage, and removes your app from this environment — you should do this if you want to deploy a different app to this environment
@@ -202,9 +200,7 @@ Here you can type a **New value**.
 
 You can also set **Mask** to **Yes**. This replaces the **Current value** and the **New value** with asterisks on all screens in the Developer Portal. You will also get asterisks if you export the constants to Excel. This means that you can keep your constants secret from users who do not have edit rights.
 
-{{% image_container width="50%" %}}
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/edit-constant.png" alt="Edit Constants Pop-up window" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/edit-constant.png" alt="Edit Constants Pop-up window"   width="50%"  >}}
 
 {{% alert type="info" %}}
 You have to restart your application before the changes will be made.
@@ -214,9 +210,7 @@ For more information, see [Constants](/refguide/constants/).
 
 ## 4 Network Tab {#network-tab}
 
-{{% image_container width="50%" %}}
-{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/network1.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/deploy/mendix-cloud-deploy/environments-details/network1.png"   width="50%"  >}}
 
 On this tab, you can manage the elements described below.
 

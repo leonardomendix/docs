@@ -180,7 +180,7 @@ If you already have an existing versioned app (with Subversion) that you would l
 
 4.  Now you can import the package again, and from there you can choose to upload it to your Git private server. Go to **File** > **Import App Package**:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/howto/collaboration-requirements-management/on-premises-howto/on-premises-git-howto/import-project-package-menu.png" alt="Import App Package menu" >}}{{% /image_container %}}
+    {{< figure src="/attachments/howto/collaboration-requirements-management/on-premises-howto/on-premises-git-howto/import-project-package-menu.png" alt="Import App Package menu"   width="250"  >}}
 
 5. Once the file browser dialog box is open, navigate to the location you save the *.mpk* file during the export process.
 6. In the **Import App Package** dialog box, select **Private server** option in the **Where should we store your App?** section. 

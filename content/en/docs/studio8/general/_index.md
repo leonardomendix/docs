@@ -25,9 +25,7 @@ You can open Mendix Studio via [Developer Portal](#opening-studio-via-dev-portal
 
 You can edit an app in Mendix Studio by opening your app in [Developer Portal](https://home.mendix.com) and clicking **Edit in Studio**:
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/studio8/general/edit-app.jpg" alt="Edit in Studio" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio8/general/edit-app.jpg" alt="Edit in Studio"   width="350"  >}}
 
 If you do not see **Edit in Studio**, go to [General Settings](/developerportal/collaborate/general-settings/) in the Developer Portal and [enable Studio](/developerportal/collaborate/general-settings/#web).
 
@@ -46,8 +44,7 @@ The app opens in Studio.
 
 After clicking **Edit in Studio** you may need to upgrade your app to the latest version.
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio8/general/upgrade.png" alt="Upgrade" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio8/general/upgrade.png" alt="Upgrade"   width="350"  >}}
 
 You may also see an orange top bar suggesting an upgrade to the next Mendix version. For more information on Studio upgrades and Mendix versions, see [Studio Ranges & Mendix Versions](/studio8/general-versions/).
 
@@ -68,16 +65,13 @@ You can change the view of your page to different views by clicking the correspo
 * Tablet
 * Responsive (Desktop) 
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio8/general/view.png" alt="Device Modes" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio8/general/view.png" alt="Device Modes"   width="350"  >}}
 
 ## 5 Left Menu Bar
 
 The left menu bar allows you to go back to the Developer Portal, access pages, the domain model, microflows, and the navigation document in Studio, search for different elements in your app, open settings, and customize the look of your app:
 
-{{% image_container width="250" %}}
-{{< figure src="/attachments/studio8/general/left-menu-bar.png" alt="Left Menu Bar" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio8/general/left-menu-bar.png" alt="Left Menu Bar"   width="250"  >}}
 
 All items of the left menu bar are described in the table below:
 

@@ -100,7 +100,7 @@ To add a custom owner follow these steps:
 
 1. From the **Application Metadata screen** if you start typing the name of an owner and it is not in the drop-down list, you will be prompted if you want to **Create** it. Click on the prompt and the **Enter New Custom Owner Details** pop-up is displayed:
 
-    {{% image_container width="275" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/curate/custom-contact.png" alt="custom contact create" >}}{{% /image_container %}}
+    {{< figure src="/attachments/data-hub/data-hub-catalog/curate/custom-contact.png" alt="custom contact create"   width="275"  >}}
 
 1. Enter the **Name** and **Email** of the owner and click **Save**.
 
@@ -140,19 +140,19 @@ To **upload a different icon** for the app follow these steps:
 
 1. In the **Application Metadata** screen of the selected data source, click **Upload a different icon** to display the **Upload Application Icon** pop up:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-upload-dialog.png" alt="upload icon" >}}{{% /image_container %}}
+    {{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-upload-dialog.png" alt="upload icon"   width="300"  >}}
 
 2. Drag the image file into the upload area or click **Upload** to browse and select a file from your file system. Click **Step 2: Crop image** to proceed.
 
 3. Move the wire-frame to select an area of the loaded image and change the size of the wire-frame to crop the image to the area that you want to use. When you are satisfied, click **Apply Changes**:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-crop.png" alt="upload icon" >}}{{% /image_container %}}
+    {{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-crop.png" alt="upload icon"   width="300"  >}}
 
     {{% alert type="info" %}}For high-resolution images, if the selected are exceeds the size limit there will be a warning. Select a smaller area of the image to reduce the file size.{{% /alert %}}
 
 4. A preview of the application icon is shown. Click **Save** to upload the selected icon.
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-preview.png" alt="upload icon" >}}{{% /image_container %}}
+    {{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-preview.png" alt="upload icon"   width="300"  >}}
 
 5. The **Application Metadata** screen will now show the selected icon for the application:
 
@@ -164,7 +164,7 @@ To **upload a different icon** for the app follow these steps:
 
 An alternative to uploading an icon is to use an existing icon by clicking **select one from your library**. The icons for your Data Hub will be shown and you can select one and click **Change Icon**.
 
-{{% image_container width="300" %}}{{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-library.png" alt="upload icon" >}}{{% /image_container %}}
+{{< figure src="/attachments/data-hub/data-hub-catalog/curate/icon-library.png" alt="upload icon"   width="300"  >}}
 
 ## 5 Editing the Metadata of a Data Source {#service-details}
 

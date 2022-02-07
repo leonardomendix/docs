@@ -56,9 +56,7 @@ You can choose different types of button by setting the appropriate **Button sty
 | Attention | Warning |
 | Transparent | *this can be added using a building block* |
 
-{{% image_container width="75%" %}}
-{{< figure src="/attachments/partners/sap/sap-fiori-3-0/button-styles.png" alt="SAP Fiori Button Styles" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/partners/sap/sap-fiori-3-0/button-styles.png" alt="SAP Fiori Button Styles"   width="75%"  >}}
 
 For the **Link button**, see [Applying CSS Classes Manually](#apply-css), below*.
 

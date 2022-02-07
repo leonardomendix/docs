@@ -34,7 +34,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Make sure your domain model is configured the following way:
 
-    {{% image_container width="200" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/domain-model.png" >}}{{% /image_container %}} 
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/domain-model.png"   width="200"  >}} 
 
 ## 3 Adding the Master Detail Page
 
@@ -44,13 +44,13 @@ You would like to open a page with opportunity contact list and its details from
 
 2. Search for **Open Page** button and drag and drop it to the page.
 
-	{{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/open-page-button.png" alt="Open Page" >}}{{% /image_container %}}
+	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/open-page-button.png" alt="Open Page"   width="250"  >}}
 
 3. Open the button properties and follow the steps below:
 
     1. Set **Page** as an on-click action and click the **Page** property.
 
-    	{{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/button-properties.png" alt="Button Properties" >}}{{% /image_container %}}
+    	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/button-properties.png" alt="Button Properties"   width="250"  >}}
 
     2.  In the **Select Page** dialog box, click the plus icon in the top right corner.
 
@@ -58,7 +58,7 @@ You would like to open a page with opportunity contact list and its details from
 
     4. Select the page template by clicking **Master Detail** in the side bar and choose **Master Detail**:
 
-    	{{% image_container width="550" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/create-master-detail.png" >}}{{% /image_container %}}
+    	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/create-master-detail.png"   width="550"  >}}
 
     5. Click **Create**.
 
@@ -73,7 +73,7 @@ The page is created, now you need to configure it. First of all, you need to con
 
 1. Select the list view and click the **Entity** option in its properties:
 
-	{{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-view-entity.png" alt="List View Properties" >}}{{% /image_container %}}
+	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-view-entity.png" alt="List View Properties"   width="250"  >}}
 
 2. In the **Select Entity** dialog box, select **OpportunityContact** and confirm your choice by clicking **Select**. Now the list is connected to the **OpportunityContact** entity. 
 
@@ -81,7 +81,7 @@ The page is created, now you need to configure it. First of all, you need to con
 
     1. Select the **Name** text in the list view and open the **Properties** tab.
 
-    	{{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/text.png" >}}{{% /image_container %}}
+    	{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/text.png"   width="300"  >}}
 
     2. In the **Content** property, delete *Name* and click **Add** > **Attribute**:
 
@@ -90,15 +90,15 @@ The page is created, now you need to configure it. First of all, you need to con
     3. In the **Select Attribute** dialog box, choose **Name** and click **Select**. 
 
 4. Delete the image from the list and the column where this image is placed, as now the image displays a a user image that does not correspond to opportunity contacts you are displaying.
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-with-no-image.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-with-no-image.png"   width="300"  >}}
 
 5. As the goal of the new page is to merely display data, delete the **New** button above the list view together with the container it is placed in:
 
-    {{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/container.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/container.png"   width="300"  >}}
 
 Now the list view will display the list of opportunity contacts by their name:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-configured.png" alt="Configured List" >}}{{% /image_container %}} 
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/list-configured.png" alt="Configured List"   width="300"  >}} 
 
 ## 5 Configuring Report Details
 
@@ -124,7 +124,7 @@ To displayed all the details that a contact has, do the following:
 
 5. In the **Select Attribute** dialog box, choose **Title** and click **Select**:
 
-    {{% image_container width="400" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/title.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-configure-list/title.png"   width="400"  >}}
 
 6. Select the **Name** text box and click **Data Source** > **Attribute** in its properties. 
 

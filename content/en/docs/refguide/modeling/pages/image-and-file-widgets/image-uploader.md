@@ -20,8 +20,7 @@ In the example below, an image uploader is placed in a nested data view (the *Pr
 
 An example of image uploader properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide/modeling/pages/image-and-file-widgets/image-uploader/image-uploader-properties.png" alt="Image Uploader Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/image-and-file-widgets/image-uploader/image-uploader-properties.png" alt="Image Uploader Properties"   width="250"  >}}
 
 Image uploader properties consist of the following sections:
 

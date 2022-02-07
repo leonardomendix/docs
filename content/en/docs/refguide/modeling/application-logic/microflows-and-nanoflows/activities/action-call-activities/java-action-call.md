@@ -15,11 +15,7 @@ This activity can only be used in **Microflows**.
 
 The **Java action call** activity can be used to call a [Java action](/refguide/java-actions/). 
 
-{{% image_container width="200" %}}
-
-{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/action-call-activities/java-action-call/java-action-call.png" alt="Java Action" >}}
-
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/application-logic/microflows-and-nanoflows/activities/action-call-activities/java-action-call/java-action-call.png" alt="Java Action"   width="200"  >}}
 
 Arguments can be passed to the action and the result can be stored.
 

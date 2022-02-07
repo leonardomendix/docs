@@ -26,19 +26,11 @@ You have a web shop and you would like to show a field with a billing address on
 
 You also have a page called **Product Overview** which lists products and you would like to make the **Edit** button in the list visible to Administrators and Sales managers only:
 
-{{% image_container width="450" %}}
-
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products" >}}
-
-{{% /image_container %}}
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products"   width="450"  >}}
 
 The domain model looks the following way:
 
-{{% image_container width="550" %}}
-
-{{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/domain-model.png" alt="Domain Model" >}}
-
-{{% /image_container %}}
+{{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/domain-model.png" alt="Domain Model"   width="550"  >}}
 
 You have the following user roles:
 
@@ -94,7 +86,7 @@ To show an element only to a certain user role, do the following:
 
 1. Open the **Product Overview** page with the list of products and select the **Edit** button:
 
-    {{% image_container width="450" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/list-of-products.png" alt="List of Products"   width="450"  >}}
 
 2. Open its properties and in **Conditional Visibility** section toggle the **Visible Based on Role** property.
 
@@ -112,7 +104,7 @@ To easily find which elements on your page have conditional visibility, you can 
 
 2. Click the eye icon in the upper-left corner of the page:
 
-    {{% image_container width="250" %}}{{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/eye-icon.png" alt="Eye Icon" >}}{{% /image_container %}}
+    {{< figure src="/attachments/studio-how-to/pages/pages-how-to-set-visibility/eye-icon.png" alt="Eye Icon"   width="250"  >}}
 
 Widgets with conditional visibility are highlighted:
 

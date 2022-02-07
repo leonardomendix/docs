@@ -264,7 +264,7 @@ SAP BTP [has a limit of 1.5GB](https://help.sap.com/viewer/65de2977205c403bbc107
 
 3.  The **Timeout** value indicates how long (in seconds) Cloud Foundry will wait between starting an app and the first healthy response from the app before deciding that the application has failed to start. For some apps, the default (60 seconds) is too short. If your app is failing to start you can try increasing this value using the **Change timeout** option.
 
-    {{% image_container width="60%" %}}{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/sap-change-timeout.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/sap-change-timeout.png"   width="60%"  >}}
 
 4.  Click **Transport** to deploy the package to the SAP environment. This will replace any current app deployed to this environment. If the app is already running, you will be asked to stop it so that your new app can be deployed.
 
@@ -284,7 +284,7 @@ SAP BTP [has a limit of 1.5GB](https://help.sap.com/viewer/65de2977205c403bbc107
 
 4. Select any additional services you need for your app. For more information see [Binding Services](#binding-services), below.
 
-    {{% image_container width="75%" %}}{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/transport-services.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/transport-services.png"   width="75%"  >}}
 
     {{% alert type="warning" %}}In your initial deployment, do not remove any of the services with the status **Services To Be Bound**. For a new app, these services are all required for the correct deployment of the app.{{% /alert %}}
 
@@ -325,7 +325,7 @@ If you want to remove a service instance from your environment, you can do it is
 
 3.  The **Timeout** value indicates how long (in seconds) Cloud Foundry will wait between starting an app and the first healthy response from the app before deciding that the application has failed to start. For some apps, the default (60 seconds) is too short. If your app is failing to start you can try increasing this value using the **Change timeout** option.
 
-    {{% image_container width="60%" %}}{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/sap-change-timeout.png" >}}{{% /image_container %}}
+    {{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/sap-change-timeout.png"   width="60%"  >}}
 
 4.  Click **Transport** to deploy the package to the SAP environment. This will replace any current app deployed to this environment. If the app is already running, you will be asked to stop it so that your new app can be deployed.
 
@@ -442,9 +442,7 @@ To change a value, select the constant you want to change and click **Edit**.
 
 This tab displays Cloud Foundry services which are bound to the app, waiting to be bound to the app, or available to be bound to the app. These are the services which are available to you in SAP BTP and are the same services that you can see in the SAP BTP marketplace.
 
-{{% image_container width="50%" %}}
-{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/service-tab.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/service-tab.png"   width="50%"  >}}
 
 {{% alert type="warning" %}}
 There are a number of services which your Mendix app requires. **If you unbind any of these services, your app will probably stop working**:
@@ -729,9 +727,7 @@ If you are trying to bind more than one new service, it is not possible to ident
 
 If an app is deployed to SAP using the Studio Pro **Run** or **Publish** button before it has been started from the Developer Portal, the deployment will fail. This is because the marketplace services have not been bound.
 
-{{% image_container width="50%" %}}
-{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/error-desktop-modeler.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/developerportal/deploy/sap-cloud-platform/error-desktop-modeler.png"   width="50%"  >}}
 
 If you use the Developer Portal to look at the details of the environment to which you are deploying, you will see that the services are still waiting to be bound.
 

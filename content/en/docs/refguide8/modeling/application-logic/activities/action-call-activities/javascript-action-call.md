@@ -20,9 +20,7 @@ This activity can only be used in **Nanoflows**.
 
 The JavaScript action call activity can be used to call a [JavaScript action](/refguide8/javascript-actions/). Arguments can be passed to the action, and the result can be stored.
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/refguide8/modeling/application-logic/activities/action-call-activities/javascript-action-call/javascript-call.png" alt="javascript action call properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/application-logic/activities/action-call-activities/javascript-action-call/javascript-call.png" alt="javascript action call properties"   width="200"  >}}
 
 ## 2 Properties
 

@@ -17,8 +17,7 @@ The **Snippet call** widget allows you to use a [snippet](/refguide/snippet/) on
 
 An example of snippet call properties is represented in the image below:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/snippet-call/snippet-call-properties.png" alt="Snippet Call Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide/modeling/pages/structure-widgets/snippet-call/snippet-call-properties.png" alt="Snippet Call Properties"   width="300"  >}}
 
 Snippet call properties consist of the following sections:
 

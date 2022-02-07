@@ -31,8 +31,7 @@ If you want to dynamically show different images based on data, you need to add 
 
 An example of image properties is represented in the image below:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/common-widgets/image/image-properties.png" alt="Image Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/common-widgets/image/image-properties.png" alt="Image Properties"   width="300"  >}}
 
 Image properties consist of the following sections:
 

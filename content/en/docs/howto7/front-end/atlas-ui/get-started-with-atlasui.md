@@ -43,9 +43,7 @@ Your app is ready to be built. In the **Toolbox** in the [page editor](/studio7/
 
 All these resources have been created with Atlas UI. Each building block has an information icon that directs you to the Atlas UI website for the relevant information:
 
-{{% image_container width="200" %}}
-{{< figure src="/attachments/howto7/front-end/atlas-ui/get-started-with-atlasui/start_building_block.png" alt="Building Block Example" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/howto7/front-end/atlas-ui/get-started-with-atlasui/start_building_block.png" alt="Building Block Example"   width="200"  >}}
 
 ## 5 Choosing a Page Template
 

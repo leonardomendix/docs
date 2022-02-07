@@ -14,8 +14,7 @@ A navigation document in Mendix Studio shows a configured menu of your app in a 
 
 Open the **Navigation Document** by clicking the corresponding icon in the left menu bar.
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/navigation/navigation-icon.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/navigation/navigation-icon.png"   width="300"  >}}
 
 {{% alert type="info" %}}
 
@@ -30,8 +29,7 @@ Properties of the menu items consists of the following sections:
 * [Events](#events-section-navigation) 
 * [General](#general-section-navigation) 
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/navigation/navigation-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/navigation/navigation-properties.png"   width="300"  >}}
 
 ### 2.1 Events Section {#events-section-navigation}
 

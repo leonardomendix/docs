@@ -27,8 +27,7 @@ For example, the image below shows two placeholders, **Main** and **Other** posi
 
 An example of placeholder properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/page-resources/layout/placeholder/placeholder-properties.png" alt="Properties pane for a placeholder" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/page-resources/layout/placeholder/placeholder-properties.png" alt="Properties pane for a placeholder"   width="250"  >}}
 
 A placeholder has a single section, **Misc** and a single property, **Name**.
 

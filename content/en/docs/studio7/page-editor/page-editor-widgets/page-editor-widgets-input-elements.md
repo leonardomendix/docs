@@ -13,8 +13,7 @@ tags: ["studio", "page editor", "input widgets", "widgets"]
 
 **Input Elements** can only function inside a data container (a list view or a data view). You can either place widget in an existing data container; or click **Wrap with a new data view** in **Properties** to create a data view automatically and place an input element inside it. 
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-input-elements/wrap-in-data-view.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/page-editor/page-editor-widgets/page-editor-widgets-input-elements/wrap-in-data-view.png"   width="350"  >}}
 
 ## 2 Input Elements Overview
 

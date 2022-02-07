@@ -29,8 +29,7 @@ For example, the image below shows for an example layout that uses the sidebar t
 
 An example of sidebar toggle properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/page-resources/layout/sidebar-toggle-button/sidebar-toggle-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/page-resources/layout/sidebar-toggle-button/sidebar-toggle-properties.png"   width="250"  >}}
 
 Sidebar toggle properties consist of the following sections:
 

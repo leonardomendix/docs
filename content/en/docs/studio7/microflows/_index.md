@@ -26,8 +26,7 @@ Examples of using microflows can be the following:
 
 To view the microflows of your app in Studio, click the **Microflows** icon in the left menu bar:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/microflows/micflows-icon.png" alt="Microflow Icon" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/microflows/micflows-icon.png" alt="Microflow Icon"   width="300"  >}}
 
 ## 2 Concepts and Definitions 
 
@@ -52,8 +51,7 @@ To create a new microflow and to start building a microflow, do the following:
 1. Click the **Microflow** icon in the left menu bar. 
 2.  Click **New** on the **Microflows** side panel.
 
-    {{% image_container width="350" %}}{{< figure src="/attachments/studio7/microflows/new-microflow.png" alt="Adding New Microflow" >}}
-    {{% /image_container %}}
+    {{< figure src="/attachments/studio7/microflows/new-microflow.png" alt="Adding New Microflow"   width="350"  >}}
 
 3.  Fill out the name of the microflow in the pop-up dialog and click **Create**.
 
@@ -80,8 +78,7 @@ In the **Toolbox** tab, you can see that the microflow contains three sections w
 
 ### 5.1 General {#microflow-general-section}
 
-{{% image_container width="300" %}}{{< figure src="/attachments/studio7/microflows/microflows-general-properties.png" alt="Microflow General Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/microflows/microflows-general-properties.png" alt="Microflow General Properties"   width="300"  >}}
 
 Elements available in the **General** section are described in the table below.
 
@@ -98,8 +95,7 @@ Elements available in the **General** section are described in the table below.
 
 ### 5.2 Object Activities {#microflow-object-activities}
 
-{{% image_container width="350" %}}{{< figure src="/attachments/studio7/microflows/object-activities.png" alt="Microflow Object Activities" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/microflows/object-activities.png" alt="Microflow Object Activities"   width="350"  >}}
 
 The **Object Activities** are described in the table below.
 
@@ -138,8 +134,7 @@ The **Variable Activities** are described in the table below:
 
 For example, you can first create a variable named *Discount* to a microflow, and then change the variable Discount depending on the type of the customer's grade. You can give a discount for customers with Gold and Silver grades. 
 
-{{% image_container width="400" %}}{{< figure src="/attachments/studio7/microflows/example-of-using-var-activities.png" alt="Example a Microflow" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio7/microflows/example-of-using-var-activities.png" alt="Example a Microflow"   width="400"  >}}
 
 ## 6 Flows {#flows} 
 

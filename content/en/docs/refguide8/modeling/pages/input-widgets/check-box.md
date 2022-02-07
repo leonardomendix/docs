@@ -27,8 +27,7 @@ For example, this check box allows you to see, and set, whether someone is subsc
 
 An example of check box properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/check-box/check-box-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/check-box/check-box-properties.png"   width="250"  >}}
 
 Check box properties consist of the following sections:
 

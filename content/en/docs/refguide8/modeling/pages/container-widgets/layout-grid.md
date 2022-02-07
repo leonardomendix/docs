@@ -31,8 +31,7 @@ For more information on row and column properties, see the [Rows and Their Prope
 
 An example of layout grid properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-grid-properties.png" alt="Layout Grid Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-grid-properties.png" alt="Layout Grid Properties"   width="250"  >}}
 
 Layout grid properties consist of the following sections:
 
@@ -76,8 +75,7 @@ A layout grid can contain one or more rows. Each row contains [columns](#columns
 
 An example of layout grid row properties is represented in the image below:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/row-properties.png" alt="Row Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/row-properties.png" alt="Row Properties"   width="300"  >}}
 
 Row properties consist of the following sections:
 
@@ -120,9 +118,7 @@ Columns form a row of a layout grid.
 
  An example of layout grid column properties is represented in the image below:
 
-{{% image_container width="300" %}}
-{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-properties.png" alt="Column Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/column-properties.png" alt="Column Properties"   width="300"  >}}
 
 Layout grid column properties consist of the following sections:
 
@@ -159,9 +155,7 @@ For the *desktop* and *tablet*, you might want to set the first column with a pi
 
 For *phone*, it can be a good idea to place two columns one under another, setting them to **Manual** width of *12* (for more information on the column size property, see the [Size](#column-size) section). In this case, the second column will be automatically wrapped to another line:
 
- {{% image_container width="300" %}}
-{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-example-phone.png" alt="Layout Example, Phone" >}}
-{{% /image_container %}}
+ {{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-example-phone.png" alt="Layout Example, Phone"   width="300"  >}}
 
 On the picture below you can see the settings for two column described above:
 

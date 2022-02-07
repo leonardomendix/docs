@@ -96,7 +96,7 @@ To find where a certain element is used, do the following:
 
 1. Open the document which contains the element. For example, open the domain model. 
 2. Select an element (for example, an entity) and click **Edit** > **Find usages** in the top-bar or right-click an element and select **Find usages**:
-    {{% image_container width="350" %}}{{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/find-usages.png" alt="Find Usages" >}}{{% /image_container %}}
+    {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/find-usages.png" alt="Find Usages"   width="350"  >}}
 
 Studio Pro shows all usages of this entity in the **Find Results** pane. 
 {{< figure src="/attachments/refguide/modeling/menus/edit-menu/find-and-find-advanced/found-usages.png" alt="Find Results Pane" >}}

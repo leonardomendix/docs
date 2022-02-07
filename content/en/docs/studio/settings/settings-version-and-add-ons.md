@@ -43,9 +43,7 @@ Once there is a new version of an add-on module that is compatible with your app
 
 Modules can be dependent on each other: one module might need other modules to function properly, or one version of a module might require a specific version of the module it depends on. For example, the workflow-specific module Workflow Commons requires the Atlas Core module and it requires Atlas Core to be no lower than version 3. Studio detects such dependencies automatically and notifies you about them, so no additional action is required from you, all dependencies are handled automatically:
 
-{{% image_container width="350" %}}
-{{< figure src="/attachments/studio/settings/settings-version-and-add-ons/dependencies-found.png" alt="Dependencies Found Pop-up Window" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/studio/settings/settings-version-and-add-ons/dependencies-found.png" alt="Dependencies Found Pop-up Window"   width="350"  >}}
 
 ## 4 Read More
 

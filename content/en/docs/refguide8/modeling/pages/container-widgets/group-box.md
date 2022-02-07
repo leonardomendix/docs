@@ -23,8 +23,7 @@ A group box can be used to visually group related widgets together. Group boxes 
 
 An example of group box properties is represented in the image below:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/group-box/group-box-properties.png" alt="Group Box Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/container-widgets/group-box/group-box-properties.png" alt="Group Box Properties"   width="300"  >}}
 
 Group box properties consist of the following sections:
 

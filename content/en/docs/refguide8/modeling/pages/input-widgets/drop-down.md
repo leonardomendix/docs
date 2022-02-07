@@ -31,8 +31,7 @@ For example, the following drop-down allows the end-user to see, and set, the **
 
 An example of drop-down properties is represented in the image below:
 
-{{% image_container width="300" %}}{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/drop-down/drop-down-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/input-widgets/drop-down/drop-down-properties.png"   width="300"  >}}
 
 Drop-down properties consist of the following sections:
 

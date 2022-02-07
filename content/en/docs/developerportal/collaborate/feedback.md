@@ -106,8 +106,7 @@ After clicking **Accept feedback**, you can create a story on the basis of the f
 5. Select the label(s) (if available ) to be added to the story under **Assign labels**.
 6. Click **Submit** to submit the story.
 
-	{{% image_container width="350" %}}{{< figure src="/attachments/developerportal/collaborate/feedback/accept-feedback.png" >}}
-	{{% /image_container %}}
+	{{< figure src="/attachments/developerportal/collaborate/feedback/accept-feedback.png"   width="350"  >}}
 
 Once a feedback item is connected to a user story, the user who submitted the story will automatically be updated on the progress made on that story:
 

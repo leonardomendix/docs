@@ -39,8 +39,7 @@ For more information, see [Control Bar](/refguide8/control-bar/).
 
 An example of template grid properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/grids/template-grid/template-grid-properties.png" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/data-widgets/grids/template-grid/template-grid-properties.png"   width="250"  >}}
 
 Template grid properties consist of the following sections:
 

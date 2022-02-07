@@ -28,7 +28,7 @@ Offline-first progressive web apps have some restrictions to make sure they can 
 
 Within the navigation profiles the following PWA features can be configured:
 
-{{% image_container width="350" %}}{{< figure src="/attachments/refguide/mobile/progressive-web-app/settings.png" alt="PWA settings" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/mobile/progressive-web-app/settings.png" alt="PWA settings"   width="350"  >}}
 
 To be able to fully test PWA functionalities, the app needs to be deployed to the cloud. This is because the service worker is only enabled in the cloud over HTTPS.
 
@@ -56,7 +56,7 @@ PWAs can be directly viewed and tested in the browser on your machine or device.
 
 You can also open PWA profiles on your device via the **View on your device** option:
 
-{{% image_container width="350" %}}{{< figure src="/attachments/refguide/mobile/progressive-web-app/view-dialog.png" alt="View menu" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/mobile/progressive-web-app/view-dialog.png" alt="View menu"   width="350"  >}}
 
 Note that if you are running on a Mac with Parallels, make sure that port 8080 (or whichever port you have configured for your app) is forwarded and that you use your Mac IP instead of the Virtual Machine’s IP. For more information on Mendix and Parallels, see [How to Configure Parallels](/howto/general/using-mendix-studio-pro-on-a-mac/).
 
@@ -177,7 +177,7 @@ Currently, it is not possible to create a fully offline-first PWA for iOS — ad
 
 Use the following diagram to decide whether to build a PWA, a native mobile app, or both:
 
-{{% image_container width="350" %}}{{< figure src="/attachments/refguide/mobile/progressive-web-app/native-or-pwa.png" alt="Native app or PWA" >}}{{% /image_container %}}
+{{< figure src="/attachments/refguide/mobile/progressive-web-app/native-or-pwa.png" alt="Native app or PWA"   width="350"  >}}
 
 ## 8 Read More
 

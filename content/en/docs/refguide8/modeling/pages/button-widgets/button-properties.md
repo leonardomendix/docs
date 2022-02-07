@@ -18,8 +18,7 @@ A button can perform various actions such as calling a microflow or nanoflow or 
 
 An example of button properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/button-widgets/button-properties/button-properties.png" alt="Button Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/button-widgets/button-properties/button-properties.png" alt="Button Properties"   width="250"  >}}
 
 Button properties consist of the following sections:
 

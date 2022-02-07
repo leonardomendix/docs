@@ -22,8 +22,7 @@ An image viewer must be placed in a data view or a template grid.
 
 An example of image viewer properties is represented in the image below:
 
-{{% image_container width="250" %}}{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer-properties.png" alt="Image Viewer Properties" >}}
-{{% /image_container %}}
+{{< figure src="/attachments/refguide8/modeling/pages/file-widgets/image-viewer/image-viewer-properties.png" alt="Image Viewer Properties"   width="250"  >}}
 
 Image viewer properties consist of the following sections:
 
