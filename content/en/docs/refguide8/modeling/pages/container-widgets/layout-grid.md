@@ -8,14 +8,14 @@ tags: ["studio pro", "layout grid", "container widget", "column", "row", "grid",
 ---
 
 {{% alert color="info" %}}
-<img src="attachments/chinese-translation/china.png" style="display: inline-block; margin: 0" /> For the Simplified Chinese translation, click [中文译文](https://cdn.mendix.tencent-cloud.com/documentation/refguide8/layout-grid.pdf).
+<img src="/attachments/china.png" style="display: inline-block; margin: 0" /> For the Simplified Chinese translation, click [中文译文](https://cdn.mendix.tencent-cloud.com/documentation/refguide8/layout-grid.pdf).
 {{% /alert %}}
 
 ## 1 Introduction
 
 The layout grid is a widget that gives structure to your pages.  
 
-A layout grid consists of [rows](#rows) and [columns](#columns): {{< figure src="attachments/container-widgets/layout-grid.png" alt="Layout Grid Example" >}}
+A layout grid consists of [rows](#rows) and [columns](#columns): {{< figure src="/attachments/refguide8/modeling/pages/container-widgets/layout-grid/layout-grid.png" alt="Layout Grid Example" >}}
 
 In a browser, the layout grid is based on the Bootstrap grid system. For more information on the Bootstrap grid system, see the [official Bootstrap documentation](http://getbootstrap.com/css/#grid).
 

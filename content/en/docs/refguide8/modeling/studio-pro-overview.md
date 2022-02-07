@@ -12,7 +12,7 @@ aliases:
 ---
 
 {{% alert color="info" %}}
-<img src="attachments/chinese-translation/china.png" style="display: inline-block; margin: 0" /> For the Simplified Chinese translation, click [中文译文](https://cdn.mendix.tencent-cloud.com/documentation/refguide8/studio-pro-overview.pdf).
+<img src="/attachments/china.png" style="display: inline-block; margin: 0" /> For the Simplified Chinese translation, click [中文译文](https://cdn.mendix.tencent-cloud.com/documentation/refguide8/studio-pro-overview.pdf).
 {{% /alert %}}
 
 ## 1 Introduction
@@ -27,7 +27,7 @@ When Studio Pro is open, press <kbd>F1</kbd> to quickly jump to documentation.
 
 This document describes the user interface of Mendix Studio Pro:
 
-<img src="attachments/studio-pro-overview/studio-pro-diagram.png" alt="Studio Pro Diagram"  />
+<img src="/attachments/refguide8/studio-pro-overview/studio-pro-diagram.png" alt="Studio Pro Diagram"  />
 
 ## 2 Top Bar
 
@@ -77,7 +77,7 @@ This section describes documents in the working area, not panes that you can ope
 
 You can have a number of tabs open, just like in a modern web browser. They can be closed, reordered, and shown side by side. The video below shows examples of how to interact with a tab:
 
-<video controls width="608" height="456" src="attachments/studio-pro-overview/document-tabs.mp4">VIDEO</video>
+<video controls width="608" height="456" src="/attachments/refguide8/studio-pro-overview/document-tabs.mp4">VIDEO</video>
 
 Each document has its own save state, history, and future, so undo and redo actions are unlimited.
 
